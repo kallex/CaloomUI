@@ -1,7 +1,7 @@
-<div class="span3 result-list">
-<div class="accordion" id="accordion2">
-<?php include 'default-result-list-item-1.txt' ?>
-<?php include 'default-result-list-item-2.txt' ?>
-<?php include 'default-result-list-item-3.txt' ?>
-</div>
+<div class="well result-list">
+	<div class="accordion" id="accordion2">
+		<?php include '../default-modules/default-result-list-item-1.txt' ?>
+		<?php include '../default-modules/default-result-list-item-2.txt' ?>
+		<?php include '../default-modules/default-result-list-item-3.txt' ?>
+	</div>
 </div>

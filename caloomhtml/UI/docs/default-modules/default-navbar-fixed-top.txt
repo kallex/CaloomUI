@@ -6,66 +6,43 @@
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
    </a>
-   <a class="brand" style="float:left; color:white; margin-right:60px" href="#">Aalto Global Impact</a>
-   <div class="nav-collapse">
-    <ul class="nav">
-     <li class="active dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Innovation Camp <b class="caret"></b></a>
-      <ul class="dropdown-menu">
-       <li><a href="#">Search latest projects</a></li>
-       <li><a data-toggle="modal" href="#serviceForm"><i class="icon-edit icon-black"></i> Add a new project</a></li>
-       <li><a href="#">Most popular projects</a></li>
-       <li class="divider"></li>
-       <li class="nav-header">Administration</li>
-       <li><a href="#">Manage My Projects</a></li>
-       <li><a href="#">Statistics</a></li>
-      </ul>
-     </li>
-     <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research Stew <b class="caret"></b></a>
-      <ul class="dropdown-menu">
-       <li><a href="#">Search latest Research</a></li>
-       <li><a href="#">Add Research project</a></li>
-       <li><a href="#">Add research Paper</a></li>
-       <li class="divider"></li>
-       <li class="nav-header">Administration</li>
-       <li><a href="#">Manage My Research</a></li>
-       <li><a href="#">Statistics</a></li>
-      </ul>
-     </li>
-     <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Event Drum <b class="caret"></b></a>
-      <ul class="dropdown-menu">
-       <li><a href="#">Search Latest Event</a></li>
-       <li><a href="#">Add Eevent</a></li>
-       <li><a href="#">Something else here</a></li>
-       <li class="divider"></li>
-       <li class="nav-header">Administration</li>
-       <li><a href="#">Manage My Events</a></li>
-       <li><a href="#">Statistics</a></li>
-      </ul>
-     </li>
-    </ul>
+   <a class="brand" style="float:left; color:white; margin-right:40px" href="#">Aalto Global Impact</a>
+<div class="nav-collapse collapse">
+   	<ul class="nav">  
+  		<li><a href="#">Current Map</a></li>  
+  		<li><a href="#">Maps You Follow</a></li>  
+	</ul>
     <form class="navbar-search pull-left" action="">
-     <input type="text" class="search-query span2" placeholder="Search">
+    	<input type="text" class="search-query span2" placeholder="Search">
     </form>
+    <div class="btn-group pull-right">
+        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+          <i class="icon-user"></i> Login / Sign Up
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" style="padding: 10px; padding-bottom: 10px;">
+          <li>	
+				<form class="form-inline">
+			  		<input type="text" class="input-small" placeholder="Email">
+			  		<input type="password" class="input-small" placeholder="Password">
+			  		<label class="checkbox">
+			    	<input type="checkbox"> Remember me
+			  		</label>
+			  		<button type="submit" class="btn">Log in</button>
+				</form>
+			</li>
+			<li><button type="submit" class="btn btn-primary">Sign up</button></li>
+        </ul>
+      </div>
+
     <ul class="nav pull-right">
-     <li><a href="#">News</a></li>
-     <li><a href="#">Blog</a></li>
-     <li><a href="#">About</a></li>
-     <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teija <b class="caret"></b></a>
-      <ul class="dropdown-menu">
-       <li><a href="#"><i class="icon-cog"></i> Preferences</a></li>
-       <li><a href="#"><i class="icon-user"></i> My friends</a></li>
-       <li><a href="#"><i class="icon-list-alt"></i> My Services</a></li>
-       <li class="divider"></li>
-       <li><a href="#"><i class="icon-off"></i> Log Out</a></li>
-      </ul>
-     </li>
-     <li class="divider-vertical"></li>
-    </ul>
-   </div><!-- /.nav-collapse -->
+     	<li><a href="#">Blog</a></li>
+     	<li><a href="#">About</a></li>
+     	<li class="divider-vertical"></li>
+     	<li class="dropdown">
+  	</ul>
+</div><!-- /.nav-collapse -->
+
   </div>
  </div><!-- /navbar-inner -->
 </div><!-- /navbar -->

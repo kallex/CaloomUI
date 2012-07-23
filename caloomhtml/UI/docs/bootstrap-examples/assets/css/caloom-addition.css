@@ -2,10 +2,6 @@
 -------------------------------------------------- */
 /* Body and structure
 -------------------------------------------------- */
-body {
-  padding-top: 0px;
-  background-image: none;
-}
 /* Tweak navbar brand link to be super sleek
 -------------------------------------------------- */
 .brand {
@@ -89,4 +85,20 @@ body {
     text-decoration: none;
     background: #F3F3F3;  
     border-radius: 5px;
+}
+
+.mapbackground {
+	position:relative;
+	top:0px;
+	left:0px;
+	z-index: 0;
+	
+}
+
+.result-list {
+	width:220px;
+	position:absolute;
+	top:80px;
+	left:40px;
+	z-index: 1;
 }
