@@ -1,1 +1,3 @@
 TODO: This howto can specify the non-tech guidance for git usage.
+
+some modifications
