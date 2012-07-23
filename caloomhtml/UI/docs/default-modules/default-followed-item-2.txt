@@ -1,6 +1,6 @@
 <li class="span3">
 <div class="thumbnail">
-<img src="../images/riodejaneiro.png" width="260" height="180" alt="Hml Osm">
+<img src="../images/placeholder/riodejaneiro.png" width="260" height="180" alt="Hml Osm">
 <div class="caption">
 <h5>Research in Rio de Janeiro</h5>
 <table class="table table-bordered table-striped">

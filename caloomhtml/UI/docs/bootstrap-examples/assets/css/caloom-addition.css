@@ -95,7 +95,15 @@
 	
 }
 
-.result-list {
+.controlpanel {
+	width:220px;
+	position:absolute;
+	top:130px;
+	left:40px;
+	z-index: 1;
+}
+
+.zoompanel {
 	width:220px;
 	position:absolute;
 	top:80px;

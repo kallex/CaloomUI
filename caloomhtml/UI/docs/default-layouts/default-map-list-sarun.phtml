@@ -5,10 +5,7 @@
 <?php include 'default-head.txt' ?><!-- default-head.txt -->
 
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
-	
-<!-- result list -->
-<?php include'../default-modules/default-result-list.txt' ?>
-	
+
 
 <!-- default-navbar-fixed-top.txt -->
 <?php include '../default-modules/default-navbar-fixed-top.txt' ?><!-- default-navbar-fixed-top.txt -->
@@ -19,11 +16,16 @@
 <!-- section -->
 <section id="gridSystem">
 
-<!-- Main Content -->
+<!-- current map -->
 <div class="header">
-	<!-- current map -->
 	<?php include'../default-modules/default-map.txt' ?>
 </div>
+
+<!-- zoom panel -->
+<?php include'../default-modules/default-zoom-panel.txt' ?>
+
+<!-- control panel -->
+<?php include'../default-modules/default-control-panel.txt' ?>
 
 <!-- maps you follow -->
 <div class="row-fluid">
@@ -31,7 +33,7 @@
 </div>
 
 <!-- explanation -->
-		<?php include '../default-modules/default-explanation.txt' ?>
+<?php include '../default-modules/default-explanation.txt' ?>
 
 </section><!-- section -->
 

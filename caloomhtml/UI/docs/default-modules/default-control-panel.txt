@@ -1,5 +1,7 @@
-<div class="well result-list">
+<div class="well-white controlpanel">
+	<div class="accordion" id="accordion2">
 		<?php include '../default-modules/default-result-list-item-1.txt' ?>
 		<?php include '../default-modules/default-result-list-item-2.txt' ?>
 		<?php include '../default-modules/default-result-list-item-3.txt' ?>
+	</div>
 </div>
