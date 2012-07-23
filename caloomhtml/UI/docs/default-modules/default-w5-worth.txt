@@ -1,0 +1,6 @@
+<!--default-w5-worth-->
+<?php include'../default-ui-atoms/default-ui-atom-free.txt' ?>
+<?php include'../default-ui-atoms/default-ui-atom-trade.txt' ?>
+<?php include'../default-ui-atoms/default-ui-atom-sell.txt' ?>
+<!--/default-w5-worth-->
+

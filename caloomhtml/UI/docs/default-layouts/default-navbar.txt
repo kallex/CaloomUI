@@ -1,0 +1,46 @@
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner">
+<div class="container">
+<!-- not sure what this for
+	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</a>
+-->
+
+<!-- Start Default Brand Navbar Element -->
+<a class="brand" style="float:left; color:white; margin-right:60px" href="#">Caloom</a>
+<!-- End Default Brand Navbar Element -->
+
+<div class="nav-collapse">
+<!-- Start Default Service Navigation Navbar Elements -->
+<ul class="nav">
+<?php include'../default-modules/default-navbar-top-fixed-service-item.txt' ?>
+<?php include'../default-modules/default-navbar-top-fixed-service-item.txt' ?>
+<?php include'../default-modules/default-navbar-top-fixed-service-item.txt' ?>
+</ul>
+<!-- End Default Service Navigation Navbar Elements -->
+
+<!-- Start Default Search Navbar Elements -->
+<?php include'../default-modules/default-search-navbar-top-fixed.txt' ?>
+<!-- End Default Search Navbar Elements -->
+
+<!-- Start Default CMS and Personal Information Navbar Elements -->
+<ul class="nav pull-right">
+<!-- Start Content Management System Navbar Elements -->
+<?php include'../default-modules/default-cms-navbar-top-fixed.txt' ?>
+<!-- End Content Management System Navbar Elements -->
+
+<li class="divider-vertical"></li>
+
+<!-- Start Personal Information Management (pim) Navbar Elements -->
+<?php include'../default-modules/default-pim-navbar-top-fixed.txt' ?>
+<!-- End Personal Information Management Navbar Elements -->
+</ul>
+<!-- End Default CMS and Personal Information Navbar Elements -->
+
+</div><!-- /.nav-collapse -->
+</div><!-- /.container -->
+</div><!-- /navbar-inner -->
+</div><!-- /navbar navbar-fixed-top -->

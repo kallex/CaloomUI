@@ -1,0 +1,11 @@
+<!--default-ui-atom-free-->
+<div class="control-group">
+ <label class="control-label" for="inlineCheckboxes">I offer this ## for</label>
+ <div class="controls">
+  <label class="checkbox inline">
+   <input type="checkbox" id="inlineCheckbox1" value="option1"> free
+  </label>
+ </div>
+</div>
+<!--/default-ui-atom-free-->
+

@@ -1,0 +1,8 @@
+Pages are blocks of atoms combined. When these modules are combined you have a pretty complete page. Custom code might still be needed at this stage to "glue" some things together or to add something not worth "atomizing".
+
+The naming convention is:
+default = as this is the default, base, layout-look&feel-logic of the service
+ui = as this is the user interface part
+page = to describe we are working on a small elements and not on a module or page or layout
+title = the shortest way to describe what the page does, within the context of this service.
+.phtml = at this stage .phtml is needed as the page calls .txt files via the php-include command

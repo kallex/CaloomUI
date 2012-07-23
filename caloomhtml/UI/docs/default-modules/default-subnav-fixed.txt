@@ -1,0 +1,25 @@
+<div class="subnav-fixed" style="width: 100%;height: 36px;background-color: #EEE;"><!--hack as .subnav creates conflict with accordion -->
+ <ul class="nav nav-pills">
+  <li class="dropdown">
+   <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Saved Queries <b class="caret"></b></a>
+   <ul class="dropdown-menu">
+    <li><a href="#queries">Design Capital Capetown 2014</a></li>
+    <li><a href="#queries">Nairobi Food stores</a></li>
+    <li><a href="#queries">Research in Rio de Janeiro</a></li>
+    <li><a href="#queries">Water companies in Colombo</a></li>
+   </ul>
+  </li>
+  <li class="dropdown">
+   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Something Else <b class="caret"></b></a>
+   <ul class="dropdown-menu">
+    <li><a href="#navs">who is online</a></li>
+    <li><a href="#navbar">latest stuff</a></li>
+   </ul>
+  </li>
+  <form class="subnav-search pull-right" action="" style="margin-top:4px">
+   <input type="text" class="search-query span2" placeholder="Search the map below">
+   <input class="btn" type="submit"value="Submit">
+  </form>
+  <li><a href="#about">About</a></li>
+ </ul>
+</div><!-- end subnav subnav-fixed -->

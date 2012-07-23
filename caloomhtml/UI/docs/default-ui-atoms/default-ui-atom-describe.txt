@@ -1,0 +1,9 @@
+<!--default-ui-atom-describe-->
+<div class="control-group">
+<label class="control-label" for="textarea">Describe your ## in 104 characters max</label>
+<div class="controls">
+	<textarea class="input-xlarge" id="textarea" rows="3"></textarea>
+</div>
+</div>
+<!--/default-ui-atom-describe-->
+

@@ -1,0 +1,10 @@
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">first-name <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="#"><i class="icon-cog"></i> Preferences</a></li>
+<li><a href="#"><i class="icon-user"></i> My friends</a></li>
+<li><a href="#"><i class="icon-list-alt"></i> My Services</a></li>
+<li class="divider"></li>
+<li><a href="#"><i class="icon-off"></i> Log Out</a></li>
+</ul>
+</li>

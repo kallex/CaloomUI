@@ -1,0 +1,8 @@
+Modules are blocks of atoms. When these atoms are combined into a module they form a larger logical block, such as a registration form or login form.
+
+The naming convention is:
+default = as this is the default, base, layout-look&feel-logic of the service
+ui = as this is the user interface part
+module = to describe we are working on a small elements and not on a module or page or layout
+title = the shortest way to describe what the code or lines of text do, within the context of this service.
+.txt = the kind of files that are (at this stage) called with the <?php include'location-of-the-file.txt' ?> tag

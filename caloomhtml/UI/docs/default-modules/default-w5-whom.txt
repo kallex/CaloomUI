@@ -1,0 +1,28 @@
+<!--default-w5-whom-->
+<div class="control-group">
+	<label class="control-label">Who can see this ##</label>
+	<div class="controls">
+		<label class="radio">
+			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+			Anyone
+		</label>
+		<label class="radio">
+			<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+			Registered users
+		</label>
+	</div>
+</div>
+
+<?php include'../default-ui-atoms/default-ui-atom-select-multiple.txt' ?>
+<div class="control-group">
+	<label class="control-label">Who can see this ##</label>
+	<div class="controls">
+		<a data-toggle="modal" href="#map-whom" class="btn" rel="popover" data-content="Click here to define in what area this information can be seen" data-original-title="Who can see this, where?"><i class="icon-share"></i></a>
+	</div><!-- /control-group -->
+</div>
+
+<!--Modals-->
+<?php include '../default-modules/default-modal-map-whom.txt' ?>
+<!--/Modals-->
+<!--/default-w5-whom-->
+

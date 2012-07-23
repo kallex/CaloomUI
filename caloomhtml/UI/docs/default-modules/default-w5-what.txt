@@ -1,0 +1,8 @@
+<!--default-w5-what -->
+<?php include'../default-ui-atoms/default-ui-atom-title.txt' ?>
+<?php include'../default-ui-atoms/default-ui-atom-describe.txt' ?>
+<?php include'../default-ui-atoms/default-ui-atom-upload-image.txt' ?>
+<?php include'../default-ui-atoms/default-ui-atom-select-multiple.txt' ?>
+<?php include'../default-ui-atoms/default-ui-atom-keywordse.txt' ?>
+<!--/default-w5-what -->
+

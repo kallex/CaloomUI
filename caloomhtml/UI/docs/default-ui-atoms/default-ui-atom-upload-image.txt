@@ -1,0 +1,9 @@
+<!--default-ui-atom-upload-image-->
+<div class="control-group">
+	<label class="control-label" for="fileInput">Upload your Image</label>
+	<div class="controls">
+			<input class="input-file" id="fileInput" type="file">
+	</div>
+</div>
+<!--/default-ui-atom-upload-image-->
+

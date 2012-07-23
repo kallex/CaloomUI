@@ -1,0 +1,10 @@
+<div class="marketing">
+<h1>The maps you follow.</h1>
+<p class="marketing-byline">See what is new on your maps and who is following them.</p>
+<ul class="thumbnails example-sites">
+<?php include 'default-followed-item-1.txt' ?>
+<?php include 'default-followed-item-2.txt' ?>
+<?php include 'default-followed-item-3.txt' ?>
+<?php include 'default-followed-item-4.txt' ?>
+</ul>
+</div><!-- marketing followed-->

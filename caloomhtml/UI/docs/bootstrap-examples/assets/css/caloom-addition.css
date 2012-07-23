@@ -1,0 +1,92 @@
+/* Caloom Additional Stylesheet
+-------------------------------------------------- */
+/* Body and structure
+-------------------------------------------------- */
+body {
+  padding-top: 0px;
+  background-image: none;
+}
+/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+.brand {
+	color: #8ac246;
+}
+/* Space out sub-sections more
+-------------------------------------------------- */
+/* Jumbotrons
+-------------------------------------------------- */
+/* Masthead (docs home) */
+/* Specific jumbotrons
+------------------------- */
+/* supporting docs pages */
+/* Subnav */
+/* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
+/* Quick links
+-------------------------------------------------- */
+/* Marketing section of Overview
+-------------------------------------------------- */
+/* Footer
+-------------------------------------------------- */
+/* Special grid styles
+-------------------------------------------------- */
+/* Render mini layout previews
+-------------------------------------------------- */
+/* Popover docs
+-------------------------------------------------- */
+/* Download page
+-------------------------------------------------- */
+/* Custom, larger checkbox labels */
+/* Giant download button */
+/* Color swatches on LESS docs page
+-------------------------------------------------- */
+/* Sets the width of the td */
+/* Misc
+-------------------------------------------------- */
+/* Make tables spaced out a bit more */
+/* Example sites showcase */
+/* Remove bottom margin on example forms in wells */
+/* Tighten up spacing */
+/* Fake the :focus state to demo it */
+/* For input sizes, make them display block */
+/* Icons
+------------------------- */
+/* Eaxmples page
+------------------------- */
+/* Responsive table
+------------------------- */
+/* Responsive tests
+------------------------- */
+/* Responsive Docs
+-------------------------------------------------- */
+  /* Reduce padding above jumbotron */
+  /* Change up some type stuff */
+  /* Adjust the jumbotron */
+  /* Masthead (home page jumbotron) */
+  /* Don't space out quick links so much */
+  /* hide the bullets on mobile since our horizontal space is limited */
+ /* center example sites */
+  /* Modal example */
+  /* Remove any padding from the body */
+  /* Jumbotron buttons */
+  /* Subnav */
+  /* Popovers */
+  /* Space out the show-grid examples */
+  /* Unfloat the back to top link in footer */
+  /* Scale down the jumbotron content */
+  /* Remove any padding from the body */
+  /* Scale down the jumbotron content */
+  /* Unfloat brand */
+  /* Inline-block quick links for more spacing */
+/* LARGE DESKTOP SCREENS */
+  /* Update subnav container */
+/*additions to dahsboard stylsheet*/
+.maps .map { 
+    width: 40%;
+    display: inline-block;
+    padding: 12px 0;
+    margin: 0 .9% 1em;
+    vertical-align: top;    
+    text-decoration: none;
+    background: #F3F3F3;  
+    border-radius: 5px;
+}

@@ -1,0 +1,5 @@
+<tr>
+	<td></td>
+	<td>Share this map/td>
+	<td><span class="swatch" style="background-color: yellow;">12</span></td>
+</tr>

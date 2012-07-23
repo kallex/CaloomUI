@@ -1,0 +1,71 @@
+<div class="navbar navbar-fixed-top">
+ <div class="navbar-inner">
+  <div class="container">
+   <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+   </a>
+   <a class="brand" style="float:left; color:white; margin-right:60px" href="#">Aalto Global Impact</a>
+   <div class="nav-collapse">
+    <ul class="nav">
+     <li class="active dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Innovation Camp <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+       <li><a href="#">Search latest projects</a></li>
+       <li><a data-toggle="modal" href="#serviceForm"><i class="icon-edit icon-black"></i> Add a new project</a></li>
+       <li><a href="#">Most popular projects</a></li>
+       <li class="divider"></li>
+       <li class="nav-header">Administration</li>
+       <li><a href="#">Manage My Projects</a></li>
+       <li><a href="#">Statistics</a></li>
+      </ul>
+     </li>
+     <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research Stew <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+       <li><a href="#">Search latest Research</a></li>
+       <li><a href="#">Add Research project</a></li>
+       <li><a href="#">Add research Paper</a></li>
+       <li class="divider"></li>
+       <li class="nav-header">Administration</li>
+       <li><a href="#">Manage My Research</a></li>
+       <li><a href="#">Statistics</a></li>
+      </ul>
+     </li>
+     <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Event Drum <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+       <li><a href="#">Search Latest Event</a></li>
+       <li><a href="#">Add Eevent</a></li>
+       <li><a href="#">Something else here</a></li>
+       <li class="divider"></li>
+       <li class="nav-header">Administration</li>
+       <li><a href="#">Manage My Events</a></li>
+       <li><a href="#">Statistics</a></li>
+      </ul>
+     </li>
+    </ul>
+    <form class="navbar-search pull-left" action="">
+     <input type="text" class="search-query span2" placeholder="Search">
+    </form>
+    <ul class="nav pull-right">
+     <li><a href="#">News</a></li>
+     <li><a href="#">Blog</a></li>
+     <li><a href="#">About</a></li>
+     <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teija <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+       <li><a href="#"><i class="icon-cog"></i> Preferences</a></li>
+       <li><a href="#"><i class="icon-user"></i> My friends</a></li>
+       <li><a href="#"><i class="icon-list-alt"></i> My Services</a></li>
+       <li class="divider"></li>
+       <li><a href="#"><i class="icon-off"></i> Log Out</a></li>
+      </ul>
+     </li>
+     <li class="divider-vertical"></li>
+    </ul>
+   </div><!-- /.nav-collapse -->
+  </div>
+ </div><!-- /navbar-inner -->
+</div><!-- /navbar -->

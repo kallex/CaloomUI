@@ -1,0 +1,12 @@
+<li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Service<b class="caret"></b></a>
+      <ul class="dropdown-menu">
+       <li><a href="#">Search latest service items</a></li>
+       <li><a data-toggle="modal" href="#serviceForm"><i class="icon-edit icon-black"></i> Add a new service item</a></li>
+       <li><a href="#">Most popular service item</a></li>
+       <li class="divider"></li>
+       <li class="nav-header">Administration</li>
+       <li><a href="#">Manage My Projects</a></li>
+       <li><a href="#">Statistics</a></li>
+      </ul>
+</li>

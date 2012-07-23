@@ -1,0 +1,29 @@
+<div id="serviceForm" class="modal hide fade">
+ <div class="modal-header">
+  <button class="close" data-dismiss="modal">&times;</button>
+  <h3>Add a new Innovation Camp project</h3>
+ </div>
+<div class="modal-body">
+<form class="well">
+<!-- w5-what -->
+<?php include'modules/w5-what.txt' ?>	
+<!-- w5-what -->
+<!-- w5-when -->
+<?php include 'modules/w5-when.txt' ?>
+<!-- w5-when -->
+<!-- w5-where -->
+<?php include 'modules/w5-where.txt' ?>
+<!-- w5-where-->
+<!-- w5-whom-->
+<?php include 'modules/w5-whom.txt' ?>
+<!-- w5-whom -->
+<!-- w5-worth-->
+<?php include 'modules/w5-worth.txt'; ?>
+<!-- w5-worth -->
+</div><!-- /clearfix -->
+</form>
+<div class="modal-footer">
+ <a href="#" class="btn" data-dismiss="modal" >Cancel and Close</a>
+ <a href="#" class="btn btn-primary">Add</a>
+</div>
+</div>

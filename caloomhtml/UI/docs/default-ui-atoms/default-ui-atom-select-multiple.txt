@@ -1,0 +1,14 @@
+<!--default-ui-atom-select-multiple-->
+<div class="control-group">
+	<label class="control-label" for="multiSelect">Select ##</label>
+	<div class="controls">
+			<select multiple="multiple" id="multiSelect">
+			<option>ABC</option>
+			<option>DEF</option>
+			<option>GHI</option>
+			<option>JKL</option>
+		</select>
+	</div>
+</div>
+<!--/default-ui-atom-select-multiple-->
+

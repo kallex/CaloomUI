@@ -1,0 +1,35 @@
+<div class="accordion-group">
+ <div class="accordion-heading">
+  <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+   Service
+  </a></h3>
+ </div>
+ <div id="collapseThree" class="accordion-body collapse">
+  <div class="accordion-inner">
+   <table class="table table-bordered">
+    <tbody>
+     <tr>
+      <td>Result Item</td>
+      <td><span class="swatch" style="background-color: #7be1ed;"></span></td>
+     </tr>
+     <tr>
+      <td>Result Item</td>
+      <td><span class="swatch" style="background-color: #7be1ed;"></span></td>
+     </tr>
+     <tr>
+      <td>Result Item</td>
+      <td><span class="swatch" style="background-color: #7be1ed;"></span></td>
+     </tr>
+     <tr>
+      <td>Result Item</td>
+      <td><span class="swatch" style="background-color: #7be1ed;"></span></td>
+     </tr>
+     <tr>
+      <td>Result Item</td>
+      <td><span class="swatch" style="background-color: #7be1ed;"></span></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </div>
+</div>
