@@ -3618,6 +3618,15 @@ input[type="submit"].btn.btn-mini {
   color: #999999;
 }
 
+.navbar .brandlogo {
+	display: block;
+	float: left;
+	width: 42px;
+	height: 19px;
+	margin: 10px 10px 0 10px;
+	background: url(../../../images/ui/AGI_Logo.png) no-repeat;
+}
+
 .navbar .navbar-text {
   margin-bottom: 0;
   line-height: 40px;
@@ -4532,7 +4541,7 @@ a.badge:hover {
 
 .label-important,
 .badge-important {
-  background-color: #b94a48;
+  background-color: #EE5F5B;
 }
 
 .label-important[href],

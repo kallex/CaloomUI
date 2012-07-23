@@ -1,6 +1,6 @@
 <div class="well-white zoompanel">
-		<button class="btn btn-inverse btn-mini"><i class="icon-white icon-plus-sign"></i></button>
-		<button class="btn btn-inverse btn-mini"><i class="icon-white icon-minus-sign"></i></button>
+		<button class="btn btn-inverse btn-mini"><i class="icon-white icon-zoom-in"></i></button>
+		<button class="btn btn-inverse btn-mini"><i class="icon-white icon-zoom-out"></i></button>
 		<span></span>
 		<span style="padding-left:20px"><button class="btn btn-mini"><i class="icon-arrow-down"></i></button></span>
 		<button class="btn btn-mini"><i class="icon-print"></i></button>

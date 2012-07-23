@@ -1,0 +1,67 @@
+<section id="filter-form">
+  <div class="accordion" id="accordion1">
+
+<!--accordion-group-what-->
+    <div class="accordion-group">
+     <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour">
+      <h3>What</h3>
+      </a>
+     </div>
+     <div id="collapseFour" class="accordion-body collapse">
+      <div class="accordion-inner">
+       <?php include'../default-modules/default-w5-what.txt' ?>
+      </div>
+     </div>
+    </div>
+<!--/accordion-group-what-->
+
+<!--accordion-group-whom-->
+    <div class="accordion-group">
+     <div class="accordion-heading">
+      <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive">
+       When
+      </a></h3>
+     </div>
+     <div id="collapseFive" class="accordion-body collapse">
+      <div class="accordion-inner">
+       <?php include'../default-modules/default-w5-when.txt' ?>
+      </div>
+     </div>
+    </div>
+<!--/accordion-group-whom-->
+
+
+<!--accordion-group-whom-->
+    <div class="accordion-group">
+     <div class="accordion-heading">
+      <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSix">
+       Where
+      </a></h3>
+     </div>
+     <div id="collapseSix" class="accordion-body collapse">
+      <div class="accordion-inner">
+       <?php include'../default-modules/default-w5-where.txt' ?>
+      </div>
+     </div>
+    </div>
+<!--/accordion-group-whom-->
+
+
+<!--accordion-group-worth-->
+    <div class="accordion-group">
+     <div class="accordion-heading">
+      <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSeven">
+       Worth
+      </a></h3>
+     </div>
+     <div id="collapseSeven" class="accordion-body collapse">
+      <div class="accordion-inner">
+       <?php include'../default-modules/default-w5-worth.txt' ?>
+      </div>
+     </div>
+    </div>
+<!--/accordion-group-worth-->
+
+   </div><!--/accordion-->
+</section><!--/forms-->

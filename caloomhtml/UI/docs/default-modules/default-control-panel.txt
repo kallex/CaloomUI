@@ -1,7 +1,19 @@
 <div class="well-white controlpanel">
-	<div class="accordion" id="accordion2">
-		<?php include '../default-modules/default-result-list-item-1.txt' ?>
-		<?php include '../default-modules/default-result-list-item-2.txt' ?>
-		<?php include '../default-modules/default-result-list-item-3.txt' ?>
-	</div>
+	
+	<div class="tabbable"> <!-- Only required for left/right tabs -->
+	  <ul class="nav nav-pills">
+	    <li class="active"><a href="#tab1" data-toggle="tab"><i class="icon-flag"></i> Items on Map</a></li>
+	    <li><a href="#tab2" data-toggle="tab"><i class="icon-tasks"></i> Filter</a></li>
+	  </ul>
+	  <div class="tab-content">
+	    <div class="tab-pane active" id="tab1">
+	      	<?php include 'default-result-list.txt' ?>
+	    </div>
+	    <div class="tab-pane" id="tab2">
+	      	<?php include 'default-filter.txt' ?>
+	    </div>
+
+	  </div>
+	</div>	<!-- result-list -->
+
 </div>
