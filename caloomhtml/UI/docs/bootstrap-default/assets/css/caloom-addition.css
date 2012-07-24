@@ -115,3 +115,14 @@
 {
 margin: 5px 5px 0 0;
 }
+
+hr {
+border: 0;
+color: #CCCCCC;
+background-color: #CCCCCC;
+height: 1px;
+width: 100%;
+text-align: left;
+padding:0px;
+margin:0px;
+}

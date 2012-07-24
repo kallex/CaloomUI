@@ -790,9 +790,14 @@ select,
           border-radius: 3px;
 }
 
+
 .uneditable-textarea {
   width: auto;
   height: auto;
+}
+
+.nopad {
+	margin-bottom: 0px;
 }
 
 label input,
@@ -951,7 +956,7 @@ select:focus {
 }
 
 .input-mini {
-  width: 60px;
+  width: 15px;
 }
 
 .input-small {

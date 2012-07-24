@@ -10,13 +10,29 @@
      </div>
      <div id="collapseFour" class="accordion-body collapse">
       <div class="accordion-inner">
-       <?php include'../default-modules/default-w5-what.txt' ?>
+       <input type="text" class="search" placeholder="Try 'food'" style="width:180px;">
+		<div class="control-group">
+		            <div class="controls">
+		              <label class="checkbox">
+		                <input type="checkbox" name="optionsCheckboxList1" value="option1">
+		                Events
+		              </label>
+		              <label class="checkbox">
+		                <input type="checkbox" name="optionsCheckboxList2" value="option2">
+		                Service
+		              </label>
+		              <label class="checkbox">
+		                <input type="checkbox" name="optionsCheckboxList3" value="option3">
+		                Volunteers
+		              </label>
+		            </div>
+		          </div>
       </div>
      </div>
     </div>
 <!--/accordion-group-what-->
 
-<!--accordion-group-whom-->
+<!--accordion-group-when-->
     <div class="accordion-group">
      <div class="accordion-heading">
       <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive">
@@ -25,14 +41,23 @@
      </div>
      <div id="collapseFive" class="accordion-body collapse">
       <div class="accordion-inner">
-       <?php include'../default-modules/default-w5-when.txt' ?>
+	<p>Choose relevant timing to view your items</p>
+       	<!-- Slider -->
+		<div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+			<div class="ui-slider-range ui-widget-header" style="left: 33%; width: 34%; ">
+			</div>
+				<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 33%; "></a>
+				<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 67%; "></a>
+		</div><br>
+		<!--end slider-->
+		<p>Show me <input class="input-mini" type="text" placeholder="0"> days from now</p>
       </div>
      </div>
     </div>
-<!--/accordion-group-whom-->
+<!--/accordion-group-when-->
 
 
-<!--accordion-group-whom-->
+<!--accordion-group-where-->
     <div class="accordion-group">
      <div class="accordion-heading">
       <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSix">
@@ -40,12 +65,50 @@
       </a></h3>
      </div>
      <div id="collapseSix" class="accordion-body collapse">
-      <div class="accordion-inner">
-       <?php include'../default-modules/default-w5-where.txt' ?>
+	      <div class="accordion-inner">
+		
+       		<div class="control-group">
+		            <label class="control-label" for="select01">Country</label>
+		            <div class="controls">
+		              <select id="select01" class="span2 nopad">
+		                <option>Finland</option>
+		                <option>Sweden</option>
+		                <option>Thailand</option>
+		                <option>The Netherlands</option>
+		                <option>Norway</option>
+		              </select>
+		            </div>
+		     </div>
+			 <div class="control-group">
+		            <label class="control-label" for="select02">City</label>
+		            <div class="controls">
+		              <select id="select02" class="span2 nopad">
+		                <option>Helsinki</option>
+		                <option>Turku</option>
+		                <option>Porvoo</option>
+		                <option>Hamenlinna</option>
+		                <option>Rovaniemi</option>
+		              </select>
+		            </div>
+		     </div>
+		<p>Zip or Street Address</p> 
+		<input type="text" class="search" placeholder="Intiankatu 21, 00560'" style="width:180px;">
+	<hr /><br>
+		<div class="control-group">
+	            <label class="control-label" for="select02">My Saved Locations</label>
+	            <div class="controls">
+	              <select id="select02" class="span2 nopad">
+	                <option>Home</option>
+	                <option>Office</option>
+	              </select>
+	            </div>
+	     </div>
+	<hr /><br>
+		<button class="btn"><i class="icon-briefcase"></i> Save Current Location</button>
       </div>
      </div>
     </div>
-<!--/accordion-group-whom-->
+<!--/accordion-group-where-->
 
 
 <!--accordion-group-worth-->
@@ -57,7 +120,21 @@
      </div>
      <div id="collapseSeven" class="accordion-body collapse">
       <div class="accordion-inner">
-       <?php include'../default-modules/default-w5-worth.txt' ?>
+       	<div class="control-group">
+		 <label class="control-label" for="inlineCheckboxes">Show me items that are </label>
+		 <div class="controls">
+		  	<label class="checkbox inline">
+		   		<input type="checkbox" id="inlineCheckbox1" value="option1"> Free <br>
+		  	</label>
+			<label class="checkbox inline">
+		   		<input type="checkbox" id="inlineCheckbox2" value="option2"> Rental <br>
+		  	</label>
+			<label class="checkbox inline">
+		   		<input type="checkbox" id="inlineCheckbox3" value="option3"> Paid <br>
+		  	</label>
+		 </div>
+		</div>
+	
       </div>
      </div>
     </div>
