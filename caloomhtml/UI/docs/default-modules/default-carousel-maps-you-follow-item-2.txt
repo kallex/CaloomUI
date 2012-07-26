@@ -1,5 +1,5 @@
-<li class="span3">
-	<div class="thumbnail">
+<div class="item">
+<div class="span3 thumbnail">
 	<img src="../images/placeholder/riodejaneiro.png" width="260" height="180" alt="Hml Osm">
 	<div class="caption">
 		<h5>Research in Rio de Janeiro</h5>
@@ -21,4 +21,4 @@
 		<p><a href="#" class="btn"><i class="icon-edit icon-black"></i></a></p>
 	</div>
 </div>
-</li>
+</div>

@@ -3,22 +3,13 @@
 	<p class="marketing-byline">See what is new on your maps and who is following them.</p>
 	<div id="myCarousel" class="carousel slide">
 		<div class="carousel-inner">
-			<div class="item active">
-				<ul>
 			<?php include 'default-carousel-maps-you-follow-item-1.txt' ?>
 			<?php include 'default-carousel-maps-you-follow-item-2.txt' ?>
 			<?php include 'default-carousel-maps-you-follow-item-3.txt' ?>
 			<?php include 'default-carousel-maps-you-follow-item-4.txt' ?>
-			</ul>
-			</div>
-			<div class="item">
-				<ul>
 			<?php include 'default-carousel-maps-you-follow-item-5.txt' ?>
 			<?php include 'default-carousel-maps-you-follow-item-6.txt' ?>
 			<?php include 'default-carousel-maps-you-follow-item-7.txt' ?>
-			<?php include 'default-followed-item-4.txt' ?>
-			</ul>
-			</div>
 		</div>
 		<!-- Carousel nav -->
 		<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
