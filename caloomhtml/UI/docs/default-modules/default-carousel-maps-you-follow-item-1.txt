@@ -1,5 +1,5 @@
-<div class="item">
-	<div class="span3 thumbnail">
+<li class="span3">
+	<div class="thumbnail">
 	<img src="../images/placeholder/colombo.png" width="260" height="180" alt="Hml Osm">
 	<div class="caption">
 		<h5>Water companies in Colombo</h5><!-- the name the publisher of this map has given to this map -->
@@ -31,4 +31,4 @@
 		</p>
 	</div>
 </div>
-</div>
+</li>
