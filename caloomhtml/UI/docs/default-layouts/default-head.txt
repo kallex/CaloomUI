@@ -6,7 +6,6 @@
   <meta name="author" content="">
 
   <!-- Le styles -->
-<<<<<<< HEAD
   <link href="../bootstrap-default/assets/css/bootstrap.css" rel="stylesheet">
   <link href="../bootstrap-default/assets/css/bootstrap-responsive.css" rel="stylesheet">
   <link href="../bootstrap-default/assets/css/docs.css" rel="stylesheet">
@@ -14,7 +13,6 @@
   <link href="../bootstrap-default/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
   <link href="../bootstrap-default/assets/css/caloom-addition.css" rel="stylesheet">
   <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">
-=======
   <link href="../bootstrap-examples/assets/css/bootstrap.css" rel="stylesheet">
   <link href="../bootstrap-examples/assets/css/bootstrap-responsive.css" rel="stylesheet">
   <link href="../bootstrap-examples/assets/css/docs.css" rel="stylesheet">
@@ -25,7 +23,6 @@
   <!--Extra Styles from jQuery UI-->
   <link href="../jquery-ui/css/demo.css" rel="stylesheet">
   <link href="../jquery-ui/css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet">
->>>>>>> Control Panel done!
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
