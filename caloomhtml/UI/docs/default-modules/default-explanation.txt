@@ -1,7 +1,7 @@
 <div class="marketing">
 <h1>About Aalto Global Impact Applications.</h1>
 <p class="marketing-byline">Share, co-create, collaborate, plan events? Look no further.</p>
-<div class="row">
+<div class="row-fluid">
 	<div class="span4">
 		<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_042_group.png">
 		<h2>Built for anybody</h2>
@@ -18,11 +18,11 @@
 		<p>AGIA is built to be used anywhere, with any kind of device.</p>
 	</div>
 </div><!--/row-->
-<div class="row">
+<div class="row-fluid">
 	<div class="span4">
 		<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_082_roundabout.png">
 		<h2>Growing library of new Applications</h2>
-		<p>Despite we now only have 5 appilcations, anyone can add their own application and so AGIA can grow, you can grow</p>
+		<p>Despite we now only have 5 applications, anyone can add their own application and so AGIA can grow, you can grow</p>
 	</div>
 	<div class="span4">
 		<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_214_resize_small.png">
@@ -36,3 +36,4 @@
 	</div>
 </div><!--/row-->
 </div><!-- marketing explanation-->
+<br><br>

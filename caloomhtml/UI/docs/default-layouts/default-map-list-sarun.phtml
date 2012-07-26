@@ -12,35 +12,43 @@
 
 <!--the container class sets the width of the container and centers it -->
 
-<div class="container-fluid">
 <!-- section -->
 <section id="gridSystem">
 
+<div class="container-fluid">
 <!-- current map -->
-<div class="header">
-	<?php include'../default-modules/default-map.txt' ?>
-</div>
+	<div class="header">
+		<?php include'../default-modules/default-map.txt' ?>
+	</div>
+<!-- drop shadow break --><hr class="shadow">
 
 <!-- zoom panel -->
-<?php include'../default-modules/default-zoom-panel.txt' ?>
+	<?php include'../default-modules/default-zoom-panel.txt' ?>
 
 <!-- control panel -->
-<?php include'../default-modules/default-control-panel.txt' ?>
+	<?php include'../default-modules/default-control-panel.txt' ?>
+</div><!--End of Container Fluid-->
 
+<div class="container">
 <!-- maps you follow -->
 <div class="row-fluid">
-<?php include '../default-modules/default-followed.txt' ?>
+	<?php include '../default-modules/default-followed.txt' ?>
 </div>
 
+<!-- drop shadow break --><hr class="shadow">
+
 <!-- explanation -->
-<?php include '../default-modules/default-explanation.txt' ?>
+	<?php include '../default-modules/default-explanation.txt' ?>
+
+<!-- drop shadow break --><hr class="shadow">
 
 </section><!-- section -->
 
 <!-- default-footer.txt -->
-<div class="row-fluid">
+<div class="container">
 <?php include'default-footer.txt' ?><!-- default-footer.txt-->
 </div>
+
 </div><!-- /container -->
 
 <!--Modals-->

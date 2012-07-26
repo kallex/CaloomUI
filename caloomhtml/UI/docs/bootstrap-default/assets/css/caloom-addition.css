@@ -126,3 +126,11 @@ text-align: left;
 padding:0px;
 margin:0px;
 }
+
+.shadow
+{
+    display:block;
+    border:none;
+    height:20px;
+    background-image:url("../../../images/ui/hr-shadow-bg.png");
+}
