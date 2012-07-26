@@ -1,17 +1,10 @@
 <div class="accordion-group">
  <div class="accordion-heading">
-<!--  <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" style="color: #0055CC;">
+  <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" style="color: #0055CC;">
    Events
 	<span class="badge padaround" style="float: right;">2</span>
 	<span class="badge badge-important padaround" style="float: right;">3</span>
-  </a></h3> -->
-<!--testing the accordion collapse-->
-<span><a data-toggle="modal" href="#myModal" class="btn btn-small" style="margin-top:5px;margin-right:5px;float:right"><i class="icon-edit icon-black"></i></a></span><h3>
-	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
- Service
-</a></h3>
-<!--end testing the accordion collapse-->
-
+  </a></h3>
  </div>
  <div id="collapseOne" class="accordion-body collapse in">
   <div class="accordion-inner">
