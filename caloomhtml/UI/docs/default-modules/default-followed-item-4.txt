@@ -1,25 +1,3 @@
 <li class="span3">
-<div class="thumbnail">
-<img src="../
-images/placeholder/capetown.png" width="260" height="180" alt="Hml Osm">
-<div class="caption">
-<h5>Design Capital Capetown 2014</h5>
-<table class="table table-bordered table-striped">
-<tbody>
-<tr>
-<td class="span2">New</td>
-<td>0</td>
-<td class="swatch-col"><span class="swatch" style="background-color: #ed5959;"></span></td>
-</tr>
-<tr>
-<td>Old</td>
-<td>4</td>
-<td><span class="swatch" style="background-color: #6f6f65;"></span></td>
-</tr>
-</tbody>
-</table>  
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-<p><a href="#" class="btn"><i class="icon-edit icon-black"></i></a></p>
-</div>
-</div>
+	<button class="btn btn-xlarge"><i class="icon-plus"></i> Follow New Map</button>
 </li>

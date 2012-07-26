@@ -1,0 +1,19 @@
+<div class="marketing">
+<div class="span8">
+	        <div>
+  	<br>
+    <h1>AGI is now open for beta!</h1>
+    <p class="lead">July 25, 2012 — by <a href="http://twitter.com/">@jorilallo</a></p>
+<br>
+    <img class="border" src="../images/placeholder/capetown.png" width="500">
+<br />
+<br />
+<p>It’s been now few weeks since we added the ability to start following lists in Kippt. It’s been exiting to see what people are saving and how public lists help others find useful and interesting resources.</p>
+
+<p>Many times we have found ourselves really liking the content we find via feed but we didn’t really have anything to comment. This is why we decided to add a lighter way to give feedback to your favorite clips, so now there’s a like button.</p>
+
+<p>It’s a small change but we think it will make a big difference.</p>    
+
+</div>
+	    </div>
+</div>
