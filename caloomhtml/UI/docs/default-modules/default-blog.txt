@@ -1,19 +1,45 @@
 <div class="marketing">
-<div class="span8">
-	        <div>
-  	<br>
+	<h1>Blog</h1>
+	<p class="marketing-byline">Share, co-create, collaborate, plan events? Look no further.</p>
+</div>
+<div class="container">
+	<div class="row">
+<div class="span6 offset2">
     <h1>AGI is now open for beta!</h1>
     <p class="lead">July 25, 2012 — by <a href="http://twitter.com/">@jorilallo</a></p>
 <br>
     <img class="border" src="../images/placeholder/capetown.png" width="500">
 <br />
 <br />
-<p>It’s been now few weeks since we added the ability to start following lists in Kippt. It’s been exiting to see what people are saving and how public lists help others find useful and interesting resources.</p>
+<p1>It’s been now few weeks since we added the ability to start following lists in Kippt. It’s been exiting to see what people are saving and how public lists help others find useful and interesting resources.</p1><br><br>
 
-<p>Many times we have found ourselves really liking the content we find via feed but we didn’t really have anything to comment. This is why we decided to add a lighter way to give feedback to your favorite clips, so now there’s a like button.</p>
+<p1>Many times we have found ourselves really liking the content we find via feed but we didn’t really have anything to comment. This is why we decided to add a lighter way to give feedback to your favorite clips, so now there’s a like button.</p1><br><br>
 
-<p>It’s a small change but we think it will make a big difference.</p>    
+<p1>It’s a small change but we think it will make a big difference.</p1><br><br>
 
 </div>
-	    </div>
+
+
+<aside class="span3 padmore"> 
+	       <div class="pitch"><a href="/" class="brand">
+				<img src="../images/ui/AGI_Logo_black_90px.png" alt="AGI" width="45" height="20" margin="10px"></a>
+				<hr class="hr-big">
+	       		<p>Share, co-create, collaborate, plan events? Look no further.</p>
+	       		<a href="http://www.aaltoglobalimpact.org/" class="btn btn-primary btn-large">Get started!</a>
+	       </div>
+	
+			<hr class="hr-big">
+			
+	       <strong>Follow us:</strong><br>
+           <p>
+               <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.1340179658.html#_=1343304775142&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=kippt&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button" style="width: 198px; height: 20px; " title="Twitter Follow Button"></iframe>
+               <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+           </p>
+           
+           <p></p><div class="fb-like-box fb_iframe_widget " data-href="http://www.facebook.com/kipptapp" data-width="220" data-height="184" data-show-faces="true" data-border-color="#dddddd" data-stream="false" data-header="false"><span style="height: 184px; width: 220px; "><iframe id="f37ca48f64" name="f1e02ff38" scrolling="no" style="border: none; overflow: hidden; height: 184px; width: 260px; " class="fb_ltr" src="http://www.facebook.com/plugins/likebox.php?api_key=253595308025739&amp;border_color=%23dddddd&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D9%23cb%3Df30d1f16b%26origin%3Dhttp%253A%252F%252Fblog.kippt.com%252Ff3975569ec%26domain%3Dblog.kippt.com%26relation%3Dparent.parent&amp;colorscheme=light&amp;header=false&amp;height=184&amp;href=http%3A%2F%2Fwww.facebook.com%2Fkipptapp&amp;locale=en_US&amp;sdk=joey&amp;show_faces=true&amp;stream=false&amp;width=220"></iframe></span></div><p></p>
+           
+	    
+</aside>
+
 </div>
+	</div>

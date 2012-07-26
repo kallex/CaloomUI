@@ -116,6 +116,11 @@
 margin: 5px 5px 0 0;
 }
 
+.padmore
+{
+	padding:  20px;
+}
+
 hr {
 border: 0;
 color: #CCCCCC;
@@ -135,6 +140,13 @@ margin:0px;
     background-image:url("../../../images/ui/hr-shadow-bg.png");
 }
 
+.hr-big {
+margin: 18px 0;
+border: 0;
+border-top: 1px solid #EEE;
+border-bottom: 1px solid white;
+}
+
 .btn-xlarge {
   width:100%;
   height:183px;
@@ -148,4 +160,10 @@ margin:0px;
 
 .btn-xlarge [class^="icon-"] {
   margin-top: 1px;
+}
+
+p1 {
+  font-size: 14px;
+  line-height: 18px;
+  color: #2a2929;
 }

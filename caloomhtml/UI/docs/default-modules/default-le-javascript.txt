@@ -1,5 +1,4 @@
  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-<<<<<<< HEAD
  <script src="../bootstrap-default/assets/js/jquery.js"></script>
  <script src="../bootstrap-default/assets/js/google-code-prettify/prettify.js"></script>
  <script src="../bootstrap-default/assets/js/bootstrap-transition.js"></script>
@@ -54,4 +53,3 @@
         <!--init for this page-->
         <script type="text/javascript" src="../jquery-ui/js/demo.js"></script>
 		<!-- Extra Scripts from jQuery UI -->
->>>>>>> Control Panel done!
