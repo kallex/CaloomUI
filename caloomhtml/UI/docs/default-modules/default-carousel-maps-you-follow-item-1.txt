@@ -1,0 +1,34 @@
+<div class="item">
+	<div class="span3 thumbnail">
+	<img src="../images/placeholder/colombo.png" width="260" height="180" alt="Hml Osm">
+	<div class="caption">
+		<h5>Water companies in Colombo</h5><!-- the name the publisher of this map has given to this map -->
+		<table class="table table-bordered table-striped">
+			<tbody>
+				<tr>
+					<td class="span2">New</td>
+					<td>0</td>
+					<td class="swatch-col"><span class="swatch" style="background-color: #ed5959;"></span></td>
+				</tr>
+				<tr>
+					<td>Old</td>
+					<td>4</td>
+					<td><span class="swatch" style="background-color: #6f6f65;"></span></td>
+				</tr>
+			</tbody>
+		</table>
+		<p>On this map I follow the progress that water companies make in Colombo. I can edit what I monitor via the edit button below. I can see who also follows this map via the user-icon and #12 below and I can send this map for others to follow too</p>
+		<p><!-- a row of modals for who is following this map and sharing functionality -->
+			<!-- module default-followers-table -->
+			<?php include'default-map-followers-1.txt' ?>
+			<!-- module default-followers-table -->
+			<!-- module default-followers-table -->
+			<?php include'default-map-share-1.txt' ?>
+			<!-- module default-followers-table -->
+			<!-- module default-edit-followed-map -->
+			<?php include'default-map-edit-1.txt' ?>
+			<!-- module default-edit-followed-map -->
+		</p>
+	</div>
+</div>
+</div>
