@@ -8,7 +8,9 @@
  </div>
  <div id="collapseTwo" class="accordion-body collapse">
   <div class="accordion-inner">
-   <table class="table table-bordered">
+	<a href="#" id="dialog_link" class="ui-state-default ui-corner-all">
+		<span class="ui-icon ui-icon-newwin"></span>Filter</a>
+   <table class="table table-bordered" style="margin-top:10px;">
     <tbody>
      <tr>
       <td style="color: #F89406">Result Item</td>

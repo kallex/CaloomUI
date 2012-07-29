@@ -1,0 +1,28 @@
+<!--accordion-group-worth-->
+    <div class="accordion-group">
+     <div class="accordion-heading">
+      <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSeven">
+       Worth
+      </a></h3>
+     </div>
+     <div id="collapseSeven" class="accordion-body collapse">
+      <div class="accordion-inner">
+       	<div class="control-group">
+		 <label class="control-label" for="inlineCheckboxes">Show me items that are </label>
+		 <div class="controls">
+		  	<label class="checkbox inline">
+		   		<input type="checkbox" id="inlineCheckbox1" value="option1"> Free <br>
+		  	</label>
+			<label class="checkbox inline">
+		   		<input type="checkbox" id="inlineCheckbox2" value="option2"> Rental <br>
+		  	</label>
+			<label class="checkbox inline">
+		   		<input type="checkbox" id="inlineCheckbox3" value="option3"> Paid <br>
+		  	</label>
+		 </div>
+		</div>
+
+      </div>
+     </div>
+    </div>
+<!--/accordion-group-worth-->

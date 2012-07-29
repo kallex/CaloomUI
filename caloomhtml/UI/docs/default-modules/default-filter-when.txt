@@ -1,0 +1,23 @@
+<!--accordion-group-when-->
+    <div class="accordion-group">
+     <div class="accordion-heading">
+      <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive">
+       When
+      </a></h3>
+     </div>
+     <div id="collapseFive" class="accordion-body collapse">
+      <div class="accordion-inner">
+	<p>Choose relevant timing to view your items</p>
+       	<!-- Slider -->
+		<div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+			<div class="ui-slider-range ui-widget-header" style="left: 33%; width: 34%; ">
+			</div>
+				<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 33%; "></a>
+				<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 67%; "></a>
+		</div><br>
+		<!--end slider-->
+		<p>Show me <input class="input-mini" type="text" placeholder="0"> days from now</p>
+      </div>
+     </div>
+    </div>
+<!--/accordion-group-when-->
