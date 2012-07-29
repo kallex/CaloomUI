@@ -1,4 +1,4 @@
-<div class="item">
+<div class="active item">
 	<div class="span3 thumbnail">
 	<img src="../images/placeholder/colombo.png" width="260" height="180" alt="Hml Osm">
 	<div class="caption">

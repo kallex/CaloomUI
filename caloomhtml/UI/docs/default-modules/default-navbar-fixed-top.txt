@@ -12,15 +12,15 @@
 <div class="nav-collapse collapse">
    	<ul class="nav">  
   		<li><a href="#">Current Map</a></li>  
-  		<li><a href="#">Maps You Follow</a></li>  
+  		<li><a href="#followmap">Maps You Follow</a></li>  
 	</ul>
     <form class="navbar-search pull-left" action="">
     	<input type="text" class="search-query span2" placeholder="Search">
     </form>
 
     <ul class="nav pull-right">
-		<li><a href="#">About</a></li>
-     	<li><a href="#">Blog</a></li>
+		<li><a href="#about">About</a></li>
+     	<li><a href="#blog">Blog</a></li>
      	<li class="divider-vertical"></li>
      	<li class="dropdown">
 		<li class="dropdown">

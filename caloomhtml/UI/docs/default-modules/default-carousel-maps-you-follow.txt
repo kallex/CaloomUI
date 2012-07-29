@@ -1,6 +1,10 @@
 <div class="marketing">
 	<h1>The maps you follow.</h1>
-	<p class="marketing-byline">See what is new on your maps and who is following them.</p>
+	<p class="marketing-byline">See what is new on your maps and who is following them. </p>
+	<div align="center">
+	<a href="#" class="btn"><i class="icon-plus"></i> Follow a new map</a> 
+	</div>
+	<hr class="hr-big">
 	<div id="myCarousel" class="carousel slide">
 		<div class="carousel-inner">
 			<?php include 'default-carousel-maps-you-follow-item-1.txt' ?>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <!-- default-head.txt -->
 <?php include 'default-head.txt' ?><!-- default-head.txt -->
 
@@ -17,10 +18,10 @@
 
 <div class="container-fluid">
 <!-- current map -->
-	<div class="header">
+	<div>
 		<?php include'../default-modules/default-map.txt' ?>
 	</div>
-<!-- drop shadow break --><hr class="shadow">
+<!-- drop shadow break --><hr class="shadow"  id="followmap">
 
 <!-- zoom panel -->
 	<?php include'../default-modules/default-zoom-panel.txt' ?>
@@ -32,17 +33,21 @@
 <div class="container">
 <!-- maps you follow -->
 <div class="row-fluid">
-	<?php include '../default-modules/default-followed.txt' ?>
+	<?php include '../default-modules/default-carousel-maps-you-follow.txt' ?>
 </div>
 
-<!-- drop shadow break --><hr class="shadow">
+<!-- drop shadow break --><hr class="shadow" id="about">
 
 <!-- explanation -->
+<div>
 	<?php include '../default-modules/default-explanation.txt' ?>
+</div>
 
-<!-- drop shadow break --><hr class="shadow">
+<!-- drop shadow break --><hr class="shadow" id="blog">
 
+<div>
 <?php include '../default-modules/default-blog.txt' ?>
+</div>
 
 </section><!-- section -->
 
