@@ -1,5 +1,19 @@
 <div class="accordion" id="accordion2">
 	<?php include 'default-result-list-item-1.txt' ?>
-	<?php include 'default-result-list-item-2.txt' ?>
+<!--	<?php include 'default-result-list-item-2.txt' ?>
 	<?php include 'default-result-list-item-3.txt' ?>
+-->
 </div>
+<p>This is the Aalto Global Impact Event map. Here we show the events we have planned. You can follow this map to stay up to date of the latest developments and you can share this map with others so they can also stay informed on the events we organize together with our partners</p>
+<p><!-- a row of modals for who is following this map and sharing functionality -->
+<!-- module default-followers-table -->
+<?php include'default-map-followers-1.txt' ?>
+<!-- module default-followers-table -->
+<!-- module default-followers-table -->
+<?php include'default-map-share-1.txt' ?>
+<!-- module default-followers-table -->
+<!-- module default-edit-followed-map -->
+<?php include'default-map-edit-1.txt' ?>
+<!-- module default-edit-followed-map -->
+ </p>
+
