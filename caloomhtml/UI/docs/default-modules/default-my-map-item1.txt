@@ -1,9 +1,7 @@
-<!-- map #1 -->
-	<div>
-		<?php include'default-map.txt' ?>
-	</div>
-<!-- zoom panel -->
+<!-- default-my-map-item1 -->
+<div class="tab-pane active" id="map1">
+	<?php include'default-map.txt' ?>
 	<?php include'default-zoom-panel.txt' ?>
-<!-- control panel -->
 	<?php include'default-control-panel-new.txt' ?>
-<!-- map #1 -->
+</div>
+<!-- end default-my-map-item1 -->

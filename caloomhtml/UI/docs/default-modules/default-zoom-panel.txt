@@ -1,3 +1,4 @@
+<!-- default-zoom-panel -->
 <div class="well-white zoompanel">
 		<a href="#" class="btn btn-mini btn-inverse"><i class="icon-white icon-zoom-in"></i></a>
 		<a href="#" class="btn btn-mini btn-inverse"><i class="icon-white icon-zoom-out"></i></a>
@@ -7,3 +8,4 @@
 		<a href="#" class="btn btn-mini"><i class="icon-download-alt"></i></a>
 		<a href="#" class="btn btn-mini"><i class="icon-share"></i></a>
 </div>
+<!-- end default-zoom-panel -->
