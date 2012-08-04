@@ -1,4 +1,4 @@
-<div class="accordion-group">
+<div id="control-panel" class="accordion-group">
 	<div class="accordion-heading">
 		<h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" style="color: #0055CC;">
 			Our Events
@@ -35,17 +35,9 @@
 					</tbody>
 				</table>
 			</div>
-			<p>This is the Aalto Global Impact Event map. Here we show the events we have planned. You can follow this map to stay up to date of the latest developments and you can share this map with others so they can also stay informed on the events we organize together with our partners</p>
+			<p>This is the Aalto Global Impact Event map. Here we show the events we have planned.
+				You can follow this map to stay up to date of the latest developments and you can share this map with others so they can also stay informed on the events we organize together with our partners.
+				<a href="#">Read more...</a></p>
 		</div>
-		<p><!-- a row of modals for who is following this map and sharing functionality -->
-		<!-- module default-followers-table -->
-		<?php include'default-map-followers-1.txt' ?>
-		<!-- module default-followers-table -->
-		<!-- module default-followers-table -->
-		<?php include'default-map-share-1.txt' ?>
-		<!-- module default-followers-table -->
-		<!-- module default-edit-followed-map -->
-		<?php include'default-map-edit-1.txt' ?>
-		<!-- module default-edit-followed-map -->
-		 </p>
+		<hr>
 	</div>

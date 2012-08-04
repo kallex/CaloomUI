@@ -2,7 +2,7 @@
 	<h1>Blog</h1>
 	<p class="marketing-byline">Share, co-create, collaborate, plan events? Look no further.</p>
 </div>
-<div class="container">
+<div id="blog" class="container">
 	<div class="row">
 
 <div class="span2">
