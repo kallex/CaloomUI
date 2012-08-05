@@ -1,39 +1,51 @@
 <div class="accordion-group">
- <div class="accordion-heading">
-  <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" style="color: #0055CC;">
-   Our Events
-	<span class="badge padaround" style="float: right;">2</span>
-	<span class="badge badge-important padaround" style="float: right;">3</span>
-  </a></h3>
- </div>
- <div id="collapseOne" class="accordion-body collapse in">
-  <div class="accordion-inner">
-	<a href="#" id="dialog_link" class="ui-state-default ui-corner-all">
-		<span class="ui-icon ui-icon-newwin"></span>Filter</a>
-   <table class="table table-bordered" style="margin-top:10px;">
-    <tbody>
-     <tr>
-      <td style="color: #0055CC">Result Item</td>
-      <td><span class="badge badge-important"></span></td>
-     </tr>
-     <tr>
-      <td style="color: #0055CC">Result Item</td>
-      <td><span class="badge badge-important"></span></td>
-     </tr>
-     <tr>
-      <td style="color: #0055CC">Result Item</td>
-      <td><span class="badge badge-important"></span></td>
-     </tr>
-     <tr>
-      <td style="color: #0055CC">Result Item</td>
-      <td><span class="badge"></span></td>
-     </tr>
-     <tr>
-      <td style="color: #0055CC">Result Item</td>
-      <td><span class="badge"></span></td>
-     </tr>
-    </tbody>
-   </table>
-  </div>
- </div>
-</div>
+	<div class="accordion-heading">
+		<h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" style="color: #0055CC;">
+			Our Events
+			<span class="badge padaround" style="float: right;">2</span>
+			<span class="badge badge-important padaround" style="float: right;">3</span>
+		</a></h3>
+	</div>
+	<div id="collapseOne" class="accordion-body collapse in">
+		<div class="accordion-inner">
+			<a href="#" id="dialog_link" class="ui-state-default ui-corner-all">
+				<span class="ui-icon ui-icon-newwin"></span>Filter</a>
+				<table class="table table-bordered" style="margin-top:10px;">
+					<tbody>
+						<tr>
+							<td style="color: #0055CC">Result Item</td>
+							<td><span class="badge badge-important"></span></td>
+						</tr>
+						<tr>
+							<td style="color: #0055CC">Result Item</td>
+							<td><span class="badge badge-important"></span></td>
+						</tr>
+						<tr>
+							<td style="color: #0055CC">Result Item</td>
+							<td><span class="badge badge-important"></span></td>
+						</tr>
+						<tr>
+							<td style="color: #0055CC">Result Item</td>
+							<td><span class="badge"></span></td>
+						</tr>
+						<tr>
+							<td style="color: #0055CC">Result Item</td>
+							<td><span class="badge"></span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<p>This is the Aalto Global Impact Event map. Here we show the events we have planned. You can follow this map to stay up to date of the latest developments and you can share this map with others so they can also stay informed on the events we organize together with our partners</p>
+		</div>
+		<p><!-- a row of modals for who is following this map and sharing functionality -->
+		<!-- module default-followers-table -->
+		<?php include'default-map-followers-1.txt' ?>
+		<!-- module default-followers-table -->
+		<!-- module default-followers-table -->
+		<?php include'default-map-share-1.txt' ?>
+		<!-- module default-followers-table -->
+		<!-- module default-edit-followed-map -->
+		<?php include'default-map-edit-1.txt' ?>
+		<!-- module default-edit-followed-map -->
+		 </p>
+	</div>
