@@ -1,8 +1,0 @@
-<!-- default-tab-map-item1 -->
-<li style="padding-right:10px">
-	<a href="#map1" data-toggle="tab">Our Research Locations
-		<span class="badge padaround" style="margin-left:20px">2</span>
-		<span class="badge badge-important padaround">3</span>
-</a>
-</li>
-<!-- end default-tab-map-item1 -->
