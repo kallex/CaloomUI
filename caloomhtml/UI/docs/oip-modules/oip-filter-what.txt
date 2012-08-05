@@ -1,0 +1,14 @@
+<!-- oip-filter-what.txt -->
+<div class="accordion-group">
+	<div class="accordion-heading">
+		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour">
+			<h3>What</h3>
+		</a>
+	</div>
+	<div id="collapseFour" class="accordion-body collapse in">
+		<div class="accordion-inner">
+			<input type="text" class="search" placeholder="Try 'food'" style="width:180px;">
+		</div>
+	</div>
+</div>
+<!-- end oip-filter-what.txt -->

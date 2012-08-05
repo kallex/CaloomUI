@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php include 'oip-head.txt' ?>
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+<?php include '../oip-modules/oip-navbar-fixed-top.txt' ?>
+
+<!--the container class sets the width of the container and centers it -->
+
+<!-- section -->
+<section id="gridSystem">
+
+<!-- container-fluid -->
+<div id="maps" class="container-fluid">
+	<?php include'../oip-modules/oip-map.txt' ?>
+	<?php include'../oip-modules/oip-zoom-panel.txt' ?>
+	<?php include'../oip-modules/oip-control-panel-new.txt' ?>
+</div>
+<!-- end container-fluid -->
+
+<div id="communication" class="container">
+	<?php include '../oip-modules/oip-explanation.txt' ?>
+	<?php include '../oip-modules/oip-blog.txt' ?>
+</div>
+
+</section><!-- section -->
+
+<!-- default-footer.txt -->
+<div id="bottom" class="container">
+	<?php include'oip-account.txt' ?><!--default-account.txt-->	
+	<?php include'oip-footer.txt' ?><!-- default-footer.txt-->
+</div>
+
+</div><!-- /container -->
+
+<!--Modals-->
+<?php include '../default-modules/default-modals.txt' ?><!--/Modals-->
+
+<!-- Le javascript -->
+<?php include '../default-modules/default-le-javascript.txt' ?><!-- Le javascript -->
+</div>
+
+</body>
+</html>

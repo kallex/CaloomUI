@@ -1,0 +1,28 @@
+<!-- oip-filter-whom.txt -->
+    <div class="accordion-group">
+     <div class="accordion-heading">
+      <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseEight">
+       Whom
+      </a></h3>
+     </div>
+     <div id="collapseEight" class="accordion-body collapse">
+      <div class="accordion-inner">
+       	<div class="control-group">
+		 <label class="control-label" for="inlineCheckboxes">Allow the following to see, share the map </label>
+		 <div class="controls">
+		  	<label class="checkbox inline">
+		   		<input type="checkbox" id="inlineCheckbox1" value="option1"> Partners <br>
+		  	</label>
+			<label class="checkbox inline">
+		   		<input type="checkbox" id="inlineCheckbox2" value="option2"> Anybody <br>
+		  	</label>
+			<label class="checkbox inline">
+		   		<input type="checkbox" id="inlineCheckbox3" value="option3"> Students <br>
+		  	</label>
+		 </div>
+		</div>
+
+      </div>
+     </div>
+    </div>
+<!-- end oip-filter-whom.txt -->
