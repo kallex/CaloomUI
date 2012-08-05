@@ -1,6 +1,7 @@
+<!--default-control-panel-new-->
 <div class="well-white controlpanel">
 <?php include 'default-result-list.txt' ?>
 <?php include 'default-social-map.txt' ?>
 </div>
-
+<!--end default-control-panel-new-->
 <?php include 'default-filter.txt' ?>
