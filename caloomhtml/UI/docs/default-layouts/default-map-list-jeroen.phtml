@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- default-head.txt -->
+<?php include 'default-head.txt' ?><!-- default-head.txt -->
+
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+
+
+<!-- default-navbar-fixed-top.txt -->
+<?php include '../default-modules/default-navbar-fixed-top.txt' ?><!-- default-navbar-fixed-top.txt -->
+
+<!--the container class sets the width of the container and centers it -->
+
+<!-- section -->
+<section id="gridSystem">
+
+<div class="container-fluid">
+<!-- current map -->
+	<div>
+		<?php include'../default-modules/default-map.txt' ?>
+	</div>
+<!-- drop shadow break --><hr class="shadow" id="followmap">
+
+<!-- zoom panel -->
+	<?php include'../default-modules/default-zoom-panel.txt' ?>
+
+<!-- control panel -->
+	<?php include'../default-modules/default-control-panel-new.txt' ?>
+</div><!--End of Container Fluid-->
+
+<div class="container-fluid">
+<!-- maps you follow -->
+<div class="row-fluid">
+	<?php include '../default-modules/default-carousel-maps-you-follow.txt' ?>
+</div>
+
+<!-- drop shadow break --><hr class="shadow" id="about">
+
+<!-- explanation -->
+<div>
+	<?php include '../default-modules/default-explanation.txt' ?>
+</div>
+
+<!-- drop shadow break --><hr class="shadow" id="blog">
+
+<div>
+<?php include '../default-modules/default-blog.txt' ?>
+</div>
+
+</section><!-- section -->
+
+<!-- default-footer.txt -->
+<div class="container-fluid">
+<?php include'default-account.txt' ?><!--default-account.txt-->	
+	
+<?php include'default-footer.txt' ?><!-- default-footer.txt-->
+</div>
+
+</div><!-- /container -->
+
+<!--Modals-->
+<?php include '../default-modules/default-modals.txt' ?><!--/Modals-->
+
+<!-- Le javascript -->
+<?php include '../default-modules/default-le-javascript.txt' ?><!-- Le javascript -->
+</div>
+
+</body>
+</html>

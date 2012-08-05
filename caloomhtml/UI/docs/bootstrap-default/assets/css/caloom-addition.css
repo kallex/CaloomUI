@@ -95,14 +95,10 @@ background-color: #E5E5E5;
   margin-top: 1px;
 }
 
-#blog p {
+p1 {
   font-size: 14px;
   line-height: 18px;
   color: #2a2929;
-}
-#control-panel p {
-	font-size: 12px;
-	padding: 10px;
 }
 
 #map1,#map2,#map3,#map4,#map5 {
