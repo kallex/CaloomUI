@@ -2,4 +2,4 @@
 <?php include 'default-result-list.txt' ?>
 </div>
 
-<?php include '../default-modules/default-filter.txt' ?>
+<?php include 'default-filter.txt' ?>
