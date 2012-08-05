@@ -16,34 +16,17 @@
 <!-- section -->
 <section id="gridSystem">
 
-<div class="container-fluid">	
-	
-	<div class="tabbable">
-		<ul class="nav nav-pills">
-			<li class="active"><a href="#tab1" data-toggle="tab">My Map #1</a></li>
-			<li><a href="#tab2" data-toggle="tab">My Map #2</a></li>
-			<li><a href="#tab3" data-toggle="tab">My Map #3</a></li>
-			<li><a href="#tab4" data-toggle="tab">My Map #4</a></li>
-			<li><a href="#tab5" data-toggle="tab">My Map #5</a></li>
-		</ul>
-		<div class="tab-content">
-			<div class="tab-pane active" id="tab1">
-				<?php include '../default-modules/default-my-map-item1.txt' ?>
-			</div>
-			<div class="tab-pane" id="tab2">
-				<?php include '../default-modules/default-my-map-item2.txt' ?>
-			</div>
-			<div class="tab-pane" id="tab3">
-				<?php include '../default-modules/default-my-map-item3.txt' ?>
-			</div>
-			<div class="tab-pane" id="tab4">
-				<?php include '../default-modules/default-my-map-item4.txt' ?>
-			</div>
-			<div class="tab-pane" id="tab5">
-				<?php include '../default-modules/default-my-map-item5.txt' ?>
-			</div>
-</div><!--end of tab-content-->
-</div><!--end of tabbable -->
+<div class="container-fluid">
+<!-- current map -->
+	<div>
+		<?php include'../default-modules/default-map.txt' ?>
+	</div>
+
+<!-- zoom panel -->
+	<?php include'../default-modules/default-zoom-panel.txt' ?>
+
+<!-- control panel -->
+	<?php include'../default-modules/default-control-panel-new.txt' ?>
 </div><!--End of Container Fluid-->
 
 <div class="container">

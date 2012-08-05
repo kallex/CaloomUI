@@ -1,9 +1,0 @@
-<!-- map #1 -->
-	<div>
-		<?php include'../default-modules/default-map.txt' ?>
-	</div>
-<!-- zoom panel -->
-	<?php include'../default-modules/default-zoom-panel.txt' ?>
-<!-- control panel -->
-	<?php include'../default-modules/default-control-panel-new.txt' ?>
-<!-- map #1 -->
