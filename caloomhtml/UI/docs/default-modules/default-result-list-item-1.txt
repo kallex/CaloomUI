@@ -1,7 +1,7 @@
 <div class="accordion-group">
  <div class="accordion-heading">
   <h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" style="color: #0055CC;">
-   Our Events
+   Events
 	<span class="badge padaround" style="float: right;">2</span>
 	<span class="badge badge-important padaround" style="float: right;">3</span>
   </a></h3>
