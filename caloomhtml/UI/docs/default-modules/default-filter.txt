@@ -1,15 +1,10 @@
-<!--default-filter.txt-->
-<div style="background-color:yellow;margin-top:40px">
-	<!-- section filter-form -->
+<div id="dialog" title="Filter Events">
 	<section id="filter-form">
-		<!-- accordion -->
 		<div class="accordion" id="accordion1">
 			<?php include 'default-filter-what.txt' ?>
 			<?php include 'default-filter-when.txt' ?>
 			<?php include 'default-filter-where.txt' ?>
 			<?php include 'default-filter-worth.txt' ?>
-		</div><!-- end accordion-->
-	</section>
-	<!-- end section filter-form -->
+		</div><!--/accordion-->
+	</section><!--/forms-->
 </div>
-<!--end default-filter.txt-->
