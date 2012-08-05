@@ -7,8 +7,75 @@
 .brand {
 	color: #8ac246;
 }
-
-z/*additions to dahsboard stylsheet*/
+/* Space out sub-sections more
+-------------------------------------------------- */
+/* Jumbotrons
+-------------------------------------------------- */
+/* Masthead (docs home) */
+/* Specific jumbotrons
+------------------------- */
+/* supporting docs pages */
+/* Subnav */
+/* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
+/* Quick links
+-------------------------------------------------- */
+/* Marketing section of Overview
+-------------------------------------------------- */
+/* Footer
+-------------------------------------------------- */
+/* Special grid styles
+-------------------------------------------------- */
+/* Render mini layout previews
+-------------------------------------------------- */
+/* Popover docs
+-------------------------------------------------- */
+/* Download page
+-------------------------------------------------- */
+/* Custom, larger checkbox labels */
+/* Giant download button */
+/* Color swatches on LESS docs page
+-------------------------------------------------- */
+/* Sets the width of the td */
+/* Misc
+-------------------------------------------------- */
+/* Make tables spaced out a bit more */
+/* Example sites showcase */
+/* Remove bottom margin on example forms in wells */
+/* Tighten up spacing */
+/* Fake the :focus state to demo it */
+/* For input sizes, make them display block */
+/* Icons
+------------------------- */
+/* Eaxmples page
+------------------------- */
+/* Responsive table
+------------------------- */
+/* Responsive tests
+------------------------- */
+/* Responsive Docs
+-------------------------------------------------- */
+  /* Reduce padding above jumbotron */
+  /* Change up some type stuff */
+  /* Adjust the jumbotron */
+  /* Masthead (home page jumbotron) */
+  /* Don't space out quick links so much */
+  /* hide the bullets on mobile since our horizontal space is limited */
+ /* center example sites */
+  /* Modal example */
+  /* Remove any padding from the body */
+  /* Jumbotron buttons */
+  /* Subnav */
+  /* Popovers */
+  /* Space out the show-grid examples */
+  /* Unfloat the back to top link in footer */
+  /* Scale down the jumbotron content */
+  /* Remove any padding from the body */
+  /* Scale down the jumbotron content */
+  /* Unfloat brand */
+  /* Inline-block quick links for more spacing */
+/* LARGE DESKTOP SCREENS */
+  /* Update subnav container */
+/*additions to dahsboard stylsheet*/
 .maps .map { 
     width: 40%;
     display: inline-block;
@@ -31,16 +98,16 @@ z/*additions to dahsboard stylsheet*/
 .controlpanel {
 	width:220px;
 	position:absolute;
-	top: 80px;
-	left:20px;
+	top:130px;
+	left:40px;
 	z-index: 1;
 }
 
 .zoompanel {
 	width:220px;
 	position:absolute;
-	top:20px;
-	left:20px;
+	top:80px;
+	left:40px;
 	z-index: 1;
 }
 
@@ -99,8 +166,4 @@ p1 {
   font-size: 14px;
   line-height: 18px;
   color: #2a2929;
-}
-
-#map1,#map2,#map3,#map4,#map5 {
-	position: relative;
 }
