@@ -1,1 +1,1 @@
-<a data-toggle="modal" href="#map-edit" class="btn"  rel="popover" data-content="You are tired of the same map? Change it now and explore or follow other developments, anywhere in the world" data-original-title="Edit this map"><i class="icon-edit icon-black"></i></a>
+<a data-toggle="modal" href="#map-edit" class="btn"  rel="popover" data-content="Only when you are logged in <br><br> You are tired of the same map? Change it now and explore or follow other developments, anywhere in the world" data-original-title="Edit this map"><i class="icon-edit icon-black"></i></a>
