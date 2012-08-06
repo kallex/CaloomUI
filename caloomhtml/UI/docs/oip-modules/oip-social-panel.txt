@@ -1,7 +1,7 @@
 <!-- oip-social-panel.txt -->
-<div class="well-white social-panel">
-	<a class="btn" data-toggle="oip-social-share" href="#myModal" >Share</a>
-	<a class="btn" data-toggle="oip-social-share" href="#myModal" >Save</a>
-	<a class="btn" data-toggle="oip-social-share" href="#myModal" >Follow</a>
+<div class="well-white social-panel" style="background-color:red">
+	<a class="btn" data-toggle="modal" href="#map-share" >Share</a>
+	<a class="btn" data-toggle="modal" href="#map-save" >Save</a>
+	<a class="btn" data-toggle="modal" href="#map-follow" >Follow</a>
 </div>
 <!-- end oip-social-panel.txt -->
