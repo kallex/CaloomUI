@@ -1,0 +1,15 @@
+<!-- oip-edit-modal-map-filter -->
+<div id="edit-add" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">×</button>
+		<h3>Add a New Service</h3>
+	</div>
+	<div class="accordion" id="accordion1">
+		<?php include 'oip-filter-what.txt' ?>
+		<?php include 'oip-filter-when.txt' ?>
+		<?php include 'oip-filter-where.txt' ?>
+		<?php include 'oip-filter-whom.txt' ?>
+		<?php include 'oip-filter-worth.txt' ?>
+	</div>
+</div>
+<!-- end oip-edit-modal-map-filter -->
