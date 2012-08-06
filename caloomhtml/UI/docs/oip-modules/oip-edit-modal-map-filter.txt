@@ -1,16 +1,15 @@
-<!-- oip-filter -->
-<!-- <div id="map-edit" class="modal hide fade"> -->
+<!-- oip-edit-modal-map-filter -->
 <div id="map-edit" class="modal hide fade">
-	 <div class="modal-header">
-	<button class="close" data-dismiss="modal">×</button>
-	<h3>Modal header</h3>
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">×</button>
+		<h3>Modal header</h3>
 	</div>
-	  <div class="accordion" id="accordion1">
-<?php include 'oip-filter-what.txt' ?>
-<?php include 'oip-filter-when.txt' ?>
-<?php include 'oip-filter-where.txt' ?>
-<?php include 'oip-filter-whom.txt' ?>
-<?php include 'oip-filter-worth.txt' ?>
-	   </div><!--/accordion-->
+	<div class="accordion" id="accordion1">
+		<?php include 'oip-filter-what.txt' ?>
+		<?php include 'oip-filter-when.txt' ?>
+		<?php include 'oip-filter-where.txt' ?>
+		<?php include 'oip-filter-whom.txt' ?>
+		<?php include 'oip-filter-worth.txt' ?>
+	</div>
 </div>
-<!-- oip-filter -->
+<!-- end oip-edit-modal-map-filter -->
