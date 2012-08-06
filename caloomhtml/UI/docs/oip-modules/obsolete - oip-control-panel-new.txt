@@ -1,7 +1,0 @@
-<!-- oip-control-panel-new.txt -->
-<div class="well-white controlpanel">
-<?php include 'oip-result-list.txt' ?>
-</div>
-
-<?php include 'oip-filter.txt' ?>
-<!-- end oip-control-panel-new.txt -->
