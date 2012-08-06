@@ -1,0 +1,7 @@
+<!-- oip-edit-panel.txt -->
+<div class="well-white social-panel">
+	<a class="btn" data-toggle="oip-social-share" href="#myModal" >Filter</a>
+	<a class="btn" data-toggle="oip-social-share" href="#map-edit" >Edit</a>
+	<a class="btn" data-toggle="oip-social-share" href="#myModal" >Remove</a>
+</div>
+<!-- end oip-edit-panel.txt -->

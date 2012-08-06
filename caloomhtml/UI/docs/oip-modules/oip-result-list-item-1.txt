@@ -9,8 +9,7 @@
 	</div>
 	<div id="collapseOne" class="accordion-body collapse in">
 		<div class="accordion-inner">
-			<a href="#" id="dialog_link" class="ui-state-default ui-corner-all">
-				<span class="ui-icon ui-icon-newwin"></span>Filter</a>
+				<?php include 'oip-social-panel.txt' ?>
 				<table class="table table-bordered" style="margin-top:10px;">
 					<tbody>
 						<?php include'../oip-atoms/oip-result-list-listing.txt' ?>
@@ -21,6 +20,7 @@
 						<?php include'../oip-atoms/oip-result-list-listing.txt' ?>
 					</tbody>
 				</table>
+				<?php include 'oip-edit-panel.txt' ?>
 			</div>
 		</div>
 	</div>

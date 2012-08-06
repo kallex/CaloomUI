@@ -1,0 +1,7 @@
+<!-- oip-social-panel.txt -->
+<div class="well-white social-panel">
+	<a class="btn" data-toggle="oip-social-share" href="#myModal" >Share</a>
+	<a class="btn" data-toggle="oip-social-share" href="#myModal" >Save</a>
+	<a class="btn" data-toggle="oip-social-share" href="#myModal" >Follow</a>
+</div>
+<!-- end oip-social-panel.txt -->
