@@ -1,1 +1,1 @@
-<a class="btn btn-small" data-toggle="modal" href="#social-print" ><i class="icon-print"></i></a><!-- not yet implemented -->
+<a class="btn btn-small" data-toggle="modal" href="#social-print" rel="tooltip" title="click here to print this map"><i class="icon-print"></i></a><!-- not yet implemented -->

@@ -2,6 +2,6 @@
 <?php include'../oip-atoms/oip-social-follow.txt' ?>
 <?php include'../oip-atoms/oip-social-followers.txt' ?>
 <?php include'../oip-atoms/oip-social-share.txt' ?>
-<?php include'../oip-atoms/oip-social-save.txt' ?>
+<?php include'../oip-atoms/oip-social-download.txt' ?>
 <?php include'../oip-atoms/oip-social-print.txt' ?>
 <!-- end oip-social-panel.txt -->

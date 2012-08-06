@@ -1,1 +1,1 @@
-<a class="btn btn-small" data-toggle="modal" href="#social-follow" ><i class="icon-magnet"></i></a>
+<a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="tooltip" title="follow this map and get updates instantly"><i class="icon-magnet"></i></a>

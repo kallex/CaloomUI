@@ -1,7 +1,0 @@
-<!-- oip-result-list.txt -->
-<div class="accordion" id="accordion2">
-	<?php include 'oip-result-list-item-1.txt' ?>
-	<?php include 'oip-result-list-item-2.txt' ?>
-	<?php include 'oip-result-list-item-3.txt' ?>
-</div>
-<!-- end oip-result-list.txt -->

@@ -1,1 +1,1 @@
-<a class="btn btn-small" data-toggle="modal" href="#social-share" ><i class="icon-share"></i></a>
+<a class="btn btn-small" data-toggle="modal" href="#social-share" rel="tooltip" title="recommend and share this map to others"><i class="icon-share"></i></a>

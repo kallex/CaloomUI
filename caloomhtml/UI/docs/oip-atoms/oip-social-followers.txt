@@ -1,1 +1,1 @@
-<a class="btn btn-small" data-toggle="modal" href="#social-followers" ><i class="icon-magnet"></i></a>
+<a class="btn btn-small" data-toggle="modal" href="#social-followers" rel="tooltip" title="see who else is following this map"><i class="icon-magnet"></i></a>

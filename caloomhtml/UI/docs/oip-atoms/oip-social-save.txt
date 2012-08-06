@@ -1,1 +1,0 @@
-<a class="btn btn-small" data-toggle="modal" href="#social-share" ><i class="icon-download"></i></a>

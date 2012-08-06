@@ -1,5 +1,9 @@
 <!-- oip-control-panel.txt -->
 <div class="well-white controlpanel" style="background: rgba(255, 255, 255, 0.6);">
-<?php include 'oip-result-list.txt' ?>
+	<div class="accordion" id="accordion2">
+		<?php include 'oip-result-list-service-1.txt' ?>
+		<?php include 'oip-result-list-service-2.txt' ?>
+		<?php include 'oip-result-list-service-3.txt' ?>
+	</div>
 </div>
 <!-- end oip-control-panel.txt -->
