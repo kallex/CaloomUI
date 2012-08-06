@@ -1,1 +1,1 @@
-<a class="btn btn-small" data-toggle="modal" href="#edit-service" ><i class="icon-edit"></i></a>
+<a class="btn btn-small" data-toggle="modal" href="#edit-service"  rel="tooltip" title="edit the service and map -- oip-edit-service.txt"><i class="icon-wrench"></i></a>

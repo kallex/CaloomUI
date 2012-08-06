@@ -1,1 +1,1 @@
-<a class="btn btn-small" data-toggle="modal" href="#edit-filter"><i class="icon-filter"></i></a>
+<a class="btn btn-small" data-toggle="modal" href="#edit-filter" rel="tooltip" title="fine tune the results on this map -- oip-edit-filter.txt"><i class="icon-filter"></i></a>

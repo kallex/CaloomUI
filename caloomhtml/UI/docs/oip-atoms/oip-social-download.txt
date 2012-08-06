@@ -1,1 +1,1 @@
-<a class="btn btn-small" data-toggle="modal" href="#map-save" rel="tooltip" title="download this map in various forms to your computer or phone"><i class="icon-download"></i></a>
+<a class="btn btn-small" data-toggle="modal" href="#map-save" rel="tooltip" title="download this map in various forms to your computer or phone -- oip-social-follow.txt"><i class="icon-download"></i></a>

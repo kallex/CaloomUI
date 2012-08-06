@@ -1,1 +1,1 @@
-<a class="btn btn-small" data-toggle="modal" href="#edit-access" ><i class="icon-access"></i></a>
+<a class="btn btn-small" data-toggle="modal" href="#edit-access"  rel="tooltip" title="define here who can see this map -- oip-edit-access.txt"><i class="icon-user"></i></a>
