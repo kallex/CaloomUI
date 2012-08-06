@@ -1,4 +1,6 @@
+<!-- oip-zoom-panel.txt -->
 <div class="well-white zoompanel" style="width:auto; background: rgba(255, 255, 255, 0.6);"><!-- a quick hack to minimize the div -->
-		<a href="#" class="btn btn-mini btn-inverse"><i class="icon-white icon-zoom-in"></i></a>
-		<a href="#" class="btn btn-mini btn-inverse"><i class="icon-white icon-zoom-out"></i></a>
+<?php include'../oip-atoms/oip-zoom-in.txt' ?>
+<?php include'../oip-atoms/oip-zoom-out.txt' ?>
 </div>
+<!-- end oip-zoom-panel.txt -->

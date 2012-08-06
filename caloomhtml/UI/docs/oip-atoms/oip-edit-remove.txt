@@ -1,0 +1,1 @@
+<a class="btn btn-small" data-toggle="modal" href="#edit-remove" ><i class="icon-remove"></i></a>

@@ -1,15 +1,17 @@
 <!-- oip-modals.txt -->
 <!-- oip social modals -->
-<?php include 'oip-modal-map-share.txt' ?>
-<?php include 'oip-modal-map-save.txt' ?>
-<?php include 'oip-modal-map-follow.txt' ?>
-<?php include 'oip-modal-map-followers.txt' ?>
+<?php include 'oip-modal-social-share.txt' ?>
+<?php include 'oip-modal-social-save.txt' ?>
+<?php include 'oip-modal-social-follow.txt' ?>
+<?php include 'oip-modal-social-followers.txt' ?>
+<?php include 'oip-modal-social-print.txt' ?>
 <!-- end oip social models -->
 
 <!-- oip edit models -->
-<?php include 'oip-modal-map-filter.txt' ?>
-<?php include 'oip-modal-map-edit.txt' ?>
-<?php include 'oip-modal-map-remove.txt' ?>
+<?php include 'oip-modal-edit-filter.txt' ?>
+<?php include 'oip-modal-edit-service.txt' ?>
+<?php include 'oip-modal-edit-access.txt' ?>
+<?php include 'oip-modal-edit-remove.txt' ?>
 <!-- end oip edit models -->
 
 <!-- older modals and working -->

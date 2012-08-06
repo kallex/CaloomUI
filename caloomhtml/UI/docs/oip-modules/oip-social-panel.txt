@@ -1,6 +1,7 @@
 <!-- oip-social-panel.txt -->
-	<a class="btn btn-small" data-toggle="modal" href="#map-share" ><i class="icon-share"></i></a>
-	<a class="btn btn-small" data-toggle="modal" href="#map-print" ><i class="icon-print"></i></a><!-- not yet implemented -->
-	<a class="btn btn-small" data-toggle="modal" href="#map-save" ><i class="icon-download"></i></a>
-	<a class="btn btn-small" data-toggle="modal" href="#map-follow" ><i class="icon-magnet"></i></a>
+<?php include'../oip-atoms/oip-social-follow.txt' ?>
+<?php include'../oip-atoms/oip-social-followers.txt' ?>
+<?php include'../oip-atoms/oip-social-share.txt' ?>
+<?php include'../oip-atoms/oip-social-save.txt' ?>
+<?php include'../oip-atoms/oip-social-print.txt' ?>
 <!-- end oip-social-panel.txt -->

@@ -1,5 +1,6 @@
 <!-- oip-edit-panel.txt -->
-	<a class="btn btn-small" data-toggle="modal" href="#map-filter" ><i class="icon-filter"></i></a><!-- oip-modal-map-filter.txt -->
-	<a class="btn btn-small" data-toggle="modal" href="#map-edit" ><i class="icon-edit"></i></a><!-- oip-modal-map-edit.txt -->
-	<a class="btn btn-small" data-toggle="modal" href="#map-remove" ><i class="icon-remove"></i></a><!-- oip-modal-map-remove.txt -->
+<?php include'../oip-atoms/oip-edit-filter.txt' ?>
+<?php include'../oip-atoms/oip-edit-service.txt' ?>
+<?php include'../oip-atoms/oip-edit-access.txt' ?>
+<?php include'../oip-atoms/oip-edit-remove.txt' ?>
 <!-- end oip-edit-panel.txt -->

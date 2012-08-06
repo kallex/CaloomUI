@@ -1,0 +1,1 @@
+<a class="btn btn-small" data-toggle="modal" href="#edit-filter"><i class="icon-filter"></i></a>
