@@ -1,7 +1,5 @@
 <!-- oip-edit-panel.txt -->
-<div class="well-white social-panel" style="background-color:yellow">
-	<a class="btn" data-toggle="modal" href="#map-filter" >Filter</a><!-- oip-modal-map-filter.txt -->
-	<a class="btn" data-toggle="modal" href="#map-edit" >Edit</a><!-- oip-modal-map-edit.txt -->
-	<a class="btn" data-toggle="modal" href="#map-remove" >Remove</a><!-- oip-modal-map-remove.txt -->
-</div>
+	<a class="btn btn-small" data-toggle="modal" href="#map-filter" ><i class="icon-filter"></i></a><!-- oip-modal-map-filter.txt -->
+	<a class="btn btn-small" data-toggle="modal" href="#map-edit" ><i class="icon-edit"></i></a><!-- oip-modal-map-edit.txt -->
+	<a class="btn btn-small" data-toggle="modal" href="#map-remove" ><i class="icon-remove"></i></a><!-- oip-modal-map-remove.txt -->
 <!-- end oip-edit-panel.txt -->
