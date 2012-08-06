@@ -1,5 +1,5 @@
 <!-- oip-result-list-item-2.txt -->
-<div class="accordion-group">
+<div class="accordion-group" style="background: rgba(255, 255, 255, 0.6);">
 	<div class="accordion-heading">
 		<h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo" style="color: #F89406;">
 			Service

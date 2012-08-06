@@ -1,5 +1,5 @@
 <!-- oip-result-list-item-1.txt -->
-<div class="accordion-group">
+<div class="accordion-group" style="background: rgba(255, 255, 255, 1);">
 	<div class="accordion-heading">
 		<h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" style="color: #0055CC;">
 			Events

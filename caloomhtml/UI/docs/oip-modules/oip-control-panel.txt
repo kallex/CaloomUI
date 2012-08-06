@@ -1,5 +1,5 @@
 <!-- oip-control-panel.txt -->
-<div class="well-white controlpanel">
+<div class="well-white controlpanel" style="background: rgba(255, 255, 255, 0.6);">
 <?php include 'oip-result-list.txt' ?>
 </div>
 <!-- end oip-control-panel.txt -->
