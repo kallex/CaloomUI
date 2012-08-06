@@ -1,0 +1,32 @@
+<div id="map-save" class="modal hide fade">
+ <div class="modal-header">
+  <button class="close" data-dismiss="modal">&times;</button>
+  <h3>Share your map with others</h3>
+ </div>
+<div class="modal-body">
+	<table class="table table-bordered table-striped">
+		<tbody>
+			<tr>
+				<td class="span2">Twtter</td>
+				<td>0</td>
+				<td class="swatch-col"><span class="swatch" style="background-color: #ed5959;"></span></td>
+			</tr>
+			<tr>
+				<td>Facebook</td>
+				<td>4</td>
+				<td><span class="swatch" style="background-color: #6f6f65;"></span></td>
+			</tr>
+			<tr>
+				<td>LinkedIn</td>
+				<td>4</td>
+				<td><span class="swatch" style="background-color: #6f6f65;"></span></td>
+			</tr>
+			<tr>
+				<td>email</td>
+				<td>4</td>
+				<td><span class="swatch" style="background-color: #6f6f65;"></span></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>

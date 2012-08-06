@@ -1,5 +1,19 @@
 <!-- oip-edit-panel.txt -->
 <div class="well-white social-panel">
+	
+	<p><!-- a row of modals for who is following this map and sharing functionality -->
+		<!-- module default-followers-table -->
+		<?php include'oip-modal-map-followers.txt' ?>
+		<!-- module default-followers-table -->
+		<!-- module default-followers-table -->
+		<?php include'oip-modal-map-share-1.txt' ?>
+		<!-- module default-followers-table -->
+		<!-- module default-edit-followed-map -->
+		<?php include'oip-modal-map-edit-1.txt' ?>
+		<!-- module default-edit-followed-map -->
+	</p>
+	
+	
 	<a class="btn" data-toggle="oip-social-share" href="#myModal" >Filter</a>
 	<a class="btn" data-toggle="oip-social-share" href="#map-edit" >Edit</a>
 	<a class="btn" data-toggle="oip-social-share" href="#myModal" >Remove</a>
