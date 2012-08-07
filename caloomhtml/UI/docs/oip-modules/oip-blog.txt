@@ -1,13 +1,12 @@
 <!-- oip-blog.txt -->
-<div class="marketing">
+<div id="blog" class="marketing">
 	<h1>Blog</h1>
 	<p class="marketing-byline">Share, co-create, collaborate, plan events? Look no further.</p>
-</div>
-<div class="container">
-	<div class="row">
+<div class="row-fluid">
 
 <div class="span2">
 	<h3>list of previous blogs</h3>
+	<a href="#" rel="tooltip" title="first tooltip">hover over me</a>
 	<ul>
 		<li>blog post 10</li>
 		<li>blog post 10</li>
