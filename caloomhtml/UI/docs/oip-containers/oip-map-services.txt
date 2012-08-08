@@ -1,11 +1,12 @@
 <!-- oip-map-services.txt -->
 <div style="position:relative">
 <ul class="nav nav-tabs" style="margin-bottom:0px">
-<li><a href="#tab-events" data-toggle="tab">Events</a></li>
+<li class="active"><a href="#tab-events" data-toggle="tab">Events</a></li>
 <li><a href="#tab-courses" data-toggle="tab">Courses</a></li>
 <li><a href="#tab-meetings" data-toggle="tab">Meetings</a></li>
 <li><a href="#tab-projects" data-toggle="tab">Projects</a></li>
 <li><a href="#tab-research" data-toggle="tab">Research</a></li>
+<li><a href="#tab-add" data-toggle="tab"><i>Add another service</i></a></li>
 </ul>
 
 <div class="tab-content">
@@ -15,12 +16,7 @@
 <div class="tab-pane" id="tab-projects"><?php include'../oip-modules/oip-map-projects.txt' ?></div>
 <div class="tab-pane" id="tab-research"><?php include'../oip-modules/oip-map-research.txt' ?></div>
 </div>
- 
-<script>
-$(function () {
-$('#myTab a:last').tab('show');
-})
-</script>
+
 <!-- zoom and control panels -->
 <div style="position:absolute;left:10px;top:46px;width:auto; padding:5px; background: rgba(255, 255, 255, 0.6);"><!-- a quick hack to minimize the div -->
 <?php include'../oip-modules/oip-zoom-panel.txt' ?>
