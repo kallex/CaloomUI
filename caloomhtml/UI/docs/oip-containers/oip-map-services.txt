@@ -1,11 +1,11 @@
 <!-- oip-map-services.txt -->
 <div style="position:relative">
 <ul class="nav nav-tabs" style="margin-bottom:0px">
-<li class="active"><a href="#tab-events" data-toggle="tab">Events</a></li>
-<li><a href="#tab-courses" data-toggle="tab">Courses</a></li>
-<li><a href="#tab-meetings" data-toggle="tab">Meetings</a></li>
-<li><a href="#tab-projects" data-toggle="tab">Projects</a></li>
-<li><a href="#tab-research" data-toggle="tab">Research</a></li>
+<li class="active"><a href="#tab-events" data-toggle="tab">Europe Events</a></li>
+<li><a href="#tab-courses" data-toggle="tab">South America Courses</a></li>
+<li><a href="#tab-meetings" data-toggle="tab">Asia Meetings</a></li>
+<li><a href="#tab-projects" data-toggle="tab">Africa Projects</a></li>
+<li><a href="#tab-research" data-toggle="tab">Nordic Research</a></li>
 <li><a href="#tab-add" data-toggle="tab"><i>Add another service</i></a></li>
 </ul>
 
