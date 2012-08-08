@@ -1,1 +1,3 @@
+<!-- oip-edit-information.txt -->
 <a class="btn" data-toggle="modal" href="#edit-information" rel="tooltip" title="edit this information -- oip-edit-informatopn.txt"><i class="icon-plus"></i></a>
+<!-- end oip-edit-information.txt -->

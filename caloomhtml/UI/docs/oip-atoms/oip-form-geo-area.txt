@@ -1,0 +1,5 @@
+<!-- oip-form-geo-ara.txt -->
+<div class="control-group">
+	<!-- is reserved for geo location functionality -->
+</div>
+<!-- end oip-form-geo-ara.txt -->

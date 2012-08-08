@@ -1,0 +1,12 @@
+<!-- oip-form-modal-listing.txt -->
+<div class="control-group">
+	<label class="control-label" for="multiSelect">Relationships</label>
+	<div class="controls">
+		<a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt">Blog Posts</a>
+		<a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt">Map Content</a>
+		<a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt">Calendar Events</a>
+		<a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt">Meetings</a>
+		<a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt">Others</a>
+	</div>
+</div>
+<!-- end oip-form-modal-listing.txt -->

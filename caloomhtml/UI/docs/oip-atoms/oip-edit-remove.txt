@@ -1,1 +1,3 @@
+<!-- oip-edit-remove.txt -->
 <a class="btn btn-small btn-danger" data-toggle="modal" href="#edit-remove" rel="tooltip" title="remove this map and service -- oip-edit-remove.txt" ><i class="icon-remove icon-white"></i></a>
+<!-- end oip-edit-remove.txt -->

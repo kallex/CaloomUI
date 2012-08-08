@@ -4,7 +4,7 @@
 <!-- oip control modals -->
 
 <?php include 'oip-modal-edit-information.txt' ?>
-
+<?php include 'oip-modal-edit-access.txt' ?>
 
 <!-- oip social modals -->
 <?php include 'oip-modal-social-share.txt' ?>

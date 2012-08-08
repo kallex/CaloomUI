@@ -1,1 +1,3 @@
+<!-- oip-edit-add.txt -->
 <a class="btn" data-toggle="modal" href="#edit-add" rel="tooltip" title="add a new service(map) to this group -- oip-edit-add.txt"><i class="icon-plus"></i></a>
+<!-- oip-edit-add.txt -->

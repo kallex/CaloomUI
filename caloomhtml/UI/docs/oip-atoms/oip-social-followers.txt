@@ -1,1 +1,3 @@
+<!-- oip-social-followers.txt -->
 <a class="btn btn-small" data-toggle="modal" href="#social-followers" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt"><i class="icon-magnet"></i></a>
+<!-- end oip-social-followers.txt -->

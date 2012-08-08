@@ -1,0 +1,8 @@
+<!-- oip-form-text-input.txt -->
+<div class="control-group">
+	<label class="control-label" for="input01">Title</label>
+	<div class="controls">
+		<input class="input-xlarge" id="input01" type="text" value="Built for anybody">
+	</div>
+</div>
+<!-- end oip-form-text-input.txt -->

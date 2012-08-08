@@ -1,2 +1,3 @@
+<!-- oip-information.txt -->
 <a href="#control-panel-events" data-toggle="modal" class="btn btn-mini btn-inverse"><i class="icon-white icon-question-sign"></i></a>
-
+<!-- end oip-information.txt -->

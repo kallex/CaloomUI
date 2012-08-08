@@ -1,1 +1,3 @@
+<!-- oip-zoom-in.txt -->
 <a href="#" class="btn btn-mini btn-inverse"><i class="icon-white icon-zoom-in"></i></a>
+<!-- end oip-zoom-in.txt -->

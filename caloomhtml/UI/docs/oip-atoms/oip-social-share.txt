@@ -1,1 +1,3 @@
+<!-- oip-social-share.txt -->
 <a class="btn btn-small" data-toggle="modal" href="#social-share" rel="tooltip" title="recommend and share this map to others -- oip-social-share.txt"><i class="icon-share"></i></a>
+<!-- end oip-social-share.txt -->

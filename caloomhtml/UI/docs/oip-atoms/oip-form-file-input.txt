@@ -1,0 +1,9 @@
+<!-- oip-form-form-file-input.txt -->
+<div class="control-group">
+	<span style="position:relative;float:left"><img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_042_group.png"></span>
+	<label class="control-label" for="fileInput">Replace icon</label>
+	<div class="controls">
+		<input class="input-file" id="fileInput" type="file">
+	</div>
+</div>
+<!-- end oip-form-form-file-input.txt -->

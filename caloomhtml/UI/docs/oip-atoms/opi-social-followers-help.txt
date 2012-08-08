@@ -1,1 +1,3 @@
+<!-- oip-social-followers-help.txt -->
 <a data-toggle="modal" href="#social-followers" class="btn" rel="popover" data-content="Click here to see who follows this map" data-original-title="This map's followers"><i class="icon-user"></i></a>
+<!-- end oip-social-followers-help.txt -->
