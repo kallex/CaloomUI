@@ -1,7 +1,7 @@
-<!-- oip-account.txt -->
-<div id="account" class="marketing">
-	<h1>Your Account summary</h1>
-	<p class="marketing-byline">Below you can find the most common settings and pieces of account information.</p>
+<!-- oip-explanation.txt -->
+<div id="about" class="marketing">
+	<h1>About Aalto Global Impact Applications.</h1>
+	<p class="marketing-byline">Share, co-create, collaborate, plan events? Look no further.</p>
 	<div class="row-fluid">
 		<div class="span4">
 			<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_042_group.png">
@@ -37,4 +37,4 @@
 		</div>
 	</div><!--end row-->
 </div>
-<!-- end oip-account.txt -->
+<!-- end oip-explanation.txt -->
