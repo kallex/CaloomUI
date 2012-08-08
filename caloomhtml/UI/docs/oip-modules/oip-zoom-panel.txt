@@ -1,5 +1,5 @@
 <!-- oip-zoom-panel.txt -->
-<div class="well-white zoompanel" style="width:auto; background: rgba(255, 255, 255, 0.6);"><!-- a quick hack to minimize the div -->
+<div class="well-white zoompanel" style="top:110px; width:auto; background: rgba(255, 255, 255, 0.6);"><!-- a quick hack to minimize the div -->
 <?php include'../oip-atoms/oip-zoom-in.txt' ?>
 <?php include'../oip-atoms/oip-zoom-out.txt' ?>
 </div>

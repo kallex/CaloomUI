@@ -1,1 +1,1 @@
-<a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="popover" data-content="View people who are following this map" data-original-title="Followed" style="margin-right: 4px;"><i class="icon-eye-open"></i></a>
+<a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt"><i class="icon-eye-open"></i></a>

@@ -1,0 +1,18 @@
+<!-- map-services.txt -->
+<div>
+<ul class="nav nav-tabs" style="margin-bottom:0px">
+<li><a href="#control-panel-1" data-toggle="modal">Modal1</a></li>
+<li><a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt"><i class="icon-eye-open"></i></a>
+</li>
+<li><a href="#messages" data-toggle="modal">Messages</a></li>
+<li><a href="#settings" data-toggle="modal">Settings</a></li>
+</ul>
+<?php include'../oip-modules/oip-map.txt' ?>
+<div>
+
+<?php include'../oip-modules/oip-zoom-panel.txt' ?>
+<!--include'../oip-modules/oip-control-panel.txt' -->
+</div>
+</div>
+<!-- end map-services.txt -->
+

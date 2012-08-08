@@ -1,4 +1,8 @@
 <!-- oip-modals.txt -->
+<!-- oip control modals -->
+<?php include 'oip-modal-control-panel-events.txt' ?>
+<!-- oip control modals -->
+
 <!-- oip social modals -->
 <?php include 'oip-modal-social-share.txt' ?>
 <?php include 'oip-modal-social-save.txt' ?>
