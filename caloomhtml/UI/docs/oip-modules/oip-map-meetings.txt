@@ -1,0 +1,6 @@
+<!-- oip-map.txt -->
+<div style="margin-top:0px">
+	<img class="mapbackground" src="../oip-images/placeholder/asia.png" width="100%" height="600" alt="Asia / Meetings">
+<!-- custom height for display in the examples only -->
+</div>
+<!-- end oip-map.txt -->

@@ -1,18 +1,32 @@
-<!-- map-services.txt -->
-<div>
+<!-- oip-map-services.txt -->
+<div style="position:relative">
 <ul class="nav nav-tabs" style="margin-bottom:0px">
-<li><a href="#control-panel-events" data-toggle="modal">Events</a></li>
-<li><a href="#control-panel-courses" data-toggle="modal">Courses</a></li>
-<li><a href="#control-panel-meetings" data-toggle="modal">Meetings</a></li>
-<li><a href="#control-panel-projects" data-toggle="modal">Projects</a></li>
-<li><a href="#control-panel-Research" data-toggle="modal">Research</a></li>
+<li><a href="#tab-events" data-toggle="tab">Events</a></li>
+<li><a href="#tab-courses" data-toggle="tab">Courses</a></li>
+<li><a href="#tab-meetings" data-toggle="tab">Meetings</a></li>
+<li><a href="#tab-projects" data-toggle="tab">Projects</a></li>
+<li><a href="#tab-research" data-toggle="tab">Research</a></li>
 </ul>
-<?php include'../oip-modules/oip-map.txt' ?>
-<div>
 
+<div class="tab-content">
+<div class="tab-pane active" id="tab-events"><?php include'../oip-modules/oip-map-events.txt' ?></div>
+<div class="tab-pane" id="tab-courses"><?php include'../oip-modules/oip-map-courses.txt' ?></div>
+<div class="tab-pane" id="tab-meetings"><?php include'../oip-modules/oip-map-meetings.txt' ?></div>
+<div class="tab-pane" id="tab-projects"><?php include'../oip-modules/oip-map-projects.txt' ?></div>
+<div class="tab-pane" id="tab-research"><?php include'../oip-modules/oip-map-research.txt' ?></div>
+</div>
+ 
+<script>
+$(function () {
+$('#myTab a:last').tab('show');
+})
+</script>
+<!-- zoom and control panels -->
+<div style="position:absolute;left:10px;top:46px;width:auto; padding:5px; background: rgba(255, 255, 255, 0.6);"><!-- a quick hack to minimize the div -->
 <?php include'../oip-modules/oip-zoom-panel.txt' ?>
-<!--include'../oip-modules/oip-control-panel.txt' -->
+<?php include'../oip-modules/oip-control-panel.txt' ?>
 </div>
+<!-- end zoom and control panels -->
 </div>
-<!-- end map-services.txt -->
+<!-- end oip-map-services.txt -->
 

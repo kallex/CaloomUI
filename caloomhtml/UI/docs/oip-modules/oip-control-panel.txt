@@ -1,0 +1,3 @@
+<!-- oip-control-panel.txt -->
+<?php include'../oip-atoms/oip-information.txt' ?>
+<!-- end oip-control-panel.txt -->
