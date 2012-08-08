@@ -1,8 +1,8 @@
 <!-- oip-modal-control-panel.txt -->
-<div id="control-panel-1" class="modal hide fade">
+<div id="control-panel-research" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button>
-		<h3>Our Events</h3>
+		<h3>Our Research</h3>
 	</div>
 	<div class="modal-body">
 		<?php include 'oip-result-list-service-1.txt' ?>

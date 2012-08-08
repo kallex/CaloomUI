@@ -1,11 +1,11 @@
 <!-- map-services.txt -->
 <div>
 <ul class="nav nav-tabs" style="margin-bottom:0px">
-<li><a href="#control-panel-1" data-toggle="modal">Modal1</a></li>
-<li><a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt"><i class="icon-eye-open"></i></a>
-</li>
-<li><a href="#messages" data-toggle="modal">Messages</a></li>
-<li><a href="#settings" data-toggle="modal">Settings</a></li>
+<li><a href="#control-panel-events" data-toggle="modal">Events</a></li>
+<li><a href="#control-panel-courses" data-toggle="modal">Courses</a></li>
+<li><a href="#control-panel-meetings" data-toggle="modal">Meetings</a></li>
+<li><a href="#control-panel-projects" data-toggle="modal">Projects</a></li>
+<li><a href="#control-panel-Research" data-toggle="modal">Research</a></li>
 </ul>
 <?php include'../oip-modules/oip-map.txt' ?>
 <div>
