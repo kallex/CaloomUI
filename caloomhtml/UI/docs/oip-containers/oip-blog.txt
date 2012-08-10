@@ -6,7 +6,22 @@
 
 <div class="row-fluid">
 	<div class="span2">
-		<h3>list of previous blogs</h3>
+		<h3>Latest blogs</h3>
+		<a href="#" rel="tooltip" title="first tooltip">hover over me</a>
+		<ul>
+			<li>blog post 10</li>
+			<li>blog post 10</li>
+			<li>blog post 10</li>
+			<li>blog post 10</li>
+			<li>blog post 10</li>
+			<li>blog post 10</li>
+			<li>blog post 10</li>
+			<li>blog post 10</li>
+			<li>blog post 10</li>
+			<li>blog post 10</li>
+			<li>blog post 10</li>
+		</ul>
+		<h3>video blogs</h3>
 		<a href="#" rel="tooltip" title="first tooltip">hover over me</a>
 		<ul>
 			<li>blog post 10</li>
@@ -34,7 +49,7 @@
 		<p><a href="#">Read more...</a></p>
 	</div>
 
-	<div class="span3 padmore"><!-- permanent promotion column -->
+	<div class="span3"><!-- permanent promotion column -->
 		<div class="pitch"><a href="/" class="brand">
 			<img src="../images/ui/AGI_Logo_black_90px.png" alt="AGI" width="45" height="20" margin="10px"></a>
 			<hr class="hr-big">
