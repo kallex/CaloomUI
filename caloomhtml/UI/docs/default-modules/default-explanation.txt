@@ -5,7 +5,10 @@
 	<div class="span4">
 		<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_042_group.png">
 		<h2>Built for anybody</h2>
+		<h2>[!ATOM]title-text instance:xb0 type:OIP.TitleText[ATOM!]</h2>
 		<p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
+		<p>[!ATOM]description-text instance:xb1 type:OIP.DescriptionText[ATOM!]</p>
+
 	</div>
 	<div class="span4">
 		<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png">
