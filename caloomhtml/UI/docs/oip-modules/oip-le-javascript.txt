@@ -14,31 +14,30 @@
 <script src="../bootstrap-default/assets/js/bootstrap-collapse.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-carousel.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-typeahead.js"></script>
-<script src="../bootstrap-default/assets/js/application.js"></script>
-<script src="../bootstrap-default/assets/js/jquery.jdpicker.js"></script>
-<script src="../bootstrap-examples/assets/js/jquery.js"></script>
+<!--<script src="../bootstrap-default/assets/js/application.js"></script>-->
+<!-- <script src="../bootstrap-default/assets/js/jquery.jdpicker.js"></script> ->
 
-<!-- Extra Scripts from jQuery UI -->
+<!-- Extra Scripts from jQuery UI
 <script type="text/javascript" src="../jquery-ui/js/jquery-1.6.2.min.js"></script>
 <script type="text/javascript" src="../jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
 <script type="text/javascript" src="../jquery-ui/third-party/jQuery-UI-Date-Range-Picker/js/date.js"></script>
-<script type="text/javascript" src="../jquery-ui/third-party/jQuery-UI-Date-Range-Picker/js/daterangepicker.jQuery.js"></script>
+<script type="text/javascript" src="../jquery-ui/third-party/jQuery-UI-Date-Range-Picker/js/daterangepicker.jQuery.js"></script> -->
 
-<!--wijmo-->
+<!--wijmo
 <script src="../jquery-ui/third-party/wijmo/jquery.mousewheel.min.js" type="text/javascript"></script>
 <script src="../jquery-ui/third-party/wijmo/jquery.bgiframe-2.1.3-pre.js" type="text/javascript"></script>
-<script src="../jquery-ui/third-party/wijmo/jquery.wijmo-open.1.5.0.min.js" type="text/javascript"></script>
+<script src="../jquery-ui/third-party/wijmo/jquery.wijmo-open.1.5.0.min.js" type="text/javascript"></script>-->
 
-<!-- FileInput -->
+<!-- FileInput
 <script src="../jquery-ui/third-party/jQuery-UI-FileInput/js/enhance.min.js" type="text/javascript"></script>
 <script src="../jquery-ui/third-party/jQuery-UI-FileInput/js/fileinput.jquery.js" type="text/javascript"></script>
-
-<!--init for this page-->
+ -->
+<!--init for this page
 <script type="text/javascript" src="../jquery-ui/js/demo.js"></script>
-<script src="../third-party/js/ui.js" type="text/javascript" charset="utf-8"></script>
+<script src="../third-party/js/ui.js" type="text/javascript" charset="utf-8"></script>-->
 
 <!-- calendar -->
-<script src="ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js" type="text/javascript"></script>
+<!--<script src="ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js" type="text/javascript"></script>-->
 <script src="../third-party/js/ui.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- Extra Scripts from jQuery UI -->

@@ -13,10 +13,11 @@
   <link href="../bootstrap-default/assets/css/dashboard.css" rel="stylesheet">
   <link href="../bootstrap-default/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
   <link href="../bootstrap-default/assets/css/caloom-addition.css" rel="stylesheet">
-  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">
+<!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
   <!--Extra Styles from jQuery UI-->
-  <link href="../third-party/jquery-ui/css/demo.css" rel="stylesheet">
-  <link href="../third-party/jquery-ui/css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet">
+<!--  <link href="../third-party/jquery-ui/css/demo.css" rel="stylesheet">
+  <link href="../third-party/jquery-ui/css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet"> -->
+
 <!-- calendar -->
 	<link rel="stylesheet" href="../third-party/css/doc.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
