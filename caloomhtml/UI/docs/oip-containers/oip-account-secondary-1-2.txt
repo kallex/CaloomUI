@@ -1,0 +1,31 @@
+<!-- oip-account.txt -->
+<section id="responsive">
+  <div class="page-header">
+    <h1>Responsive design <small>Media queries for various devices and resolutions</small></h1>
+  </div>
+  <!-- Supported devices -->
+  <div class="row">
+<!-- sidebar secondary -->
+    <div class="span4 secondary-sidebar" style="background-color: #BBD8E9;">
+      <p><img src="http://localhost:8888/bootstrap-default/assets/img/responsive-illustrations.png" alt="Responsive devices new"></p>
+      <h3>What they do</h3>
+      <p>Media queries allow for custom CSS based on a number of conditions&mdash;ratios, widths, display type, etc&mdash;but usually focuses around <code>min-width</code> and <code>max-width</code>.</p>
+      <ul>
+        <li>Modify the width of column in our grid</li>
+        <li>Stack elements instead of float wherever necessary</li>
+        <li>Resize headings and text to be more appropriate for devices</li>
+      </ul>
+      <p>Use media queries responsibly and only as a start to your mobile audiences. For larger projects, do consider dedicated code bases and not layers of media queries.</p>
+    </div>
+<!-- end sidebar secondary-sidebar -->
+
+<!-- body 2 -->
+    <div class="span8 secondary-body">
+	<?php include 'oip-about-header.txt' ?>
+	<?php include 'oip-about-body.txt' ?>
+	<?php include 'oip-about-footer.txt' ?>
+    </div>
+<!-- end secondary-body -->
+  </div>
+<!-- end row -->
+<!-- end oip-account.txt -->

@@ -1,6 +1,70 @@
 <!-- oip-account.txt -->
-<div id="account" class="marketing">
-	<h1>Your Account summary</h1>
-	Account Summary
-</div>
+<!-- Responsive design
+================================================== -->
+<section id="responsive">
+  <div class="page-header">
+    <h1>Responsive design <small>Media queries for various devices and resolutions</small></h1>
+  </div>
+  <!-- Supported devices -->
+  <div class="row">
+    <div class="span4">
+      <p><img src="assets/img/responsive-illustrations.png" alt="Responsive devices"></p>
+      <h3>What they do</h3>
+      <p>Media queries allow for custom CSS based on a number of conditions&mdash;ratios, widths, display type, etc&mdash;but usually focuses around <code>min-width</code> and <code>max-width</code>.</p>
+      <ul>
+        <li>Modify the width of column in our grid</li>
+        <li>Stack elements instead of float wherever necessary</li>
+        <li>Resize headings and text to be more appropriate for devices</li>
+      </ul>
+      <p>Use media queries responsibly and only as a start to your mobile audiences. For larger projects, do consider dedicated code bases and not layers of media queries.</p>
+    </div><!-- /.span -->
+    <div class="span8">
+      <h2>Supported devices</h2>
+      <p>Bootstrap supports a handful of media queries in a single file to help make your projects more appropriate on different devices and screen resolutions. Here's what's included:</p>
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Label</th>
+            <th>Layout width</th>
+            <th>Column width</th>
+            <th>Gutter width</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Smartphones</td>
+            <td>480px and below</td>
+            <td class="muted" colspan="2">Fluid columns, no fixed widths</td>
+          </tr>
+          <tr>
+            <td>Smartphones to tablets</td>
+            <td>767px and below</td>
+            <td class="muted" colspan="2">Fluid columns, no fixed widths</td>
+          </tr>
+          <tr>
+            <td>Portrait tablets</td>
+            <td>768px and above</td>
+            <td>42px</td>
+            <td>20px</td>
+          </tr>
+          <tr>
+            <td>Default</td>
+            <td>980px and up</td>
+            <td>60px</td>
+            <td>20px</td>
+          </tr>
+          <tr>
+            <td>Large display</td>
+            <td>1200px and up</td>
+            <td>70px</td>
+            <td>30px</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Requires meta tag</h3>
+      <p>To ensure devices display responsive pages properly, include the viewport meta tag.</p>
+      <pre class="prettyprint linenums">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</pre>
+    </div><!-- /.span -->
+  </section><!-- /.row -->
 <!-- end oip-account.txt -->
