@@ -3,7 +3,7 @@
 <?php include '../oip-atoms/oip-calendar-header-primary.txt' ?>
 <div class="row">
 <?php include '../oip-atoms/oip-calendar-sidebar-primary.txt' ?>
-<?php include '../oip-atoms/oip-calendar-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-calendar-body.txt' ?>
 </div>
 </section>
 <!-- end oip-calendar-primary.txt -->
