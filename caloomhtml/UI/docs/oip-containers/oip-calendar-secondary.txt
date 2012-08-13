@@ -1,4 +1,4 @@
-<!-- oip-calendar.txt -->
+<!-- oip-calendar-secondary.txt -->
 <section id="calendar" class="page-header">
 <?php include '../oip-atoms/oip-calendar-header.txt' ?>
 <div class="row">
@@ -6,4 +6,4 @@
 		<?php include '../oip-atoms/oip-calendar-body.txt' ?>
 </div>
 </section>
-<!-- end oip-calendar.txt -->
+<!-- end oip-calendar-secondary.txt -->

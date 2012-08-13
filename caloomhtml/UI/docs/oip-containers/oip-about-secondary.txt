@@ -1,0 +1,6 @@
+<!-- oip-about-secondary.txt -->
+<section id="about" class="page-header">
+<?php include '../oip-atoms/oip-about-header.txt' ?>
+<?php include '../oip-modules/oip-about-body.txt' ?>
+</section>
+<!-- end oip-about-secondary.txt -->

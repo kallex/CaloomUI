@@ -1,4 +1,4 @@
-<!-- oip-account.txt -->
+<!-- oip-account-secondary.txt -->
 <!-- Responsive design
 ================================================== -->
 <section id="responsive">
@@ -67,4 +67,4 @@
       <pre class="prettyprint linenums">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</pre>
     </div><!-- /.span -->
   </section><!-- /.row -->
-<!-- end oip-account.txt -->
+<!-- end oip-account-secondary.txt -->

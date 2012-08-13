@@ -1,5 +1,5 @@
-<!-- oip-calendar.txt -->
-<div class="span8" style="background-color: #BBD8E9;">
+<!-- oip-calendar-primary.txt -->
+<div class="span8">
 	<h1 class="year">2012</h1>
 	<h3 class="month">August</h3>
 	<table id="calendar" class="calendar">
@@ -10,4 +10,4 @@
 	<input type="button" name="current" id="current" value="Current" class="btn">
 	<input type="button" name="next" id="next" value="Next" class="btn">
 </div>
-<!-- end oip-calendar.txt -->
+<!-- end oip-calendar-primary.txt -->

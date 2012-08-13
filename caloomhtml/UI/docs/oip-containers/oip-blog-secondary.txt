@@ -1,6 +1,6 @@
-<!-- oip-blog.txt -->
+<!-- oip-blog-secondary.txt -->
 <section id="blog" class="page-header">
 <?php include '../oip-atoms/oip-blog-header.txt' ?>
 <?php include '../oip-modules/oip-blog-body.txt' ?>
 </section>
-<!-- end oip-blog.txt -->
+<!-- end oip-blog-secondary.txt -->

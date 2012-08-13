@@ -1,6 +1,5 @@
 <!-- oip-blog-header.txt -->
 <div class="page-header">
-	<h1>Blog 
-	<small>Share, co-create, collaborate, plan events? Look no further.</small></h1>
+	<h1>Blog <small>Share, co-create, collaborate, plan events? Look no further.</small></h1>
 </div>
 <!-- end oip-blog-header.txt -->

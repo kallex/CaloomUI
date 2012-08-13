@@ -1,4 +1,4 @@
-<!-- oip-explanation.txt -->
+<!-- oip-about-secondary.txt -->
 <div id="about" class="marketing">
 	<h1>About Aalto Global Impact Applications.</h1>
 	<p class="marketing-byline">Share, co-create, collaborate, plan events? Look no further.</p>
@@ -8,7 +8,7 @@
 			<h2>Built for anybody</h2>
 			<h2>[!ATOM]title-text instance:xb0 type:OIP.TitleText[ATOM!]</h2>
 			<p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
-			<p>[!ATOM]description-text instance:xb1 type:OIP.DescriptionText[ATOM!]			
+			<p>[!ATOM]description-text instance:xb1 type:OIP.DescriptionText[ATOM!]
 			<?php include '../oip-modules/oip-edit-panel-information.txt' ?>
 		</div>
 		<div class="span4 well-white">
@@ -45,4 +45,4 @@
 		</div>
 	</div><!--end row-->
 </div>
-<!-- end oip-explanation.txt -->
+<!-- end oip-about-secondary.txt -->

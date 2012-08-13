@@ -1,0 +1,13 @@
+<!-- oip-calendar-sidebar-primary.txt -->
+<div class="span4">
+      <p><img src="assets/img/responsive-illustrations.png" alt="Responsive devices"></p>
+      <h3>Calendar</h3>
+      <p>This is the calendar side bar for the primary calendar. Below are the instructions on how to use this calendar or the latest news. That is up to the user to decide</p>
+      <ul>
+        <li>latest news 1</li>
+        <li>new project added</li>
+        <li>course starting today</li>
+      </ul>
+      <p>to edit the calendar login, click on a day or item on a particular day and edit it. This is automtically updated to the maps and blog if needed</p>
+</div>
+<!-- end oip-calendar-sidebar-primary.txt -->

@@ -1,0 +1,28 @@
+<!-- oip-blog-primary.txt -->
+<section id="blog">
+<?php include '../oip-atoms/oip-blog-header.txt' ?>
+<!-- featured blog -->
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<!-- featured blog -->
+<!-- latest x# blogs -->
+<row>
+
+	<?php include '../oip-atoms/oip-blog-sidebar-primary.txt' ?>
+<div class="span8" style="margin:0;padding:0">
+	<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+</div>
+</row>
+<!-- latest x# blogs -->
+
+</section>
+<!-- end oip-blog-primary.txt -->
