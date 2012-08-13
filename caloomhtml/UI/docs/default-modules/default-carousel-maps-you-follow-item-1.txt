@@ -20,13 +20,13 @@
 		<p>On this map I follow the progress that water companies make in Colombo. I can edit what I monitor via the edit button below. I can see who also follows this map via the user-icon and #12 below and I can send this map for others to follow too</p>
 		<p><!-- a row of modals for who is following this map and sharing functionality -->
 			<!-- module default-followers-table -->
-			<?php include'default-map-followers-1.txt' ?>
+<?php include 'default-map-followers-1.txt' ?>
 			<!-- module default-followers-table -->
 			<!-- module default-followers-table -->
-			<?php include'default-map-share-1.txt' ?>
+<?php include 'default-map-share-1.txt' ?>
 			<!-- module default-followers-table -->
 			<!-- module default-edit-followed-map -->
-			<?php include'default-map-edit-1.txt' ?>
+<?php include 'default-map-edit-1.txt' ?>
 			<!-- module default-edit-followed-map -->
 		</p>
 	</div>

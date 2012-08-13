@@ -1,5 +1,5 @@
 <div class="accordion" id="accordion2">
-	<?php include 'default-result-list-item-1.txt' ?>
-	<?php include 'default-result-list-item-2.txt' ?>
-	<?php include 'default-result-list-item-3.txt' ?>
+<?php include 'default-result-list-item-1.txt' ?>
+<?php include 'default-result-list-item-2.txt' ?>
+<?php include 'default-result-list-item-3.txt' ?>
 </div>

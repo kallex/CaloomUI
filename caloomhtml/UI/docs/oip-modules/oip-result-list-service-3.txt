@@ -9,18 +9,18 @@
 	</div>
 	<div id="collapseThree" class="accordion-body collapse">
 			<div class="accordion-inner">
-				<?php include 'oip-social-panel.txt' ?>
+<?php include 'oip-social-panel.txt' ?>
 				<table class="table table-bordered" style="margin-top:10px;">
 					<tbody>
-						<?php include'../oip-atoms/oip-result-list-listing.txt' ?>
-						<?php include'../oip-atoms/oip-result-list-listing.txt' ?>
-						<?php include'../oip-atoms/oip-result-list-listing.txt' ?>
-						<?php include'../oip-atoms/oip-result-list-listing.txt' ?>
-						<?php include'../oip-atoms/oip-result-list-listing.txt' ?>
-						<?php include'../oip-atoms/oip-result-list-listing.txt' ?>
+<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
+<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
+<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
+<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
+<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
+<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
 					</tbody>
 				</table>
-			<?php include 'oip-edit-panel.txt' ?>
+<?php include 'oip-edit-panel.txt' ?>
 		</div>
 	</div>
 </div>

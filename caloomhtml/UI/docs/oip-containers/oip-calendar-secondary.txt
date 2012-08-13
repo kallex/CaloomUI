@@ -1,9 +1,10 @@
 <!-- oip-calendar-secondary.txt -->
-<section id="calendar" class="page-header">
+<section id="calendar">
 <?php include '../oip-atoms/oip-calendar-header.txt' ?>
 <div class="row">
-		<?php include '../oip-atoms/oip-calendar-sidebar.txt' ?>
-		<?php include '../oip-atoms/oip-calendar-body.txt' ?>
+<?php include '../oip-atoms/oip-calendar-sidebar.txt' ?>
+<?php include '../oip-atoms/oip-calendar-body.txt' ?>
+<?php include '../oip-atoms/oip-calendar-listing.txt' ?>
 </div>
 </section>
 <!-- end oip-calendar-secondary.txt -->

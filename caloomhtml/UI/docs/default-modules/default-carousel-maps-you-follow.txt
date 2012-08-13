@@ -7,13 +7,13 @@
 	<hr class="hr-big">
 	<div id="myCarousel" class="carousel slide">
 		<div class="carousel-inner">
-			<?php include 'default-carousel-maps-you-follow-item-1.txt' ?>
-			<?php include 'default-carousel-maps-you-follow-item-2.txt' ?>
-			<?php include 'default-carousel-maps-you-follow-item-3.txt' ?>
-			<?php include 'default-carousel-maps-you-follow-item-4.txt' ?>
-			<?php include 'default-carousel-maps-you-follow-item-5.txt' ?>
-			<?php include 'default-carousel-maps-you-follow-item-6.txt' ?>
-			<?php include 'default-carousel-maps-you-follow-item-7.txt' ?>
+<?php include 'default-carousel-maps-you-follow-item-1.txt' ?>
+<?php include 'default-carousel-maps-you-follow-item-2.txt' ?>
+<?php include 'default-carousel-maps-you-follow-item-3.txt' ?>
+<?php include 'default-carousel-maps-you-follow-item-4.txt' ?>
+<?php include 'default-carousel-maps-you-follow-item-5.txt' ?>
+<?php include 'default-carousel-maps-you-follow-item-6.txt' ?>
+<?php include 'default-carousel-maps-you-follow-item-7.txt' ?>
 		</div>
 		<!-- Carousel nav -->
 		<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>

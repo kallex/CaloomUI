@@ -1,6 +1,13 @@
 <!-- oip-blog-secondary.txt -->
-<section id="blog" class="page-header">
+<section id="blog">
 <?php include '../oip-atoms/oip-blog-header.txt' ?>
-<?php include '../oip-modules/oip-blog-body.txt' ?>
+<div class="row">
+<?php include '../oip-atoms/oip-blog-sidebar-primary.txt' ?>
+<div class="span8" style="margin:0;padding:0">
+<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+</div>
+</div>
+<!-- latest x# blogs -->
+
 </section>
-<!-- end oip-blog-secondary.txt -->
+<!-- oip-blog-secondary.txt -->

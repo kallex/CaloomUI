@@ -1,5 +1,5 @@
 <!-- oip-map-services.txt -->
-<div style="position:relative">
+<section id="maps" style="position:relative">
 <ul class="nav nav-tabs" style="margin-bottom:0px">
 <li class="active"><a href="#tab-events" data-toggle="tab">Europe Events</a></li>
 <li><a href="#tab-courses" data-toggle="tab">South America Courses</a></li>
@@ -23,6 +23,6 @@
 <?php include'../oip-modules/oip-control-panel.txt' ?>
 </div>
 <!-- end zoom and control panels -->
-</div>
+</section>
 <!-- end oip-map-services.txt -->
 

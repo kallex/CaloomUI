@@ -1,6 +1,5 @@
 <!-- oip-about-header.txt -->
 <div class="page-header">
-	<h1>About Aalto Global Impact 
-	<small>Share, co-create, collaborate, plan events? Look no further.</small></h1>
+	<h1>About <small>Share, co-create, collaborate, plan events? Look no further.</small></h1>
 </div>
 <!-- end oip-about-header.txt -->

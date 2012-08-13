@@ -1,5 +1,0 @@
-<!-- oip-calendar-header-primary.txt -->
-<div>
-	<h1>Calendar <small>Share, co-create, collaborate, plan events? Look no further.</small></h1>
-</div>
-<!-- end oip-calendar-header-primary.txt -->
