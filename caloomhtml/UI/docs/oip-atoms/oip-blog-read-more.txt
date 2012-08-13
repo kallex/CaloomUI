@@ -1,0 +1,3 @@
+<!-- oip-blog-read-more.txt -->
+<a class="btn btn-small" data-toggle="modal" href="#blog-read-more" rel="tooltip" title="Click here to read the whole blog post"><i class="icon-file"></i></a>
+<!-- end oip-blog-read-more.txt -->
