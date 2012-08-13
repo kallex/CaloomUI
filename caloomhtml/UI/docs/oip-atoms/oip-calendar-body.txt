@@ -1,10 +1,11 @@
 <!-- oip-calendar-body.txt -->
 <div class="span5">
 	<table id="calendar" class="calendar">
-		<thead><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wedy</th><th>Thur</th><th>Fri</th><th>Sat</th></tr></thead>
-		<tbody><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="" id="cell_0301">01</td><td class="" id="cell_0402">02</td><td class="" id="cell_0503">03</td><td class="weekend" id="cell_0604">04</td></tr><tr><td class="weekend" id="cell_1005">05</td><td class="" id="cell_1106">06</td><td class="" id="cell_1207">07</td><td class="" id="cell_1308">08</td><td class="" id="cell_1409">09</td><td class="today" id="cell_15010">10</td><td class="weekend" id="cell_16011">11</td></tr><tr><td class="weekend" id="cell_20012">12</td><td class="" id="cell_21013">13</td><td class="" id="cell_22014">14</td><td class="" id="cell_23015">15</td><td class="" id="cell_24016">16</td><td class="" id="cell_25017">17</td><td class="weekend" id="cell_26018">18</td></tr><tr><td class="weekend" id="cell_30019">19</td><td class="" id="cell_31020">20</td><td class="" id="cell_32021">21</td><td class="" id="cell_33022">22</td><td class="" id="cell_34023">23</td><td class="" id="cell_35024">24</td><td class="weekend" id="cell_36025">25</td></tr><tr><td class="weekend" id="cell_40026">26</td><td class="" id="cell_41027">27</td><td class="" id="cell_42028">28</td><td class="" id="cell_43029">29</td><td class="" id="cell_44030">30</td><td class="" id="cell_45031">31</td><td>&nbsp;</td></tr></tbody>
-	</table>
-	<input type="button" name="last" id="last" value="Previous" class="btn">
+		<thead>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>	<input type="button" name="last" id="last" value="Previous" class="btn">
 	<input type="button" name="current" id="current" value="Current" class="btn">
 	<input type="button" name="next" id="next" value="Next" class="btn">
 </div>
