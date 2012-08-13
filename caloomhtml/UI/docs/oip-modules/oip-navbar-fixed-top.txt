@@ -11,7 +11,7 @@
 
 			<div class="nav-collapse collapse">
 				<ul class="nav">  
-					<li><a href="#services">Services</a></li>
+					<li><a href="#services">Maps</a></li>
 					<li><a href="oip-calendar-layout-jeroen.phtml">Calendar</a></li>  
 					<li><a href="oip-blog-layout-jeroen.phtml">Blog</a></li>  
 					<li><a href="#followmap">Maps We Follow</a></li>  

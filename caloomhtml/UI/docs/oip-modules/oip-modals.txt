@@ -4,6 +4,7 @@
 <!-- oip control modals -->
 
 <?php include 'oip-modal-blog-read-more.txt' ?>
+<?php include 'oip-modal-blog-images.txt' ?>
 
 <?php include 'oip-modal-edit-information.txt' ?>
 <?php include 'oip-modal-edit-access.txt' ?>

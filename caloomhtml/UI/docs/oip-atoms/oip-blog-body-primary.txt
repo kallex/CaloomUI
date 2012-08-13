@@ -3,11 +3,19 @@
 	<h2 class="title">Blog Title</h2>
 	<h3 class="date-published">August</h3>
 	<h3 class="author">Author name</h3>
-<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-<p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p>
+	<p>
+		<a data-toggle="modal" href="#blog-images" rel="tooltip" title="click this image to open this image large and some other images if presentt">
+		<img src="http://placehold.it/260x180" alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px">
+		</a>
+	It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+	</p>
+	<p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p>
 </div>
 <div class="blog-body-social-module" style="margin-left:30px">
 	<?php include '../oip-modules/oip-social-panel.txt' ?>
 </div>
 <hr>
 <!-- end oip-blog-body-primary.txt -->
+
+
+<a data-toggle="modal" href="#blog-read-more" rel="tooltip" title="Click here to read the whole blog post">Read more...</a>

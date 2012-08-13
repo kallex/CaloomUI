@@ -3,19 +3,19 @@
 	<p><img src="assets/img/responsive-illustrations.png" alt="Responsive devices"></p>
 	<h3>Blog</h3>
 	<p>This is the Primary blog side bar. There is lots of stuff you can put here, for example category listings, listings by date, listings by locations</p>
-	<h4>blogs by location</h4>
+	<h4>blogs by location (maps)</h4>
 	<ul>
 		<li>blogs in Finland</li>
 		<li>blogs in Europe</li>
 		<li>blogs in South Africa</li>
 	</ul>
-	<h4>blogs by date</h4>
+	<h4>blogs by date (calendar)</h4>
 	<ul>
 		<li>blogs in August</li>
 		<li>blogs in July</li>
 		<li>blogs in June</li>
 	</ul>
-	<h4>blogs by author</h4>
+	<h4>blogs by author (users)</h4>
 	<ul>
 		<li>blogs by Rahim</li>
 		<li>blogs by Anne</li>
