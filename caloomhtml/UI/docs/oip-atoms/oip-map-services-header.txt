@@ -1,0 +1,5 @@
+<!-- oip-map-header.txt -->
+<div class="page-header">
+	<h1>Map <small>Share, co-create, collaborate, plan events? Look no further.</small></h1>
+</div>
+<!-- end oip-map-header.txt -->

@@ -1,0 +1,22 @@
+<div class="span3 thumbnail" style="width:350px">
+<img src="../images/placeholder/riodejaneiro.png" width="260" height="180" alt="Hml Osm">
+<div class="caption">
+<h5>Research in Rio de Janeiro</h5>
+<table class="table table-bordered table-striped">
+<tbody>
+<tr>
+<td class="span2">New</td>
+<td>7</td>
+<td class="swatch-col"><span class="swatch" style="background-color: #ed5959;"></span></td>
+</tr>
+<tr>
+<td>Old</td>
+<td>2</td>
+<td><span class="swatch" style="background-color: #6f6f65;"></span></td>
+</tr>
+</tbody>
+</table>  
+<p>Donec id elit non mi porta gravida at eget metus.</p>
+<p><a href="#" class="btn"><i class="icon-edit icon-black"></i></a></p>
+</div>
+</div>

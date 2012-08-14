@@ -1,0 +1,22 @@
+<div class="span4 thumbnail" style="margin-left:10px;width:350px">
+	<img src="../images/placeholder/nairobi.png" width="260" height="180" alt="Hml Osm">
+<div class="caption">
+<h5>Nairobi Food stores</h5>
+<table class="table table-bordered table-striped">
+<tbody>
+<tr>
+<td class="span2">New</td>
+<td>2</td>
+<td class="swatch-col"><span class="swatch" style="background-color: #ed5959;"></span></td>
+</tr>
+<tr>
+<td>Old</td>
+<td>12</td>
+<td><span class="swatch" style="background-color: #6f6f65;"></span></td>
+</tr>
+</tbody>
+</table>  
+<p>I search now for wether or not there are food stores in Nairobi</p>
+<p><a href="#" class="btn"><i class="icon-edit icon-black"></i></a></p>
+</div>
+</div>

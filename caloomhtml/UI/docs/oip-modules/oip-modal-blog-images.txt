@@ -42,4 +42,3 @@
 	</div>
 </div>
 <!-- end oip-modal-blog-read-more.txt -->
-

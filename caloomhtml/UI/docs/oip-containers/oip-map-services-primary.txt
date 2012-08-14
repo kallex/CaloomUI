@@ -1,4 +1,4 @@
-<!-- oip-map-services.txt -->
+<!-- oip-map-services-primary.txt -->
 <section id="maps" style="position:relative">
 <ul class="nav nav-tabs" style="margin-bottom:0px">
 <li class="active"><a href="#tab-events" data-toggle="tab">Europe Events</a></li>
@@ -24,5 +24,4 @@
 </div>
 <!-- end zoom and control panels -->
 </section>
-<!-- end oip-map-services.txt -->
-
+<!-- end oip-map-services-primary.txt -->
