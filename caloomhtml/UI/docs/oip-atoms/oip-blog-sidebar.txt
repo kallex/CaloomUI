@@ -1,6 +1,6 @@
 <!-- oip-blog-sidebar-primary.txt -->
 <div class="span4">
-	<p><img src="assets/img/responsive-illustrations.png" alt="Responsive devices"></p>
+	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons/png/glyphicons_330_blog@2x.png" alt="Responsive devices"></p>
 	<h3>Blog</h3>
 	<p>This is the Primary blog side bar. There is lots of stuff you can put here, for example category listings, listings by date, listings by locations</p>
 	<h4>blogs by location (maps)</h4>

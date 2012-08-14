@@ -1,0 +1,46 @@
+<!-- oip-account-body.txt -->
+<div class="span8">
+	<h2>Supported devices</h2>
+		<p>Bootstrap supports a handful of media queries in a single file to help make your projects more appropriate on different devices and screen resolutions. Here's what's included:</p>
+		<table class="table table-bordered table-striped">
+			<thead>
+				<tr>
+					<th>Label</th>
+					<th>Layout width</th>
+					<th>Column width</th>
+					<th>Gutter width</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Smartphones</td>
+					<td>480px and below</td>
+					<td class="muted" colspan="2">Fluid columns, no fixed widths</td>
+				</tr>
+				<tr>
+					<td>Smartphones to tablets</td>
+					<td>767px and below</td>
+					<td class="muted" colspan="2">Fluid columns, no fixed widths</td>
+				</tr>
+				<tr>
+					<td>Portrait tablets</td>
+					<td>768px and above</td>
+					<td>42px</td>
+					<td>20px</td>
+				</tr>
+				<tr>
+					<td>Default</td>
+					<td>980px and up</td>
+					<td>60px</td>
+					<td>20px</td>
+				</tr>
+				<tr>
+					<td>Large display</td>
+					<td>1200px and up</td>
+					<td>70px</td>
+					<td>30px</td>
+				</tr>
+			</tbody>
+		</table>
+</div>
+<!-- end oip-account-body.txt -->

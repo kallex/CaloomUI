@@ -1,6 +1,6 @@
 <!-- oip-calendar-sidebar-primary.txt -->
 <div class="span4">
-      <p><img src="assets/img/responsive-illustrations.png" alt="Responsive devices"></p>
+      <p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons/png/glyphicons_045_calendar@2x.png" alt="Responsive devices"></p>
       <h3>Calendar</h3>
       <p>This is the calendar side bar for the primary calendar. Below are the instructions on how to use this calendar or the latest news. That is up to the user to decide</p>
       <ul>

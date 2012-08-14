@@ -2,12 +2,10 @@
 <section id="blog">
 <?php include '../oip-atoms/oip-blog-header.txt' ?>
 <div class="row">
-<?php include '../oip-atoms/oip-blog-sidebar-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-sidebar.txt' ?>
 <div class="span8" style="margin:0;padding:0">
-<?php include '../oip-atoms/oip-blog-body-primary.txt' ?>
+<?php include '../oip-atoms/oip-blog-body.txt' ?>
 </div>
 </div>
-<!-- latest x# blogs -->
-
 </section>
 <!-- oip-blog-secondary.txt -->

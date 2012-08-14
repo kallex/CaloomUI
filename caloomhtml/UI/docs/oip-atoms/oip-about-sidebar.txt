@@ -1,0 +1,15 @@
+<!-- oip-about-sidebar-primary.txt -->
+<div class="span4">
+      <p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons/png/glyphicons_323_calculator@2x.png" alt="Responsive devices"></p>
+      <h3>About</h3>
+      <p>This is the about Aalto Global Impact Open Innovation Platform side bar. On the right side you see our 6 most used applications and instructions on how to use them</p>
+<p>Below is a list of the latest three uses of the applications. You can see more on the Map, in the Calendar, on the Blog and in other places, even at our partner's web sites!
+</p>
+      <ul>
+        <li>latest news 1</li>
+        <li>new project added</li>
+        <li>course starting today</li>
+      </ul>
+      <p>To work with these aplications simply register or login and start. Or, if you like to first see what this is about begin following for example the events on the maps</p>
+</div>
+<!-- end oip-about-sidebar-primary.txt -->
