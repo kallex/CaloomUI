@@ -1,0 +1,17 @@
+<!--default-ui-atom-date-time-repeat-->
+<div class="control-group">
+ <label class="control-label" for="appendedInputButton">Repeat</label>
+ <div class="controls">
+  <div class="input-append">
+   <input class="span2" id="appendedInputButton" size="16" type="text">
+   <select class="span1">
+    <option>daily</option>
+    <option>weekly</option>
+    <option>monthly</option>
+    <option>yearly</option>
+   </select>
+  </div>
+ </div>
+</div>
+<!--/default-ui-atom-date-time-repeat-->
+

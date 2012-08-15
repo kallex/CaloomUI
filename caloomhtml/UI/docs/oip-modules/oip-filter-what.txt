@@ -1,7 +1,7 @@
 <!-- oip-filter-what.txt -->
 <div class="accordion-group">
 	<div class="accordion-heading">
-		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour">
+		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-filter" href="#collapseFour">
 			<h3>What</h3>
 		</a>
 	</div>

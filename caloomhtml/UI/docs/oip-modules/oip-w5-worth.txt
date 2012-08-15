@@ -1,0 +1,6 @@
+<!--default-w5-worth-->
+<?php include'../oip-atoms/oip-w5-free.txt' ?>
+<?php include'../oip-atoms/oip-w5-trade.txt' ?>
+<?php include'../oip-atoms/oip-w5-sell.txt' ?>
+<!--/default-w5-worth-->
+

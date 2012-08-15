@@ -1,0 +1,11 @@
+<!--default-ui-atom-trade-->
+<div class="control-group">
+ <label class="control-label" for="prependedInput">I can trade this ## for</label>
+ <div class="controls">
+  <div class="input-prepend">
+   <input class="span2" id="prependedInput" size="16" type="text">
+  </div>
+ </div>
+</div>
+<!--/default-ui-atom-trade-->
+

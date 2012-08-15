@@ -1,0 +1,8 @@
+<!--default-w5-what -->
+<?php include'../oip-atoms/oip-w5-title.txt' ?>
+<?php include'../oip-atoms/oip-w5-describe.txt' ?>
+<?php include'../oip-atoms/oip-w5-upload-image.txt' ?>
+<?php include'../oip-atoms/oip-w5-select-multiple.txt' ?>
+<?php include'../oip-atoms/oip-w5-keywords.txt' ?>
+<!--/default-w5-what -->
+

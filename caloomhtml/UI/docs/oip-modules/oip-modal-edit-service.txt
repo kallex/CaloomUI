@@ -2,9 +2,9 @@
 <div id="edit-service" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">×</button>
-		<h3>Edit Service</h3>
+		<h3>Edit Service oip-modal-edit-service.txt</h3>
 	</div>
-	<div class="accordion" id="accordion1">
+	<div class="accordion" id="accordion-filter">
 <?php include 'oip-filter-what.txt' ?>
 <?php include 'oip-filter-when.txt' ?>
 <?php include 'oip-filter-where.txt' ?>

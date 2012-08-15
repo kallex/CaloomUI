@@ -1,0 +1,27 @@
+<!--default-ui-atom-upload-image-3-preview-->
+<div class="control-group">
+	<label class="control-label" for="fileInput">Upload your Image</label>
+	<div class="controls">
+			<input class="input-file" id="fileInput" type="file">
+	</div>
+</div>
+<div class="control-group">
+	<div class="widget-content">
+		<div class="shortcuts">
+			<a href="javascript:;" class="shortcut" style="outline:#DDD solid thin;">
+				<i class="shortcut-icon icon-picture"></i>
+				<span class="shortcut-label">Image 1</span>	
+			</a>
+			<a href="javascript:;" class="shortcut" style="outline:#DDD solid thin;">
+				<i class="shortcut-icon icon-picture"></i>
+				<span class="shortcut-label">Image 2</span>	
+			</a>
+			<a href="javascript:;" class="shortcut" style="outline:#DDD solid thin;">
+				<i class="shortcut-icon icon-picture"></i>
+				<span class="shortcut-label">Image 3</span>	
+			</a>
+		</div> <!-- /shortcuts -->	
+	</div><!-- /widget-content -->
+</div><!-- /control-group -->
+<!--/default-ui-atom-upload-image-3-preview-->
+

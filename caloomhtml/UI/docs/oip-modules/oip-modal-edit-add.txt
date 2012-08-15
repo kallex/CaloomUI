@@ -4,7 +4,7 @@
 		<button class="close" data-dismiss="modal">×</button>
 		<h3>Add a New Service</h3>
 	</div>
-	<div class="accordion" id="accordion1">
+	<div class="accordion" id="accordion-filter">
 <?php include 'oip-filter-what.txt' ?>
 <?php include 'oip-filter-when.txt' ?>
 <?php include 'oip-filter-where.txt' ?>

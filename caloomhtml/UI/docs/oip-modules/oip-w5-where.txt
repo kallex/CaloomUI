@@ -1,0 +1,5 @@
+<!--default-w5-where-->
+<?php include'../oip-atoms/oip-w5-select-multiple.txt' ?>
+<?php include'../oip-atoms/oip-w5-add-location-link.txt' ?>
+<!--/default-w5-where-->
+

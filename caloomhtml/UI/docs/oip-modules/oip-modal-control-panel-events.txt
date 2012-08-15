@@ -1,15 +1,24 @@
 <!-- oip-modal-control-panel.txt -->
 <div id="control-panel-events" class="modal hide fade">
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal">&times;</button>
-		<h3>Our Events</h3>
-	</div>
-	<div class="modal-body">
+<!-- mnodal header -->
+<div class="modal-header">
+	<button class="close" data-dismiss="modal">&times;</button>
+	<h3>Europe Events<br><small>tab name<br>category:events<br>[oip-modal-control-panel-events.txt]</small></h3>
+</div>
+<!-- end modal header -->
+<!-- modal-body -->
+<div class="modal-body">
 <?php include 'oip-result-list-service-1.txt' ?>
-		<div class="modal-footer">
-			<a href="#" class="btn" data-dismiss="modal" >Cancel and Close</a>
-			<a href="#" class="btn btn-primary">Update</a>
-		</div>
-	</div>
+add a new service like World wide events, Helsinki events
+<!-- if you want a grouping of maps inside 1 map use this ?php include 'oip-result-list-service-2.txt' ? -->
+<!-- if you want a grouping of maps inside 1 map use this ?php include 'oip-result-list-service-3.txt' ? -->
+</div>
+<!-- end modal-body -->
+<!-- modal footer -->
+<div class="modal-footer">
+	<a href="#" class="btn" data-dismiss="modal" >Cancel and Close</a>
+	<a href="#" class="btn btn-primary">Update</a>
+</div>
+<!-- end modal footer -->
 </div>
 <!-- end oip-modal-control-panel.txt -->

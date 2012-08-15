@@ -1,7 +1,7 @@
 <!-- oip-filter-when.txt -->
 <div class="accordion-group">
 	<div class="accordion-heading">
-		<h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive">
+		<h3><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-filter" href="#collapseFive">
 			When
 		</a></h3>
 	</div>
