@@ -1,0 +1,10 @@
+<!-- oip-control-panel-information.txt -->
+  <a class="btn btn-inverse btn-small dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-user icon-white"></i><span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="#"><i class="icon-pencil"></i> Private</a></li>
+    <li><a href="#"><i class="icon-trash"></i> Public</a></li>
+    <li><a href="#"><i class="icon-ban-circle"></i> Public and Private</a></li>
+    <li class="divider"></li>
+    <li><a href="#"><i class="i"></i> Make changes</a></li>
+  </ul>
+<!-- end control-panel-oip-information.txt -->

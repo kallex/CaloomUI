@@ -9,7 +9,7 @@
 <!-- modal-body -->
 <div class="modal-body">
 <?php include 'oip-result-list-service-1.txt' ?>
-add a new service like World wide events, Helsinki events
+<a href="#" class="btn">add</a> a new service like World wide events, Helsinki events
 <!-- if you want a grouping of maps inside 1 map use this ?php include 'oip-result-list-service-2.txt' ? -->
 <!-- if you want a grouping of maps inside 1 map use this ?php include 'oip-result-list-service-3.txt' ? -->
 </div>

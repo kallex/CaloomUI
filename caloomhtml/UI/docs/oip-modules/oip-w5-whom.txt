@@ -25,4 +25,3 @@
 <?php include '../default-modules/default-modal-map-whom.txt' ?>
 <!--/Modals-->
 <!--/default-w5-whom-->
-

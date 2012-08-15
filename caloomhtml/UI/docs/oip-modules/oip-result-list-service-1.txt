@@ -20,7 +20,7 @@
 <?php include '../oip-atoms/oip-result-list-listing.txt' ?>
 					</tbody>
 				</table>
-<?php include 'oip-edit-panel.txt' ?>
+<?php include 'oip-admin-panel.txt' ?>
 		</div>
 	</div>
 </div>

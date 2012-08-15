@@ -1,3 +1,4 @@
 <!-- oip-control-panel.txt -->
-<?php include'../oip-atoms/oip-information.txt' ?>
+<?php include'../oip-atoms/oip-control-panel-information.txt' ?>
+<?php include'../oip-atoms/oip-control-panel-switch-views.txt' ?>
 <!-- end oip-control-panel.txt -->

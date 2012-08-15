@@ -1,23 +1,15 @@
 <div id="edit-remove" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button>
-		<h3>Remove this Service</h3>
+		<h3>Remove this Service<br><small>[oip-modal-edit-remove]</small></h3>
 	</div>
 	<div class="modal-body">
 		<form class="well">
-			<h4>What</h4>
-			<div class="control-group">
-				<label class="control-label" for="select01">Fine tune what kind of <b>Innovation Camp</b> projects you like to follow on the map</label>
-				<div class="controls">
-					<select id="select01">
-						<option>Innovation 1</option>
-						<option>Innovation 2</option>
-						<option>Innovation 3</option>
-						<option>Innovation 4</option>
-						<option>Innovation 5</option>
-					</select>
-				</div>
-			</div>
+			<ul>
+				<li>change the access to this information object</li>
+				<li>hide it</li>
+				<li>delete from the system, this cannot be undone</li>
+			<ul>
 		</form>
 		<div class="modal-footer">
 			<a href="#" class="btn" data-dismiss="modal" >Cancel and Close</a>
