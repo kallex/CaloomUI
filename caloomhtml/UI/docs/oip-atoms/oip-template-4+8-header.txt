@@ -1,0 +1,5 @@
+<!-- oip-template-4+8-header.txt -->
+<div class="page-header">
+	<h1>Template <small>4 + 8.</small></h1>
+</div>
+<!-- end oip-template-4+8-header.txt -->

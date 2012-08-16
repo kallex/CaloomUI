@@ -1,0 +1,4 @@
+<!-- oip-template-6.txt -->
+<div class="span6" style="background-color:#b8d2e8;min-height:300px">
+</div>
+<!-- end oip-template-6.txt -->

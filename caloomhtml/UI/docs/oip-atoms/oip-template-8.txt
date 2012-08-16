@@ -1,0 +1,4 @@
+<!-- oip-template-8.txt -->
+<div class="span8" style="background-color:#a6c7e2;min-height:300px">
+</div>
+<!-- end oip-template-8.txt -->
