@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
+	<InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
+		<InformationModel>
+			<InformationObject name="Longitude" designDesc="Longitude">
+				<InformationItems>
+					<InformationItem name="TextValue" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Latitude" designDesc="Latitude">
+				<InformationItems>
+					<InformationItem name="TextValue" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Location" designDesc="Location (Longitude, Latitude)">
+				<InformationItems>
+					<InformationItem name="Longitude" informationObjectName="Longitude" logicalDataType="InformationObject"/>
+					<InformationItem name="Latitude" informationObjectName="Latitude" logicalDataType="InformationObject"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="What" designDesc="What from 5W core">
+				<InformationItems>
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+					<InformationItem name="Description" logicalDataType="Text_Long"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="When" designDesc="When from 5W core">
+				<InformationItems>
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+					<InformationItem name="Time" logicalDataType="Time_DateTime"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Where" designDesc="Where from 5W core">
+				<InformationItems>
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Event5W" designDesc="Event with 5W representation">
+				<InformationItems>
+					<InformationItem name="What" logicalDataType="InformationObject" informationObjectName="What"/>
+					<InformationItem name="When" logicalDataType="InformationObject" informationObjectName="When"/>
+					<InformationItem name="Where" logicalDataType="InformationObject" informationObjectName="Where"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Event5WCollection" designDesc="Collection of events">
+				<CollectionFor contentInformationObjectName="Event5W"/>
+			</InformationObject>
+			<InformationObject name="SubscriptionCollection" designDesc="Collection for Subscription objects - relatively linked to target of subscriptions">
+				<CollectionFor contentInformationObjectName="Subscription"/>
+			</InformationObject>
+			<InformationObject name="Subscription" designDesc="The Ball Core Structure: Subscription content">
+				<InformationItems>
+					<InformationItem name="Priority" logicalDataType="Number_Integer"/>
+					<InformationItem name="TargetItemID" logicalDataType="Text_Short"/>
+					<InformationItem name="TargetObjectName" logicalDataType="Text_Short"/>
+					<InformationItem name="TargetItemName" logicalDataType="Text_Short"/>
+					<InformationItem name="TargetRelativeLocation" logicalDataType="Text_Short"/>
+					<InformationItem name="SubscriberID" logicalDataType="Text_Short"/>
+					<InformationItem name="SubscriberRelativeLocation" logicalDataType="Text_Short"/>
+					<InformationItem name="OperationActionName" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="QueueEnvelope" designDesc="QueueEnvelope for all kinds of queued items">
+				<InformationItems>
+					<InformationItem name="SubscriberUpdateOperation" logicalDataType="InformationObject" informationObjectName="SubscriberUpdateOperation"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="SubscriberInput" designDesc="Parameter for queued operation">
+				<InformationItems>
+					<InformationItem name="InputRelativeLocation" logicalDataType="Text_Short"/>
+					<InformationItem name="InformationObjectName" logicalDataType="Text_Short"/>
+					<InformationItem name="InformationItemName" logicalDataType="Text_Short"/>
+					<InformationItem name="SubscriberRelativeLocation" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="SubscriberUpdateOperation" designDesc="Subscriber update operation call">
+				<InformationItems>
+					<InformationItem name="TargetOwnerID" logicalDataType="Text_Short"/>
+					<InformationItem name="SubscriberOwnerID" logicalDataType="Text_Short"/>
+					<InformationItem name="OperationParameters" logicalDataType="InformationObject" informationObjectName="SubscriberInput"/>
+					<InformationItem name="OperationName" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Monitor" designDesc="The Ball Core Structure: Monitoring content">
+				<InformationItems>
+					<InformationItem name="TargetObjectName" logicalDataType="Text_Short"/>
+					<InformationItem name="TargetItemName" logicalDataType="Text_Short"/>
+					<InformationItem name="MonitoringUtcTimeStampToStart" logicalDataType="Time_DateTime"/>
+					<InformationItem name="MonitoringCycleFrequencyUnit" logicalDataType="Text_Short"/>
+					<InformationItem name="MonitoringCycleEveryXthOfUnit" logicalDataType="Number_Integer"/>
+					<InformationItem name="CustomMonitoringCycleOperationName" logicalDataType="Text_Short"/>
+					<InformationItem name="OperationActionName" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="IconTitleDescription" designDesc="Generic icon, title, description object">
+				<InformationItems>
+					<InformationItem name="Icon" logicalDataType="Data_Binary" informationObjectName="Icon"/>
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+					<InformationItem name="Description" logicalDataType="Text_Long"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="AboutAGIApplications" designDesc="About Aalto AGI Applications Info Set">
+				<InformationItems>
+					<InformationItem name="BuiltForAnybody" logicalDataType="InformationObject" informationObjectName="IconTitleDescription"/>
+					<InformationItem name="ForAllPeople" logicalDataType="InformationObject" informationObjectName="IconTitleDescription"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Icon" designDesc="Icon image">
+				<InformationObjectContent fileExtension=".png" originalFileName="Icon.png"/>
+			</InformationObject>
+			<InformationObject name="WebPageTemplate" designDesc="Web Page Template Content">
+				<InformationObjectContent fileExtension=".html" originalFileName="WebPageTemplate.html"/>
+			</InformationObject>
+			<InformationObject name="WebPage" designDesc="Web Page Content">
+				<InformationObjectContent fileExtension=".html" originalFileName="WebPage.html"/>
+			</InformationObject>
+		</InformationModel>
+		<Operations>
+			<Operation name="UpdatePageContent">
+				<OperationSpec>
+					<Description/>
+				</OperationSpec>
+				<Parameters>
+					<Parameter dataType="string" name="changedInformation" designDesc="Test" state="underDesign"/>
+				</Parameters>
+				<Execution>
+					<SequentialExecution>
+						<MethodExecute name="UpdatePage" designDesc="Do the update page" state="underDesign"/>
+					</SequentialExecution>
+				</Execution>
+			</Operation>
+		</Operations>
+		<Subscriptions>
+			<Subscription triggeredOperationName="UpdatePageContent">
+				<TriggeringInformationItem itemName="BuiltForAnybodyTitle" objectName="AboutAGIApplications"/>
+				<OperationParameter name="changedInformation" informationItemSource="TriggeringObject" informationObjectName="AboutAGIApplications" informationItemName="BuiltForAnybodyTitle"/>
+			</Subscription>
+		</Subscriptions>
+		<Monitoring>
+			<Monitor monitoringOperationName="UpdatePageContent">
+				<MonitoredInformationItem objectName="AboutAGIApplications" itemName="ForAllPeopleTitle"/>
+				<MonitoringFrequency utcTimeStampToStart="2012-08-13T14:00:00.123456789+02:00">
+					<RegularMonitoringCycle frequencyUnit="Minute" monitorEveryXthOfUnit="15"/>
+				</MonitoringFrequency>
+				<OperationParameter name="changedInformation" informationItemSource="TriggeringObject" informationObjectName="AboutAGIApplications" informationItemName="ForAllPeopleTitle"/>
+			</Monitor>
+		</Monitoring>
+	</InstanceOfTheBall>
+</TheBallCoreAbstraction>

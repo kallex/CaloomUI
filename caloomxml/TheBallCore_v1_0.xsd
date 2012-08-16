@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 sp1 (http://www.altova.com) by Kalle Launiala (Citrus Solutions Oy) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" id="TheBallCore_v1_0">
+	<xs:element name="TheBallCoreAbstraction" type="TheBallCoreAbstractionType"/>
+	<xs:complexType name="ClassModelAbstractionType">
+		<xs:sequence>
+			<xs:element name="Classes" type="InformationModelType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CustomMonitoringCycleType">
+		<xs:sequence>
+			<xs:element name="OperationParameter" type="OperationParameterType" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="frequencyOperationName"/>
+	</xs:complexType>
+	<xs:complexType name="ExecutionType">
+		<xs:sequence>
+			<xs:element name="SequentialExecution" type="SequentialExecutionType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ImplementationType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="language" use="required">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="C#"/>
+							<xs:enumeration value="Java"/>
+							<xs:enumeration value="C++"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="InformationItemsType">
+		<xs:sequence>
+			<xs:element name="InformationItem" type="InformationItemType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="InformationItemTargetType">
+		<xs:attribute name="objectName" type="xs:string" use="required"/>
+		<xs:attribute name="itemName" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="InformationItemType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="logicalDataType" use="required">
+			<xs:annotation>
+				<xs:documentation>Datatype for the information. The physical data type that is used for the storage.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="TrueOrFalse_Boolean"/>
+					<xs:enumeration value="Text_Short"/>
+					<xs:enumeration value="Text_Long"/>
+					<xs:enumeration value="Number_Integer"/>
+					<xs:enumeration value="Number_ExactDecimal"/>
+					<xs:enumeration value="Number_ApproxDecimal"/>
+					<xs:enumeration value="Time_Date"/>
+					<xs:enumeration value="Time_Time"/>
+					<xs:enumeration value="Time_DateTime"/>
+					<xs:enumeration value="Data_Binary"/>
+					<xs:enumeration value="InformationObject"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="informationObjectName" type="xs:string" default="">
+			<xs:annotation>
+				<xs:documentation>(Opt = "") If logical data type is referencing InformationObject, this is the name for the object.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="InformationModelType">
+		<xs:sequence>
+			<xs:element name="InformationObject" type="InformationObjectType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="InformationObjectContentType">
+		<xs:attribute name="fileExtension" type="xs:string" use="required"/>
+		<xs:attribute name="originalFileName" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="InformationObjectTargetType">
+		<xs:attribute name="objectName" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="InformationObjectType">
+		<xs:choice>
+			<xs:element name="InformationItems" type="InformationItemsType"/>
+			<xs:element name="CollectionFor" type="CollectionForType"/>
+			<xs:element name="InformationObjectContent" type="InformationObjectContentType"/>
+		</xs:choice>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="designDesc" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="InstanceOfTheBallType">
+		<xs:sequence>
+			<xs:element name="InformationModel" type="InformationModelType"/>
+			<xs:element name="Operations" type="OperationsType"/>
+			<xs:element name="Subscriptions" type="SubscriptionsType"/>
+			<xs:element name="Monitoring" type="MonitoringType"/>
+		</xs:sequence>
+		<xs:attribute name="semanticDomainName" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Semantic domain name of the classes.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="LogicalInformationType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="logicalNamespace" type="xs:string" use="required"/>
+		<xs:attribute name="logicalDatatype" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="MethodExecuteType">
+		<xs:sequence>
+			<xs:element name="Parameter" type="TargetType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Target" type="TargetType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="ReturnValue" type="VariableType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attributeGroup ref="DesignAttributes"/>
+	</xs:complexType>
+	<xs:complexType name="MethodsType">
+		<xs:sequence>
+			<xs:element name="Method" type="MethodType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MethodType">
+		<xs:sequence>
+			<xs:element name="Implementation" type="ImplementationType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ModificationType">
+		<xs:sequence>
+			<xs:element name="Target" type="TargetType" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attributeGroup ref="DesignAttributes"/>
+	</xs:complexType>
+	<xs:complexType name="MonitoringFrequencyType">
+		<xs:choice>
+			<xs:element name="RegularMonitoringCycle" type="RegularMonitoringCycleType"/>
+			<xs:element name="CustomMonitoringCycle" type="CustomMonitoringCycleType">
+				<xs:annotation>
+					<xs:documentation>Calls custom operation to retrieve the next calling cycle of the monitor.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:choice>
+		<xs:attribute name="utcTimeStampToStart" type="xs:dateTime">
+			<xs:annotation>
+				<xs:documentation>(Opt) Start time for frequency unit. Makes usually sense starting from Hours and upwards units.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="MonitoringType">
+		<xs:sequence>
+			<xs:element name="Monitor" type="MonitorType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MonitorType">
+		<xs:sequence>
+			<xs:choice>
+				<xs:element name="MonitoredInformationItem" type="InformationItemTargetType"/>
+				<xs:element name="MonitoredObjectContent" type="InformationObjectTargetType"/>
+			</xs:choice>
+			<xs:element name="MonitoringFrequency" type="MonitoringFrequencyType" maxOccurs="unbounded"/>
+			<xs:element name="OperationParameter" type="OperationParameterType" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="monitoringOperationName" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="OperationExecuteType">
+		<xs:sequence>
+			<xs:element name="OperationSignature" type="OperationSignatureType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(Opt) Defines operation signature.
+
+This is required for operations that take part of requirement and provider dependency and connection.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Parameter" type="TargetType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Target" type="TargetType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="ReturnValue" type="VariableType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="targetOperationName" type="xs:string" use="required"/>
+		<xs:attributeGroup ref="DesignAttributes"/>
+	</xs:complexType>
+	<xs:complexType name="OperationParameterType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="informationObjectName" type="xs:string" use="required"/>
+		<xs:attribute name="informationItemName" type="xs:string" use="required"/>
+		<xs:attribute name="informationItemSource" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="TriggeringObject"/>
+					<xs:enumeration value="SubscribingObject"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="OperationReturnValuesType">
+		<xs:sequence>
+			<xs:element name="ReturnValue" type="VariableType" maxOccurs="unbounded"/>
+			<xs:element name="Parameter" type="TargetType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Target" type="TargetType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OperationSignatureType">
+		<xs:sequence>
+			<xs:element name="Parameter" type="LogicalInformationType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="ReturnValue" type="LogicalInformationType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="logicalNamespace" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="OperationSpecType">
+		<xs:sequence>
+			<xs:element name="Requirements" type="RequirementsType" minOccurs="0"/>
+			<xs:element name="Description" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OperationsType">
+		<xs:sequence>
+			<xs:element name="Operation" type="OperationType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OperationType">
+		<xs:sequence>
+			<xs:element name="OperationSpec" type="OperationSpecType">
+				<xs:annotation>
+					<xs:documentation>Design level information.
+
+This information includes the references to specification and requirements.
+
+This information is effectively used to generate the documentation and reports to communicate with stakeholders and other interest parties, such as testers and requirement analysts.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OperationSignature" type="OperationSignatureType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(Opt) Defines operation signature.
+
+This is required for operations that take part of requirement and provider dependency and connection.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Parameters" type="ParametersType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Operation's parameters.</xs:documentation>
+				</xs:annotation>
+				<xs:key name="PKOperationParameter">
+					<xs:selector xpath="Parameter"/>
+					<xs:field xpath="@name"/>
+				</xs:key>
+				<xs:keyref name="ValidationRefParam" refer="PKOperationParameter">
+					<xs:selector xpath="Validation/Target"/>
+					<xs:field xpath="@name"/>
+				</xs:keyref>
+				<xs:keyref name="ModificationRefParam" refer="PKOperationParameter">
+					<xs:selector xpath="Modification/Target"/>
+					<xs:field xpath="@name"/>
+				</xs:keyref>
+			</xs:element>
+			<xs:element name="Execution" type="ExecutionType"/>
+			<xs:element name="OperationReturnValues" type="OperationReturnValuesType" minOccurs="0">
+				<xs:key name="PKOperationResult">
+					<xs:selector xpath="ReturnValue"/>
+					<xs:field xpath="@name"/>
+				</xs:key>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Operation name.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ParametersType">
+		<xs:sequence>
+			<xs:element name="Parameter" type="VariableType" maxOccurs="unbounded"/>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="Validation" type="ValidationType"/>
+				<xs:element name="Modification" type="ModificationType"/>
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ParameterValidationsType">
+		<xs:sequence>
+			<xs:element name="Validation" type="ValidationType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RegularMonitoringCycleType">
+		<xs:attribute name="frequencyUnit" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Millisecond"/>
+					<xs:enumeration value="Second"/>
+					<xs:enumeration value="Minute"/>
+					<xs:enumeration value="Hour"/>
+					<xs:enumeration value="Day"/>
+					<xs:enumeration value="Week"/>
+					<xs:enumeration value="Month"/>
+					<xs:enumeration value="Year"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="monitorEveryXthOfUnit" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="RequirementsType">
+		<xs:sequence>
+			<xs:element name="Requirement" type="RequirementType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RequirementType">
+		<xs:choice>
+			<xs:element name="FreeformText" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Free form text specifying the requirement in textual form.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Performance">
+				<xs:annotation>
+					<xs:documentation>Performance specific requirement. 
+
+The structured data is used to generate diagnostic time constraints either injected in the executing code itself or to provide performance profiler input automatically.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:attribute name="maxMemoryBytes" type="xs:long">
+						<xs:annotation>
+							<xs:documentation>(Opt) Maximum amount of memory measured in bytes, that the logical block (including its calls to others) is allowed to consume.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="maxCPUTimeMs" type="xs:decimal">
+						<xs:annotation>
+							<xs:documentation>(Opt) Maximum CPU time measured in milliseconds, that the logical block (including its calls to others) is allowed to consume.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="maxTotalTimeMs" type="xs:decimal">
+						<xs:annotation>
+							<xs:documentation>(Opt) Maximum time measured in milliseconds, that the logical block (including its calls to others) is allowed to execute.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="maxFileIOCount" type="xs:long">
+						<xs:annotation>
+							<xs:documentation>(Opt) Maximum count of file IO measured in units, that the logical block (including its calls to others) is allowed to consume.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="maxFileIOBytes" type="xs:long">
+						<xs:annotation>
+							<xs:documentation>(Opt) Maximum amount of bytes in file IO, that the logical block (including its calls to others) is allowed to use.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="maxFileIOTimeMs" type="xs:decimal">
+						<xs:annotation>
+							<xs:documentation>(Opt) Maximum file IO time measured in milliseconds, that the logical block (including its calls to others) is allowed to consume.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+		<xs:attribute name="name" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Requirement's name to identify it.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="category" use="required">
+			<xs:annotation>
+				<xs:documentation>Requirement category.
+
+The requirement definition is done separately, but some categories (such as Performance) have matching definition elements available.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Customer">
+						<xs:annotation>
+							<xs:documentation>Statements of fact and assumptions that define the expectations of the system in terms of mission objectives, environment, constraints, and measures of effectiveness and suitability (MOE/MOS). The customers are those that perform the eight primary functions of systems engineering, with special emphasis on the operator as the key customer. Operational requirements will define the basic need and, at a minimum, answer the questions posed in the following listing:[1] Operational distribution or deployment: Where will the system be used?
+ Mission profile or scenario: How will the system accomplish its mission objective?
+ Performance and related parameters: What are the critical system parameters to accomplish the mission?
+ Utilization environments: How are the various system components to be used?
+ Effectiveness requirements: How effective or efficient must the system be in performing its mission?
+ Operational life cycle: How long will the system be in use by the user?
+ Environment: What environments will the system be expected to operate in an effective manner?
+</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Architectural">
+						<xs:annotation>
+							<xs:documentation>Architectural requirements explain what has to be done by identifying the necessary system architecture of a system.</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Structural">
+						<xs:annotation>
+							<xs:documentation>Structural requirements explain what has to be done by identifying the necessary structure of a system.</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Behavioral">
+						<xs:annotation>
+							<xs:documentation>Behavioral requirements explain what has to be done by identifying the necessary behavior of a system.</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Functional">
+						<xs:annotation>
+							<xs:documentation>Functional requirements explain what has to be done by identifying the necessary task, action or activity that must be accomplished. Functional requirements analysis will be used as the toplevel functions for functional analysis.</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Non-functional">
+						<xs:annotation>
+							<xs:documentation>Non-functional requirements are requirements that specify criteria that can be used to judge the operation of a system, rather than specific behaviors.</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Performance">
+						<xs:annotation>
+							<xs:documentation>The extent to which a mission or function must be executed; generally measured in terms of quantity, quality, coverage, timeliness or readiness. During requirements analysis, performance (how well does it have to be done) requirements will be interactively developed across all identified functions based on system life cycle factors; and characterized in terms of the degree of certainty in their estimate, the degree of criticality to system success, and their relationship to other requirements</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Design">
+						<xs:annotation>
+							<xs:documentation>The “build to,” “code to,” and “buy to” requirements for products and “how to execute” requirements for processes expressed in technical data packages and technical manuals.[</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Derived">
+						<xs:annotation>
+							<xs:documentation>Requirements that are implied or transformed from higher-level requirement. For example, a requirement for long range or high speed may result in a design requirement for low weight.</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Allocated">
+						<xs:annotation>
+							<xs:documentation>A requirement that is established by dividing or otherwise allocating a high-level requirement into multiple lower-level requirements. Example: A 100-pound item that consists of two subsystems might result in weight requirements of 70 pounds and 30 pounds for the two lower-level items.</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="SequentialExecutionType">
+		<xs:choice maxOccurs="unbounded">
+			<xs:element name="MethodExecute" type="MethodExecuteType"/>
+			<xs:element name="OperationExecute" type="OperationExecuteType"/>
+			<xs:element name="TargetDefinition" type="TargetDefinitionType"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="SubscriptionsType">
+		<xs:sequence>
+			<xs:element name="Subscription" type="SubscriptionType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SubscriptionType">
+		<xs:sequence>
+			<xs:choice>
+				<xs:element name="TriggeringInformationItem" type="InformationItemTargetType"/>
+				<xs:element name="TriggeringObjectContent" type="InformationObjectTargetType"/>
+			</xs:choice>
+			<xs:element name="OperationParameter" type="OperationParameterType" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="triggeredOperationName" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="TargetDefinitionType">
+		<xs:sequence>
+			<xs:element name="Parameter" type="TargetType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Target" type="TargetType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="dataType" type="xs:string" use="required"/>
+		<xs:attributeGroup ref="DesignAttributes"/>
+	</xs:complexType>
+	<xs:complexType name="TargetType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="TheBallCoreAbstractionType">
+		<xs:sequence>
+			<xs:element name="InstanceOfTheBall" type="InstanceOfTheBallType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ValidationType">
+		<xs:sequence>
+			<xs:element name="Target" type="TargetType" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attributeGroup ref="DesignAttributes"/>
+	</xs:complexType>
+	<xs:complexType name="VariableType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="dataType" type="xs:string" use="required"/>
+		<xs:attributeGroup ref="DesignAttributes"/>
+	</xs:complexType>
+	<xs:attributeGroup name="DesignAttributes">
+		<xs:attribute name="designDesc" type="xs:string" use="required"/>
+		<xs:attribute name="state" use="required">
+			<xs:annotation>
+				<xs:documentation>Item readiness status.
+
+Any real change in the underlying design information pushes the status back to "underDesign", followed by "designApproved" and finally "implemented".
+
+Depending on the process, the "designApproved" might come from separate auditing process.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="underDesign"/>
+					<xs:enumeration value="designApproved"/>
+					<xs:enumeration value="implemented"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:attributeGroup>
+	<xs:complexType name="CollectionForType">
+		<xs:attribute name="contentInformationObjectName" type="xs:string" use="required"/>
+	</xs:complexType>
+</xs:schema>
