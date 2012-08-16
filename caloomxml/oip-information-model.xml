@@ -18,6 +18,19 @@
 					<InformationItem name="Latitude" informationObjectName="Latitude" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
+			<InformationObject name="Address" designDesc="Address">
+				<InformationItems>
+					<InformationItem name="Streetname" logicalDataType="Text_Short" />
+					<InformationItem name="BuildingNumber" logicalDataType="Text_Short" />
+					<InformationItem name="PostOfficeBox" logicalDataType="Text_short"/>
+					<InformationItem name="PostalCode" logicalDataType="Text_short"/>
+					<InformationItem name="Municipality" LogicalDataType="Text_short"/>
+					<InformationItem name="Region" LogicalDataType="Text_short"/>
+					<InformationItem name="Province" LogicalDataType="Text_short"/>
+					<InformationItem name="state" LogicalDataType="Text_short"/>
+					<InformationItem name="Country" LogicalDataType="Text_short"/>
+				</InformationItems>
+			</InformationObject>
 			<InformationObject name="What" designDesc="What from 5W core">
 				<InformationItems>
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
@@ -33,6 +46,8 @@
 			<InformationObject name="Where" designDesc="Where from 5W core">
 				<InformationItems>
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
+					<InformationItem name="Description" LogicalDataType="Text_long"/>
+					<InformationItem name="" LogicalDataType=""/>
 					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
 				</InformationItems>
 			</InformationObject>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="enumeration">
+        <xs:complexType>
+<xs:enumeration value="TrueOrFalse_Boolean"/><xs:enumeration value="Text_Short"/><xs:enumeration value="Text_Long"/><xs:enumeration value="Number_Integer"/><xs:enumeration value="Number_ExactDecimal"/><xs:enumeration value="Number_ApproxDecimal"/><xs:enumeration value="Time_Date"/><xs:enumeration value="Time_Time"/><xs:enumeration value="Time_DateTime"/><xs:enumeration value="Data_Binary"/>            <xs:enumeration value="InformationObject"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
