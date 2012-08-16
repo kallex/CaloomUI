@@ -48,6 +48,7 @@
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
 					<InformationItem name="Description" logicalDataType="Text_Long"/>
 					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
+					<InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="Address"/>					
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="Event5W" designDesc="Event with 5W representation">
