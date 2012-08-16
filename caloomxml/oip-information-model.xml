@@ -22,13 +22,13 @@
 				<InformationItems>
 					<InformationItem name="Streetname" logicalDataType="Text_Short" />
 					<InformationItem name="BuildingNumber" logicalDataType="Text_Short" />
-					<InformationItem name="PostOfficeBox" logicalDataType="Text_short"/>
-					<InformationItem name="PostalCode" logicalDataType="Text_short"/>
-					<InformationItem name="Municipality" LogicalDataType="Text_short"/>
-					<InformationItem name="Region" LogicalDataType="Text_short"/>
-					<InformationItem name="Province" LogicalDataType="Text_short"/>
-					<InformationItem name="state" LogicalDataType="Text_short"/>
-					<InformationItem name="Country" LogicalDataType="Text_short"/>
+					<InformationItem name="PostOfficeBox" logicalDataType="Text_Short"/>
+					<InformationItem name="PostalCode" logicalDataType="Text_Short"/>
+					<InformationItem name="Municipality" logicalDataType="Text_Short"/>
+					<InformationItem name="Region" logicalDataType="Text_Short"/>
+					<InformationItem name="Province" logicalDataType="Text_Short"/>
+					<InformationItem name="state" logicalDataType="Text_Short"/>
+					<InformationItem name="Country" logicalDataType="Text_Short"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="What" designDesc="What from 5W core">
@@ -46,8 +46,7 @@
 			<InformationObject name="Where" designDesc="Where from 5W core">
 				<InformationItems>
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
-					<InformationItem name="Description" LogicalDataType="Text_long"/>
-					<InformationItem name="" LogicalDataType=""/>
+					<InformationItem name="Description" logicalDataType="Text_Long"/>
 					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
 				</InformationItems>
 			</InformationObject>
