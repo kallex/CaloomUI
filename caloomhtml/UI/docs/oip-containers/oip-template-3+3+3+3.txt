@@ -1,0 +1,22 @@
+<!-- oip-blog-secondary.txt -->
+<section id="blog">
+<?php include'../oip-atoms/oip-template-3+3+3+3-header.txt ' ?>
+<div class="row">
+	<!-- first span3 -->
+<?php include '../oip-atoms/oip-template-3.txt' ?>
+	<!-- end first span3 -->
+	
+	<!-- second span3 -->
+<?php include '../oip-atoms/oip-template-3.txt' ?>
+	<!-- end second span3 -->
+	
+	<!-- third span3 -->
+<?php include '../oip-atoms/oip-template-3.txt' ?>
+	<!-- end third span3 -->
+
+	<!-- forth span3 -->
+<?php include '../oip-atoms/oip-template-3.txt' ?>
+	<!-- end forth span3 -->
+
+</section>
+<!-- oip-blog-secondary.txt -->

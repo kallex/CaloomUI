@@ -1,0 +1,14 @@
+<!-- oip-template-6+6.txt -->
+<section id="blog">
+<?php include'../oip-atoms/oip-template-6+6-header.txt ' ?>
+<div class="row">
+	<!-- first span6 -->
+<?php include '../oip-atoms/oip-template-6.txt' ?>
+	<!-- end first span6 -->
+	
+	<!-- second span6 -->
+<?php include '../oip-atoms/oip-template-6.txt' ?>
+	<!-- end second span6 -->
+	
+</section>
+<!-- end oip-template-6+6.txt -->
