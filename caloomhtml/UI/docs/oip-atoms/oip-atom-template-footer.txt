@@ -1,0 +1,5 @@
+<!-- oip-atom-template-header.txt -->
+<div class="page-header" style="min-height:30px">
+	atom-template-footer
+</div>
+<!-- end oip-atom-template-header.txt -->

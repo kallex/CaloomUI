@@ -1,0 +1,6 @@
+<!-- oip-atom-template-header.txt -->
+<div class="page-header">
+	<h1>Title <small>Subtitle</small></h1>
+	atom-template-header page-header
+</div>
+<!-- end oip-atom-template-header.txt -->

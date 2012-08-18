@@ -1,0 +1,5 @@
+<!-- oip-atom-template-sidebar.txt -->
+<div class="span4" style="min-height:300px">
+atom-template-sidebar
+</div>
+<!-- end oip-atom-template-siderbar.txt -->

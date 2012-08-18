@@ -1,0 +1,5 @@
+<!-- oip-atom-template-body.txt -->
+<div class="span8" style="min-height:100px">
+atom-template-body span8
+</div><!-- end div span8 -->
+<!-- end oip-atom-template-body.txt -->

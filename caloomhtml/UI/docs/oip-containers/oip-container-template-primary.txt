@@ -1,0 +1,6 @@
+<!-- oip-container-template-primary.txt -->
+<section id="about" class="page-header">
+<?php include '../oip-atoms/oip-atom-template-header.txt' ?>
+<?php include '../oip-modules/oip-atom-template-body.txt' ?>
+</section>
+<!-- end container-template-primary.txt -->

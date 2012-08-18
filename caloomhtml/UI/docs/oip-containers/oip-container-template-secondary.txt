@@ -1,0 +1,12 @@
+<!-- oip-atom-template-secondary.txt -->
+<section id="about">
+<?php include '../oip-atoms/oip-atom-template-header.txt' ?>
+<div class="row">
+<?php include '../oip-atoms/oip-atom-template-sidebar.txt' ?>
+<div class="span8" style="margin:0;padding:0">
+<?php include '../oip-atoms/oip-atom-template-body.txt' ?>
+</div>
+<?php include '../oip-atoms/oip-atom-template-footer.txt' ?>
+</div>
+</section>
+<!-- end oip-atom-template-secondary.txt -->
