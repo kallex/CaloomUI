@@ -7,7 +7,7 @@
 	<?php include '..oip-module-images.txt' binding:Images?>
 	<?php include '../oip-atoms/oip-atom-body.txt' binding:Body?>
 </p>
-<p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p>
+<p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
 <!-- oip-social-panel.txt -->
 <div class="blog-body-social-module">
 <?php include '../oip-modules/oip-social-panel.txt' ?>

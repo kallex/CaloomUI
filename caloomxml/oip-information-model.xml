@@ -29,6 +29,9 @@
 					<InformationItem name="Tooltip" InformationObjectName="Tooltip" LogicalDataType="InformationObject" />
 				</InformationItems>
 			</InformationObject>
+			<InformationObject name="ImagesCollection" designDesc="">
+					<CollectionFor contentInformationObjectName="Images" />
+			</InformationObject>
 			<InformationObject name="Tooltip" designDesc="Tooltip">
 				<InformationItems>
 					<InformationItem name="Tooltip" LogicalDataType="Text_Short" />

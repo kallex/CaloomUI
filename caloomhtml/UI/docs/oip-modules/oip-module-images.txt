@@ -1,11 +1,11 @@
-<!-- oip-moduel-images.txt -->
+<!-- oip-module-images.txt -->
 <a data-toggle="modal"
-href="#blog-images"
+href="#blog-images" <!-- should be some sort of ImagesCollection" -->">
 <?php include'../oip-atoms/oip-atom-tooltip.txt' binding:Tooltip ?>
 <?php include'../oip-atoms/oip-atom-image.txt' binding:Image ?>
-
-
- alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px">
+<?php include'../oip-atoms/oip-atom-image-alt.txt' binding:ImageAlt ?>
+<?php include'../oip-atoms/oip-atom-caption.txt' binding:Caption ?>
+alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px">
 </a>	
 	
 	<h2>[!ATOM]Images[ATOM!]</h2>
@@ -14,3 +14,45 @@ href="#blog-images"
 	<input type"textfield" value="[!ATOM]Images[ATOM!]">
  end edit mode -->
 <!-- end oip-module-images.txt -->
+
+<div class="span8">
+	<h2 class="title">Blog Title</h2>
+	<h3 class="date-published">August</h3>
+	<h3 class="author">Author name</h3>
+	<p>
+		<a data-toggle="modal" href="#blog-images" rel="tooltip" title="click this image to open this image large and some other images if presentt">
+		<img src="http://placehold.it/260x180" alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px">
+		</a>
+	It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+	</p>
+	<p class="read-more"><!-- oip-blog-read-more.txt -->
+<a data-toggle="modal" href="#blog-read-more" rel="tooltip" title="Click here to read the whole blog post">Read more...</a>
+<!-- end oip-blog-read-more.txt -->
+</p>
+
+<!-- oip-social-panel.txt -->
+<div class="blog-body-social-module">
+<!-- oip-social-panel.txt -->
+<!-- oip-edit-filter.txt -->
+<a class="btn btn-small" data-toggle="modal" href="#edit-filter" rel="tooltip" title="fine tune the results on this map -- oip-edit-filter.txt"><i class="icon-filter"></i></a>
+<!-- end oip-edit-filter.txt -->
+<!-- oip-social-follow.txt -->
+<a class="btn btn-small" data-toggle="modal" href="#social-follow" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt"><i class="icon-eye-open"></i></a>
+<!-- oip-end-social-follow.txt -->
+<!-- oip-social-followers.txt -->
+<a class="btn btn-small" data-toggle="modal" href="#social-followers" rel="tooltip" title="see who else is following this map -- oip-social-followers.txt"><i class="icon-magnet"></i></a>
+<!-- end oip-social-followers.txt -->
+<!-- oip-social-share.txt -->
+<a class="btn btn-small" data-toggle="modal" href="#social-share" rel="tooltip" title="recommend and share this map to others -- oip-social-share.txt"><i class="icon-share"></i></a>
+<!-- end oip-social-share.txt -->
+<!-- oip-social-download.txt -->
+<a class="btn btn-small" data-toggle="modal" href="#map-save" rel="tooltip" title="download this map in various forms to your computer or phone -- oip-social-follow.txt"><i class="icon-download"></i></a>
+<!-- end oip-social-download.txt -->
+<!-- oip-social-print.txt -->
+<a class="btn btn-small" data-toggle="modal" href="#social-print" rel="tooltip" title="click here to print this map -- oip-social-print.txt"><i class="icon-print"></i></a><!-- not yet implemented -->
+<!-- end oip-social-print.txt -->
+<!-- end oip-social-panel.txt -->
+</div>
+<!-- end oip-social-panel.txt -->
+
+</div>
