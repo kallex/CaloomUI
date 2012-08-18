@@ -1,0 +1,19 @@
+<!-- oip-module-blog.txt -->
+<div class="span8">
+	<?php include '../oip-atoms/oip-atom-title.txt' binding:Title?>
+	<?php include '../oip-atoms/oip-atom-published.txt' binding:Published?>
+	<?php include '../oip-atoms/oip-atom-author.txt' binding:Author?>
+<p>
+	<?php include '..oip-module-images.txt' binding:Images?>
+	<?php include '../oip-atoms/oip-atom-body.txt' binding:Body?>
+</p>
+<p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p>
+<!-- oip-social-panel.txt -->
+<div class="blog-body-social-module">
+<?php include '../oip-modules/oip-social-panel.txt' ?>
+</div>
+<!-- end oip-social-panel.txt -->
+
+</div>
+
+<!-- end oip-module-blog.txt -->

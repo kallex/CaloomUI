@@ -1,0 +1,5 @@
+<!-- oip-title.txt -->
+<div class="page-header">
+	<h2>[!ATOM]Title[ATOM!]</h2>
+</div>
+<!-- end oip-title.txt -->

@@ -1,0 +1,6 @@
+<!-- oip-atom-title.txt -->
+<h2>[!ATOM]Title[ATOM!]</h2>
+<!-- edit mode 
+<input type"textfield" value="[!ATOM]Title[ATOM!]">
+ end edit mode -->
+<!-- end oip-atom-title.txt -->

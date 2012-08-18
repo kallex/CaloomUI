@@ -1,0 +1,6 @@
+<!-- oip-atom-published.txt -->
+<h3>[!ATOM]Published[ATOM!]</h3>
+<!-- edit mode 
+	<input type"textfield" value="[!ATOM]Published[ATOM!]">
+ end edit mode -->
+<!-- end oip-atom-published.txt -->

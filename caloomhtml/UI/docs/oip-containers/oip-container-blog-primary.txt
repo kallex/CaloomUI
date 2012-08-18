@@ -1,26 +1,24 @@
 <!-- oip-blog-primary.txt -->
 <section id="blog">
-<?php include '../oip-atoms/oip-blog-header.txt' ?>
+<?php include '../oip-atoms/oip-blog-header.txt' ?><!-- static text -->
 
 <!-- featured blog -->
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-		<!-- featured blog -->
-		<!-- latest x# blogs -->
-		<div class="row">
-
-<?php include '../oip-atoms/oip-blog-sidebar.txt' ?>
+<?php include '../oip-atoms/oip-module-blog.txt' binding:FeaturedBlog ?>
+<!-- featured blog -->
+<!-- latest x# blogs -->
+<div class="row">
+<?php include '../oip-modules/oip-blog-sidebar.txt' ?>
 <div class="span8" style="margin:0;padding:0">
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
-<?php include '../oip-atoms/oip-blog-body.txt' ?>
+<?php include '../oip-modules/oip-module-blog.txt' binding:BlogCollection[0]?>
+<?php include '../oip-modules/oip-module-blog.txt' binding:BlogCollection[1]?>
+<?php include '../oip-modules/oip-module-blog.txt' binding:BlogCollection[2]?>
+<?php include '../oip-modules/oip-module-blog.txt' binding:BlogCollection[3]?>
+<?php include '../oip-modules/oip-module-blog.txt' binding:BlogCollection[4]?>
+<?php include '../oip-modules/oip-module-blog.txt' binding:BlogCollection[5]?>
+<?php include '../oip-modules/oip-module-blog.txt' binding:BlogCollection[6]?>
+<?php include '../oip-modules/oip-module-blog.txt' binding:BlogCollection[7]?>
+<?php include '../oip-modules/oip-module-blog.txt' binding:BlogCollection[8]?>
+<?php include '../oip-modules/oip-module-blog.txt' binding:BlogCollection[9]?>
 </div>
 </div>
 <!-- latest x# blogs -->

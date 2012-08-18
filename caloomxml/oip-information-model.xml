@@ -2,6 +2,58 @@
 <TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
 	<InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
 		<InformationModel>
+			<InformationObject name="BlogContainer" designDesc="">
+				<InformationItems>
+					<InformationItem name="FeaturedBlog" InformationObjectName="Blog" LogicalDataType="InformationObject"/>
+					<InformationItem name="BlogCollection" InformationObjectName="BlogCollection" LogicalDataType="InformationObject"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="BlogCollection" designDesc="">
+					<CollectionFor contentInformationObjectName="Blog" />
+			</InformationObject>
+			<InformationObject name="Blog" designDesc="Individual Blog">
+					<InformationItems>
+						<InformationItem name="Title" InformationObjectName="EventCollection" LogicalDataType="InformationObject"/>
+						<InformationItem name="Published" LogicalDataType="Time_DateTime"/>
+						<InformationItem name="Author" LogicalDataType="Text_short"/>
+						<InformationItem name="Images" InformationObjectName="Images" LogicalDataType="InformationObject" />
+						<InformationItem name="Body" LogicalDataType="Text_short"/>
+						<InformationItem name="SocialPanel" InformationObjectName="SocialPanelCollection" LogicalDataType="InformationObject" />
+					</InformationItems>
+			</InformationObject>
+			<InformationObject name="Images" designDesc="Images and attributes">
+				<InformationItems>
+					<InformationItem name="Image" InformationObjectName="ImageVideoSoundVectorRaw" LogicalDataType="InformationObject" />
+					<InformationItem name="Caption" LogicalDataType="Text_Short"/>
+					<InformationItem name="ImageAlt" LogicalDataType="Text_Short"/>
+					<InformationItem name="Tooltip" InformationObjectName="Tooltip" LogicalDataType="InformationObject" />
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Tooltip" designDesc="Tooltip">
+				<InformationItems>
+					<InformationItem name="Tooltip" LogicalDataType="Text_Short" />
+				</InformationItems>
+			</InformationObject>
+			
+			
+			
+			
+			<InformationObject name="MapContainer" designDesc="">
+					<InformationItems>
+						<InformationItem name="Events" InformationObjectName="EventCollection" LogicalDataType="InformationObject"/>
+						<InformationItem name="Course" LogicalDataType="Text_short"/>
+						<InformationItem name="Meetings" LogicalDataType="Text_short"/>
+						<InformationItem name="Research" LogicalDataType="Text_short"/>
+					</InformationItems>
+				</InformationObject>
+			<InformationObject name="EventCollection" designDesc="">
+					<CollectionFor contentInformationObjectName="Event" />
+			</InformationObject>
+			<InformationObject name="MapEventCollection" designDesc="">
+				<InformationItems>
+					<InformationItem name="Events" LogicalDataType="InformationObject" InformationObjectName="EventCollection"/>
+				</InformationItems>
+			</InformationObject>
 			<InformationObject name="Longitude" designDesc="Longitude">
 				<InformationItems>
 					<InformationItem name="TextValue" logicalDataType="Text_Short"/>

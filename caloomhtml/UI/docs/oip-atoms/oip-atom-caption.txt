@@ -1,0 +1,6 @@
+<!-- oip-atom-caption.txt -->
+[!ATOM]Caption[ATOM!]
+<!-- edit mode 
+	<input type"textfield" value="[!ATOM]Caption[ATOM!]">
+ end edit mode -->
+<!-- end oip-atom-caption.txt -->

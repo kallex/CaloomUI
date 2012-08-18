@@ -1,0 +1,7 @@
+<!-- oip-atom-body.txt -->
+<img src="[!ATOM]Image[ATOM]"
+
+<!-- edit mode 
+	<input type"textfield" value="[!ATOM]Images[ATOM!]">
+ end edit mode -->
+<!-- end oip-atom-body.txt -->

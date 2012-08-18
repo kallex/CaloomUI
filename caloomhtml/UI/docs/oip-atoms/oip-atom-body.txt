@@ -1,0 +1,6 @@
+<!-- oip-atom-body.txt -->
+[!ATOM]Body[ATOM!]
+<!-- edit mode 
+	<input type"textfield" value="[!ATOM]Body[ATOM!]">
+ end edit mode -->
+<!-- end oip-atom-body.txt -->

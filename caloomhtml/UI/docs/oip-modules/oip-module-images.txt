@@ -1,0 +1,16 @@
+<!-- oip-moduel-images.txt -->
+<a data-toggle="modal"
+href="#blog-images"
+<?php include'../oip-atoms/oip-atom-tooltip.txt' binding:Tooltip ?>
+<?php include'../oip-atoms/oip-atom-image.txt' binding:Image ?>
+
+
+ alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px">
+</a>	
+	
+	<h2>[!ATOM]Images[ATOM!]</h2>
+
+<!-- edit mode 
+	<input type"textfield" value="[!ATOM]Images[ATOM!]">
+ end edit mode -->
+<!-- end oip-module-images.txt -->
