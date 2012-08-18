@@ -55,4 +55,4 @@ alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-lef
 </div>
 <!-- end oip-social-panel.txt -->
 
-</div>
+</div>-->
