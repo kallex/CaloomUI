@@ -18,9 +18,22 @@
 					<InformationItem name="Latitude" informationObjectName="Latitude" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
+			<InformationObject name="Date" designDesc="Date (day, Week, Month, Year)">
+				<InformationItems>
+					<InformationItem name="Day" logicalDataType="Time_DateTime"/>
+					<InformationItem name="Week" logicalDataType="Time_DateTime"/>
+					<InformationItem name="Month" logicalDataType="Time_DateTime"/>
+					<InformationItem name="Year" logicalDataType="Time_DateTime"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Sex" designDesc="Sex (male, female, undetermined)">
+				<InformationItems>
+					<InformationItem name="Sex" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
 			<InformationObject name="Address" designDesc="Address">
 				<InformationItems>
-					<InformationItem name="Streetname" logicalDataType="Text_Short" />
+					<InformationItem name="StreetName" logicalDataType="Text_Short" />
 					<InformationItem name="BuildingNumber" logicalDataType="Text_Short" />
 					<InformationItem name="PostOfficeBox" logicalDataType="Text_Short"/>
 					<InformationItem name="PostalCode" logicalDataType="Text_Short"/>
@@ -29,12 +42,40 @@
 					<InformationItem name="Province" logicalDataType="Text_Short"/>
 					<InformationItem name="state" logicalDataType="Text_Short"/>
 					<InformationItem name="Country" logicalDataType="Text_Short"/>
+					<InformationItem name="Continent" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Identity" designDesc="Identity">
+				<InformationItems>
+					<InformationItem name="FirstName" LogicalDataType="Text_short"/>
+					<InformationItem name="LastName" LogicalDataType="Text_short"/>
+					<InformationItem name="Initials" LogicalDataType="Text_short"/>
+					<InformationItem name="Sex" LogicalDataType="InformationObject" informationObjectName="Sex"/>
+					<InformationItem name="Birthday" LogicalDataType="InformationObject" informationObjectName="Date"/>/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="ImageVideoSoundVectorRaw" designDesc="various content types">
+				<InformationItems>
+					<InformationItem name="Image" logicalDataType="Data_Binary" informationObjectName="Icon"/>
+					<InformationItem name="Video" logicalDataType="Data_Binary"/>
+					<InformationItem name="Sound" logicalDataType="Data_Binary"/>
+					<InformationItem name="Vector" logicalDataType="Text_Long"/>
+					<InformationItem name="Raw" logicalDataType="Data_Binary"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Category" designDesc="Category">
+				<InformationItems>
+					<InformationItem name="TextValue" logicalDataType="Text_Short"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="What" designDesc="What from 5W core">
 				<InformationItems>
+					<InformationItem name="ServiceName" logicalDataType="Text_Long"/>
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
 					<InformationItem name="Description" logicalDataType="Text_Long"/>
+					<InformationItem name="Illustration" logicalDataType="InformationObject" informationObjectName="ImageVideoSoundVectorRaw"/>
+					<InformationItem name="Category1" logicalDataType="InformationObject" informationObjectName="Category"/>
+					<InformationItem name="Category2" logicalDataType="InformationObject" informationObjectName="Category"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="When" designDesc="When from 5W core">
@@ -44,6 +85,26 @@
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="Where" designDesc="Where from 5W core">
+				<InformationItems>
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+					<InformationItem name="Description" logicalDataType="Text_Long"/>
+					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
+					work location
+					birth place
+					school location
+					home location
+					etc
+					<InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="Address"/>					
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Whom" designDesc="Whom from 5W core">
+				<InformationItems>
+					<InformationItem name="Identity" logicalDataType="InformationObject" informationObjectName="Identity"/> <!-- is identity better? -->
+					<InformationItem name="ProfileImage" logicalDataType="InformationObject" informationObjectName="ImageVideoSoundVectorRaw"/>					
+					<InformationItem name="BirthDate" logicalDataType="InformationObject" informationObjectName=""/>					
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Worth" designDesc="Worth from 5W core">
 				<InformationItems>
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
 					<InformationItem name="Description" logicalDataType="Text_Long"/>
