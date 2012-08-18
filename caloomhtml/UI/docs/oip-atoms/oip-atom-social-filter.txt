@@ -1,0 +1,10 @@
+<!-- oip-atom-social-filter.txt -->
+<a class="btn btn-small" data-toggle="modal"href="#social-filter"
+rel="tooltip" title="fine tune the results on this map -- oip-edit-filter.txt">
+<i class="icon-filter"></i></a>
+<!-- end oip-atom-social-filter.txt -->
+
+<!--
+	#social-filter
+points to oip-modal-social-filter.txt
+-->

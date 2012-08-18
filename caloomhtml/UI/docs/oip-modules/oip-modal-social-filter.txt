@@ -1,5 +1,5 @@
-<!-- oip-modal-edit-filter.txt -->
-<div id="edit-filter" class="modal hide fade">
+<!-- oip-modal-social-filter.txt -->
+<div id="social-filter" class="modal hide fade">
 	<!-- modal header -->
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button>
@@ -30,4 +30,4 @@
 	</div>
 	<!-- end modal footer -->
 </div>
-<!-- end oip-modal-edit-filter.txt -->
+<!-- end oip-modal-social-filter.txt -->

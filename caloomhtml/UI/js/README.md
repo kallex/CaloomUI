@@ -7,7 +7,7 @@ These are the high-level design rules which guide the development of Bootstrap's
 
 We believe you should be able to use all plugins provided by Bootstrap purely through the markup API without writing a single line of javascript. This is bootstraps first class api.
 
-We acknowledge that this isn't always the most performant and sometimes it may be desirable to turn this functionality off altogether. Therefore, as of 2.0 we provide the ability to disable the data attribute API by unbinding all events on the body namespaced with `'data-api'`. This looks like this:
+We acknowledge that this isn't always the most performant and sometimes it may be desirable to turn this functionality off altogether. Therefore, as of 2.0 we provide the ability to disable the data attribute API by unBindItem all events on the body namespaced with `'data-api'`. This looks like this:
 
     $('body').off('.data-api')
 

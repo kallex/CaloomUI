@@ -1,5 +1,5 @@
 <!-- oip-social-panel.txt -->
-<?php include'../oip-atoms/oip-social-filter.txt' ?>
+<?php include'../oip-atoms/oip-atom-social-filter.txt' BindItem:SocialFilter?>
 <?php include'../oip-atoms/oip-social-follow.txt' ?>
 <?php include'../oip-atoms/oip-social-followers.txt' ?>
 <?php include'../oip-atoms/oip-social-share.txt' ?>

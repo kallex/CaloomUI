@@ -16,12 +16,12 @@
 						<InformationItem name="Title" InformationObjectName="EventCollection" LogicalDataType="InformationObject"/>
 						<InformationItem name="Published" LogicalDataType="Time_DateTime"/>
 						<InformationItem name="Author" LogicalDataType="Text_short"/>
-						<InformationItem name="Images" InformationObjectName="Images" LogicalDataType="InformationObject" />
+						<InformationItem name="ImageGroup" InformationObjectName="ImageGroup" LogicalDataType="InformationObject" />
 						<InformationItem name="Body" LogicalDataType="Text_short"/>
 						<InformationItem name="SocialPanel" InformationObjectName="SocialPanelCollection" LogicalDataType="InformationObject" />
 					</InformationItems>
 			</InformationObject>
-			<InformationObject name="Images" designDesc="Images and attributes">
+			<InformationObject name="Image" designDesc="Image and attributes">
 				<InformationItems>
 					<InformationItem name="Image" InformationObjectName="ImageVideoSoundVectorRaw" LogicalDataType="InformationObject" />
 					<InformationItem name="Caption" LogicalDataType="Text_Short"/>
@@ -29,8 +29,15 @@
 					<InformationItem name="Tooltip" InformationObjectName="Tooltip" LogicalDataType="InformationObject" />
 				</InformationItems>
 			</InformationObject>
+			<InformationObject name="ImageGroup" designDesc="Group of Images">
+				<InformationItems>
+					<InformationItem name="Title" LogicalDataType="Text_Short"/>
+					<InformationItem name="Description" LogicalDataType="Text_Short"/>
+					<InformationItem name="ImagesCollection" InformationObjectName="ImagesCollection" LogicalDataType="InformationObject" />
+				</InformationItems>
+			</InformationObject>
 			<InformationObject name="ImagesCollection" designDesc="">
-					<CollectionFor contentInformationObjectName="Images" />
+					<CollectionFor contentInformationObjectName="Image" />
 			</InformationObject>
 			<InformationObject name="Tooltip" designDesc="Tooltip">
 				<InformationItems>
@@ -38,7 +45,10 @@
 				</InformationItems>
 			</InformationObject>
 			
-			
+			<InformationObject name="SocialPanel" designDesc="SocialPanel"/>
+				<InformationItems>
+					<InformationItem name="SocialFilter" InformationObjectName="Filter" LogicalDataType="InformationObject"/>
+				</InformationItems>
 			
 			
 			<InformationObject name="MapContainer" designDesc="">

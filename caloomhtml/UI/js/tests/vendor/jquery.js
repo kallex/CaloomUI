@@ -3455,8 +3455,8 @@ function returnTrue() {
 	return true;
 }
 
-// jQuery.Event is based on DOM3 Events as specified by the ECMAScript Language Binding
-// http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html
+// jQuery.Event is based on DOM3 Events as specified by the ECMAScript Language BindItem
+// http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-BindItem.html
 jQuery.Event.prototype = {
 	preventDefault: function() {
 		this.isDefaultPrevented = returnTrue;
@@ -3808,7 +3808,7 @@ jQuery.each( ("blur focus focusin focusout load resize scroll unload click dblcl
 	"mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave " +
 	"change select submit keydown keypress keyup error contextmenu").split(" "), function( i, name ) {
 
-	// Handle event binding
+	// Handle event BindItem
 	jQuery.fn[ name ] = function( data, fn ) {
 		if ( fn == null ) {
 			fn = data;
@@ -6846,7 +6846,7 @@ var r20 = /%20/g,
 	 */
 	prefilters = {},
 
-	/* Transports bindings
+	/* Transports BindItems
 	 * 1) key is the dataType
 	 * 2) the catchall symbol "*" can be used
 	 * 3) selection will start with transport dataType and THEN go to "*" if needed

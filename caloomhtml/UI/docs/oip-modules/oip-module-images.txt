@@ -1,15 +1,13 @@
 <!-- oip-module-images.txt -->
 <a data-toggle="modal"
 href="#blog-images" <!-- should be some sort of ImagesCollection" -->">
-<?php include'../oip-atoms/oip-atom-tooltip.txt' binding:Tooltip ?>
-<?php include'../oip-atoms/oip-atom-image.txt' binding:Image ?>
-<?php include'../oip-atoms/oip-atom-image-alt.txt' binding:ImageAlt ?>
-<?php include'../oip-atoms/oip-atom-caption.txt' binding:Caption ?>
+<?php include'../oip-atoms/oip-atom-tooltip.txt' BindItem:Tooltip ?>
+<?php include'../oip-atoms/oip-atom-image.txt' BindItem:Image ?>
+<?php include'../oip-atoms/oip-atom-image-alt.txt' BindItem:ImageAlt ?>
+<?php include'../oip-atoms/oip-atom-caption.txt' BindItem:Caption ?>
 alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px">
 </a>	
-	
-	<h2>[!ATOM]Images[ATOM!]</h2>
-
+<h2>[!ATOM]Images[ATOM!]</h2>
 <!-- edit mode 
 	<input type"textfield" value="[!ATOM]Images[ATOM!]">
  end edit mode -->

@@ -1,5 +1,7 @@
 <!-- oip-module-blog.txt -->
 <div class="span8">
+	<form>
+		<fieldset>
 	<?php include '../oip-atoms/oip-atom-title.txt' BindItem:Title?>
 	<?php include '../oip-atoms/oip-atom-published.txt' BindItem:Published?>
 	<?php include '../oip-atoms/oip-atom-author.txt' BindItem:Author?>
@@ -14,6 +16,20 @@
 <?php include '../oip-modules/oip-module-social-panel.txt' BindItem:SocialPanel?>
 </div>
 <!-- end oip-social-panel.txt -->
-
+</fieldset>
+</form>
 </div>
 <!-- end oip-module-blog.txt -->
+
+
+<form class="well">
+  <label>Edit Blog</label>
+  <input name="Title" type="text" class="span3" placeholder="Type something…">
+  <input name="Published" type="text" class="span3" placeholder="Type something…">
+  <input name="Author" type="text" class="span3" placeholder="Type something…">
+  <span class="help-block">Example block-level help text here.</span>
+  <label class="checkbox">
+    <input type="checkbox"> Check me out
+  </label>
+  <button type="submit" class="btn">Submit</button>
+</form>

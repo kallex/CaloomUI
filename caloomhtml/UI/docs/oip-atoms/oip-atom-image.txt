@@ -1,7 +1,8 @@
-<!-- oip-atom-body.txt -->
-<img src="[!ATOM]Image[ATOM]"
-
+<!-- oip-module-image.txt -->
+<a data-toggle="modal" href="#blog-images" rel="tooltip" title="click this image to open this image large and some other images if presentt">
+<img src="[!ATOM]Image[ATOM!]" alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px">
+</a>
 <!-- edit mode 
 	<input type"textfield" value="[!ATOM]Images[ATOM!]">
  end edit mode -->
-<!-- end oip-atom-body.txt -->
+<!-- end oip-module-image.txt -->
