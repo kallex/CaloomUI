@@ -1,7 +1,7 @@
-<!-- oip-map-services-primary.txt -->
+<!-- oip-container-map-services-primary.txt -->
 <section id="maps" style="position:relative">
 <ul class="nav nav-tabs" style="margin-bottom:0px">
-<li class="active"><a href="#tab-events" data-toggle="tab">Europe Events</a></li>
+<li class="active"><a href="#tab-events" data-toggle="tab">Europe Events</a></li> 
 <li><a href="#tab-courses" data-toggle="tab">South America Courses</a></li>
 <li><a href="#tab-meetings" data-toggle="tab">Asia Meetings</a></li>
 <li><a href="#tab-projects" data-toggle="tab">Africa Projects</a></li>
@@ -10,7 +10,7 @@
 </ul>
 
 <div class="tab-content">
-<div class="tab-pane active" id="tab-events"><?php include'../oip-modules/oip-map-events.txt' ?></div>
+<div class="tab-pane active" id="tab-events"><?php include'../oip-modules/oip-map-events.txt' ?></div>binding:oip-module-map <!-- oip-module-map -->
 <div class="tab-pane" id="tab-courses"><?php include'../oip-modules/oip-map-courses.txt' ?></div>
 <div class="tab-pane" id="tab-meetings"><?php include'../oip-modules/oip-map-meetings.txt' ?></div>
 <div class="tab-pane" id="tab-projects"><?php include'../oip-modules/oip-map-projects.txt' ?></div>
@@ -19,9 +19,9 @@
 
 <!-- zoom and control panels -->
 <div style="position:absolute;left:10px;top:46px;width:auto; padding:5px; background: rgba(255, 255, 255, 0.6);"><!-- a quick hack to minimize the div -->
-<?php include'../oip-modules/oip-zoom-panel.txt' ?>
-<?php include'../oip-modules/oip-control-panel.txt' ?>
+<?php include'../oip-modules/oip-zoom-panel.txt' ?>binding:oip-module-zoom-panel <!-- oip-module-zoom-panel -->
+<?php include'../oip-modules/oip-control-panel.txt' ?>binding:oip-module-control-panel <!-- oip-module-comtrol-panel -->
 </div>
 <!-- end zoom and control panels -->
 </section>
-<!-- end oip-map-services-primary.txt -->
+<!-- end oip-container-map-services-primary.txt -->
