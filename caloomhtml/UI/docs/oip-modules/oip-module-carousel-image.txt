@@ -1,9 +1,9 @@
 <!-- oip-module-carousel-image.txt -->
 <div class="item">
-<?php include'../oip-atoms/oip-atom-image.txt' BindItem:Image?>	
+<?php include'../oip-atoms/oip-atom-image.txt' ?><!--BindItem:Image-->
 <div class="carousel-caption">
-<?php include'../oip-atoms/oip-atom-title.txt' BindItem:Title?>	
-<?php include'../oip-atoms/oip-atom-caption.txt' BindItem:Caption?>	
+<?php include'../oip-atoms/oip-atom-title.txt' ?>	<!--BindItem:Title-->
+<?php include'../oip-atoms/oip-atom-caption.txt' ?>	<!--BindItem:Caption-->
 </div>
 </div>
 <!-- oip-module-carousel-image.txt -->

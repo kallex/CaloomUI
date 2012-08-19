@@ -1,10 +1,10 @@
 <!-- oip-module-modal-images.txt -->
 <div class="span9">
-	<title>
-	<description>
+	<!--title-->
+	<!--description-->
 <div id="myCarousel" class="carousel slide">
 <div class="carousel-inner">
-<?php include '../oip-modules/oip-module-carousel-image.txt' BindCollection:ImagesCollection?>
+<?php include 'oip-module-carousel-image.txt' ?><!--BindCollection:ImagesCollection-->
 </div>
 </div>
 <!-- end oip-module-modal-images.txt -->

@@ -2,9 +2,9 @@
 <section id="blog">
 <?php include '../oip-modules/oip-module-blog-header-edit.txt' ?><!-- static text -->
 <div class="row">
-<?php include '../oip-modules/oip-module-blog-sidebar-edit.txt' ?><!-- BindItemTo:BlogNavigation -->
+<?php include '../oip-modules/oip-module-blog-sidebar-edit.txt' ?><!-- UseInformationObject:BlogNavigation -->
 <div class="span8" style="margin:0;padding:0">
-<?php include '../oip-modules/oip-module-blog-edit.txt' ?><!-- BindItemTo:Blog -->
+<?php include '../oip-modules/oip-module-blog-edit.txt' ?><!-- UseInformationObjectAsCollection:BlogCollection -->
 </div>
 </div>
 </section>

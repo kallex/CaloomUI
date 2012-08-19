@@ -1,8 +1,6 @@
 <!-- oip-module-blog-header-edit.txt -->
 <div class="page-header">
 	<h1><?php include'../oip-atoms/oip-atom-title.txt' ?><small><?php include'../oip-atoms/oip-atom-subtitle.txt' ?></small>	<a class="btn btn-small btn-success" data-toggle="modal" href="#HeaderEdit"  rel="tooltip" title="edit the service and map -- oip-edit-service.txt"><i class="icon-wrench"></i></a></h1>
-
-	<!-- end oip-edit-service.txt -->
 </div>
 <div id="HeaderEdit" class="modal hide fade well">
 	<div class="modal-header">
@@ -32,3 +30,4 @@
 		</form>
 	</div>
 </div>
+<!-- end oip-module-blog-header-edit.txt -->

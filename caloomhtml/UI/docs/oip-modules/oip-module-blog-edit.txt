@@ -2,11 +2,15 @@
 <div class="span8">	
 <?php include '../oip-modules/oip-admin-edit-panel.txt' ?><!-- BindItem:SocialPanel-->
 <H1><?php include '../oip-atoms/oip-atom-title.txt' ?><!--BindItem:Title-->
-<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></Small></H1><!--BindItem:SubTitle-->
+<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?><!--BindItem:SubTitle--></Small></H1>
 <?php include '../oip-atoms/oip-atom-published.txt' ?><!--BindItem:Published-->
 <?php include '../oip-atoms/oip-atom-author.txt' ?><!-- BindItem:Author-->
 <p>
-<?php include '..oip-module-modal-images.txt' ?><!-- BindItem:ImageGroup -->
+<!--oip-module-modal-images.txt-->
+<!-- BindItem:ImageGroup -->
+<a data-toggle="modal" href="#ImagesEdit" rel="tooltip" title="click this image to open this image large and some other images if presentt">
+<img src="http://placehold.it/260x180" alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px">
+</a>
 <?php include '../oip-atoms/oip-atom-body.txt' ?><!-- BindItem:Body-->
 </p>
 <p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
@@ -17,7 +21,7 @@
 <!-- end oip-social-panel.txt -->
 </div>
 <!-- end oip-module-blog-edit.txt -->
-<!-- oip-modal-edit-information.txt -->
+<!-- modal BlogEdit-->
 <div id="BlogEdit" class="modal hide fade well">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button>
@@ -36,5 +40,25 @@
 		</form>
 	</div>
 </div>
-<!-- end oip-modal-edit-information.txt -->
+<!-- modal BlogEdit-->
 
+<!-- modal ImagesEdit-->
+<div id="ImagesEdit" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h3>Add or Change Images</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal well">
+			<fieldset>
+				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- Title -->
+				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- SubTitle -->
+				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- Body -->
+				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- Excerpt -->
+				<div class="modal-footer">
+				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+</div>			</fieldset>
+		</form>
+	</div>
+</div>
+<!-- modal ImagesEdit-->

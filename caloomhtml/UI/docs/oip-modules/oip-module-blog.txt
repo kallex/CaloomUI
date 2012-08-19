@@ -1,7 +1,7 @@
 <!-- oip-module-blog.txt -->
-<div class="span8">
-<?php include '../oip-modules/oip-admin-edit-panel.txt' ?><!-- BindItem:SocialPanel-->
-<?php include '../oip-atoms/oip-atom-title.txt' ?><!--BindItem:Title-->
+<div class="span8">	
+<H1><?php include '../oip-atoms/oip-atom-title.txt' ?><!--BindItem:Title-->
+<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></Small></H1><!--BindItem:SubTitle-->
 <?php include '../oip-atoms/oip-atom-published.txt' ?><!--BindItem:Published-->
 <?php include '../oip-atoms/oip-atom-author.txt' ?><!-- BindItem:Author-->
 <p>
