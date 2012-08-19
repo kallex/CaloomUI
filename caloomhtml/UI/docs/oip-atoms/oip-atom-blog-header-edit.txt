@@ -1,0 +1,11 @@
+<!-- oip-atom-blog-header-edit.txt -->
+<div class="page-header">
+<form class="well form-inline">	
+<label class="control-label" for="input01">Title</label>
+<input name="Header" class="input-large" id="" type="text" value="Blog">
+<label class="control-label" for="input01">Subtitle</label>
+<input name="SubTitle" class="input-xlarge" style="width:600px" id="" type="text" value="Share, co-create, collaborate, plan events? Look no further">
+<?php include 'oip-atom-form-inline-cancel-close-save.txt' ?>
+</form>
+</div>
+<!-- end oip-atom-blog-header-edit.txt -->

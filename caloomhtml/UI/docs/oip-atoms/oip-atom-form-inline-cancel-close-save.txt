@@ -1,0 +1,4 @@
+<!-- oip-atom-form-cancel-close-save.txt -->
+<button class="btn" >Cancel and Close</button>
+<button type="submit" class="btn btn-primary">Submit</button>
+<!-- end oip-atom-form-cancel-close-save.txt -->

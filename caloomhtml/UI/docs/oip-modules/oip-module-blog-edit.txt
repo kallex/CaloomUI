@@ -1,5 +1,5 @@
-<!-- oip-module-blog.txt -->
-<div class="span8">
+<!-- oip-module-blog-edit.txt -->
+<div class="span8">[oip-module-blog-edit.txt]
 <?php include '../oip-modules/oip-admin-edit-panel.txt' ?><!-- BindItem:SocialPanel-->
 <?php include '../oip-atoms/oip-atom-title.txt' ?><!--BindItem:Title-->
 <?php include '../oip-atoms/oip-atom-published.txt' ?><!--BindItem:Published-->
@@ -15,4 +15,4 @@
 </div>
 <!-- end oip-social-panel.txt -->
 </div>
-<!-- end oip-module-blog.txt -->
+<!-- end oip-module-blog-edit.txt -->

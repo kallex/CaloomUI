@@ -1,0 +1,36 @@
+<!-- oip-layout-default-edit.txt -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+<?php include 'oip-head.txt' ?>
+<!-- end head -->
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+<!-- navbar -->
+<?php include '../oip-modules/oip-navbar-fixed-top.txt' ?>
+<!-- end navbar -->
+<!-- section -->
+<section id="gridSystem">
+<!-- container -->
+<div id="primary" class="container-fluid marketing well" style="margin-top:0px;background-color:white">
+<?php include '../oip-containers/oip-container-map-services-primary.txt' ?><!-- BindItemTo:MapCollection-->
+</div>
+<div id="secondary" class="container">
+<?php include '../oip-containers/oip-container-blog-secondary-edit.txt'  ?><!--BindItemTo:BlogContainer -->
+<?php include '../oip-containers/oip-container-calendar-secondary.txt'  ?><!--BindItemTo:CalendarContainer -->
+<?php include '../oip-containers/oip-container-projects-secondary.txt'  ?><!--BindItemTo:ProjectContainer -->
+	<!-- fixed -->
+<?php include '../oip-containers/oip-container-about-secondary.txt'  ?><!--BindItemTo:AboutContainer -->
+<?php include '../oip-containers/oip-container-account-secondary.txt'  ?><!--BindItemTo:AccountContainer -->
+	<!-- required -->
+<?php include '../oip-containers/oip-footer.txt' ?>
+</div>
+<!-- end container -->
+</section>
+<!-- end section -->
+<!-- modals & javascript -->
+<?php include '../oip-modules/oip-modals.txt' ?>
+<?php include '../oip-modules/oip-le-javascript.txt' ?>
+<!-- end modals & javascript -->
+</body>
+</html>
+<!-- end oip-layout-default-edit.txt -->

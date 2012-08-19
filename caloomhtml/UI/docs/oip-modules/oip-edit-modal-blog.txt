@@ -21,26 +21,21 @@
 <!-- end oip-edit-module-blog.txt -->
 
 <!-- oip-modal-edit-information.txt -->
-<div id="edit-blog" class="modal hide fade">
+<div id="edit-blog" class="modal hide fade well">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button>
-		<h3>Update or Delete this post</h3>
+		<h3>Update or Delete this post 13:30</h3>
 	</div>
-	<div class="modal-body">
-
-<form method="post" class="form-horizontal">
-<fieldset>
-<?php include '../oip-atoms/oip-form-text-input.txt' ?>
-<?php include '../oip-atoms/oip-form-text-area.txt' ?>
-<?php include '../oip-atoms/oip-form-file-input.txt' ?>
-<div class="modal-footer">
-	<a href="#" class="btn" data-dismiss="modal" >Cancel and Close</a>
-	<button type="submit" class="btn btn-primary">Submit</button>
-</div>
-</fieldset>
-</form>
-
-</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal well">
+			<fieldset>
+				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?>
+				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?>
+				<?php include '../oip-atoms/oip-atom-form-file-input.txt' ?>
+				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+			</fieldset>
+		</form>
+	</div>
 </div>
 <!-- end oip-modal-edit-information.txt -->
 
