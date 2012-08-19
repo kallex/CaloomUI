@@ -28,14 +28,11 @@
 			</InformationObject>
 <!-- should this be a Collection? -->			
 			<InformationObject name="BlogIndexCollection" designDesc="Index of Blogs by Date, Location, Author">
-					<InformationItems>
-						<InformationItem name="Title" InformationObjectName="EventCollection" LogicalDataType="InformationObject"/>
-						<InformationItem name="Published" LogicalDataType="Time_DateTime"/>
-						<InformationItem name="Author" LogicalDataType="Text_short"/>
-						<InformationItem name="ImageGroup" InformationObjectName="ImageGroup" LogicalDataType="InformationObject" />
-						<InformationItem name="Body" LogicalDataType="Text_short"/>
-						<InformationItem name="SocialPanel" InformationObjectName="SocialPanelCollection" LogicalDataType="InformationObject" />
-					</InformationItems>
+				<InformationItems>
+					<CollectionFor contentInformationObjectName="Blog" />
+					<CollectionFor contentInformationObjectName="Blog" />
+					<CollectionFor contentInformationObjectName="Blog" />
+				</InformationItems>
 			</InformationObject>
 <!-- should this be a Collection? -->			
 <!-- end Blog -->			

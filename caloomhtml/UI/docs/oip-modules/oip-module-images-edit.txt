@@ -1,0 +1,5 @@
+<!-- oip-module-images-edit.txt -->
+<a data-toggle="modal" href="#ImagesEdit" rel="tooltip" title="click this image to open this image large and some other images if presentt">
+<img src="http://placehold.it/260x180" alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px">
+</a>
+<!-- end oip-module-images-edit.txt -->
