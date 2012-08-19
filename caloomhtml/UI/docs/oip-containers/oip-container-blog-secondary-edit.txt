@@ -1,10 +1,10 @@
 <!-- oip-container-blog-secondary-edit.txt -->
 <section id="blog">
-<?php include '../oip-modules/oip-module-blog-header-edit.txt' ?><!-- static text -->
+<?php include '../oip-modules/oip-module-blog-header-edit.txt' ?><!-- UseInformationObject:BlogContainerHeader -->
 <div class="row">
-<?php include '../oip-modules/oip-module-blog-sidebar-edit.txt' ?><!-- UseInformationObject:BlogNavigation -->
+<?php include '../oip-modules/oip-module-blog-sidebar-edit.txt' ?><!-- UseInformationObjectAsCollection:BlogIndexCollection -->
 <div class="span8" style="margin:0;padding:0">
-<?php include '../oip-modules/oip-module-blog-edit.txt' ?><!-- UseInformationObjectAsCollection:BlogCollection -->
+<?php include '../oip-modules/oip-module-blog-edit.txt' ?><!-- UseInformationObject:FeaturedBlog -->
 </div>
 </div>
 </section>

@@ -5,6 +5,7 @@
 <!-- Blog -->
 			<InformationObject name="BlogContainer" designDesc="">
 				<InformationItems>
+					<InformationItem name="BlogCollectionHeader" InformationObjectName="Title" LogicalDataType="InformationObject"/>
 					<InformationItem name="FeaturedBlog" InformationObjectName="Blog" LogicalDataType="InformationObject"/>
 					<InformationItem name="BlogCollection" InformationObjectName="BlogCollection" LogicalDataType="InformationObject"/>
 					<InformationItem name="BlogIndexCollection" InformationObjectName="BlogIndex" LogicalDataType="InformationObject"/>
