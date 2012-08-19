@@ -1,6 +1,6 @@
 <!-- oip-container-blog-secondary-edit.txt -->
 <section id="blog">
-<?php include '../oip-atoms/oip-atom-blog-header-edit.txt' ?><!-- static text -->
+<?php include '../oip-modules/oip-module-blog-header-edit.txt' ?><!-- static text -->
 <div class="row">
 <?php include '../oip-modules/oip-module-blog-sidebar-edit.txt' ?><!-- BindItemTo:BlogNavigation -->
 <div class="span8" style="margin:0;padding:0">

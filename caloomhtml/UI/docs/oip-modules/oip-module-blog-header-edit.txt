@@ -1,0 +1,28 @@
+<!-- oip-module-blog-header-edit.txt -->
+<div class="page-header">
+	<h1><?php include'../oip-atoms/oip-atom-title.txt' ?><small><?php include'../oip-atoms/oip-atom-subtitle.txt' ?></small>	<a class="btn btn-small btn-success" data-toggle="modal" href="#EditHeader"  rel="tooltip" title="edit the service and map -- oip-edit-service.txt"><i class="icon-wrench"></i></a></h1>
+
+	<!-- end oip-edit-service.txt -->
+</div>
+<div id="EditHeader" class="modal hide fade" style="display: none; ">
+	<div class="modal-body well">
+		<form class="form-horizontal">
+			<legend><h1><?php include'../oip-atoms/oip-atom-title.txt' ?><small><?php include'../oip-atoms/oip-atom-subtitle.txt' ?></small></h1></legend>
+			<div class="control-group">				
+				<label class="control-label" for="input01">Title</label>
+				<div class="controls">
+					<input name="Title" class="input-large" id="" type="text" value="[!ATOM]Title[ATOM!]">
+				</div>
+			</div>
+			<div class="control-group">				
+				<label class="control-label" for="input01">Subtitle</label>
+				<div class="controls">
+					<input name="SubTitle" class="input-xlarge" id="" type="text" value="[!ATOM]SubTitle[ATOM!]">
+				</div>
+			</div>
+			<div class="modal-footer">
+				<?php include 'oip-module-form-cancel-close-save.txt' ?>
+			</div>
+		</form>
+	</div>
+</div>

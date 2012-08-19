@@ -1,0 +1,6 @@
+<!-- oip-atom-subtitle.txt -->
+[!ATOM]SubTitle[ATOM!]
+<!-- edit mode 
+<input type"textfield" value="[!ATOM]Title[ATOM!]">
+ end edit mode -->
+<!-- end oip-atom-subtitle.txt -->
