@@ -1,0 +1,49 @@
+<!-- oip-edit-module-blog.txt -->
+<div class="span4">
+	<form class="well" method="post">
+		<label>Edit Blog</label>
+		<input name="Title" type="text" class="span3" placeholder="Type something…">
+		<input name="Published" type="text" class="span3" placeholder="Type something…">
+		<input name="Author" type="text" class="span3" placeholder="Type something…">
+		<textarea name="Body" class="input-xlarge" id="textarea" rows="10"></textarea>
+		<div class="control-group">
+			<span style="position:relative;float:left"><img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_042_group.png"></span>
+			<label class="control-label" for="fileInput">Replace Images</label>
+			<div class="controls">
+				<input class="input-file" id="fileInput" type="file">
+			</div>
+		</div>
+		<button type="submit" class="btn">Submit</button>
+	</form>
+</fieldset>
+</form>
+</div>
+<!-- end oip-edit-module-blog.txt -->
+
+<!-- oip-modal-edit-information.txt -->
+<div id="edit-blog" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h3>Update or Delete this post</h3>
+	</div>
+	<div class="modal-body">
+
+<form method="post" class="form-horizontal">
+<fieldset>
+<?php include '../oip-atoms/oip-form-file-input.txt' ?>
+<?php include '../oip-atoms/oip-form-text-input.txt' ?>
+<?php include '../oip-atoms/oip-form-text-area.txt' ?>
+<?php include '../oip-atoms/oip-form-modal-listing.txt' ?>
+<?php include '../oip-atoms/oip-form-multi-select.txt' ?>
+</fieldset>
+</form>
+
+<div class="modal-footer">
+	<a href="#" class="btn" data-dismiss="modal" >Cancel and Close</a>
+	<button type="submit" class="btn">Submit</button>
+</div>
+</div>
+</div>
+<!-- end oip-modal-edit-information.txt -->
+
+
