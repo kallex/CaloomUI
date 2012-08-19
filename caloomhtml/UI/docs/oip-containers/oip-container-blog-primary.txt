@@ -3,15 +3,15 @@
 <?php include '../oip-atoms/oip-blog-header.txt' ?><!-- static text -->
 
 <!-- featured blog -->
-<?php include '../oip-modules/oip-module-blog.txt' ?><!--BindItem:FeaturedBlog -->
+<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:FeaturedBlog -->
 <!-- featured blog -->
 <!-- latest x# blogs -->
 <div class="row">
 <?php include '../oip-modules/oip-module-blog-sidebar.txt' ?>
 <div class="span8" style="margin:0;padding:0">
-<?php include '../oip-modules/oip-module-blog.txt' ?><!--BindItem:BlogCollection[0] -->
-<?php include '../oip-modules/oip-module-blog.txt' ?><!--BindItem:BlogCollection[1] -->
-<?php include '../oip-modules/oip-module-blog.txt' ?><!--BindItem:BlogCollection[2] -->
+<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[0] -->
+<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[1] -->
+<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[2] -->
 </div>
 </div>
 <!-- latest x# blogs -->

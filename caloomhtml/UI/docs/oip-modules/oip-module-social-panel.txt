@@ -1,8 +1,8 @@
 <!-- oip-social-panel.txt -->
-<?php include'../oip-atoms/oip-atom-social-filter.txt' ?><!-- BindItem:SocialFilter-->
-<?php include'../oip-atoms/oip-social-follow.txt' ?><!-- BindItem:SocialFollow-->
-<?php include'../oip-atoms/oip-social-followers.txt' ?><!-- BindItem:SocialFollowers-->
-<?php include'../oip-atoms/oip-social-share.txt' ?><!-- BindItem:SocialShare-->
-<?php include'../oip-atoms/oip-social-download.txt' ?><!-- BindItem:SocialDownload-->
-<?php include'../oip-atoms/oip-social-print.txt' ?><!-- BindItem:SocialPrint-->
+<?php include'../oip-atoms/oip-atom-social-filter.txt' ?><!-- UseInformationObject:SocialFilter-->
+<?php include'../oip-atoms/oip-social-follow.txt' ?><!-- UseInformationObject:SocialFollow-->
+<?php include'../oip-atoms/oip-social-followers.txt' ?><!-- UseInformationObject:SocialFollowers-->
+<?php include'../oip-atoms/oip-social-share.txt' ?><!-- UseInformationObject:SocialShare-->
+<?php include'../oip-atoms/oip-social-download.txt' ?><!-- UseInformationObject:SocialDownload-->
+<?php include'../oip-atoms/oip-social-print.txt' ?><!-- UseInformationObject:SocialPrint-->
 <!-- end oip-social-panel.txt -->

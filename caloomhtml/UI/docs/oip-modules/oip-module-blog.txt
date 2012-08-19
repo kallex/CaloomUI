@@ -1,17 +1,17 @@
 <!-- oip-module-blog.txt -->
 <div class="span8">	
-<H1><?php include '../oip-atoms/oip-atom-title.txt' ?><!--BindItem:Title-->
-<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></Small></H1><!--BindItem:SubTitle-->
-<?php include '../oip-atoms/oip-atom-published.txt' ?><!--BindItem:Published-->
-<?php include '../oip-atoms/oip-atom-author.txt' ?><!-- BindItem:Author-->
+<H1><?php include '../oip-atoms/oip-atom-title.txt' ?><!--UseInformationObject:Title-->
+<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></Small></H1><!--UseInformationObject:SubTitle-->
+<?php include '../oip-atoms/oip-atom-published.txt' ?><!--UseInformationObject:Published-->
+<?php include '../oip-atoms/oip-atom-author.txt' ?><!-- UseInformationObject:Author-->
 <p>
-<?php include '..oip-module-modal-images.txt' ?><!-- BindItem:ImageGroup -->
-<?php include '../oip-atoms/oip-atom-body.txt' ?><!-- BindItem:Body-->
+<?php include '..oip-module-modal-images.txt' ?><!-- UseInformationObject:ImageGroup -->
+<?php include '../oip-atoms/oip-atom-body.txt' ?><!-- UseInformationObject:Body-->
 </p>
 <p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
 <!-- oip-social-panel.txt -->
 <div class="blog-body-social-module">
-<?php include '../oip-modules/oip-module-social-panel.txt' ?><!-- BindItem:SocialPanel-->
+<?php include '../oip-modules/oip-module-social-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
 </div>
 <!-- end oip-social-panel.txt -->
 </div>

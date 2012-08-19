@@ -17,7 +17,7 @@
 </div>
 <!-- end oip-social-panel.txt -->
 </div>
-<!-- end oip-module-blog-edit.txt -->
+
 <!-- modal BlogEdit-->
 <div id="BlogEdit" class="modal hide fade well">
 	<div class="modal-header">
@@ -49,7 +49,7 @@
 		<form method="post" class="form-horizontal well">
 			<fieldset>
 				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- UseInformationObjectAsCollection:ImageCollection[0] -->
-				<?php include '../oip-modules/oip-module-form-add-image-input.txt' ?><!-- UseInformationObjectAsCollection:ImageCollection[0] -->
+				<?php include '../oip-modules/oip-module-form-add-image-input.txt' ?>
 				<div class="modal-footer">
 				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
 </div>			</fieldset>
@@ -57,3 +57,4 @@
 	</div>
 </div>
 <!-- modal ImagesEdit-->
+<!-- end oip-module-blog-edit.txt -->
