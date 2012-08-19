@@ -49,6 +49,7 @@
 		<form method="post" class="form-horizontal well">
 			<fieldset>
 				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- UseInformationObjectAsCollection:ImageCollection[0] -->
+				<?php include '../oip-modules/oip-module-form-add-image-input.txt' ?><!-- UseInformationObjectAsCollection:ImageCollection[0] -->
 				<div class="modal-footer">
 				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
 </div>			</fieldset>
