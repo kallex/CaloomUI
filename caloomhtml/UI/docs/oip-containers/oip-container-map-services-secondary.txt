@@ -1,18 +1,18 @@
-<!-- oip-blog-secondary.txt -->
-<section id="blog">
+<!-- oip-map-services-secondary.txt -->
+<section id="map-services">
 <?php include '../oip-atoms/oip-map-services-header.txt' ?>
 <div class="row">
-<?php include '../oip-atoms/oip-map-services-sidebar.txt' ?>
+<?php include '../oip-modules/oip-module-map-services-sidebar.txt' ?><!-- BindItemTo:MapServicesIndex -->
 <div class="span8" style="margin:0;padding:0">
 	<div class="row-fluid">
-	<?php include '../oip-atoms/oip-map-service-listing-1.txt' ?>
-	<?php include '../oip-atoms/oip-map-service-listing-2.txt' ?>
+	<?php include '../oip-modules/oip-module-map-service-listing-1.txt' ?><!--BindItemTo:MapServicesCollection[0]--><!-- in this Collection we have only 2 MapServices as this fits the html layout only. -->
+	<?php include '../oip-modules/oip-module-map-service-listing-2.txt' ?><!--BindItemTo:MapServicesCollection[0]-->
 </div>
 <div class="row-fluid">
-	<?php include '../oip-atoms/oip-map-service-listing-3.txt' ?>
-	<?php include '../oip-atoms/oip-map-service-listing-4.txt' ?>
+	<?php include '../oip-modules/oip-module-map-service-listing-3.txt' ?><!--BindItemTo:MapServicesCollection[1]-->
+	<?php include '../oip-modules/oip-module-map-service-listing-4.txt' ?><!--BindItemTo:MapServicesCollection[1]-->
 </div>
 </div>
 </div>
 </section>
-<!-- oip-blog-secondary.txt -->
+<!-- oip-map-services-secondary.txt -->

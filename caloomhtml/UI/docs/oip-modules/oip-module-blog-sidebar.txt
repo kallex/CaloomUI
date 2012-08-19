@@ -1,0 +1,27 @@
+<!-- oip-blog-sidebar-primary.txt -->
+<div class="span4">
+	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons/png/glyphicons_330_blog@2x.png" alt="Responsive devices"></p>
+	<h3>Blog</h3>
+	<p>This is the Primary blog side bar. There is lots of stuff you can put here, for example category listings, listings by date, listings by locations</p>
+	<h4>blogs by location (maps)</h4>
+	<ul>
+		<li>blogs in Finland</li>
+		<li>blogs in Europe</li>
+		<li>blogs in South Africa</li>
+	</ul>
+	<h4>blogs by date (calendar)</h4>
+	<ul>
+		<li>blogs in August</li>
+		<li>blogs in July</li>
+		<li>blogs in June</li>
+	</ul>
+	<h4>blogs by author (users)</h4>
+	<ul>
+		<li>blogs by Rahim</li>
+		<li>blogs by Anne</li>
+		<li>blogs by Andrew</li>
+		<li>blogs by Riina</li>
+	</ul>
+	<p>to edit a blog article or this list, login, click on a day or item and edit it. This is automtically updated to the maps and calendar if needed</p>
+</div>
+<!-- end oip-blog-sidebar-primary.txt -->

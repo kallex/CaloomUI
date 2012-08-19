@@ -1,4 +1,4 @@
-<!-- oip-map-sidebar.txt -->
+<!-- oip-module-map-services-sidebar.txt -->
 <div class="span4">
       <p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons/png/glyphicons_045_calendar@2x.png" alt="Responsive devices"></p>
       <h3>Maps</h3>
@@ -10,4 +10,4 @@
       </ul>
       <p>to edit the calendar login, click on a day or item on a particular day and edit it. This is automtically updated to the maps and blog if needed</p>
 </div>
-<!-- end oip-calendar-sidebar.txt -->
+<!-- end oip-module-map-services-sidebar.txt -->

@@ -2,10 +2,12 @@
 <TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
 	<InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
 		<InformationModel>
+<!-- Blog -->
 			<InformationObject name="BlogContainer" designDesc="">
 				<InformationItems>
 					<InformationItem name="FeaturedBlog" InformationObjectName="Blog" LogicalDataType="InformationObject"/>
 					<InformationItem name="BlogCollection" InformationObjectName="BlogCollection" LogicalDataType="InformationObject"/>
+					<InformationItem name="BlogIndexCollection" InformationObjectName="BlogIndex" LogicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="BlogCollection" designDesc="">
@@ -18,9 +20,24 @@
 						<InformationItem name="Author" LogicalDataType="Text_short"/>
 						<InformationItem name="ImageGroup" InformationObjectName="ImageGroup" LogicalDataType="InformationObject" />
 						<InformationItem name="Body" LogicalDataType="Text_short"/>
+						<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
+<!-- needed is, category, servicetype description, keywords -->
 						<InformationItem name="SocialPanel" InformationObjectName="SocialPanelCollection" LogicalDataType="InformationObject" />
 					</InformationItems>
 			</InformationObject>
+<!-- should this be a Collection? -->			
+			<InformationObject name="BlogIndexCollection" designDesc="Index of Blogs by Date, Location, Author">
+					<InformationItems>
+						<InformationItem name="Title" InformationObjectName="EventCollection" LogicalDataType="InformationObject"/>
+						<InformationItem name="Published" LogicalDataType="Time_DateTime"/>
+						<InformationItem name="Author" LogicalDataType="Text_short"/>
+						<InformationItem name="ImageGroup" InformationObjectName="ImageGroup" LogicalDataType="InformationObject" />
+						<InformationItem name="Body" LogicalDataType="Text_short"/>
+						<InformationItem name="SocialPanel" InformationObjectName="SocialPanelCollection" LogicalDataType="InformationObject" />
+					</InformationItems>
+			</InformationObject>
+<!-- should this be a Collection? -->			
+<!-- end Blog -->			
 			<InformationObject name="Image" designDesc="Image and attributes">
 				<InformationItems>
 					<InformationItem name="Image" InformationObjectName="ImageVideoSoundVectorRaw" LogicalDataType="InformationObject" />
@@ -45,20 +62,21 @@
 				</InformationItems>
 			</InformationObject>
 			
-			<InformationObject name="SocialPanel" designDesc="SocialPanel"/>
+			<InformationObject name="SocialPanel" designDesc="SocialPanel">
 				<InformationItems>
 					<InformationItem name="SocialFilter" InformationObjectName="Filter" LogicalDataType="InformationObject"/>
 				</InformationItems>
+			</InformationObject>
 			
 			
 			<InformationObject name="MapContainer" designDesc="">
-					<InformationItems>
-						<InformationItem name="Events" InformationObjectName="EventCollection" LogicalDataType="InformationObject"/>
-						<InformationItem name="Course" LogicalDataType="Text_short"/>
-						<InformationItem name="Meetings" LogicalDataType="Text_short"/>
-						<InformationItem name="Research" LogicalDataType="Text_short"/>
-					</InformationItems>
-				</InformationObject>
+				<InformationItems>
+					<InformationItem name="Events" InformationObjectName="EventCollection" LogicalDataType="InformationObject"/>
+					<InformationItem name="Course" LogicalDataType="Text_short"/>
+					<InformationItem name="Meetings" LogicalDataType="Text_short"/>
+					<InformationItem name="Research" LogicalDataType="Text_short"/>
+				</InformationItems>
+			</InformationObject>
 			<InformationObject name="EventCollection" designDesc="">
 					<CollectionFor contentInformationObjectName="Event" />
 			</InformationObject>

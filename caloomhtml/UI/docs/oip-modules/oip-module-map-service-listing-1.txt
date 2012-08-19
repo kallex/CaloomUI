@@ -1,5 +1,5 @@
-<div class="span3 thumbnail" style="width:350px">
-<img src="../images/placeholder/riodejaneiro.png" width="260" height="180" alt="Hml Osm">
+<div class="span4 thumbnail" style="width:350px">
+<img src="../oip-additions/oip-assets/oip-images/placeholder/riodejaneiro.png" width="260" height="180" alt="Hml Osm">
 <div class="caption">
 <h5>Research in Rio de Janeiro</h5>
 <table class="table table-bordered table-striped">
