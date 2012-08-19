@@ -13,7 +13,7 @@
 <p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
 <!-- oip-social-panel.txt -->
 <div class="blog-body-social-module">
-<?php include '../oip-modules/oip-module-social-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
+<?php include '../oip-modules/oip-module-blog-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
 </div>
 <!-- end oip-social-panel.txt -->
 </div>
