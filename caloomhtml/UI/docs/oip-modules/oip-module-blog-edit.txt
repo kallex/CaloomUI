@@ -2,7 +2,7 @@
 <div class="span8">	
 <?php include '../oip-modules/oip-admin-edit-panel.txt' ?><!-- BindItem:SocialPanel-->
 <H1><?php include '../oip-atoms/oip-atom-title.txt' ?><!--BindItem:Title-->
-<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></Small></H1><!--BindItem:Title-->
+<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></Small></H1><!--BindItem:SubTitle-->
 <?php include '../oip-atoms/oip-atom-published.txt' ?><!--BindItem:Published-->
 <?php include '../oip-atoms/oip-atom-author.txt' ?><!-- BindItem:Author-->
 <p>
@@ -26,11 +26,13 @@
 	<div class="modal-body well">
 		<form method="post" class="form-horizontal well">
 			<fieldset>
-				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?>
-				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?>
-				<?php include '../oip-atoms/oip-atom-form-file-input.txt' ?>
+				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?><!-- Title -->
+				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?><!-- SubTitle -->
+				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- Body -->
+				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- Excerpt -->
+				<div class="modal-footer">
 				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
-			</fieldset>
+</div>			</fieldset>
 		</form>
 	</div>
 </div>
