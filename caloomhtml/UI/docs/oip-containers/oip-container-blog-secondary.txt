@@ -1,11 +1,11 @@
-<!-- oip-blog-secondary.txt -->
+<!-- oip-container-blog-secondary.txt -->
 <section id="blog">
-<?php include '../oip-atoms/oip-blog-header.txt' ?>
+<?php include '../oip-atoms/oip-blog-header.txt' ?><!-- static text -->
 <div class="row">
-<?php include '../oip-atoms/oip-blog-sidebar.txt' ?>
+<?php include '../oip-atoms/oip-blog-sidebar.txt' ?><!-- BindCollection:BlogNavigation -->
 <div class="span8" style="margin:0;padding:0">
-<?php include '../oip-modules/oip-module-blog.txt' ?>
+<?php include '../oip-modules/oip-module-blog.txt' ?><!-- BindItem:Blog -->
 </div>
 </div>
 </section>
-<!-- oip-blog-secondary.txt -->
+<!-- oip-container-blog-secondary.txt -->

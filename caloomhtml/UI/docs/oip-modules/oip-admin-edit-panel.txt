@@ -1,0 +1,6 @@
+<!-- oip-admin-edit-panel.txt --> 
+<?php include'../oip-atoms/oip-admin-edit-blog-panel.txt' ?>
+<!-- ../oip-atoms/oip-admin-edit-service.txt' -->
+<?php include'../oip-atoms/oip-admin-edit-access.txt' ?>
+<?php include'../oip-atoms/oip-admin-edit-remove.txt' ?>
+<!-- end oip-admin-edit-panel.txt -->

@@ -1,9 +1,8 @@
 <!-- oip-social-panel.txt -->
-<?php include'../oip-atoms/oip-edit-blog-panel.txt' ?>
 <?php include'../oip-atoms/oip-atom-social-filter.txt' ?><!-- BindItem:SocialFilter-->
-<?php include'../oip-atoms/oip-social-follow.txt' ?>
-<?php include'../oip-atoms/oip-social-followers.txt' ?>
-<?php include'../oip-atoms/oip-social-share.txt' ?>
-<?php include'../oip-atoms/oip-social-download.txt' ?>
-<?php include'../oip-atoms/oip-social-print.txt' ?>
+<?php include'../oip-atoms/oip-social-follow.txt' ?><!-- BindItem:SocialFollow-->
+<?php include'../oip-atoms/oip-social-followers.txt' ?><!-- BindItem:SocialFollowers-->
+<?php include'../oip-atoms/oip-social-share.txt' ?><!-- BindItem:SocialShare-->
+<?php include'../oip-atoms/oip-social-download.txt' ?><!-- BindItem:SocialDownload-->
+<?php include'../oip-atoms/oip-social-print.txt' ?><!-- BindItem:SocialPrint-->
 <!-- end oip-social-panel.txt -->

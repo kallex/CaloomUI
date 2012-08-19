@@ -1,0 +1,3 @@
+<!-- oip-edit-blog-panel.txt -->
+<?php include'../oip-atoms/oip-edit-blog-panel.txt' ?>
+<!-- end oip-edit-blog-panel.txt -->
