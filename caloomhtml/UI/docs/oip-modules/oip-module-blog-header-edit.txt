@@ -1,12 +1,17 @@
 <!-- oip-module-blog-header-edit.txt -->
 <div class="page-header">
-	<h1><?php include'../oip-atoms/oip-atom-title.txt' ?><small><?php include'../oip-atoms/oip-atom-subtitle.txt' ?></small>	<a class="btn btn-small btn-success" data-toggle="modal" href="#EditHeader"  rel="tooltip" title="edit the service and map -- oip-edit-service.txt"><i class="icon-wrench"></i></a></h1>
+	<h1><?php include'../oip-atoms/oip-atom-title.txt' ?><small><?php include'../oip-atoms/oip-atom-subtitle.txt' ?></small>	<a class="btn btn-small btn-success" data-toggle="modal" href="#HeaderEdit"  rel="tooltip" title="edit the service and map -- oip-edit-service.txt"><i class="icon-wrench"></i></a></h1>
 
 	<!-- end oip-edit-service.txt -->
 </div>
-<div id="EditHeader" class="modal hide fade" style="display: none; ">
+<div id="HeaderEdit" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h3>Update This Header and SubHeader</h3>
+	</div>
 	<div class="modal-body well">
-		<form class="form-horizontal">
+		<form method="post" class="form-horizontal">
+			<fieldset>
 			<legend><h1><?php include'../oip-atoms/oip-atom-title.txt' ?><small><?php include'../oip-atoms/oip-atom-subtitle.txt' ?></small></h1></legend>
 			<div class="control-group">				
 				<label class="control-label" for="input01">Title</label>
@@ -23,6 +28,7 @@
 			<div class="modal-footer">
 				<?php include 'oip-module-form-cancel-close-save.txt' ?>
 			</div>
+		</fieldset>
 		</form>
 	</div>
 </div>
