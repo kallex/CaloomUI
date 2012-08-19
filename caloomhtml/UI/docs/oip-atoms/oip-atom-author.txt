@@ -1,5 +1,5 @@
 <!-- oip-atom-body.txt -->
-<h3>[!ATOM]Author[ATOM!]</h3>
+[!ATOM]Author[ATOM!]
 <!-- edit mode 
 	<input type"textfield" value="[!ATOM]Author[ATOM!]">
  end edit mode -->
