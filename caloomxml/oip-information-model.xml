@@ -16,11 +16,13 @@
 			</InformationObject>
 			<InformationObject name="Blog" designDesc="Individual Blog">
 					<InformationItems>
-						<InformationItem name="Title" InformationObjectName="EventCollection" LogicalDataType="InformationObject"/>
+						<InformationItem name="Title" InformationObjectName="EventCollection" LogicalDataType="InformationObject"/><!--I can't imagine this is correct -->
+						<InformationItem name="SubTitle" LogicalDataType="Text_short"/>
 						<InformationItem name="Published" LogicalDataType="Time_DateTime"/>
 						<InformationItem name="Author" LogicalDataType="Text_short"/>
 						<InformationItem name="ImageGroup" InformationObjectName="ImageGroup" LogicalDataType="InformationObject" />
 						<InformationItem name="Body" LogicalDataType="Text_short"/>
+						<InformationItem name="Excerpt" LogicalDataType="Text_short"/>
 						<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
 <!-- needed is, category, servicetype description, keywords -->
 						<InformationItem name="SocialPanel" InformationObjectName="SocialPanelCollection" LogicalDataType="InformationObject" />

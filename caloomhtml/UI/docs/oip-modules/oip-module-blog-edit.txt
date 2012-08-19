@@ -33,7 +33,8 @@
 				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- UseInformationObject:Excerpt -->
 				<div class="modal-footer">
 				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
-</div>			</fieldset>
+				</div>
+			</fieldset>
 		</form>
 	</div>
 </div>
