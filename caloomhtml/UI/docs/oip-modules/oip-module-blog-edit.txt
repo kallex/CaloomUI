@@ -1,6 +1,6 @@
 <!-- oip-module-blog-edit.txt -->
 <div class="span8">	
-<?php include '../oip-modules/oip-admin-edit-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
+<?php include '../oip-modules/oip-admin-edit-panel.txt' ?>
 <H1><?php include '../oip-atoms/oip-atom-title.txt' ?><!--UseInformationObject:Title-->
 <small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?><!--UseInformationObject:SubTitle--></Small></H1>
 <?php include '../oip-atoms/oip-atom-published.txt' ?><!--UseInformationObject:Published-->
@@ -13,7 +13,7 @@
 <p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
 <!-- oip-social-panel.txt -->
 <div class="blog-body-social-module">
-<?php include '../oip-modules/oip-module-blog-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
+<?php include '../oip-modules/oip-module-blog-panel.txt' ?>
 </div>
 <!-- end oip-social-panel.txt -->
 </div>
