@@ -30,10 +30,10 @@
 	<div class="modal-body well">
 		<form method="post" class="form-horizontal well">
 			<fieldset>
-				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?><!-- Title -->
-				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?><!-- SubTitle -->
-				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- Body -->
-				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- Excerpt -->
+				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?><!-- BindItem:Title -->
+				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?><!-- BindItem:SubTitle -->
+				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- BindItem:Body -->
+				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- BindItem:Excerpt -->
 				<div class="modal-footer">
 				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
 </div>			</fieldset>
@@ -51,10 +51,10 @@
 	<div class="modal-body well">
 		<form method="post" class="form-horizontal well">
 			<fieldset>
-				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- Title -->
-				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- SubTitle -->
-				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- Body -->
-				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- Excerpt -->
+				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- BindCollection:ImageCollection -->
+				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- BindCollection:ImageCollection  -->
+				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- BindCollection:ImageCollection  -->
+				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- BindCollection:ImageCollection  -->
 				<div class="modal-footer">
 				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
 </div>			</fieldset>
