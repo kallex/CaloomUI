@@ -1,35 +1,24 @@
-<!-- oip-module-blog.txt -->
-<div class="span8">
-	<form>
-		<fieldset>
-	<?php include '../oip-atoms/oip-atom-title.txt' BindItem:Title?>
-	<?php include '../oip-atoms/oip-atom-published.txt' BindItem:Published?>
-	<?php include '../oip-atoms/oip-atom-author.txt' BindItem:Author?>
-<p>
-	<?php include '..oip-module-modal-images.txt' BindItem:ImageGroup?>
-	<?php include '../oip-atoms/oip-atom-body.txt' BindItem:Body?>
-</p>
-<p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
-
-<!-- oip-social-panel.txt -->
-<div class="blog-body-social-module">
-<?php include '../oip-modules/oip-module-social-panel.txt' BindItem:SocialPanel?>
-</div>
-<!-- end oip-social-panel.txt -->
+<!-- oip-edit-module-blog.txt -->
+<div class="span4">
+	<form class="well" method="post">
+		<label>Edit Blog</label>
+		<input name="Title" type="text" class="span3" placeholder="Type something…">
+		<input name="Published" type="text" class="span3" placeholder="Type something…">
+		<input name="Author" type="text" class="span3" placeholder="Type something…">
+		<textarea name="Body" class="input-xlarge" id="textarea" rows="10"></textarea>
+		<div class="control-group">
+			<span style="position:relative;float:left"><img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_042_group.png"></span>
+			<label class="control-label" for="fileInput">Replace Images</label>
+			<div class="controls">
+				<input class="input-file" id="fileInput" type="file">
+			</div>
+		</div>
+		<button type="submit" class="btn">Submit</button>
+	</form>
 </fieldset>
 </form>
 </div>
-<!-- end oip-module-blog.txt -->
+<!-- end oip-edit-module-blog.txt -->
 
 
-<form class="well">
-  <label>Edit Blog</label>
-  <input name="Title" type="text" class="span3" placeholder="Type something…">
-  <input name="Published" type="text" class="span3" placeholder="Type something…">
-  <input name="Author" type="text" class="span3" placeholder="Type something…">
-  <span class="help-block">Example block-level help text here.</span>
-  <label class="checkbox">
-    <input type="checkbox"> Check me out
-  </label>
-  <button type="submit" class="btn">Submit</button>
-</form>
+
