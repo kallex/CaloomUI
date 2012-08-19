@@ -2,7 +2,7 @@
 <div class="control-group">
 	<label class="control-label" for="input01">Title</label>
 	<div class="controls">
-		<input class="input-xlarge" id="input01" type="text" value="Built for anybody">
+		<input name="Title" class="input-xlarge" id="input01" type="text" value="Title of this Blog Post">
 	</div>
 </div>
 <!-- end oip-form-text-input.txt -->

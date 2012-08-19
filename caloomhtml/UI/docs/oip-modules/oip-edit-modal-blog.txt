@@ -30,18 +30,16 @@
 
 <form method="post" class="form-horizontal">
 <fieldset>
-<?php include '../oip-atoms/oip-form-file-input.txt' ?>
 <?php include '../oip-atoms/oip-form-text-input.txt' ?>
 <?php include '../oip-atoms/oip-form-text-area.txt' ?>
-<?php include '../oip-atoms/oip-form-modal-listing.txt' ?>
-<?php include '../oip-atoms/oip-form-multi-select.txt' ?>
+<?php include '../oip-atoms/oip-form-file-input.txt' ?>
+<div class="modal-footer">
+	<a href="#" class="btn" data-dismiss="modal" >Cancel and Close</a>
+	<button type="submit" class="btn btn-primary">Submit</button>
+</div>
 </fieldset>
 </form>
 
-<div class="modal-footer">
-	<a href="#" class="btn" data-dismiss="modal" >Cancel and Close</a>
-	<button type="submit" class="btn">Submit</button>
-</div>
 </div>
 </div>
 <!-- end oip-modal-edit-information.txt -->

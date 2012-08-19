@@ -1,8 +1,8 @@
 <!-- oip-form-text-area.txt -->
 <div class="control-group">
-	<label class="control-label" for="textarea">Textarea</label>
+	<label class="control-label" for="textarea">Edit your Blog Post</label>
 	<div class="controls">
-		<textarea class="input-xlarge" id="textarea" rows="3">Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</textarea>
+		<textarea name="Body" class="input-xlarge" id="textarea" rows="3">Blog Post body text.</textarea>
 	</div>
 </div>
 <!-- end oip-form-text-area.txt -->
