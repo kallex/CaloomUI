@@ -1,14 +1,14 @@
 <!-- oip-module-blog-edit.txt -->
 <div class="span8">	
 <?php include '../oip-modules/oip-admin-edit-panel.txt' ?>
-<H1><?php include '../oip-atoms/oip-atom-title.txt' ?><!--UseInformationObject:Title-->
-<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?><!--UseInformationObject:SubTitle--></Small></H1>
-<?php include '../oip-atoms/oip-atom-published.txt' ?><!--UseInformationObject:Published-->
-<?php include '../oip-atoms/oip-atom-author.txt' ?><!-- UseInformationObject:Author-->
+<H1><?php include '../oip-atoms/oip-atom-title.txt' ?><!--UseInformationObject:*-->
+<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?><!--UseInformationObject:*--></Small></H1>
+<?php include '../oip-atoms/oip-atom-published.txt' ?><!--UseInformationObject:*-->
+<?php include '../oip-atoms/oip-atom-author.txt' ?><!-- UseInformationObject:*-->
 <p>
 <!--oip-module-images.txt-->
 <?php include 'oip-module-images-edit.txt' ?><!-- UseInformationObject:ImageGroup -->
-<?php include '../oip-atoms/oip-atom-body.txt' ?><!-- UseInformationObject:Body-->
+<?php include '../oip-atoms/oip-atom-body.txt' ?><!-- UseInformationObject:*-->
 </p>
 <p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
 <!-- oip-social-panel.txt -->
