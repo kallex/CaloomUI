@@ -2,6 +2,26 @@
 <TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../TheBallCoreABS/TheBallCore/Content_v1_0/TheBallCore_v1_0.xsd">
 	<InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
 		<InformationModel>
+      <!-- The Ball Reference Examples Begin -->
+      <InformationObject name="TBReferenceEvent" designDesc="Example Event Data">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short"/>
+          <InformationItem name="Description" logicalDataType="Text_Long"/>
+          <InformationItem name="AttendeeCount" logicalDataType="Number_Integer"/>
+          <InformationItem name="EnoughToAttend" logicalDataType="TrueOrFalse_Boolean"/>
+          <InformationItem name="DueTime" logicalDataType="Time_DateTime"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="TBEventReminder" designDesc="Event reminder example">
+        <InformationItems>
+          <InformationItem name="EventTitle" logicalDataType="Text_Short"/>
+          <InformationItem name="TitleColor" logicalDataType="Text_Short"/>
+          <InformationItem name="DueInfo" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <!-- The Ball Reference Examples End -->
+
       <!-- Blog part -->
       <InformationObject name="BlogContainer" designDesc="">
         <InformationItems>
