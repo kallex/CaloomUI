@@ -1,6 +1,8 @@
 <!-- Reference Head -->
 <form method="post" class="form-horizontal well">
 	<input id="RootObjectRelativeLocation" name="RootObjectRelativeLocation" type="hidden" value="[!ATOM]RelativeLocation[ATOM!]" />
+	<input id="RootObjectType" name="RootObjectType" type="hidden" value="[!ATOM]SemanticDomainName[ATOM!].[!ATOM]Name[ATOM!]" />
+	<input id="RootObjectETag" name="RootObjectETag" type="hidden" value=[!ATOM]ETag[ATOM!] />
 	<fieldset>
 		<?php include 'example1-module-referenceevent-edit.txt' ?><!-- UseInformationObject:* -->
 		<div class="modal-footer">
