@@ -1,0 +1,4 @@
+<!-- Reference form cancel-close-save buttons -->
+<a href="#" class="btn" data-dismiss="modal" >Cancel and Close</a>
+<button type="submit" class="btn btn-primary">Submit</button>
+

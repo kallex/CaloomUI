@@ -1,0 +1,10 @@
+<!-- Reference Head -->
+<form method="post" class="form-horizontal well">
+	<input id="RootObjectRelativeLocation" name="RootObjectRelativeLocation" type="hidden" value="[!ATOM]RelativeLocation[ATOM!]" />
+	<fieldset>
+		<?php include 'example1-module-referenceevent-edit.txt' ?><!-- UseInformationObject:* -->
+		<div class="modal-footer">
+		<?php include 'reference-atom-form-cancel-close-save.txt' ?>
+		</div>
+	</fieldset>
+</form>

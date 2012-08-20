@@ -1,0 +1,51 @@
+<!-- Event Reference Edit -->
+<div id="HeaderEdit" class="modal hide fade well">
+	<div class="modal-header">
+		<h3>Update This Event</h3>
+	</div>
+	<div class="modal-body well">
+			<fieldset>
+			<div class="control-group">				
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label>
+				<input name="[!ATOM]ID[ATOM!]_Title" class="input-large" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]">
+			</div>
+			<div class="control-group">				
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label>
+				<input name="[!ATOM]ID[ATOM!]_Description" class="input-large" id="[!ATOM]ID[ATOM!]_Description" type="text" value="[!ATOM]Description[ATOM!]">
+			</div>
+			<div class="control-group">				
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_AttendeeCount">Attendee Count</label>
+				<input name="[!ATOM]ID[ATOM!]_AttendeeCount" class="input-large" id="[!ATOM]ID[ATOM!]_AttendeeCount" type="text" value="[!ATOM]AttendeeCount[ATOM!]">
+			</div>
+			<div class="control-group">				
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_EnoughToAttend">Attendee Count</label>
+				<input name="[!ATOM]ID[ATOM!]_EnoughToAttend" class="input-large" id="[!ATOM]ID[ATOM!]_EnoughToAttend" type="checkbox" value="[!ATOM]EnoughToAttend[ATOM!]">
+			</div>
+			<div class="control-group">				
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_DueTime">Attendee Count</label>
+				<input name="[!ATOM]ID[ATOM!]_DueTime" class="input-large" id="[!ATOM]ID[ATOM!]_DueTime" type="text" value="[!ATOM]DueTime[ATOM!]">
+			</div>
+		</fieldset>
+	</div>
+</div>
+<!-- end oip-module-blog-header-edit.txt -->
+
+<!--
+      <InformationObject name="TBReferenceEvent" designDesc="Example Event Data">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short"/>
+          <InformationItem name="Description" logicalDataType="Text_Long"/>
+          <InformationItem name="AttendeeCount" logicalDataType="Number_Integer"/>
+          <InformationItem name="EnoughToAttend" logicalDataType="TrueOrFalse_Boolean"/>
+          <InformationItem name="DueTime" logicalDataType="Time_DateTime"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="TBEventReminder" designDesc="Event reminder example">
+        <InformationItems>
+          <InformationItem name="EventTitle" logicalDataType="Text_Short"/>
+          <InformationItem name="TitleColor" logicalDataType="Text_Short"/>
+          <InformationItem name="DueInfo" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+-->
