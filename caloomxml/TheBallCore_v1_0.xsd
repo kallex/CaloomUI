@@ -93,6 +93,7 @@
 	</xs:complexType>
 	<xs:complexType name="InstanceOfTheBallType">
 		<xs:sequence>
+			<xs:element name="CoreInfrastructure" type="CoreInfrastructureType" minOccurs="0"/>
 			<xs:element name="InformationModel" type="InformationModelType"/>
 			<xs:element name="Operations" type="OperationsType"/>
 			<xs:element name="Subscriptions" type="SubscriptionsType"/>
@@ -501,5 +502,12 @@ Depending on the process, the "designApproved" might come from separate auditing
 	</xs:attributeGroup>
 	<xs:complexType name="CollectionForType">
 		<xs:attribute name="contentInformationObjectName" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="CoreInfrastructureType">
+		<xs:sequence>
+			<xs:element name="InformationModel" type="InformationModelType"/>
+			<xs:element name="Operations" type="OperationsType"/>
+			<xs:element name="Subscriptions" type="SubscriptionsType"/>
+		</xs:sequence>
 	</xs:complexType>
 </xs:schema>
