@@ -1,7 +1,7 @@
 <!-- oip-module-blog.txt -->
 <div class="span8">
 edit this module
-<?php include 'oip-module-header.txt' ?><!--UseInformationObject:Header-->
+<h3>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h3>
 [!ATOM]Published[ATOM!]<!--UseInformationObject:Published-->
 [!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
 <p>
@@ -26,7 +26,7 @@ edit this module
 		<h4 class="title">Read More....</h4>
 	</div>
 	<div class="modal-body">
-		<?php include 'oip-module-header.txt' ?><!--UseInformationObject:Header-->
+		<h3>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h3>
 		[!ATOM]Published[ATOM!<!--UseInformationObject:Published-->
 		[!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
 		<p>

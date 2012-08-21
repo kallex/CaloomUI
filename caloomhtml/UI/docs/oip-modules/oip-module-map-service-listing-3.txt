@@ -17,6 +17,8 @@
 </tbody>
 </table>  
 <p>Donec id elit non mi porta gravida at eget metus.</p>
-<p><a href="#" class="btn"><i class="icon-edit icon-black"></i></a></p>
+<!-- oip-social-panel.txt -->
+<?php include 'oip-module-social-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
+<!-- end oip-social-panel.txt -->
 </div>
 </div>

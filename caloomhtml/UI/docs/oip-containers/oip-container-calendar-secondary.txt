@@ -2,7 +2,7 @@
 <section id="calendar">
 <?php include '../oip-atoms/oip-calendar-header.txt' ?>
 <div class="row">
-<?php include '../oip-atoms/oip-calendar-sidebar.txt' ?>
+<?php include '../oip-atoms/oip-calendar-index.txt' ?>
 <?php include '../oip-atoms/oip-calendar-body.txt' ?>
 <?php include '../oip-atoms/oip-calendar-listing.txt' ?>
 </div>

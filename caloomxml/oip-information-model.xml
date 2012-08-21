@@ -73,6 +73,8 @@
 			</InformationObject>
 			<InformationObject name="IndexCollection" designDesc="">
 				<InformationItems>
+					<InformationItem name="Introduction" LogicalDataType="Text_Short"/>
+					<InformationItem name="Summary" LogicalDataType="Text_Short"/>
 					<InformationItem name="ByDate" InformationObjectName="ByDate" LogicalDataType="InformationObject"/>
 					<InformationItem name="ByAuthor" InformationObjectName="ByAuthor" LogicalDataType="InformationObject"/>
 					<InformationItem name="ByCategory" InformationObjectName="ByCategory" LogicalDataType="InformationObject"/>

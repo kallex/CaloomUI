@@ -1,6 +1,6 @@
-<!-- oip-module-blog.txt -->
+<!-- oip-module-blog-featured.txt -->
 <div class="span8">	
-<?php include 'oip-module-header.txt' ?><!--UseInformationObject:Header-->
+<h2>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h2>
 [!ATOM]Published[ATOM!]<!--UseInformationObject:Published-->
 [!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
 <p>
@@ -16,7 +16,7 @@
 </div>
 <!-- end oip-social-panel.txt -->
 </div>
-<!-- end oip-module-blog.txt -->
+<!-- end oip-module-blog-featured.txt -->
 
 <!-- ReadMore modal -->
 <div id="ReadMore" class="modal hide fade well in"><!-- some styling issues -->
@@ -25,7 +25,7 @@
 		<h4 class="title">Read More....</h4>
 	</div>
 	<div class="modal-body">
-		<?php include 'oip-module-header.txt' ?><!--UseInformationObject:Header-->
+		<h1>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h1>
 		[!ATOM]Published[ATOM!<!--UseInformationObject:Published-->
 		[!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
 		<p>

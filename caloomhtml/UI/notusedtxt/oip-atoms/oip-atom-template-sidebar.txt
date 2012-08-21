@@ -1,4 +1,4 @@
-<!-- oip-atom-template-sidebar.txt -->
+<!-- oip-atom-template-index.txt -->
 <div class="span4" style="min-height:300px">
 atom-template-sidebar
 </div>

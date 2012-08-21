@@ -2,7 +2,7 @@
 <section id="about">
 <?php include '../oip-atoms/oip-about-header.txt' ?>
 <div class="row">
-<?php include '../oip-atoms/oip-about-sidebar.txt' ?>
+<?php include '../oip-atoms/oip-about-index.txt' ?>
 <div class="span8" style="margin:0;padding:0">
 <?php include '../oip-atoms/oip-about-body.txt' ?>
 </div>

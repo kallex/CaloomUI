@@ -1,5 +1,5 @@
 <!-- oip-social-panel.txt -->
-<div class="blog-body-social-module">
+<div class="blog-body-social-module" style="margin-bottom:0px">
 <?php include'../oip-atoms/oip-atom-social-filter.txt' ?><!-- UseInformationObject:SocialFilter-->
 <?php include'../oip-atoms/oip-social-follow.txt' ?><!-- UseInformationObject:SocialFollow-->
 <?php include'../oip-atoms/oip-social-followers.txt' ?><!-- UseInformationObject:SocialFollowers-->
