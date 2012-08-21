@@ -1,11 +1,10 @@
 <!-- oip-module-blog.txt -->
-<div class="span8">
-edit this module
+<div class="span8">	
 <?php include 'oip-module-header.txt' ?><!--UseInformationObject:Header-->
 [!ATOM]Published[ATOM!]<!--UseInformationObject:Published-->
 [!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
 <p>
-<?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObject:ImageGroup -->
+<?php include 'oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
 [!ATOM]Excerpt[ATOM!<!-- UseInformationObject:Excerpt-->
 </p>
 <p class="read-more"><?php include 'oip-module-modal-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->

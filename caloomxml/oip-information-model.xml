@@ -8,7 +8,7 @@
 					<InformationItem name="BlogContainerHeader" InformationObjectName="ContainerHeader" LogicalDataType="InformationObject"/>
 					<InformationItem name="FeaturedBlog" InformationObjectName="Blog" LogicalDataType="InformationObject"/>
 					<InformationItem name="BlogCollection" InformationObjectName="BlogCollection" LogicalDataType="InformationObject"/>
-					<InformationItem name="BlogIndexCollection" InformationObjectName="BlogIndex" LogicalDataType="InformationObject"/>
+					<InformationItem name="BlogIndexCollection" InformationObjectName="IndexCollection" LogicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="MapContainer" designDesc=""><!-- this is the highest level and this collects the "modules" that are used in the container -->
@@ -66,10 +66,18 @@
 <!-- Atoms and Modules -->
 
 			<InformationObject name="ContainerHeader" designDesc="">
-					<InformationItems>
-						<InformationItem name="Title"  InformationObjectName="Title" LogicalDataType="Text_Short"/>
-						<InformationItem name="SubTitle" LogicalDataType="Text_Short" InformationObjectName="SubTilte"/>
-					</InformationItems>
+				<InformationItems>
+					<InformationItem name="Title"  InformationObjectName="Title" LogicalDataType="Text_Short"/>
+					<InformationItem name="SubTitle" LogicalDataType="Text_Short" InformationObjectName="SubTilte"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="IndexCollection" designDesc="">
+				<InformationItems>
+					<InformationItem name="ByDate" InformationObjectName="ByDate" LogicalDataType="InformationObject"/>
+					<InformationItem name="ByAuthor" InformationObjectName="ByAuthor" LogicalDataType="InformationObject"/>
+					<InformationItem name="ByCategory" InformationObjectName="ByCategory" LogicalDataType="InformationObject"/>
+					<InformationItem name="ByLocation" InformationObjectName="ByLocation" LogicalDataType="InformationObject"/>
+				</InformationItems>
 			</InformationObject>
 			
 <!-- end Atoms and Modules -->			

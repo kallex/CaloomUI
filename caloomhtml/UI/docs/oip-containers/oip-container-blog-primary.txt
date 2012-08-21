@@ -3,11 +3,11 @@
 <?php include '../oip-atoms/oip-module-header.txt' ?><!--UseInformationObject:BlogHeader -->
 
 <!-- featured blog -->
-<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:FeaturedBlog -->
+<?php include '../oip-modules/oip-module-blog-featured.txt' ?><!--UseInformationObject:FeaturedBlog -->
 <!-- featured blog -->
 <!-- latest x# blogs -->
 <div class="row">
-<?php include '../oip-modules/oip-module-blog-sidebar.txt' ?>
+<?php include '../oip-modules/oip-module-blog-sidebar.txt' ?><!--UseInformationObject:BlogIndexCollection -->
 <div class="span8" style="margin:0;padding:0">
 <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[0] -->
 <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[1] -->
