@@ -1,18 +1,42 @@
 <!-- oip-module-blog.txt -->
 <div class="span8">	
-<H1><?php include '../oip-atoms/oip-atom-title.txt' ?><!--UseInformationObject:Title-->
-<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></Small></H1><!--UseInformationObject:SubTitle-->
+<?php include 'oip-module-header.txt' ?><!--UseInformationObject:Header-->
 <?php include '../oip-atoms/oip-atom-published.txt' ?><!--UseInformationObject:Published-->
 <?php include '../oip-atoms/oip-atom-author.txt' ?><!-- UseInformationObject:Author-->
 <p>
-<?php include '..oip-module-modal-images.txt' ?><!-- UseInformationObject:ImageGroup -->
-<?php include '../oip-atoms/oip-atom-body.txt' ?><!-- UseInformationObject:Body-->
+<?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObject:ImageGroup -->
+<?php include '../oip-atoms/oip-atom-excerpt.txt' ?><!-- UseInformationObject:Excerpt-->
 </p>
-<p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
+<p class="read-more"><?php include 'oip-module-modal-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
+<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a>
+
 <!-- oip-social-panel.txt -->
 <div class="blog-body-social-module">
-<?php include '../oip-modules/oip-module-social-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
+<?php include 'oip-module-social-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
 </div>
 <!-- end oip-social-panel.txt -->
 </div>
 <!-- end oip-module-blog.txt -->
+
+<!-- oip-module-modal-blog-read-more.txt -->
+<div id="ReadMore" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h2 class="title">Blog Title</h2>
+	</div>
+	<div class="modal-body">
+		<?php include 'oip-module-header.txt' ?><!--UseInformationObject:Header-->
+		<?php include '../oip-atoms/oip-atom-published.txt' ?><!--UseInformationObject:Published-->
+		<?php include '../oip-atoms/oip-atom-author.txt' ?><!-- UseInformationObject:Author-->
+		<p>
+		<?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObject:ImageGroup -->
+		<?php include '../oip-atoms/oip-atom-body.txt' ?><!-- UseInformationObject:Body-->
+		</p>
+	</div>
+	<div class="modal-footer">
+		<?php include 'oip-module-social-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
+	</div>
+</div>
+<!-- oip-module-modal-blog-read-more.txt -->
+
+

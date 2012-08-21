@@ -63,14 +63,16 @@
 <!-- end Containers -->
 
 
+<!-- Atoms and Modules -->
 
-
-			<InformationObject name="BlogCollectionHeader" designDesc="">
+			<InformationObject name="ContainerHeader" designDesc="">
 					<InformationItems>
 						<InformationItem name="Title"  InformationObjectName="Title" LogicalDataType="Text_Short"/>
 						<InformationItem name="SubTitle" LogicalDataType="Text_Short" InformationObjectName="SubTilte"/>
 					</InformationItems>
 			</InformationObject>
+			
+<!-- end Atoms and Modules -->			
 			<InformationObject name="BlogCollection" designDesc="">
 					<CollectionFor contentInformationObjectName="Blog" />
 			</InformationObject>

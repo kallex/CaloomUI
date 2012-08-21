@@ -1,4 +1,5 @@
 <!-- oip-social-panel.txt -->
+<div class="blog-body-social-module">
 <?php include'../oip-atoms/oip-atom-social-filter.txt' ?><!-- UseInformationObject:SocialFilter-->
 <?php include'../oip-atoms/oip-social-follow.txt' ?><!-- UseInformationObject:SocialFollow-->
 <?php include'../oip-atoms/oip-social-followers.txt' ?><!-- UseInformationObject:SocialFollowers-->
@@ -6,3 +7,4 @@
 <?php include'../oip-atoms/oip-social-download.txt' ?><!-- UseInformationObject:SocialDownload-->
 <?php include'../oip-atoms/oip-social-print.txt' ?><!-- UseInformationObject:SocialPrint-->
 <!-- end oip-social-panel.txt -->
+</div>
