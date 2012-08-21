@@ -1,10 +1,10 @@
 <!-- oip-module-modal-images.txt -->
-<a data-toggle="modal" href="#ImagesEdit" rel="tooltip" title="click this image to open this image large and some other images if presentt">
+<a data-toggle="modal" href="#ImagesCollection" rel="tooltip" title="click this image to open this image large and some other images if presentt">
 <img src="http://placehold.it/260x180" alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px">
 </a>
 <!-- end oip-module-modal-images.txt -->
 <!-- oip-modal-blog-read-more.txt -->
-<div id="blog-images" class="modal hide fade">
+<div id="ImagesCollection" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button>
 		<h2 class="title">Blog Title</h2>
