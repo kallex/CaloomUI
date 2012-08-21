@@ -5,23 +5,23 @@
 <!-- end head -->
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
 <!-- navbar -->
-<?php include '../oip-modules/oip-navbar-fixed-top.txt' ?>
+<?php include '../oip-modules/oip-navbar-fixed-top.txt' ?><!--UseInformationObjectAsRoot:NavbarContainer  -->
 <!-- end navbar -->
 <!-- section -->
 <section id="gridSystem">
 <!-- container -->
 <div id="primary" class="container-fluid marketing well" style="margin-top:0px;background-color:white">
-<?php include '../oip-containers/oip-container-map-services-primary.txt' ?><!-- BindItemTo:MapCollection-->
+<?php include '../oip-containers/oip-container-map-services-primary.txt' ?><!-- UseInformationObjectAsRoot:MapCollection-->
 </div>
 <div id="secondary" class="container">
-<?php include '../oip-containers/oip-container-blog-secondary.txt'  ?><!--BindItemTo:BlogContainer -->
-<?php include '../oip-containers/oip-container-calendar-secondary.txt'  ?><!--BindItemTo:CalendarContainer -->
-<?php include '../oip-containers/oip-container-projects-secondary.txt'  ?><!--BindItemTo:ProjectContainer -->
+<?php include '../oip-containers/oip-container-blog-secondary.txt' ?><!--UseInformationObjectAsRoot:BlogContainer -->
+<?php include '../oip-containers/oip-container-calendar-secondary.txt' ?><!--UseInformationObjectAsRoot:CalendarContainer -->
+<?php include '../oip-containers/oip-container-projects-secondary.txt' ?><!--UseInformationObjectAsRoot:ProjectContainer -->
 	<!-- fixed -->
-<?php include '../oip-containers/oip-container-about-secondary.txt'  ?><!--BindItemTo:AboutContainer -->
-<?php include '../oip-containers/oip-container-account-secondary.txt'  ?><!--BindItemTo:AccountContainer -->
+<?php include '../oip-containers/oip-container-about-secondary.txt' ?><!--UseInformationObjectAsRoot:AboutContainer -->
+<?php include '../oip-containers/oip-container-account-secondary.txt' ?><!--UseInformationObjectAsRoot:AccountContainer  -->
 	<!-- required -->
-<?php include '../oip-containers/oip-footer.txt' ?>
+<?php include '../oip-containers/oip-footer.txt' ?><!--UseInformationObjectAsRoot:FooterContainer  -->
 </div>
 <!-- end container -->
 </section>
