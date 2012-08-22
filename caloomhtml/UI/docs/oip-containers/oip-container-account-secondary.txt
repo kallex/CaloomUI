@@ -1,11 +1,11 @@
-<!-- oip-account-secondary.txt -->
+<!-- oip-container-account-secondary.txt -->
 <section id="account">
-<?php include '../oip-atoms/oip-account-header.txt' ?>
+<?php include '../oip-modules/oip-module-account-header.txt' ?>
 <div class="row">
-<?php include '../oip-atoms/oip-account-index.txt' ?>
+<?php include '../oip-modules/oip-module-account-index.txt' ?>
 <div class="span8" style="margin:0;padding:0">
-<?php include '../oip-atoms/oip-account-body.txt' ?>
+<?php include '../oip-modules/oip-module-account-body.txt' ?>
 </div>
 </div>
 </section>
-<!-- end oip-account-secondary.txt -->
+<!-- end oip-container-account-secondary.txt -->

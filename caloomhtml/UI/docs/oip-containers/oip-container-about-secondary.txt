@@ -1,11 +1,11 @@
-<!-- oip-about-secondary.txt -->
+<!-- oip-container-about-secondary.txt -->
 <section id="about">
-<?php include '../oip-atoms/oip-about-header.txt' ?>
+<?php include '../oip-modules/oip-modules-about-header.txt' ?>
 <div class="row">
-<?php include '../oip-atoms/oip-about-index.txt' ?>
+<?php include '../oip-modules/oip-module-about-index.txt' ?>
 <div class="span8" style="margin:0;padding:0">
-<?php include '../oip-atoms/oip-about-body.txt' ?>
+<?php include '../oip-modules/oip-modules-about-body.txt' ?>
 </div>
 </div>
 </section>
-<!-- end oip-about-secondary.txt -->
+<!-- end oip-container-about-secondary.txt -->

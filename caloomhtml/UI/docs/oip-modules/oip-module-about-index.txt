@@ -1,0 +1,27 @@
+<!-- oip-module-about-index.txt -->
+<div class="span4">
+	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_330_about@2x.png" alt="aboutIndex" style="float:left;margin-right:10px"></p>
+	<h2>[!Atom]Title[ATOM!]<br><small>[!Atom]SubTitle[ATOM!]</small></h2>
+	<p>[!Atom]Introduction[ATOM!]</p>
+	<h4>[!Atom]aboutByLocation[ATOM!]</h4>
+	<ul>
+		<li>abouts in Finland</li>
+		<li>abouts in Europe</li>
+		<li>abouts in South Africa</li>
+	</ul>
+	<h4>[!Atom]aboutByDate[ATOM!]</h4>
+	<ul>
+		<li>abouts in August</li>
+		<li>abouts in July</li>
+		<li>abouts in June</li>
+	</ul>
+	<h4>[!Atom]aboutByAuthor[ATOM!]</h4>
+	<ul>
+		<li>abouts by Rahim</li>
+		<li>abouts by Anne</li>
+		<li>abouts by Andrew</li>
+		<li>abouts by Riina</li>
+	</ul>
+	<p>[!Atom]Summary[ATOM!]</p>
+</div>
+<!-- end oip-module-about-index.txt -->
