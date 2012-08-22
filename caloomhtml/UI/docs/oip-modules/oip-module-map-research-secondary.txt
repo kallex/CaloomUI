@@ -1,0 +1,6 @@
+<!-- oip-map-research.txt -->
+<div style="margin-top:0px">
+	<img class="mapbackground" src="../oip-additions/oip-assets/oip-images/placeholder/nordic.png" width="50%" height="50%" alt="Europe / Events">
+<!-- custom height for display in the examples only -->
+</div>
+<!-- end oip-map-research.txt -->

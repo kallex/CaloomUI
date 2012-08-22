@@ -1,0 +1,19 @@
+<!-- oip-module-map-services-body.txt -->
+<div class="span8">
+	<ul class="nav nav-tabs" style="margin-bottom:0px">
+		<li class="active"><a href="#tab-events" data-toggle="tab">Europe Events</a></li> 
+		<li><a href="#tab-courses" data-toggle="tab">South America Courses</a></li>
+		<li><a href="#tab-meetings" data-toggle="tab">Asia Meetings</a></li>
+		<li><a href="#tab-projects" data-toggle="tab">Africa Projects</a></li>
+		<li><a href="#tab-research" data-toggle="tab">Nordic Research</a></li>
+		<li><a href="#tab-add" data-toggle="tab"><i>Add another service</i></a></li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane active" id="tab-events"><?php include'../oip-modules/oip-module-map-events-secondary.txt'  ?></div> <!--UseInformationObject:Events -->
+		<div class="tab-pane" id="tab-courses"><?php include'../oip-modules/oip-module-map-courses-secondary.txt' ?></div>
+		<div class="tab-pane" id="tab-meetings"><?php include'../oip-modules/oip-module-map-meetings-secondary.txt' ?></div>
+		<div class="tab-pane" id="tab-projects"><?php include'../oip-modules/oip-module-map-projects-secondary.txt' ?></div>
+		<div class="tab-pane" id="tab-research"><?php include'../oip-modules/oip-module-map-research-secondary.txt' ?></div>
+	</div><!-- tab-content -->
+</div><!-- span8 -->
+<!-- end oip-module-map-services-body.txt -->

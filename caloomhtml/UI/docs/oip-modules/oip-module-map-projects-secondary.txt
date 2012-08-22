@@ -1,0 +1,6 @@
+<!-- oip-map-projects.txt -->
+<div style="margin-top:0px">
+	<img class="mapbackground" src="../oip-additions/oip-assets/oip-images/placeholder/africa.png" width="50%" height="50%" alt="Africa / Meetings">
+<!-- custom height for display in the examples only -->
+</div>
+<!-- end oip-map-projects.txt -->
