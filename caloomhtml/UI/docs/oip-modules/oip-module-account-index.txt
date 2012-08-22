@@ -3,26 +3,43 @@
 	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons/png/glyphicons_280_settings@2x.png" alt="Responsive devices"></p>
 	<h3 class="atomized">[!Atom]Title[ATOM!]</h3>
 	<p class="atomized">[!Atom]Introduction[ATOM!]</p>
-	<ul>
-		<li>moderator</li>
-		<li>member</li>
-		<li>viewer</li>
-	</ul>
-	<ul>
-		<li>collaborator</li>
-		<li>organisation</li>
-		<li>group</li>
-	</ul>
-	<ul>
-		<li>Subscriptions</li>
-		<li>Followers</li>
-		<li>Activity</li>
-	</ul>
-	<ul>
-		<li>My Blogs</li>
-		<li>My Maps</li>
-		<li>My Calendars</li>
-		<li>My Content (images e.g.)</li>
+	<ul class="atomized">
+		<li>Identity
+		<ul>
+			<li>Personal information</li>
+			<li>locations (home, work, work2, work3)</li>
+			<li>security (passwords, emails, permissions)</li>
+		</ul>
+		</li>
+		<li>Roles
+		<ul>
+			<li>moderator (in 1 group)</li>
+			<li>member (in 5 groups)</li>
+			<li>viewer (what I have viewed, a history track)</li>
+		</ul>
+		</li>
+		<li>Manage
+			<ul>
+				<li>collaborators (If I am the moderator I can manage these)</li>
+				<li>organisations (I belong to)</li>
+				<li>groups (I am a member of)</li>
+			</ul>
+		</li>
+		<li>Statistics
+			<ul>
+				<li>Subscriptions I have</li>
+				<li>Followers I have</li>
+				<li>Activity, stuff I have done</li>
+			</ul>
+		</li>
+		<li>My content
+			<ul>
+				<li>as blogs</li>
+				<li>on maps</li>
+				<li>in calendars</li>
+				<li>as added images e.g. (digital content)</li>
+			</ul>
+		</li>
 	</ul>
 	<p class="atomized">[!Atom]Summary[ATOM!]</p>
 </div>
