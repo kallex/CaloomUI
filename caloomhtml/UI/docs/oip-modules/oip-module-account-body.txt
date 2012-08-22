@@ -4,10 +4,10 @@
 		<div id="AccountRolesAccordion" class="accordion">
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse1">
-						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+					<button class="btn btn-danger" data-toggle="collapse" data-parent="#accordion2" href="#collapse1"></button>
+					<div><img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
 						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Identity</small></h2>
-					</a>
+					</div>
 				</div>
 				<div style="height: auto;" id="collapse1" class="accordion-body in collapse">
 					<div class="accordion-inner">
@@ -17,10 +17,10 @@
 			</div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse2">
-						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+					<button class="btn btn-danger" data-toggle="collapse" data-parent="#accordion2" href="#collapse2"></button>
+					<div><img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
 						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Roles</small></h2>
-					</a>
+					</div>
 				</div>
 				<div id="collapse2" class="accordion-body collapse">
 					<div class="accordion-inner">
@@ -30,10 +30,10 @@
 			</div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse3">
-						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+					<button class="btn" data-toggle="collapse" data-parent="#accordion2" href="#collapse3"><i class="icon-info-sign icon-white"></i> More Info</button>
+					<div><img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
 						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Manage</small></h2>
-					</a>
+					</div>
 				</div>
 				<div id="collapse3" class="accordion-body collapse">
 					<div class="accordion-inner">
@@ -43,10 +43,11 @@
 			</div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse4">
+					<div>
+						<button class="btn" data-toggle="collapse" data-parent="#accordion2" href="#collapse4" style="float:right"><i class="icon-info-sign icon-black"></i> Open</button>
 						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
-						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Statistics</small></h2>
-					</a>
+						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]Statistics</small></h2>
+					</div>
 				</div>
 				<div id="collapse4" class="accordion-body collapse">
 					<div class="accordion-inner">
@@ -56,10 +57,10 @@
 			</div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse5">
-						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+					<button class="btn btn-danger" data-toggle="collapse" data-parent="#accordion2" href="#collapse5"></button>
+					<div><img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
 						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]My Content</small></h2>
-					</a>
+					</div>
 				</div>
 				<div id="collapse5" class="accordion-body collapse">
 					<div class="accordion-inner">
@@ -69,10 +70,10 @@
 			</div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse6">
-						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+					<button class="btn btn-danger" data-toggle="collapse" data-parent="#accordion2" href="#collapse6"></button>
+					<div><img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
 						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Other</small></h2>
-					</a>
+					</div>
 				</div>
 				<div id="collapse6" class="accordion-body collapse">
 					<div class="accordion-inner">
