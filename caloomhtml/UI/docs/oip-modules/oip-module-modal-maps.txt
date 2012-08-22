@@ -1,6 +1,6 @@
 <!-- oip-module-modal-maps.txt -->
 <a data-toggle="modal" href="#MapsMore" rel="tooltip" title="click this image to open this image large and some other images if presentt">
-<img src="../oip-additions/oip-assets/oip-images/placeholder/riodejaneiro.png" alt="" class="thumbnail atomized" style="width:100%;height:180px;float:left;">
+<img src="../oip-additions/oip-assets/oip-images/placeholder/riodejaneiro.png" alt="" class="thumbnail" style="width:100%;height:180px;float:left;">
 </a>
 <!-- end oip-module-modal-maps.txt -->
 <!-- MapMore modal -->
@@ -11,8 +11,8 @@
 	</div>
 	<div class="modal-body" style="width:600px">
 		<h3>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h3>
-		[!ATOM]Published[ATOM!<!--UseInformationObject:Published-->
-		[!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
+		<h4>[!ATOM]Published[ATOM!<!--UseInformationObject:Published--></h4>
+		<h4>[!ATOM]Author[ATOM!<!-- UseInformationObject:Author--></h4>
 		<p>
 			<img src="../oip-additions/oip-assets/oip-images/placeholder/riodejaneiro.png" alt="" class="thumbnail" style="width:520px;height:360px;float:left;margin:10px;margin-top:0px;margin-left:0px">
 		<?php include 'oip-module-map-services-result-summary.txt' ?><!-- UseInformationObject:Excerpt-->

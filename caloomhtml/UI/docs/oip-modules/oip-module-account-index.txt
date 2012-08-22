@@ -1,8 +1,8 @@
 <!-- oip-account-index.txt -->
 <div class="span4">
 	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons/png/glyphicons_280_settings@2x.png" alt="Responsive devices"></p>
-	<h3>Account options</h3>
-	<p>introduction</p>
+	<h3 class="atomized">[!Atom]Title[ATOM!]</h3>
+	<p class="atomized">[!Atom]Introduction[ATOM!]</p>
 	<ul>
 		<li>moderator</li>
 		<li>member</li>
@@ -13,6 +13,17 @@
 		<li>organisation</li>
 		<li>group</li>
 	</ul>
-	<p>summary</p>
+	<ul>
+		<li>Subscriptions</li>
+		<li>Followers</li>
+		<li>Activity</li>
+	</ul>
+	<ul>
+		<li>My Blogs</li>
+		<li>My Maps</li>
+		<li>My Calendars</li>
+		<li>My Content (images e.g.)</li>
+	</ul>
+	<p class="atomized">[!Atom]Summary[ATOM!]</p>
 </div>
 <!-- end oip-account-index.txt -->

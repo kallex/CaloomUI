@@ -5,25 +5,25 @@
 		<table class="table table-bordered table-striped">
 			<thead>
 				<tr>
-					<th>Label</th>
-					<th>Layout width</th>
-					<th>Column width</th>
-					<th>Gutter width</th>
+					<th>Personal</th>
+					<th>Roles</th>
+					<th>Groups</th>
+					<th>Other</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td>Smartphones</td>
-					<td>480px and below</td>
-					<td class="muted" colspan="2">Fluid columns, no fixed widths</td>
+					<td>Identity</td>
+					<td>Locations</td>
+					<td>Security</td>
 				</tr>
 				<tr>
-					<td>Smartphones to tablets</td>
+					<td>Locations</td>
 					<td>767px and below</td>
 					<td class="muted" colspan="2">Fluid columns, no fixed widths</td>
 				</tr>
 				<tr>
-					<td>Portrait tablets</td>
+					<td>Content</td>
 					<td>768px and above</td>
 					<td>42px</td>
 					<td>20px</td>
