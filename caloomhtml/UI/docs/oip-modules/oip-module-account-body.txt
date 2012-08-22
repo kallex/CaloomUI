@@ -1,13 +1,17 @@
 <!-- oip-account-body.txt -->
-<div class="span8">
-	<div class="row-fluid">
-		<div id="AccountRolesAccordion" class="accordion">
-			<?php include 'oip-module-account-body-identity.txt' ?>
-			<?php include 'oip-module-account-body-roles.txt' ?>
-			<?php include 'oip-module-account-body-manage.txt' ?>
-			<?php include 'oip-module-account-body-statistics.txt' ?>
-			<?php include 'oip-module-account-body-mycontent.txt' ?>
-		</div>
-	</div><!--end row-->
-</div><!-- end div span8 -->
+<ul class="nav nav-tabs" style="margin-bottom:0px">
+<li class="active"><a href="#tab-identity" data-toggle="tab">Identity</a></li> 
+<li><a href="#tab-roles" data-toggle="tab">Roles</a></li>
+<li><a href="#tab-manage" data-toggle="tab">Manage</a></li>
+<li><a href="#tab-statistics" data-toggle="tab">Statistics</a></li>
+<li><a href="#tab-my-content" data-toggle="tab">My Content</a></li>
+</ul>
+
+<div class="tab-content">
+<div class="tab-pane active" id="tab-identity"><?php include'../oip-modules/oip-module-account-body-identity.txt'  ?></div><!--UseInformationObject:AccountIdentity -->
+<div class="tab-pane" id="tab-roles"><?php include'../oip-modules/oip-module-account-body-roles.txt' ?></div><!--UseInformationObject:AccountRoles -->
+<div class="tab-pane" id="tab-manage"><?php include'../oip-modules/oip-module-account-body-manage.txt' ?></div><!--UseInformationObject:AccountManage -->
+<div class="tab-pane" id="tab-statistics"><?php include'../oip-modules/oip-module-account-body-statistics.txt' ?></div><!--UseInformationObject:AccountStatistics -->
+<div class="tab-pane" id="tab-my-content"><?php include'../oip-modules/oip-module-account-body-mycontent.txt' ?></div><!--UseInformationObject:AccountContent -->
+</div>
 <!-- end oip-account-body.txt -->

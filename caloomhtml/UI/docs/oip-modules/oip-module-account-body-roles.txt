@@ -1,21 +1,9 @@
-<div class="accordion-group">
-	<div class="accordion-heading">
-		<div><button class="btn" data-toggle="collapse" data-parent="#accordion2" href="#collapse2" style="float:right"><i class="icon-info-sign icon-black"></i> Open</button>
-		<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
-			<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]Roles</small></h2>
-		</div>
-	</div>
-	<div id="collapse2" class="accordion-body collapse">
-		<div class="accordion-inner">
-			<ul class="">
-				<li>Roles
-					<ul>
-						<li>moderator (in 1 group)</li>
-						<li>member (in 5 groups)</li>
-						<li>viewer (what I have viewed, a history track)</li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
+<ul class="">
+	<li>Roles
+		<ul>
+			<li>moderator (in 1 group)</li>
+			<li>member (in 5 groups)</li>
+			<li>viewer (what I have viewed, a history track)</li>
+		</ul>
+	</li>
+</ul>

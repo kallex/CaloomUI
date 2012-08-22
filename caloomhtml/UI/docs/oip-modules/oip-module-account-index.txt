@@ -4,42 +4,11 @@
 	<h3 class="atomized">[!Atom]Title[ATOM!]</h3>
 	<p class="atomized">[!Atom]Introduction[ATOM!]</p>
 	<ul class="atomized">
-		<li>Identity
-		<ul>
-			<li>Personal information</li>
-			<li>locations (home, work, work2, work3)</li>
-			<li>security (passwords, emails, permissions)</li>
-		</ul>
-		</li>
-		<li>Roles
-		<ul>
-			<li>moderator (in 1 group)</li>
-			<li>member (in 5 groups)</li>
-			<li>viewer (what I have viewed, a history track)</li>
-		</ul>
-		</li>
-		<li>Manage
-			<ul>
-				<li>collaborators (If I am the moderator I can manage these)</li>
-				<li>organisations (I belong to)</li>
-				<li>groups (I am a member of)</li>
-			</ul>
-		</li>
-		<li>Statistics
-			<ul>
-				<li>Subscriptions I have</li>
-				<li>Followers I have</li>
-				<li>Activity, stuff I have done</li>
-			</ul>
-		</li>
-		<li>My content
-			<ul>
-				<li>as blogs</li>
-				<li>on maps</li>
-				<li>in calendars</li>
-				<li>as added images e.g. (digital content)</li>
-			</ul>
-		</li>
+		<li>Identity</li>
+		<li>Roles</li>
+		<li>Manage</li>
+		<li>Statistics</li>
+		<li>My content</li>
 	</ul>
 	<p class="atomized">[!Atom]Summary[ATOM!]</p>
 </div>

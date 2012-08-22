@@ -1,0 +1,8 @@
+<!-- oip-container-Account-primary.txt -->
+<section id="Account">
+	<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:AccountContainerHeader -->
+<hr>
+<section id="account" style="position:relative">
+	<?php include '../oip-modules/oip-module-account-body.txt' ?>
+</section>
+<!-- end oip-container-Account-primary.txt -->
