@@ -1,9 +1,102 @@
-<ul class="">
-	<li>Identity
-		<ul>
-			<li>Personal information</li>
-			<li>locations (home, work, work2, work3)</li>
-			<li>security (passwords, emails, permissions)</li>
-		</ul>
-	</li>
-</ul>
+<div class="span4">
+	<form method="post" class="form-horizontal">
+		<fieldset>
+			<!-- oip-form-text-input.txt -->
+			<div class="control-group">
+				<label class="control-label" for="input01">First Name</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="text" value="First Name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Last Name</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="text" value="Last Name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Email</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="text" value="email address">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">password</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="password" value="password">
+				</div>
+			</div>
+			<div class="form-actions">
+				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+			</div>
+		</fieldset>
+	</form>
+</div>
+<div class="span4">
+	<form method="post" class="form-horizontal">
+		<fieldset>
+			<!-- oip-form-text-input.txt -->
+			<div class="control-group">
+				<label class="control-label" for="input01">First Name</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="text" value="First Name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Last Name</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="text" value="Last Name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Email</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="text" value="email address">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">password</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="password" value="password">
+				</div>
+			</div>
+			<div class="form-actions">
+				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+			</div>
+		</fieldset>
+	</form>
+</div>
+<div class="span3">
+	<form method="post" class="form-horizontal">
+		<fieldset>
+			<!-- oip-form-text-input.txt -->
+			<div class="control-group">
+				<label class="control-label" for="input01">First Name</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="text" value="First Name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Last Name</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="text" value="Last Name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Email</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="text" value="email address">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">password</label>
+				<div class="controls">
+					<input name="Title" class="span2" id="input01" type="password" value="password">
+				</div>
+			</div>
+			<div class="form-actions">
+				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+			</div>
+		</fieldset>
+	</form>
+</div>
