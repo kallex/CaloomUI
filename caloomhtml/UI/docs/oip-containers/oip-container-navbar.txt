@@ -1,0 +1,39 @@
+<!-- oip-navbar-fixed-top.txt -->
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a href="oip-layout-default.phtml" class="brandlogo" title="AGI-logo"></a>
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			<div class="nav-collapse collapse">
+				<ul class="nav">  
+					<li><a href="#services">Maps</a></li>
+					<li><a href="oip-layout-calendar.phtml">Calendar</a></li>  
+					<li><a href="oip-layout-projects.phtml">Projects</a></li>  
+					<li><a href="oip-layout-blog.phtml">Blog</a></li>  
+					<li><a href="#">Partner</a></li>  
+				</ul>
+				<form class="navbar-search pull-left" action="">
+					<input type="text" class="search-query span2" placeholder="Search">
+				</form>
+
+				<ul class="nav pull-right">
+					<li><a href="#about">About</a></li>
+					<li><a href="oip-layout-default-edit.phtml">Edit[Blog]</a></li>
+					<li class="divider-vertical"></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#"><i class="icon-user"></i> Login</a></li>
+							<li><a href="#"><i class="icon-pencil"></i> Sign Up</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- end nav-collapse -->
+		</div><!-- end container -->
+	</div><!-- end navbar-inner -->
+</div><!-- end navbar -->
+<!-- end oip-navbar-fixed-top.txt -->
