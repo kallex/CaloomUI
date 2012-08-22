@@ -1,35 +1,85 @@
 <!-- oip-account-body.txt -->
 <div class="span8">
 	<div class="row-fluid">
-		<div class="well-white" style="float:left">
-			<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
-			<h2 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Identity</small></h2>
-			<p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
-		</div>
-		<div class="well-white" style="float:left">
-			<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
-			<h2 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Roles</small></h2>
-			<p>Aalto Global Impact Applications is designed to help people of all backgrounds, locations, and what not.</p>
-		</div>
-		<div class=" well-white" style="float:left">
-			<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
-			<h2 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Manage</small></h2>
-			<p>AGIA is built to be used anywhere, with any kind of device.nywhere, with any kind of device.</p>
-		</div>
-		<div class=" well-white" style="float:left">
-			<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
-			<h2 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Statistics</small></h2>
-			<p>Despite we now only have 5 applications, anyone can add their own application and so AGIA can grow, you can grow</p>
-		</div>
-		<div class="well-white" style="float:left">
-			<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
-			<h2 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]My Content</small></h2>
-			<p>Despite all the fads, we simply collaborate with others on designing and implementing new services and projects and yes, we call this "Collaborative Design"</p>
-		</div>
-		<div class="well-white" style="float:left">
-			<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
-			<h2 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Other</small></h2>
-			<p>We have an extensive collection of guidebooks to help you get started with BoP, co-creation, co-design, not for profit stuff and whatever</p>
+		<div id="AccountRolesAccordion" class="accordion">
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse1">
+						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Identity</small></h2>
+					</a>
+				</div>
+				<div style="height: auto;" id="collapse1" class="accordion-body in collapse">
+					<div class="accordion-inner">
+						<?php include 'oip-module-account-body-item-1.txt' ?>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse2">
+						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Roles</small></h2>
+					</a>
+				</div>
+				<div id="collapse2" class="accordion-body collapse">
+					<div class="accordion-inner">
+						<?php include 'oip-module-account-body-item-1.txt' ?>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse3">
+						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Manage</small></h2>
+					</a>
+				</div>
+				<div id="collapse3" class="accordion-body collapse">
+					<div class="accordion-inner">
+						<?php include 'oip-module-account-body-item-1.txt' ?>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse4">
+						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Statistics</small></h2>
+					</a>
+				</div>
+				<div id="collapse4" class="accordion-body collapse">
+					<div class="accordion-inner">
+						<?php include 'oip-module-account-body-item-1.txt' ?>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse5">
+						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]My Content</small></h2>
+					</a>
+				</div>
+				<div id="collapse5" class="accordion-body collapse">
+					<div class="accordion-inner">
+						<?php include 'oip-module-account-body-item-1.txt' ?>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse6">
+						<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+						<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]Other</small></h2>
+					</a>
+				</div>
+				<div id="collapse6" class="accordion-body collapse">
+					<div class="accordion-inner">
+						<?php include 'oip-module-account-body-item-1.txt' ?>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div><!--end row-->
 </div><!-- end div span8 -->
