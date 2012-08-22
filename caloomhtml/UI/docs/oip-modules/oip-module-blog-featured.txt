@@ -1,14 +1,11 @@
 <!-- oip-module-blog-featured.txt -->
 <div class="span12">	
-<h2>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h2>
-[!ATOM]Published[ATOM!]<!--UseInformationObject:Published-->
-[!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
-<p>
-<?php include 'oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
-[!ATOM]Excerpt[ATOM!<!-- UseInformationObject:Excerpt-->
-</p>
-<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...and more and more and more and more and more and more and more and more and more and more and more and more and more and more and more and more </a>
-
+<h2 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h2>
+<h4 class="atomized">[!ATOM]Published[ATOM!]<!--UseInformationObject:Published--></h4>
+<h4 class="atomized">[!ATOM]Author[ATOM!<!-- UseInformationObject:Author--></h4>
+<p class="atomized"><?php include 'oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup --></p>
+<p class="atomized">[!ATOM]Excerpt[ATOM!<!-- UseInformationObject:Excerpt--></p>
+<p class="atomized"><a class="read-more" data-toggle="modal" href="#ReadMore">Read More...and more and more and more and more and more and more and more and more and more and more and more and more and more and more and more and more </a></p>
 <!-- oip-social-panel.txt -->
 <div class="blog-body-social-module">
 <?php include 'oip-module-social-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
@@ -24,10 +21,10 @@
 		<h4 class="title">Read More....</h4>
 	</div>
 	<div class="modal-body">
-		<h1>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h1>
-		[!ATOM]Published[ATOM!<!--UseInformationObject:Published-->
-		[!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
-		<p>
+		<h1 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h1>
+		<h4 class="atomized">[!ATOM]Published[ATOM!]<!--UseInformationObject:Published--></h4>
+		<h4 class="atomized">[!ATOM]Author[ATOM!<!-- UseInformationObject:Author--></h4>
+		<p class="atomized">
 		<?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObject:ImageGroup -->
 		[!ATOM]Body[ATOM!<!-- UseInformationObject:Body-->
 		</p>

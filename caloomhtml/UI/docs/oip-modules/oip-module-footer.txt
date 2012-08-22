@@ -1,5 +1,5 @@
 <!-- oip-module-footer.txt -->
-<div class="" style="background-color:grey">
+<div class="atomized">
 	<p>This is the module footer text</p>
 </div>
 <!-- end oip-module-footer.txt -->

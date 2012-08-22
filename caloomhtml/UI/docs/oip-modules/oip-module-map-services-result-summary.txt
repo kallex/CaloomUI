@@ -1,15 +1,9 @@
 <!-- oip-module-map-services-result-summary.txt -->
-<table class="table table-bordered table-striped" style="width:100px">
+<table class="table table-bordered table-striped" style="float:left;width:100px">
 	<tbody>
 		<tr>
-			<td>New</td>
-			<td>7</td>
-			<td class="swatch-col"><span class="swatch" style="background-color: #ed5959;"></span></td>
-		</tr>
-		<tr>
-			<td>Old</td>
-			<td>2</td>
-			<td><span class="swatch" style="background-color: #6f6f65;"></span></td>
+			<td><span style="background-color: #6f6f65;"></span>3</td>
+			<td><span style="background-color: #ed5959;"></span>7</td>
 		</tr>
 	</tbody>
 </table>

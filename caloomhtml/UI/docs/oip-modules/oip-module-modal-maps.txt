@@ -1,6 +1,6 @@
 <!-- oip-module-modal-maps.txt -->
 <a data-toggle="modal" href="#MapsMore" rel="tooltip" title="click this image to open this image large and some other images if presentt">
-<img src="../oip-additions/oip-assets/oip-images/placeholder/riodejaneiro.png" alt="" class="thumbnail" style="width260px;height:180px;float:left;padding-right:10px">
+<img src="../oip-additions/oip-assets/oip-images/placeholder/riodejaneiro.png" alt="" class="thumbnail atomized" style="width:100%;height:180px;float:left;">
 </a>
 <!-- end oip-module-modal-maps.txt -->
 <!-- MapMore modal -->

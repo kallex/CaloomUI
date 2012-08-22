@@ -1,27 +1,27 @@
 <!-- oip-module-calendar-index.txt -->
 <div class="span4">
 	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_045_calendar@2x.png" alt="calendar" style="float:left;margin-right:10px"></p>
-	<h2>[!Atom]Title[ATOM!]<br><small>[!Atom]SubTitle[ATOM!]</small></h2>
-	<p>[!Atom]Introduction[ATOM!]</p>
-	<h4>[!Atom]calendarByLocation[ATOM!]</h4>
+	<h2 class="atomized">[!Atom]Title[ATOM!]<br><small>[!Atom]SubTitle[ATOM!]</small></h2>
+	<p class="atomized">[!Atom]Introduction[ATOM!]</p>
+	<h4 class="atomized">[!Atom]calendarByLocation[ATOM!]</h4>
 	<ul>
 		<li>calendars in Finland</li>
 		<li>calendars in Europe</li>
 		<li>calendars in South Africa</li>
 	</ul>
-	<h4>[!Atom]calendarByDate[ATOM!]</h4>
+	<h4 class="atomized">[!Atom]calendarByDate[ATOM!]</h4>
 	<ul>
 		<li>calendars in August</li>
 		<li>calendars in July</li>
 		<li>calendars in June</li>
 	</ul>
-	<h4>[!Atom]calendarByAuthor[ATOM!]</h4>
+	<h4 class="atomized">[!Atom]calendarByAuthor[ATOM!]</h4>
 	<ul>
 		<li>calendars by Rahim</li>
 		<li>calendars by Anne</li>
 		<li>calendars by Andrew</li>
 		<li>calendars by Riina</li>
 	</ul>
-	<p>[!Atom]Summary[ATOM!]</p>
+	<p class="atomized">[!Atom]Summary[ATOM!]</p>
 </div>
 <!-- end oip-calendar-calendar-index.txt -->

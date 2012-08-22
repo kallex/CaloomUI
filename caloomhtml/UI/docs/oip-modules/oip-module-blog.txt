@@ -1,13 +1,11 @@
 <!-- oip-module-blog.txt -->
 <div class="span8">
-edit this module
-<h3>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h3>
-[!ATOM]Published[ATOM!]<!--UseInformationObject:Published-->
-[!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
-<p>
-<?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObject:ImageGroup -->
-[!ATOM]Excerpt[ATOM!<!-- UseInformationObject:Excerpt-->
-</p>
+<h2 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h2>
+<h4 class="atomized">[!ATOM]Published[ATOM!]<!--UseInformationObject:Published--></h4>
+<h4 class="atomized">[!ATOM]Author[ATOM!<!-- UseInformationObject:Author--></h4>
+<p class="atomized"><?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObject:ImageGroup --></p>
+<p class="atomized">[!ATOM]Excerpt[ATOM!<!-- UseInformationObject:Excerpt--></p>
+<p class="atomized"><a class="read-more" data-toggle="modal" href="#ReadMore">Read More...and more and more and more and more and more and more and more and more and more and more and more and more and more and more and more and more </a></p>
 <a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a>
 
 <!-- oip-social-panel.txt -->

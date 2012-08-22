@@ -1,13 +1,13 @@
 <!-- oip-module-map-service-listing-1.txt -->
 <div class="span4" style="margin:0;padding-right:10px">
-edit this module
-<h3>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h3>
-[!ATOM]Published[ATOM!]<!--UseInformationObject:Published-->
-[!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
-<p>
-<?php include 'oip-module-modal-maps.txt' ?><!-- UseInformationObject:ImageGroup -->
+<div class="atomized" style="position: relative;">
 <?php include 'oip-module-map-services-result-summary.txt' ?><!-- UseInformationObject:Excerpt-->
-</p>
+<?php include 'oip-module-modal-maps.txt' ?><!-- UseInformationObject:ImageGroup -->
+</div>
+<h2 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h2>
+<h4 class="atomized">[!ATOM]Published[ATOM!]<!--UseInformationObject:Published--></h4>
+<h4 class="atomized">[!ATOM]Author[ATOM!<!-- UseInformationObject:Author--></h4>
+<hp class="atomized">[!ATOM]Excerpt[ATOM!<!-- UseInformationObject:Author--></hp>
 <!-- oip-social-panel.txt -->
 <div class="blog-body-social-module">
 <?php include 'oip-module-social-panel.txt' ?><!-- UseInformationObject:SocialPanel-->
@@ -16,4 +16,3 @@ edit this module
 </div>
 <!-- end oip-module-blog.txt -->
 <!-- end oip-module-map-service-listing-1.txt -->
-
