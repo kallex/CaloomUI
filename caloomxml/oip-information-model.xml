@@ -5,59 +5,59 @@
 <!-- Containers -->
 			<InformationObject name="BlogContainer" designDesc="">
 				<InformationItems>
-					<InformationItem name="BlogContainerHeader" InformationObjectName="ContainerHeader" LogicalDataType="InformationObject"/>
-					<InformationItem name="FeaturedBlog" InformationObjectName="Blog" LogicalDataType="InformationObject"/>
-					<InformationItem name="BlogCollection" InformationObjectName="BlogCollection" LogicalDataType="InformationObject"/>
-					<InformationItem name="BlogIndexCollection" InformationObjectName="IndexCollection" LogicalDataType="InformationObject"/>
+					<InformationItem name="BlogContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
+					<InformationItem name="FeaturedBlog" informationObjectName="Blog" logicalDataType="InformationObject"/>
+					<InformationItem name="BlogCollection" informationObjectName="BlogCollection" logicalDataType="InformationObject"/>
+					<InformationItem name="BlogIndexCollection" informationObjectName="IndexCollection" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="MapContainer" designDesc=""><!-- this is the highest level and this collects the "modules" that are used in the container -->
 				<InformationItems>
-					<InformationItem name="MapContainerHeader" InformationObjectName="ContainerHeader" LogicalDataType="InformationObject"/>
-					<InformationItem name="MapFeatured" InformationObjectName="map" LogicalDataType="InformationObject"/><!-- this is the first shown map in a collection or the ony single map on e.g. a secondary layout where the map is the focal point -->
-					<InformationItem name="MapCollection" InformationObjectName="MapCollection" LogicalDataType="InformationObject"/><!-- these can be tabs, a carousel or some other collector that contains more than 1 map-->
-					<InformationItem name="MapResultCollection" InformationObjectName="MapResultList" LogicalDataType="InformationObject"/><!-- this is the result list of an individual map -->
-					<InformationItem name="MapIndexCollection" InformationObjectName="MapIndex" LogicalDataType="InformationObject"/><!-- this is an index of other possible maps -->
+					<InformationItem name="MapContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
+					<InformationItem name="MapFeatured" informationObjectName="Map" logicalDataType="InformationObject"/><!-- this is the first shown map in a collection or the ony single map on e.g. a secondary layout where the map is the focal point -->
+					<InformationItem name="MapCollection" informationObjectName="MapCollection" logicalDataType="InformationObject"/><!-- these can be tabs, a carousel or some other collector that contains more than 1 map-->
+					<InformationItem name="MapResultCollection" informationObjectName="MapResultList" logicalDataType="InformationObject"/><!-- this is the result list of an individual map -->
+					<InformationItem name="MapIndexCollection" informationObjectName="MapIndex" logicalDataType="InformationObject"/><!-- this is an index of other possible maps -->
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="CalendarContainer" designDesc="">
 				<InformationItems>
-					<InformationItem name="CalendarContainerHeader" InformationObjectName="ContainerHeader" LogicalDataType="InformationObject"/>
-					<InformationItem name="CalendarFeatured" InformationObjectName="Calendar" LogicalDataType="InformationObject"/>
-					<InformationItem name="CalendarCollection" InformationObjectName="CalendarCollection" LogicalDataType="InformationObject"/>
-					<InformationItem name="CalendarIndexCollection" InformationObjectName="CalendarIndex" LogicalDataType="InformationObject"/>
+					<InformationItem name="CalendarContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
+					<InformationItem name="CalendarFeatured" informationObjectName="Calendar" logicalDataType="InformationObject"/>
+					<InformationItem name="CalendarCollection" informationObjectName="CalendarCollection" logicalDataType="InformationObject"/>
+					<InformationItem name="CalendarIndexCollection" informationObjectName="CalendarIndex" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="AboutContainer" designDesc="">
 				<InformationItems>
-					<InformationItem name="AboutContainerHeader" InformationObjectName="ContainerHeader" LogicalDataType="InformationObject"/>
-					<InformationItem name="AboutFeatured" InformationObjectName="Calendar" LogicalDataType="InformationObject"/>
-					<InformationItem name="AboutCollection" InformationObjectName="CalendarCollection" LogicalDataType="InformationObject"/>
-					<InformationItem name="AboutIndexCollection" InformationObjectName="CalendarIndex" LogicalDataType="InformationObject"/>
+					<InformationItem name="AboutContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
+					<InformationItem name="AboutFeatured" informationObjectName="Calendar" logicalDataType="InformationObject"/>
+					<InformationItem name="AboutCollection" informationObjectName="CalendarCollection" logicalDataType="InformationObject"/>
+					<InformationItem name="AboutIndexCollection" informationObjectName="CalendarIndex" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="AccountContainer" designDesc="">
 				<InformationItems>
-					<InformationItem name="AccountContainerHeader" InformationObjectName="ContainerHeader" LogicalDataType="InformationObject"/>
-					<InformationItem name="AccountFeatured" InformationObjectName="Calendar" LogicalDataType="InformationObject"/>
-					<InformationItem name="AccountCollection" InformationObjectName="CalendarCollection" LogicalDataType="InformationObject"/>
-					<InformationItem name="AccountIndexCollection" InformationObjectName="CalendarIndex" LogicalDataType="InformationObject"/>
+					<InformationItem name="AccountContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
+					<InformationItem name="AccountFeatured" informationObjectName="Calendar" logicalDataType="InformationObject"/>
+					<InformationItem name="AccountCollection" informationObjectName="CalendarCollection" logicalDataType="InformationObject"/>
+					<InformationItem name="AccountIndexCollection" informationObjectName="CalendarIndex" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="ProjectContainer" designDesc="">
 				<InformationItems>
-					<InformationItem name="ProjectContainerHeader" InformationObjectName="ContainerHeader" LogicalDataType="InformationObject"/>
-					<InformationItem name="ProjectFeatured" InformationObjectName="Calendar" LogicalDataType="InformationObject"/>
-					<InformationItem name="ProjectCollection" InformationObjectName="CalendarCollection" LogicalDataType="InformationObject"/>
-					<InformationItem name="ProjectIndexCollection" InformationObjectName="CalendarIndex" LogicalDataType="InformationObject"/>
+					<InformationItem name="ProjectContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
+					<InformationItem name="ProjectFeatured" informationObjectName="Calendar" logicalDataType="InformationObject"/>
+					<InformationItem name="ProjectCollection" informationObjectName="CalendarCollection" logicalDataType="InformationObject"/>
+					<InformationItem name="ProjectIndexCollection" informationObjectName="CalendarIndex" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="CourseContainer" designDesc="">
 				<InformationItems>
-					<InformationItem name="CourseContainerHeader" InformationObjectName="ContainerHeader" LogicalDataType="InformationObject"/>
-					<InformationItem name="CourseFeatured" InformationObjectName="Calendar" LogicalDataType="InformationObject"/>
-					<InformationItem name="CourseCollection" InformationObjectName="CalendarCollection" LogicalDataType="InformationObject"/>
-					<InformationItem name="CourseIndexCollection" InformationObjectName="CalendarIndex" LogicalDataType="InformationObject"/>
+					<InformationItem name="CourseContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
+					<InformationItem name="CourseFeatured" informationObjectName="Calendar" logicalDataType="InformationObject"/>
+					<InformationItem name="CourseCollection" informationObjectName="CalendarCollection" logicalDataType="InformationObject"/>
+					<InformationItem name="CourseIndexCollection" informationObjectName="CalendarIndex" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 <!-- end Containers -->
@@ -67,18 +67,18 @@
 
 			<InformationObject name="ContainerHeader" designDesc="">
 				<InformationItems>
-					<InformationItem name="Title"  InformationObjectName="Title" LogicalDataType="Text_Short"/>
-					<InformationItem name="SubTitle" LogicalDataType="Text_Short" InformationObjectName="SubTilte"/>
+					<InformationItem name="Title"  informationObjectName="Title" logicalDataType="Text_Short"/>
+					<InformationItem name="SubTitle" logicalDataType="Text_Short" informationObjectName="SubTilte"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="IndexCollection" designDesc="">
 				<InformationItems>
-					<InformationItem name="Introduction" LogicalDataType="Text_Short"/>
-					<InformationItem name="Summary" LogicalDataType="Text_Short"/>
-					<InformationItem name="ByDate" InformationObjectName="ByDate" LogicalDataType="InformationObject"/>
-					<InformationItem name="ByAuthor" InformationObjectName="ByAuthor" LogicalDataType="InformationObject"/>
-					<InformationItem name="ByCategory" InformationObjectName="ByCategory" LogicalDataType="InformationObject"/>
-					<InformationItem name="ByLocation" InformationObjectName="ByLocation" LogicalDataType="InformationObject"/>
+					<InformationItem name="Introduction" logicalDataType="Text_Short"/>
+					<InformationItem name="Summary" logicalDataType="Text_Short"/>
+					<InformationItem name="ByDate" informationObjectName="ByDate" logicalDataType="InformationObject"/>
+					<InformationItem name="ByAuthor" informationObjectName="ByAuthor" logicalDataType="InformationObject"/>
+					<InformationItem name="ByCategory" informationObjectName="ByCategory" logicalDataType="InformationObject"/>
+					<InformationItem name="ByLocation" informationObjectName="ByLocation" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			
@@ -88,51 +88,63 @@
 			</InformationObject>
 			<InformationObject name="Blog" designDesc="Individual Blog">
 					<InformationItems>
-						<InformationItem name="Title" LogicalDataType="Text_Short"/><!--I can't imagine this is correct -->
-						<InformationItem name="SubTitle" LogicalDataType="Text_Short"/>
-						<InformationItem name="Published" LogicalDataType="Time_DateTime"/>
-						<InformationItem name="Author" LogicalDataType="Text_Short"/>
-						<InformationItem name="ImageGroup" InformationObjectName="ImageGroup" LogicalDataType="InformationObject" />
-						<InformationItem name="Body" LogicalDataType="Text_short"/>
-						<InformationItem name="Excerpt" LogicalDataType="Text_short"/>
+						<InformationItem name="Title" logicalDataType="Text_Short"/><!--I can't imagine this is correct -->
+						<InformationItem name="SubTitle" logicalDataType="Text_Short"/>
+						<InformationItem name="Published" logicalDataType="Time_DateTime"/>
+						<InformationItem name="Author" logicalDataType="Text_Short"/>
+						<InformationItem name="ImageGroup" informationObjectName="ImageGroup" logicalDataType="InformationObject" />
+						<InformationItem name="Body" logicalDataType="Text_Short"/>
+						<InformationItem name="Excerpt" logicalDataType="Text_Short"/>
 						<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
 						<InformationItem name="Category" logicalDataType="InformationObject" informationObjectName="Category"/>
 <!-- needed is, category, servicetype description, keywords -->
-						<InformationItem name="SocialPanel" InformationObjectName="SocialPanelCollection" LogicalDataType="InformationObject" />
+						<InformationItem name="SocialPanel" informationObjectName="SocialPanelCollection" logicalDataType="InformationObject" />
 					</InformationItems>
 			</InformationObject>
 <!-- should this be a Collection? -->			
 			<InformationObject name="BlogIndexCollection" designDesc="Index of Blogs by Date, Location, Author">
 				<InformationItems>
-					<CollectionFor contentInformationObjectName="BlogByDate" />
-					<CollectionFor contentInformationObjectName="BlogByLocation" />
-					<CollectionFor contentInformationObjectName="BlogByAuthor" />
-					<CollectionFor contentInformationObjectName="BlogByCategory" />
+          <InformationItem name="BlogByDate" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
+          <InformationItem name="BlogByLocation" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
+          <InformationItem name="BlogByAuthor" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
+          <InformationItem name="BlogByCategory" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
 				</InformationItems>
 			</InformationObject>
 <!-- should this be a Collection? -->			
 <!-- end Blog -->
 
+      <InformationObject name="MapCollection" designDesc="">
+        <CollectionFor contentInformationObjectName="Map" />
+      </InformationObject>
 
-<!-- Map Services -->
+      <!-- Map Services -->
 			<InformationObject name="MapIndexCollection" designDesc="Index of Maps by Date, Location, Author and category">
 				<InformationItems>
-					<CollectionFor contentInformationObjectName="MapByDate" /><!-- show me a page of the latest 3 published maps -->
-					<CollectionFor contentInformationObjectName="MapByLocation" /><!-- show me a page of maps of either locationA locationB locationC -->
-					<CollectionFor contentInformationObjectName="MapByAuthor" /><!-- show me a page of maps where either authorA, authorB, authorC have published something -->
-					<CollectionFor contentInformationObjectName="MapByCategory" /><!-- show me a page of maps that include either categoryA, categoryB, categoryC -->
+          <InformationItem name="MapByDate" logicalDataType="InformationObject" informationObjectName="MapCollection"/><!-- show me a page of the latest 3 published maps -->
+          <InformationItem name="MapByLocation" logicalDataType="InformationObject" informationObjectName="MapCollection"/><!-- show me a page of maps of either locationA locationB locationC -->
+          <InformationItem name="MapByAuthor" logicalDataType="InformationObject" informationObjectName="MapCollection"/><!-- show me a page of maps where either authorA, authorB, authorC have published something -->
+          <InformationItem name="MapByCategory" logicalDataType="InformationObject" informationObjectName="MapCollection"/><!-- show me a page of maps that include either categoryA, categoryB, categoryC -->
 				</InformationItems>
 			</InformationObject>
-			<InformationObject name="MapResultCollection" designDesc="Results listed by date, time, author, proximity">
+      <InformationObject name="MapResult" designDesc="Map result data">
+        <InformationItems>
+          <InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="MapResultCollection" designDesc="">
+        <CollectionFor contentInformationObjectName="MapResult" />
+      </InformationObject>
+      <InformationObject name="MapResultCollection" designDesc="Results listed by date, time, author, proximity">
 				<InformationItems>
-					<CollectionFor contentInformationObjectName="ResultByDate" /><!-- organize the results by date -->
-					<CollectionFor contentInformationObjectName="ResultByAuthor" /><!-- organize the results by author -->
-					<CollectionFor contentInformationObjectName="ResultByProximity" /><!-- organize the results by Proximity -->
+          <InformationItem name="ResultByDate" logicalDataType="InformationObject" informationObjectName="MapResultCollection"/><!-- organize the results by date -->
+          <InformationItem name="ResultByAuthor" logicalDataType="InformationObject" informationObjectName="MapResultCollection"/><!-- organize the results by author -->
+          <InformationItem name="ResultByProximity" logicalDataType="InformationObject" informationObjectName="MapResultCollection"/><!-- organize the results by Proximity -->
 				</InformationItems>
 			</InformationObject>
 <!-- end Map Services -->
 
 <!-- Calendar -->
+      <!--
 			<InformationObject name="MapIndexCollection" designDesc="Index of Blogs by Date, Location, Author">
 				<InformationItems>
 					<CollectionFor contentInformationObjectName="CalendarByDate" />
@@ -141,22 +153,23 @@
 					<CollectionFor contentInformationObjectName="CalendarByCategory" />
 				</InformationItems>
 			</InformationObject>
+      -->
 <!-- end Calendar -->
 
 
 			<InformationObject name="Image" designDesc="Image and attributes">
 				<InformationItems>
-					<InformationItem name="Image" InformationObjectName="ImageVideoSoundVectorRaw" LogicalDataType="InformationObject" />
-					<InformationItem name="Caption" LogicalDataType="Text_Short"/>
-					<InformationItem name="ImageAlt" LogicalDataType="Text_Short"/>
-					<InformationItem name="Tooltip" InformationObjectName="Tooltip" LogicalDataType="InformationObject" />
+					<InformationItem name="Image" informationObjectName="ImageVideoSoundVectorRaw" logicalDataType="InformationObject" />
+					<InformationItem name="Caption" logicalDataType="Text_Short"/>
+					<InformationItem name="ImageAlt" logicalDataType="Text_Short"/>
+					<InformationItem name="Tooltip" informationObjectName="Tooltip" logicalDataType="InformationObject" />
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="ImageGroup" designDesc="Group of Images">
 				<InformationItems>
-					<InformationItem name="Title" LogicalDataType="Text_Short"/>
-					<InformationItem name="Description" LogicalDataType="Text_Short"/>
-					<InformationItem name="ImagesCollection" InformationObjectName="ImagesCollection" LogicalDataType="InformationObject" />
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+					<InformationItem name="Description" logicalDataType="Text_Short"/>
+					<InformationItem name="ImagesCollection" informationObjectName="ImagesCollection" logicalDataType="InformationObject" />
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="ImagesCollection" designDesc="">
@@ -164,23 +177,23 @@
 			</InformationObject>
 			<InformationObject name="Tooltip" designDesc="Tooltip">
 				<InformationItems>
-					<InformationItem name="Tooltip" LogicalDataType="Text_Short" />
+					<InformationItem name="Tooltip" logicalDataType="Text_Short" />
 				</InformationItems>
 			</InformationObject>
 			
 			<InformationObject name="SocialPanel" designDesc="SocialPanel">
 				<InformationItems>
-					<InformationItem name="SocialFilter" InformationObjectName="Filter" LogicalDataType="InformationObject"/>
+					<InformationItem name="SocialFilter" informationObjectName="Filter" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			
 			
 			<InformationObject name="MapContainer" designDesc="">
 				<InformationItems>
-					<InformationItem name="Events" InformationObjectName="EventCollection" LogicalDataType="InformationObject"/>
-					<InformationItem name="Course" LogicalDataType="Text_short"/>
-					<InformationItem name="Meetings" LogicalDataType="Text_short"/>
-					<InformationItem name="Research" LogicalDataType="Text_short"/>
+					<InformationItem name="Events" informationObjectName="EventCollection" logicalDataType="InformationObject"/>
+					<InformationItem name="Course" logicalDataType="Text_Short"/>
+					<InformationItem name="Meetings" logicalDataType="Text_Short"/>
+					<InformationItem name="Research" logicalDataType="Text_Short"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="EventCollection" designDesc="">
@@ -188,7 +201,7 @@
 			</InformationObject>
 			<InformationObject name="MapEventCollection" designDesc="">
 				<InformationItems>
-					<InformationItem name="Events" LogicalDataType="InformationObject" InformationObjectName="EventCollection"/>
+					<InformationItem name="Events" logicalDataType="InformationObject" informationObjectName="EventCollection"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="Longitude" designDesc="Longitude">
@@ -236,11 +249,11 @@
 			</InformationObject>
 			<InformationObject name="Identity" designDesc="Identity">
 				<InformationItems>
-					<InformationItem name="FirstName" LogicalDataType="Text_short"/>
-					<InformationItem name="LastName" LogicalDataType="Text_short"/>
-					<InformationItem name="Initials" LogicalDataType="Text_short"/>
-					<InformationItem name="Sex" LogicalDataType="InformationObject" informationObjectName="Sex"/>
-					<InformationItem name="Birthday" LogicalDataType="InformationObject" informationObjectName="Date"/>/>
+					<InformationItem name="FirstName" logicalDataType="Text_Short"/>
+					<InformationItem name="LastName" logicalDataType="Text_Short"/>
+					<InformationItem name="Initials" logicalDataType="Text_Short"/>
+					<InformationItem name="Sex" logicalDataType="InformationObject" informationObjectName="Sex"/>
+					<InformationItem name="Birthday" logicalDataType="InformationObject" informationObjectName="Date"/>/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="ImageVideoSoundVectorRaw" designDesc="various content types">
@@ -278,11 +291,13 @@
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
 					<InformationItem name="Description" logicalDataType="Text_Long"/>
 					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
+          <!--
 					work location
 					birth place
 					school location
 					home location
 					etc
+          -->
 					<InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="Address"/>					
 				</InformationItems>
 			</InformationObject>
