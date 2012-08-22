@@ -1,0 +1,14 @@
+<!-- oip-form-dropdown.txt -->
+<div class="control-group">
+	<label class="control-label" for="multiSelect">Ask for membership in:</label>
+	<div class="controls">
+		<select class="span2">
+			<option>new group</option>
+			<option>another new group</option>
+			<option>you won't believe it...</option>
+			<option>wow! another new group</option>
+			<option>a very old group</option>
+		</select>
+	</div>
+</div>
+<!-- end oip-form-dropdown.txt -->
