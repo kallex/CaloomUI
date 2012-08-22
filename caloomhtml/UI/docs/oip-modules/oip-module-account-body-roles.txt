@@ -7,7 +7,7 @@
 	</div>
 	<div id="collapse2" class="accordion-body collapse">
 		<div class="accordion-inner">
-			<ul class="atomized">
+			<ul class="">
 				<li>Roles
 					<ul>
 						<li>moderator (in 1 group)</li>

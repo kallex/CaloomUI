@@ -8,7 +8,7 @@
 	</div>
 	<div style="height: auto;" id="collapse1" class="accordion-body in collapse">
 		<div class="accordion-inner">
-			<ul class="atomized">
+			<ul class="">
 				<li>Identity
 					<ul>
 						<li>Personal information</li>
