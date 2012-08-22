@@ -1,0 +1,21 @@
+<div class="accordion-group">
+	<div class="accordion-heading">
+		<div><button class="btn" data-toggle="collapse" data-parent="#accordion2" href="#collapse3" style="float:right"><i class="icon-info-sign icon-black"></i> Open</button>
+			<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+			<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]Manage</small></h2>
+		</div>
+	</div>
+	<div id="collapse3" class="accordion-body collapse">
+		<div class="accordion-inner">
+			<ul class="atomized">
+				<li>Manage
+					<ul>
+						<li>collaborators (If I am the moderator I can manage these)</li>
+						<li>organisations (I belong to)</li>
+						<li>groups (I am a member of)</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

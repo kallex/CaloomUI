@@ -1,0 +1,22 @@
+<div class="accordion-group">
+	<div class="accordion-heading">
+		<div>
+			<button class="btn" data-toggle="collapse" data-parent="#accordion2" href="#collapse1" style="float:right"><i class="icon-info-sign icon-black"></i> Open</button>
+			<img class="bs-icon" src="../bootstrap-default/assets/img/glyphicons/glyphicons_079_podium.png" style="float:left;margin-right:10px">
+			<h2 class="atomized" data-toggle="collapse" data-target="AccountRoles">[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]Identity</small></h2>
+		</div>
+	</div>
+	<div style="height: auto;" id="collapse1" class="accordion-body in collapse">
+		<div class="accordion-inner">
+			<ul class="atomized">
+				<li>Identity
+					<ul>
+						<li>Personal information</li>
+						<li>locations (home, work, work2, work3)</li>
+						<li>security (passwords, emails, permissions)</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
