@@ -1,6 +1,6 @@
 <!-- oip-container-blog-primary.txt -->
 <section id="blog">
-	<?php include '../oip-modules/oip-module-header.txt' ?>
+	<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:BlogContainerHeader -->
 <hr>
 <!-- featured blog -->
 <?php include '../oip-modules/oip-module-blog-featured.txt' ?><!--UseInformationObject:FeaturedBlog -->
