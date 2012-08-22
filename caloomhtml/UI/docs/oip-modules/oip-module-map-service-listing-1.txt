@@ -1,5 +1,5 @@
 <!-- oip-module-map-service-listing-1.txt -->
-<div class="span4" style="margin:0;padding-right:10px">
+<div class="span4" style="margin:0;padding-right:10px;float:left">
 <div class="atomized" style="position: relative;">
 <?php include 'oip-module-map-services-result-summary.txt' ?><!-- UseInformationObject:Excerpt-->
 <?php include 'oip-module-modal-maps.txt' ?><!-- UseInformationObject:ImageGroup -->
