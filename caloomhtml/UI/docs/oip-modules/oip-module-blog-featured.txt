@@ -1,5 +1,5 @@
 <!-- oip-module-blog-featured.txt -->
-<div class="span8">	
+<div class="span12">	
 <h2>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h2>
 [!ATOM]Published[ATOM!]<!--UseInformationObject:Published-->
 [!ATOM]Author[ATOM!<!-- UseInformationObject:Author-->
@@ -7,8 +7,7 @@
 <?php include 'oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
 [!ATOM]Excerpt[ATOM!<!-- UseInformationObject:Excerpt-->
 </p>
-<p class="read-more"><?php include 'oip-module-modal-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
-<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a>
+<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...and more and more and more and more and more and more and more and more and more and more and more and more and more and more and more and more </a>
 
 <!-- oip-social-panel.txt -->
 <div class="blog-body-social-module">

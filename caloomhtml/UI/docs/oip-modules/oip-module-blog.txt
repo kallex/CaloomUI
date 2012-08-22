@@ -8,7 +8,6 @@ edit this module
 <?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObject:ImageGroup -->
 [!ATOM]Excerpt[ATOM!<!-- UseInformationObject:Excerpt-->
 </p>
-<p class="read-more"><?php include 'oip-module-modal-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
 <a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a>
 
 <!-- oip-social-panel.txt -->

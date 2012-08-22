@@ -1,4 +1,4 @@
-<!-- oip-calendar-listing-primary.txt -->
+<!-- oip-module-calendar-listing-primary.txt -->
 <div class="span3" style="background-color:white">
 <table>
 <?php include '../oip-atoms/oip-result-list-listing.txt' ?>
@@ -12,4 +12,4 @@
 <?php include '../oip-atoms/oip-result-list-listing.txt' ?>
 </table>
 </div>
-<!-- end oip-calendar-listing-primary.txt -->
+<!-- end oip-module-calendar-listing-primary.txt -->
