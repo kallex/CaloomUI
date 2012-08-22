@@ -1,7 +1,6 @@
 <!-- oip-map-services-secondary.txt -->
 <section id="map-services">
-<h1>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h1>
-<hr>
+<?php include '../oip-modules/oip-module-header.txt' ?>
 <div class="row">
 <?php include '../oip-modules/oip-module-map-services-index.txt' ?><!-- BindItemTo:MapServicesIndex -->
 <div class="span8" style="float:right">
@@ -11,5 +10,6 @@
 	<?php include '../oip-modules/oip-module-map-service-listing-1.txt' ?><!--BindItemTo:MapServicesCollection[1]-->
 </div>
 </div>
+<?php include '../oip-modules/oip-module-footer.txt' ?>
 </section>
 <!-- oip-map-services-secondary.txt -->

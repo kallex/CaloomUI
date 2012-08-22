@@ -1,7 +1,0 @@
-<!-- oip-module-calendar-header-primary.txt -->
-<div class="page-header">
-	<h1>Calendar <small>Share, co-create, collaborate, plan events? Look no further.</small></h1><h1 class="year">2012</h1>
-	<h3 class="month">August</h3>
-	
-</div>
-<!-- end oip-module-calendar-header-primary.txt -->

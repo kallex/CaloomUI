@@ -1,0 +1,18 @@
+<!-- oip-account-index.txt -->
+<div class="span4">
+	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons/png/glyphicons_280_settings@2x.png" alt="Responsive devices"></p>
+	<h3>Account options</h3>
+	<p>introduction</p>
+	<ul>
+		<li>moderator</li>
+		<li>member</li>
+		<li>viewer</li>
+	</ul>
+	<ul>
+		<li>collaborator</li>
+		<li>organisation</li>
+		<li>group</li>
+	</ul>
+	<p>summary</p>
+</div>
+<!-- end oip-account-index.txt -->
