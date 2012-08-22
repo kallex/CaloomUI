@@ -7,5 +7,6 @@
 <?php include '../oip-modules/oip-module-blog-edit.txt' ?><!-- UseInformationObject:FeaturedBlog -->
 </div>
 </div>
+<?php include '../oip-modules/oip-module-footer.txt' ?>
 </section>
 <!-- oip-container-blog-secondary-edit.txt -->
