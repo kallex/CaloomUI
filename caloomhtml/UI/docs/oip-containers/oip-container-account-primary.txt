@@ -3,7 +3,7 @@
 	<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:AccountContainerHeader -->
 	<div class="row">
 		<?php include '../oip-modules/oip-module-account-index.txt' ?>
-		<div class="span8" style="padding:0">
+		<div class="span8" style="margin:0;padding:0">
 			<?php include '../oip-modules/oip-module-account-body.txt' ?>
 		</div>
 	</div>
