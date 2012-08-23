@@ -1,60 +1,196 @@
-<div id="groups" class="span8" style=";margin-top:10px">
+<div id="groups" class="span7" style=";margin-top:10px">
 	<form method="post" class="form-horizontal">
 		<fieldset>
-			<div class="control-group">
-				<div id="permissions" class="control-group">
-					<label class="control-label" for="optionscheckboxList">Moderator of (deselect to give role to someone else)</label>
+			<div id="GroupModerator" class="control-group">
+				<label class="control-label" for="optionscheckboxList">Moderator of (deselect to give role to someone else)</label>
+				<div class="controls">
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+						<a data-toggle="modal" href="#ChangeModerator"> Aalto Global Impact</a>
+					</label>
+				</div>
+			</div>
+			<div id="GroupMember" class="control-group">
+				<label class="control-label" for="optionscheckboxList">Member of (deselect to leave the group)</label>
+				<div class="controls">
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+						<a data-toggle="modal" href="#ChangeModerator"> Aalto Global Impact</a>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
+						<a data-toggle="modal" href="#MemberOfGroup"> World Vision OIP</a>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
+						<a data-toggle="modal" href="#MemberOfGroup"> Aalto Student Associoation</a>
+					</label>
+				</div>
+			</div>
+			<div id="OrganisationMember" class="control-group">
+				<label class="control-label" for="optionscheckboxList">Member or employee of (deselect to leave the group)</label>
+				<div class="controls">
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+						<a data-toggle="modal" href="#MemberOfOrganisation"> Aalto University</a>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
+						<a data-toggle="modal" href="#MemberOfOrganisation"> A third sector organization</a>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
+						<a data-toggle="modal" href="#MemberOfOrganisation"> local sports club</a>
+					</label>
+				</div>
+			</div>
+			<div id="Followering" class="control-group">
+				<label class="control-label" for="optionscheckboxList">I follow (deselect to leave the group)</label>
+				<div class="controls">
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+						<a data-toggle="modal" href="#FollowerOf"> Helsinki University</a>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
+						<a data-toggle="modal" href="#FollowerOf"> Another third sector organization</a>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
+						<a data-toggle="modal" href="#FollowerOf"> Another local sports club</a>
+					</label>
+				</div>
+			</div>
+			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+</div>
+
+<!-- modals -->
+<div id="ChangeModerator" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h2 class="title">Change Moderator</h2>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="multiSelect">Assign Moderator Role to:</label>
 					<div class="controls">
-						<label class="checkbox">
-							<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-							Aalto Global Impact
-						</label>
+						<select multiple="multiple" id="multiSelect">
+							<option>Anne</option>
+							<option>Riina</option>
+							<option>Andrew</option>
+							<option>Rahim</option>
+							<option>Sujil</option>
+						</select>
 					</div>
 				</div>
 				<div class="control-group">
-					<label class="control-label" for="input01">Create New group (you are automatically the moderator)</label>
+					<label class="control-label" for="input01">Invite other to be the moderator</label>
 					<div class="controls">
-						<input name="Title" class="span4" id="input01" type="text" placeholder="Group name">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="start typing name or email address">
 					</div>
 				</div>
-				<div id="permissions" class="control-group">
-					<label class="control-label" for="optionscheckboxList">Member of (deselect to leave the group)</label>
-					<div class="controls">
-						<label class="checkbox">
-							<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-							Aalto Global Impact
-						</label>
-						<label class="checkbox">
-							<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
-							World Vision OIP
-						</label>
-						<label class="checkbox">
-							<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
-							Aalto Student Associoation
-						</label>
-					</div>
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="appendedInputButtons">Search for groups(this should become a modal window as there are too many options)</label>
-				<div class="controls">
-					<div class="input-append">
-						<input class="span3" id="appendedInputButtons" size="16" type="text"><button class="btn" type="button">Search</button><button class="btn" type="button">Options</button>
-					</div>
-				</div>
-			</div>			<!-- end oip-form-multi-select.txt -->
-			<?php include '../oip-atoms/oip-form-dropdown.txt' ?>
-		<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-	</fieldset>
-</form>
+				<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			</fieldset>
+			suggest to someone
+		</form>
+	</div>
 </div>
-<hr>
-<ul class="">
-	<li>Roles
-		<ul>
-			<li>moderator (in 1 group)</li>
-			<li>member (in 5 groups)</li>
-			<li>viewer (what I have viewed, a history track)</li>
-		</ul>
-	</li>
-</ul>
+
+<div id="MemberOfGroup" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h2 class="title">Member of this group</h2>
+	</div>
+	<div class="modal-body">
+		<table class="table table-striped table-bordered table-condensed">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Moderator's'</th>
+					<th>Location</th>
+					<th>Category</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Aalto Global Impact</td>
+					<td>Teija, Anne, Rahim</td>
+					<td>Helskinki, Tampere</td>
+					<td>Open Innovation, Inclusive Business</td>
+				</tr>
+				<tr>
+					<td colspan="4">Aalto Global Impact is an Aalto based organization that focusses on inclusive business and open innovation</td>
+				</tr>
+				suggest to someone<br>visit their profile
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<div id="MemberOfOrganisation" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h2 class="title">Member of this Organisation</h2>
+	</div>
+	<div class="modal-body">
+		<table class="table table-striped table-bordered table-condensed">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Type</th>
+					<th>Location</th>
+					<th>Category</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Aalto Global Impact</td>
+					<td>University</td>
+					<td>Helskinki, Tampere</td>
+					<td>Open Innovation, Inclusive Business</td>
+				</tr>
+				<tr>
+					<td colspan="4">Aalto bla bla bla</td>
+				</tr>
+				suggest to someone<br>visit their profile
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<div id="FollowerOf" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h2 class="title">Following this group</h2>
+	</div>
+	<div class="modal-body">
+		<table class="table table-striped table-bordered table-condensed">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Type</th>
+					<th>Location</th>
+					<th>Category</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Aalto Global Impact</td>
+					<td>University</td>
+					<td>Helskinki, Tampere</td>
+					<td>Open Innovation, Inclusive Business</td>
+				</tr>
+				<tr>
+					<td colspan="4">Aalto bla bla bla</td>
+				</tr>
+				suggest to someone<br>visit their profile
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<!-- end modals -->
