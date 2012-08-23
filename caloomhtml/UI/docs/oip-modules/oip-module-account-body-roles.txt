@@ -1,3 +1,54 @@
+<div id="groups" class="span8" style=";margin-top:10px">
+	<form method="post" class="form-horizontal">
+		<fieldset>
+			<div class="control-group">
+				<div id="permissions" class="control-group">
+					<label class="control-label" for="optionscheckboxList">Moderator of (deselect to give role to someone else)</label>
+					<div class="controls">
+						<label class="checkbox">
+							<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+							Aalto Global Impact
+						</label>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="input01">Create New group (you are automatically the moderator)</label>
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="Group name">
+					</div>
+				</div>
+				<div id="permissions" class="control-group">
+					<label class="control-label" for="optionscheckboxList">Member of (deselect to leave the group)</label>
+					<div class="controls">
+						<label class="checkbox">
+							<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+							Aalto Global Impact
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
+							World Vision OIP
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
+							Aalto Student Associoation
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="appendedInputButtons">Search for groups(this should become a modal window as there are too many options)</label>
+				<div class="controls">
+					<div class="input-append">
+						<input class="span3" id="appendedInputButtons" size="16" type="text"><button class="btn" type="button">Search</button><button class="btn" type="button">Options</button>
+					</div>
+				</div>
+			</div>			<!-- end oip-form-multi-select.txt -->
+			<?php include '../oip-atoms/oip-form-dropdown.txt' ?>
+		<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+	</fieldset>
+</form>
+</div>
+<hr>
 <ul class="">
 	<li>Roles
 		<ul>
