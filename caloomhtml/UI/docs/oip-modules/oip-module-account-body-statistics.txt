@@ -1,32 +1,48 @@
-[!ATOM]Introduction[ATOM!]
-<table class="table table-striped table-bordered table-condensed">
-	<thead>
-		<tr>
-			<th colspan="4">Statistics</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-		</tr><tr>
-			<td>Subscriptions I have</td>
-			<td>123 in total</td>
-			<td>23 new</td>
-			<td>(100 old)</td>
-		</tr>
-		<tr>
-			<td>Followers I have</td>
-			<td>150 in total</td>
-			<td>50 new</td>
-			<td>(100 old)</td>
-		</tr>
-		<tr>
-			<td>Activity, stuff I have done</td>
-			<td>10 Blogs</td>
-			<td>20 Calendar items</td>
-			<td>15 Map items</td>
-			<td>15 Map items</td>
-			<td>15 Map items</td>
-			<td>15 Map items</td>
-		</tr>
-	</tbody>
-</table>
+<div id="" class="span7" style=";margin-top:10px">
+<table class="table table-bordered table-striped">
+		<thead>
+			<td>Organisation</td>
+			<td>Role</td>
+			<td>Active since</td>
+			<td>Activities</td>
+		</thead>
+		<tbody>
+			<tr>
+				<td><h3><a data-toggle="modal" href="#"> Aalto Global Impact</a></h3></td>
+				<td><a data-toggle="modal" href="#"> Moderator</a><a data-toggle="modal" href="#"> Collaborator</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+			<tr>
+				<td><a data-toggle="modal" href="#"> World Vision OIP</a></td>
+				<td><a data-toggle="modal" href="#"> Collaborator</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+			<tr>
+				<td><a data-toggle="modal" href="#"> Aalto Student Associoation</a></td>
+				<td><a data-toggle="modal" href="#"> Collaborator</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+			<tr>
+				<td><a data-toggle="modal" href="#"> Aalto University</a></td>
+				<td><a data-toggle="modal" href="#"> Employee</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+			<tr>
+				<td><a data-toggle="modal" href="#"> A third sector organization</a></td>
+				<td><a data-toggle="modal" href="#"> Member</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+			<tr>
+				<td><a data-toggle="modal" href="#"> local sports club</a></td>
+				<td><a data-toggle="modal" href="#"> Member</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+		</tbody>
+	</table>
+</div>

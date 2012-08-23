@@ -2,7 +2,7 @@
 	<form method="post" class="form-horizontal">
 		<fieldset>
 			<div id="GroupModerator" class="control-group">
-				<label class="control-label" for="optionscheckboxList">Moderator of (deselect to give role to someone else)</label>
+				<label class="control-label" for="optionscheckboxList">Moderator of </label>
 				<div class="controls">
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
@@ -11,7 +11,7 @@
 				</div>
 			</div>
 			<div id="GroupMember" class="control-group">
-				<label class="control-label" for="optionscheckboxList">Member of (deselect to leave the group)</label>
+				<label class="control-label" for="optionscheckboxList">Collaborator within </label>
 				<div class="controls">
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
@@ -28,7 +28,7 @@
 				</div>
 			</div>
 			<div id="OrganisationMember" class="control-group">
-				<label class="control-label" for="optionscheckboxList">Member or employee of (deselect to leave the group)</label>
+				<label class="control-label" for="optionscheckboxList">Member or employee of </label>
 				<div class="controls">
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
@@ -45,7 +45,7 @@
 				</div>
 			</div>
 			<div id="Followering" class="control-group">
-				<label class="control-label" for="optionscheckboxList">I follow (deselect to leave the group)</label>
+				<label class="control-label" for="optionscheckboxList">I follow </label>
 				<div class="controls">
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
