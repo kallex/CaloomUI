@@ -1,15 +1,15 @@
-<div class="span4">
-	<form id="name" method="post" class="form-horizontal">
+<div class="span5 well">
+	<form id="name" method="post" class="form-horizontal ">
 		<fieldset>
 			<!-- oip-form-text-input.txt -->
 			<div class="control-group">
-				<label class="control-label" for="input01">First Name</label>
+				<label class="control-label" for="input01">First name</label>
 				<div class="controls">
-					<input name="Title" class="span2" id="input01" type="text" placeholder="First Name">
+					<input name="Title" class="span2" id="input01" type="text" placeholder="First name">
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">Last Name</label>
+				<label class="control-label" for="input01">Last name</label>
 				<div class="controls">
 					<input name="Title" class="span2" id="input01" type="text" placeholder="Last Name">
 				</div>
@@ -21,42 +21,45 @@
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">password</label>
+				<label class="control-label" for="input01">Password</label>
 				<div class="controls">
 					<input name="Title" class="span2" id="input01" type="password" placeholder="password">
 				</div>
 			</div>
-				<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
 </div>
-<div id="groups" class="span4">
+<div id="groups" class="span5 well">
 	<form method="post" class="form-horizontal">
 		<fieldset>
-			<!-- oip-form-text-input.txt -->
-<!-- oip-form-multi-select.txt -->
-<div class="control-group">
-	<label class="control-label" for="multiSelect">My groups</label>
-	<div class="controls">
-		<select multiple="multiple" id="multiSelect">
-			<option>Anybody</option>
-			<option>Partners</option>
-			<option>Students</option>
-			<option>Project partners</option>
-			<option>Other</option>
-		</select>
-	</div>
+			<div class="control-group">
+				<div class="control-group">
+					<label class="control-label" for="input01">Create New group</label>
+					<div class="controls">
+						<input name="Title" class="span2" id="input01" type="text" placeholder="Group name">
+					</div>
+				</div>
+				<label class="control-label" for="multiSelect">My groups</label>
+				<div class="controls">
+					<select multiple="multiple" id="multiSelect">
+						<option>Anybody</option>
+						<option>Partners</option>
+						<option>Students</option>
+						<option>Project partners</option>
+						<option>Other</option>
+					</select>
+				</div>
+			</div>
+			<!-- end oip-form-multi-select.txt -->
+			<?php include '../oip-atoms/oip-form-dropdown.txt' ?>
+		<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+	</fieldset>
+</form>
 </div>
-<!-- end oip-form-multi-select.txt -->
-<?php include '../oip-atoms/oip-form-dropdown.txt' ?>
-<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-		</fieldset>
-	</form>
-</div>
-<div class="span3">
-	<form id="address" method="post" class="form-horizontal">
+<div class="span5">
+	<form id="address" method="post" class="form-horizontal well">
 		<fieldset>
-			<!-- oip-form-text-input.txt -->
 			<div class="control-group">
 				<label class="control-label" for="input01">Street</label>
 				<div class="controls">
@@ -81,7 +84,7 @@
 					<input name="Title" class="span2" id="input01" type="text" placeholder="Country">
 				</div>
 			</div>
-				<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
 </div>

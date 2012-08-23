@@ -129,3 +129,36 @@ border-bottom: 0px;
 .atomized {
 background-color: #fdf4da;
 }
+
+[class^="icon-oip-"], [class*=" icon-oip-"] {
+display: inline-block;
+width: 26px;
+height: 26px;
+line-height: 26px;
+vertical-align: text-top;
+background-image: url("../oip-images/ui/socialUI.png");
+background-position: 26px 26px;
+background-repeat: no-repeat;
+}
+ul.socialUI {
+margin:0;
+margin-left:2px;
+}
+ul.socialUI li{
+display:inline !important;
+}
+.icon-oip-openid {
+background-position:0px -78px;
+}
+.icon-oip-google {
+background-position:0px -130px;
+}
+.icon-oip-twitter {
+background-position:-104px -26px;
+}
+.icon-oip-wordpress {
+background-position:-182px 1px;
+}
+.icon-oip-facebook {
+background-position:-208px -130px;
+}
