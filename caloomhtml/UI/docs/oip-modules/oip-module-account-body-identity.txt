@@ -1,87 +1,65 @@
-<div class="span5 well">
+<div id="name" class="span4" style=";margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset>
 			<!-- oip-form-text-input.txt -->
 			<div class="control-group">
 				<label class="control-label" for="input01">First name</label>
 				<div class="controls">
-					<input name="Title" class="span2" id="input01" type="text" placeholder="First name">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="First name">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="input01">Last name</label>
 				<div class="controls">
-					<input name="Title" class="span2" id="input01" type="text" placeholder="Last Name">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Last Name">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="input01">Email</label>
 				<div class="controls">
-					<input name="Title" class="span2" id="input01" type="text" placeholder="email address">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="email address">
 				</div>
 			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Password</label>
-				<div class="controls">
-					<input name="Title" class="span2" id="input01" type="password" placeholder="password">
-				</div>
-			</div>
-			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-		</fieldset>
-	</form>
-</div>
-<div id="groups" class="span5 well">
-	<form method="post" class="form-horizontal">
-		<fieldset>
-			<div class="control-group">
-				<div class="control-group">
-					<label class="control-label" for="input01">Create New group</label>
-					<div class="controls">
-						<input name="Title" class="span2" id="input01" type="text" placeholder="Group name">
-					</div>
-				</div>
-				<label class="control-label" for="multiSelect">My groups</label>
-				<div class="controls">
-					<select multiple="multiple" id="multiSelect">
-						<option>Anybody</option>
-						<option>Partners</option>
-						<option>Students</option>
-						<option>Project partners</option>
-						<option>Other</option>
-					</select>
-				</div>
-			</div>
-			<!-- end oip-form-multi-select.txt -->
-			<?php include '../oip-atoms/oip-form-dropdown.txt' ?>
-		<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-	</fieldset>
-</form>
-</div>
-<div class="span5">
-	<form id="address" method="post" class="form-horizontal well">
-		<fieldset>
+		</fieldset>			<fieldset>
 			<div class="control-group">
 				<label class="control-label" for="input01">Street</label>
 				<div class="controls">
-					<input name="Title" class="span2" id="input01" type="text" placeholder="Street">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Street">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="input01">Zip code</label>
 				<div class="controls">
-					<input name="Title" class="span2" id="input01" type="text" placeholder="Zip code">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Zip code">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="input01">Town</label>
 				<div class="controls">
-					<input name="Title" class="span2" id="input01" type="text" placeholder="Town">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Town">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="input01">Country</label>
 				<div class="controls">
-					<input name="Title" class="span2" id="input01" type="text" placeholder="Country">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Country">
+				</div>
+			</div>
+			<div id="permissions" class="control-group">
+				<label class="control-label" for="optionsradioList">Who can see this</label>
+				<div class="controls">
+					<label class="radio">
+						<input type="radio" name="optionsradioList1" value="option1">
+						No one
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList2" value="option2">
+						All my collaborating partners
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList3" value="option3" checked>
+						Every one
+					</label>
 				</div>
 			</div>
 			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>

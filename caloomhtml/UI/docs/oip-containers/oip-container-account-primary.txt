@@ -1,9 +1,12 @@
 <!-- oip-container-Account-primary.txt -->
 <section id="Account">
 	<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:AccountContainerHeader -->
-<hr>
-<section id="account" style="position:relative">
-<?php include '../oip-modules/oip-module-account-body.txt' ?>
-<?php include '../oip-modules/oip-module-footer.txt' ?>
+	<div class="row">
+		<?php include '../oip-modules/oip-module-account-index.txt' ?>
+		<div class="span8" style="margin:0;padding:0">
+			<?php include '../oip-modules/oip-module-account-body.txt' ?>
+		</div>
+	</div>
+	<?php include '../oip-modules/oip-module-footer.txt' ?>
 </section>
 <!-- end oip-container-Account-primary.txt -->

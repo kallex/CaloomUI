@@ -1,3 +1,30 @@
+<div id="groups" class="span4" style=";margin-top:10px">
+	<form method="post" class="form-horizontal">
+		<fieldset>
+			<div class="control-group">
+				<div class="control-group">
+					<label class="control-label" for="input01">Create New group</label>
+					<div class="controls">
+						<input name="Title" class="span2" id="input01" type="text" placeholder="Group name">
+					</div>
+				</div>
+				<label class="control-label" for="multiSelect">My groups</label>
+				<div class="controls">
+					<select multiple="multiple" id="multiSelect">
+						<option>Anybody</option>
+						<option>Partners</option>
+						<option>Students</option>
+						<option>Project partners</option>
+						<option>Other</option>
+					</select>
+				</div>
+			</div>
+			<!-- end oip-form-multi-select.txt -->
+			<?php include '../oip-atoms/oip-form-dropdown.txt' ?>
+		<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+	</fieldset>
+</form>
+</div>
 <table class="table table-striped table-bordered table-condensed">
 	<thead>
 		<tr>
