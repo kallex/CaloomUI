@@ -2,9 +2,9 @@
 <section id="Account">
 	<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:AccountContainerHeader -->
 	<div class="row">
-		<?php include '../oip-modules/oip-module-account-index.txt' ?>
+		<?php include '../oip-modules/oip-module-groups-index.txt' ?>
 		<div class="span8" style="margin:0;padding:0">
-			<?php include '../oip-modules/oip-module-account-body.txt' ?>
+			<?php include '../oip-modules/oip-module-groups-body.txt' ?>
 		</div>
 	</div>
 	<?php include '../oip-modules/oip-module-footer.txt' ?>

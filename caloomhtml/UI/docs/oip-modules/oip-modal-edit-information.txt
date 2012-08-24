@@ -8,11 +8,11 @@
 
 <form class="form-horizontal">
 <fieldset>
-<?php include '../oip-atoms/oip-form-file-input.txt' ?>
-<?php include '../oip-atoms/oip-form-text-input.txt' ?>
-<?php include '../oip-atoms/oip-form-text-area.txt' ?>
-<?php include '../oip-atoms/oip-form-modal-listing.txt' ?>
-<?php include '../oip-atoms/oip-form-multi-select.txt' ?>
+<?php include '../oip-atoms/oip-atom-form-file-input.txt' ?>
+<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?>
+<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?>
+<?php include '../oip-atoms/oip-atom-form-modal-listing.txt' ?>
+<?php include '../oip-atoms/oip-atom-form-multi-select.txt' ?>
 </fieldset>
 </form>
 

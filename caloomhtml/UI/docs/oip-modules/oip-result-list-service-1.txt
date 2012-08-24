@@ -9,7 +9,7 @@
 	</div>
 	<div id="collapseOne" class="accordion-body collapse in">
 		<div class="accordion-inner">
-	<?php include 'oip-social-panel.txt' ?>
+	oip-social-panel.txt
 				<table class="table table-bordered" style="margin-top:10px;">
 					<tbody>
 <?php include '../oip-atoms/oip-result-list-listing.txt' ?>
@@ -20,7 +20,7 @@
 <?php include '../oip-atoms/oip-result-list-listing.txt' ?>
 					</tbody>
 				</table>
-<?php include 'oip-admin-panel.txt' ?>
+oip-admin-panel.txt
 		</div>
 	</div>
 </div>
