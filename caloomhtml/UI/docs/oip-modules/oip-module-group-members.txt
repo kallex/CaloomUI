@@ -28,7 +28,7 @@
 						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
 						<a data-toggle="modal" href="#ChangeModerator"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span>
 					</label>
-					<p class="help-block"><strong>Note:</strong> Moderators cannot remove other moderators unless you are the initiator of this group</p>
+					<p class="help-block"><strong>Note:</strong> Moderators cannot remove other moderators unless you are the initiator of this group. In this example you ar not the initiator but your are a moderator</p>
 				</div>
 			</div>
 			<div class="control-group">

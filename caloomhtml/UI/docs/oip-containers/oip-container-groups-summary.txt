@@ -2,7 +2,6 @@
 <section id="account">
 <?php include '../oip-modules/oip-module-sub-header.txt' ?>
 <div class="row">
-<?php include '../oip-modules/oip-module-groups-index.txt' ?>
 <div class="span8" style="margin:0;padding:0">
 <?php include '../oip-modules/oip-module-groups-body.txt' ?>
 </div>
