@@ -3,9 +3,9 @@
 		<fieldset>
 			<!-- oip-form-text-input.txt -->
 			<div class="control-group">
-				<label class="control-label" for="input01">Internal meetings</label>
+				<label class="control-label" for="input01">Group name</label>
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Core team">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Internal meetings">
 				</div>
 			</div>
 			<div class="control-group">
