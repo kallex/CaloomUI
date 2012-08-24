@@ -56,7 +56,16 @@
 			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
-</div>
+	<ul>
+	<li>in groups and projects say who can view or follow the group or project</li>
+	<li>public anyone, e.g. google, facebook, government</li>
+	<li>any user (entity) inside The Ball</li>
+	<li>any non-commercial entity</li>
+	<li>any commerceial entity</li>
+	</ul>
+	<ul></div>
+
+
 <!-- oip-module-modal-profile-photo-edit.txt -->
 <div id="1" class="modal hide fade well">
 	<div class="modal-header">

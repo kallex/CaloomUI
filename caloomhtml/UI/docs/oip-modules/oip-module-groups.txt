@@ -1,5 +1,5 @@
 <!-- oip-module-groups.txt.txt -->
-<ul class="nav nav-tabs" style="margin-bottom:0px">
+<ul class="nav nav-tabs" style="margin-bottom:0px;">
 <li class="active"><a href="#tab-group-profile" data-toggle="tab">Group Profile</a></li> 
 <li><a href="#tab-group-members" data-toggle="tab">Members</a></li>
 <li><a href="#tab-group-projects" data-toggle="tab">Projects</a></li>
