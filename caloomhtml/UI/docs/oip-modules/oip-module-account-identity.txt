@@ -1,4 +1,4 @@
-<div id="name" class="span4" style=";margin-top:10px">
+<div id="name" class="span7" style=";margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset>
 			<div class="control-group">

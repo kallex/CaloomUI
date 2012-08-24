@@ -31,11 +31,11 @@
 						<ul class="dropdown-menu">
 							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups.phtml">Groups Summary</a></li>
 							<li class="divider"></li>
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups1.phtml">Group1</a></li>
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups2.phtml">Group2</a></li>  
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups3.phtml">Group3</a></li>  
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups4.phtml">Group4</a></li>  
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups5.phtml">Group5</a></li>
+							<li><a href="http://caloomgit:8888/UI/docs/oip-collection/oip-layout-collection-groups1.phtml">Group1</a></li>
+							<li><a href="http://caloomgit:8888/UI/docs/oip-collection/oip-layout-collection-groups1.phtml">Group2</a></li>  
+							<li><a href="http://caloomgit:8888/UI/docs/oip-collection/oip-layout-collection-groups1.phtmll">Group3</a></li>  
+							<li><a href="http://caloomgit:8888/UI/docs/oip-collection/oip-layout-collection-groups1.phtml">Group4</a></li>  
+							<li><a href="http://caloomgit:8888/UI/docs/oip-collection/oip-layout-collection-groups1.phtml">Group5</a></li>
 						</ul>
 					</li>
 				</ul>

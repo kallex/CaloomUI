@@ -1,8 +1,6 @@
-<!-- oip-form-text-area.txt -->
 <div class="control-group">
-	<label class="control-label" for="textarea">Edit your Blog Post</label>
+	<label class="control-label" for="input01">Label</label>
 	<div class="controls">
-		<textarea name="Body" class="input-xlarge" id="textarea" rows="3">Blog Post body text.</textarea>
+		<textarea class="input-xlarge" id="textarea" rows="6" placeholder="Placeholder text in a textarea of 6 rows"></textarea>
 	</div>
 </div>
-<!-- end oip-form-text-area.txt -->

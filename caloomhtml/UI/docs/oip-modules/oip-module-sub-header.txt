@@ -1,0 +1,6 @@
+<!-- oip-module-sub-header.txt -->
+<div class="page-header marketing atomized">
+	<h2>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h2>
+</div>
+<!-- end oip-module-sub-header.txt -->
+

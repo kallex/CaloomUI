@@ -1,0 +1,19 @@
+<!-- oip-module-groups.txt.txt -->
+<ul class="nav nav-tabs" style="margin-bottom:0px">
+<li class="active"><a href="#tab-group-profile" data-toggle="tab">Group Profile</a></li> 
+<li><a href="#tab-group-members" data-toggle="tab">Members</a></li>
+<li><a href="#tab-group-projects" data-toggle="tab">Projects</a></li>
+<li><a href="#tab-group-locations" data-toggle="tab">Locations</a></li>
+<li><a href="#tab-group-content" data-toggle="tab">Content</a></li>
+<li><a href="#tab-group-statistics" data-toggle="tab">Statistics</a></li>
+</ul>
+
+<div class="tab-content tab-border">
+<div class="tab-pane active" id="tab-group-profile"><?php include'../oip-modules/oip-module-group-profile.txt'  ?></div><!--UseInformationObject:GroupProfile -->
+<div class="tab-pane" id="tab-group-members"><?php include'../oip-modules/oip-module-group-members.txt' ?></div><!--UseInformationObject:GroupMembers -->
+<div class="tab-pane" id="tab-group-projects"><?php include'../oip-modules/oip-module-group-projects.txt' ?></div><!--UseInformationObject:GroupProjects -->
+<div class="tab-pane" id="tab-group-locations"><?php include'../oip-modules/oip-module-group-locations.txt' ?></div><!--UseInformationObject:GroupLocations -->
+<div class="tab-pane" id="tab-group-content"><?php include'../oip-modules/oip-module-group-content.txt' ?></div><!--UseInformationObject:GroupContent -->
+<div class="tab-pane" id="tab-group-statistics"><?php include'../oip-modules/oip-module-group-statistics.txt' ?></div><!--UseInformationObject:GroupStatistics -->
+</div>
+<!-- end oip-module-groups.txt -->

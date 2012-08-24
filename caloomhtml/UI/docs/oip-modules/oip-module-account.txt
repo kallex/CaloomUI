@@ -1,0 +1,21 @@
+<!-- oip-account-body.txt -->
+<ul class="nav nav-tabs" style="margin-bottom:0px">
+<li class="active"><a href="#tab-identity" data-toggle="tab">Identity</a></li> 
+<li><a href="#tab-roles" data-toggle="tab">Roles</a></li>
+<li><a href="#tab-locations" data-toggle="tab">Locations</a></li>
+<li><a href="#tab-manage" data-toggle="tab">Manage</a></li>
+<li><a href="#tab-statistics" data-toggle="tab">Statistics</a></li>
+<li><a href="#tab-projects" data-toggle="tab">My Projects</a></li>
+<li><a href="#tab-my-content" data-toggle="tab">My Content</a></li>
+</ul>
+
+<div class="tab-content tab-border">
+<div class="tab-pane active" id="tab-identity"><?php include'../oip-modules/oip-module-account-identity.txt'  ?></div><!--UseInformationObject:AccountIdentity -->
+<div class="tab-pane" id="tab-roles"><?php include'../oip-modules/oip-module-account-roles.txt' ?></div><!--UseInformationObject:AccountRoles -->
+<div class="tab-pane" id="tab-locations"><?php include'../oip-modules/oip-module-account-locations.txt' ?></div><!--UseInformationObject:AccountLocations -->
+<div class="tab-pane" id="tab-manage"><?php include'../oip-modules/oip-module-account-.txt' ?></div><!--UseInformationObject:AccountManage -->
+<div class="tab-pane" id="tab-statistics"><?php include'../oip-modules/oip-module-account-statistics.txt' ?></div><!--UseInformationObject:AccountStatistics -->
+<div class="tab-pane" id="tab-statistics"><?php include'../oip-modules/oip-module-account-projects.txt' ?></div><!--UseInformationObject:AccountStatistics -->
+<div class="tab-pane" id="tab-my-content"><?php include'../oip-modules/oip-module-account-mycontent.txt' ?></div><!--UseInformationObject:AccountContent -->
+</div>
+<!-- end oip-account-body.txt -->

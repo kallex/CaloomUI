@@ -1,112 +1,107 @@
 .navbar .brand {
-display: block;
-float: left;
-padding: 8px 20px 12px;
-margin-left: -20px;
-font-size: 20px;
-font-weight: 200;
-line-height: 1;
-color: #8ac246;
-
-.maps .map { 
+	display: block;
+	float: left;
+	padding: 8px 20px 12px;
+	margin-left: -20px;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 1;
+	color: #8ac246;
+	.maps .map { 
     width: 40%;
-    display: inline-block;
-    padding: 12px 0;
-    margin: 0 .9% 1em;
-    vertical-align: top;    
-    text-decoration: none;
-    background: #F3F3F3;  
-    border-radius: 5px;
+	display: inline-block;
+	padding: 12px 0;
+	margin: 0 .9% 1em;
+	vertical-align: top;
+	text-decoration: none;
+	background: #F3F3F3;
+	border-radius: 5px;
 }
 
 .mapbackground {
-	position:relative;
-	top:0px;
-	left:0px;
+	position: relative;
+	top: 0px;
+	left: 0px;
 	z-index: 0;
-	
 }
 
 .controlpanel {
-	width:220px;
-	position:absolute;
-	top:130px;
-	left:40px;
+	width: 220px;
+	position: absolute;
+	top: 130px;
+	left: 40px;
 	z-index: 1;
 }
 
 .zoompanel {
-	width:220px;
-	position:absolute;
-	top:80px;
-	left:40px;
+	width: 220px;
+	position: absolute;
+	top: 80px;
+	left: 40px;
 	z-index: 1;
 }
 
-.padaround
-{
-margin: 5px 5px 0 0;
+.padaround {
+	margin: 5px 5px 0 0;
 }
 
-.padmore
-{
-	padding:  20px;
+.padmore {
+	padding: 20px;
 }
 
 hr {
-border: 0;
-color: #CCCCCC;
-background-color: #CCCCCC;
-height: 1px;
-width: 100%;
-text-align: left;
-padding:0px;
-margin:0px;
+	border: 0;
+	color: #CCCCCC;
+	background-color: #CCCCCC;
+	height: 1px;
+	width: 100%;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
 }
 
-.shadow
-{
-    display:block;
-    border:none;
-    height:20px;
-    background-image:url("../../../images/ui/hr-shadow-bg.png");
+.shadow {
+	display: block;
+	border: none;
+	height: 20px;
+	background-image: url("../../../images/ui/hr-shadow-bg.png");
 }
 
 .hr-big {
-margin: 18px 0;
-border: 0;
-border-top: 0.5px solid #E5E5E5;
-background-color: #E5E5E5;
+	margin: 18px 0;
+	border: 0;
+	border-top: 0.5px solid #E5E5E5;
+	background-color: #E5E5E5;
 }
 
 .btn-xlarge {
-  width:100%;
-  height:183px;
-  padding: 9px 14px;
-  font-size: 15px;
-  line-height: normal;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
+	width: 100%;
+	height: 183px;
+	padding: 9px 14px;
+	font-size: 15px;
+	line-height: normal;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 .btn-xlarge [class^="icon-"] {
-  margin-top: 1px;
+	margin-top: 1px;
 }
 
 .section-well {
-min-height: 20px;
-padding: 10px;
-margin-bottom: 20px;
-background-color: whiteSmoke;
-border: 1px solid #eee;
-border: 1px solid rgba(0, 0, 0, 0.05);
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
--webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
--moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	min-height: 20px;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: whiteSmoke;
+	border: 1px solid #eee;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 #blog p {
@@ -116,83 +111,93 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 .blog-body-social-module {
 	margin-bottom: 20px;
 	clear: both;
+
+
 /*	border-bottom: 1px dotted #eae7e7; */
 	padding-bottom: 5px;
 }
 
 .page-header {
+
+
 /* adding-top: 17px; */
 border-top: 0px;
-border-bottom: 0px; 
+	border-bottom: 0px;
 #eeeeee;
 }
 
 .marketing h1 {
-  margin: 0px 0 0px;
-  font-size: 40px;
-  font-weight: 300;
-  text-align: center;
+	margin: 0px 0 0px;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
 }
+
 .atomized {
-/*background-color: #fdf4da;*/
+
+
 }
 
 [class^="icon-oip-"], [class*=" icon-oip-"] {
-display: inline-block;
-width: 26px;
-height: 26px;
-line-height: 26px;
-vertical-align: text-top;
-background-image: url("../oip-images/ui/socialUI.png");
-background-position: 26px 26px;
-background-repeat: no-repeat;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	vertical-align: text-top;
+	background-image: url("../oip-images/ui/socialUI.png");
+	background-position: 26px 26px;
+	background-repeat: no-repeat;
 }
+
 ul.socialUI {
-margin:0;
-margin-left:2px;
+	margin: 0;
+	margin-left: 2px;
 }
-ul.socialUI li{
-display:inline !important;
+
+ul.socialUI li {
+	display: inline !important;
 }
+
 .icon-oip-openid {
-background-position:0px -78px;
+	background-position: 0px -78px;
 }
+
 .icon-oip-google {
-background-position:0px -130px;
+	background-position: 0px -130px;
 }
+
 .icon-oip-twitter {
-background-position:-104px -26px;
+	background-position: -104px -26px;
 }
+
 .icon-oip-wordpress {
-background-position:-182px 1px;
+	background-position: -182px 1px;
 }
+
 .icon-oip-facebook {
-background-position:-208px -130px;
+	background-position: -208px -130px;
 }
 
 .tab-border {
-background-color: 
-rgb(255, 255, 255);
-border-bottom-color: 
-rgba(0, 0, 0, 0);
-border-bottom-left-radius: 0px;
-border-bottom-right-radius: 0px;
-border-bottom-style: solid;
-border-bottom-width: 1px;
-border-left-color: 
-rgb(221, 221, 221);
-border-left-style: solid;
-border-left-width: 1px;
-border-right-color: 
-rgb(221, 221, 221);
-border-right-style: solid;
-border-right-width: 1px;
-border-bottom-color: rgb(221, 221, 221);
-border-bottom-left-radius: 4px;
-border-bottom-right-radius: 4px;
-border-bottom-style: solid;
-border-bottom-width: 1px;
+	background-color: rgb(255, 255, 255);
+	border-bottom-color: rgba(0, 0, 0, 0);
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(221, 221, 221);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(221, 221, 221);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-color: rgb(221, 221, 221);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
 }
+
 .form-actions {
-background-color:white;
+	background-color: white;
 }
