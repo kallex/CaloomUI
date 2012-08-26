@@ -9,6 +9,7 @@
 						<a data-toggle="modal" href="#ChangeModerator"> Aalto Global Impact</a>
 					</label>
 				</div>
+<?php include'oip-module-add-item.txt' ?>
 			</div>
 			<div id="GroupMember" class="control-group">
 				<label class="control-label" for="optionscheckboxList">Collaborator within </label>
@@ -26,6 +27,7 @@
 						<a data-toggle="modal" href="#MemberOfGroup"> Aalto Student Associoation</a>
 					</label>
 				</div>
+<?php include'oip-module-add-item.txt' ?>
 			</div>
 			<div id="OrganisationMember" class="control-group">
 				<label class="control-label" for="optionscheckboxList">Member or employee of </label>
@@ -43,6 +45,7 @@
 						<a data-toggle="modal" href="#MemberOfOrganisation"> local sports club</a>
 					</label>
 				</div>
+<?php include'oip-module-add-item.txt' ?>
 			</div>
 			<div id="Followering" class="control-group">
 				<label class="control-label" for="optionscheckboxList">I follow </label>

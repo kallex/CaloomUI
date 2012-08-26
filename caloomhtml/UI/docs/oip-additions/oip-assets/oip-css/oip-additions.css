@@ -38,6 +38,20 @@ background-position: -182px 1px;
 background-position: -208px -130px;
 }
 
+.icon-individual {
+display: inline-block;
+width: 14px;
+height: 14px;
+line-height: 14px;
+vertical-align: text-top;
+background-position: 14px 14px;
+background-repeat: no-repeat;
+}
+
+.icon-oip-add-item {
+background-image: url("../oip-images/ui/glyphicons_190_circle_plus.png");
+}
+
 
 
 .form-actions {
