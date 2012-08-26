@@ -5,7 +5,7 @@
 <li><a href="#tab-skills" data-toggle="tab" class="next-phase">Skills</a></li>
 <li><a href="#tab-locations" data-toggle="tab">Locations</a></li>
 <li><a href="#tab-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>
-<li><a href="#tab-projects" data-toggle="tab">My Projects</a></li>
+<li><a href="#tab-projects" data-toggle="tab">My Projects <span class="new">1</span></a></li>
 <li><a href="#tab-my-content" data-toggle="tab" class="next-phase">My Content</a></li>
 </ul>
 
