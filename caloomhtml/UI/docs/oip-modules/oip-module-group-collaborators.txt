@@ -2,7 +2,7 @@
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="sharing">
 			<div class="control-group">
-				<label class="control-label" for="input01">List of group members</label>
+				<label class="control-label" for="input01">List of collaborators</label>
 				<div class="controls">
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
@@ -38,24 +38,41 @@
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="multiSelect">Invite collaboration groups</label>
+				<label class="control-label" for="input01">List of collaborating organisations</label>
+				<div class="controls">
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+						<a data-toggle="modal" href="#ChangeModerator"> World Vision</a>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+						<a data-toggle="modal" href="#ChangeModerator"> Tekes</a>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+						<a data-toggle="modal" href="#ChangeModerator"> MFA</a>
+					</label>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="multiSelect">Invite known organisations</label>
+				<div class="controls">
+					<select multiple="multiple" id="multiSelect">
+						<option>FinPro</option>
+						<option>VTT</option>
+						<option>FinMin</option>
+						<option>CPTU</option>
+					</select>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="multiSelect">Invite collaboration one of your other groups</label>
 				<div class="controls">
 					<select multiple="multiple" id="multiSelect">
 						<option>Steering group</option>
 						<option>Partners</option>
 						<option>Students</option>
 						<option>Project partners</option>
-					</select>
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="multiSelect">Invite organisations</label>
-				<div class="controls">
-					<select multiple="multiple" id="multiSelect">
-						<option>FinPro</option>
-						<option>Tekes</option>
-						<option>MFA</option>
-						<option>CPTU</option>
 					</select>
 				</div>
 			</div>

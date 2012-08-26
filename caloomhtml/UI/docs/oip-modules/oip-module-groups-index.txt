@@ -3,13 +3,15 @@
 	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons/png/glyphicons_280_settings@2x.png" alt="Responsive devices"></p>
 	<h3 class="atomized">[!Atom]Title[ATOM!]</h3>
 	<p class="atomized">[!Atom]Introduction[ATOM!]</p>
-	<ul class="atomized">
-		<li>Group Profile</li>
-		<li>Members</li>
-		<li>Activities</li>
-		<li>Locations</li>
-		<li>Content</li>
-	</ul>
+
+<dl>
+        <dt>My Groups</dt>
+        <dd><a href="#">Core Group</a></dd>
+        <dd><a href="#">Africa</a></dd>
+        <dd><a href="#">BoP</a></dd>
+        <dd><a href="#">Inclusive Business</a></dd>
+        <dd><a href="#">Aalto Social Impact</a></dd>
+</dl>
 	<p class="atomized">[!Atom]Summary[ATOM!]</p>
 </div>
 <!-- end oip-account-index.txt -->

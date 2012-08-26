@@ -1,0 +1,23 @@
+			<div id="GroupMember" class="control-group">
+				<input type="radio" name="" value="option1" unchecked>
+				<label class="control-label" for=""><a data-toggle="modal" href="#change-category">Events&nbsp;&nbsp;&nbsp;</a> </label>
+				<div class="controls">
+					<label class="radio">
+						<input type="radio" name="" value="option1" unchecked>
+						<a data-toggle="modal" href="#change-category"> Seminar</a>
+					</label>
+					<label class="radio">
+						<input type="radio" name="" value="option2" unchecked>
+						<a data-toggle="modal" href="#change-category"> Conference</a>
+					</label>
+					<label class="radio">
+						<input type="radio" name="" value="option3" unchecked>
+						<a data-toggle="modal" href="#change-category"> Meeting</a>
+					</label>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="input01">Add another category. To make it a sub category of one of the above, check the radio button of that category</label>
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="new category name">
+					</div>
+				</div>
