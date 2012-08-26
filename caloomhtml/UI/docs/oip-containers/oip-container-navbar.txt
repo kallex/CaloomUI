@@ -10,12 +10,11 @@
 			<div class="nav-collapse">
 				<ul class="nav">
 					<li class="active"><a href="#">Home</a></li>
-					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-map-services.phtml">Maps</a></li>
-					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-calendar.phtml">Calendar</a></li>  
-					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-blog.phtml">Blog</a></li>  
-					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-partners.phtml">Partners</a></li>  
+					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-map-services.phtml">Maps <span class="new">12</span></a></li>
+					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-calendar.phtml">Calendar  <span class="new">2</span></a></li>  
+					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-blog.phtml">Blog <span class="new">5</span></a></li>  
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> My Projects <b class="caret"></b> </a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> My Projects <span class="new">1</span> <b class="caret"></b> </a>
 						<ul class="dropdown-menu">
 							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects.phtml">projects Summary</a></li>
 							<li class="divider"></li>

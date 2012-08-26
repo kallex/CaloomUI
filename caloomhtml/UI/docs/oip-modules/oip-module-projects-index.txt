@@ -6,7 +6,7 @@
 
 <dl>
         <dt>My Projects</dt>
-        <dd><a href="#">project a</a></dd>
+        <dd><a href="#">project a <span class="new">1</span></a></dd>
         <dd><a href="#">project b</a></dd>
         <dd><a href="#">project c</a></dd>
 </dl>
