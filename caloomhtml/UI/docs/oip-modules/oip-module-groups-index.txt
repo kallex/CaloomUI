@@ -1,6 +1,6 @@
-<!-- oip-account-index.txt -->
+<!-- oip-groups-index.txt -->
 <div class="span4">
-	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons/png/glyphicons_280_settings@2x.png" alt="Responsive devices"></p>
+	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_043_group@2x.png" alt="Responsive devices"></p>
 	<h3 class="atomized">[!Atom]Title[ATOM!]</h3>
 	<p class="atomized">[!Atom]Introduction[ATOM!]</p>
 
@@ -14,4 +14,4 @@
 </dl>
 	<p class="atomized">[!Atom]Summary[ATOM!]</p>
 </div>
-<!-- end oip-account-index.txt -->
+<!-- end oip-groups-index.txt -->

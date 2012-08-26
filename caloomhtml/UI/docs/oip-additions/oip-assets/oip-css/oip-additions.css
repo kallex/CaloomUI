@@ -52,7 +52,10 @@ background-repeat: no-repeat;
 background-image: url("../oip-images/ui/glyphicons_190_circle_plus.png");
 }
 
-
+.next-phase {
+	color: grey;
+	text-decoration: line-through;
+}
 
 .form-actions {
 background-color: white;
