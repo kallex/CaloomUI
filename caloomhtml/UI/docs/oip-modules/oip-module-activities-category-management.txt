@@ -1,36 +1,123 @@
-<div id="" class="span7" style=";margin-top:10px">
-		<form method="post" class="form-horizontal">
-			<fieldset>
-			<dl>
-				<dt><a data-toggle="modal" href="#rename-category">Projects</a> <a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dt>
-					<dd><a data-toggle="modal" href="#rename-category"> Finland</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-					<dd><a data-toggle="modal" href="#rename-category"> South America</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-					<dd><a data-toggle="modal" href="#rename-category"> Africa</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-			</dl>
-			<dl>
-				<dt><a data-toggle="modal" href="#rename-category">Events</a> <a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dt>
-					<dd><a data-toggle="modal" href="#rename-category"> Seminar</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-					<dd><a data-toggle="modal" href="#rename-category"> Conference</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-					<dd><a data-toggle="modal" href="#rename-category"> Meeting</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-			</dl>
-			<dl>
-				<dt><a data-toggle="modal" href="#rename-category">Courses</a> <a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dt>
-					<dd><a data-toggle="modal" href="#rename-category"> BA</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-					<dd><a data-toggle="modal" href="#rename-category"> MA</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-					<dd><a data-toggle="modal" href="#rename-category"> Design</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-			</dl>
-			<dl>
-				<dt><a data-toggle="modal" href="#rename-category">Research</a> <a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dt>
-					<dd><a data-toggle="modal" href="#rename-category"> BoP</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-					<dd><a data-toggle="modal" href="#rename-category"> Inclusive Business</a><a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dd>
-			</dl>
-			<dl>
-				<dt>Add a new category <a data-toggle="modal" href="#add-sub-category" style="margin-left:10px;text-decoration: none"> <i class="icon-arrow-right"></i></a></dt>
-			</dl>
+<form method="post" class="form">
+		<div id="" class="span3" style=";margin-top:10px">
+			<fieldset id="selection">
+			<div id="category 1" class="control-group">
+				<div class="controls">
+					<label class="radio">
+						<input type="radio" name="optionsradioList1" value="option1">
+						Projects
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList1" value="option1">
+						Finland
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList2" value="option2">
+						South America
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList3" value="option3">
+						Africa
+					</label>
+				</div>
+			</div>
+
+			<div id="category 1" class="control-group">
+				<div class="controls">
+					<label class="radio">
+						<input type="radio" name="optionsradioList1" value="option1">
+						Research
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList1" value="option1">
+						BoP
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList2" value="option2">
+						Inclusive Business
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList3" value="option3">
+						ASI
+					</label>
+				</div>
+			</div>
+
+			<div id="category 1" class="control-group">
+				<div class="controls">
+					<label class="radio">
+						<input type="radio" name="optionsradioList1" value="option1">
+						Events
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList1" value="option1">
+						Seminar
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList2" value="option2">
+						Conference
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList3" value="option3">
+						Meeting
+					</label>
+				</div>
+			</div>
+
+			<div id="category 1" class="control-group">
+				<div class="controls">
+					<label class="radio">
+						<input type="radio" name="optionsradioList1" value="option1">
+						Courses
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList1" value="option1">
+						BA
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList2" value="option2">
+						MA
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList3" value="option3">
+						for partners
+					</label>
+				</div>
+			</div>
+
+
+			</fieldset>
+		</div>
+		<div id="" class="span4" style=";margin-top:10px">
+			<fieldset id="change">
+				<div class="control-group">
+				<label class="control-label" for="input01">Add a new category</label>
+				<div class="controls">
+					<input name="Title" class="span4" id="input01" type="text" placeholder="add a category">
+				</div>
+				</div>
+
+				<div class="control-group">
+				<label class="control-label" for="input01">Add a subcategory to the one selected on the left side</label>
+				<div class="controls">
+					<input name="Title" class="span4" id="input01" type="text" placeholder="add a category">
+				</div>
+				</div>
+
+				<div class="control-group">
+				<label class="control-label" for="input01">Remove the selected category:</label>
+				<div class="controls">
+					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+					<a data-toggle="modal" href="#ChangeModerator"> Category</a>
+				</div>
+				</div>
+
+
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 			</fieldset>
-		</form>
-</div>
+	</div>
+</form>
+
 
 <!-- modals -->
 <div id="add-sub-category" class="modal hide fade">
@@ -68,6 +155,50 @@
 				</div>
 				</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+<div id="remove-category" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h3>Remove Category or sub-category</h3>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+				<label class="control-label" for="input01">Remove:</label>
+				<div class="controls">
+					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+					<a data-toggle="modal" href="#ChangeModerator"> Category</a>
+				</div>
+				</div>
+					<p class="help-block"><strong>Note:</strong> assign this category to another category perhaps?</p>
+					<?php include '../oip-atoms/oip-atom-form-cancel-delete.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+<div id="assign-category" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h3>Assign to another category</h3>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+				<label class="control-label" for="input01">Remove:</label>
+				<div class="controls">
+					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+					<a data-toggle="modal" href="#ChangeModerator"> Category</a>
+				</div>
+				</div>
+					<p class="help-block"><strong>Note:</strong> assign this category to another category perhaps?</p>
+					<?php include '../oip-atoms/oip-atom-form-cancel-delete.txt' ?>
 			</fieldset>
 		</form>
 	</div>

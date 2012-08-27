@@ -57,6 +57,9 @@ ul.socialUI li {
 	text-decoration: line-through;
 }
 
+#category>label:first-child {
+	font-weight: bold;
+}
 span.new {
 	color: white;
 	background-color: #f811cd;
