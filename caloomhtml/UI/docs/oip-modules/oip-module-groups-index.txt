@@ -6,7 +6,7 @@
 
 <dl>
         <dt>My Groups</dt>
-        <dd><a href="#">Core Group</a></dd>
+        <dd><a href="#">Core Group</a> <span class="new">1</span></dd>
         <dd><a href="#">Africa</a></dd>
         <dd><a href="#">BoP</a></dd>
         <dd><a href="#">Inclusive Business</a></dd>

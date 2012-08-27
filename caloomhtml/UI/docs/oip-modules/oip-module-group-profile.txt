@@ -2,7 +2,7 @@
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="profile">
 			<div class="control-group">
-				<label class="control-label" for="input01">Group name</label>
+				<label class="control-label" for="input01">Core group</label>
 				<div class="controls">
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Group names">
 				</div>
@@ -38,6 +38,15 @@
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Rahim, Riina,...">
 				</div>
 			</div>
+			<div id="request-moderator" class="control-group">
+				<label class="control-label" for="optionscheckboxList">request for moderatorship </label>
+				<div class="controls">
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
+						<a data-toggle="modal" href="#user-profile"> Bruce </a><span class="new"><i class="icon-star icon-white"></i></span>
+					</label>
+				</div>
+			</div>
 			<div id="permissions" class="control-group">
 				<label class="control-label" for="optionsradioList">Who can view this group's profile and activities'</label>
 				<div class="controls">
@@ -58,14 +67,7 @@
 			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
-	<ul>
-	<li>in groups and projects say who can view or follow the group or project</li>
-	<li>public anyone, e.g. google, facebook, government</li>
-	<li>any user (entity) inside The Ball</li>
-	<li>any non-commercial entity</li>
-	<li>any commerceial entity</li>
-	</ul>
-	<ul></div>
+</div>
 
 
 <!-- modals -->
@@ -154,5 +156,14 @@
 			suggest to someone
 		</form>
 	</div>
+</div>
+
+<div id="user-profile" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h2 class="title">User Profile</h2>
+	</div>
+	<div class="modal-body">
+the user profile of Bruce	</div>
 </div>
 <!-- end modals -->
