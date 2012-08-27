@@ -1,7 +1,7 @@
-	<div class="controls">
-		<a data-toggle="modal" href="#add-item" rel="tooltip" title="Add an Item"><i class="icon-individual icon-oip-add-item"></i>Add an Item</a>
-	</div>
-
+<!-- oip-module-add-category.txt -->
+<div class="controls">
+	<a data-toggle="modal" href="#add-item" rel="tooltip" title="Add an Item"><i class="icon-individual icon-oip-add-item"></i>Add an Item</a>
+</div>
 
 <div id="add-item" class="modal hide fade">
 	<div class="modal-header">
@@ -17,4 +17,4 @@
 			</div>
 	</div>
 </div>
-<!-- end oip-module-add-item.txt -->
+<!-- end oip-module-add-category.txt -->

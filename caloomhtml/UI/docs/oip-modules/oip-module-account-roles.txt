@@ -48,6 +48,7 @@
 <?php include'oip-module-add-item.txt' ?>
 			</div>
 			<div id="Followering" class="control-group">
+			<p>Note! We only allow following groups now - more fine grained follow to be implemented later</p>
 				<label class="control-label" for="optionscheckboxList">I follow </label>
 				<div class="controls">
 					<label class="checkbox">
