@@ -1,0 +1,21 @@
+<!-- oip-module-activities.txt.txt -->
+<ul class="nav nav-tabs" style="margin-bottom:0px;">
+<li class="active"><a href="#tab-activity-profile" data-toggle="tab">Activity Profile</a></li> 
+<li><a href="#tab-activity-calendar" data-toggle="tab">Calendar</a></li>
+<li><a href="#tab-activity-collaborators" data-toggle="tab">Collaborators</a></li>
+<li><a href="#tab-activity-activities" data-toggle="tab">Category management</a></li>
+<li><a href="#tab-activity-locations" data-toggle="tab">Locations</a></li>
+<li><a href="#tab-activity-content" data-toggle="tab" class="next-phase">Content</a></li>
+<li><a href="#tab-activity-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>
+</ul>
+
+<div class="tab-content tab-border">
+<div class="tab-pane active" id="tab-activity-profile"><?php include'../oip-modules/oip-module-activity-profile.txt'  ?></div><!--UseInformationObject:activityProfile -->
+<div class="tab-pane" id="tab-activity-calendar"><?php include'../oip-modules/oip-module-activity-calendar.txt' ?></div><!--UseInformationObject:activityMembers -->
+<div class="tab-pane" id="tab-activity-collaborators"><?php include'../oip-modules/oip-module-activity-collaborators.txt' ?></div><!--UseInformationObject:activityMembers -->
+<div class="tab-pane" id="tab-activity-category-management"><?php include'../oip-modules/oip-module-activity-category-management.txt' ?></div><!--UseInformationObject:activityactivitys -->
+<div class="tab-pane" id="tab-activity-locations"><?php include'../oip-modules/oip-module-activity-locations.txt' ?></div><!--UseInformationObject:activityLocations -->
+<div class="tab-pane" id="tab-activity-content"><?php include'../oip-modules/oip-module-activity-content.txt' ?></div><!--UseInformationObject:activityContent -->
+<div class="tab-pane" id="tab-activity-statistics"><?php include'../oip-modules/oip-module-activity-statistics.txt' ?></div><!--UseInformationObject:activityStatistics -->
+</div>
+<!-- end oip-module-activities.txt -->

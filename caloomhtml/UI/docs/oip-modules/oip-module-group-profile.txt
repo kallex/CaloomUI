@@ -2,9 +2,9 @@
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="profile">
 			<div class="control-group">
-				<label class="control-label" for="input01">Core group</label>
+				<label class="control-label" for="input01">Group name</label>
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Group names">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Core group">
 				</div>
 <?php include'oip-module-add-item.txt' ?>
 			</div>

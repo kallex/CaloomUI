@@ -1,0 +1,20 @@
+<!-- oip-module-add-category.txt -->
+<div class="controls">
+	<a data-toggle="modal" href="#add-item" rel="tooltip" title="Add an Item"><i class="icon-individual icon-oip-add-item"></i>Add an Item</a>
+</div>
+
+<div id="add-item" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h3>Add Item</h3>
+	</div>
+	<div class="modal-body">
+			<div class="control-group">
+				<label class="control-label" for="input01">Add Item</label>
+				<div class="controls">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Add Item, auto search will find the Items that are available within this InformationModel">
+				</div>
+			</div>
+	</div>
+</div>
+<!-- end oip-module-add-category.txt -->

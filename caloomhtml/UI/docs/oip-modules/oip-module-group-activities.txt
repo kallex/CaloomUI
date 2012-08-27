@@ -82,7 +82,7 @@
 <div id="Category" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button>
-		<h2 class="title">Change category</h2>
+		<h2 class="title">Change category <small>go to category management page</small></h2>
 	</div>
 	<div class="modal-body">
 		<form method="post" class="form-horizontal">
@@ -103,12 +103,6 @@
 						<input type="radio" name="" value="option3" unchecked>
 						<a data-toggle="modal" href="#change-category"> Meeting</a>
 					</label>
-				</div>
-				<div class="control-group">
-					<label class="control-label" for="input01">Add another category. To make it a sub category of one of the above, check the radio button of that category</label>
-					<div class="controls">
-						<input name="Title" class="span4" id="input01" type="text" placeholder="new category name">
-					</div>
 				</div>
 				<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 			</fieldset>

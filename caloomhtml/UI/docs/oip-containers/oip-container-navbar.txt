@@ -14,19 +14,19 @@
 					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-calendar.phtml">Calendar  <span class="new">2</span></a></li>  
 					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-blog.phtml">Blog <span class="new">5</span></a></li>  
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> My Projects <span class="new">1</span> <b class="caret"></b> </a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities <span class="new">1</span> <b class="caret"></b> </a>
 						<ul class="dropdown-menu">
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects.phtml">projects Summary</a></li>
+							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-activities.phtml">Activities Summary</a></li>
 							<li class="divider"></li>
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects1.phtml">project1</a></li>
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects2.phtml">project2</a></li>  
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects3.phtml">project3</a></li>  
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects4.phtml">project4</a></li>  
-							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects5.phtml">project5</a></li>
+							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects1.phtml">Events</a></li>
+							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects2.phtml">Projects</a></li>  
+							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects3.phtml">Courses</a></li>  
+							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects4.phtml">Research</a></li>  
+							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects5.phtml">other</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> My Groups <span class="new">1</span> <b class="caret"></b> </a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups <span class="new">1</span> <b class="caret"></b> </a>
 						<ul class="dropdown-menu">
 							<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups.phtml">Groups Summary Page</a></li>
 							<li class="divider"></li>
