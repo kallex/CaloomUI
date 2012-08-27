@@ -65,7 +65,7 @@
 			<div class="control-group">
 				<label class="control-label" for="multiSelect">Assign to other category</label>
 				<div class="controls">
-					<select multiple="multiple" id="multiSelect">
+					<select multiple="multiple" id="multiSelect" size="12">
 						<optgroup label="Projects">
 							<option>Projects</option>
 							<option>Finland</option>

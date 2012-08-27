@@ -1,10 +1,10 @@
 <!-- oip-module-activities.txt.txt -->
 <ul class="nav nav-tabs" style="margin-bottom:0px;">
 <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Activity Profile</a></li> 
-<li><a href="#tab-activities-calendar" data-toggle="tab">Calendar</a></li>
 <li><a href="#tab-activities-collaborators" data-toggle="tab">Collaborators</a></li>
-<li><a href="#tab-activities-category-management" data-toggle="tab">Category management</a></li>
+<li><a href="#tab-activities-category" data-toggle="tab">Categories</a></li>
 <li><a href="#tab-activities-locations" data-toggle="tab">Locations</a></li>
+<li><a href="#tab-activities-calendar" data-toggle="tab">Calendar</a></li>
 <li><a href="#tab-activities-content" data-toggle="tab" class="next-phase">Content</a></li>
 <li><a href="#tab-activities-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>
 </ul>
@@ -13,7 +13,7 @@
 <div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules/oip-module-activities-profile.txt'  ?></div><!--UseInformationObject:activitiesProfile -->
 <div class="tab-pane" id="tab-activities-calendar"><?php include'../oip-modules/oip-module-activities-calendar.txt' ?></div><!--UseInformationObject:activitiesMembers -->
 <div class="tab-pane" id="tab-activities-collaborators"><?php include'../oip-modules/oip-module-activities-collaborators.txt' ?></div><!--UseInformationObject:activitiesMembers -->
-<div class="tab-pane" id="tab-activities-category-management"><?php include'../oip-modules/oip-module-activities-category-management-alt.txt' ?></div><!--UseInformationObject:activitiesactivitiess -->
+<div class="tab-pane" id="tab-activities-category"><?php include'../oip-modules/oip-module-activities-category.txt' ?></div><!--UseInformationObject:activitiesactivitiess -->
 <div class="tab-pane" id="tab-activities-locations"><?php include'../oip-modules/oip-module-activities-locations.txt' ?></div><!--UseInformationObject:activitiesLocations -->
 <div class="tab-pane" id="tab-activities-content"><?php include'../oip-modules/oip-module-activities-content.txt' ?></div><!--UseInformationObject:activitiesContent -->
 <div class="tab-pane" id="tab-activities-statistics"><?php include'../oip-modules/oip-module-activities-statistics.txt' ?></div><!--UseInformationObject:activitiesStatistics -->

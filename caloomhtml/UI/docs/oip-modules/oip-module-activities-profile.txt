@@ -1,0 +1,206 @@
+<div id="activity-profile" class="span7" style=";margin-top:10px">
+	<form id="name" method="post" class="form-horizontal ">
+		<fieldset id="profile">
+
+			<div class="control-group">
+				<label class="control-label" for="input01">Activity name</label>
+				<div class="controls">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Nordic Business Event 2012">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Description</label>
+				<div class="controls">
+					<textarea class="input-xlarge" id="textarea" rows="6" placeholder="Describe your activity"></textarea>
+				</div>
+			</div>
+
+			<div class="control-group">
+				<label class="control-label" for="multiSelect">Assign category</label>
+				<div class="controls">
+					<select multiple="multiple" id="multiSelect" size="12">
+						<optgroup label="Projects">
+							<option>Projects</option>
+							<option  selected="selected">Finland</option>
+							<option>South America</option>
+							<option>Africa</option>
+						</optgroup>
+						<optgroup label="Events">
+							<option selected="selected">Events</option>
+							<option>Seminar</option>
+							<option selected="selected">Conference</option>
+							<option>Meeting</option>
+						</optgroup>
+						<optgroup label="Courses">
+							<option>Courses</option>
+							<option>Ba</option>
+							<option>MA</option>
+							<option>Design</option>
+						</optgroup>
+						<optgroup label="Research">
+							<option>Research</option>
+							<option>BoP</option>
+							<option selected="selected">Inclusive Business</option>
+						</optgroup>
+					</select>
+				</div>
+			</div>
+
+			<div id="activityModerator" class="control-group">
+				<label class="control-label" for="optionscheckboxList">Moderator(s) </label>
+				<div class="controls">
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
+						<a data-toggle="modal" href="#replace-initiator"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
+						<a data-toggle="modal" href="#Moderator"> Sujil</a>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
+						<a data-toggle="modal" href="#Moderator"> Andew</a>
+					</label>
+				</div>
+				<?php include'oip-module-add-item.txt' ?>
+			</div>
+
+			<div class="control-activity">
+				<label class="control-label" for="input01">Invite moderators</label>
+				<div class="controls">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Rahim, Riina,...">
+				</div>
+			</div>
+
+			<div id="request-moderator" class="control-group">
+				<label class="control-label" for="optionscheckboxList">request for moderatorship </label>
+				<div class="controls">
+					<label class="checkbox">
+						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
+						<a data-toggle="modal" href="#user-profile"> Bruce </a><span class="new"><i class="icon-star icon-white"></i></span>
+					</label>
+				</div>
+			</div>
+
+			<div id="permissions" class="control-group">
+				<label class="control-label" for="optionsradioList">Who can view this activity's profile and activities'</label>
+				<div class="controls">
+					<label class="radio">
+						<input type="radio" name="optionsradioList1" value="option1">
+						No one
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList2" value="option2">
+						All my collaborating partners
+					</label>
+					<label class="radio">
+						<input type="radio" name="optionsradioList3" value="option3" checked>
+						Every one
+					</label>
+				</div>
+			</div>
+
+			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+</div>
+
+
+<!-- modals -->
+
+<!-- oip-module-modal-profile-photo-edit.txt -->
+<div id="activity-profile-image" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h3>Add or Change Images</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal well">
+			<fieldset>
+				NOT STYLED!<br>
+				<?php include 'oip-module-form-image-input.txt' ?><!-- UseInformationObjectAsCollection:ImageCollection[0] -->
+				<?php include 'oip-module-form-add-image-input.txt' ?>
+				<div class="modal-footer">
+					<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<!-- end oip-module-modal-profile-photo-edit.txt -->
+
+<div id="replace-initiator" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h2 class="title">Replace initiator</h2>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-activity">
+					<label class="control-label" for="multiSelect">Assign the initiator Role to:</label>
+					<div class="controls">
+						<select multiple="multiple" id="multiSelect">
+							<option>Anne</option>
+							<option>Riina</option>
+							<option>Andrew</option>
+							<option>Rahim</option>
+							<option>Sujil</option>
+						</select>
+					</div>
+				</div>
+				<div class="control-activity">
+					<label class="control-label" for="input01">Invite other to be the initiator</label>
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="start typing name or email address">
+					</div>
+				</div>
+<p class="help-block"><strong>Note:</strong> After you have given the role of initiator to someone else you will have less abilities to manage this activity. Others can re-assign the role to you but you cannot assign it to yourself.</p>
+				<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+<div id="Moderator" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h2 class="title">Change Moderator</h2>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-activity">
+					<label class="control-label" for="multiSelect">Assign Moderator Role to:</label>
+					<div class="controls">
+						<select multiple="multiple" id="multiSelect">
+							<option>Anne</option>
+							<option>Riina</option>
+							<option>Andrew</option>
+							<option>Rahim</option>
+							<option>Sujil</option>
+						</select>
+					</div>
+				</div>
+				<div class="control-activity">
+					<label class="control-label" for="input01">Invite other to be the moderator</label>
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="start typing name or email address">
+					</div>
+				</div>
+				<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			</fieldset>
+			suggest to someone
+		</form>
+	</div>
+</div>
+
+<div id="user-profile" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h2 class="title">User Profile</h2>
+	</div>
+	<div class="modal-body">
+the user profile of Bruce	</div>
+</div>
+<!-- end modals -->
