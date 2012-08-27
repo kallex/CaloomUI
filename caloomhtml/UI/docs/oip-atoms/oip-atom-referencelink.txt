@@ -1,0 +1,5 @@
+<!-- oip-atom-referencelink.txt -->
+<div class="control-group">
+	<a href="[!ATOM]URL[ATOM!]">[!ATOM]Title[ATOM!]</a>
+</div>
+<!-- end oip-atom-referencelink.txt -->

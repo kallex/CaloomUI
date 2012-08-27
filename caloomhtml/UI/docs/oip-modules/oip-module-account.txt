@@ -15,7 +15,7 @@
 <div class="tab-pane" id="tab-skills"><?php include'../oip-modules/oip-module-account-skills.txt' ?></div><!-- UseInformationObject:AccountSkills -->
 <div class="tab-pane" id="tab-locations"><?php include'../oip-modules/oip-module-account-locations.txt' ?></div><!-- UseInformationObject:AccountLocations -->
 <div class="tab-pane" id="tab-statistics"><?php include'../oip-modules/oip-module-account-statistics.txt' ?></div><!-- UseInformationObject:AccountStatistics -->
-<div class="tab-pane" id="tab-statistics"><?php include'../oip-modules/oip-module-account-projects.txt' ?></div><!-- UseInformationObject:AccountProjects -->
+<div class="tab-pane" id="tab-projects"><?php include'../oip-modules/oip-module-account-projects.txt' ?></div><!-- UseInformationObject:AccountProjects -->
 <div class="tab-pane" id="tab-my-content"><?php include'../oip-modules/oip-module-account-mycontent.txt' ?></div><!-- UseInformationObject:AccountContent -->
 </div>
 <!-- end oip-account-body.txt -->

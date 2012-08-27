@@ -4,68 +4,32 @@
 			<div id="GroupModerator" class="control-group">
 				<label class="control-label" for="optionscheckboxList">Moderator of </label>
 				<div class="controls">
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> Aalto Global Impact</a>
-					</label>
+					<?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObjectAsCollection:ModeratorInGroups -->
 				</div>
-<?php include'oip-module-add-item.txt' ?>
+<!-- include'oip-module-add-item.txt' -->
 			</div>
 			<div id="GroupMember" class="control-group">
 				<label class="control-label" for="optionscheckboxList">Collaborator within </label>
 				<div class="controls">
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> Aalto Global Impact</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
-						<a data-toggle="modal" href="#MemberOfGroup"> World Vision OIP</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
-						<a data-toggle="modal" href="#MemberOfGroup"> Aalto Student Associoation</a>
-					</label>
+					<?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObjectAsCollection:MemberInGroups -->
 				</div>
-<?php include'oip-module-add-item.txt' ?>
+<!-- include'oip-module-add-item.txt' -->
 			</div>
 			<div id="OrganisationMember" class="control-group">
 				<label class="control-label" for="optionscheckboxList">Member or employee of </label>
 				<div class="controls">
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#MemberOfOrganisation"> Aalto University</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
-						<a data-toggle="modal" href="#MemberOfOrganisation"> A third sector organization</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
-						<a data-toggle="modal" href="#MemberOfOrganisation"> local sports club</a>
-					</label>
+					<?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObjectAsCollection:MemberInOrganizations -->
 				</div>
-<?php include'oip-module-add-item.txt' ?>
+<!-- include'oip-module-add-item.txt' -->
 			</div>
 			<div id="Followering" class="control-group">
 			<p>Note! We only allow following groups now - more fine grained follow to be implemented later</p>
 				<label class="control-label" for="optionscheckboxList">I follow </label>
 				<div class="controls">
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#FollowerOf"> Helsinki University</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
-						<a data-toggle="modal" href="#FollowerOf"> Another third sector organization</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
-						<a data-toggle="modal" href="#FollowerOf"> Another local sports club</a>
-					</label>
+					<?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObjectAsCollection:FollowingGroups -->
 				</div>
 			</div>
-			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+<!-- include '../oip-atoms/oip-atom-form-cancel-save.txt' -->
 		</fieldset>
 	</form>
 </div>
