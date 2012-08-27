@@ -13,7 +13,7 @@
 <div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules/oip-module-activities-profile.txt'  ?></div><!--UseInformationObject:activitiesProfile -->
 <div class="tab-pane" id="tab-activities-calendar"><?php include'../oip-modules/oip-module-activities-calendar.txt' ?></div><!--UseInformationObject:activitiesMembers -->
 <div class="tab-pane" id="tab-activities-collaborators"><?php include'../oip-modules/oip-module-activities-collaborators.txt' ?></div><!--UseInformationObject:activitiesMembers -->
-<div class="tab-pane" id="tab-activities-category-management"><?php include'../oip-modules/oip-module-activities-category-management.txt' ?></div><!--UseInformationObject:activitiesactivitiess -->
+<div class="tab-pane" id="tab-activities-category-management"><?php include'../oip-modules/oip-module-activities-category-management-alt.txt' ?></div><!--UseInformationObject:activitiesactivitiess -->
 <div class="tab-pane" id="tab-activities-locations"><?php include'../oip-modules/oip-module-activities-locations.txt' ?></div><!--UseInformationObject:activitiesLocations -->
 <div class="tab-pane" id="tab-activities-content"><?php include'../oip-modules/oip-module-activities-content.txt' ?></div><!--UseInformationObject:activitiesContent -->
 <div class="tab-pane" id="tab-activities-statistics"><?php include'../oip-modules/oip-module-activities-statistics.txt' ?></div><!--UseInformationObject:activitiesStatistics -->
