@@ -1,106 +1,87 @@
 <div id="activity-profile" class="span7" style=";margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="profile">
-
 			<div class="control-group">
-				<label class="control-label" for="input01">Activity name</label>
+				<label class="control-label" for="input01">Activity name</label> 
 				<div class="controls">
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Nordic Business Event 2012">
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">Description</label>
+				<label class="control-label" for="input01">Description</label> 
 				<div class="controls">
-					<textarea class="input-xlarge" id="textarea" rows="6" placeholder="Describe your activity"></textarea>
+<textarea class="input-xlarge" id="textarea" rows="6" placeholder="Describe your activity"></textarea> 
 				</div>
 			</div>
-
 			<div class="control-group">
-				<label class="control-label" for="multiSelect">Assign category</label>
+				<label class="control-label" for="multiSelect"> Assign category </label> 
 				<div class="controls">
 					<select multiple="multiple" id="multiSelect" size="12">
-						<optgroup label="Projects">
-							<option>Projects</option>
-							<option  selected="selected">Finland</option>
-							<option>South America</option>
-							<option>Africa</option>
-						</optgroup>
-						<optgroup label="Events">
-							<option selected="selected">Events</option>
-							<option>Seminar</option>
-							<option selected="selected">Conference</option>
-							<option>Meeting</option>
-						</optgroup>
-						<optgroup label="Courses">
-							<option>Courses</option>
-							<option>Ba</option>
-							<option>MA</option>
-							<option>Design</option>
-						</optgroup>
-						<optgroup label="Research">
-							<option>Research</option>
-							<option>BoP</option>
-							<option selected="selected">Inclusive Business</option>
-						</optgroup>
+						<optgroup label="Projects"> 
+						<option> Projects </option>
+						<option selected="selected"> Finland </option>
+						<option> South America </option>
+						<option> Africa </option>
+						</optgroup> <optgroup label="Events"> 
+						<option selected="selected"> Events </option>
+						<option> Seminar </option>
+						<option selected="selected"> Conference </option>
+						<option> Meeting </option>
+						</optgroup> <optgroup label="Courses"> 
+						<option> Courses </option>
+						<option> Ba </option>
+						<option> MA </option>
+						<option> Design </option>
+						</optgroup> <optgroup label="Research"> 
+						<option> Research </option>
+						<option> BoP </option>
+						<option selected="selected"> Inclusive Business </option>
+						</optgroup> 
 					</select>
 				</div>
 			</div>
-
 			<div id="activityModerator" class="control-group">
-				<label class="control-label" for="optionscheckboxList">Moderator(s) </label>
+				<label class="control-label" for="optionscheckboxList">Moderator(s) </label> 
 				<div class="controls">
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-						<a data-toggle="modal" href="#replace-initiator"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
-						<a data-toggle="modal" href="#Moderator"> Sujil</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
-						<a data-toggle="modal" href="#Moderator"> Andew</a>
-					</label>
+					<label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
+					<a data-toggle="modal" href="#replace-initiator"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
+					<a data-toggle="modal" href="#Moderator"> Sujil</a> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
+					<a data-toggle="modal" href="#Moderator"> Andew</a> </label> 
 				</div>
-				<?php include'oip-module-add-item.txt' ?>
-			</div>
 
+<?php include'oip-module-add-item.txt' ?>
+			</div>
 			<div class="control-activity">
-				<label class="control-label" for="input01">Invite moderators</label>
+				<label class="control-label" for="input01">Invite moderators</label> 
 				<div class="controls">
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Rahim, Riina,...">
 				</div>
 			</div>
-
 			<div id="request-moderator" class="control-group">
-				<label class="control-label" for="optionscheckboxList">request for moderatorship </label>
+				<label class="control-label" for="optionscheckboxList">request for moderatorship </label> 
 				<div class="controls">
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-						<a data-toggle="modal" href="#user-profile"> Bruce </a><span class="new"><i class="icon-star icon-white"></i></span>
-					</label>
+					<label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
+					<a data-toggle="modal" href="#user-profile"> Bruce </a><span class="new"><i class="icon-star icon-white"></i></span> </label> 
 				</div>
 			</div>
-
 			<div id="permissions" class="control-group">
-				<label class="control-label" for="optionsradioList">Who can view this activity's profile and activities'</label>
+				<label class="control-label" for="optionsradioList">Who can view this activity's profile and activities'</label> 
 				<div class="controls">
-					<label class="radio">
-						<input type="radio" name="optionsradioList1" value="option1">
-						No one
-					</label>
-					<label class="radio">
-						<input type="radio" name="optionsradioList2" value="option2">
-						All my collaborating partners
-					</label>
-					<label class="radio">
-						<input type="radio" name="optionsradioList3" value="option3" checked>
-						Every one
-					</label>
+					<label class="radio"> 
+					<input type="radio" name="optionsradioList1" value="option1">
+					No one </label> <label class="radio"> 
+					<input type="radio" name="optionsradioList2" value="option2">
+					All my collaborating partners </label> <label class="radio"> 
+					<input type="radio" name="optionsradioList3" value="option3" checked>
+					Every one </label> 
 				</div>
 			</div>
 
-			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
 </div>
