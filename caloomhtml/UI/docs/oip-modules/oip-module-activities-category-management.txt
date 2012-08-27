@@ -1,8 +1,4 @@
-<!-- oip-projects-index.txt -->
-<div class="span4">
-	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_023_cogwheels@2x.png" alt="Responsive devices"></p>
-	<h3 class="atomized">[!ATOM]Title[ATOM!]</h3>
-	<p class="atomized">[!ATOM]Introduction[ATOM!]</p>
+<div id="" class="span7" style=";margin-top:10px">
 <dl>
 	<dt>Projects (Category)</dt>
 	<dd><a href="#">project a <span class="new">1</span></a></dd>
@@ -16,7 +12,7 @@
 	<dd><a href="#">event c</a></dd>
 </dl>
 <dl>
-	<dt>Course (Category)</dt>
+	<dt>Courses (Category)</dt>
 	<dd><a href="#">Course a </a></dd>
 	<dd><a href="#">Course b</a></dd>
 	<dd><a href="#">Course c</a></dd>
@@ -27,7 +23,4 @@
 	<dd><a href="#">Research b</a></dd>
 	<dd><a href="#">Research c</a></dd>
 </dl>
-
-	<p class="atomized">[!ATOM]Summary[ATOM!]</p>
 </div>
-<!-- end oip-projects-index.txt -->

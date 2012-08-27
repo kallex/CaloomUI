@@ -1,27 +1,27 @@
 <!-- oip-module-map-services-index.txt -->
 <div class="span4">
 	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_340_globe@2x.png" alt="mapIndex" style="float:left;margin-right:10px"></p>
-	<h2>[!Atom]Title[ATOM!]<br><small>[!Atom]SubTitle[ATOM!]</small></h2>
-	<p>[!Atom]Introduction[ATOM!]</p>
-	<h4>[!Atom]mapByLocation[ATOM!]</h4>
+	<h2>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h2>
+	<p>[!ATOM]Introduction[ATOM!]</p>
+	<h4>[!ATOM]mapByLocation[ATOM!]</h4>
 	<ul>
 		<li>maps in Finland</li>
 		<li>maps in Europe</li>
 		<li>maps in South Africa</li>
 	</ul>
-	<h4>[!Atom]mapByDate[ATOM!]</h4>
+	<h4>[!ATOM]mapByDate[ATOM!]</h4>
 	<ul>
 		<li>maps in August</li>
 		<li>maps in July</li>
 		<li>maps in June</li>
 	</ul>
-	<h4>[!Atom]mapByAuthor[ATOM!]</h4>
+	<h4>[!ATOM]mapByAuthor[ATOM!]</h4>
 	<ul>
 		<li>maps by Rahim</li>
 		<li>maps by Anne</li>
 		<li>maps by Andrew</li>
 		<li>maps by Riina</li>
 	</ul>
-	<p>[!Atom]Summary[ATOM!]</p>
+	<p>[!ATOM]Summary[ATOM!]</p>
 </div>
 <!-- end oip-module-map-services-index.txt -->
