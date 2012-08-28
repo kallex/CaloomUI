@@ -2,60 +2,46 @@
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="sharing">
 			<div class="control-group">
-				<label class="control-label" for="input01">List of collaborators</label>
+				<label class="control-label" for="input01">List of collaborators</label> 
 				<div class="controls">
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> Anne</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-						<a data-toggle="modal" href="#ChangeModerator"> Andrew</a><span class="help-inline" style="color:#468847;">Moderator</span>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> Rahim</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> Riina</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-						<a data-toggle="modal" href="#ChangeModerator"> Sujil</a><span class="help-inline" style="color:#468847;">Moderator</span>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-						<a data-toggle="modal" href="#ChangeModerator"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span>
-					</label>
-					<p class="help-block"><strong>Note:</strong> Moderators cannot remove other moderators unless you are the initiator of this group. In this example you ar not the initiator but your are a moderator</p>
+					<label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+					<a data-toggle="modal" href="#ChangeModerator"> Anne</a> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
+					<a data-toggle="modal" href="#ChangeModerator"> Andrew</a><span class="help-inline" style="color:#468847;">Moderator</span> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+					<a data-toggle="modal" href="#ChangeModerator"> Rahim</a> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+					<a data-toggle="modal" href="#ChangeModerator"> Riina</a> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
+					<a data-toggle="modal" href="#ChangeModerator"> Sujil</a><span class="help-inline" style="color:#468847;">Moderator</span> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
+					<a data-toggle="modal" href="#ChangeModerator"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span> </label> 
+					<p class="help-block">
+						<strong>Note:</strong> Moderators cannot remove other moderators unless you are the initiator of this group. In this example you ar not the initiator but your are a moderator
+					</p>
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">Invite collaborators</label>
+				<label class="control-label" for="input01">Invite collaborators</label> 
 				<div class="controls">
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Rahim, Riina,...">
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">List of collaborating organisations</label>
+				<label class="control-label" for="input01">List of collaborating organisations</label> 
 				<div class="controls">
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> World Vision</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> Tekes</a>
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> MFA</a>
-					</label>
+					<label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+					<a data-toggle="modal" href="#ChangeModerator"> World Vision</a> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+					<a data-toggle="modal" href="#ChangeModerator"> Tekes</a> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+					<a data-toggle="modal" href="#ChangeModerator"> MFA</a> </label> 
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="multiSelect">Invite known organisations</label>
+				<label class="control-label" for="multiSelect">Invite known organisations</label> 
 				<div class="controls">
 					<select multiple="multiple" id="multiSelect">
 						<option>FinPro</option>
@@ -66,7 +52,7 @@
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="multiSelect">Invite collaboration one of your other groups</label>
+				<label class="control-label" for="multiSelect">Invite collaboration one of your other groups</label> 
 				<div class="controls">
 					<select multiple="multiple" id="multiSelect">
 						<option>Steering group</option>
@@ -76,22 +62,24 @@
 					</select>
 				</div>
 			</div>
-			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
 </div>
-
 <!-- modals -->
 <div id="Moderator" class="modal hide fade">
 	<div class="modal-header">
-		<button class="close" data-dismiss="modal">&times;</button>
-		<h2 class="title">Change Moderator</h2>
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Change Moderator
+		</h2>
 	</div>
 	<div class="modal-body">
 		<form method="post" class="form-horizontal">
 			<fieldset>
 				<div class="control-group">
-					<label class="control-label" for="multiSelect">Assign Moderator Role to:</label>
+					<label class="control-label" for="multiSelect">Assign Moderator Role to:</label> 
 					<div class="controls">
 						<select multiple="multiple" id="multiSelect">
 							<option>Anne</option>
@@ -103,15 +91,17 @@
 					</div>
 				</div>
 				<div class="control-group">
-					<label class="control-label" for="input01">Invite other to be the moderator</label>
+					<label class="control-label" for="input01">Invite other to be the moderator</label> 
 					<div class="controls">
 						<input name="Title" class="span4" id="input01" type="text" placeholder="start typing name or email address">
 					</div>
 				</div>
-				<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 			</fieldset>
-			suggest to someone
+			suggest to someone 
 		</form>
 	</div>
 </div>
+
 <!-- end modals -->
