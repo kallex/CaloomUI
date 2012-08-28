@@ -1,7 +1,7 @@
  
 <div id="" class="span7" style=";margin-top:10px">
 	<h2>
-		Activity Categories
+		Activity Categories 
 	</h2>
 	<form method="post" class="form-horizontal">
 		<fieldset id="selection">
@@ -32,9 +32,6 @@
 				<dd><a data-toggle="modal" href="#add-remove-category"> BoP</a> </dd>
 				<dd><a data-toggle="modal" href="#add-remove-category"> Inclusive Business</a> </dd>
 			</dl>
-			<dl> 
-				<dt><a data-toggle="modal" href="#add-main-category">Add a new main category</a></dt>
-			</dl>
 
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
@@ -45,7 +42,7 @@
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h3>
-			Add and remove
+			Add and remove 
 		</h3>
 	</div>
 	<div class="modal-body">
@@ -97,7 +94,7 @@
 						<input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
 						Remove </label> 
 						<p class="help-block" style="color:#b94a48">
-							<strong>Note:</strong> assign this category to another category perhaps, if you remove this category the content that already uses this category shall be assigned the category name "untitled"
+							<strong>Note:</strong> assign this category to another category perhaps, if you remove this category the content that already uses this category shall be assigned the category name "untitled" 
 						</p>
 					</div>
 				</div>
@@ -111,7 +108,7 @@
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h3>
-			Add a main category
+			Add a main category 
 		</h3>
 	</div>
 	<div class="modal-body">
@@ -123,6 +120,7 @@
 						<input name="Title" class="span4" id="input01" type="text" placeholder="add a main category">
 					</div>
 				</div>
+
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 			</fieldset>
 		</form>
