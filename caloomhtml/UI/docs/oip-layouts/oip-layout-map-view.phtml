@@ -1,3 +1,4 @@
+<!-- oip-layout-map-view.phtml -->
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
@@ -9,22 +10,22 @@
 <!-- end navbar -->
 <div class="container">
 <!-- section -->
-<section id="gridSystem">
+	<section id="gridSystem"> 
 <!-- container -->
-<div id="focus" class="container-fluid marketing well" style="margin-top:0px;background-color:white">
-<?php include '../oip-containers/oip-container-map-focus.txt' ?><!-- UseInformationObjectAsRoot:MapCollection-->
-</div>
-<div id="summary" class="container">
-	<!-- required -->
+	<div id="focus" class="container-fluid marketing well" style="margin-top:0px;background-color:white">
+<?php include '../oip-containers/oip-container-map-focus-view.txt' ?><!-- UseInformationObjectAsRoot:MapFocusViewCollection-->
+	</div>
+	<div id="summary" class="container">
+<!-- required -->
 <?php include '../oip-containers/oip-container-footer.txt' ?><!--UseInformationObjectAsRoot:FooterContainer  -->
-</div>
+	</div>
 <!-- end container -->
-</section>
+	</section> 
 <!-- end section -->
-<!-- modals & javascript -->
-<?php include '../oip-modules/oip-modals.txt' ?>
 </div>
+<!-- javascript -->
 <?php include '../oip-modules/oip-le-javascript.txt' ?>
-<!-- end modals & javascript -->
+<!-- end javascript -->
 </body>
 </html>
+<!-- end oip-layout-map-view.phtml -->

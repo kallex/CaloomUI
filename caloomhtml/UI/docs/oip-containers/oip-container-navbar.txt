@@ -4,29 +4,31 @@
 			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand active" href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-default.phtml">Aalto Global Impact</a> 
 			<div class="nav-collapse">
 				<ul class="nav">
-					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-map-services.phtml">Maps <span class="new">12</span></a></li>
-					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-calendar.phtml">Calendar <span class="new">2</span></a></li>
-					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-blog.phtml">Blog <span class="new">5</span></a></li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Maps <span class="new">12</span> <b class="caret"></b> </a> 
+					<ul class="dropdown-menu">
+						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-view.phtml">Maps View</a></li>
+						<li class="nav-header">Edit Map Views</li>
+						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Maps Edit</a></li>
+					</ul>
+					</li>
+					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-calendar-view.phtml">Calendar <span class="new">2</span></a>
+						<span><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-calendar-edit.phtml">[Edit]</a></span>
+					</li>
+					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-blog-view.phtml">Blog <span class="new">5</span></a>
+						<span><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-blog-edit.phtml">[Edit]</a></span>
+					</li>
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities <span class="new">1</span> <b class="caret"></b> </a> 
 					<ul class="dropdown-menu">
-						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-activities.phtml">Activities Summary</a></li>
+						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-activities-view.phtml">Activities View</a></li>
 						<li class="divider"></li>
-						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects1.phtml">Events</a></li>
-						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects2.phtml">Projects</a></li>
-						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects3.phtml">Courses</a></li>
-						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects4.phtml">Research</a></li>
-						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-projects5.phtml">other</a></li>
+						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-activities-edit.phtml">Activities Edit</a></li>
 					</ul>
 					</li>
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups <span class="new">1</span> <b class="caret"></b> </a> 
 					<ul class="dropdown-menu">
-						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups.phtml">Groups Summary Page</a></li>
+						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups-view.phtml">Groups view</a></li>
 						<li class="divider"></li>
-						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups.phtml">Core Group <span class="new">1</span></a> </li>
-						<li><a href="http://caloomgit:8888/UI/docs/oip-collection/oip-layout-collection-groups1.phtml">Africa</a></li>
-						<li><a href="http://caloomgit:8888/UI/docs/oip-collection/oip-layout-collection-groups1.phtmll">BoP</a></li>
-						<li><a href="http://caloomgit:8888/UI/docs/oip-collection/oip-layout-collection-groups1.phtml">Inclusive Business</a></li>
-						<li><a href="http://caloomgit:8888/UI/docs/oip-collection/oip-layout-collection-groups1.phtml">Aalto Social Impact</a></li>
+						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups-edit.phtml">Groups Edit</a></li>
 					</ul>
 					</li>
 				</ul>
@@ -53,7 +55,7 @@
 			</li>
 			<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a> 
 			<ul class="dropdown-menu">
-				<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-account.phtml">My Account</a></li>
+				<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-account-edit.phtml">My Account</a></li>
 				<li class="divider"></li>
 				<li><a href="#">Sign Out</a></li>
 			</ul>

@@ -1,0 +1,12 @@
+<!-- oip-container-groups-focus-edit.txt -->
+<section id="groups" style="background-color:rgba(250,250,47,0.1"> 
+<?php include '../oip-modules/oip-module-header.txt' ?>
+<div class="row">
+<?php include '../oip-modules/oip-module-groups-index.txt' ?>
+	<div class="span8" style="margin:0;padding:0">
+<?php include '../oip-modules/oip-module-groups.txt' ?>
+	</div>
+</div>
+<?php include '../oip-modules/oip-module-footer.txt' ?>
+</section> 
+<!-- end oip-container-groups-focus-edit.txt -->

@@ -1,0 +1,36 @@
+<!-- oip-module-map.txt -->
+<section id="maps" style="position:relative"> 
+<ul class="nav nav-tabs" style="margin-bottom:0px">
+	<li class="active"><a href="#tab-events" data-toggle="tab">Europe Events </a></li>
+	<li><a href="#tab-courses" data-toggle="tab">Edit</a></li>
+	<li><a href="#tab-meetings" data-toggle="tab">Followers </a></li>
+	<li><a href="#tab-projects" data-toggle="tab">Groups </a></li>
+</ul>
+<div class="tab-content tab-border">
+	<div class="tab-pane active" id="tab-events">
+		<div style="margin-top:0px">
+			<img class="mapbackground" src="../oip-additions/oip-assets/oip-images/placeholder/south-ameria.png" width="100%" height="600" alt="Europe / Events"> 
+		</div>
+	</div>
+	<div class="tab-pane" id="tab-courses">
+		<div style="margin-top:0px">
+			<img class="mapbackground" src="../oip-additions/oip-assets/oip-images/placeholder/colombo.png" width="100%" height="600" alt="Europe / Events"> 
+		</div>
+	</div>
+	<div class="tab-pane" id="tab-meetings">
+		<div style="margin-top:0px">
+			<img class="mapbackground" src="../oip-additions/oip-assets/oip-images/placeholder/capetown.png" width="100%" height="600" alt="Europe / Events"> 
+		</div>
+	</div>
+	<div class="tab-pane" id="tab-projects">
+		<div style="margin-top:0px">
+			<img class="mapbackground" src="../oip-additions/oip-assets/oip-images/placeholder/asia.png" width="100%" height="600" alt="Europe / Events"> 
+		</div>
+	</div>
+	<div class="tab-pane" id="tab-research">
+		<div style="margin-top:0px">
+			<img class="mapbackground" src="../oip-additions/oip-assets/oip-images/placeholder/africa.png" width="100%" height="600" alt="Europe / Events"> 
+		</div>
+	</div>
+</div>
+<!-- end oip-module-map.txt -->

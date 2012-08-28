@@ -74,6 +74,9 @@ span.new {
 	border-bottom: 1px solid #8e0574;
 }
 
+.edit {
+	background-color: #ffffe6;
+}
 .form-actions {
 	background-color: white;
 }

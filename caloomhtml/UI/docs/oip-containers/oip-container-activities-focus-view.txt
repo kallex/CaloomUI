@@ -1,0 +1,12 @@
+<!-- oip-container-projects-focus-view.txt -->
+<section id="activities">
+<?php include '../oip-modules/oip-module-header.txt' ?>
+<div class="row">
+<?php include '../oip-modules/oip-module-activities-index.txt' ?>
+<div class="span8" style="margin:0;padding:0">
+<?php include '../oip-modules/oip-module-activities.txt' ?>
+</div>
+</div>
+<?php include '../oip-modules/oip-module-footer.txt' ?>
+</section>
+<!-- end oip-container-projects-focus-view.txt -->

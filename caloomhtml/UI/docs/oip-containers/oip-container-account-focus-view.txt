@@ -1,0 +1,12 @@
+<!-- oip-container-account-focus-view.txt -->
+<section id="Account"> 
+<?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
+<div class="row">
+<?php include '../oip-modules/oip-module-account-index.txt' ?><!-- UseInformationObject:AccountIndex -->
+	<div class="span8" style="margin:0;padding:0">
+<?php include '../oip-modules/oip-module-account.txt' ?><!-- UseInformationObject:AccountModule -->
+	</div>
+</div>
+<?php include '../oip-modules/oip-module-footer.txt' ?>
+</section> 
+<!-- end oip-container-account-focus-view.txt -->

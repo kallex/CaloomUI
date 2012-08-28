@@ -1,0 +1,20 @@
+<!-- oip-container-blog-focus-view.txt -->
+<section id="blog"> 
+<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:BlogContainerHeader -->
+<hr>
+<!-- featured blog -->
+<?php include '../oip-modules/oip-module-blog-featured.txt' ?><!--UseInformationObject:FeaturedBlog -->
+<!-- featured blog -->
+<!-- latest x# blogs -->
+<div class="row">
+<?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexCollection -->
+	<div class="span8" style="margin:0;padding:0">
+<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[0] -->
+<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[1] -->
+<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[2] -->
+	</div>
+</div>
+<!-- latest x# blogs -->
+<?php include '../oip-modules/oip-module-footer.txt' ?>
+</section> 
+<!-- end oip-container-blog-focus-view.txt -->
