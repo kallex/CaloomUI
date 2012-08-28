@@ -6,25 +6,25 @@
 				<ul class="nav">
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Maps <span class="new">12</span> <b class="caret"></b> </a> 
 					<ul class="dropdown-menu">
-						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-view.phtml">Maps View</a></li>
+						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-view.phtml">Maps View</a></li><!-- UseInformationObject:MapModule -->
 						<li class="nav-header">Edit Map Views</li>
 						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Maps Edit</a></li>
 					</ul>
 					</li>
-					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-calendar-view.phtml">Calendar <span class="new">2</span></a>
+					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-calendar-view.phtml">Calendar <span class="new">2</span></a><!-- UseInformationObject:CalendarModule -->
 						<span><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-calendar-edit.phtml">[Edit]</a></span>
 					</li>
 					<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-blog-view.phtml">Blog <span class="new">5</span></a>
 						<span><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-blog-edit.phtml">[Edit]</a></span>
 					</li>
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities <span class="new">1</span> <b class="caret"></b> </a> 
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities <span class="new">1</span> <b class="caret"></b> </a><!-- UseInformationObject:ActivitiesModule -->
 					<ul class="dropdown-menu">
 						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-activities-view.phtml">Activities View</a></li>
 						<li class="divider"></li>
 						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-activities-edit.phtml">Activities Edit</a></li>
 					</ul>
 					</li>
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups <span class="new">1</span> <b class="caret"></b> </a> 
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups <span class="new">1</span> <b class="caret"></b> </a><!-- UseInformationObject:GroupsModule -->
 					<ul class="dropdown-menu">
 						<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-groups-view.phtml">Groups view</a></li>
 						<li class="divider"></li>
@@ -53,7 +53,7 @@
 				</ul>
 			</ul>
 			</li>
-			<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a> 
+			<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a><!-- UseInformationObject:AccountModule -->
 			<ul class="dropdown-menu">
 				<li><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-account-edit.phtml">My Account</a></li>
 				<li class="divider"></li>

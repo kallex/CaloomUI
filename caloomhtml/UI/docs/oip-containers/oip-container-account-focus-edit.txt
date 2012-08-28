@@ -7,6 +7,6 @@
 <?php include '../oip-modules/oip-module-account.txt' ?><!-- UseInformationObject:AccountModule -->
 	</div>
 </div>
-<?php include '../oip-modules/oip-module-footer.txt' ?>
+<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer --><!-- UseInformationObject:Footer -->
 </section> 
 <!-- end oip-container-account-focus-edit.txt -->

@@ -15,6 +15,6 @@
 	</div>
 </div>
 <!-- latest x# blogs -->
-<?php include '../oip-modules/oip-module-footer.txt' ?>
+<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
 </section> 
 <!-- end oip-container-blog-focus-view.txt -->
