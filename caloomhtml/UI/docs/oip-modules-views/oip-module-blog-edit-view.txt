@@ -1,0 +1,61 @@
+<!-- oip-module-blog-edit.txt -->
+<div class="span8">	
+<?php include '../oip-modules/oip-admin-edit-panel.txt' ?>
+<H1><?php include '../oip-atoms/oip-atom-title.txt' ?><!--UseInformationObject:*-->
+<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?><!--UseInformationObject:*--></Small></H1>
+<?php include '../oip-atoms/oip-atom-published.txt' ?><!--UseInformationObject:*-->
+<?php include '../oip-atoms/oip-atom-author.txt' ?><!-- UseInformationObject:*-->
+<p>
+<!--oip-module-images.txt-->
+<?php include 'oip-module-images-edit.txt' ?><!-- UseInformationObject:ImageGroup -->
+<?php include '../oip-atoms/oip-atom-body.txt' ?><!-- UseInformationObject:*-->
+</p>
+<p class="read-more"><?php include '../oip-atoms/oip-blog-read-more.txt' ?></p><!-- what to do with this read more functionality? -->
+<!-- oip-social-panel.txt -->
+<div class="blog-body-social-module">
+<?php include '../oip-modules/oip-module-blog-panel.txt' ?>
+</div>
+<!-- end oip-social-panel.txt -->
+</div>
+
+<!-- modal BlogEdit-->
+<div id="BlogEdit" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h3>Update or Delete this post 13:30</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal well">
+			<fieldset>
+				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?><!-- UseInformationObject:Title -->
+				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?><!-- UseInformationObject:SubTitle -->
+				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- UseInformationObject:Body -->
+				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- UseInformationObject:Excerpt -->
+				<div class="modal-footer">
+				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<!-- modal BlogEdit-->
+
+<!-- modal ImagesEdit-->
+<div id="ImagesEdit" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h3>Add or Change Images</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal well">
+			<fieldset>
+				<?php include '../oip-modules/oip-module-form-image-input.txt' ?><!-- UseInformationObjectAsCollection:ImageCollection[0] -->
+				<?php include '../oip-modules/oip-module-form-add-image-input.txt' ?>
+				<div class="modal-footer">
+				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+</div>			</fieldset>
+		</form>
+	</div>
+</div>
+<!-- modal ImagesEdit-->
+<!-- end oip-module-blog-edit.txt -->

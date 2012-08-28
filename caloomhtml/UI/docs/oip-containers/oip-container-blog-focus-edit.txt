@@ -1,5 +1,5 @@
 <!-- oip-container-blog-focus-edit.txt -->
-<section id="blog" class="edit"> 
+<section id="blog"> 
 <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:BlogContainerHeader -->
 <hr>
 <!-- featured blog -->

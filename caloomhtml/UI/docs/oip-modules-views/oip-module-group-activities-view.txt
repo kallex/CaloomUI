@@ -1,0 +1,105 @@
+<div id="group-projects" class="span7" style=";margin-top:10px">
+	<table class="table table-bordered table-striped">
+		<thead>
+			<td>Name</td>
+			<td>Collaborators</td>
+			<td>Category</td>
+			<td>Activities</td>
+		</thead>
+		<tbody>
+			<tr>
+				<td><a data-toggle="modal" href="#GroupName">Nordic Business Event</a></td>
+				<td><a data-toggle="modal" href="#Collaborator">Aalto</a>, <a data-toggle="modal" href="#Collaborator">Tekes</a></td>
+				<td><a data-toggle="modal" href="#Category">Event</a></td>
+				<td><a data-toggle="modal" href="#Activities"> 123</a></td>
+			</tr>
+			<tr>
+				<td>Base of Pyramid Seminar</td>
+				<td>Collaboratorproject</td>
+				<td>Event - Seminar</td>
+				<td>34</td>
+			</tr>
+			<tr>
+				<td>Base of Pyramid Course</td>
+				<td>projectCollaborator</td>
+				<td>Course</td>
+				<td>project123</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<!-- modals -->
+<div id="GroupName" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Change Group name
+		</h2>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="input01">Change the group's name'</label> 
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="I got this great name!">
+					</div>
+				</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<div id="Collaborator" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Send a message
+		</h2>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="input01">Send message to collaborator</label> 
+					<div class="controls">
+<textarea class="input-xlarge" id="textarea" rows="6" placeholder="I got this great name for our group, what do you think about ..."></textarea> 
+					</div>
+				</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-send.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<div id="Category" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Change category <small>go to category management page</small>
+		</h2>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div id="GroupMember" class="control-group">
+					<input type="radio" name="" value="option1" unchecked>
+					<label class="control-label" for=""><a data-toggle="modal" href="#change-category">Events&nbsp;&nbsp;&nbsp;</a> </label> 
+					<div class="controls">
+						<label class="radio"> 
+						<input type="radio" name="" value="option1" unchecked>
+						<a data-toggle="modal" href="#change-category"> Seminar</a> </label> <label class="radio"> 
+						<input type="radio" name="" value="option2" unchecked>
+						<a data-toggle="modal" href="#change-category"> Conference</a> </label> <label class="radio"> 
+						<input type="radio" name="" value="option3" unchecked>
+						<a data-toggle="modal" href="#change-category"> Meeting</a> </label> 
+					</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<!-- end modals -->

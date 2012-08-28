@@ -1,0 +1,7 @@
+<!-- oip-module-blog-panel.txt -->
+<?php include'../oip-atoms/oip-social-follow.txt' ?><!-- UseInformationObject:SocialFollow-->
+<?php include'../oip-atoms/oip-social-followers.txt' ?><!-- UseInformationObject:SocialFollowers-->
+<?php include'../oip-atoms/oip-social-share.txt' ?><!-- UseInformationObject:SocialShare-->
+<?php include'../oip-atoms/oip-social-download.txt' ?><!-- UseInformationObject:SocialDownload-->
+<?php include'../oip-atoms/oip-social-print.txt' ?><!-- UseInformationObject:SocialPrint-->
+<!-- end oip-module-blog-panel.txt -->

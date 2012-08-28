@@ -1,10 +1,12 @@
 <!-- oip-container-map-focus-edit.txt -->
-<section id="Map" style="padding:0;"> 
-<div class="row" style="margin:0;padding:0">
-	<div class="span9" style="margin-left:0px;padding:0">
-<?php include '../oip-modules/oip-module-map.txt' ?><!-- UseInformationObject:MapModule -->
+<section id=""> 
+<?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
+<div class="row">
+<?php include '../oip-modules/oip-module-map-index.txt' ?><!-- UseInformationObject:MapIndex -->
+	<div class="span8" style="margin:0;padding:0">
+<?php include '../oip-modules/oip-module-map-edit.txt' ?><!-- UseInformationObject:MapModule -->
 	</div>
-<?php include '../oip-modules/oip-module-map-activities.txt' ?><!-- UseInformationObject:MapIndex -->
 </div>
+<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
 </section> 
 <!-- end oip-container-map-focus-edit.txt -->

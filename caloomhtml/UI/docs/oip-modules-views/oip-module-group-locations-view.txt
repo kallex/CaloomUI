@@ -1,0 +1,110 @@
+<div id="group-profile" class="span7" style=";margin-top:10px">
+	<form id="name" method="post" class="form-horizontal ">
+		<fieldset id="sharing">
+			<dl> 
+				<dt><a data-toggle="modal" href="#rename-location">Main location name</a></dt>
+				<dd><a data-toggle="modal" href="#rename-location"> location B</a> </dd>
+				<dd><a data-toggle="modal" href="#rename-location"> location C</a> </dd>
+				<dd><a data-toggle="modal" href="#rename-location"> Location D</a> </dd>
+			</dl>
+			<p class="help-block">
+				<strong>Note:</strong> deselect the location to delete it, then press "Save changes" 
+			</p>
+			<div class="control-group">
+				<label class="control-label" for="input01">Add a new location from known locations you use</label> 
+				<div class="controls">
+					<select multiple="multiple" id="multiSelect" size="12">
+						<optgroup label="Core Group"> 
+						<option> Helsinki Main Office </option>
+						<option> Some other place </option>
+						<option> another place</option>
+						<option> ... </option>
+						</optgroup> <optgroup label="Africa Group"> 
+						<option> ... </option>
+						<option> ... </option>
+						<option"> ... </option>
+						<option> ... </option>
+						</optgroup> <optgroup label="BoP Group"> 
+						<option> ... </option>
+						<option> ... </option>
+						<option> ... </option>
+						<option> ... </option>
+						</optgroup> <optgroup label="Inclusive Business Group"> 
+						<option> ... </option>
+						<option> ... </option>
+						<option> ... </option>
+						</optgroup> 
+					</select>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Add a new location from map</label> 
+				<div class="controls">
+					<a data-toggle="modal" href="#map-location"><img class="mapbackground" src="../oip-additions/oip-assets/oip-images/placeholder/helsinki.png" width="200" height="200" alt="Helsinki / Locations"></a> 
+				</div>
+			</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+</div>
+<!-- modals -->
+<div id="rename-location" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Rename location 
+		</h2>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="input01">Rename the location</label> 
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="Helsinki Station">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="input01">Remove the selected location:</label> 
+					<div class="controls">
+						<label class="checkbox"> 
+						<input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
+						Remove </label> 
+						<p class="help-block" style="color:#b94a48">
+							<strong>Note:</strong> some message or help text 
+						</p>
+					</div>
+				</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-accept-return.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<div id="map-location" class="modal hide fade" style="width:800px;height:800px; top:300px">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Map location 
+		</h2>
+	</div>
+	<div class="modal-body" style="max-height:700px">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="input01">Name the location</label> 
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="Helsinki Station">
+					</div>
+				</div>
+				<div style="margin-left:160px">
+					<img class="mapbackground" src="../oip-additions/oip-assets/oip-images/placeholder/helsinki.png" width="600" height="600" alt="Helsinki / Events"> 
+				</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-accept-return.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<!-- end modals -->

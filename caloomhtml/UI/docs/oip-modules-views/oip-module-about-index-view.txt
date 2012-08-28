@@ -1,0 +1,16 @@
+<!-- oip-module-about-index.txt -->
+<div class="span4">
+	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_023_cogwheels@2x.png" alt="Responsive devices"></p>
+	<h3 class="atomized">[!ATOM]Title[ATOM!]</h3>
+	<p class="atomized">[!ATOM]Introduction[ATOM!]</p>
+
+<dl>
+        <dt>About OIP</dt>
+         <dd><a href="#">Identity</a></dd>
+       <dd><a href="#">Roles</a></dd>
+        <dd><a href="#">Locations b</a></dd>
+       <dd><a href="#">My Projects <span class="new">1</span></a></dd>
+</dl>
+	<p class="atomized">[!ATOM]Summary[ATOM!]</p>
+</div>
+<!-- end <!-- end oip-module-about-index.txt -->

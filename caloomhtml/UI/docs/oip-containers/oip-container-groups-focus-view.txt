@@ -2,11 +2,11 @@
 <section id="groups"> 
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
-<?php include '../oip-modules/oip-module-groups-index.txt' ?><!-- UseInformationObject:GroupsIndex -->
+<?php include '../oip-modules-views/oip-module-groups-index-view.txt' ?><!-- UseInformationObject:GroupsIndex -->
 	<div class="span8" style="margin:0;padding:0">
-<?php include '../oip-modules/oip-module-groups.txt' ?><!-- UseInformationObject:GroupsModule -->
+<?php include '../oip-modules-views/oip-module-groups-view.txt' ?><!-- UseInformationObject:GroupsModule -->
 	</div>
 </div>
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
+<?php include '../oip-modules-views/oip-module-footer-view.txt' ?><!-- UseInformationObject:Footer -->
 </section> 
 <!-- end oip-container-groups-focus-view.txt -->

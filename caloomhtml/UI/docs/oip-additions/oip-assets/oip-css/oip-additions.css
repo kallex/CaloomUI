@@ -77,6 +77,29 @@ span.new {
 .edit {
 	background-color: #ffffe6;
 }
+
+.view-group {
+margin-bottom: 18px;
+display: table;
+content: "";
+}
+
+.view-label {
+float: left;
+width: 140px;
+padding-top: 5px;
+text-align: right;
+	color: #6d6d6d;
+}
+
+.view-content {
+float: left;
+width: 300px;
+padding-top: 5px;
+text-align: left;
+margin-left: 10px;
+}
+
 .form-actions {
 	background-color: white;
 }

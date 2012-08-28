@@ -1,0 +1,48 @@
+<div id="" class="span7" style=";margin-top:10px">
+<table class="table table-bordered table-striped">
+		<thead>
+			<td>Organisation</td>
+			<td>Role</td>
+			<td>Active since</td>
+			<td>Activities</td>
+		</thead>
+		<tbody>
+			<tr>
+				<td><h3><a data-toggle="modal" href="#"> Aalto Global Impact</a></h3></td>
+				<td><a data-toggle="modal" href="#"> Moderator</a><a data-toggle="modal" href="#"> Collaborator</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+			<tr>
+				<td><a data-toggle="modal" href="#"> World Vision OIP</a></td>
+				<td><a data-toggle="modal" href="#"> Collaborator</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+			<tr>
+				<td><a data-toggle="modal" href="#"> Aalto Student Associoation</a></td>
+				<td><a data-toggle="modal" href="#"> Collaborator</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+			<tr>
+				<td><a data-toggle="modal" href="#"> Aalto University</a></td>
+				<td><a data-toggle="modal" href="#"> Employee</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+			<tr>
+				<td><a data-toggle="modal" href="#"> A third sector organization</a></td>
+				<td><a data-toggle="modal" href="#"> Member</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+			<tr>
+				<td><a data-toggle="modal" href="#"> local sports club</a></td>
+				<td><a data-toggle="modal" href="#"> Member</a></td>
+				<td>2012, Aug 23</td>
+				<td><a data-toggle="modal" href="#"> 123</a></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
