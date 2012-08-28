@@ -1,0 +1,10 @@
+<!-- oip-container-map-focus.txt -->
+<section id="Map" style="padding:0"> 
+<div class="row" style="margin:0;padding:0">
+	<div class="span9" style="margin-left:0px;padding:0">
+<?php include '../oip-modules/oip-module-map.txt' ?><!-- UseInformationObject:MapModule -->
+	</div>
+<?php include '../oip-modules/oip-module-map-activities.txt' ?><!-- UseInformationObject:MapIndex -->
+</div>
+</section> 
+<!-- end oip-container-map-focus.txt -->

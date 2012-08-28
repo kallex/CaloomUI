@@ -1,4 +1,4 @@
-<!-- oip-groups-index.txt -->
+<!-- oip-map-index.txt -->
 <div class="span4">
 	<p>
 		<img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_043_group@2x.png" alt="Responsive devices">
@@ -10,16 +10,16 @@
 		[!ATOM]Introduction[ATOM!]
 	</p>
 	<dl> 
-		<dt>My Groups</dt>
-		<dd><a href="#">Core Group</a> <span class="new">1</span></dd>
-		<dd><a href="#">Africa</a></dd>
-		<dd><a href="#">BoP</a></dd>
-		<dd><a href="#">Inclusive Business</a></dd>
-		<dd><a href="#">Aalto Social Impact</a></dd>
+		<dt>My Map</dt>
+		<dd><a href="#">Europe Events</a> <span class="new">1</span></dd>
+		<dd><a href="#">SA courses</a></dd>
+		<dd><a href="#">A meetings</a></dd>
+		<dd><a href="#">A projects</a></dd>
+		<dd><a href="#">N research</a></dd>
 	</dl>
 	<p class="atomized">
 		[!ATOM]Summary[ATOM!]
 	</p>
 </div>
 
-<!-- end oip-groups-index.txt -->
+<!-- end oip-map-index.txt -->

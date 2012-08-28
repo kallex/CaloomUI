@@ -1,0 +1,14 @@
+<!-- oip-map-activities.txt -->
+<div class="span2" style="margin:0;;padding:4px;width:240px;max-width:240px">
+	<h4>
+		Results
+	</h4>
+	<ul>
+		<li style="margin-bottom:4px"><a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="new">1</span></li>
+		<li style="margin-bottom:4px"><a href="#">Result 1</a></li>
+		<li style="margin-bottom:4px"><a href="#">Result 1</a></li>
+		<li style="margin-bottom:4px"><a href="#">Result 1</a></li>
+		<li style="margin-bottom:4px"><a href="#">Result 1</a></li>
+	</ul>
+</div>
+<!-- end oip-map-activities.txt -->

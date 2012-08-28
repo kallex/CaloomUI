@@ -1,0 +1,43 @@
+<!-- oip-map-activities.txt -->
+<div class="span2" style="width:260px;margin:0;">
+	<ul class="nav nav-tabs" style="margin-bottom:0px">
+		<li class="active"><a href="#tab-activities" data-toggle="tab">Activities</a>
+</div>
+</ul>
+<div class="tab-content tab-border" style="padding:10px">
+	<div class="tab-pane active" id="tab-activities">
+		<div style="margin-bottom:8px;border-bottom-color: 
+rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
+			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="new">1</span>
+		</div>
+		<div style="margin-bottom:8px;border-bottom-color: 
+rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
+			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="new">1</span>
+		</div>
+		<div style="margin-bottom:8px;border-bottom-color: 
+rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
+			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="new">1</span>
+		</div>
+		<div style="margin-bottom:8px;border-bottom-color: 
+rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
+			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="new">1</span>
+		</div>
+		<div style="margin-bottom:8px;border-bottom-color: 
+rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
+			<a href="#">Result 1</a>
+		</div>
+		<div style="margin-bottom:8px;border-bottom-color: 
+rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
+			<a href="#">Result 1</a>
+		</div>
+		<div style="margin-bottom:8px;border-bottom-color: 
+rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
+			<a href="#">Result 1</a>
+		</div>
+		<div style="margin-bottom:8px;border-bottom-color: 
+rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
+			<a href="#">Result 1</a>
+		</div>
+	</div>
+</div>
+</div>
