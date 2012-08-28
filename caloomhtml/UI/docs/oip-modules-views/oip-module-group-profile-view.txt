@@ -26,14 +26,8 @@
 		<a data-toggle="modal" href="#Moderator"> Andew</a><br>
 		</p>
 	</div>
-<hr>
-collaborators
-<hr>
-Activities
-<hr>
-Locations
-
 </div>
+
 
 
 <!-- modals -->

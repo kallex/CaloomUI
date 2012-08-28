@@ -1,72 +1,40 @@
 <div id="group-profile" class="span7" style=";margin-top:10px">
-	<form id="name" method="post" class="form-horizontal ">
-		<fieldset id="sharing">
-			<div class="control-group">
-				<label class="control-label" for="input01">List of collaborators</label> 
-				<div class="controls">
-					<label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-					<a data-toggle="modal" href="#ChangeModerator"> Anne</a> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-					<a data-toggle="modal" href="#ChangeModerator"> Andrew</a><span class="help-inline" style="color:#468847;">Moderator</span> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-					<a data-toggle="modal" href="#ChangeModerator"> Rahim</a> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-					<a data-toggle="modal" href="#ChangeModerator"> Riina</a> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-					<a data-toggle="modal" href="#ChangeModerator"> Sujil</a><span class="help-inline" style="color:#468847;">Moderator</span> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-					<a data-toggle="modal" href="#ChangeModerator"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span> </label> 
-					<p class="help-block">
-						<strong>Note:</strong> Moderators cannot remove other moderators unless you are the initiator of this group. In this example you ar not the initiator but your are a moderator
-					</p>
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Invite collaborators</label> 
-				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Rahim, Riina,...">
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">List of collaborating organisations</label> 
-				<div class="controls">
-					<label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-					<a data-toggle="modal" href="#ChangeModerator"> World Vision</a> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-					<a data-toggle="modal" href="#ChangeModerator"> Tekes</a> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-					<a data-toggle="modal" href="#ChangeModerator"> MFA</a> </label> 
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="multiSelect">Invite known organisations</label> 
-				<div class="controls">
-					<select multiple="multiple" id="multiSelect">
-						<option>FinPro</option>
-						<option>VTT</option>
-						<option>FinMin</option>
-						<option>CPTU</option>
-					</select>
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="multiSelect">Invite collaboration one of your other groups</label> 
-				<div class="controls">
-					<select multiple="multiple" id="multiSelect">
-						<option>Steering group</option>
-						<option>Partners</option>
-						<option>Students</option>
-						<option>Project partners</option>
-					</select>
-				</div>
-			</div>
-
-<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-		</fieldset>
-	</form>
+	<div class="view-group">
+		<p class="view-label">
+			List of collaborators
+		</p>
+		<p class="view-content">
+		<a data-toggle="modal" href="#ChangeModerator"> Anne</a> </br>
+		<a data-toggle="modal" href="#ChangeModerator"> Andrew</a><span class="help-inline" style="color:#468847;">Moderator</span> </br>
+		<a data-toggle="modal" href="#ChangeModerator"> Rahim</a> </br>
+		<a data-toggle="modal" href="#ChangeModerator"> Riina</a> </br>
+		<a data-toggle="modal" href="#ChangeModerator"> Sujil</a><span class="help-inline" style="color:#468847;">Moderator</span> </br>
+		<a data-toggle="modal" href="#ChangeModerator"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span> </br>
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			List of collaboration groups
+		</p>
+		<p class="view-content">
+		<a data-toggle="modal" href="#ChangeModerator"> Steering</a> </br>
+		<a data-toggle="modal" href="#ChangeModerator"> Core Team</a> </br>
+		<a data-toggle="modal" href="#ChangeModerator"> FinPro Wecon</a> </br>
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			List of collaborating organisations
+		</p>
+		<p class="view-content">
+		<a data-toggle="modal" href="#ChangeModerator"> FinPro</a> </br>
+		<a data-toggle="modal" href="#ChangeModerator"> TEKES</a> </br>
+		<a data-toggle="modal" href="#ChangeModerator"> Ministry of Foreign Affairs</a> </br>
+		<a data-toggle="modal" href="#ChangeModerator"> Aalto</a> </br>
+		</p>
+	</div>
 </div>
+
 <!-- modals -->
 <div id="Moderator" class="modal hide fade">
 	<div class="modal-header">
