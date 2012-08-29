@@ -5,7 +5,7 @@
 	<li><a href="#tab-skills" data-toggle="tab" class="next-phase">Skills</a></li>
 	<li><a href="#tab-locations" data-toggle="tab">Locations</a></li>
 	<li><a href="#tab-add-location" data-toggle="tab">Add location</a></li>
-	<li><a href="#tab-projects" data-toggle="tab">My Projects <span class="new">1</span></a></li>
+	<li><a href="#tab-activities" data-toggle="tab">My activities <span class="new">1</span></a></li>
 	<li><a href="#tab-my-content" data-toggle="tab" class="next-phase">My Content</a></li>
 	<li><a href="#tab-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>
 </ul>
@@ -29,8 +29,8 @@
 	<div class="tab-pane" id="tab-statistics">
 <?php include'../oip-modules/oip-module-account-statistics.txt' ?><!-- UseInformationObject:AccountStatistics -->
 	</div>
-	<div class="tab-pane" id="tab-projects">
-<?php include'../oip-modules/oip-module-account-projects.txt' ?><!-- UseInformationObject:AccountProjects -->
+	<div class="tab-pane" id="tab-activities">
+<?php include'../oip-modules/oip-module-account-activities.txt' ?><!-- UseInformationObject:AccountProjects -->
 	</div>
 	<div class="tab-pane" id="tab-my-content">
 <?php include'../oip-modules/oip-module-account-mycontent.txt' ?><!-- UseInformationObject:AccountContent -->
