@@ -1,10 +1,11 @@
 <!-- oip-container-map-focus-view.txt -->
 <section id="Map" style="padding:0"> 
 <div class="row" style="margin:0;padding:0">
-	<div class="span9" style="margin-left:0px;padding:0">
+	<div class="span12" style="margin-left:0px;padding:0">
 <?php include '../oip-modules-views/oip-module-map-view.txt' ?><!-- UseInformationObject:MapModule -->
 	</div>
-<?php include '../oip-modules-views/oip-module-map-activities-view.txt' ?><!-- UseInformationObject:MapIndex -->
+<?php include '../oip-modules-views/oip-module-map-activities.txt' ?><!-- UseInformationObject:MapIndex -->
+<p class="note">this maps displays everything</p>
 </div>
 </section> 
 <!-- end oip-container-map-focus-view.txt -->

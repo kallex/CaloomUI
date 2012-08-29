@@ -1,0 +1,7 @@
+<div id="map-small" style="height:300px;"></div>
+<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+<script>
+    map = new OpenLayers.Map("map-small");
+    map.addLayer(new OpenLayers.Layer.OSM());
+    map.zoomToMaxExtent();
+</script> 

@@ -4,6 +4,7 @@
 	<li><a href="#tab-roles" data-toggle="tab">Roles</a></li>
 	<li><a href="#tab-skills" data-toggle="tab" class="next-phase">Skills</a></li>
 	<li><a href="#tab-locations" data-toggle="tab">Locations</a></li>
+	<li><a href="#tab-add-location" data-toggle="tab">Add location</a></li>
 	<li><a href="#tab-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>
 	<li><a href="#tab-projects" data-toggle="tab">My Projects <span class="new">1</span></a></li>
 	<li><a href="#tab-my-content" data-toggle="tab" class="next-phase">My Content</a></li>
@@ -21,6 +22,9 @@
 	</div>
 	<div class="tab-pane" id="tab-locations">
 <?php include'../oip-modules/oip-module-account-locations.txt' ?><!-- UseInformationObject:AccountLocations -->
+	</div>
+	<div class="tab-pane" id="tab-add-location">
+<?php include'../oip-modules/oip-module-account-add-location.txt' ?><!-- UseInformationObject:AccountLocations -->
 	</div>
 	<div class="tab-pane" id="tab-statistics">
 <?php include'../oip-modules/oip-module-account-statistics.txt' ?><!-- UseInformationObject:AccountStatistics -->

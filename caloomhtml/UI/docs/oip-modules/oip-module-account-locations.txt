@@ -1,1 +1,29 @@
-oip-module-account-locations.txt
+<div id="identity" class="span7" style="margin-top:10px">
+	<form id="name" method="post" class="form-horizontal ">
+		<fieldset id="current-locations">
+			<div class="control-group">
+				<label class="control-label" for="input01">select checkbox to remove the location</label> 
+				<div class="controls">
+					<label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1">
+					Helsinki Office</a> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1">
+					Helsinki studio<span class="help-inline" style="color:#468847;"><a data-toggle="modal" href="groups"> 3 groups</a></span> </label>
+					<label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1">
+					location<span class="help-inline" style="color:#468847;"><a data-toggle="modal" href="#activities"> 3 activities</a></span></label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1">
+					location </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1">
+					location</label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1">
+					location</label> 
+					<p class="help-block">
+						<strong>Note:</strong> You can remove the locations form your personal account but if they are shared with a group, the group still uses the location and can edit it.
+					</p>
+				</div>
+			</div>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+</div>
