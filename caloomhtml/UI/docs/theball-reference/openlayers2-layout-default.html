@@ -34,22 +34,35 @@
 
                 trigger: function (e) {
                     var lonlat = map.getLonLatFromPixel(e.xy);
+                    var stringVal = lonlat.lat + " N, " + lonlat.lon + " E";
                     alert("You clicked near " + lonlat.lat + " N, " +
                                               +lonlat.lon + " E");
                     // map.GetMapParser().sendMarkersRequest();
                     /*var request = OpenLayers.Request.GET({
-                        url: "http://localhost:50430/theballanon/openlayerspost.p",
-                        callback: handler
+                    url: "http://localhost:50430/theballanon/openlayerspost.p",
+                    callback: handler
                     });*/
+                    /*
                     var request = OpenLayers.Request.POST({
-                        url: "http://localhost:50430/theballanon/openlayerspost.p",
-                        data: OpenLayers.Util.getParameterString({ foo: "bar" }),
-                        headers: {
-                            "Content-Type": "application/x-www-form-urlencoded"
-                        },
-                        callback: handler
-                    })
+                    url: "http://localhost:50430/theballanon/openlayerspost.p",
+                    data: OpenLayers.Util.getParameterString({ foo: "bar" }),
+                    headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    callback: handler
+                    })*/
+                    var hidden = document.getElementById("hiddentest");
+                    hidden.value = stringVal;
+                    var readonly = document.getElementById("readonlytest");
+                    readonly.value = stringVal;
                     alert("Requested");
+                    var position = map.getLonLatFromPixel(e.xy);
+                    var size = new OpenLayers.Size(21, 25);
+                    var offset = new OpenLayers.Pixel(-(size.w / 2), -size.h);
+                    var icon = new OpenLayers.Icon('../default-images/ui/AGI_logo.png', size, offset);
+                    var markerslayer = map.getLayer('Markers');
+
+                    markerslayer.addMarker(new OpenLayers.Marker(lonlat, icon));
                 }
 
             });
@@ -70,7 +83,10 @@
             function init(){
                 map = new OpenLayers.Map('map');
 
-                var ol_wms = new OpenLayers.Layer.WMS( "OpenLayers WMS",
+                var mapnik = new OpenLayers.Layer.OSM("OpenStreetMap (Mapnik)", { layers: 'basic' });
+                var gmap = new OpenLayers.Layer.Google("Google", { sphericalMercator: true });
+
+                var ol_wms = new OpenLayers.Layer.WMS("OpenLayers WMS",
                     "http://vmap0.tiles.osgeo.org/wms/vmap0?", {layers: 'basic'} );
 
             var jpl_wms = new OpenLayers.Layer.WMS( "NASA Global Mosaic",
@@ -79,7 +95,10 @@
 
                 jpl_wms.setVisibility(false);
 
-                map.addLayers([ol_wms, jpl_wms]);
+                markers = new OpenLayers.Layer.Markers("Markers");
+                markers.id = "Markers";
+
+                map.addLayers([ol_wms, jpl_wms, markers, mapnik, gmap]);
                 map.addControl(new OpenLayers.Control.LayerSwitcher());
                 // map.setCenter(new OpenLayers.LonLat(0, 0), 0);
                 map.zoomToMaxExtent();
@@ -92,6 +111,14 @@
         </script>
     </head>
     <body onload="init()">
+    <form action="openlayers3-layout-default.html" method="post">
+    <fieldset>
+        <input id="hiddentest" name="hiddentestname" type="hidden" />
+        <label for="readonlytest">Location</label>
+        <input id="readonlytest" name="readonlytestname" type="text" readonly="readonly" disabled="disabled" />
+        <input id="buttontest" name="buttonname" type="submit" />
+    </fieldset>
+    </form>
         <h1 id="title">Click Event Example</h1>
 
         <div id="tags">
