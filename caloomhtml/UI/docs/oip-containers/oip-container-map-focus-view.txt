@@ -4,7 +4,6 @@
 	<div class="span12" style="margin-left:0px;padding:0">
 <?php include '../oip-modules-views/oip-module-map-view.txt' ?><!-- UseInformationObject:MapModule -->
 	</div>
-<?php include '../oip-modules-views/oip-module-map-activities.txt' ?><!-- UseInformationObject:MapIndex -->
 <p class="note">this maps displays everything</p>
 </div>
 </section> 
