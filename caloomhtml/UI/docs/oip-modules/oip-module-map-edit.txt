@@ -6,7 +6,7 @@
 	<li><a href="#tab-map-groups" data-toggle="tab">Collaborators </a></li>
 </ul>
 <div class="tab-content tab-border">
-	<div class="tab-pane active" id="tab-map-preview"><?php include'../oip-modules/oip-module-map-preview.txt' ?></div><!--UseInformationObject:MapPreview -->
+	<div class="tab-pane tab-map active" id="tab-map-preview"><?php include'../oip-modules/oip-module-map-large.txt' ?></div><!--UseInformationObject:MapPreview -->
 	<div class="tab-pane" id="tab-map-edit"><?php include'../oip-modules/oip-module-map-edit-edit.txt' ?></div><!--UseInformationObject:MapEdit -->
 	<div class="tab-pane" id="tab-map-followers"><?php include'../oip-modules/oip-module-map-followers.txt' ?></div><!--UseInformationObject:MapFollowers -->
 	<div class="tab-pane" id="tab-map-groups"><?php include'../oip-modules/oip-module-map-collaborators.txt' ?></div><!--UseInformationObject:MapCollaborators -->
