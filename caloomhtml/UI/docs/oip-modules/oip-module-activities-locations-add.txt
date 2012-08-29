@@ -28,8 +28,7 @@
 					<button class="btn btn-info" href="#">Look up address</button> 
 				</div>
 			</div>
-<hr>
-pick from a previous used location
+
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>

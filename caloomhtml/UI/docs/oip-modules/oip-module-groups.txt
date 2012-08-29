@@ -7,15 +7,17 @@
 <li><a href="#tab-group-locations-add" data-toggle="tab">Add Location</a></li>
 <li><a href="#tab-group-content" data-toggle="tab" class="next-phase">Content</a></li>
 <li><a href="#tab-group-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>
+<li><a href="#tab-group-delete" data-toggle="tab" class="delete">Delete</a></li>
 </ul>
 
 <div class="tab-content tab-border">
 <div class="tab-pane active" id="tab-profile"><?php include'../oip-modules/oip-module-group-profile.txt'  ?></div><!--UseInformationObject:GroupProfile -->
 <div class="tab-pane" id="tab-group-collaborators"><?php include'../oip-modules/oip-module-group-collaborators.txt' ?></div><!--UseInformationObject:GroupMembers -->
 <div class="tab-pane" id="tab-group-activities"><?php include'../oip-modules/oip-module-group-activities.txt' ?></div><!--UseInformationObject:GroupProjects -->
-<div class="tab-pane" id="tab-group-locations"><?php include'../oip-modules/oip-module-group-locations.txt' ?></div><!--UseInformationObject:GroupLocations -->
-<div class="tab-pane" id="tab-group-locations-add"><?php include'../oip-modules/oip-module-group-locations-add.txt' ?></div><!--UseInformationObject:GroupLocations -->
+<div class="tab-pane" id="tab-group-locations"><?php include'../oip-modules/oip-module-group-locations.txt' ?></div><!--UseInformationObject:Locations -->
+<div class="tab-pane" id="tab-group-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?></div><!--UseInformationObject:LocationsAdd -->
 <div class="tab-pane" id="tab-group-content"><?php include'../oip-modules/oip-module-group-content.txt' ?></div><!--UseInformationObject:GroupContent -->
 <div class="tab-pane" id="tab-group-statistics"><?php include'../oip-modules/oip-module-group-statistics.txt' ?></div><!--UseInformationObject:GroupStatistics -->
+<div class="tab-pane" id="tab-group-delete"><?php include'../oip-modules/oip-module-group-delete.txt' ?></div><!--UseInformationObject:GroupDelete -->
 </div>
 <!-- end oip-module-groups.txt -->

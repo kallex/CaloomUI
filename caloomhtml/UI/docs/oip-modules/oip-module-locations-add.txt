@@ -1,7 +1,7 @@
 <!-- oip-module-account-locations-add.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
-<fieldset id="add-location">
+<fieldset>
 
 <?php include'../oip-modules/oip-module-map-small.txt' ?><!--UseInformationObject:MapPreview -->
 			<div class="control-group">
@@ -29,7 +29,8 @@
 				</div>
 			</div>
 <hr>
-pick from a previous used location
+<?php include '../oip-modules/oip-module-locations-current.txt' ?>
+<hr>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>

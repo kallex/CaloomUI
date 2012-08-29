@@ -1,0 +1,72 @@
+<!-- oip-module-location-profile-view.txt -->
+<div class="view-group">
+	<p class="view-label">
+		Location name 
+	</p>
+	<p class="view-content">
+		A location 
+	</p>
+</div>
+<div class="view-group">
+	<p class="view-label">
+		Street 
+	</p>
+	<p class="view-content">
+		Runebergkatu 34 
+	</p>
+</div>
+<div class="view-group">
+	<p class="view-label">
+		ZIP code 
+	</p>
+	<p class="view-content">
+		00001 
+	</p>
+</div>
+<div class="view-group">
+	<p class="view-label">
+		Town 
+	</p>
+	<p class="view-content">
+		Helsinki 
+	</p>
+</div>
+<div class="view-group">
+	<p class="view-label">
+		Country 
+	</p>
+	<p class="view-content">
+		Finland 
+	</p>
+</div>
+<hr>
+<div class="view-group">
+	<p class="view-label">
+		locations activities 
+	</p>
+	<p class="view-content">
+		here are gonna be the location's as a list 
+	</p>
+</div>
+<div class="view-group">
+	<p class="view-label">
+		Locations's Groups 
+	</p>
+	<p class="view-content">
+		here are gonna be the location's groups as a list 
+	</p>
+</div>
+<hr>
+<div class="view-group">
+	<p class="view-label">
+		Anne's Activities 
+	</p>
+	<p class="view-content">
+		here are gonna be Anne's activities as a list 
+	</p>
+</div>
+<p>
+	visit the profile page for more information about this person/group/location/activity
+</p>
+
+<!-- oip-module-location-profile-view.txt -->

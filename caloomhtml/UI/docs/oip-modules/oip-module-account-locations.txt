@@ -27,8 +27,9 @@
 		</fieldset>
 	</form>
 </div>
+
 <!-- modals -->
-<div id="location-used-by-groups" class="modal hide fade">
+<div id="location-profile-view" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h2 class="title">
@@ -36,23 +37,7 @@
 		</h2>
 	</div>
 	<div class="modal-body">
-		<div class="control-group">
-			<label class="control-label" for="input01">Rename the location</label> 
-			<div class="controls">
-				<input name="Title" class="span4" id="input01" type="text" placeholder="Helsinki Station">
-			</div>
-		</div>
-		<div class="control-group">
-			<label class="control-label" for="input01">Remove the selected location:</label> 
-			<div class="controls">
-				<label class="checkbox"> 
-				<input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
-				Remove </label> 
-				<p class="help-block" style="color:#b94a48">
-					<strong>Note:</strong> some message or help text 
-				</p>
-			</div>
-		</div>
+<?php include '../oip-modules-views/oip-module-location-profile-view.txt' ?>
 	</div>
 </div>
 <div id="location-used-by-activities" class="modal hide fade" style="width:800px;height:800px; top:300px">

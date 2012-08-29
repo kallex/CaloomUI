@@ -1,9 +1,7 @@
-<!-- oip-module-account-locations-add.txt -->
+<!-- oip-module-account-locations-delete.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
-<fieldset id="add-location">
-
-<?php include'../oip-modules/oip-module-map-small.txt' ?><!--UseInformationObject:MapPreview -->
+		<fieldset id="add-location">
 			<div class="control-group">
 				<label class="control-label" for="input01">Location name</label> 
 				<div class="controls">
@@ -28,10 +26,9 @@
 					<button class="btn btn-info" href="#">Look up address</button> 
 				</div>
 			</div>
-<hr>
-pick from a previous used location
-<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-delete.txt' ?>
 		</fieldset>
 	</form>
 </div>
-<!-- end oip-module-account-locations-add.txt -->
+<!-- end oip-module-account-locations-delete.txt -->

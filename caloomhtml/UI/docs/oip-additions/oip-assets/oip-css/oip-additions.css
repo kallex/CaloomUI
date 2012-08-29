@@ -57,6 +57,14 @@ ul.socialUI li {
 	text-decoration: line-through;
 }
 
+.atomized {
+	
+}
+
+a.delete {
+	color: #B94A48;
+	font-weight: bold;
+}
 #category>label:first-child {
 	font-weight: bold;
 }
@@ -135,20 +143,6 @@ span.new {
 	line-height: 1;
 	color: #8ac246;
 }
-
-#map {
-	padding: 0;
-	margin: 0;
-	border-radius: 5px;
-}
-
-.mapbackground {
-	position: relative;
-	top: 0px;
-	left: 0px;
-	z-index: 0;
-}
-
 .controlpanel {
 	width: 220px;
 	position: absolute;
@@ -248,10 +242,6 @@ hr {
 	font-size: 40px;
 	font-weight: 300;
 	text-align: center;
-}
-
-.atomized {
-	
 }
 
 .tab-map img {

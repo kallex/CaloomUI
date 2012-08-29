@@ -12,7 +12,7 @@
 <div class="tab-pane active" id="tab-group-profile"><?php include'../oip-modules-views/oip-module-group-profile-view.txt'  ?></div><!--UseInformationObject:GroupProfile -->
 <div class="tab-pane" id="tab-group-collaborators"><?php include'../oip-modules-views/oip-module-group-collaborators-view.txt' ?></div><!--UseInformationObject:GroupMembers -->
 <div class="tab-pane" id="tab-group-activities"><?php include'../oip-modules-views/oip-module-group-activities-view.txt' ?></div><!--UseInformationObject:GroupProjects -->
-<div class="tab-pane" id="tab-group-locations"><?php include'../oip-modules-views/oip-module-group-locations-view.txt' ?></div><!--UseInformationObject:GroupLocations -->
+<div class="tab-pane" id="tab-group-locations"><?php include'../oip-modules-views/oip-module-group-locations-view.txt' ?></div><!--UseInformationObject:Locations -->
 <div class="tab-pane" id="tab-group-content"><?php include'../oip-modules-views/oip-module-group-content-view.txt' ?></div><!--UseInformationObject:GroupContent -->
 <div class="tab-pane" id="tab-group-statistics"><?php include'../oip-modules-views/oip-module-group-statistics-view.txt' ?></div><!--UseInformationObject:GroupStatistics -->
 </div>

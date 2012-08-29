@@ -1,4 +1,4 @@
-<!-- oip-module-account-my-projects.txt -->
+<!-- oip-module-account-my-activities.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="current-locations">
@@ -7,7 +7,7 @@
 				<div class="controls">
 					<label class="checkbox"> 
 					<input type="checkbox" name="optionscheckboxList1" value="option1">
-					Helsinki Office</a> </label> <label class="checkbox"> 
+					Helsinki Officesdfsdf</a> </label> <label class="checkbox"> 
 					<input type="checkbox" name="optionscheckboxList1" value="option1">
 					Helsinki studio<span class="help-inline" style="color:#468847;"><a data-toggle="modal" href="#location-used-by-groups"> 3 groups</a></span> </label> <label class="checkbox"> 
 					<input type="checkbox" name="optionscheckboxList1" value="option1">
@@ -82,4 +82,4 @@
 	</div>
 </div>
 <!-- end modals -->
-<!-- end oip-module-account-my-projects.txt -->
+<!-- end oip-module-account-my-activities.txt -->

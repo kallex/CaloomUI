@@ -1,7 +1,7 @@
-<div id="map-small" class="tab-map" style="height:300px;"></div>
+<div id="map" style="height:300px;"></div>
 <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
 <script>
-    map = new OpenLayers.Map("map-small");
+    map = new OpenLayers.Map("map");
     map.addLayer(new OpenLayers.Layer.OSM());
     map.zoomToMaxExtent();
 </script> 
