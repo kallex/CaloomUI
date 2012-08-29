@@ -1,0 +1,92 @@
+<html><body onload="init()">
+  <div id="mapdiv"></div>
+  <script src="OpenLayers.js"></script>
+  <script>
+    map = new OpenLayers.Map("mapdiv");
+    map.addLayer(new OpenLayers.Layer.OSM());
+ 
+    var lonLat = new OpenLayers.LonLat( -0.1279688 ,51.5077286 )
+          .transform(
+            new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+            map.getProjectionObject() // to Spherical Mercator Projection
+          );
+ 
+    var zoom=16;
+ 
+    var markers = new OpenLayers.Layer.Markers( "Markers" );
+    map.addLayer(markers);
+ 
+    markers.addMarker(new OpenLayers.Marker(lonLat));
+ 
+    map.setCenter (lonLat, zoom);
+  </script>
+
+          <script type="text/javascript">
+              OpenLayers.Control.Click = OpenLayers.Class(OpenLayers.Control, {
+                  defaultHandlerOptions: {
+                      'single': true,
+                      'double': false,
+                      'pixelTolerance': 0,
+                      'stopSingle': false,
+                      'stopDouble': false
+                  },
+
+                  initialize: function (options) {
+                      this.handlerOptions = OpenLayers.Util.extend(
+                        {}, this.defaultHandlerOptions
+                    );
+                      OpenLayers.Control.prototype.initialize.apply(
+                        this, arguments
+                    );
+                      this.handler = new OpenLayers.Handler.Click(
+                        this, {
+                            'click': this.trigger
+                        }, this.handlerOptions
+                    );
+                  },
+
+                  trigger: function (e) {
+                      var lonlat = map.getLonLatFromPixel(e.xy);
+                      alert("You clicked near " + lonlat.lat + " N, " +
+                                              +lonlat.lon + " E");
+                      // map.GetMapParser().sendMarkersRequest();
+                      /*var request = OpenLayers.Request.GET({
+                      url: "http://localhost:50430/theballanon/openlayerspost.p",
+                      callback: handler
+                      });*/
+                      var request = OpenLayers.Request.POST({
+                          url: "http://localhost:50430/theballanon/openlayerspost.p",
+                          data: OpenLayers.Util.getParameterString({ text: "mytext", foo: map.size, bar: map.layers }),
+                          headers: {
+                              "Content-Type": "application/x-www-form-urlencoded"
+                          },
+                          callback: handler
+                      })
+                      alert("Requested");
+                  }
+
+              });
+
+              function handler(request) {
+                  // if the response was XML, try the parsed doc
+                  alert(request.responseXML);
+                  // otherwise, you've got the response text
+                  alert(request.responseText);
+                  // and don't forget you've got status codes
+                  alert(request.status);
+                  // and of course you can get headers
+                  alert(request.getAllResponseHeaders());
+                  // etc.
+              }
+
+              function init() {
+                  //map = new OpenLayers.Map('map');
+
+                  var click = new OpenLayers.Control.Click();
+                  map.addControl(click);
+                  click.activate();
+
+              }
+        </script>
+
+</body></html>
