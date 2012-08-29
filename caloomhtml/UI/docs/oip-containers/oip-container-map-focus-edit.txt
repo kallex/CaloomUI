@@ -1,6 +1,5 @@
 <!-- oip-container-map-focus-edit.txt -->
 <section id=""> 
-<?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
 <?php include '../oip-modules/oip-module-map-index.txt' ?><!-- UseInformationObject:MapIndex -->
 	<div class="span8" style="margin:0;padding:0">

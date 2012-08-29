@@ -11,11 +11,12 @@
 	</p>
 	<dl> 
 		<dt>My Maps</dt>
-		<dd><a href="#">Core Group</a> <span class="new">1</span></dd>
-		<dd><a href="#">Africa</a></dd>
-		<dd><a href="#">BoP</a></dd>
-		<dd><a href="#">Inclusive Business</a></dd>
-		<dd><a href="#">Aalto Social Impact</a></dd>
+		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Europe Events</a></dd>
+		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">South America Course</a></dd>
+		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Asia Meetings</a></dd>
+		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Africa Projects</a></dd>
+		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Nordic Research</a></dd>
+		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Create New Map</a></dd>
 	</dl>
 	<p class="atomized">
 		[!ATOM]Summary[ATOM!]
