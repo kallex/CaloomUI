@@ -1,0 +1,96 @@
+<!-- oip-module-account-profile-view.txt -->
+<div id="group-profile" class="span7" style=";margin-top:10px">
+	<div class="view-group">
+		<p class="view-label">
+			First name 
+		</p>
+		<p class="view-content">
+			Anne 
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			Last name 
+		</p>
+		<p class="view-content">
+			Badan 
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			email 
+		</p>
+		<p class="view-content">
+			anne.badan@aalto.fi 
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			Street 
+		</p>
+		<p class="view-content">
+			Runebergkatu 34 
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			ZIP code 
+		</p>
+		<p class="view-content">
+			00001 
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			Town 
+		</p>
+		<p class="view-content">
+			Helsinki 
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			Country 
+		</p>
+		<p class="view-content">
+			Finland 
+		</p>
+	</div>
+	<hr>
+	<div class="view-group">
+		<p class="view-label">
+			Anne's Roles 
+		</p>
+		<p class="view-content">
+			here are gonna be Anne's roles as a list 
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			Anne's Groups 
+		</p>
+		<p class="view-content">
+			here are gonna be Anne's groups as a list 
+		</p>
+	</div>
+	<hr>
+	<div class="view-group">
+		<p class="view-label">
+			Anne's Activities 
+		</p>
+		<p class="view-content">
+			here are gonna be Anne's activities as a list 
+		</p>
+	</div>
+	<hr>
+	<div class="view-group">
+		<p class="view-label">
+			Anne's Locations 
+		</p>
+		<p class="view-content">
+			here are gonna be Anne's locations as a list 
+		</p>
+	</div>
+</div>
+<p> visit the profile page for more information about this person/group/location/activity</p>
+<!-- oip-module-account-profile-view.txt -->

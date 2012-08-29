@@ -2,11 +2,11 @@
 <ul class="nav nav-tabs" style="margin-bottom:0px">
 	<li class="active"><a href="#tab-identity" data-toggle="tab">Profile</a></li>
 	<li><a href="#tab-roles" data-toggle="tab">Roles</a></li>
-	<li><a href="#tab-skills" data-toggle="tab" class="next-phase">Skills</a></li>
 	<li><a href="#tab-locations" data-toggle="tab">Locations</a></li>
 	<li><a href="#tab-add-location" data-toggle="tab">Add location</a></li>
 	<li><a href="#tab-activities" data-toggle="tab">My activities <span class="new">1</span></a></li>
-	<li><a href="#tab-my-content" data-toggle="tab" class="next-phase">My Content</a></li>
+	<li><a href="#tab-skills" data-toggle="tab" class="next-phase">Skills</a></li>
+	<li><a href="#tab-my-content" data-toggle="tab" class="next-phase">My content</a></li>
 	<li><a href="#tab-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>
 </ul>
 <div class="tab-content tab-border">
@@ -17,23 +17,23 @@
 	<div class="tab-pane" id="tab-roles">
 <?php include'../oip-modules/oip-module-account-roles.txt' ?><!-- UseInformationObject:AccountRoles -->
 	</div>
-	<div class="tab-pane" id="tab-skills">
-<?php include'../oip-modules/oip-module-account-skills.txt' ?><!-- UseInformationObject:AccountSkills -->
-	</div>
 	<div class="tab-pane" id="tab-locations">
 <?php include'../oip-modules/oip-module-account-locations.txt' ?><!-- UseInformationObject:AccountLocations -->
 	</div>
 	<div class="tab-pane" id="tab-add-location">
-<?php include'../oip-modules/oip-module-account-add-location.txt' ?><!-- UseInformationObject:AccountLocations -->
+<?php include'../oip-modules/oip-module-account-locations-add.txt' ?><!-- UseInformationObject:AccountLocations -->
+	</div>
+	<div class="tab-pane" id="tab-activities">
+<?php include'../oip-modules/oip-module-account-activities-my.txt' ?><!-- UseInformationObject:AccountProjects -->
+	</div>
+	<div class="tab-pane" id="tab-skills">
+<?php include'../oip-modules/oip-module-account-skills.txt' ?><!-- UseInformationObject:AccountSkills -->
+	</div>
+	<div class="tab-pane" id="tab-my-content">
+<?php include'../oip-modules/oip-module-account-content-my.txt' ?><!-- UseInformationObject:AccountContent -->
 	</div>
 	<div class="tab-pane" id="tab-statistics">
 <?php include'../oip-modules/oip-module-account-statistics.txt' ?><!-- UseInformationObject:AccountStatistics -->
-	</div>
-	<div class="tab-pane" id="tab-activities">
-<?php include'../oip-modules/oip-module-account-activities.txt' ?><!-- UseInformationObject:AccountProjects -->
-	</div>
-	<div class="tab-pane" id="tab-my-content">
-<?php include'../oip-modules/oip-module-account-mycontent.txt' ?><!-- UseInformationObject:AccountContent -->
 	</div>
 </div>
 <!-- end oip-module-account.txt -->

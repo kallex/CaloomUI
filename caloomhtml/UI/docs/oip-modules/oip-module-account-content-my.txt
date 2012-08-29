@@ -1,9 +1,9 @@
-<!-- oip-module-account-activities.txt -->
+<!-- oip-module-account-my-projects.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="current-locations">
 			<div class="control-group">
-				<label class="control-label" for="input01">select checkbox to leave the project</label> 
+				<label class="control-label" for="input01">select checkbox to remove the location</label> 
 				<div class="controls">
 					<label class="checkbox"> 
 					<input type="checkbox" name="optionscheckboxList1" value="option1">
@@ -82,4 +82,4 @@
 	</div>
 </div>
 <!-- end modals -->
-<!-- end oip-module-account-activities.txt -->
+<!-- end oip-module-account-my-projects.txt -->

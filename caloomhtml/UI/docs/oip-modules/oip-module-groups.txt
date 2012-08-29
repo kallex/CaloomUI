@@ -1,18 +1,20 @@
 <!-- oip-module-groups.txt.txt -->
 <ul class="nav nav-tabs" style="margin-bottom:0px;">
-<li class="active"><a href="#tab-group-profile" data-toggle="tab">Group Profile</a></li> 
+<li class="active"><a href="#tab-profile" data-toggle="tab">Profile</a></li> 
 <li><a href="#tab-group-collaborators" data-toggle="tab">Collaborators</a></li>
 <li><a href="#tab-group-activities" data-toggle="tab">Activities</a></li>
 <li><a href="#tab-group-locations" data-toggle="tab">Locations</a></li>
-<li><a href="#tab-group-content" data-toggle="tab">Content</a></li>
-<li><a href="#tab-group-statistics" data-toggle="tab">Statistics</a></li>
+<li><a href="#tab-group-locations-add" data-toggle="tab">Add Location</a></li>
+<li><a href="#tab-group-content" data-toggle="tab" class="next-phase">Content</a></li>
+<li><a href="#tab-group-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>
 </ul>
 
 <div class="tab-content tab-border">
-<div class="tab-pane active" id="tab-group-profile"><?php include'../oip-modules/oip-module-group-profile.txt'  ?></div><!--UseInformationObject:GroupProfile -->
+<div class="tab-pane active" id="tab-profile"><?php include'../oip-modules/oip-module-group-profile.txt'  ?></div><!--UseInformationObject:GroupProfile -->
 <div class="tab-pane" id="tab-group-collaborators"><?php include'../oip-modules/oip-module-group-collaborators.txt' ?></div><!--UseInformationObject:GroupMembers -->
 <div class="tab-pane" id="tab-group-activities"><?php include'../oip-modules/oip-module-group-activities.txt' ?></div><!--UseInformationObject:GroupProjects -->
 <div class="tab-pane" id="tab-group-locations"><?php include'../oip-modules/oip-module-group-locations.txt' ?></div><!--UseInformationObject:GroupLocations -->
+<div class="tab-pane" id="tab-group-locations-add"><?php include'../oip-modules/oip-module-group-locations-add.txt' ?></div><!--UseInformationObject:GroupLocations -->
 <div class="tab-pane" id="tab-group-content"><?php include'../oip-modules/oip-module-group-content.txt' ?></div><!--UseInformationObject:GroupContent -->
 <div class="tab-pane" id="tab-group-statistics"><?php include'../oip-modules/oip-module-group-statistics.txt' ?></div><!--UseInformationObject:GroupStatistics -->
 </div>
