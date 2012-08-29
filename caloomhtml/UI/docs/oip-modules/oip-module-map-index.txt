@@ -1,7 +1,7 @@
 <!-- oip-map-index.txt -->
 <div class="span4">
 	<p>
-		<img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_043_group@2x.png" alt="Responsive devices">
+		<img src="../oip-aliitions/oip-assets/oip-images/ui/glyphicons_043_group@2x.png" alt="Responsive devices">
 	</p>
 	<h3 class="atomized">
 		[!ATOM]Title[ATOM!]
@@ -9,16 +9,79 @@
 	<p class="atomized">
 		[!ATOM]Introduction[ATOM!]
 	</p>
-	<dl> 
-		<dt>My Maps</dt>
-		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Europe Events</a></dd>
-		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">South America Course</a></dd>
-		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Asia Meetings</a></dd>
-		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Africa Projects</a></dd>
-		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Nordic Research</a></dd>
-		<dd><a href="http://caloomgit:8888/UI/docs/oip-layouts/oip-layout-map-edit.phtml">Create New Map</a></dd>
-	</dl>
-	<p class="atomized">
+<form id="name" method="post" class="form-horizontal ">
+<fieldset>
+<h4>edit what is shown on map-view page</h4>
+
+			<div class="control-group">
+				<label class="control-label" for="input01">Tab Label</label>
+				<div class="controls">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Main Map">
+				</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Tab Label</label>
+				<div class="controls">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Main Map">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Tab Label</label>
+				<div class="controls">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Main Map">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Tab Label</label>
+				<div class="controls">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Main Map">
+				</div>
+			</div>
+
+			</div>
+
+
+
+<ul class="index" style="margin-bottom:0px;">
+	<li class="active"><a href="#tab-map-1" data-toggle="tab">Main Map </a></li>
+	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Events <b class="caret"></b> </a> 
+	<ul class="dropdown-menu">
+		<li><a href="#" name="link to map">Events in Africa</a></li>
+		<li><a href="#" name="Link to map">Events in Europe</a></li>
+		<li><a href="#" name="Link to map">Events in Asia</a></li>
+	</ul>
+	</li>
+	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Projects <b class="caret"></b> </a> 
+	<ul class="dropdown-menu">
+		<li><a href="#" name="link to map">Projects in Africa</a></li>
+		<li><a href="#" name="Link to map">Projects in Europe</a></li>
+		<li><a href="#" name="Link to map">Projects in Asia</a></li>
+	</ul>
+	</li>
+	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Groups <b class="caret"></b> </a> 
+	<ul class="dropdown-menu">
+		<li><a href="#" name="link to map">Groups in Africa</a></li>
+		<li><a href="#" name="Link to map">Groups in Europe</a></li>
+		<li><a href="#" name="Link to map">Groups in Asia</a></li>
+	</ul>
+	</li>
+	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> by Time <b class="caret"></b> </a> 
+	<ul class="dropdown-menu">
+		<li><a href="#" name="link to map">Anything planned for next month</a></li>
+		<li><a href="#" name="Link to map">Anything that happened last month</a></li>
+		<li><a href="#" name="Link to map">Anything that happened last week</a></li>
+	</ul>
+	</li>
+	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Our Partners <b class="caret"></b> </a> 
+	<ul class="dropdown-menu">
+		<li><a href="#" name="link to map">Activities by FinPro</a></li>
+		<li><a href="#" name="Link to map">Activities by WorldVision</a></li>
+		<li><a href="#" name="Link to map">Activities by Aalto</a></li>
+	</ul>
+	</li>
+</ul>
+</fieldset>
+</form>
+<p class="atomized">
 		[!ATOM]Summary[ATOM!]
 	</p>
 </div>

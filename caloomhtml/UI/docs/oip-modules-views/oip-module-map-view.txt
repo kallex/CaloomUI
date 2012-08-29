@@ -1,40 +1,6 @@
 <!-- oip-module-map-view.txt -->
 <ul class="nav nav-tabs" style="margin-bottom:0px">
-	<li class="active"><a href="#tab-map-1" data-toggle="tab">Main Map </a></li>
-	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Events <b class="caret"></b> </a> 
-	<ul class="dropdown-menu">
-		<li><a href="#" name="link to map">Events in Africa</a></li>
-		<li><a href="#" name="Link to map">Events in Europe</a></li>
-		<li><a href="#" name="Link to map">Events in Asia</a></li>
-	</ul>
-	</li>
-	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Projects <b class="caret"></b> </a> 
-	<ul class="dropdown-menu">
-		<li><a href="#" name="link to map">Projects in Africa</a></li>
-		<li><a href="#" name="Link to map">Projects in Europe</a></li>
-		<li><a href="#" name="Link to map">Projects in Asia</a></li>
-	</ul>
-	</li>
-	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Groups <b class="caret"></b> </a> 
-	<ul class="dropdown-menu">
-		<li><a href="#" name="link to map">Groups in Africa</a></li>
-		<li><a href="#" name="Link to map">Groups in Europe</a></li>
-		<li><a href="#" name="Link to map">Groups in Asia</a></li>
-	</ul>
-	</li>
-	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> by Time <b class="caret"></b> </a> 
-	<ul class="dropdown-menu">
-		<li><a href="#" name="link to map">Anything planned for next month</a></li>
-		<li><a href="#" name="Link to map">Anything that happened last month</a></li>
-		<li><a href="#" name="Link to map">Anything that happened last week</a></li>
-	</ul>
-	</li>
-	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Our Partners <b class="caret"></b> </a> 
-	<ul class="dropdown-menu">
-		<li><a href="#" name="link to map">Activities by FinPro</a></li>
-		<li><a href="#" name="Link to map">Activities by WorldVision</a></li>
-		<li><a href="#" name="Link to map">Activities by Aalto</a></li>
-	</ul>
+	<li class="active"><a href="#tab-map-1" data-toggle="tab">Main Map </a>
 	</li>
 </ul>
 <div class="tab-content tab-border">

@@ -256,7 +256,15 @@ hr {
 
 .tab-map img {
 	max-width: none;
-overflow: none;
-overflow-x: none;
-overflow-y: none;
+}
+ul.index li{
+	background-color: #fadc54;
+	padding: 4px;
+	list-style-type: none;
+}
+
+ul.index li li{
+	background-color: #9bfe4f;
+	padding: 4px;
+	list-style-type: none;
 }
