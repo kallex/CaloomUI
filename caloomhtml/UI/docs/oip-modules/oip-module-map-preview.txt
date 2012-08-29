@@ -1,0 +1,3 @@
+<div id="group-profile">
+	<img class="mapbackground" src="../oip-additions/oip-assets/oip-images/placeholder/south-ameria.png" width="870" height="522" alt="Europe / Events"> 
+</div>

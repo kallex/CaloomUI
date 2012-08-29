@@ -1,0 +1,14 @@
+<!-- oip-module-map-view.txt -->
+<ul class="nav nav-tabs" style="margin-bottom:0px">
+	<li class="active"><a href="#tab-map-preview" data-toggle="tab">Map [Preview] </a></li>
+	<li><a href="#tab-map-edit" data-toggle="tab">What</a></li>
+	<li><a href="#tab-map-followers" data-toggle="tab">Followers </a></li>
+	<li><a href="#tab-map-groups" data-toggle="tab">Collaborators </a></li>
+</ul>
+<div class="tab-content tab-border">
+	<div class="tab-pane active" id="tab-map-preview"><?php include'../oip-modules/oip-module-map-preview.txt' ?></div><!--UseInformationObject:MapPreview -->
+	<div class="tab-pane" id="tab-map-edit"><?php include'../oip-modules/oip-module-map-edit-edit.txt' ?></div><!--UseInformationObject:MapEdit -->
+	<div class="tab-pane" id="tab-map-followers"><?php include'../oip-modules/oip-module-map-followers.txt' ?></div><!--UseInformationObject:MapFollowers -->
+	<div class="tab-pane" id="tab-map-groups"><?php include'../oip-modules/oip-module-map-collaborators.txt' ?></div><!--UseInformationObject:MapCollaborators -->
+</div>
+<!-- end oip-module-map-view.txt -->

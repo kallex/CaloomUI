@@ -1,14 +1,129 @@
-<!-- oip-module-map.txt -->
-<ul class="nav nav-tabs" style="margin-bottom:0px">
-	<li class="active"><a href="#tab-map-preview" data-toggle="tab">Europe [Preview] </a></li>
-	<li><a href="#tab-map-edit" data-toggle="tab">Edit</a></li>
-	<li><a href="#tab-map-followers" data-toggle="tab">Followers </a></li>
-	<li><a href="#tab-map-groups" data-toggle="tab">Collaborators </a></li>
-</ul>
-<div class="tab-content tab-border">
-	<div class="tab-pane active" id="tab-map-preview"><?php include'../oip-modules/oip-module-map-edit-preview.txt' ?></div><!--UseInformationObject:MapPreview -->
-	<div class="tab-pane" id="tab-map-edit"><?php include'../oip-modules/oip-module-map-edit-edit.txt' ?></div><!--UseInformationObject:MapEdit -->
-	<div class="tab-pane" id="tab-map-followers"><?php include'../oip-modules/oip-module-map-followers.txt' ?></div><!--UseInformationObject:MapFollowers -->
-	<div class="tab-pane" id="tab-map-groups"><?php include'../oip-modules/oip-module-map-collaborators.txt' ?></div><!--UseInformationObject:MapCollaborators -->
+ 
+<div id="" class="span7" style=";margin-top:10px">
+	<h2>
+		Activity Categories 
+	</h2>
+	<form method="post" class="form-horizontal">
+		<fieldset id="selection">
+			<dl> 
+				<dt><a data-toggle="modal" href="#add-main-category">Add a new main category</a></dt>
+			</dl>
+			<hr>
+			<dl> 
+				<dt><a data-toggle="modal" href="#add-remove-category">Projects</a></dt>
+				<dd><a data-toggle="modal" href="#add-remove-category"> Finland</a> </dd>
+				<dd><a data-toggle="modal" href="#add-remove-category"> South America</a> </dd>
+				<dd><a data-toggle="modal" href="#add-remove-category"> Africa</a> </dd>
+			</dl>
+			<dl> 
+				<dt><a data-toggle="modal" href="#add-remove-category">Events</a> </dt>
+				<dd><a data-toggle="modal" href="#add-remove-category"> Seminar</a> </dd>
+				<dd><a data-toggle="modal" href="#add-remove-category"> Conference</a> </dd>
+				<dd><a data-toggle="modal" href="#add-remove-category"> Meeting</a> </dd>
+			</dl>
+			<dl> 
+				<dt><a data-toggle="modal" href="#add-remove-category">Courses</a> </dt>
+				<dd><a data-toggle="modal" href="#add-remove-category"> BA</a> </dd>
+				<dd><a data-toggle="modal" href="#add-remove-category"> MA</a> </dd>
+				<dd><a data-toggle="modal" href="#add-remove-category"> Design</a> </dd>
+			</dl>
+			<dl> 
+				<dt><a data-toggle="modal" href="#add-remove-category">Research</a> </dt>
+				<dd><a data-toggle="modal" href="#add-remove-category"> BoP</a> </dd>
+				<dd><a data-toggle="modal" href="#add-remove-category"> Inclusive Business</a> </dd>
+			</dl>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
 </div>
-<!-- end oip-module-map.txt -->
+<!-- modals -->
+<div id="add-remove-category" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Add and remove 
+		</h3>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="input01">Rename</label> 
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="new category name">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="input01">Add a subcategory</label> 
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="add a category">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="multiSelect">Assign to other category</label> 
+					<div class="controls">
+						<select multiple="multiple" id="multiSelect" size="12">
+							<optgroup label="Projects"> 
+							<option>Projects</option>
+							<option>Finland</option>
+							<option>South America</option>
+							<option>Africa</option>
+							</optgroup> <optgroup label="Events"> 
+							<option>Events</option>
+							<option>Seminar</option>
+							<option>Conference</option>
+							<option>Meeting</option>
+							</optgroup> <optgroup label="Courses"> 
+							<option>Courses</option>
+							<option>Ba</option>
+							<option>MA</option>
+							<option>Design</option>
+							</optgroup> <optgroup label="Research"> 
+							<option>Research</option>
+							<option>BoP</option>
+							<option>Inclusive Business</option>
+							</optgroup> 
+						</select>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="input01">Remove the selected category:</label> 
+					<div class="controls">
+						<label class="checkbox"> 
+						<input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
+						Remove </label> 
+						<p class="help-block" style="color:#b94a48">
+							<strong>Note:</strong> assign this category to another category perhaps, if you remove this category the content that already uses this category shall be assigned the category name "untitled" 
+						</p>
+					</div>
+				</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<div id="add-main-category" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Add a main category 
+		</h3>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="input01">Add a Main</label> 
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="add a main category">
+					</div>
+				</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<!-- end modals -->
