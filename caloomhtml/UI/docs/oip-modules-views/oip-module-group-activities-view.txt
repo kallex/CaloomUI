@@ -1,29 +1,38 @@
+<!-- oip-module-group-activities-view.txt -->
 <div id="group-projects" class="span7" style=";margin-top:10px">
 	<table class="table table-bordered table-striped">
 		<thead>
 			<td>Name</td>
 			<td>Collaborators</td>
 			<td>Category</td>
-			<td>Activities</td>
+			<td>Actions (who has done what)</td>
+			<td>followers</td>
+			<td>views</td>
 		</thead>
 		<tbody>
 			<tr>
-				<td><a data-toggle="modal" href="#GroupName">Nordic Business Event</a></td>
-				<td><a data-toggle="modal" href="#Collaborator">Aalto</a>, <a data-toggle="modal" href="#Collaborator">Tekes</a></td>
-				<td><a data-toggle="modal" href="#Category">Event</a></td>
-				<td><a data-toggle="modal" href="#Activities"> 123</a></td>
+				<td><a data-toggle="modal" href="#activity">Nordic Business Event</a></td>
+				<td><a data-toggle="modal" href="#collaborator">Aalto</a>, <a data-toggle="modal" href="#collaborator">Tekes</a></td>
+				<td><a data-toggle="modal" href="#category">Event</a></td>
+				<td><a data-toggle="modal" href="#actions"> 76</a></td>
+				<td><a data-toggle="modal" href="#followers"> 23</a></td>
+				<td><a data-toggle="modal" href="#views"> 599</a></td>
 			</tr>
 			<tr>
 				<td>Base of Pyramid Seminar</td>
 				<td>Collaboratorproject</td>
 				<td>Event - Seminar</td>
+				<td>57</td>
 				<td>34</td>
+				<td>1244</td>
 			</tr>
 			<tr>
 				<td>Base of Pyramid Course</td>
 				<td>projectCollaborator</td>
 				<td>Course</td>
-				<td>project123</td>
+				<td>56</td>
+				<td>25</td>
+				<td>2254</td>
 			</tr>
 		</tbody>
 	</table>
@@ -34,7 +43,7 @@
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h2 class="title">
-			Change Group name
+			Change Group name 
 		</h2>
 	</div>
 	<div class="modal-body">
@@ -52,54 +61,78 @@
 		</form>
 	</div>
 </div>
-<div id="Collaborator" class="modal hide fade">
+<!-- modals -->
+<div id="activity" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h2 class="title">
-			Send a message
+			Activity's profile 
 		</h2>
 	</div>
 	<div class="modal-body">
-		<form method="post" class="form-horizontal">
-			<fieldset>
-				<div class="control-group">
-					<label class="control-label" for="input01">Send message to collaborator</label> 
-					<div class="controls">
-<textarea class="input-xlarge" id="textarea" rows="6" placeholder="I got this great name for our group, what do you think about ..."></textarea> 
-					</div>
-				</div>
 
-<?php include '../oip-atoms/oip-atom-form-cancel-send.txt' ?>
-			</fieldset>
-		</form>
+<?php include '../oip-modules-views/oip-module-activities-profile-view.txt' ?>
 	</div>
 </div>
-<div id="Category" class="modal hide fade">
+<div id="collaborator" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h2 class="title">
-			Change category <small>go to category management page</small>
+			Collaborator's profile 
 		</h2>
 	</div>
 	<div class="modal-body">
-		<form method="post" class="form-horizontal">
-			<fieldset>
-				<div id="GroupMember" class="control-group">
-					<input type="radio" name="" value="option1" unchecked>
-					<label class="control-label" for=""><a data-toggle="modal" href="#change-category">Events&nbsp;&nbsp;&nbsp;</a> </label> 
-					<div class="controls">
-						<label class="radio"> 
-						<input type="radio" name="" value="option1" unchecked>
-						<a data-toggle="modal" href="#change-category"> Seminar</a> </label> <label class="radio"> 
-						<input type="radio" name="" value="option2" unchecked>
-						<a data-toggle="modal" href="#change-category"> Conference</a> </label> <label class="radio"> 
-						<input type="radio" name="" value="option3" unchecked>
-						<a data-toggle="modal" href="#change-category"> Meeting</a> </label> 
-					</div>
 
-<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-			</fieldset>
-		</form>
+<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
+	</div>
+</div>
+<div id="category" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			All the categories and keywords (phase 2) 
+		</h2>
+	</div>
+	<div class="modal-body">
+
+<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
+	</div>
+</div>
+<div id="actions" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			All the actions for this activity by the group 
+		</h2>
+	</div>
+	<div class="modal-body">
+
+<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
+	</div>
+</div>
+<div id="followers" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Al the followers of this activity 
+		</h2>
+	</div>
+	<div class="modal-body">
+
+<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
+	</div>
+</div>
+<div id="views" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Al the views that this Activity has received 
+		</h2>
+	</div>
+	<div class="modal-body">
+
+<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
 	</div>
 </div>
 <!-- end modals -->
+<!-- end oip-module-group-activities-view.txt -->

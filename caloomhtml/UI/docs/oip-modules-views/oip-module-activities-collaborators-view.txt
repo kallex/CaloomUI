@@ -1,0 +1,52 @@
+<!-- oip-module-activities-collaborators-view.txt -->
+<div id="group-profile" class="span7" style=";margin-top:10px">
+	<div class="view-group">
+		<p class="view-label">
+			List of collaborators
+		</p>
+		<p class="view-content">
+		<a data-toggle="modal" href="#collaborator-profile-anne"> Anne</a> </br>
+		<a data-toggle="modal" href="#"> Andrew</a><span class="help-inline" style="color:#468847;">Moderator</span> </br>
+		<a data-toggle="modal" href="#r"> Rahim</a> </br>
+		<a data-toggle="modal" href="#"> Riina</a> </br>
+		<a data-toggle="modal" href="#"> Sujil</a><span class="help-inline" style="color:#468847;">Moderator</span> </br>
+		<a data-toggle="modal" href="#"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span> </br>
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			List of collaboration groups
+		</p>
+		<p class="view-content">
+		<a data-toggle="modal" href="#"> Steering</a> </br>
+		<a data-toggle="modal" href="#"> Core Team</a> </br>
+		<a data-toggle="modal" href="#"> FinPro Wecon</a> </br>
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
+			List of collaborating organisations
+		</p>
+		<p class="view-content">
+		<a data-toggle="modal" href="#"> FinPro</a> </br>
+		<a data-toggle="modal" href="#"> TEKES</a> </br>
+		<a data-toggle="modal" href="#"> Ministry of Foreign Affairs</a> </br>
+		<a data-toggle="modal" href="#"> Aalto</a> </br>
+		</p>
+	</div>
+</div>
+
+<!-- modals -->
+<div id="collaborator-profile-anne" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Collaborator's profile
+		</h2>
+	</div>
+	<div class="modal-body">
+<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
+	</div>
+</div>
+<!-- end modals -->
+<!-- end oip-module-activities-collaborators-view.txt -->

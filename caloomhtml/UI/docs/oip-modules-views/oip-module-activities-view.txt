@@ -1,0 +1,19 @@
+<!-- oip-module-activities-view.txt -->
+<ul class="nav nav-tabs" style="margin-bottom:0px;">
+<li class="active"><a href="#tab-activities-profile" data-toggle="tab">Activity Profile</a></li> 
+<li><a href="#tab-activities-collaborators" data-toggle="tab">Collaborators</a></li>
+<li><a href="#tab-activities-calendar" data-toggle="tab">Calendar</a></li>
+<li><a href="#tab-activities-locations" data-toggle="tab">Locations</a></li>
+<li><a href="#tab-activities-content" data-toggle="tab" class="next-phase">Content</a></li>
+<li><a href="#tab-activities-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>
+</ul>
+
+<div class="tab-content tab-border">
+<div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules-views/oip-module-activities-profile-view.txt'  ?></div><!--UseInformationObject:GroupProfile -->
+<div class="tab-pane" id="tab-activities-collaborators"><?php include'../oip-modules-views/oip-module-activities-collaborators-view.txt' ?></div><!--UseInformationObject:GroupMembers -->
+<div class="tab-pane" id="tab-activities-calendar"><?php include'../oip-modules-views/oip-module-activities-activities-view.txt' ?></div><!--UseInformationObject:GroupProjects -->
+<div class="tab-pane" id="tab-activities-locations"><?php include'../oip-modules-views/oip-module-activities-locations-view.txt' ?></div><!--UseInformationObject:Locations -->
+<div class="tab-pane" id="tab-activities-content"><?php include'../oip-modules-views/oip-module-activities-content-view.txt' ?></div><!--UseInformationObject:GroupContent -->
+<div class="tab-pane" id="tab-activities-statistics"><?php include'../oip-modules-views/oip-module-activities-statistics-view.txt' ?></div><!--UseInformationObject:GroupStatistics -->
+</div>
+<!-- end oip-module-activities-view.txt -->

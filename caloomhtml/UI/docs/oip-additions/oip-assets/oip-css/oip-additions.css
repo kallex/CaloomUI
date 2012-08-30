@@ -258,3 +258,8 @@ ul.index li li{
 	padding: 4px;
 	list-style-type: none;
 }
+
+div.controls.hierarchy label:first-child {
+	font-weight: bold;
+	font-size: 110%;
+}

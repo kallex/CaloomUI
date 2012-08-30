@@ -6,27 +6,27 @@
 				<div class="controls">
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> Anne</a>
+						<a data-toggle="modal" href="#collaborator-profile"> Anne</a>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-						<a data-toggle="modal" href="#ChangeModerator"> Andrew</a><span class="help-inline" style="color:#468847;">Moderator</span>
+						<a data-toggle="modal" href="#collaborator-profile"> Andrew</a><span class="help-inline" style="color:#468847;">Moderator</span>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> Rahim</a>
+						<a data-toggle="modal" href="#collaborator-profile"> Rahim</a>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#ChangeModerator"> Riina</a>
+						<a data-toggle="modal" href="#collaborator-profile"> Riina</a>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-						<a data-toggle="modal" href="#ChangeModerator"> Sujil</a><span class="help-inline" style="color:#468847;">Moderator</span>
+						<a data-toggle="modal" href="#collaborator-profile"> Sujil</a><span class="help-inline" style="color:#468847;">Moderator</span>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-						<a data-toggle="modal" href="#ChangeModerator"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span>
+						<a data-toggle="modal" href="#collaborator-profile"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span>
 					</label>
 					<p class="help-block"><strong>Note:</strong> Moderators cannot remove other moderators unless you are the initiator of this group. In this example you ar not the initiator but your are a moderator</p>
 				</div>
@@ -44,15 +44,15 @@
 				<div class="controls">
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#"> World Visions Africa Unit</a>
+						<a data-toggle="modal" href="#collaborator-profile"> World Visions Africa Unit</a>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#"> Nokia's Innovation Platform</a>
+						<a data-toggle="modal" href="#collaborator-profile"> Nokia's Innovation Platform</a>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#"> Ushahidi code dev team</a>
+						<a data-toggle="modal" href="#collaborator-profile"> Ushahidi code dev team</a>
 					</label>
 				</div>
 			</div>
@@ -69,15 +69,15 @@
 				<div class="controls">
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#"> World Vision</a>
+						<a data-toggle="modal" href="#collaborator-profile"> World Vision</a>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#"> Tekes</a>
+						<a data-toggle="modal" href="#collaborator-profile"> Tekes</a>
 					</label>
 					<label class="checkbox">
 						<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-						<a data-toggle="modal" href="#"> MFA</a>
+						<a data-toggle="modal" href="#collaborator-profile"> MFA</a>
 					</label>
 				</div>
 			</div>
@@ -112,36 +112,16 @@
 </div>
 
 <!-- modals -->
-<div id="Moderator" class="modal hide fade">
+<div id="collaborator-profile" class="modal hide fade">
 	<div class="modal-header">
-		<button class="close" data-dismiss="modal">&times;</button>
-		<h2 class="title">Change Moderator</h2>
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Moderator's profile 
+		</h2>
 	</div>
 	<div class="modal-body">
-		<form method="post" class="form-horizontal">
-			<fieldset>
-				<div class="control-group">
-					<label class="control-label" for="multiSelect">Assign Moderator Role to:</label>
-					<div class="controls">
-						<select multiple="multiple" id="multiSelect">
-							<option>Anne</option>
-							<option>Riina</option>
-							<option>Andrew</option>
-							<option>Rahim</option>
-							<option>Sujil</option>
-						</select>
-					</div>
-				</div>
-				<div class="control-group">
-					<label class="control-label" for="input01">Invite other to be the moderator</label>
-					<div class="controls">
-						<input name="Title" class="span4" id="input01" type="text" placeholder="start typing name or email address">
-					</div>
-				</div>
-				<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-			</fieldset>
-			suggest to someone
-		</form>
+<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
 	</div>
 </div>
+
 <!-- end modals -->
