@@ -4,22 +4,21 @@
 			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand active" href="oip-layout-default.phtml">Aalto Global Impact</a> 
 			<div class="nav-collapse">
 				<ul class="nav">
-					<li> <a href="oip-layout-map-view.phtml"> Map <span class="new">4 </a> 
-					</li>
-					<li class="next-phase"><a href="oip-layout-calendar-view.phtml">Calendar <span class="new">2</span></a><!-- UseInformationObject:CalendarModule -->
-						<span><a href="oip-layouts/oip-layout-calendar-edit.phtml">[Edit]</a></span>
-					</li>
-					<li><a href="oip-layout-blog-view.phtml">Blog <span class="new">5</span></a>
-						<span><a href="oip-layouts/oip-layout-blog-edit.phtml">[Edit]</a></span>
-					</li>
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities <span class="new">1</span> <b class="caret"></b> </a><!-- UseInformationObject:ActivitiesModule -->
+					<li> <a href="oip-layout-map-view.phtml"> Map <span class="new">4 </a> </li>
+					<li class="next-phase"><a href="oip-layout-calendar-view.phtml">Calendar <span class="new">2</span></a>
+<!-- UseInformationObject:CalendarModule -->
+					<span><a href="oip-layouts/oip-layout-calendar-edit.phtml">[Edit]</a></span> </li>
+					<li><a href="oip-layout-blog-view.phtml">Blog <span class="new">5</span></a> <span><a href="oip-layouts/oip-layout-blog-edit.phtml">[Edit]</a></span> </li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities <span class="new">1</span> <b class="caret"></b> </a>
+<!-- UseInformationObject:ActivitiesModule -->
 					<ul class="dropdown-menu">
 						<li><a href="oip-layout-activities-view.phtml">Activities View</a></li>
 						<li class="divider"></li>
 						<li><a href="oip-layout-activities-edit.phtml">Activities Edit</a></li>
 					</ul>
 					</li>
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups <span class="new">1</span> <b class="caret"></b> </a><!-- UseInformationObject:GroupsModule -->
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups <span class="new">1</span> <b class="caret"></b> </a>
+<!-- UseInformationObject:GroupsModule -->
 					<ul class="dropdown-menu">
 						<li><a href="oip-layout-groups-view.phtml">Groups view</a></li>
 						<li class="divider"></li>
@@ -34,25 +33,21 @@
 					<li><a href="oip-layouts/oip-layout-about.phtml">About</a></li>
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<b class="caret"></b></a> 
 					<ul class="dropdown-menu">
-					<form method="post" class="navbar-form well" style="margin-bottom:2px">
-						<input type="text" class="input-small" placeholder="Email">
-						<input type="password" class="input-small" placeholder="Password">
-						<button type="submit" class="btn btn-mini">Sign in</button> 
-					</form>
-				<ul class="socialUI">
-					<li><i class="icon-oip-openid"></i></li>
-					<li><i class="icon-oip-google"></i></li>
-					<li><i class="icon-oip-twitter"></i></li>
-					<li><i class="icon-oip-wordpress"></i></li>
-					<li><i class="icon-oip-facebook"></i></li>
+				<ul style="list-style-type: none;">
+					<li><a href="#"><i class="icon-oip-openid"></i>OpenID</a></li>
+					<li><a href="#"><i class="icon-oip-google"></i>Google</a></li>
+					<li><a href="#"><i class="icon-oip-twitter"></i>Twitter</a></li>
+					<li><a href="#"><i class="icon-oip-wordpress"></i>WordPress</a></li>
+					<li><a href="#"><i class="icon-oip-facebook"></i>Facebook</a></li>
 				</ul>
 			</ul>
 			</li>
-			<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a><!-- UseInformationObject:AccountModule -->
+			<li><a href="#">Sign Out</a></li>
+			<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a>
+<!-- UseInformationObject:AccountModule -->
 			<ul class="dropdown-menu">
 				<li><a href="oip-layout-account-edit.phtml">My Account</a></li>
 				<li class="divider"></li>
-				<li><a href="#">Sign Out</a></li>
 			</ul>
 			</li>
 		</ul>
