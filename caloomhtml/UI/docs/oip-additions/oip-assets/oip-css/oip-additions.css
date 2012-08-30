@@ -267,15 +267,24 @@ div.controls.hierarchy label:first-child {
 div.focus-introduction p, div.row-summary p {
 	font-size: 130%;
 	color: #626262;
-	padding-right: 30px;
-	padding-left: 30px;
+	padding-left: 0;
 	line-height: 130%;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
+	padding-right: 0;
+	margin-left: -30px;
 }
 div.row-summary p {
 	margin-top: 10px;
 	font-size: 100%;
 }
+
+div.row-summary .hero-unit-footer{
+	padding: 0;
+}
+div.row-summary .hero-unit .btn, hero-unit-footer {
+margin-left: 40%;
+margin-right: 40%;}
+
 div.mini-view {
 	padding-right: 30px;
 	padding-left: 30px;

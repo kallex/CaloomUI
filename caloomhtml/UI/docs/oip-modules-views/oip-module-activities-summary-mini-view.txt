@@ -8,7 +8,7 @@
 </div>
 <div class="row-fluid">
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/60/60/lake" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon thumbnail" src="http://flickholdr.com/120/120/lake" alt="Placeholder image from flickholdr.com" />
 		<a hre="#"><h3>
 			The Knights Who Say Ni demand a sacrifice! 
 		</h2></a>
@@ -17,60 +17,16 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/60/60/lake/2" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon thumbnail" src="http://flickholdr.com/120/120/lake/2" alt="Placeholder image from flickholdr.com" />
 		<a hre="#"><h3>
 			Am I right? 
 		</h2></a>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/60/60/lake/3" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon thumbnail" src="http://flickholdr.com/120/120/lake/3" alt="Placeholder image from flickholdr.com" />
 		<a hre="#"><h3>
 			Sir Lancelot 
 		</h2></a>
 	</div>
 </div>
-<div class="row-fluid">
-	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/60/60/lake/4" alt="Placeholder image from flickholdr.com" />
-		<a hre="#"><h3>
-			First shalt thou take out the Holy Pin 
-		</h2></a>
-	</div>
-	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/60/60/lake/5" alt="Placeholder image from flickholdr.com" />
-		<a hre="#"><h3>
-			First shalt thou take out the Holy Pin 
-		</h2></a>
-		<p>
-			<span class="badge">Category 1</span> <span class="badge">Category 2</span> <span class="badge">Category 3!</span> <span class="badge">Category 4</span> 
-		</p>
-	</div>
-	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/60/60/grass/6" alt="Placeholder image from flickholdr.com" />
-		<a hre="#"><h3>
-			Blue. No, yel&hellip; 
-		</h2></a>
-	</div>
-</div>
-<div class="row-fluid">
-	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/60/60/grass/11" alt="Placeholder image from flickholdr.com" />
-		<a hre="#"><h3>
-			The Knights Who Say Ni demand a sacrifice! 
-		</h2></a>
-	</div>
-	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/60/60/grass/8" alt="Placeholder image from flickholdr.com" />
-		<a hre="#"><h3>
-			The Knights Who Say Ni demand a sacrifice! 
-		</h2></a>
-	</div>
-	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/60/60/grass/9" alt="Placeholder image from flickholdr.com" />
-		<a hre="#"><h3>
-			Blue. No, yel&hellip; 
-		</h2></a>
-	</div>
-</div>
-
 <!-- end oip-module-activities-summary-mini-view.txt -->
