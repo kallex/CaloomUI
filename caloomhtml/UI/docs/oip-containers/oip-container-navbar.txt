@@ -12,6 +12,7 @@
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities <span class="new">1</span> <b class="caret"></b> </a>
 <!-- UseInformationObject:ActivitiesModule -->
 					<ul class="dropdown-menu">
+						<li><a href="oip-layout-activities-summary-view.phtml">Activities Summary</a></li>
 						<li><a href="oip-layout-activities-view.phtml">Activities View</a></li>
 						<li class="divider"></li>
 						<li><a href="oip-layout-activities-edit.phtml">Activities Edit</a></li>
@@ -20,6 +21,7 @@
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups <span class="new">1</span> <b class="caret"></b> </a>
 <!-- UseInformationObject:GroupsModule -->
 					<ul class="dropdown-menu">
+						<li><a href="oip-layout-groups-summary-view.phtml">Groups summary</a></li>
 						<li><a href="oip-layout-groups-view.phtml">Groups view</a></li>
 						<li class="divider"></li>
 						<li><a href="oip-layout-groups-edit.phtml">Groups Edit</a></li>
