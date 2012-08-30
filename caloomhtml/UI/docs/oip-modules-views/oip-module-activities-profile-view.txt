@@ -2,6 +2,14 @@
 <div id="group-profile" class="span7" style=";margin-top:10px">
 	<div class="view-group">
 		<p class="view-label">
+			Activity main Photo 
+		</p>
+		<p class="view-content">
+			<img class="thumbnail" src="http://flickholdr.com/120/120/lake" alt="Placeholder image from flickholdr.com" /> 
+		</p>
+	</div>
+	<div class="view-group">
+		<p class="view-label">
 			Activity name 
 		</p>
 		<p class="view-content">
@@ -21,9 +29,7 @@
 			Moderator(s) 
 		</p>
 		<p class="view-content">
-		<a data-toggle="modal" href="#collaborator-profile-anne"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span><br>
-		<a data-toggle="modal" href="#collaborator-profile-anne"> Sujil</a><br>
-		<a data-toggle="modal" href="#collaborator-profile-anne"> Andew</a><br>
+			<a data-toggle="modal" href="#collaborator-profile-anne"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span><br> <a data-toggle="modal" href="#collaborator-profile-anne"> Sujil</a><br> <a data-toggle="modal" href="#collaborator-profile-anne"> Andew</a><br> 
 		</p>
 	</div>
 </div>
