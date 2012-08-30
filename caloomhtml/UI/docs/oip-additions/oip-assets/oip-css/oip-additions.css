@@ -276,6 +276,21 @@ div.row-summary p {
 	margin-top: 10px;
 	font-size: 100%;
 }
+div.mini-view {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+div.mini-view img {
+float: left;
+margin: 0 10px 10px 0;
+opacity: .8;
+}
+
+div.mini-view p {
+	float: left;
+}
+
 .footer {
 	border-style: none;
 	margin-top: 10px;

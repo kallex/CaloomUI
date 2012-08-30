@@ -1,4 +1,4 @@
-<!-- oip-layout-default-view.txt -->
+<!-- oip-layout-map-view.phtml -->
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
@@ -13,9 +13,10 @@
 	<section id=""> 
 <!-- container -->
 	<div id="focus" class="container marketing well" style="margin-top:0px;background-color:white">
-<?php include '../oip-containers/oip-container-default-focus-view.txt' ?><!-- UseInformationObjectAsRoot:DefaultFocusViewCollection-->
+<?php include '../oip-containers/oip-container-map-focus-view.txt' ?><!-- UseInformationObjectAsRoot:MapFocusViewCollection-->
 	</div>
 	<div id="summary" class="container">
+<?php include '../oip-containers/oip-container-groups-summary-mini-view.txt' ?><!--UseInformationObjectAsRoot:FooterContainer  -->
 <!-- required -->
 <?php include '../oip-containers/oip-container-footer.txt' ?><!--UseInformationObjectAsRoot:FooterContainer  -->
 	</div>
@@ -28,4 +29,4 @@
 <!-- end javascript -->
 </body>
 </html>
-<!-- end oip-layout-default-view.txt -->
+<!-- end oip-layout-map-view.phtml -->
