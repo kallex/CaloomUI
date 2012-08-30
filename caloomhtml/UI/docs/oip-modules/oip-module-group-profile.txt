@@ -36,7 +36,7 @@
 				<div class="controls">
 					<label class="checkbox"> 
 					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-					<a data-toggle="modal" href="#user-profile"> Bruce </a><span class="new"><i class="icon-star icon-white"></i></span> </label> 
+					<a data-toggle="modal" href="#user-profile"> Bruce </a><span class="badge badge-important"><i class="icon-star icon-white"></i></span> </label> 
 				</div>
 			</div>
 			<div id="permissions" class="control-group">

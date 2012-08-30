@@ -1,11 +1,11 @@
 <!-- oip-module-map.txt -->
 <section id="maps" style="position:relative"> 
 <ul class="nav nav-tabs" style="margin-bottom:0px">
-	<li class="active"><a href="#tab-events" data-toggle="tab">Europe Events <span class="new">4</span></a></li>
+	<li class="active"><a href="#tab-events" data-toggle="tab">Europe Events <span class="badge badge-important">4</span></a></li>
 	<li><a href="#tab-courses" data-toggle="tab">South America Courses</a></li>
-	<li><a href="#tab-meetings" data-toggle="tab">Asia Meetings <span class="new">5</span></a></li>
-	<li><a href="#tab-projects" data-toggle="tab">Africa Projects <span class="new">1</span></a></li>
-	<li><a href="#tab-research" data-toggle="tab">Nordic Research <span class="new">2</span></a></li>
+	<li><a href="#tab-meetings" data-toggle="tab">Asia Meetings <span class="badge badge-important">5</span></a></li>
+	<li><a href="#tab-projects" data-toggle="tab">Africa Projects <span class="badge badge-important">1</span></a></li>
+	<li><a href="#tab-research" data-toggle="tab">Nordic Research <span class="badge badge-important">2</span></a></li>
 	<li><a href="#tab-add" data-toggle="tab"><i>Add another map</i></a></li>
 </ul>
 <div class="tab-content tab-border">

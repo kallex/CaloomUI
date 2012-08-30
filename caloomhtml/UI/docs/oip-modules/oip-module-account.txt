@@ -4,7 +4,7 @@
 	<li><a href="#tab-roles" data-toggle="tab">Roles</a></li>
 	<li><a href="#tab-locations" data-toggle="tab">Locations</a></li>
 	<li><a href="#tab-locations-add" data-toggle="tab">Add location</a></li>
-	<li><a href="#tab-activities" data-toggle="tab">My activities <span class="new">1</span></a></li>
+	<li><a href="#tab-activities" data-toggle="tab">My activities <span class="badge badge-important">1</span></a></li>
 	<li><a href="#tab-skills" data-toggle="tab" class="next-phase">Skills</a></li>
 	<li><a href="#tab-my-content" data-toggle="tab" class="next-phase">My content</a></li>
 	<li><a href="#tab-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>

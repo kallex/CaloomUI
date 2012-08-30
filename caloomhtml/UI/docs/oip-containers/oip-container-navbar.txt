@@ -4,12 +4,11 @@
 			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand active" href="oip-layout-default-view.phtml">Aalto Global Impact</a> 
 			<div class="nav-collapse">
 				<ul class="nav">
-					<li> <a href="oip-layout-map-view.phtml"> Map <span class="new">4 </a> </li>
-					<li class="next-phase"><a href="oip-layout-calendar-view.phtml">Calendar <span class="new">2</span></a> 
+					<li> <a href="oip-layout-map-view.phtml"> Map <span class="badge badge-important">4 </a> </li>
+					<li class="next-phase"><a href="oip-layout-calendar-view.phtml">Calendar <span class="badge badge-important">2</span></a> 
 <!-- UseInformationObject:CalendarModule -->
-					<span><a href="oip-layouts/oip-layout-calendar-edit.phtml">[Edit]</a></span> </li>
-					<li><a href="oip-layout-blog-view.phtml">Blog <span class="new">5</span></a> <span><a href="oip-layouts/oip-layout-blog-edit.phtml">[Edit]</a></span> </li>
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities <span class="new">1</span> <b class="caret"></b> </a> 
+					<li><a href="oip-layout-blog-view.phtml">Blog <span class="badge badge-important">5</span></a></li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities <span class="badge badge-important">1</span> <b class="caret"></b> </a> 
 <!-- UseInformationObject:ActivitiesModule -->
 					<ul class="dropdown-menu">
 						<li><a href="oip-layout-activities-summary-view.phtml">Activities Summary</a></li>
@@ -18,7 +17,7 @@
 						<li><a href="oip-layout-activities-edit.phtml">Activities Edit</a></li>
 					</ul>
 					</li>
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups <span class="new">1</span> <b class="caret"></b> </a> 
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups <span class="badge badge-important">1</span> <b class="caret"></b> </a> 
 <!-- UseInformationObject:GroupsModule -->
 					<ul class="dropdown-menu">
 						<li><a href="oip-layout-groups-summary-view.phtml">Groups summary</a></li>

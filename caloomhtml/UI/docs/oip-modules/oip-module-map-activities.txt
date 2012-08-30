@@ -8,19 +8,19 @@
 	<div class="tab-pane active" id="tab-activities">
 		<div style="margin-bottom:8px;border-bottom-color: 
 rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
-			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="new">1</span>
+			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="badge badge-important">1</span>
 		</div>
 		<div style="margin-bottom:8px;border-bottom-color: 
 rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
-			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="new">1</span>
+			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="badge badge-important">1</span>
 		</div>
 		<div style="margin-bottom:8px;border-bottom-color: 
 rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
-			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="new">1</span>
+			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="badge badge-important">1</span>
 		</div>
 		<div style="margin-bottom:8px;border-bottom-color: 
 rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">
-			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="new">1</span>
+			<a href="#">Result 1Result 1Result 1Result 1Result 1Result 1</a> <span class="badge badge-important">1</span>
 		</div>
 		<div style="margin-bottom:8px;border-bottom-color: 
 rgb(230, 230, 230);border-bottom-style:solid; border-width: 1px;padding-bottom:4px;">

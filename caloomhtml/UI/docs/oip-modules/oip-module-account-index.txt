@@ -9,7 +9,7 @@
          <dd><a href="#">Identity</a></dd>
        <dd><a href="#">Roles</a></dd>
         <dd><a href="#">Locations b</a></dd>
-       <dd><a href="#">My Projects <span class="new">1</span></a></dd>
+       <dd><a href="#">My Projects <span class="badge badge-important">1</span></a></dd>
 </dl>
 	<p class="atomized">[!ATOM]Summary[ATOM!]</p>
 </div>
