@@ -1,5 +1,7 @@
 <!-- oip-module-footer.txt -->
 <div class="atomized">
-	<p>This is the module footer text</p>
+	<p>
+		We found them. Be quiet! We shall say 'Ni' again to you, if you do not appease us. Shut up! Will you shut up?!. Where'd you get the coconuts? Well, I got better. &hellip;Are you suggesting that coconuts migrate? Now, look here, my good man. 
+	</p>
 </div>
 <!-- end oip-module-footer.txt -->

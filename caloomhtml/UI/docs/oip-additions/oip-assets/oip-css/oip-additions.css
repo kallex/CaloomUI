@@ -263,3 +263,21 @@ div.controls.hierarchy label:first-child {
 	font-weight: bold;
 	font-size: 110%;
 }
+
+div.focus-introduction p, div.row-summary p {
+	font-size: 130%;
+	color: #626262;
+	padding-right: 30px;
+	padding-left: 30px;
+	line-height: 130%;
+	padding-bottom: 30px;
+}
+div.row-summary p {
+	margin-top: 10px;
+	font-size: 100%;
+}
+.footer {
+	border-style: none;
+	margin-top: 10px;
+	padding-top: 10px;
+}
