@@ -36,11 +36,11 @@
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<b class="caret"></b></a> 
 					<ul class="dropdown-menu">
 				<ul style="list-style-type: none;">
-					<li><a href="#"><i class="icon-oip-openid"></i>OpenID</a></li>
-					<li><a href="#"><i class="icon-oip-google"></i>Google</a></li>
-					<li><a href="#"><i class="icon-oip-twitter"></i>Twitter</a></li>
-					<li><a href="#"><i class="icon-oip-wordpress"></i>WordPress</a></li>
-					<li><a href="#"><i class="icon-oip-facebook"></i>Facebook</a></li>
+					<li><a href="/TheBallLogin.aspx?idprovider=openid"><i class="icon-oip-openid"></i>OpenID</a></li>
+					<li><a href="/TheBallLogin.aspx?idprovider=google"><i class="icon-oip-google"></i>Google</a></li>
+					<li><a href="/TheBallLogin.aspx?idprovider=twitter"><i class="icon-oip-twitter"></i>Twitter</a></li>
+					<li><a href="/TheBallLogin.aspx?idprovider=wordpress"><i class="icon-oip-wordpress"></i>WordPress</a></li>
+					<li><a href="/TheBallLogin.aspx?idprovider=facebook"><i class="icon-oip-facebook"></i>Facebook</a></li>
 				</ul>
 			</ul>
 			</li>
