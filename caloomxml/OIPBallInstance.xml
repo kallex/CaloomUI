@@ -1,8 +1,207 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
+<TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../TheBallCoreABS/TheBallCore/Content_v1_0/TheBallCore_v1_0.xsd">
 	<InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
 		<InformationModel>
-<!-- Containers -->
+      <!-- Collaborators, Collaboration Groups, Organizations -->
+      <!-- Storage Roots -->
+      <InformationObject name="TBRLoginRoot" designDesc="Login root for LoginID">
+        <InformationItems>
+          <InformationItem name="Account" logicalDataType="InformationObject" informationObjectName="TBAccount"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBRAccountRoot" designDesc="Account root for AccountID">
+        <InformationItems>
+          <InformationItem name="Account" logicalDataType="InformationObject" informationObjectName="TBAccount"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBRGroupRoot" designDesc="Root for Collaboration groups">
+        <InformationItems>
+          <InformationItem name="Group" logicalDataType="InformationObject" informationObjectName="TBCollaboratingGroup"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBRLoginGroupRoot" designDesc="Login and group root">
+        <InformationItems>
+          <InformationItem name="Role" logicalDataType="Text_Short" />
+          <InformationItem name="GroupID" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBREmailRoot" designDesc="Root for email address">
+        <InformationItems>
+          <InformationItem name="Account" logicalDataType="InformationObject" informationObjectName="TBAccount" />
+        </InformationItems>
+      </InformationObject>
+      
+      <!-- Storage Objects-->
+      <InformationObject name="TBAccount" designDesc="Account bringing logins and emails together">
+        <InformationItems>
+          <InformationItem name="Emails" logicalDataType="InformationObject" informationObjectName="TBEmailCollection"/>
+          <InformationItem name="Logins" logicalDataType="InformationObject" informationObjectName="TBLoginInfoCollection"/>
+          <InformationItem name="GroupRoleCollection" logicalDataType="InformationObject" informationObjectName="TBAccountCollaborationGroupCollection"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBAccountCollaborationGroup" designDesc="Account collaboration group">
+        <InformationItems>
+          <InformationItem name="GroupID" logicalDataType="Text_Short" />
+          <InformationItem name="GroupRole" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBAccountCollaborationGroupCollection" designDesc="Account collaborating group collection">
+        <CollectionFor contentInformationObjectName="TBAccountCollaborationGroup" />
+      </InformationObject>
+      <InformationObject name="TBLoginInfo" designDesc="Unique identifying authentication info">
+        <InformationItems>
+          <InformationItem name="OpenIDUrl" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBLoginInfoCollection" designDesc="Collection of login infos">
+        <CollectionFor contentInformationObjectName="TBLoginInfo"/>
+      </InformationObject>
+      <InformationObject name="TBEmail" designDesc="Email Address">
+        <InformationItems>
+          <InformationItem name="EmailAddress" logicalDataType="Text_Short"/>
+          <InformationItem name="ValidatedAt" logicalDataType="Time_DateTime"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBEmailCollection" designDesc="Collection of emails">
+        <CollectionFor contentInformationObjectName="TBEmail"/>
+      </InformationObject>
+      <InformationObject name="TBCollaboratorRole" designDesc="Colaborator acting in certain role">
+        <InformationItems>
+          <InformationItem name="Email" logicalDataType="InformationObject" informationObjectName="TBEmail"/>
+          <InformationItem name="Role" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBCollaboratorRoleCollection" designDesc="Collection of collaborator roles">
+        <CollectionFor contentInformationObjectName="TBCollaboratorRole"/>
+      </InformationObject>
+      <InformationObject name="TBCollaboratingGroup" designDesc="Collaborating group">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short"/>
+          <InformationItem name="Roles" logicalDataType="InformationObject" informationObjectName="TBCollaboratorRoleCollection"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="TBEmailValidation" designDesc="Email validation object">
+        <InformationItems>
+          <InformationItem name="Email" logicalDataType="Text_Short" />
+          <InformationItem name="AccountID" logicalDataType="Text_Short"/>
+          <InformationItem name="ValidUntil" logicalDataType="Time_DateTime" />
+        </InformationItems>
+      </InformationObject>
+
+      <!-- Process Objects -->
+      <InformationObject name="TBPRegisterEmail" designDesc="Process object for registering email">
+        <InformationItems>
+          <InformationItem name="EmailAddress" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      
+      <!-- Account/Group/Profile Pages -->
+
+      <InformationObject name="AccountContainer" designDesc="User account, centralized point for all">
+        <InformationItems>
+          <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader" />
+          <InformationItem name="AccountIndex" logicalDataType="InformationObject" informationObjectName="AccountIndex"/>
+          <InformationItem name="AccountModule" logicalDataType="InformationObject" informationObjectName="AccountModule"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AccountIndex" designDesc="Account index">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short"/>
+          <InformationItem name="Introduction" logicalDataType="Text_Long"/>
+          <InformationItem name="Summary" logicalDataType="Text_Long"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AccountModule" designDesc="Account module level information">
+        <InformationItems>
+          <InformationItem name="AccountIdentity" logicalDataType="InformationObject" informationObjectName="AccountProfile"/>
+          <InformationItem name="AccountRoles" logicalDataType="InformationObject" informationObjectName="AccountRoles"/>
+          <InformationItem name="AccountSkills" logicalDataType="InformationObject" informationObjectName="AccountSkills"/>
+          <InformationItem name="AccountLocations" logicalDataType="InformationObject" informationObjectName="AccountLocations"/>
+          <InformationItem name="AccountStatistics" logicalDataType="InformationObject" informationObjectName="AccountStatistics"/>
+          <InformationItem name="AccountProjects" logicalDataType="InformationObject" informationObjectName="AccountProjects"/>
+          <InformationItem name="AccountContent" logicalDataType="InformationObject" informationObjectName="AccountContent"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AccountStatistics" designDesc="Designed later">
+        <InformationItems>
+          <InformationItem name="Dummy" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AccountSkills" designDesc="Designed later">
+        <InformationItems>
+          <InformationItem name="Dummy" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AccountProjects" designDesc="Designed later">
+        <InformationItems>
+          <InformationItem name="Dummy" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="AccountLocations" designDesc="Designed later">
+        <InformationItems>
+          <InformationItem name="Dummy" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="AccountContent" designDesc="Designed later">
+        <InformationItems>
+          <InformationItem name="Dummy" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AccountProfile" designDesc="Account profile">
+        <InformationItems>
+          <!-- TODO IMAGE HANDLING -->
+          <!--
+          <InformationItem name="Photo" logicalDataType="InformationObject" informationObjectName="ProfilePhoto"/>
+          -->
+          <InformationItem name="FirstName" logicalDataType="Text_Short"/>
+          <InformationItem name="LastName" logicalDataType="Text_Short"/>
+          <InformationItem name="EmailAddress" logicalDataType="Text_Short"/>
+          <InformationItem name="Street" logicalDataType="Text_Short"/>
+          <InformationItem name="ZipCode" logicalDataType="Text_Short"/>
+          <InformationItem name="Town" logicalDataType="Text_Short"/>
+          <InformationItem name="Country" logicalDataType="Text_Short"/>
+          <InformationItem name="PersonalInfoVisibility" logicalDataType="InformationObject" informationObjectName="PersonalInfoVisibility"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AccountRoles" designDesc="Account roles">
+        <InformationItems>
+          <InformationItem name="ModeratorInGroups" logicalDataType="InformationObject" informationObjectName="ReferenceCollection"/>
+          <InformationItem name="MemberInGroups" logicalDataType="InformationObject" informationObjectName="ReferenceCollection"/>
+          <InformationItem name="MemberInOrganizations" logicalDataType="InformationObject" informationObjectName="ReferenceCollection"/>
+          <InformationItem name="FollowingGroups" logicalDataType="InformationObject" informationObjectName="ReferenceCollection"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="PersonalInfoVisibility" designDesc="Personal information visibility">
+        <InformationItems>
+          <InformationItem name="NoOne_Network_All" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      
+      
+      <!-- End of Account/Group/Profile -->
+      
+      <!-- Generic stuff -->
+      <InformationObject name="ReferenceToInformation" designDesc="Reference to information">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short"/>
+          <InformationItem name="URL" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="ReferenceCollection" designDesc="Collection of references">
+        <CollectionFor contentInformationObjectName="ReferenceToInformation"/>
+      </InformationObject>
+      
+			<!-- Containers -->
 			<InformationObject name="BlogContainer" designDesc="">
 				<InformationItems>
 					<InformationItem name="BlogContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
@@ -11,13 +210,18 @@
 					<InformationItem name="BlogIndexCollection" informationObjectName="IndexCollection" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
-			<InformationObject name="MapContainer" designDesc=""><!-- this is the highest level and this collects the "modules" that are used in the container -->
+			<InformationObject name="MapContainer" designDesc="">
+				<!-- this is the highest level and this collects the "modules" that are used in the container -->
 				<InformationItems>
 					<InformationItem name="MapContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
-					<InformationItem name="MapFeatured" informationObjectName="Map" logicalDataType="InformationObject"/><!-- this is the first shown map in a collection or the ony single map on e.g. a secondary layout where the map is the focal point -->
-					<InformationItem name="MapCollection" informationObjectName="MapCollection" logicalDataType="InformationObject"/><!-- these can be tabs, a carousel or some other collector that contains more than 1 map-->
-					<InformationItem name="MapResultCollection" informationObjectName="MapResultCollection" logicalDataType="InformationObject"/><!-- this is the result list of an individual map -->
-					<InformationItem name="MapIndexCollection" informationObjectName="MapIndexCollection" logicalDataType="InformationObject"/><!-- this is an index of other possible maps -->
+					<InformationItem name="MapFeatured" informationObjectName="Map" logicalDataType="InformationObject"/>
+					<!-- this is the first shown map in a collection or the ony single map on e.g. a secondary layout where the map is the focal point -->
+					<InformationItem name="MapCollection" informationObjectName="MapCollection" logicalDataType="InformationObject"/>
+					<!-- these can be tabs, a carousel or some other collector that contains more than 1 map-->
+					<InformationItem name="MapResultCollection" informationObjectName="MapResultCollection" logicalDataType="InformationObject"/>
+					<!-- this is the result list of an individual map -->
+					<InformationItem name="MapIndexCollection" informationObjectName="MapIndexCollection" logicalDataType="InformationObject"/>
+					<!-- this is an index of other possible maps -->
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="CalendarContainer" designDesc="">
@@ -36,7 +240,7 @@
 					<InformationItem name="AboutIndexCollection" informationObjectName="CalendarIndex" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
-			<InformationObject name="AccountContainer" designDesc="">
+			<InformationObject name="OBSAccountContainer" designDesc="">
 				<InformationItems>
 					<InformationItem name="AccountContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
 					<InformationItem name="AccountFeatured" informationObjectName="Calendar" logicalDataType="InformationObject"/>
@@ -60,22 +264,19 @@
 					<InformationItem name="CourseIndexCollection" informationObjectName="CalendarIndex" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
-<!-- end Containers -->
-
-
-<!-- Atoms and Modules -->
-
+			<!-- end Containers -->
+			<!-- Atoms and Modules -->
 			<InformationObject name="ContainerHeader" designDesc="">
 				<InformationItems>
-					<InformationItem name="Title"  logicalDataType="Text_Short"/>
-					<InformationItem name="SubTitle" logicalDataType="Text_Short" />
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+					<InformationItem name="SubTitle" logicalDataType="Text_Short"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="IndexCollection" designDesc="">
 				<InformationItems>
 					<InformationItem name="Introduction" logicalDataType="Text_Short"/>
 					<InformationItem name="Summary" logicalDataType="Text_Short"/>
-          <!--
+					<!--
 					<InformationItem name="ByDate" informationObjectName="ByDate" logicalDataType="InformationObject"/>
 					<InformationItem name="ByAuthor" informationObjectName="ByAuthor" logicalDataType="InformationObject"/>
 					<InformationItem name="ByCategory" informationObjectName="ByCategory" logicalDataType="InformationObject"/>
@@ -83,101 +284,97 @@
           -->
 				</InformationItems>
 			</InformationObject>
-			
-<!-- end Atoms and Modules -->			
+			<!-- end Atoms and Modules -->
 			<InformationObject name="BlogCollection" designDesc="">
-					<CollectionFor contentInformationObjectName="Blog" />
+				<CollectionFor contentInformationObjectName="Blog"/>
 			</InformationObject>
 			<InformationObject name="Blog" designDesc="Individual Blog">
-					<InformationItems>
-						<InformationItem name="Title" logicalDataType="Text_Short"/><!--I can't imagine this is correct -->
-						<InformationItem name="SubTitle" logicalDataType="Text_Short"/>
-						<InformationItem name="Published" logicalDataType="Time_DateTime"/>
-						<InformationItem name="Author" logicalDataType="Text_Short"/>
-						<InformationItem name="ImageGroup" informationObjectName="ImageGroup" logicalDataType="InformationObject" />
-						<InformationItem name="Body" logicalDataType="Text_Short"/>
-						<InformationItem name="Excerpt" logicalDataType="Text_Short"/>
-						<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
-						<InformationItem name="Category" logicalDataType="InformationObject" informationObjectName="Category"/>
-<!-- needed is, category, servicetype description, keywords -->
-						<InformationItem name="SocialPanel" informationObjectName="SocialPanelCollection" logicalDataType="InformationObject" />
-					</InformationItems>
+				<InformationItems>
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+					<!--I can't imagine this is correct -->
+					<InformationItem name="SubTitle" logicalDataType="Text_Short"/>
+					<InformationItem name="Published" logicalDataType="Time_DateTime"/>
+					<InformationItem name="Author" logicalDataType="Text_Short"/>
+					<InformationItem name="ImageGroup" informationObjectName="ImageGroup" logicalDataType="InformationObject"/>
+					<InformationItem name="Body" logicalDataType="Text_Short"/>
+					<InformationItem name="Excerpt" logicalDataType="Text_Short"/>
+					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
+					<InformationItem name="Category" logicalDataType="InformationObject" informationObjectName="Category"/>
+					<!-- needed is, category, servicetype description, keywords -->
+					<InformationItem name="SocialPanel" informationObjectName="SocialPanelCollection" logicalDataType="InformationObject"/>
+				</InformationItems>
 			</InformationObject>
-<!-- should this be a Collection? -->			
+			<!-- should this be a Collection? -->
 			<InformationObject name="BlogIndexCollection" designDesc="Index of Blogs by Date, Location, Author">
 				<InformationItems>
-          <InformationItem name="BlogByDate" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
-          <InformationItem name="BlogByLocation" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
-          <InformationItem name="BlogByAuthor" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
-          <InformationItem name="BlogByCategory" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
+					<InformationItem name="BlogByDate" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
+					<InformationItem name="BlogByLocation" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
+					<InformationItem name="BlogByAuthor" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
+					<InformationItem name="BlogByCategory" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
 				</InformationItems>
 			</InformationObject>
-<!-- should this be a Collection? -->			
-<!-- end Blog -->
-
-      <InformationObject name="CalendarIndex" designDesc="">
-        <InformationItems>
-          <InformationItem name="Title" logicalDataType="Text_Short"/>
-        </InformationItems>
-      </InformationObject>
-
-      <InformationObject name="Filter" designDesc="">
-        <InformationItems>
-          <InformationItem name="Title" logicalDataType="Text_Short"/>
-        </InformationItems>
-      </InformationObject>
-
-      <InformationObject name="Calendar" designDesc="">
-        <InformationItems>
-          <InformationItem name="Title" logicalDataType="Text_Short"/>
-        </InformationItems>
-      </InformationObject>
-
-
-      <InformationObject name="CalendarCollection" designDesc="">
-        <CollectionFor contentInformationObjectName="Calendar" />
-      </InformationObject>
-
-
-      <InformationObject name="Map" designDesc="">
-        <InformationItems>
-          <InformationItem name="Title" logicalDataType="Text_Short"/>
-        </InformationItems>
-      </InformationObject>
-
-
-      <InformationObject name="MapCollection" designDesc="">
-        <CollectionFor contentInformationObjectName="Map" />
-      </InformationObject>
-
-      <!-- Map Services -->
+			<!-- should this be a Collection? -->
+			<!-- end Blog -->
+			<InformationObject name="CalendarIndex" designDesc="">
+				<InformationItems>
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Filter" designDesc="">
+				<InformationItems>
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="Calendar" designDesc="">
+				<InformationItems>
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="CalendarCollection" designDesc="">
+				<CollectionFor contentInformationObjectName="Calendar"/>
+			</InformationObject>
+			<InformationObject name="Map" designDesc="">
+				<InformationItems>
+					<InformationItem name="Title" logicalDataType="Text_Short"/>
+				</InformationItems>
+			</InformationObject>
+			<InformationObject name="MapCollection" designDesc="">
+				<CollectionFor contentInformationObjectName="Map"/>
+			</InformationObject>
+			<!-- Map Services -->
 			<InformationObject name="MapIndexCollection" designDesc="Index of Maps by Date, Location, Author and category">
 				<InformationItems>
-          <InformationItem name="MapByDate" logicalDataType="InformationObject" informationObjectName="MapCollection"/><!-- show me a page of the latest 3 published maps -->
-          <InformationItem name="MapByLocation" logicalDataType="InformationObject" informationObjectName="MapCollection"/><!-- show me a page of maps of either locationA locationB locationC -->
-          <InformationItem name="MapByAuthor" logicalDataType="InformationObject" informationObjectName="MapCollection"/><!-- show me a page of maps where either authorA, authorB, authorC have published something -->
-          <InformationItem name="MapByCategory" logicalDataType="InformationObject" informationObjectName="MapCollection"/><!-- show me a page of maps that include either categoryA, categoryB, categoryC -->
+					<InformationItem name="MapByDate" logicalDataType="InformationObject" informationObjectName="MapCollection"/>
+					<!-- show me a page of the latest 3 published maps -->
+					<InformationItem name="MapByLocation" logicalDataType="InformationObject" informationObjectName="MapCollection"/>
+					<!-- show me a page of maps of either locationA locationB locationC -->
+					<InformationItem name="MapByAuthor" logicalDataType="InformationObject" informationObjectName="MapCollection"/>
+					<!-- show me a page of maps where either authorA, authorB, authorC have published something -->
+					<InformationItem name="MapByCategory" logicalDataType="InformationObject" informationObjectName="MapCollection"/>
+					<!-- show me a page of maps that include either categoryA, categoryB, categoryC -->
 				</InformationItems>
 			</InformationObject>
-      <InformationObject name="MapResult" designDesc="Map result data">
-        <InformationItems>
-          <InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
-        </InformationItems>
-      </InformationObject>
-      <InformationObject name="MapResultCollection" designDesc="">
-        <CollectionFor contentInformationObjectName="MapResult" />
-      </InformationObject>
-      <InformationObject name="MapResultsCollection" designDesc="Results listed by date, time, author, proximity">
+			<InformationObject name="MapResult" designDesc="Map result data">
 				<InformationItems>
-          <InformationItem name="ResultByDate" logicalDataType="InformationObject" informationObjectName="MapResultCollection"/><!-- organize the results by date -->
-          <InformationItem name="ResultByAuthor" logicalDataType="InformationObject" informationObjectName="MapResultCollection"/><!-- organize the results by author -->
-          <InformationItem name="ResultByProximity" logicalDataType="InformationObject" informationObjectName="MapResultCollection"/><!-- organize the results by Proximity -->
+					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
 				</InformationItems>
 			</InformationObject>
-<!-- end Map Services -->
-
-<!-- Calendar -->
-      <!--
+			<InformationObject name="MapResultCollection" designDesc="">
+				<CollectionFor contentInformationObjectName="MapResult"/>
+			</InformationObject>
+			<InformationObject name="MapResultsCollection" designDesc="Results listed by date, time, author, proximity">
+				<InformationItems>
+					<InformationItem name="ResultByDate" logicalDataType="InformationObject" informationObjectName="MapResultCollection"/>
+					<!-- organize the results by date -->
+					<InformationItem name="ResultByAuthor" logicalDataType="InformationObject" informationObjectName="MapResultCollection"/>
+					<!-- organize the results by author -->
+					<InformationItem name="ResultByProximity" logicalDataType="InformationObject" informationObjectName="MapResultCollection"/>
+					<!-- organize the results by Proximity -->
+				</InformationItems>
+			</InformationObject>
+			<!-- end Map Services -->
+			<!-- Calendar -->
+			<!--
 			<InformationObject name="MapIndexCollection" designDesc="Index of Blogs by Date, Location, Author">
 				<InformationItems>
 					<CollectionFor contentInformationObjectName="CalendarByDate" />
@@ -187,48 +384,42 @@
 				</InformationItems>
 			</InformationObject>
       -->
-<!-- end Calendar -->
-
-
+			<!-- end Calendar -->
 			<InformationObject name="Image" designDesc="Image and attributes">
 				<InformationItems>
-          <!--
+					<!--
 					<InformationItem name="ImageData" informationObjectName="ImageVideoSoundVectorRaw" logicalDataType="InformationObject" />
           -->
 					<InformationItem name="Caption" logicalDataType="Text_Short"/>
 					<InformationItem name="ImageAlt" logicalDataType="Text_Short"/>
-					<InformationItem name="Tooltip" informationObjectName="Tooltip" logicalDataType="InformationObject" />
+					<InformationItem name="Tooltip" informationObjectName="Tooltip" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="ImageGroup" designDesc="Group of Images">
 				<InformationItems>
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
 					<InformationItem name="Description" logicalDataType="Text_Short"/>
-					<InformationItem name="ImagesCollection" informationObjectName="ImagesCollection" logicalDataType="InformationObject" />
+					<InformationItem name="ImagesCollection" informationObjectName="ImagesCollection" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="ImagesCollection" designDesc="">
-					<CollectionFor contentInformationObjectName="Image" />
+				<CollectionFor contentInformationObjectName="Image"/>
 			</InformationObject>
 			<InformationObject name="Tooltip" designDesc="Tooltip">
 				<InformationItems>
-					<InformationItem name="TooltipText" logicalDataType="Text_Short" />
+					<InformationItem name="TooltipText" logicalDataType="Text_Short"/>
 				</InformationItems>
 			</InformationObject>
-
-      <InformationObject name="SocialPanelCollection" designDesc="">
-        <CollectionFor contentInformationObjectName="SocialPanel" />
-      </InformationObject>
-
-      <InformationObject name="SocialPanel" designDesc="SocialPanel">
+			<InformationObject name="SocialPanelCollection" designDesc="">
+				<CollectionFor contentInformationObjectName="SocialPanel"/>
+			</InformationObject>
+			<InformationObject name="SocialPanel" designDesc="SocialPanel">
 				<InformationItems>
 					<InformationItem name="SocialFilter" informationObjectName="Filter" logicalDataType="InformationObject"/>
 				</InformationItems>
 			</InformationObject>
-			
-			
 			<InformationObject name="EventCollection" designDesc="">
-					<CollectionFor contentInformationObjectName="Event5W" />
+				<CollectionFor contentInformationObjectName="Event5W"/>
 			</InformationObject>
 			<InformationObject name="MapEventCollection" designDesc="">
 				<InformationItems>
@@ -266,8 +457,8 @@
 			</InformationObject>
 			<InformationObject name="Address" designDesc="Address">
 				<InformationItems>
-					<InformationItem name="StreetName" logicalDataType="Text_Short" />
-					<InformationItem name="BuildingNumber" logicalDataType="Text_Short" />
+					<InformationItem name="StreetName" logicalDataType="Text_Short"/>
+					<InformationItem name="BuildingNumber" logicalDataType="Text_Short"/>
 					<InformationItem name="PostOfficeBox" logicalDataType="Text_Short"/>
 					<InformationItem name="PostalCode" logicalDataType="Text_Short"/>
 					<InformationItem name="Municipality" logicalDataType="Text_Short"/>
@@ -284,12 +475,12 @@
 					<InformationItem name="LastName" logicalDataType="Text_Short"/>
 					<InformationItem name="Initials" logicalDataType="Text_Short"/>
 					<InformationItem name="Sex" logicalDataType="InformationObject" informationObjectName="Sex"/>
-					<InformationItem name="Birthday" logicalDataType="InformationObject" informationObjectName="Date"/>/>
+					<InformationItem name="Birthday" logicalDataType="InformationObject" informationObjectName="Date"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="ImageVideoSoundVectorRaw" designDesc="various content types">
 				<InformationItems>
-					<InformationItem name="Image" logicalDataType="Data_Binary" />
+					<InformationItem name="Image" logicalDataType="Data_Binary"/>
 					<InformationItem name="Video" logicalDataType="Data_Binary"/>
 					<InformationItem name="Sound" logicalDataType="Data_Binary"/>
 					<InformationItem name="Vector" logicalDataType="Text_Long"/>
@@ -322,21 +513,22 @@
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
 					<InformationItem name="Description" logicalDataType="Text_Long"/>
 					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
-          <!--
+					<!--
 					work location
 					birth place
 					school location
 					home location
 					etc
           -->
-					<InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="Address"/>					
+					<InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="Address"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="Whom" designDesc="Whom from 5W core">
 				<InformationItems>
-					<InformationItem name="Identity" logicalDataType="InformationObject" informationObjectName="Identity"/> <!-- is identity better? -->
-					<InformationItem name="ProfileImage" logicalDataType="InformationObject" informationObjectName="ImageVideoSoundVectorRaw"/>					
-					<InformationItem name="BirthDate" logicalDataType="Time_Date"/>					
+					<InformationItem name="Identity" logicalDataType="InformationObject" informationObjectName="Identity"/>
+					<!-- is identity better? -->
+					<InformationItem name="ProfileImage" logicalDataType="InformationObject" informationObjectName="ImageVideoSoundVectorRaw"/>
+					<InformationItem name="BirthDate" logicalDataType="Time_Date"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="Worth" designDesc="Worth from 5W core">
@@ -344,7 +536,7 @@
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
 					<InformationItem name="Description" logicalDataType="Text_Long"/>
 					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
-					<InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="Address"/>					
+					<InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="Address"/>
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="Event5W" designDesc="Event with 5W representation">
@@ -406,7 +598,7 @@
 			</InformationObject>
 			<InformationObject name="IconTitleDescription" designDesc="Generic icon, title, description object">
 				<InformationItems>
-					<InformationItem name="Icon" logicalDataType="Data_Binary" />
+					<InformationItem name="Icon" logicalDataType="Data_Binary"/>
 					<InformationItem name="Title" logicalDataType="Text_Short"/>
 					<InformationItem name="Description" logicalDataType="Text_Long"/>
 				</InformationItems>
@@ -427,35 +619,35 @@
 				<InformationObjectContent fileExtension=".html" originalFileName="WebPage.html"/>
 			</InformationObject>
 		</InformationModel>
-    <Operations>
-      <Operation name="UpdatePageContent">
-        <OperationSpec>
-          <Description/>
-        </OperationSpec>
-        <Parameters>
-          <Parameter dataType="string" name="changedInformation" designDesc="Test" state="underDesign"/>
-        </Parameters>
-        <Execution>
-          <SequentialExecution>
-            <MethodExecute name="UpdatePage" designDesc="Do the update page" state="underDesign"/>
-          </SequentialExecution>
-        </Execution>
-      </Operation>
-    </Operations>
-    <Subscriptions>
-      <Subscription triggeredOperationName="UpdatePageContent">
-        <TriggeringInformationItem itemName="BuiltForAnybodyTitle" objectName="AboutAGIApplications"/>
-        <OperationParameter name="changedInformation" informationItemSource="TriggeringObject" informationObjectName="AboutAGIApplications" informationItemName="BuiltForAnybodyTitle"/>
-      </Subscription>
-    </Subscriptions>
-    <Monitoring>
-      <Monitor monitoringOperationName="UpdatePageContent">
-        <MonitoredInformationItem objectName="AboutAGIApplications" itemName="ForAllPeopleTitle"/>
-        <MonitoringFrequency utcTimeStampToStart="2012-08-13T14:00:00.123456789+02:00">
-          <RegularMonitoringCycle frequencyUnit="Minute" monitorEveryXthOfUnit="15"/>
-        </MonitoringFrequency>
-        <OperationParameter name="changedInformation" informationItemSource="TriggeringObject" informationObjectName="AboutAGIApplications" informationItemName="ForAllPeopleTitle"/>
-      </Monitor>
-    </Monitoring>
-  </InstanceOfTheBall>
+		<Operations>
+			<Operation name="UpdatePageContent">
+				<OperationSpec>
+					<Description/>
+				</OperationSpec>
+				<Parameters>
+					<Parameter dataType="string" name="changedInformation" designDesc="Test" state="underDesign"/>
+				</Parameters>
+				<Execution>
+					<SequentialExecution>
+						<MethodExecute name="UpdatePage" designDesc="Do the update page" state="underDesign"/>
+					</SequentialExecution>
+				</Execution>
+			</Operation>
+		</Operations>
+		<Subscriptions>
+			<Subscription triggeredOperationName="UpdatePageContent">
+				<TriggeringInformationItem itemName="BuiltForAnybodyTitle" objectName="AboutAGIApplications"/>
+				<OperationParameter name="changedInformation" informationItemSource="TriggeringObject" informationObjectName="AboutAGIApplications" informationItemName="BuiltForAnybodyTitle"/>
+			</Subscription>
+		</Subscriptions>
+		<Monitoring>
+			<Monitor monitoringOperationName="UpdatePageContent">
+				<MonitoredInformationItem objectName="AboutAGIApplications" itemName="ForAllPeopleTitle"/>
+				<MonitoringFrequency utcTimeStampToStart="2012-08-13T14:00:00.123456789+02:00">
+					<RegularMonitoringCycle frequencyUnit="Minute" monitorEveryXthOfUnit="15"/>
+				</MonitoringFrequency>
+				<OperationParameter name="changedInformation" informationItemSource="TriggeringObject" informationObjectName="AboutAGIApplications" informationItemName="ForAllPeopleTitle"/>
+			</Monitor>
+		</Monitoring>
+	</InstanceOfTheBall>
 </TheBallCoreAbstraction>
