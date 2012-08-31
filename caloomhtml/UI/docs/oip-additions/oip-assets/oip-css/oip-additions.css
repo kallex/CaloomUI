@@ -278,6 +278,16 @@ div.blog-featured p {
 	line-height: 120%;
 }
 
+div.blog-featured h1,
+div.blog-featured h2,
+div.blog-featured h3,
+div.blog-featured h4,
+div.blog-featured p {
+	font-size: 100%;
+	line-height: 120%;
+}
+
+
 div.blog-featured ul {
 	list-style-type: none;
 	margin-top: 20px;
@@ -299,6 +309,14 @@ div.blog-featured img {
 	margin-left: 0px
 }
 
+div.blog img {
+	width:260px;
+	height: 180px;
+	float: left;
+	margin: 10px;
+	margin-top: 0px;
+	margin-left: 0px
+}
 div.blog-featured .author h4,
 div.blog-featured.published,
 div.blog-featured.group,{
