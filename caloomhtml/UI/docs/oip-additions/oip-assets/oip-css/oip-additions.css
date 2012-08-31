@@ -269,24 +269,14 @@ div.controls.hierarchy label:first-child {
 	font-size: 110%;
 }
 
-div.blog-featured h1,
-div.blog-featured h2,
-div.blog-featured h3,
-div.blog-featured h4,
-div.blog-featured p {
+div.span12.blog-featured p,
+div.span12.blog-featured ul li {
 	font-size: 120%;
 	line-height: 120%;
+	letter-spacing: 0.1em;
+	word-spacing: .3em;
+	font-weight: 200;
 }
-
-div.blog-featured h1,
-div.blog-featured h2,
-div.blog-featured h3,
-div.blog-featured h4,
-div.blog-featured p {
-	font-size: 100%;
-	line-height: 120%;
-}
-
 
 div.span12.blog-featured ul,
 div.span8.blog ul li {
@@ -301,7 +291,7 @@ div.span8.blog ul li {
 	padding-left: 20px;
 	display: table;
 }
-div.blog-featured img {
+div.span12.blog-featured img {
 	width:520px;
 	height: 360px;
 	float: left;
@@ -318,12 +308,6 @@ div.blog img {
 	margin-top: 0px;
 	margin-left: 0px
 }
-div.blog-featured .author h4,
-div.blog-featured.published,
-div.blog-featured.group,{
-	float: right;
-	background-color: #9ffe87;
-}
 
 a:hover {
 	background-color: rgba(13, 115,255,.1);
@@ -336,7 +320,6 @@ div.focus-introduction p, div.row-summary p {
 	line-height: 130%;
 	padding-bottom: 10px;
 	padding-right: 0;
-	margin-left: -30px;
 }
 
 div.row-summary p {
@@ -379,6 +362,10 @@ h6.author,
 h6.published {
 	text-align: right;
 	margin-right: 20px;
+	text-transform: none;
+	font-weight: 200;
+	color: #424242;
+	font-size: 110%;
 }
 
 a.read-more {

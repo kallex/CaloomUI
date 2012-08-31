@@ -1,5 +1,5 @@
 <!-- oip-module-modal-images.txt -->
-<a data-toggle="modal" href="#ImagesCollection" rel="tooltip" title="click this image to open this image large and some other images if presentt">
+<a data-toggle="modal" href="#ImagesCollection" rel="tooltip" title="click this image to open this image large and some other images if present">
 <img src="http://flickholdr.com/260/180/autumn,forest,tree" alt="Placeholder image from flickholdr.com" class="thumbnail"/></a>
 <!-- end oip-module-modal-images.txt -->
 <!-- oip-modal-blog-read-more.txt -->
