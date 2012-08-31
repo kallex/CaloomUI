@@ -288,18 +288,19 @@ div.blog-featured p {
 }
 
 
-div.blog-featured ul {
+div.span12.blog-featured ul,
+div.span8.blog ul li {
 	list-style-type: none;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-div.blog-featured ul li {
-	margin-top: 10px;
-	margin-right: 200px;
-	margin-bottom: 10px;
+div.span12.blog-featured ul li,
+div.span8.blog ul li {
+	margin: 5px 200px 0 0;
+	padding-left: 20px;
+	display: table;
 }
-
 div.blog-featured img {
 	width:520px;
 	height: 360px;
