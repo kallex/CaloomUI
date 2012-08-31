@@ -1,9 +1,0 @@
-Atoms are single html+css or javascript elements or functions. They do 1 thing. Example is default-ui-atom-title.txt which is a combination of a:
-label + textinput with styling folded in divs if needed
-
-The naming convention is:
-default = as this is the default, base, layout-look&feel-logic of the service
-ui = as this is the user interface part
-atom = to describe we are working on a small elements and not on a module or page or layout
-title = the shortest way to describe what the code or lines of text do, within the context of this service
-.txt = the kind of files that are (at this stage) called with the <?php include'location-of-the-file.txt' ?> tag

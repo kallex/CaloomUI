@@ -1,5 +1,0 @@
-<div class="well-white controlpanel">
-<?php include 'default-result-list.txt' ?>
-</div>
-
-<?php include '../default-modules/default-filter.txt' ?>

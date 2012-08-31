@@ -1,3 +1,0 @@
-<li class="span3">
-	<button class="btn btn-xlarge"><i class="icon-plus"></i> Follow New Map</button>
-</li>

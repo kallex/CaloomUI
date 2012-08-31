@@ -1,1 +1,0 @@
-<a data-toggle="modal" href="#map-share" class="btn" rel="popover" data-content="Click here to share this map with others via twitter, facebook, linkedin or via email and later some other cool ways too" data-original-title="Share this map"><i class="icon-share"></i></a>

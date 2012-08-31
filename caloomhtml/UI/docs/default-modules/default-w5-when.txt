@@ -1,5 +1,0 @@
-<!--default-w5-when-->
-<?php include'../default-ui-atoms/default-ui-atom-date-time.txt' ?>
-<?php include'../default-ui-atoms/default-ui-atom-date-time-repeat.txt' ?>
-<!--/default-w5-when-->
-

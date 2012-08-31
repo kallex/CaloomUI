@@ -1,1 +1,0 @@
-	 <img src="../images/hml_osm.png" width="360" height="268" alt="map-medium">

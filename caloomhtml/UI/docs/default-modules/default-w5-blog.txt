@@ -1,5 +1,0 @@
-<!--default-w5-what -->
-<?php include'../default-ui-atoms/default-ui-atom-blog-title.txt' ?>
-<?php include'../default-ui-atoms/default-ui-atom-blog-body.txt' ?>
-<!--/default-w5-what -->
-
