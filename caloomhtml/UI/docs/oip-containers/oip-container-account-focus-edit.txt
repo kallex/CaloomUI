@@ -1,5 +1,4 @@
 <!-- oip-container-account-focus-edit.txt -->
-<section id="account" )> 
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
 <?php include '../oip-modules/oip-module-account-index.txt' ?><!-- UseInformationObject:AccountIndex -->
@@ -8,5 +7,4 @@
 	</div>
 </div>
 <?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer --><!-- UseInformationObject:Footer -->
-</section> 
 <!-- end oip-container-account-focus-edit.txt -->

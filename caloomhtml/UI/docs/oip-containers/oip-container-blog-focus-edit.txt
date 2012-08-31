@@ -1,5 +1,4 @@
 <!-- oip-container-blog-focus-edit.txt -->
-<section id="blog"> 
 <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:BlogContainerHeader -->
 <hr>
 <!-- featured blog -->
@@ -16,5 +15,4 @@
 </div>
 <!-- latest x# blogs -->
 <?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
-</section> 
 <!-- end oip-container-blog-focus-edit.txt -->

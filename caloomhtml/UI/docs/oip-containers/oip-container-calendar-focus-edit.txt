@@ -1,5 +1,4 @@
 <!-- oip-calendar-secondary.txt -->
-<section id="calendar"> 
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
 <?php include '../oip-modules/oip-module-calendar-index.txt' ?><!-- UseInformationObject:CalendarIndex -->
@@ -7,5 +6,4 @@
 <?php include '../oip-modules/oip-module-calendar-listing.txt' ?><!-- UseInformationObject:ActivitiesListing -->
 </div>
 <?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
-</section> 
 <!-- end oip-calendar-secondary.txt -->

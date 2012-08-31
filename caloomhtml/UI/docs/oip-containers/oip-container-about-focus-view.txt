@@ -1,11 +1,12 @@
 <!-- oip-container-blog-focus-view.txt -->
-<section id="about"> 
-<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:BlogContainerHeader -->
+<?php include '../oip-modules/oip-module-header.txt' ?>
+<!--UseInformationObject:BlogContainerHeader -->
 <hr>
 <!-- featured blog -->
-<?php include '../oip-modules/oip-module-about.txt' ?><!--UseInformationObject:FeaturedBlog -->
+<?php include '../oip-modules/oip-module-about.txt' ?>
+<!--UseInformationObject:FeaturedBlog -->
 <!-- featured blog -->
 <!-- latest x# blogs -->
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
-</section> 
+<?php include '../oip-modules/oip-module-footer.txt' ?>
+<!-- UseInformationObject:Footer -->
 <!-- end oip-container-blog-focus-view.txt -->

@@ -1,5 +1,4 @@
 <!-- oip-container-map-focus-edit.txt -->
-<section id=""> 
 <div class="row">
 <?php include '../oip-modules/oip-module-map-index.txt' ?><!-- UseInformationObject:MapIndex -->
 	<div class="span8" style="margin:0;padding:0">
@@ -7,5 +6,4 @@
 	</div>
 </div>
 <?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
-</section> 
 <!-- end oip-container-map-focus-edit.txt -->
