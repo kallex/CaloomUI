@@ -54,6 +54,20 @@ ul.socialUI li {
 	background-image: url("../oip-images/ui/glyphicons_190_circle_plus.png");
 }
 
+div.hero-unit.contact-oip {
+	height: 200px;
+	background: url(../oip-images/ui/oip-contact.png) no-repeat 0 43px;
+	bottom: 0;
+	overflow: hidden;
+	padding-bottom: 0px;
+	margin-bottom: -20px;
+}
+
+div.hero-unit.contact-oip p a.btn.btn-primary.btn-large {
+	margin-top: 50px;
+	float: right;
+}
+
 .next-phase {
 	color: grey;
 	text-decoration: line-through;

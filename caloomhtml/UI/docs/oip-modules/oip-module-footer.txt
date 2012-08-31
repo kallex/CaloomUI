@@ -1,5 +1,5 @@
 <!-- oip-module-footer.txt -->
-<div class="hero-unit">
+<div class="hero-unit contact-oip">
 	<p>
 	<a class="btn btn-primary btn-large">contact OIP, become partner, collaborator</a>
 	</p>
