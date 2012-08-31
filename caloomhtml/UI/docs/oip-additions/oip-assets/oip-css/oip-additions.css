@@ -1,3 +1,5 @@
+/* @override http://caloomgit:8888/UI/docs/oip-additions/oip-assets/oip-css/oip-additions.css */
+
 [class^="icon-oip-"], [class*=" icon-oip-"] {
 	display: inline-block;
 	width: 26px;
@@ -65,6 +67,7 @@ a.delete {
 	color: #B94A48;
 	font-weight: bold;
 }
+
 #category>label:first-child {
 	font-weight: bold;
 }
@@ -143,6 +146,7 @@ span.new {
 	line-height: 1;
 	color: #8ac246;
 }
+
 .controlpanel {
 	width: 220px;
 	position: absolute;
@@ -247,13 +251,14 @@ hr {
 .tab-map img {
 	max-width: none;
 }
-ul.index li{
+
+ul.index li {
 	background-color: #fadc54;
 	padding: 4px;
 	list-style-type: none;
 }
 
-ul.index li li{
+ul.index li li {
 	background-color: #9bfe4f;
 	padding: 4px;
 	list-style-type: none;
@@ -270,13 +275,40 @@ div.blog-featured h3,
 div.blog-featured h4,
 div.blog-featured p {
 	font-size: 120%;
+	line-height: 120%;
+}
+
+div.blog-featured ul {
+	list-style-type: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.blog-featured ul li {
+	margin-top: 10px;
+	margin-right: 200px;
+	margin-bottom: 10px;
+}
+
+div.blog-featured img {
+	width:520px;
+	height: 360px;
+	float: left;
+	margin: 10px;
+	margin-top: 0px;
+	margin-left: 0px
+}
+
+div.blog-featured .author h4,
+div.blog-featured.published,
+div.blog-featured.group,{
+	float: right;
+	background-color: #9ffe87;
 }
 
 a:hover {
-background-color: 
-rgba(13, 115,255,.1);
+	background-color: rgba(13, 115,255,.1);
 }
-
 
 div.focus-introduction p, div.row-summary p {
 	font-size: 130%;
@@ -287,17 +319,20 @@ div.focus-introduction p, div.row-summary p {
 	padding-right: 0;
 	margin-left: -30px;
 }
+
 div.row-summary p {
 	margin-top: 10px;
 	font-size: 100%;
 }
 
-div.row-summary .hero-unit-footer{
+div.row-summary .hero-unit-footer {
 	padding: 0;
 }
+
 div.row-summary .hero-unit .btn, hero-unit-footer {
-margin-left: 40%;
-margin-right: 40%;}
+	margin-left: 40%;
+	margin-right: 40%;
+}
 
 div.mini-view {
 	padding-right: 30px;
@@ -305,9 +340,9 @@ div.mini-view {
 }
 
 div.mini-view img {
-float: left;
-margin: 0 10px 10px 0;
-opacity: .8;
+	float: left;
+	margin: 0 10px 10px 0;
+	opacity: .8;
 }
 
 div.mini-view p {
@@ -318,4 +353,15 @@ div.mini-view p {
 	border-style: none;
 	margin-top: 10px;
 	padding-top: 10px;
+}
+
+h6.group,
+h6.author,
+h6.published {
+	text-align: right;
+	margin-right: 20px;
+}
+
+a.read-more {
+	float: right;
 }
