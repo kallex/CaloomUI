@@ -264,6 +264,20 @@ div.controls.hierarchy label:first-child {
 	font-size: 110%;
 }
 
+div.blog-featured h1,
+div.blog-featured h2,
+div.blog-featured h3,
+div.blog-featured h4,
+div.blog-featured p {
+	font-size: 120%;
+}
+
+a:hover {
+background-color: 
+rgba(13, 115,255,.1);
+}
+
+
 div.focus-introduction p, div.row-summary p {
 	font-size: 130%;
 	color: #626262;

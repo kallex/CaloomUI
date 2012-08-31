@@ -1,8 +1,8 @@
 <!-- oip-activities-index.txt -->
 <div class="span4">
 	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_023_cogwheels@2x.png" alt="Responsive devices"></p>
-	<h3 class="atomized">[!ATOM]Title[ATOM!]</h3>
-	<p class="atomized">[!ATOM]Introduction[ATOM!]</p>
+	<h3>[!ATOM]Title[ATOM!]</h3>
+	<p>[!ATOM]Introduction[ATOM!]</p>
 <dl>
 	<dt>Projects (Category)</dt>
 	<dd><a href="#">Nordic Business Event 2012 <span class="badge badge-important">1</span></a></dd>
@@ -28,6 +28,6 @@
 	<dd><a href="#">Research c</a></dd>
 </dl>
 
-	<p class="atomized">[!ATOM]Summary[ATOM!]</p>
+	<p>[!ATOM]Summary[ATOM!]</p>
 </div>
 <!-- end oip-activities-index.txt -->

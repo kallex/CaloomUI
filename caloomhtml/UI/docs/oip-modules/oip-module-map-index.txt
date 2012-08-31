@@ -3,10 +3,10 @@
 	<p>
 		<img src="../oip-aliitions/oip-assets/oip-images/ui/glyphicons_043_group@2x.png" alt="Responsive devices">
 	</p>
-	<h3 class="atomized">
+	<h3>
 		[!ATOM]Title[ATOM!]
 	</h3>
-	<p class="atomized">
+	<p>
 		[!ATOM]Introduction[ATOM!]
 	</p>
 <form id="name" method="post" class="form-horizontal ">
@@ -81,7 +81,7 @@
 </ul>
 </fieldset>
 </form>
-<p class="atomized">
+<p>
 		[!ATOM]Summary[ATOM!]
 	</p>
 </div>
