@@ -4,6 +4,6 @@
     <?php include '../oip-modules/oip-module-summary.txt' ?><!-- UseInformationObject:Summary -->
 </div>
 <div class="row-fluid mini-view">
-    <?php include '../oip-modules-views/oip-module-groups-summary-mini-view.txt' ?><!-- UseInformationObject:GroupsModule -->
+    <?php include '../oip-modules-views/oip-module-groups-collection.txt' ?><!-- UseInformationObject:GroupsCollection -->
 </div>
 <!-- end oip-container-groups-focus-view.txt -->

@@ -1,4 +1,4 @@
-<!-- oip-module-activities-summary-mini-view.txt -->
+<!-- oip-module-activities-collection.txt -->
 <!-- this is the mini-view module that lists the <!ATOM>Title<ATOM!> and image in a compact form -->
 <div class="row-fluid">
 	<div class="span4">
@@ -27,4 +27,4 @@
 	</div>
 </div>
 
-<!-- end oip-module-activities-summary-mini-view.txt -->
+<!-- end oip-module-activities-collection.txt -->
