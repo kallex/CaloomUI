@@ -1,38 +1,20 @@
 <!-- oip-module-error.txt -->
-<div id="group-projects" class="span7" style=";margin-top:10px">
+<div id="error" class="span7" style=";margin-top:10px">
 	<table class="table table-bordered table-striped">
 		<thead>
-			<td>Name</td>
-			<td>Collaborators</td>
-			<td>Category</td>
-			<td>Actions (who has done what)</td>
-			<td>followers</td>
-			<td>views</td>
+			<td>Context</td>
+			<td>Error</td>
+			<td>Line</td>
 		</thead>
 		<tbody>
 			<tr>
-				<td><a data-toggle="modal" href="#activity">Nordic Business Event</a></td>
-				<td><a data-toggle="modal" href="#collaborator">Aalto</a>, <a data-toggle="modal" href="#collaborator">Tekes</a></td>
-				<td><a data-toggle="modal" href="#category">Event</a></td>
-				<td><a data-toggle="modal" href="#actions"> 76</a></td>
-				<td><a data-toggle="modal" href="#followers"> 23</a></td>
-				<td><a data-toggle="modal" href="#views"> 599</a></td>
+				<td></td>
 			</tr>
 			<tr>
-				<td>Base of Pyramid Seminar</td>
-				<td>Collaboratorproject</td>
-				<td>Event - Seminar</td>
-				<td>57</td>
-				<td>34</td>
-				<td>1244</td>
+				<td></td>
 			</tr>
 			<tr>
-				<td>Base of Pyramid Course</td>
-				<td>projectCollaborator</td>
-				<td>Course</td>
-				<td>56</td>
-				<td>25</td>
-				<td>2254</td>
+				<td></td>
 			</tr>
 		</tbody>
 	</table>
