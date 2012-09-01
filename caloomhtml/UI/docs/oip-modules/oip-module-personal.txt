@@ -1,1 +1,11 @@
-oip-module-personal.txt
+<!-- oip-module-personal.txt -->
+<!-- include '../oip-modules/oip-module-summary.txt' --><!-- UseInformationObject:Summary -->
+<!-- include '../oip-modules-views/oip-module-map-summary-mini-view.txt' --><!-- UseInformationObject:ActivitiesModule -->
+<div>
+<h2>welcome to your personal landing page</h2>
+</div>
+<?php include '../oip-modules/oip-module-summary.txt' ?><!-- UseInformationObject:Summary -->
+<?php include '../oip-modules-views/oip-module-activities-summary-mini-view.txt' ?><!-- UseInformationObject:ActivitiesModule -->
+<?php include '../oip-modules/oip-module-summary.txt' ?><!-- UseInformationObject:Summary -->
+<?php include '../oip-modules-views/oip-module-groups-summary-mini-view.txt' ?><!-- UseInformationObject:GroupsModule -->
+<!-- end oip-module-personal.txt -->

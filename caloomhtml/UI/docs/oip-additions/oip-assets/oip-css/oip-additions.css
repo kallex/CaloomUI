@@ -86,24 +86,6 @@ a.delete {
 	font-weight: bold;
 }
 
-span.new {
-	color: white;
-	background-color: #f811cd;
-	padding: 1px 3px;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
-	border-bottom-left-radius: 4px;
-	border-bottom-right-radius: 4px;
-	border-top: 1px solid ##ca0ba6;
-	border-left: 1px solid ##ca0ba6;
-	border-right: 1px solid #8e0574;
-	border-bottom: 1px solid #8e0574;
-}
-
-.edit {
-	background-color: #ffffe6;
-}
-
 .view-group {
 	margin-bottom: 18px;
 	display: table;
@@ -353,6 +335,14 @@ div.mini-view img {
 
 div.mini-view p {
 	float: left;
+}
+
+div.mini-map img {
+	width: 100%;
+}
+
+div.span8.span4.thumbnail img {
+	width: 243px;
 }
 
 .footer {

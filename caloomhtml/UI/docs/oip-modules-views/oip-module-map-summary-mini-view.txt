@@ -1,0 +1,19 @@
+<!-- oip-module-map-summary-mini-view.txt -->
+<!-- this is the mini-view module that lists the <!ATOM>Title<ATOM!> and image in a compact form -->
+<div class="row-fluid">
+	row-fluid 
+<!-- this shows the latest 3 edited groups summaries -->
+	<div class="span4 mini-map>
+		span4 
+<?php include'../oip-modules/oip-module-map-mini.txt' ?><!--UseInformationObject:MapPreview -->
+	</div>
+	<div class="span4">
+		span4 
+<?php include'../oip-modules/oip-module-map-mini.txt' ?><!--UseInformationObject:MapPreview -->
+	</div>
+	<div class="span4">
+		span4 
+<?php include'../oip-modules/oip-module-map-mini.txt' ?><!--UseInformationObject:MapPreview -->
+	</div>
+</div>
+<!-- end oip-module-map-summary-mini-view.txt -->

@@ -1,0 +1,67 @@
+<!-- oip-module-chat.txt --> 
+<form class="form">
+	<fieldset>
+		<div class="control-group">
+			<label class="control-label" for="appendedInputButton">Chat at OIP</label> 
+			<div class="controls">
+				<div class="input-append">
+					<input class="span2" id="appendedInputButton" size="16" type="text" placeholder="type name or email">
+					<button class="btn" type="button">Search</button> 
+				</div>
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<ul>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Who's online <span class="badge badge-success">2</span><span class="badge badge-important">4</span><b class="caret"></b></a> 
+					<ul class="dropdown-menu">
+						<li><span class="badge badge-success"></span>Teija</li>
+						<li><span class="badge badge-success"></span>Anne</li>
+						<li><span class="badge badge-important"></span>Andrew</li>
+						<li><span class="badge badge-important"></span>Rahim</li>
+						<li><span class="badge badge-important"></span>Riina</li>
+						<li><span class="badge badge-important"></span>Sujil</li>
+					</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="accordion" id="accordion2">
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> <span class="badge badge-success"></span>Teija </a> 
+				</div>
+				<div id="collapseOne" class="accordion-body collapse in">
+					<div class="accordion-inner">
+						<p>
+							<em>Teija: </em>Hi, is this really working? 
+						</p>
+						<p>
+							<em>Me: </em>It seems to work 
+						</p>
+						<input class="input-large" type="text" placeholder="write something and press enter">
+					</div>
+				</div>
+			</div>
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> <span class="badge badge-success"></span>Anne </a> 
+				</div>
+				<div id="collapseTwo" class="accordion-body collapse">
+					<div class="accordion-inner">
+					</div>
+				</div>
+			</div>
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree"> <span class="badge badge-important"></span>Andrew </a> 
+				</div>
+				<div id="collapseThree" class="accordion-body collapse">
+					<div class="accordion-inner">
+					</div>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+</form>
+<!-- oip-module-chat.txt -->

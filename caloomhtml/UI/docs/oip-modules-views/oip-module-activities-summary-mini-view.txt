@@ -1,32 +1,30 @@
 <!-- oip-module-activities-summary-mini-view.txt -->
-<!-- this is the mini-view module that lists the <!ATOM>Title<ATOM!> and image in a compact form --><div class="row-fluid mini-view">
-	<div class="span12 focus-introduction">
-		<p>
-			<a href="oip-layout-activities-summary-view.phtml">Activities Summary</a> <br>We found them. Be quiet! We shall say 'Ni' again to you, if you do not appease us. Shut up! Will you shut up?!. Where'd you get the coconuts? Well, I got better. &hellip;Are you suggesting that coconuts migrate? Now, look here, my good man. 
-		</p>
-	</div>
-</div>
+<!-- this is the mini-view module that lists the <!ATOM>Title<ATOM!> and image in a compact form -->
 <div class="row-fluid">
 	<div class="span4">
-		<img class="bs-icon thumbnail" src="http://flickholdr.com/120/120/lake" alt="Placeholder image from flickholdr.com" />
-		<a hre="#"><h3>
+		<img class="thumbnail" src="http://flickholdr.com/120/120/lake" alt="Placeholder image from flickholdr.com" /> <a hre="#"> 
+		<h3>
 			The Knights Who Say Ni demand a sacrifice! 
-		</h2></a>
+		</h2>
+		</a>
 		<p>
 			<span class="badge">Category 1</span> <span class="badge">Category 2</span> <span class="badge">Category 3!</span> <span class="badge">Category 4</span> 
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon thumbnail" src="http://flickholdr.com/120/120/lake/2" alt="Placeholder image from flickholdr.com" />
-		<a hre="#"><h3>
+		<img class="thumbnail" src="http://flickholdr.com/120/120/lake/2" alt="Placeholder image from flickholdr.com" /> <a hre="#"> 
+		<h3>
 			Am I right? 
-		</h2></a>
+		</h2>
+		</a>
 	</div>
 	<div class="span4">
-		<img class="bs-icon thumbnail" src="http://flickholdr.com/120/120/lake/3" alt="Placeholder image from flickholdr.com" />
-		<a hre="#"><h3>
+		<img class="thumbnail" src="http://flickholdr.com/120/120/lake/3" alt="Placeholder image from flickholdr.com" /> <a hre="#"> 
+		<h3>
 			Sir Lancelot 
-		</h2></a>
+		</h2>
+		</a>
 	</div>
 </div>
+
 <!-- end oip-module-activities-summary-mini-view.txt -->
