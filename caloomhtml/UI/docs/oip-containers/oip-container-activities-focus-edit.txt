@@ -3,8 +3,8 @@
 <div class="row">
 <?php include '../oip-modules/oip-module-activities-index.txt' ?><!-- UseInformationObject:ActivitiesIndex -->
 	<div class="span8" style="margin:0;padding:0">
-<?php include '../oip-modules/oip-module-activities.txt' ?><!-- UseInformationObject:ActivitiesModule -->
+    <?php include '../oip-modules/oip-module-activities.txt' ?><!-- UseInformationObject:ActivitiesModule -->
 	</div>
 </div>
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer --> 
+<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter --> 
 <!-- end oip-container-activites-focus-edit.txt -->

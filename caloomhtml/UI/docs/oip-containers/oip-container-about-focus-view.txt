@@ -1,12 +1,6 @@
 <!-- oip-container-blog-focus-view.txt -->
-<?php include '../oip-modules/oip-module-header.txt' ?>
-<!--UseInformationObject:BlogContainerHeader -->
+<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 <hr>
-<!-- featured blog -->
-<?php include '../oip-modules/oip-module-about.txt' ?>
-<!--UseInformationObject:FeaturedBlog -->
-<!-- featured blog -->
-<!-- latest x# blogs -->
-<?php include '../oip-modules/oip-module-footer.txt' ?>
-<!-- UseInformationObject:Footer -->
+<?php include '../oip-modules/oip-module-about.txt' ?><!--UseInformationObject:AboutModule -->
+<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 <!-- end oip-container-blog-focus-view.txt -->

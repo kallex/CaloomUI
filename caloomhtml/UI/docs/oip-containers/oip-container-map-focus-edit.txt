@@ -5,5 +5,5 @@
 <?php include '../oip-modules/oip-module-map-edit.txt' ?><!-- UseInformationObject:MapModule -->
 	</div>
 </div>
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
+<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 <!-- end oip-container-map-focus-edit.txt -->

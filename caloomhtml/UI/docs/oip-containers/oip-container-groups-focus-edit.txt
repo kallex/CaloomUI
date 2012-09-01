@@ -6,5 +6,5 @@
 <?php include '../oip-modules/oip-module-groups.txt' ?><!-- UseInformationObject:GroupsModule -->
 	</div>
 </div>
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
+<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 <!-- end oip-container-groups-focus-edit.txt -->

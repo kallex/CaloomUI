@@ -1,5 +1,5 @@
 <!-- oip-container-blog-focus-edit.txt -->
-<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:BlogContainerHeader -->
+<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 <hr>
 <!-- featured blog -->
 <?php include '../oip-modules/oip-module-blog-featured.txt' ?><!--UseInformationObject:FeaturedBlog -->
@@ -8,11 +8,11 @@
 <div class="row">
 <?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexCollection -->
 	<div class="span8" style="margin:0;padding:0">
-<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[0] -->
-<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[1] -->
-<?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[2] -->
+    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[0] -->
+    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[1] -->
+    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[2] -->
 	</div>
 </div>
-<!-- latest x# blogs -->
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
+<!-- end latest x# blogs -->
+<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 <!-- end oip-container-blog-focus-edit.txt -->

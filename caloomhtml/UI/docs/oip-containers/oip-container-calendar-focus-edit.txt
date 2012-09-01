@@ -1,9 +1,9 @@
 <!-- oip-calendar-secondary.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
-<?php include '../oip-modules/oip-module-calendar-index.txt' ?><!-- UseInformationObject:CalendarIndex -->
-<?php include '../oip-modules/oip-module-calendar-body.txt' ?><!-- UseInformationObject:Activities -->
-<?php include '../oip-modules/oip-module-calendar-listing.txt' ?><!-- UseInformationObject:ActivitiesListing -->
+    <?php include '../oip-modules/oip-module-calendar-index.txt' ?><!-- UseInformationObject:CalendarIndex -->
+    <?php include '../oip-modules/oip-module-calendar-body.txt' ?><!-- UseInformationObject:Calendar -->
+    <?php include '../oip-modules/oip-module-calendar-listing.txt' ?><!-- UseInformationObject:CalendarListing -->
 </div>
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:Footer -->
+<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 <!-- end oip-calendar-secondary.txt -->
