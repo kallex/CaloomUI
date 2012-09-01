@@ -8,15 +8,12 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
+				<td>item</td>
+				<td>item</td>
+				<td>item</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
+
 <!-- end oip-module-error.txt -->
