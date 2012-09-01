@@ -1,0 +1,89 @@
+<!-- oip-module-personal-index.txt -->
+<div class="span3">
+	<p>
+		<img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_023_cogwheels@2x.png" alt="Responsive devices"> 
+	</p>
+	<h3>
+		[!ATOM]Title[ATOM!] 
+	</h3>
+	<p>
+		[!ATOM]Introduction[ATOM!] 
+	</p>
+	<ul>
+		<li>intro text</li>
+		<li>Latest activities</li>
+		<li>Latest messages</li>
+		<li>New groups</li>
+		<li>New Activities</li>
+		<li>New Messages</li>
+	</ul>
+	<hr>
+	<form class="form">
+		<fieldset>
+			<div class="control-group">
+				<label class="control-label" for="appendedInputButton">Append with button</label> 
+				<div class="controls">
+					<div class="input-append">
+						<input class="span2" id="appendedInputButton" size="16" type="text">
+						<button class="btn" type="button">Search</button> 
+					</div>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label">Who's online</label> 
+				<div class=" controls">
+					<ul>
+						<li><span class="badge badge-success"></span>Teija</li>
+						<li><span class="badge badge-success"></span>Anne</li>
+						<li><span class="badge badge-important"></span>Andrew</li>
+						<li><span class="badge badge-important"></span>Rahim</li>
+						<li><span class="badge badge-important"></span>Riina</li>
+						<li><span class="badge badge-important"></span>Sujil</li>
+					</ul>
+				</div>
+			</div>
+			<div class="accordion" id="accordion2">
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> <span class="badge badge-success"></span>Teija </a> 
+					</div>
+					<div id="collapseOne" class="accordion-body collapse in">
+						<div class="accordion-inner">
+							<p>
+								<em>Teija: </em>Hi, is this really working?
+							</p>
+							<p>
+								<em>Me: </em>It seems to work
+							</p>
+							<input class="input-large" type="text" placeholder="write something and press enter">
+						</div>
+					</div>
+				</div>
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> <span class="badge badge-success"></span>Anne </a> 
+					</div>
+					<div id="collapseTwo" class="accordion-body collapse">
+						<div class="accordion-inner">
+						</div>
+					</div>
+				</div>
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree"> <span class="badge badge-important"></span>Andrew </a> 
+					</div>
+					<div id="collapseThree" class="accordion-body collapse">
+						<div class="accordion-inner">
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+		</fieldset>
+	</form>
+	<p>
+		[!ATOM]Summary[ATOM!] 
+	</p>
+</div>
+
+<!-- end oip-module-personal-index.txt -->
