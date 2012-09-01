@@ -268,18 +268,6 @@ hr {
 	max-width: none;
 }
 
-ul.index li {
-	background-color: #fadc54;
-	padding: 4px;
-	list-style-type: none;
-}
-
-ul.index li li {
-	background-color: #9bfe4f;
-	padding: 4px;
-	list-style-type: none;
-}
-
 div.controls.hierarchy label:first-child {
 	font-weight: bold;
 	font-size: 110%;
@@ -392,16 +380,20 @@ ul.nav.nav-tabs {
 	margin-right: -1px;
 }
 
-div.controls ul {
+div.controls ul,
+ul.index {
 	list-style: none;
-	margin-left: 4px;
+	margin-left: 8px;
+}
+
+ul.index li span {
+	margin-left: 8px;
+	line-height: 190%;
 }
 
 a.accordion-toggle span {
 	margin-right: 8px;
-
 }
-
 
 div.controls ul li span{
 margin-right: 8px;
