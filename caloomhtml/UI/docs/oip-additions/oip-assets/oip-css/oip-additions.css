@@ -391,3 +391,50 @@ a.read-more {
 ul.nav.nav-tabs {
 	margin-right: -1px;
 }
+
+div.controls ul {
+	list-style: none;
+	margin-left: 4px;
+}
+
+a.accordion-toggle span {
+	margin-right: 8px;
+
+}
+
+
+div.controls ul li span{
+margin-right: 8px;
+}
+
+div.controls ul li{
+	color: #575757;
+	font-weight: 200;
+	letter-spacing: 0.1em;
+	word-spacing: .3em;
+	font-size: 90%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

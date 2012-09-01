@@ -21,7 +21,7 @@
 	<form class="form">
 		<fieldset>
 			<div class="control-group">
-				<label class="control-label" for="appendedInputButton">Append with button</label> 
+				<label class="control-label" for="appendedInputButton">Find Others</label> 
 				<div class="controls">
 					<div class="input-append">
 						<input class="span2" id="appendedInputButton" size="16" type="text">
@@ -31,7 +31,7 @@
 			</div>
 			<div class="control-group">
 				<label class="control-label">Who's online</label> 
-				<div class=" controls">
+				<div class="controls">
 					<ul>
 						<li><span class="badge badge-success"></span>Teija</li>
 						<li><span class="badge badge-success"></span>Anne</li>
