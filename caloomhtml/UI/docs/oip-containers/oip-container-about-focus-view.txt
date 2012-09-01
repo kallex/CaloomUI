@@ -1,6 +1,6 @@
-<!-- oip-container-blog-focus-view.txt -->
+<!-- oip-container-about-focus-view.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 <hr>
 <?php include '../oip-modules/oip-module-about.txt' ?><!--UseInformationObject:AboutModule -->
 <?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
-<!-- end oip-container-blog-focus-view.txt -->
+<!-- end oip-container-about-focus-view.txt -->

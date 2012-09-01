@@ -1,0 +1,9 @@
+<!-- oip-module-error-index.txt -->
+<div class="span3">
+	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_023_cogwheels@2x.png" alt="Responsive devices"></p>
+	<h3>[!ATOM]Title[ATOM!]</h3>
+	<p>[!ATOM]Introduction[ATOM!]</p>
+Error descriptions
+<p>[!ATOM]Summary[ATOM!]</p>
+</div>
+<!-- end oip-module-error-index.txt -->
