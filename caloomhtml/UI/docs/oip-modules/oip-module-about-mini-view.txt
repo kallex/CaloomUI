@@ -1,4 +1,4 @@
-<!-- oip-module-about.txt -->
+<!-- oip-module-about-mini-view.txt -->
 	<h2>
 		[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
 	</h2>
@@ -37,4 +37,4 @@
 	<p>
 	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
 	</p>
-<!-- end oip-module-about.txt -->
+<!-- end oip-module-about-mini-view.txt -->

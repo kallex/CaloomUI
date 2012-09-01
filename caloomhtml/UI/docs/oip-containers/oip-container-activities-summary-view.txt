@@ -1,4 +1,5 @@
 <!-- oip-container-activities-summary-view.txt -->
+<section>
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row-fluid">
     <?php include '../oip-modules-views/oip-module-activities-summary-view.txt' ?><!-- UseInformationObject:ActivitiesModule -->
@@ -6,4 +7,5 @@
 <div class="row-fluid row-summary">
     <?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 </div>
+</section>
 <!-- end oip-container-projects-focus-view.txt -->

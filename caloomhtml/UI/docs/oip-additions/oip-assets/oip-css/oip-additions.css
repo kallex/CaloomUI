@@ -1,4 +1,7 @@
 /* @override http://caloomgit:8888/UI/docs/oip-additions/oip-assets/oip-css/oip-additions.css */
+div.container {
+	margin-bottom: 30px;
+}
 
 [class^="icon-oip-"], [class*=" icon-oip-"] {
 	display: inline-block;
@@ -345,8 +348,16 @@ div.span8.span4.thumbnail img {
 	width: 243px;
 }
 
-#focus div.row div.span8 div.span8 div.row-fluid div.span4 img.thumbnail {
-	
+div.hero img.thumbnail {
+float: left;
+	width: 330px;
+	margin-right: 10px;
+}
+
+div.hero p {
+	font-size: 200%;
+	line-height: 160%;
+	font-weight: 200;
 }
 
 .footer {
@@ -406,15 +417,10 @@ div.controls ul li{
 	width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
+.page-header {
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
 
 
 

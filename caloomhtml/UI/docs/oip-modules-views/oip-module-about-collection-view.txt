@@ -1,14 +1,11 @@
-<!-- oip-module-about-collection.txt -->
-oip-module-about-collection.txt 
+<!-- oip-module-about-collection-view.txt -->
 <h2>
 	[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
 </h2>
-<p>
 <?php include '../oip-modules/oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
-</p>
 <p>
 	I had more, but you go ahead. In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Um, is this the boring, peaceful kind of taking to the streets? 
 </p>
 [!ATOM]Summary[ATOM! <!-- UseInformationObject:Summary-->
-</p>
-<!-- end oip-module-about-collection.txt -->
+
+<!-- end oip-module-about-collection-view.txt -->
