@@ -5,7 +5,8 @@
 		</thead>
 		<tbody>
 		</tbody>
-	</table>	<input type="button" name="last" id="last" value="Previous" class="btn">
+	</table>
+	<input type="button" name="last" id="last" value="Previous" class="btn">
 	<input type="button" name="current" id="current" value="Current" class="btn">
 	<input type="button" name="next" id="next" value="Next" class="btn">
 </div>

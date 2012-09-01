@@ -345,6 +345,10 @@ div.span8.span4.thumbnail img {
 	width: 243px;
 }
 
+#focus div.row div.span8 div.span8 div.row-fluid div.span4 img.thumbnail {
+	
+}
+
 .footer {
 	border-style: none;
 	margin-top: 10px;
@@ -398,7 +402,9 @@ div.controls ul li{
 }
 
 
-
+.calendar {
+	width: 100%;
+}
 
 
 

@@ -1,15 +1,15 @@
 <!-- oip-module-calendar-listing-primary.txt -->
 <div class="span3" style="background-color:white">
-<table>
-<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
-<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
-<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
-<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
-<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
-<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
-<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
-<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
-<?php include '../oip-atoms/oip-result-list-listing.txt' ?>
-</table>
+<ul class="index">
+	<li><?php include '../oip-atoms/oip-result-list-listing.txt' ?></li>
+	<li><?php include '../oip-atoms/oip-result-list-listing.txt' ?></li>
+	<li><?php include '../oip-atoms/oip-result-list-listing.txt' ?></li>
+	<li><?php include '../oip-atoms/oip-result-list-listing.txt' ?></li>
+	<li><?php include '../oip-atoms/oip-result-list-listing.txt' ?></li>
+	<li><?php include '../oip-atoms/oip-result-list-listing.txt' ?></li>
+	<li><?php include '../oip-atoms/oip-result-list-listing.txt' ?></li>
+	<li><?php include '../oip-atoms/oip-result-list-listing.txt' ?></li>
+	<li><?php include '../oip-atoms/oip-result-list-listing.txt' ?></li>
+</ul>
 </div>
 <!-- end oip-module-calendar-listing-primary.txt -->

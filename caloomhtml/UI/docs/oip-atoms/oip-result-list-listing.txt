@@ -1,6 +1,4 @@
 <!-- oip-result-list-listing.txt -->
-<tr>
- <td>Result Item</td>
- <td><span class="badge badge-important"></span></td>
-</tr>
+<li>Result Item<span class="badge badge-important"></span>
+</li>
 <!-- end oip-result-list-listing.txt -->

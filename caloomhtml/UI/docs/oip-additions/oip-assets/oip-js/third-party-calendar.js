@@ -42,13 +42,13 @@ var ui = {
 		];
 		
 		var d = [
-			 "Sunday"
-			,"Monday"
-			,"Tuesday"
-			,"Wednesday"
-			,"Thursday"
-			,"Friday"
-			,"Saturday"
+			 "Sun"
+			,"Mon"
+			,"Tue"
+			,"Wed"
+			,"Thu"
+			,"Fri"
+			,"Sat"
 		];
 		
 		// Days in Month
