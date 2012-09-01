@@ -7,13 +7,8 @@
 			<td>Line</td>
 		</thead>
 		<tbody>
-			<tr>
-				<td>item</td>
-				<td>item</td>
-				<td>item</td>
-			</tr>
+            <?php include '../oip-atoms/oip-atom-error-row.txt' ?><!-- UseInformationObjectAsCollection:xyz -->
 		</tbody>
 	</table>
 </div>
-
 <!-- end oip-module-error.txt -->
