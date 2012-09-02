@@ -1,6 +1,6 @@
 <!-- oip-module-summary.txt -->
-	<a href="oip-layout-activities-summary-view.phtml"><h3 style="margin-top:10px">[!ATOM]SummaryTitle[ATOM!] Topic's Summary</h3></a>
+	<a href="oip-layout-activities-summary-view.phtml"><h3 style="margin-top:10px">[!ATOM]IntroductionTitle[ATOM!] Topic's Introduction</h3></a>
 <p>
-	[!ATOM]SummaryBody[ATOM!] We found them. Be quiet! We shall say 'Ni' again to you, if you do not appease us. Shut up! Will you shut up?!. Where'd you get the coconuts? Well, I got better. &hellip;Are you suggesting that coconuts migrate? Now, look here, my good man. 
+	[!ATOM]IntroductionBody[ATOM!] We found them. Be quiet! We shall say 'Ni' again to you, if you do not appease us. Shut up! Will you shut up?!. Where'd you get the coconuts? Well, I got better. &hellip;Are you suggesting that coconuts migrate? Now, look here, my good man. 
 </p>
 <!-- end oip-module-summary.txt -->
