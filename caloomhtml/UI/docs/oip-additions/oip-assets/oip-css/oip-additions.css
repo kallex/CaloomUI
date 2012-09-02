@@ -1,6 +1,11 @@
 /* @override http://caloomgit:8888/UI/docs/oip-additions/oip-assets/oip-css/oip-additions.css */
-div.container {
+div.container-summary {
 	margin-bottom: 30px;
+}
+
+#container-focus {
+	margin-top:0px;
+	background-color:white
 }
 
 [class^="icon-oip-"], [class*=" icon-oip-"] {
