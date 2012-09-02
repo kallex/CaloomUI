@@ -1,22 +1,18 @@
-<!-- oip-module-blog-featured.txt -->
+<!-- oip-module-blog.txt -->
 <div class="span8 blog">
 	<h2>
 		[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
 	</h2>
 	<h6 class="published">
 		[!ATOM]Published[ATOM!] 
-<!--UseInformationObject:Published-->
 	</h6>
 	<h6 class="author">
-		[!ATOM]Author[ATOM! 
-<!-- UseInformationObject:Author-->
+		[!ATOM]Author[ATOM!]
 	</h6>
-	<h6 class="group">
-		[!ATOM]Group[ATOM! 
-<!-- UseInformationObject:Group-->
-	</h6>
+	<!--<h6 class="group">
+		Group
+	</h6>-->
 <?php include 'oip-module-modal-images.txt' ?>
-<!-- UseInformationObject:ImageGroup -->
 	<p>
 		 I had more, but you go ahead. In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Um, is this the boring, peaceful kind of taking to the streets? 
 	</p>
@@ -30,8 +26,6 @@
 	[!ATOM]Excerpt[ATOM!]
 	</p>
 	
-<!-- UseInformationObject:Excerpt-->
-	</p>
 	<p>
 	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
 	</p>
@@ -52,22 +46,14 @@
 		</h1>
 		<h6>
 			[!ATOM]Published[ATOM!] 
-<!--UseInformationObject:Published-->
 		</h6>
 		<h6>
-			[!ATOM]Author[ATOM! 
-<!-- UseInformationObject:Author-->
+			[!ATOM]Author[ATOM!]
 		</h6>
 		<p>
 <?php include 'oip-module-modal-images.txt' ?>
-<!-- UseInformationObject:ImageGroup -->
-			[!ATOM]Body[ATOM! 
-<!-- UseInformationObject:Body-->
+			[!ATOM]Body[ATOM!]
 		</p>
-	</div>
-	<div class="modal-footer">
-<!-- php include 'oip-module-social-panel.txt' ->
-<!-- UseInformationObject:SocialPanel-->
 	</div>
 </div>
 <!-- ReadMore modal -->

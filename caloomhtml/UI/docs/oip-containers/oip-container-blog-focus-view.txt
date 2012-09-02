@@ -8,11 +8,8 @@
 <div class="row">
 <?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexGroup -->
 	<div class="span8" style="margin:0;padding:0">
-    <?php include '../oip-modules/oip-module-blog.txt' ?>
-    <?php include '../oip-modules/oip-module-blog.txt' ?>
-    <?php include '../oip-modules/oip-module-blog.txt' ?>
+    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
 	</div>
 </div>
 <!-- end latest x# blogs -->
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 <!-- end oip-container-blog-focus-view.txt -->
