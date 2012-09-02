@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
 <TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../TheBallCoreABS/TheBallCore/Content_v1_0/TheBallCore_v1_0.xsd">
-	<InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
+-->
+<TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
+  <InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
 		<InformationModel>
 			<!-- Collaborators, Collaboration Groups, Organizations -->
 			<!-- Storage Roots -->
@@ -115,13 +118,14 @@
 				</InformationItems>
 			</InformationObject>
 			<!-- Account/Group/Profile Pages -->
-			<InformationObject name="AccountContainer" designDesc="User account, centralized point for all">
-				<InformationItems>
-					<InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader" />
-					<InformationItem name="AccountIndex" logicalDataType="InformationObject" informationObjectName="AccountIndex" />
-					<InformationItem name="AccountModule" logicalDataType="InformationObject" informationObjectName="AccountModule" />
-				</InformationItems>
-			</InformationObject>
+      <InformationObject name="AccountContainer" designDesc="User account, centralized point for all">
+        <InformationItems>
+          <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader" />
+          <InformationItem name="AccountIndex" logicalDataType="InformationObject" informationObjectName="AccountIndex" />
+          <InformationItem name="AccountModule" logicalDataType="InformationObject" informationObjectName="AccountModule" />
+          <InformationItem name="ImageGroup" logicalDataType="InformationObject" informationObjectName="ImageGroup" />
+        </InformationItems>
+      </InformationObject>
 			<InformationObject name="AccountIndex" designDesc="Account index">
 				<InformationItems>
 					<InformationItem name="Title" logicalDataType="Text_Short" />
@@ -294,6 +298,51 @@
 				</InformationItems>
 			</InformationObject>
 			<!-- end Atoms and Modules -->
+
+      <InformationObject name="GroupSummaryContainer" designDesc="Group container">
+        <InformationItems>
+          <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader"/>
+          <InformationItem name="SummaryBody" logicalDataType="Text_Long"/>
+          <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
+          <InformationItem name="GroupCollection" logicalDataType="InformationObject" informationObjectName="GroupCollection" />          
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="GroupContainer" designDesc="Group container">
+        <InformationItems>
+          <InformationItem name="Groups" logicalDataType="InformationObject" informationObjectName="GroupCollection"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="GroupCollection" designDesc="Group collection">
+        <CollectionFor contentInformationObjectName="Group"/>
+      </InformationObject>
+      
+      <InformationObject name="Group" designDesc="Group">
+        <InformationItems>
+          <InformationItem name="GroupName" logicalDataType="Text_Short"/>
+          <InformationItem name="Description" logicalDataType="Text_Long"/>
+          <InformationItem name="Moderators" logicalDataType="InformationObject" informationObjectName="GroupModeratorCollection"/>          
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="GroupModeratorCollection" designDesc="Collection for moderators">
+        <CollectionFor contentInformationObjectName="GroupModerator"/>
+      </InformationObject>
+      
+      <InformationObject name="GroupModerator" designDesc="Moderator for group">
+        <InformationItems>
+          <InformationItem name="ModeratorName" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="Introduction" designDesc="Introduction">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="Body" logicalDataType="Text_Long"/>
+        </InformationItems>
+      </InformationObject>
+      
 			<InformationObject name="BlogCollection" designDesc="">
 				<CollectionFor contentInformationObjectName="Blog" />
 			</InformationObject>
