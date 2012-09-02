@@ -228,17 +228,6 @@
       </InformationObject>
       
 			<!-- Containers -->
-			<InformationObject name="NavBarContainer" designDesc="Collection of navigation items in the navbar">
-				<InformationItems>
-					<InformationItem name="LandingPage" informationObjectName="BlogContainer" logicalDataType="" />
-					<InformationItem name="Maps" informationObjectName="MapContainer" logicalDataType="" />
-					<InformationItem name="Calendar" informationObjectName="CalendarContainer" logicalDataType="" />
-					<InformationItem name="Activities" informationObjectName="ActivitiesContainer" logicalDataType="" />
-					<InformationItem name="Groups" informationObjectName="GroupsContainer" logicalDataType="" />
-					<InformationItem name="About" informationObjectName="AboutContainer" logicalDataType="" />
-					<InformationItem name="Account" informationObjectName="AccountContainer" logicalDataType="" />					
-				</InformationItems>
-			</InformationObject>
 			<InformationObject name="BlogContainer" designDesc="">
 				<InformationItems>
 					<InformationItem name="BlogContainerHeader" informationObjectName="ContainerHeader" logicalDataType="InformationObject"/>
