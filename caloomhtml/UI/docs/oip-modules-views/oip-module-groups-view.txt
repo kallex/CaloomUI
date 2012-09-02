@@ -9,7 +9,7 @@
 </ul>
 
 <div class="tab-content tab-border">
-<div class="tab-pane active" id="tab-group-profile"><?php include'../oip-modules-views/oip-module-group-profile-view.txt'  ?></div><!--UseInformationObject:GroupProfile -->
+<div class="tab-pane active" id="tab-group-profile"><?php include'../oip-modules-views/oip-module-group-profile-view.txt'  ?><!--UseInformationObject:GroupProfile --></div>
 <div class="tab-pane" id="tab-group-collaborators"><?php include'../oip-modules-views/oip-module-group-collaborators-view.txt' ?></div>
 <div class="tab-pane" id="tab-group-activities"><?php include'../oip-modules-views/oip-module-group-activities-view.txt' ?></div>
 <div class="tab-pane" id="tab-group-locations"><?php include'../oip-modules-views/oip-module-group-locations-view.txt' ?></div>
