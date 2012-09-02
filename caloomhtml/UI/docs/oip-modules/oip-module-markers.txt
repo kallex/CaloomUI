@@ -1,2 +1,1 @@
-markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(0,0),icon));
-markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(0,0),icon.clone()));
+markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat([!ATOM]LocationText[ATOM!]),icon.clone()));

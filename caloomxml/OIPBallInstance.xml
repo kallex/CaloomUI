@@ -226,6 +226,7 @@
 			</InformationObject>
 			<InformationObject name="MapMarker" designDesc="Marker for a map">
 				<InformationItems>
+					<InformationItem name="LocationText" logicalDataType="Text_Short" />
 					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location" />
 				</InformationItems>
 			</InformationObject>
