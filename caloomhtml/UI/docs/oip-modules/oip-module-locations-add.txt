@@ -3,7 +3,7 @@
 	<form id="name" method="post" class="form-horizontal ">
 <fieldset>
 
-<?php include'../oip-modules/oip-module-map-small.txt' ?><!--UseInformationObject:MapPreview -->
+<?php include'../oip-modules/oip-module-map-small.txt' ?>oip-module-map-small.txt<!--UseInformationObject:MapPreview -->
 			<div class="control-group">
 				<label class="control-label" for="input01">Location name</label> 
 				<div class="controls">
