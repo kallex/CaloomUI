@@ -1,6 +1,6 @@
-<!-- oip-module-activities-locations-view.txt -->
+<!-- oip-module-group-locations-view.txt -->
 <div id="group-profile" class="span7" style=";margin-top:10px">
-<?php include'../oip-modules/oip-module-map-small.txt' ?><!--UseInformationObject:MapPreview -->
+<?php include'../oip-modules/oip-module-map-small.txt' ?>
 	<hr>
 	<div class="view-group">
 		<p class="view-label">
@@ -31,4 +31,4 @@
 	</div>
 </div>
 <!-- end modals -->
-<!-- end oip-module-activities-locations-view.txt -->
+<!-- end oip-module-group-locations-view.txt -->

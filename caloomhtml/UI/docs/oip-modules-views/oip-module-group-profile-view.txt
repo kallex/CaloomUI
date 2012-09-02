@@ -33,7 +33,6 @@
 		</p>
 	</div>
 </div>
-
 <!-- modals -->
 <!-- end modals -->
 <!-- oip-module-group-profile-view.txt -->
