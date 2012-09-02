@@ -27,14 +27,14 @@
 	</ul>
 	<p>
 		Fry, you can't just sit here in the dark listening to classical music. Uh, is the puppy mechanical in any way? When the lights go out, it's nobody's business what goes on between two consenting adults. 
-	</p>
-	</dummy-text>[!ATOM]Excerpt[ATOM!]
+	[!ATOM]Excerpt[ATOM!]
 	</p>
 	<p>
 	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
 	</p>
 </div>
 <!-- end oip-module-blog-featured.txt -->
+
 <!-- ReadMore modal -->
 <div id="ReadMore" class="modal hide fade well in">
 <!-- some styling issues -->
@@ -52,12 +52,15 @@
 			[!ATOM]Published[ATOM!] 
 		</h6>
 		<h6>
-			[!ATOM]Author[ATOM!]
+			[!ATOM]Author[ATOM!] 
 		</h6>
 		<p>
+
 <?php include 'oip-module-modal-images.txt' ?>
-			[!ATOM]Body[ATOM!]
+			[!ATOM]Body[ATOM!] 
 		</p>
 	</div>
 	<div class="modal-footer">
+	</div>
+</div>
 <!-- ReadMore modal -->
