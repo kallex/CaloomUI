@@ -17,8 +17,7 @@
 			<a data-toggle="modal" href="#locations-profile-view">Design Factory</a> </label>
 			<label class="checkbox"> 
 			<input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
-			<a data-toggle="modal" href="#locations-profile-view">Media Factory</a></label>
-			
+			<a data-toggle="modal" href="#locations-profile-view">Media Factory</a></label>		
 			<label class="checkbox"> 
 			<input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
 			<a data-toggle="modal" href="#locations-profile-view">Cafe AGI</a></label> 
