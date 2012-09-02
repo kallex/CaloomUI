@@ -5,4 +5,4 @@
 </div><div class="row-fluid mini-view">
 <?php include '../oip-modules-views/oip-module-activities-collection.txt' ?><!-- UseInformationObject:ActivitiesCollection -->
 </div>
-<!-- end oip-container-projects-focus-mini-view.txt -->
+<!-- end oip-container-activities-collection.txt -->
