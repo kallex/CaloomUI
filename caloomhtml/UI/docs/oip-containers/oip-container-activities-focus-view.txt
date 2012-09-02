@@ -6,5 +6,4 @@
     <?php include '../oip-modules-views/oip-module-activities-view.txt' ?><!-- UseInformationObject:ActivitiesModule -->
     </div>
 </div>
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 <!-- end oip-container-projects-focus-view.txt -->
