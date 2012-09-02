@@ -4,10 +4,10 @@
 		<img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_043_group@2x.png" alt="Responsive devices">
 	</p>
 	<h3>
-		[!ATOM]Title[ATOM!]
+		Title
 	</h3>
 	<p>
-		[!ATOM]Introduction[ATOM!]
+		Introduction, to be done. This is your personal group listing-
 	</p>
 	<dl> 
 		<dt>My Groups</dt>
@@ -18,7 +18,7 @@
 		<dd><a href="#">Aalto Social Impact</a></dd>
 	</dl>
 	<p>
-		[!ATOM]Summary[ATOM!]
+		Summary
 	</p>
 </div>
 
