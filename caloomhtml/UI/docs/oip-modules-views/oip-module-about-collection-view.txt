@@ -1,10 +1,7 @@
 <!-- oip-module-about-collection-view.txt -->
-<h2>
-	[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
-</h2>
 <?php include '../oip-modules/oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
 <p>
-	I had more, but you go ahead. In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Um, is this the boring, peaceful kind of taking to the streets? 
-[!ATOM]Summary[ATOM!]
+oip-module-title-excerpt-view.txt
+[!ATOM]Excerpt[ATOM!]
 </p>
 <!-- end oip-module-about-collection-view.txt -->

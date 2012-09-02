@@ -1,11 +1,11 @@
 <!-- oip-module-personal.txt -->
-<!-- include '../oip-modules/oip-module-summary.txt' --><!-- UseInformationObject:Summary -->
+<!-- include '../oip-modules/oip-module-introduction.txt' --><!-- UseInformationObject:Summary -->
 <!-- include '../oip-modules-views/oip-module-map-collection.txt' --><!-- UseInformationObject:ActivitiesModule -->
 <div>
 <h2>welcome to your personal landing page</h2>
 </div>
-<?php include '../oip-modules/oip-module-summary.txt' ?><!-- UseInformationObject:Summary -->
+<?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Summary -->
 <?php include '../oip-modules-views/oip-module-activities-collection.txt' ?><!-- UseInformationObject:ActivitiesCollection -->
-<?php include '../oip-modules/oip-module-summary.txt' ?><!-- UseInformationObject:Summary -->
+<?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Summary -->
 <?php include '../oip-modules-views/oip-module-groups-collection.txt' ?><!-- UseInformationObject:GroupsCollection -->
 <!-- end oip-module-personal.txt -->
