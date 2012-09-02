@@ -29,8 +29,8 @@
 			Moderator(s) 
 		</p>
 		<p class="view-content">
-<?php include '../oip-modules/oip-module-moderator-name.txt' ?>
-</p>
+        <?php include '../oip-modules/oip-module-moderator-name.txt' ?><!-- UseInformationObjectAsCollection:Moderators -->
+        </p>
 	</div>
 </div>
 <!-- modals -->
