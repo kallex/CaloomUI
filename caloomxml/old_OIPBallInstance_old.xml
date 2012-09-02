@@ -96,33 +96,7 @@
         </InformationItems>
       </InformationObject>
       
-      <!-- Tech Page Level Stuff -->
-      <InformationObject name="JavaScriptContainer" designDesc="Java script stuff">
-        <InformationItems>
-          <InformationItem name="HtmlContent" logicalDataType="Text_Long" />
-        </InformationItems>
-      </InformationObject>
-      <InformationObject name="JavascriptContainer" designDesc="Java script stuff">
-        <InformationItems>
-          <InformationItem name="HtmlContent" logicalDataType="Text_Long" />
-        </InformationItems>
-      </InformationObject>
-      <InformationObject name="FooterContainer" designDesc="Java script stuff">
-        <InformationItems>
-          <InformationItem name="HtmlContent" logicalDataType="Text_Long" />
-        </InformationItems>
-      </InformationObject>
-      
-      <!-- Dummy stub containers for now -->
-      <InformationObject name="NavigationContainer" designDesc="Navigation stuff">
-        <InformationItems>
-          <InformationItem name="Dummy" logicalDataType="Text_Short"/>
-        </InformationItems>
-      </InformationObject>
-        
-
-
-          <!-- Account/Group/Profile Pages -->
+      <!-- Account/Group/Profile Pages -->
 
       <InformationObject name="AccountContainer" designDesc="User account, centralized point for all">
         <InformationItems>
@@ -590,65 +564,11 @@
 					<InformationItem name="OperationActionName" logicalDataType="Text_Short"/>
 				</InformationItems>
 			</InformationObject>
-			<InformationObject name="QueueEnvelope" designDesc="QueueEnvelope for all kinds of queued items" provideCreateMethod="false">
+			<InformationObject name="QueueEnvelope" designDesc="QueueEnvelope for all kinds of queued items">
 				<InformationItems>
 					<InformationItem name="SubscriberUpdateOperation" logicalDataType="InformationObject" informationObjectName="SubscriberUpdateOperation"/>
-          <InformationItem name="UpdateWebContentOperation" logicalDataType="InformationObject" informationObjectName="UpdateWebContentOperation"/>
-          <InformationItem name="ErrorContent" logicalDataType="InformationObject" informationObjectName="SystemError"/>
 				</InformationItems>
 			</InformationObject>
-
-      <InformationObject name="SystemError" designDesc="System error object">
-        <InformationItems>
-          <InformationItem name="ErrorTitle" logicalDataType="Text_Short"/>
-          <InformationItem name="OccurredAt" logicalDataType="Time_DateTime" />
-          <InformationItem name="SystemErrorItems" logicalDataType="InformationObject" informationObjectName="SystemErrorItemCollection"/>
-        </InformationItems>
-      </InformationObject>
-      <InformationObject name="SystemErrorItem" designDesc="Error Item">
-        <InformationItems>
-          <InformationItem name="ShortDescription" logicalDataType="Text_Short" />
-          <InformationItem name="LongDescription" logicalDataType="Text_Long"/>
-        </InformationItems>
-      </InformationObject>
-      <InformationObject name="SystemErrorItemCollection" designDesc="Collection for error items">
-        <CollectionFor contentInformationObjectName="SystemErrorItem"/>
-      </InformationObject>
-
-      <InformationObject name="InformationSource" designDesc="Information source info">
-        <InformationItems>
-          <InformationItem name="SourceName" logicalDataType="Text_Short" />
-          <InformationItem name="SourceLocation" logicalDataType="Text_Short" />
-          <InformationItem name="SourceType" logicalDataType="Text_Short" />
-          <InformationItem name="SourceInformationObjectType" logicalDataType="Text_Short"/>
-          <InformationItem name="SourceETag" logicalDataType="Text_Short"/>
-          <InformationItem name="SourceMD5" logicalDataType="Text_Short"/>
-          <InformationItem name="SourceLastModified" logicalDataType="Time_DateTime"/>
-        </InformationItems>
-      </InformationObject>
-      <InformationObject name="InformationSourceCollection" designDesc="Source collection">
-        <CollectionFor contentInformationObjectName="InformationSource"/>
-      </InformationObject>
-      
-      <InformationObject name="UpdateWebContentOperation" designDesc="Update web content operation" provideCreateMethod="true">
-        <InformationItems>
-          <InformationItem name="SourceContainerName" logicalDataType="Text_Short"/>
-          <InformationItem name="SourcePathRoot" logicalDataType="Text_Short"/>
-          <InformationItem name="TargetContainerName" logicalDataType="Text_Short"/>
-          <InformationItem name="TargetPathRoot" logicalDataType="Text_Short"/>
-          <InformationItem name="Handlers" logicalDataType="InformationObject" informationObjectName="UpdateWebContentHandlerCollection"/>
-        </InformationItems>
-      </InformationObject>
-      <InformationObject name="UpdateWebContentHandlerItem" designDesc="Filter item" provideCreateMethod="false">
-        <InformationItems>
-          <InformationItem name="InformationTypeName" logicalDataType="Text_Short" />
-          <InformationItem name="OptionName" logicalDataType="Text_Short"/>
-        </InformationItems>
-      </InformationObject>
-      <InformationObject name="UpdateWebContentHandlerCollection" designDesc="Filter collection">
-        <CollectionFor contentInformationObjectName="UpdateWebContentHandlerItem"/>
-      </InformationObject>
-      
 			<InformationObject name="SubscriberInput" designDesc="Parameter for queued operation">
 				<InformationItems>
 					<InformationItem name="InputRelativeLocation" logicalDataType="Text_Short"/>
