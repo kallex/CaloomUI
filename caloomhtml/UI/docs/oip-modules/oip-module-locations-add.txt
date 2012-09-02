@@ -1,25 +1,33 @@
 <!-- oip-module-account-locations-add.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
+	<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 <fieldset>
 
-<?php include'../oip-modules/oip-module-map-small.txt' ?>oip-module-map-small.txt<!--UseInformationObject:MapPreview -->
+<?php include'../oip-modules/oip-module-map-small.txt' ?>
 			<div class="control-group">
 				<label class="control-label" for="input01">Location name</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Location name">
+					<input name="[!ATOM]ID[ATOM!]_LocationName" class="span3" id="[!ATOM]ID[ATOM!]_LocationName" type="text" value="[!ATOM]LocationName[ATOM!]" placeholder="Location name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Lon Lat</label> 
+				<div class="controls">
+					<input name="[!ATOM]ID[ATOM!]_Longitude" class="span3" id="[!ATOM]ID[ATOM!]_Longitude" type="text" value="[!ATOM]Longitude[ATOM!]" placeholder="Longitude">
+					<input name="[!ATOM]ID[ATOM!]_Latitude" class="span3" id="[!ATOM]ID[ATOM!]_Latitude" type="text" value="[!ATOM]Latitude[ATOM!]" placeholder="Latitude">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="input01">Town</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Town">
+					<input name="[!ATOM]ID[ATOM!]_Town" class="span3" id="[!ATOM]ID[ATOM!]_Town" type="text" value="[!ATOM]Town[ATOM!]" placeholder="Town">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="input01">Country</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Country">
+					<input name="[!ATOM]ID[ATOM!]_Country" class="span3" id="[!ATOM]ID[ATOM!]_Country" type="text" value="[!ATOM]Country[ATOM!]" placeholder="Country">
 				</div>
 			</div>
 			<div class="control-group">
