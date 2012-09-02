@@ -5,7 +5,6 @@
     <?php include '../oip-modules-views/oip-module-activities-summary-view.txt' ?>
 </div>
 <div class="row-fluid row-summary">
-    <?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 </div>
 </section>
 <!-- end oip-container-projects-focus-view.txt -->
