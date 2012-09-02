@@ -37,7 +37,7 @@
 			</h2>
 		</div>
 		<div class="modal-body">
-<?php include '../oip-modules-views/oip-module-locations-profile-view.txt' ?>
+<!-- include '../oip-modules-views/oip-module-locations-profile-view.txt' -->
 		</div>
 	</div>
 <!-- end modals -->
