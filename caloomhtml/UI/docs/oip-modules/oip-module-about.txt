@@ -10,10 +10,6 @@
 		[!ATOM]Author[ATOM! 
 <!-- UseInformationObject:Author-->
 	</h6>
-	<h6 class="group">
-		[!ATOM]Group[ATOM! 
-<!-- UseInformationObject:Group-->
-	</h6>
 	<p>
 <?php include 'oip-module-modal-images-featured.txt' ?></p>
 <!-- UseInformationObject:ImageGroup -->
@@ -31,8 +27,7 @@
 	<p>
 		Fry, you can't just sit here in the dark listening to classical music. Uh, is the puppy mechanical in any way? When the lights go out, it's nobody's business what goes on between two consenting adults. 
 	</p>
-	</dummy-text>[!ATOM]Excerpt[ATOM! 
-<!-- UseInformationObject:Excerpt-->
+	[!ATOM]body[ATOM!]
 	</p>
 	<p>
 	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
