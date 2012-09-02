@@ -1,18 +1,13 @@
 <!-- oip-module-about.txt -->
-	<h2>
-		[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
-	</h2>
 	<h6 class="published">
 		[!ATOM]Published[ATOM!] 
-<!--UseInformationObject:Published-->
 	</h6>
 	<h6 class="author">
-		[!ATOM]Author[ATOM! 
-<!-- UseInformationObject:Author-->
+		[!ATOM]Author[ATOM!]
 	</h6>
 	<p>
-<?php include 'oip-module-modal-images-featured.txt' ?></p>
-<!-- UseInformationObject:ImageGroup -->
+<?php include 'oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
+	</p>
 	<p>
 		 I had more, but you go ahead. In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Um, is this the boring, peaceful kind of taking to the streets? 
 	</p>
@@ -26,10 +21,6 @@
 	</ul>
 	<p>
 		Fry, you can't just sit here in the dark listening to classical music. Uh, is the puppy mechanical in any way? When the lights go out, it's nobody's business what goes on between two consenting adults. 
-	</p>
-	[!ATOM]body[ATOM!]
-	</p>
-	<p>
-	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
+	[!ATOM]Body[ATOM!]
 	</p>
 <!-- end oip-module-about.txt -->
