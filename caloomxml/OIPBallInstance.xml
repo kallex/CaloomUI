@@ -213,7 +213,7 @@
 				<InformationItems>
 					<InformationItem name="Header" informationObjectName="ContainerHeader" logicalDataType="InformationObject" />
 					<InformationItem name="FeaturedBlog" informationObjectName="Blog" logicalDataType="InformationObject" />
-					<InformationItem name="BlogCollection" informationObjectName="BlogCollection" logicalDataType="InformationObject" />
+					<InformationItem name="RecentBlogCollection" informationObjectName="BlogCollection" logicalDataType="InformationObject" />
 					<InformationItem name="BlogIndexGroup" informationObjectName="BlogIndexGroup" logicalDataType="InformationObject" />
 				</InformationItems>
 			</InformationObject>
@@ -250,9 +250,13 @@
           <InformationItem name="Header" informationObjectName="ContainerHeader" logicalDataType="InformationObject" />
           <InformationItem name="Excerpt" logicalDataType="Text_Long"/>
           <InformationItem name="Body" logicalDataType="Text_Long"/>
+          <InformationItem name="Published" logicalDataType="Time_DateTime" />
+          <InformationItem name="Author" logicalDataType="Text_Short" />
+          <!--
           <InformationItem name="AboutFeatured" informationObjectName="Calendar" logicalDataType="InformationObject" />
 					<InformationItem name="AboutCollection" informationObjectName="CalendarCollection" logicalDataType="InformationObject" />
 					<InformationItem name="AboutIndexCollection" informationObjectName="CalendarIndex" logicalDataType="InformationObject" />
+          -->
           <InformationItem name="ImageGroup" logicalDataType="InformationObject" informationObjectName="ImageGroup" />
         </InformationItems>
 			</InformationObject>
@@ -329,6 +333,37 @@
         </InformationItems>
       </InformationObject>
 
+      <InformationObject name="CollaboratorCollection" designDesc="Collection for collaborators">
+        <CollectionFor contentInformationObjectName="Collaborator"/>
+      </InformationObject>
+
+      <InformationObject name="Collaborator" designDesc="Collaborator">
+        <InformationItems>
+          <InformationItem name="CollaboratorName" logicalDataType="Text_Short"/>
+          <InformationItem name="Role" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="CollaboratingGroup" designDesc="Collaborating group">
+        <InformationItems>
+          <InformationItem name="CollaboratingGroupName" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="CollaboratingGroupCollection" designDesc="Collection for collaborating groups">
+        <CollectionFor contentInformationObjectName="CollaboratingGroup"/>
+      </InformationObject>
+
+      <InformationObject name="CollaboratingOrganization" designDesc="Collaborating organization">
+        <InformationItems>
+          <InformationItem name="CollaboratingOrganizationName" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="CollaboratingOrganizationCollection" designDesc="Collection for collaborating organizations">
+        <CollectionFor contentInformationObjectName="CollaboratingOrganization"/>
+      </InformationObject>
+
       <InformationObject name="GroupSummaryContainer" designDesc="Group container">
         <InformationItems>
           <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader"/>
@@ -340,7 +375,13 @@
       
       <InformationObject name="GroupContainer" designDesc="Group container">
         <InformationItems>
-          <InformationItem name="Groups" logicalDataType="InformationObject" informationObjectName="GroupCollection"/>
+          <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader"/>
+          <InformationItem name="Group" logicalDataType="InformationObject" informationObjectName="Group"/>
+          <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
+          <InformationItem name="CollaboratingGroups" logicalDataType="InformationObject" informationObjectName="CollaboratingGroupCollection"/>
+          <InformationItem name="CollaboratingOrganizations" logicalDataType="InformationObject" informationObjectName="CollaboratingOrganizationCollection"/>
+          <InformationItem name="ActivityCollection" logicalDataType="InformationObject" informationObjectName="ActivityCollection"/>
+          <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="LocationCollection"/>
         </InformationItems>
       </InformationObject>
 
@@ -526,10 +567,14 @@
 			</InformationObject>
 			<InformationObject name="Location" designDesc="Location (Longitude, Latitude)">
 				<InformationItems>
+          <InformationItem name="LocationName" logicalDataType="Text_Short" />
 					<InformationItem name="Longitude" informationObjectName="Longitude" logicalDataType="InformationObject" />
 					<InformationItem name="Latitude" informationObjectName="Latitude" logicalDataType="InformationObject" />
 				</InformationItems>
 			</InformationObject>
+      <InformationObject name="LocationCollection" designDesc="Collection of location">
+        <CollectionFor contentInformationObjectName="Location"/>
+      </InformationObject>
 			<InformationObject name="Date" designDesc="Date (day, Week, Month, Year)">
 				<InformationItems>
 					<InformationItem name="Day" logicalDataType="Time_DateTime" />
