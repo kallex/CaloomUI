@@ -1,5 +1,5 @@
 <!-- oip-container-activities-collection.txt -->
-<?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
+<?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:AboutContainerHeader -->
 <div class="span12 hero container">
 <?php include '../oip-modules-views/oip-module-about-collection-view.txt' ?><!-- UseInformationObject:ActivitiesModule -->
 </div>
