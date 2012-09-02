@@ -41,7 +41,7 @@
 
 <!-- oip-social-panel.txt -->
 	<div class="blog-body-social-module">
-<?php include 'oip-module-social-panel.txt' ?>
+<!-- include 'oip-module-social-panel.txt' -->
 <!-- UseInformationObject:SocialPanel-->
 	</div>
 <!-- end oip-social-panel.txt -->
@@ -76,7 +76,7 @@
 		</p>
 	</div>
 	<div class="modal-footer">
-<?php include 'oip-module-social-panel.txt' ?>
+<!-- php include 'oip-module-social-panel.txt' ->
 <!-- UseInformationObject:SocialPanel-->
 	</div>
 </div>
