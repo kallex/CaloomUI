@@ -330,6 +330,7 @@
       <InformationObject name="Moderator" designDesc="Moderator for anything">
         <InformationItems>
           <InformationItem name="ModeratorName" logicalDataType="Text_Short"/>
+          <InformationItem name="ProfileUrl" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
 
