@@ -3,5 +3,6 @@
 <script>
     map = new OpenLayers.Map("map-preview");
     map.addLayer(new OpenLayers.Layer.OSM());
+    <?php include 'oip-module-markers.txt' ?><!-- UseInformationObjectAsCollection:MapMarkers -->
     map.zoomToMaxExtent();
 </script> 

@@ -1,7 +1,7 @@
 <!-- oip-container-map-focus-view.txt -->
 <div class="row" style="margin:0;padding:0">
 	<div class="span12" style="margin-left:0px;padding:0">
-<?php include '../oip-modules-views/oip-module-map-view.txt' ?><!-- UseInformationObject:MapModule -->
+<?php include '../oip-modules-views/oip-module-map-view.txt' ?>
 	</div>
 </div>
 <!-- end oip-container-map-focus-view.txt -->
