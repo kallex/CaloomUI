@@ -29,9 +29,7 @@
 			Moderator(s) 
 		</p>
 		<p class="view-content">
-<!-- THEBALL-CONTEXT-COLLECTION-BEGIN:Moderators -->
-			<a data-toggle="modal" href="#[!ATOM]ProfileUrl[ATOM!]"> [!ATOM]ModeratorName[ATOM!]</a><span class="help-inline" style="color:#468847;">Initiator</span>
-<!-- THEBALL-CONTEXT-END:* -->
+<?php include '../oip-modules/oip-module-moderator-name.txt' ?>
 </p>
 	</div>
 </div>
