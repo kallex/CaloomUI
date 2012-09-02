@@ -376,7 +376,7 @@
       <InformationObject name="GroupContainer" designDesc="Group container">
         <InformationItems>
           <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader"/>
-          <InformationItem name="Group" logicalDataType="InformationObject" informationObjectName="Group"/>
+          <InformationItem name="GroupProfile" logicalDataType="InformationObject" informationObjectName="Group"/>
           <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
           <InformationItem name="CollaboratingGroups" logicalDataType="InformationObject" informationObjectName="CollaboratingGroupCollection"/>
           <InformationItem name="CollaboratingOrganizations" logicalDataType="InformationObject" informationObjectName="CollaboratingOrganizationCollection"/>
