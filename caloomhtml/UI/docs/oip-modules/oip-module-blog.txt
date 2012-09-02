@@ -27,20 +27,14 @@
 	</ul>
 	<p>
 		Fry, you can't just sit here in the dark listening to classical music. Uh, is the puppy mechanical in any way? When the lights go out, it's nobody's business what goes on between two consenting adults. 
+	[!ATOM]Excerpt[ATOM!]
 	</p>
-	</dummy-text>[!ATOM]Excerpt[ATOM! 
+	
 <!-- UseInformationObject:Excerpt-->
 	</p>
 	<p>
 	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
 	</p>
-
-<!-- oip-social-panel.txt -->
-	<div class="blog-body-social-module">
-<!-- php include 'oip-module-social-panel.txt' ->
-<!-- UseInformationObject:SocialPanel-->
-	</div>
-<!-- end oip-social-panel.txt -->
 </div>
 <!-- end oip-module-blog-featured.txt -->
 <!-- ReadMore modal -->
