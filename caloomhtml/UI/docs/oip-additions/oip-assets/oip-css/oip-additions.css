@@ -7,8 +7,13 @@ div.container-summary {
 }
 
 #container-focus {
-	margin-top:0px;
+	margin-top: 18px;
 	background-color:white
+}
+
+a.brand.active {
+	float: left;
+	padding-top: 13px;
 }
 
 div.hero-unit.contact-oip {
@@ -307,10 +312,6 @@ div.blog img {
 	margin: 10px;
 	margin-top: 0px;
 	margin-left: 0px
-}
-
-a:hover {
-	background-color: #fcfced;
 }
 
 div.focus-introduction p, div.row-summary p {

@@ -1,3 +1,0 @@
-<!-- oip-module-account-activities-content.txt -->
-oip-module-account-activities-content.txt
-<!-- end oip-module-account-activities-content.txt -->
