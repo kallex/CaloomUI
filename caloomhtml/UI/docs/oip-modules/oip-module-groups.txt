@@ -5,8 +5,6 @@
 	<li><a href="#tab-group-activities" data-toggle="tab">Activities</a></li>
 	<li><a href="#tab-group-locations" data-toggle="tab">Locations</a></li>
 	<li><a href="#tab-group-locations-add" data-toggle="tab">Add Location</a></li>
-	<li><a href="#tab-group-content" data-toggle="tab" class="next-phase">Content</a></li>
-	<li><a href="#tab-group-statistics" data-toggle="tab" class="next-phase">Statistics</a></li>
 	<li><a href="#tab-group-delete" data-toggle="tab" class="delete">Delete</a></li>
 </ul>
 <div class="tab-content tab-border">
@@ -15,8 +13,6 @@
 	<div class="tab-pane" id="tab-group-activities"><?php include'../oip-modules/oip-module-group-activities.txt' ?></div>
 	<div class="tab-pane" id="tab-group-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?></div>
 	<div class="tab-pane" id="tab-group-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?><!--UseInformationObject:AddLocationInfo --></div>
-	<div class="tab-pane" id="tab-group-content"><?php include'../oip-modules/oip-module-group-content.txt' ?></div>
-	<div class="tab-pane" id="tab-group-statistics"><?php include'../oip-modules/oip-module-group-statistics.txt' ?></div>
 	<div class="tab-pane" id="tab-group-delete"><?php include'../oip-modules/oip-module-group-delete.txt' ?></div>
 </div>
 <!-- end oip-module-groups.txt -->
