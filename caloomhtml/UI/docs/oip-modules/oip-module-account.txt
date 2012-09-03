@@ -13,7 +13,7 @@
 	<div class="tab-content tab-border">
 		<div class="tab-pane active" id="tab-identity"><?php include'../oip-modules/oip-module-account-identity.txt'  ?></div><!-- UseInformationObject:AccountIdentity -->
 		<div class="tab-pane" id="tab-roles"><?php include'../oip-modules/oip-module-account-roles.txt' ?></div><!-- UseInformationObject:AccountRoles -->
-		<div class="tab-pane" id="tab-locations"><?php include'../oip-modules/oip-module-account-locations.txt' ?></div><!-- UseInformationObject:AccountLocations -->
+		<div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?></div><!-- UseInformationObject:AccountLocations -->
 		<div class="tab-pane" id="tab-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?></div><!-- UseInformationObject:LocationsAdd -->
 		<div class="tab-pane" id="tab-activities"><?php include'../oip-modules/oip-module-account-activities.txt' ?></div><!-- UseInformationObject:AccountProjects -->
 		<div class="tab-pane" id="tab-skills"><?php include'../oip-modules/oip-module-account-skills.txt' ?></div><!-- UseInformationObject:AccountSkills -->

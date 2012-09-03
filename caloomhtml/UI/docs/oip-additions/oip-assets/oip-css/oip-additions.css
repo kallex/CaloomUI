@@ -310,7 +310,7 @@ div.blog img {
 }
 
 a:hover {
-	background-color: rgba(13, 115,255,.1);
+	background-color: #fcfced;
 }
 
 div.focus-introduction p, div.row-summary p {

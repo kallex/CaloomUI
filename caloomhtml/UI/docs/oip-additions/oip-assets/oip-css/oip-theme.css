@@ -126,10 +126,10 @@ textarea {
 body {
 	margin: 0;
 	font-family: Palatino,Georgia,"Times New Roman",Times,serif;
-	font-size: 16px;
-	line-height: 1.4em;
-	color: #282828;
-	background-color: #fafdfa;
+	font-size: 14px;
+	line-height: 1.3em;
+	color: #39241a;
+	background-color: #fcfced;
 }
 
 a {
