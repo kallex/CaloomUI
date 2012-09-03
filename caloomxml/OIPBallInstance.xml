@@ -383,8 +383,27 @@
           <InformationItem name="CollaboratingOrganizations" logicalDataType="InformationObject" informationObjectName="CollaboratingOrganizationCollection"/>
           <InformationItem name="ActivityCollection" logicalDataType="InformationObject" informationObjectName="ActivityCollection"/>
           <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="LocationCollection"/>
+          <InformationItem name="AddLocationInfo" logicalDataType="InformationObject" informationObjectName="AddLocationInfo"/>
         </InformationItems>
       </InformationObject>
+
+      <InformationObject name="AddLocationInfo" designDesc="Add location info">
+        <InformationItems>
+          <InformationItem name="LocationName" logicalDataType="Text_Short"/>
+          <InformationItem name="Town" logicalDataType="Text_Short"/>
+          <InformationItem name="Country" logicalDataType="Text_Short"/>
+          <InformationItem name="Longitude" logicalDataType="Text_Short"/>
+          <InformationItem name="Latitude" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+<!--
+      LocationName
+      Town
+      Country
+      Longitude
+      Latitude
+      -->
 
       <InformationObject name="GroupCollection" designDesc="Group collection">
         <CollectionFor contentInformationObjectName="Group"/>
