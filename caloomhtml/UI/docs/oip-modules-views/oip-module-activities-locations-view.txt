@@ -27,7 +27,7 @@
 	</div>
 	<div class="modal-body">
 <h2>highlight marker on the map and let that marker bring up the modal</h2>
-<?php include '../oip-modules-views/oip-module-locations-profile-view.txt' ?>
+include '../oip-modules-views/oip-module-locations-profile-view.txt' <-- some link issue
 	</div>
 </div>
 <!-- end modals -->
