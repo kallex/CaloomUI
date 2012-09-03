@@ -1,4 +1,4 @@
-<div id="map-preview" style="height:522px;"></div>
+<div id="map_canvas" style="height:522px;"></div>
 <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
 <script>
     map = new OpenLayers.Map("map-preview");
