@@ -14,6 +14,9 @@
 	<link href="../bootstrap-default/assets/css/dashboard.css" rel="stylesheet">
 	<link href="../bootstrap-default/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 	<link href="../oip-additions/oip-assets/oip-css/oip-additions.css" rel="stylesheet">
+<!-- jasny-css -->
+	<link href="../oip-additions/oip-assets/jasny-bootstrap/css/jasny-bootstrap.css" rel="stylesheet">
+	<link href="../oip-additions/oip-assets/jasny-bootstrap/css/jasny-bootstrap-responsive.css" rel="stylesheet">
 
 	<!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
 <!--Extra Styles from jQuery UI-->
