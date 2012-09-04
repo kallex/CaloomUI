@@ -2,6 +2,15 @@
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="profile">
 			<div class="control-group">
+				<label class="control-label" for="input01">Icon or image</label> 
+				<div class="controls">
+					<input class="span2" id="appendedInputButtons" size="16" type="text">
+					<button class="btn btn-mini" type="button">Choose image</button><button class="btn btn-mini" type="button">Remove image</button> 
+				</div>
+				<p class="help-block">You can add an icon or image that people will see on the map and in the introduction of your activity (Activity main Photo)
+				</p>
+			</div>
+			<div class="control-group">
 				<label class="control-label" for="input01">Activity name</label> 
 				<div class="controls">
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Nordic Business Event 2012">

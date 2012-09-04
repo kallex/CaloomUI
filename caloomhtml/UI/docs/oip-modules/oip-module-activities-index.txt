@@ -1,5 +1,5 @@
 <!-- oip-activities-index.txt -->
-	<p><img src="[!ATOM]ContentUrl[ATOM]"></p>
+	<p><img src="[!ATOM]ContentUrl[ATOM]"><br>This is the group's icon or brand image or logo</p>
 	<h3>[!ATOM]Title[ATOM!]</h3>
 	<p>[!ATOM]Introduction[ATOM!]</p>
 <dl>
