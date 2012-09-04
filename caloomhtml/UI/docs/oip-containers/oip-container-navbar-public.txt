@@ -8,6 +8,7 @@
 					<li> <a href="oip-layout-map.phtml"> Map</a> </li>
 					<!--<li><a href="oip-layout-calendar-view.phtml">Calendar</a></li>-->
 					<li><a href="oip-layout-blog.phtml">Blog</span></a></li>
+					<li><a href="oip-layout-about.phtml">About</span></a></li>
 					<li><a href="oip-layout-activities.phtml">Activities</span></a></li>
 					<li><a href="oip-layout-groups.phtml">Groups</span></a></li>
 					<li><a href="oip-layout-about.phtml">About</span></a></li>

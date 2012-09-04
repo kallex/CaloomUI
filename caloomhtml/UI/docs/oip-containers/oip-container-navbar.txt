@@ -14,6 +14,7 @@
 						<li><a href="oip-layout-blog-edit.phtml">Blogs Edit</a></li>
 					</ul>
 					</li>
+					<li><a href="oip-layout-about.phtml">About</span></a></li>
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities<b class="caret"></b> </a> 
 					<ul class="dropdown-menu">
 						<li><a href="oip-layout-activities-summary.phtml">Activities Summary</a></li>
