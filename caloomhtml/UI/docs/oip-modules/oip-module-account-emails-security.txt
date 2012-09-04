@@ -9,7 +9,18 @@
         <label class="checkbox"> 
         <input type="checkbox" id="[!ATOM]ID[ATOM!]OpenId" name="[!ATOM]ID[ATOM!]_OpenID value=" [!atom]Email[atom!]>
             <div class="controls">
-                <input name="Title" class="span3" id="input01" type="text" placeholder="OpenID">
+               Google Icon
+            </div>
+        </label> 
+    </div>
+</div>
+<div class="control-group  nested-checkboxes">
+    <label class="control-label" for="input01">Edit or remove</label>
+    <div class="controls">
+        <label class="checkbox"> 
+        <input type="checkbox" id="[!ATOM]ID[ATOM!]OpenId" name="[!ATOM]ID[ATOM!]_OpenID value=" [!atom]Email[atom!]>
+            <div class="controls">
+               Add new like Yahoo
             </div>
         </label> 
     </div>
@@ -28,8 +39,33 @@
     </div>
 </div>
 <div class="control-group">
+    <label class="control-label" for="input01">List of your emails</label> 
     <div class="controls">
         <label class="checkbox"> 
+        <input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
+        <a data-toggle="modal" href="#collaborator-profile-anne">anne.badan@aalto.fi </label><a data-toggle="modal" href="#resend-email">resend</a>
+        <label class="checkbox"> 
+        <input type="checkbox" name="optionscheckboxList1" value="option1" undisabled>
+        <a data-toggle="modal" href="#collaborator-profile">anne@ajhda.org</a> </label>
+        <label class="checkbox"> 
+        <input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
+        <a data-toggle="modal" href="#collaborator-profile">a.b@google.com</a> </label>
+        <label class="checkbox"> 
+        <input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
+        <p class="help-block">
+            <strong>Note:</strong> some support text
+        </p>
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label" for="input01">Invite collaborators</label> 
+    <div class="controls">
+        <input name="Title" class="span3" id="input01" type="text" placeholder="Rahim, Riina,...">
+    </div>
+</div>
+<div class="control-group">
+    <div class="controls">
+        <label class="checkbox"> add email
         <input type="checkbox" id="[!ATOM]ID[ATOM!]_Email" name="[!ATOM]ID[ATOM!]_Email value=" [!atom]Email[atom!]>
             <div class="controls">
                 <input name="Title" class="span3" id="input01" type="text" placeholder="second email">
@@ -61,27 +97,24 @@
 			Every one </label> 
 		</div>
 	</div>
-
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 </fieldset>
 </form>
 </div>
-<!-- oip-module-modal-profile-photo-edit.txt -->
-<div id="1" class="modal hide fade well">
+
+
+<!-- modals -->
+<div id="resend-email" class="modal hide fade well">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h3>
-			Add or Change Images
+			Resend authentication email
 		</h3>
 	</div>
 	<div class="modal-body well">
 		<form method="post" class="form-horizontal well">
 			<fieldset>
 				NOT STYLED!<br>
-
-<?php include 'oip-module-form-image-input.txt' ?>
-<!-- UseInformationObjectAsCollection:ImageCollection[0] -->
-<?php include 'oip-module-form-add-image-input.txt' ?>
 				<div class="modal-footer">
 <?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
 				</div>

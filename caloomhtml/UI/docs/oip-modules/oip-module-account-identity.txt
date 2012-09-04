@@ -65,7 +65,7 @@
 					</label>
 					<label class="radio">
 						<input type="radio" name="optionsradioList3" value="option3" checked>
-						Every one
+						Public
 					</label>
 				</div>
 			</div>
