@@ -2,12 +2,16 @@
 <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 <hr>
 <!-- featured blog -->
+<div class="span12 blog-featured">
 <?php include '../oip-modules/oip-module-blog-featured.txt' ?><!--UseInformationObject:FeaturedBlog -->
+</div>
 <!-- featured blog -->
 <!-- latest x# blogs -->
 <div class="row">
-<?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexGroup -->
-	<div class="span8" style="margin:0;padding:0">
+    <div class="span3">
+    <?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexGroup -->
+    </div>
+	<div class="span9" style="margin:0;padding:0">
     <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
 	</div>
 </div>

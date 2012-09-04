@@ -1,5 +1,4 @@
 <!-- oip-module-blog-featured.txt -->
-<div class="span12 blog-featured">
 	<h2>
 		[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
 	</h2>
@@ -32,7 +31,6 @@
 	<p>
 	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
 	</p>
-</div>
 <!-- end oip-module-blog-featured.txt -->
 
 <!-- ReadMore modal -->
