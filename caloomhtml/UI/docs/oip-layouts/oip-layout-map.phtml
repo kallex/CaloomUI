@@ -1,4 +1,4 @@
-<!-- oip-layout-map-view.phtml -->
+<!-- oip-layout-map.phtml -->
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
@@ -11,13 +11,20 @@
 	<section id="container-focus" class="container well" > 
 <?php include '../oip-containers/oip-container-map-focus-view.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.MapContainer-->
 	</section>
-	<section class="container-summary">
+	<!-- oip-container-activities-collection.txt -->
+	<section class="container-summary"> 
+<?php include '../oip-containers/oip-container-map-collection.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.MapSummaryContainer  -->
+	</section> 
+	<!-- oip-container-footer.txt -->
+	<section class="container-summary"> 
 <?php include '../oip-containers/oip-container-footer.txt' ?>
-	</section>
-</div><!-- end container -->
+	</section> 
+</div>
+
+<!-- end container -->
 <!-- javascript -->
 <?php include '../oip-modules/oip-le-javascript.txt' ?>
 <!-- end javascript -->
 </body>
 </html>
-<!-- end oip-layout-map-view.phtml -->
+<!-- end oip-layout-map.phtml -->

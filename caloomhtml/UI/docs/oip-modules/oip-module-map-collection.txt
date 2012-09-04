@@ -1,0 +1,25 @@
+<!-- oip-module-map-collection.txt -->
+<!-- this is the mini-view module that lists the <!ATOM>Title<ATOM!> and image in a compact form -->
+<div class="row-fluid">
+	<div class="span4">
+		<img class="thumbnail" src="../oip-additions/oip-assets/oip-images/placeholder/map-340x180.png" width="350" height="180" alt="map-340x180" /> 
+		<p>
+			<span class="badge">Category 1</span> <span class="badge">Category 2</span> <span class="badge">Category 3!</span> <span class="badge">Category 4</span> 
+		</p>
+	</div>
+	<div class="span4">
+		<img class="thumbnail" src="../oip-additions/oip-assets/oip-images/placeholder/map-340x180.png" width="350" height="180" alt="map-340x180" /> 
+		<p>
+			<span class="badge">Category 1</span> <span class="badge">Category 2</span> <span class="badge">Category 3!</span> <span class="badge">Category 4</span> 
+		</p>
+	</div>
+	<div class="span4">
+		<img class="thumbnail" src="../oip-additions/oip-assets/oip-images/placeholder/map-340x180.png" width="350" height="180" alt="map-340x180" /> 
+		<p>
+			<span class="badge">Category 1</span> <span class="badge">Category 2</span> <span class="badge">Category 3!</span> <span class="badge">Category 4</span> 
+		</p>
+	</div>
+
+</div>
+
+<!-- end oip-module-map-collection.txt -->

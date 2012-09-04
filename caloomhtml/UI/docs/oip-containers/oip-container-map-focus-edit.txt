@@ -3,7 +3,7 @@
 <div class="3">
 <?php include '../oip-modules/oip-module-map-index.txt' ?><!-- UseInformationObject:MapIndex -->
 </div>
-<div class="span9" style="margin:0;padding:0">
+<div class="span9">
 <?php include '../oip-modules/oip-module-map-edit.txt' ?>
 </div>
 </div>

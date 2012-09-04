@@ -4,7 +4,7 @@
 <div class="span3">
 <?php include '../oip-modules/oip-module-account-index.txt' ?><!-- UseInformationObject:AccountIndex -->
 </div>
-<div class="span9"">
+<div class="span9">
 <?php include '../oip-modules/oip-module-account.txt' ?><!-- UseInformationObject:AccountModule -->
 </div>
 </div>
