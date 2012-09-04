@@ -1,15 +1,11 @@
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset>
-			<div class="fileupload fileupload-exists" data-provides="fileupload">
-				<input type="hidden" value="" name="">
-				<div class="input-append">
-					<div class="uneditable-input span4">
-						<i class="icon-file fileupload-exists"></i> <span class="fileupload-preview" style="">bootstrap-collapse.js</span>
-					</div>
-					<span class="btn btn-file"><span class="fileupload-new">Select file</span><span class="fileupload-exists">Change</span>
-					<input type="file">
-					</span><a href="#" class="btn fileupload-exists" data-dismiss="fileupload">Remove</a> 
+			<div class="control-group">
+				<label class="control-label" for="input01">First name</label> 
+				<div class="controls">
+					<input class="span2" id="appendedInputButtons" size="16" type="text">
+					<button class="btn" type="button">Choose image</button><button class="btn" type="button">Remove image</button> 
 				</div>
 			</div>
 			<div class="control-group">

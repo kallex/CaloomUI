@@ -14,12 +14,6 @@
 <script src="../bootstrap-default/assets/js/bootstrap-collapse.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-carousel.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-typeahead.js"></script>
-<!-- jasny-bootstrap -->
-<script src="../oip-additions/oip-assets/jasny-bootstrap/js/bootstrap-fileupload.js"></script>
-<script src="../oip-additions/oip-assets/jasny-bootstrap/js/bootstrap-inputmask.js"></script>
-<script src="../oip-additions/oip-assets/jasny-bootstrap/js/bootstrap-rowlink.js"></script>
-<script src="../oip-additions/oip-assets/jasny-bootstrap/js/jasny-bootstrap.js"></script>
-<script src="../oip-additions/oip-assets/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
 <!-- calendar -->
-<script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js" type="text/javascript" charset="utf-8"></script>
 <!-- end oip-le-javascript.txt -->
