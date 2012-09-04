@@ -2,113 +2,73 @@
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset>
-		<h3><strong>Note:</strong> Check the checkbox to remove the email address all together or to change the email address.</h3>
-<div class="control-group  nested-checkboxes">
-    <label class="control-label" for="input01">Edit or remove</label>
-    <div class="controls">
-        <label class="checkbox"> 
-        <input type="checkbox" id="[!ATOM]ID[ATOM!]OpenId" name="[!ATOM]ID[ATOM!]_OpenID value=" [!atom]Email[atom!]>
-            <div class="controls">
-               Google Icon
-            </div>
-        </label> 
-    </div>
-</div>
-<div class="control-group  nested-checkboxes">
-    <label class="control-label" for="input01">Edit or remove</label>
-    <div class="controls">
-        <label class="checkbox"> 
-        <input type="checkbox" id="[!ATOM]ID[ATOM!]OpenId" name="[!ATOM]ID[ATOM!]_OpenID value=" [!atom]Email[atom!]>
-            <div class="controls">
-               Add new like Yahoo
-            </div>
-        </label> 
-    </div>
-</div>
-<div class="control-group  nested-checkboxes">
-    <div class="controls">
-        <label class="checkbox"> 
-        <input type="checkbox" id="[!ATOM]ID[ATOM!]_Email" name="[!ATOM]ID[ATOM!]_Email value=" [!atom]Email[atom!]>
-            <div class="controls">
-                <input name="Title" class="span3" id="input01" type="text" placeholder="primary email">
-            </div>
-        </label>
-        <p class="help-block">
-        <strong>Note:</strong> To use as primary email address for platform confirmations” (so that the security confirmations are used through that email)
-        </p>
-    </div>
-</div>
-<div class="control-group">
-    <label class="control-label" for="input01">List of your emails</label> 
-    <div class="controls">
-        <label class="checkbox"> 
-        <input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
-        <a data-toggle="modal" href="#collaborator-profile-anne">anne.badan@aalto.fi </label><a data-toggle="modal" href="#resend-email">resend</a>
-        <label class="checkbox"> 
-        <input type="checkbox" name="optionscheckboxList1" value="option1" undisabled>
-        <a data-toggle="modal" href="#collaborator-profile">anne@ajhda.org</a> </label>
-        <label class="checkbox"> 
-        <input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
-        <a data-toggle="modal" href="#collaborator-profile">a.b@google.com</a> </label>
-        <label class="checkbox"> 
-        <input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
-        <p class="help-block">
-            <strong>Note:</strong> some support text
-        </p>
-    </div>
-</div>
-<div class="control-group">
-    <label class="control-label" for="input01">Invite collaborators</label> 
-    <div class="controls">
-        <input name="Title" class="span3" id="input01" type="text" placeholder="Rahim, Riina,...">
-    </div>
-</div>
-<div class="control-group">
-    <div class="controls">
-        <label class="checkbox"> add email
-        <input type="checkbox" id="[!ATOM]ID[ATOM!]_Email" name="[!ATOM]ID[ATOM!]_Email value=" [!atom]Email[atom!]>
-            <div class="controls">
-                <input name="Title" class="span3" id="input01" type="text" placeholder="second email">
-            </div>
-        </label> 
-    </div>
-</div>
-<div class="control-group nested-checkboxes">
-    <div class="controls">
-        <label class="checkbox"> 
-        <input type="checkbox" id="[!ATOM]ID[ATOM!]_Email" name="[!ATOM]ID[ATOM!]_Email value=" [!atom]Email[atom!]>
-            <div class="controls">
-                <input name="Title" class="span3" id="input01" type="text" placeholder="third email">
-            </div>
-        </label> 
-    </div>
-</div>
-</fieldset>
-<fieldset>
-	<div id="permissions" class="control-group">
-		<label class="control-label" for="optionsradioList">Who can see my OpenId and email addresses?</label> 
-		<div class="controls">
-			<label class="radio"> 
-			<input type="radio" name="optionsradioList1" value="option1">
-			No one </label> <label class="radio"> 
-			<input type="radio" name="optionsradioList2" value="option2">
-			All my collaborating partners </label> <label class="radio"> 
-			<input type="radio" name="optionsradioList3" value="option3" checked>
-			Every one </label> 
-		</div>
-	</div>
+			<table id="OpenID" class="table">
+				<tbody>
+					<tr>
+						<td style="border-top:none">Gmail OpenID</td>
+						<td style="border-top:none"><a data-toggle="modal" href="#edit"><button type="button" class="btn btn-mini btn-info">Edit</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Authenticate</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Delete</button></a></td>
+					</tr>
+					<tr>
+						<td style="border-top:none">Yahoo OpenID</td>
+						<td style="border-top:none"><a data-toggle="modal" href="#edit"><button type="button" class="btn btn-mini btn-info">Edit</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Authenticate</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Delete</button></a></td>
+					</tr>
+					<tr>
+						<td style="border-top:none"> <button type="button" class="btn btn-mini btn-info">Add new OpenID</button></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<table id="emails" class="table">
+				<tbody>
+					<tr>
+						<td style="border-top:none">email.adress@gmail.com</td>
+						<td style="border-top:none"><a data-toggle="modal" href="#edit"><button type="button" class="btn btn-mini btn-info">Edit</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Authenticate</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Delete</button></a></td>
+					</tr>
+					<tr>
+						<td style="border-top:none">email.adress@yahoo.com</td>
+						<td style="border-top:none"><a data-toggle="modal" href="#edit"><button type="button" class="btn btn-mini btn-info">Edit</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Authenticate</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Delete</button></a></td>
+					</tr>
+					<tr>
+						<td style="border-top:none">email.adress@twitter.com</td>
+						<td style="border-top:none"><a data-toggle="modal" href="#edit"><button type="button" class="btn btn-mini btn-info">Edit</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Authenticate</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Delete</button></a></td>
+					</tr>
+					<tr>
+						<td style="border-top:none"><a data-toggle="modal" href="#add"><button type="button" class="btn btn-mini btn-info">Add new email address</button></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<div id="permissions" class="control-group">
+				<label class="control-label" for="optionsradioList">Who can see my OpenId and email addresses?</label> 
+				<div class="controls">
+					<label class="radio"> 
+					<input type="radio" name="optionsradioList1" value="option1">
+					No one </label> <label class="radio"> 
+					<input type="radio" name="optionsradioList2" value="option2">
+					All my collaborating partners </label> <label class="radio"> 
+					<input type="radio" name="optionsradioList3" value="option3" checked>
+					Every one (public) </label> 
+				</div>
+			</div>
+
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-</fieldset>
-</form>
+		</fieldset>
+	</form>
 </div>
-
-
 <!-- modals -->
-<div id="resend-email" class="modal hide fade well">
+<div id="add" class="modal hide fade well">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h3>
-			Resend authentication email
+			add email or openID 
 		</h3>
 	</div>
 	<div class="modal-body well">
@@ -116,11 +76,66 @@
 			<fieldset>
 				NOT STYLED!<br>
 				<div class="modal-footer">
+
+<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div><div id="edit" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Edit email or openID 
+		</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal well">
+			<fieldset>
+				NOT STYLED!<br>
+				<div class="modal-footer">
+
+<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div><div id="authenticate" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Authenticate email or OpenID 
+		</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal well">
+			<fieldset>
+				NOT STYLED!<br>
+				<div class="modal-footer">
+
 <?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
 				</div>
 			</fieldset>
 		</form>
 	</div>
 </div>
-<!-- end oip-module-modal-profile-photo-edit.txt -->
+<div id="delete" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Delete email or OpenID
+		</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal well">
+			<fieldset>
+				NOT STYLED!<br>
+				<div class="modal-footer">
+
+<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
 <!-- end oip-module-account-emails-security.txt -->
