@@ -196,7 +196,7 @@ div.controls.hierarchy label:first-child {
 
 fieldset div.control-group div.controls label.checkbox div.controls input{
 	margin-left: -150px;
-	margin-top: 5px;
+	/*margin-top: 5px;*/
 }
 
 

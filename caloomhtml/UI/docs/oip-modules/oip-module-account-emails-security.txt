@@ -2,8 +2,9 @@
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset>
+		<h3><strong>Note:</strong> Check the checkbox to remove the email address all together or to change the email address.</h3>
 <div class="control-group  nested-checkboxes">
-    <label class="control-label" for="input01">Edit or remove</label> 
+    <label class="control-label" for="input01">Edit or remove</label>
     <div class="controls">
         <label class="checkbox"> 
         <input type="checkbox" id="[!ATOM]ID[ATOM!]OpenId" name="[!ATOM]ID[ATOM!]_OpenID value=" [!atom]Email[atom!]>
@@ -20,7 +21,10 @@
             <div class="controls">
                 <input name="Title" class="span3" id="input01" type="text" placeholder="primary email">
             </div>
-        </label> 
+        </label>
+        <p class="help-block">
+        <strong>Note:</strong> To use as primary email address for platform confirmations” (so that the security confirmations are used through that email)
+        </p>
     </div>
 </div>
 <div class="control-group">
@@ -41,9 +45,6 @@
                 <input name="Title" class="span3" id="input01" type="text" placeholder="third email">
             </div>
         </label> 
-        <p class="help-block">
-            <strong>Note:</strong> Check the checkbox to remove the email address all together or to change the email address. 
-        </p>
     </div>
 </div>
 </fieldset>
