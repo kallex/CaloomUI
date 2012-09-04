@@ -5,6 +5,7 @@
 			<a class="brand active" href="oip-layout-landing.phtml">Aalto Global Impact</a> 
 			<div class="nav-collapse">
 				<ul class="nav">
+				    <li><a href="oip-layout-register.phtml" class="btn btn-large btn-success">Register</a></li>
 					<li> <a href="oip-layout-map.phtml"> Map</a> </li>
 					<!--<li><a href="oip-layout-calendar-view.phtml">Calendar</a></li>-->
 					<li><a href="oip-layout-blog.phtml">Blog</span></a></li>
