@@ -1,19 +1,21 @@
-<!-- oip-module-activities.txt.txt -->
-<ul class="nav nav-tabs" style="margin-bottom:0px;">
-	<li class="active"><a href="#tab-activities-profile" data-toggle="tab">Profile</a></li> 
-	<li><a href="#tab-activities-collaborators" data-toggle="tab">Collaborators</a></li>
-	<li><a href="#tab-activities-category" data-toggle="tab">Categories</a></li>
-	<li><a href="#tab-activities-locations-current" data-toggle="tab">Locations</a></li>
-	<li><a href="#tab-activities-locations-add" data-toggle="tab">Add Location</a></li>
-	<li><a href="#tab-activities-delete" data-toggle="tab" class="delete">Delete</a></li>
-</ul>
-
-<div class="tab-content tab-border">
-	<div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules/oip-module-activities-profile.txt'  ?></div>
-	<div class="tab-pane" id="tab-activities-collaborators"><?php include'../oip-modules/oip-module-activities-collaborators.txt' ?></div>
-	<div class="tab-pane" id="tab-activities-category"><?php include'../oip-modules/oip-module-activities-category.txt' ?></div>
-	<div class="tab-pane" id="tab-activities-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?></div>
-	<div class="tab-pane" id="tab-activities-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?></div>
-	<div class="tab-pane" id="tab-activities-delete"><?php include'../oip-modules/oip-module-activities-delete.txt' ?></div>
+<!-- oip-module-activities.txt -->
+<div class="tabbable tabs-left">
+    <ul class="nav nav-tabs" style="margin-bottom:0px;">
+        <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Profile</a></li> 
+        <li><a href="#tab-activities-collaborators" data-toggle="tab">Collaborators</a></li>
+        <li><a href="#tab-activities-category" data-toggle="tab">Categories</a></li>
+        <li><a href="#tab-activities-locations-current" data-toggle="tab">Locations</a></li>
+        <li><a href="#tab-activities-locations-add" data-toggle="tab">Add Location</a></li>
+        <li><a href="#tab-activities-delete" data-toggle="tab" class="delete">Delete</a></li>
+    </ul>
+    
+    <div class="tab-content tab-border">
+        <div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules/oip-module-activities-profile.txt'  ?></div>
+        <div class="tab-pane" id="tab-activities-collaborators"><?php include'../oip-modules/oip-module-activities-collaborators.txt' ?></div>
+        <div class="tab-pane" id="tab-activities-category"><?php include'../oip-modules/oip-module-activities-category.txt' ?></div>
+        <div class="tab-pane" id="tab-activities-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?></div>
+        <div class="tab-pane" id="tab-activities-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?></div>
+        <div class="tab-pane" id="tab-activities-delete"><?php include'../oip-modules/oip-module-activities-delete.txt' ?></div>
+    </div>
 </div>
 <!-- end oip-module-activities.txt -->

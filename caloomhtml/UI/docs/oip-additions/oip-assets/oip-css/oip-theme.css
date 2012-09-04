@@ -3581,7 +3581,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini {
 	min-height: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: #fafdfa;
+	background-color: #d71920;
 	background-image: -moz-linear-gradient(top, #fafdfa, #fafdfa);
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafdfa), to(#fafdfa));
 	background-image: -webkit-linear-gradient(top, #fafdfa, #fafdfa);

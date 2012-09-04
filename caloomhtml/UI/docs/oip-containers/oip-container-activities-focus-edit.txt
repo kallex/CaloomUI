@@ -1,10 +1,12 @@
 <!-- oip-container-activites-focus-edit.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
+<div class="span3">
 <?php include '../oip-modules/oip-module-activities-index.txt' ?><!-- UseInformationObject:ActivitiesIndex -->
-	<div class="span8" style="margin:0;padding:0">
-    <?php include '../oip-modules/oip-module-activities.txt' ?><!-- UseInformationObject:ActivitiesModule -->
-	</div>
+</div>
+<div class="span9" style="margin:0;padding:0">
+<?php include '../oip-modules/oip-module-activities.txt' ?><!-- UseInformationObject:ActivitiesModule -->
+</div>
 </div>
 <?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter --> 
 <!-- end oip-container-activites-focus-edit.txt -->

@@ -1,8 +1,10 @@
 <!-- oip-container-groups-focus-edit.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
+<div class="span3">
 <?php include '../oip-modules/oip-module-groups-index.txt' ?>
-	<div class="span8" style="margin:0;padding:0">
+</div>
+	<div class="span9" style="margin:0;padding:0">
 <?php include '../oip-modules/oip-module-groups.txt' ?>
 	</div>
 </div>

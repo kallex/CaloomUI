@@ -1,5 +1,4 @@
 <!-- oip-activities-index.txt -->
-<div class="span4">
 	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_023_cogwheels@2x.png" alt="Responsive devices"></p>
 	<h3>[!ATOM]Title[ATOM!]</h3>
 	<p>[!ATOM]Introduction[ATOM!]</p>
@@ -29,5 +28,4 @@
 </dl>
 
 	<p>[!ATOM]Summary[ATOM!]</p>
-</div>
 <!-- end oip-activities-index.txt -->

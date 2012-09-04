@@ -1,5 +1,4 @@
 <!-- oip-groups-index.txt -->
-<div class="span4">
 	<p>
 		<img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_043_group@2x.png" alt="Responsive devices">
 	</p>
@@ -20,6 +19,4 @@
 	<p>
 		Summary
 	</p>
-</div>
-
 <!-- end oip-groups-index.txt -->

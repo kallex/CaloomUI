@@ -1,15 +1,18 @@
 <!-- oip-module-groups-view.txt -->
-<ul class="nav nav-tabs" style="margin-bottom:0px;">
-<li class="active"><a href="#tab-group-profile" data-toggle="tab">Group Profile</a></li> 
-<li><a href="#tab-group-collaborators" data-toggle="tab">Collaborators</a></li>
-<li><a href="#tab-group-activities" data-toggle="tab">Activities</a></li>
-<li><a href="#tab-group-locations" data-toggle="tab">Locations</a></li>
-</ul>
-
-<div class="tab-content tab-border">
-<div class="tab-pane active" id="tab-group-profile"><?php include'../oip-modules-views/oip-module-group-profile-view.txt'  ?><!--UseInformationObject:GroupProfile --></div>
-<div class="tab-pane" id="tab-group-collaborators"><?php include'../oip-modules-views/oip-module-group-collaborators-view.txt' ?></div>
-<div class="tab-pane" id="tab-group-activities"><?php include'../oip-modules-views/oip-module-group-activities-view.txt' ?></div>
-<div class="tab-pane" id="tab-group-locations"><?php include'../oip-modules-views/oip-module-locations-view.txt' ?></div>
+<div class="tabbable tabs-left">
+    <ul class="nav nav-tabs" style="margin-bottom:0px;">
+        <li class="active"><a href="#tab-group-profile" data-toggle="tab">Group Profile</a></li> 
+        <li><a href="#tab-group-collaborators" data-toggle="tab">Collaborators</a></li>
+        <li><a href="#tab-group-activities" data-toggle="tab">Activities</a></li>
+        <li><a href="#tab-group-locations" data-toggle="tab">Locations</a></li>
+        <li><a href="#tab-group-content" data-toggle="tab">Content</a></li>
+    </ul>
+    <div class="tab-content tab-border">
+        <div class="tab-pane active" id="tab-group-profile"><?php include'../oip-modules-views/oip-module-group-profile-view.txt'  ?><!--UseInformationObject:GroupProfile --></div>
+        <div class="tab-pane" id="tab-group-collaborators"><?php include'../oip-modules-views/oip-module-group-collaborators-view.txt' ?></div>
+        <div class="tab-pane" id="tab-group-activities"><?php include'../oip-modules-views/oip-module-group-activities-view.txt' ?></div>
+        <div class="tab-pane" id="tab-group-locations"><?php include'../oip-modules-views/oip-module-locations-view.txt' ?></div>
+        <div class="tab-pane" id="tab-group-content"><?php include'../oip-modules-views/oip-module-content-view.txt' ?></div>
+    </div>
 </div>
 <!-- end oip-module-groups-view.txt -->
