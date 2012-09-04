@@ -127,6 +127,19 @@ ul.socialUI li {
 	color: #8ac246;
 }
 
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+color: 
+#c50001;
+text-decoration: none;
+background-color: 
+transparent;
+}
+
+a:hover {
+	color: #c50001;
+	text-decoration: underline;
+}
+
 a.delete {
 	color: #B94A48;
 	font-weight: bold;
