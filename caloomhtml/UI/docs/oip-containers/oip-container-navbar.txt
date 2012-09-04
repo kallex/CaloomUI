@@ -47,6 +47,7 @@
 					<ul class="dropdown-menu">
 						<li><a href="oip-layout-account-welcome.phtml">Welcome</a></li>
 						<li><a href="oip-layout-account-edit.phtml">Edit Account</a></li>
+						<li><a href="../oip-public/oip-layout-landing.phtml">Switch to public view</a></li>
 						<li class="divider"></li>
 						<li><a href="#">Sign Out</a></li>
 					</ul>
