@@ -8,6 +8,6 @@
 <div class="tab-content tab-border">
 <div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules-views/oip-module-activities-profile-view.txt'  ?></div>
 <div class="tab-pane" id="tab-activities-collaborators"><?php include'../oip-modules-views/oip-module-activities-collaborators-view.txt' ?></div>
-<div class="tab-pane" id="tab-activities-locations"><?php include'../oip-modules-views/oip-module-activities-locations-view.txt' ?></div>
+<div class="tab-pane" id="tab-activities-locations"><?php include'../oip-modules-views/oip-module-locations-view.txt' ?></div>
 </div>
 <!-- end oip-module-activities-view.txt -->
