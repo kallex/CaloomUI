@@ -2,6 +2,7 @@
 <div class="tabbable tabs-left">
 	<ul class="nav nav-tabs" style="margin-bottom:0px">
 		<li class="active"><a href="#tab-identity" data-toggle="tab">Profile</a></li>
+		<li><a href="#tab-emails-security" data-toggle="tab">Emails & Security</a></li>
 		<li><a href="#tab-roles" data-toggle="tab">Roles</a></li>
 		<li><a href="#tab-locations" data-toggle="tab">Locations</a></li>
 		<li><a href="#tab-locations-add" data-toggle="tab">Add location</a></li>
@@ -11,6 +12,7 @@
 	</ul>
 	<div class="tab-content tab-border">
 		<div class="tab-pane active" id="tab-identity"><?php include'../oip-modules/oip-module-account-identity.txt'  ?></div>
+		<div class="tab-pane" id="tab-emails-security"><?php include'../oip-modules/oip-module-account-emails-security.txt' ?></div>
 		<div class="tab-pane" id="tab-roles"><?php include'../oip-modules/oip-module-account-roles.txt' ?></div>
 		<div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?></div>
 		<div class="tab-pane" id="tab-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?></div>

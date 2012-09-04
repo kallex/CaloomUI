@@ -53,7 +53,7 @@
 				</div>
 			</div>
 			<div id="permissions" class="control-group">
-				<label class="control-label" for="optionsradioList">Who can see this</label>
+				<label class="control-label" for="optionsradioList">Who can see my profile?</label>
 				<div class="controls">
 					<label class="radio">
 						<input type="radio" name="optionsradioList1" value="option1">

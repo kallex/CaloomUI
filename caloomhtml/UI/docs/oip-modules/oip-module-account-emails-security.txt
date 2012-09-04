@@ -1,0 +1,84 @@
+<!-- oip-module-account-emails-security.txt -->
+<div id="identity" class="span7" style="margin-top:10px">
+	<form id="name" method="post" class="form-horizontal ">
+		<fieldset>
+<div class="control-group">
+	<label class="control-label" for="input01">OpenId</label> 
+	<div class="controls">
+		<input name="Title" class="span3" id="input01" type="text" placeholder="OpenId">
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="input01">Primary email</label> 
+	<div class="controls">
+		<input name="Title" class="span3" id="input01" type="text" placeholder="primary email">
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="input01">Email</label> 
+	<div class="controls">
+		<input name="Title" class="span3" id="input01" type="text" placeholder="email address">
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="input01">Email</label> 
+	<div class="controls">
+		<input name="Title" class="span3" id="input01" type="text" placeholder="email address">
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="input01">Email</label> 
+	<div class="controls">
+		<input name="Title" class="span3" id="input01" type="text" placeholder="email address">
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="input01">Email</label> 
+	<div class="controls">
+		<input name="Title" class="span3" id="input01" type="text" placeholder="email address">
+	</div>
+</div>
+</fieldset>
+<fieldset>
+	<div id="permissions" class="control-group">
+		<label class="control-label" for="optionsradioList">Who can see my OpenId and email addresses?</label> 
+		<div class="controls">
+			<label class="radio"> 
+			<input type="radio" name="optionsradioList1" value="option1">
+			No one </label> <label class="radio"> 
+			<input type="radio" name="optionsradioList2" value="option2">
+			All my collaborating partners </label> <label class="radio"> 
+			<input type="radio" name="optionsradioList3" value="option3" checked>
+			Every one </label> 
+		</div>
+	</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+</fieldset>
+</form>
+</div>
+<!-- oip-module-modal-profile-photo-edit.txt -->
+<div id="1" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Add or Change Images
+		</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal well">
+			<fieldset>
+				NOT STYLED!<br>
+
+<?php include 'oip-module-form-image-input.txt' ?>
+<!-- UseInformationObjectAsCollection:ImageCollection[0] -->
+<?php include 'oip-module-form-add-image-input.txt' ?>
+				<div class="modal-footer">
+<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<!-- end oip-module-modal-profile-photo-edit.txt -->
+<!-- end oip-module-account-emails-security.txt -->
