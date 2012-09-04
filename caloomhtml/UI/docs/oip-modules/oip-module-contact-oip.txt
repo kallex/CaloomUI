@@ -1,0 +1,5 @@
+<!-- oip-module-footer.txt -->
+	<p>
+	<a class="btn btn-primary btn-large">contact OIP, become partner, collaborator</a>
+	</p>
+<!-- end oip-module-footer.txt -->

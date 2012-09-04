@@ -1,5 +1,4 @@
 <!-- oip-module-error.txt -->
-<div id="error" class="span7" style=";margin-top:10px">
 	<table class="table table-bordered table-striped">
 		<thead>
 			<td>Context</td>
@@ -10,5 +9,4 @@
             <?php include '../oip-atoms/oip-atom-error-row.txt' ?><!-- UseInformationObjectAsCollection:xyz -->
 		</tbody>
 	</table>
-</div>
 <!-- end oip-module-error.txt -->

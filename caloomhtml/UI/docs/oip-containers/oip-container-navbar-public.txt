@@ -5,7 +5,7 @@
 			<a class="brand active" href="oip-layout-landing.phtml">Aalto Global Impact</a> 
 			<div class="nav-collapse">
 				<ul class="nav">
-				    <li><a href="oip-layout-register.phtml" class="btn btn-large btn-success">Register</a></li>
+				    <li><a href="oip-layout-register.phtml">Register</a></li>
 					<li> <a href="oip-layout-map.phtml"> Map</a> </li>
 					<!--<li><a href="oip-layout-calendar-view.phtml">Calendar</a></li>-->
 					<li><a href="oip-layout-blog.phtml">Blog</span></a></li>
@@ -24,6 +24,14 @@
 						<li><a href="/TheBallLogin.aspx?idprovider=yahoo"><i class="icon-oip-yahoo"></i>Yahoo</a></li>
 						<li><a href="/TheBallLogin.aspx?idprovider=twitter"><i class="icon-oip-twitter"></i>Twitter</a></li>
 						<li><a href="/TheBallLogin.aspx?idprovider=facebook"><i class="icon-oip-facebook"></i>Facebook</a></li>
+					</ul>
+					</li>
+				</ul>
+				<ul class="nav pull-right">
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">temporary extras<b class="caret"></b></a> 
+					<ul class="dropdown-menu" style="list-style-type: none;">
+						<li><a href="oip-layout-search-results.phtml"></i>Search Results</a></li>
+						<li><a href="oip-layout-error.phtml"></i>Error</a></li>
 					</ul>
 					</li>
 				</ul>

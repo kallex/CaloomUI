@@ -53,9 +53,16 @@ div.hero-unit.contact-oip p a.btn.btn-primary.btn-large {
 	padding-bottom: 5px;
 }
 
+div.tabbable {
+	margin-left: 20px;
+}
+
 .page-header {
 	border-top: 0px;
 	border-bottom: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 40px;
+
 }
 
 /* navbar and navigation additions
@@ -458,10 +465,6 @@ div.controls ul li{
 	width: 100%;
 }
 
-.page-header {
-	padding-bottom: 0px;
-	margin-bottom: 10px;
-}
 
 #map-preview {
 width: 100%;

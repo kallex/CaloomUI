@@ -1,0 +1,5 @@
+<!-- oip-container-footer.txt -->
+<div class="hero-unit contact-oip">
+<?php include '../oip-modules/oip-module-contact-oip.txt' ?>
+</div>
+<!-- end oip-container-footer.txt --> 

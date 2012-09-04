@@ -9,7 +9,7 @@
 <div class="span3">
 <?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexCollection -->
 </div>
-	<div class="span9" style="margin:0;padding:0">
+	<div class="span9">
     <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[0] -->
     <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[1] -->
     <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[2] -->

@@ -1,5 +1,4 @@
 <!-- oip-map-index.txt -->
-<div class="span4">
 	<p>
 		<img src="[!ATOM]ContentUrl[ATOM]" alt="Responsive devices">
 	</p>
@@ -84,6 +83,5 @@
 <p>
 		[!ATOM]Summary[ATOM!]
 	</p>
-</div>
 
 <!-- end oip-map-index.txt -->

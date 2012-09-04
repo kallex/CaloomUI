@@ -4,7 +4,7 @@
 <div class="span3">
 <?php include '../oip-modules-views/oip-module-groups-index-group-specific-view.txt' ?>
 </div>
-<div class="span9" style="margin:0;padding:0">
+<div class="span9">
 <?php include '../oip-modules-views/oip-module-groups-view.txt' ?>
 </div>
 </div>

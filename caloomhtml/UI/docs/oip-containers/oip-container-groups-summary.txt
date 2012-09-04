@@ -1,11 +1,10 @@
-<!-- oip-container-groups-focus-edit.txt -->
+<!-- oip-container-groups-summary.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
 <div class="span3">
 <?php include '../oip-modules/oip-module-groups-index.txt' ?>
 </div>
 <div class="span9">
-<?php include '../oip-modules/oip-module-groups.txt' ?>
+<?php include '../oip-modules-views/oip-module-groups-summary-view.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
 </div>
-</div>
-<!-- end oip-container-groups-focus-edit.txt -->
+<!-- end oip-container-groups-summary.txt -->
