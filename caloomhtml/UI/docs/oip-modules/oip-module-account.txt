@@ -4,7 +4,7 @@
 		<li class="active"><a href="#tab-identity" data-toggle="tab">Profile</a></li>
 		<li><a href="#tab-emails-security" data-toggle="tab">Emails & Security</a></li>
 		<li><a href="#tab-roles" data-toggle="tab">Roles</a></li>
-		<li><a href="#tab-locations" data-toggle="tab">Locations</a></li>
+		<li><a href="#tab-locations-current" data-toggle="tab">Locations</a></li>
 		<li><a href="#tab-locations-add" data-toggle="tab">Add location</a></li>
 		<li><a href="#tab-activities" data-toggle="tab">My activities <span class="badge badge-important">1</span></a></li>
 		<li><a href="#tab-skills" data-toggle="tab" class="next-phase">Skills</a></li>

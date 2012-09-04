@@ -2,41 +2,49 @@
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset>
-<div class="control-group">
-	<label class="control-label" for="input01">OpenId</label> 
-	<div class="controls">
-		<input name="Title" class="span3" id="input01" type="text" placeholder="OpenId">
-	</div>
+<div class="control-group  nested-checkboxes">
+    <label class="control-label" for="input01">Edit or remove</label> 
+    <div class="controls">
+        <label class="checkbox"> 
+        <input type="checkbox" id="[!ATOM]ID[ATOM!]OpenId" name="[!ATOM]ID[ATOM!]_OpenID value=" [!atom]Email[atom!]>
+            <div class="controls">
+                <input name="Title" class="span3" id="input01" type="text" placeholder="OpenID">
+            </div>
+        </label> 
+    </div>
+</div>
+<div class="control-group  nested-checkboxes">
+    <div class="controls">
+        <label class="checkbox"> 
+        <input type="checkbox" id="[!ATOM]ID[ATOM!]_Email" name="[!ATOM]ID[ATOM!]_Email value=" [!atom]Email[atom!]>
+            <div class="controls">
+                <input name="Title" class="span3" id="input01" type="text" placeholder="primary email">
+            </div>
+        </label> 
+    </div>
 </div>
 <div class="control-group">
-	<label class="control-label" for="input01">Primary email</label> 
-	<div class="controls">
-		<input name="Title" class="span3" id="input01" type="text" placeholder="primary email">
-	</div>
+    <div class="controls">
+        <label class="checkbox"> 
+        <input type="checkbox" id="[!ATOM]ID[ATOM!]_Email" name="[!ATOM]ID[ATOM!]_Email value=" [!atom]Email[atom!]>
+            <div class="controls">
+                <input name="Title" class="span3" id="input01" type="text" placeholder="second email">
+            </div>
+        </label> 
+    </div>
 </div>
-<div class="control-group">
-	<label class="control-label" for="input01">Email</label> 
-	<div class="controls">
-		<input name="Title" class="span3" id="input01" type="text" placeholder="email address">
-	</div>
-</div>
-<div class="control-group">
-	<label class="control-label" for="input01">Email</label> 
-	<div class="controls">
-		<input name="Title" class="span3" id="input01" type="text" placeholder="email address">
-	</div>
-</div>
-<div class="control-group">
-	<label class="control-label" for="input01">Email</label> 
-	<div class="controls">
-		<input name="Title" class="span3" id="input01" type="text" placeholder="email address">
-	</div>
-</div>
-<div class="control-group">
-	<label class="control-label" for="input01">Email</label> 
-	<div class="controls">
-		<input name="Title" class="span3" id="input01" type="text" placeholder="email address">
-	</div>
+<div class="control-group nested-checkboxes">
+    <div class="controls">
+        <label class="checkbox"> 
+        <input type="checkbox" id="[!ATOM]ID[ATOM!]_Email" name="[!ATOM]ID[ATOM!]_Email value=" [!atom]Email[atom!]>
+            <div class="controls">
+                <input name="Title" class="span3" id="input01" type="text" placeholder="third email">
+            </div>
+        </label> 
+        <p class="help-block">
+            <strong>Note:</strong> Check the checkbox to remove the email address all together or to change the email address. 
+        </p>
+    </div>
 </div>
 </fieldset>
 <fieldset>

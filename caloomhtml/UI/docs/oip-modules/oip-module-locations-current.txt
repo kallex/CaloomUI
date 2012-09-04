@@ -1,5 +1,4 @@
 <!-- oip-module-locations-current.txt -->
-oip-module-current-location.txt 
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="current-locations">

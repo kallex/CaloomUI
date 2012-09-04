@@ -191,8 +191,14 @@ div.controls.hierarchy label:first-child {
 }
 
 .form-actions {
-	background-color: white;
+	background-color: none;
 }
+
+fieldset div.control-group div.controls label.checkbox div.controls input{
+	margin-left: -150px;
+	margin-top: 5px;
+}
+
 
 /* other
 */
