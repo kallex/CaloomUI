@@ -224,6 +224,12 @@ fieldset div.control-group div.controls label.checkbox div.controls input{
 	border-top-right-radius: 4px;
 }
 
+.tabs-left > .nav-tabs {
+float: left;
+margin-right: 19px;
+border-right: none;
+}
+
 .controlpanel {
 	width: 220px;
 	position: absolute;
