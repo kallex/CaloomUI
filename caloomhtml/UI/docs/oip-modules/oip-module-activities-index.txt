@@ -1,5 +1,5 @@
 <!-- oip-activities-index.txt -->
-	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_023_cogwheels@2x.png" alt="Responsive devices"></p>
+	<p><img src="[!ATOM]ContentUrl[ATOM]"></p>
 	<h3>[!ATOM]Title[ATOM!]</h3>
 	<p>[!ATOM]Introduction[ATOM!]</p>
 <dl>

@@ -1,6 +1,6 @@
 <!-- oip-module-groups-index-group-specific-view.txt -->
 <p>
-    <img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_043_group@2x.png" alt="Responsive devices">
+    <img src="[!ATOM]ContentUrl[ATOM]">
 </p>
 <h3 class="atomized">
     This is the Group XYZ specific page.

@@ -1,6 +1,6 @@
 <!-- oip-module-account-welcome-index.txt -->
 <p>
-    <img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_023_cogwheels@2x.png" alt="Responsive devices"> 
+    <img src="[!ATOM]ContentUrl[ATOM]"> 
 </p>
 <h3>
     [!ATOM]Title[ATOM!] 

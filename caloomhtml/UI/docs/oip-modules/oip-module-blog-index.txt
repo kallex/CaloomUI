@@ -1,6 +1,6 @@
 <!-- oip-module-blog-index.txt -->
 
-	<p><img src="../oip-additions/oip-assets/oip-images/ui/glyphicons_330_blog@2x.png" alt="BlogIndex" style="float:left;margin-right:10px"></p>
+	<p><img src="[!ATOM]ContentUrl[ATOM]" alt="BlogIndex" style="float:left;margin-right:10px"></p>
 	<h2>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h2>
 	<p>[!ATOM]Introduction[ATOM!]</p>
 	<h4>[!ATOM]BlogByLocation[ATOM!]</h4>
