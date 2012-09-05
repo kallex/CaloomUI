@@ -9,6 +9,7 @@
 	<p>
 		Introduction, to be done. This is your personal group listing-
 	</p>
+<p><a href="#add-group" role="button" class="btn" data-toggle="modal">Add a group</a></p>
 	<dl> 
 		<dt>My Groups</dt>
 		<dd><a href="#">Core Group</a> <span class="badge badge-important">1</span></dd>
@@ -21,3 +22,25 @@
 		Summary
 	</p>
 <!-- end oip-groups-index.txt -->
+<div id="add-group" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Change Group name 
+		</h2>
+	</div>
+	<div class="modal-body">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="input01">Add the group's name'</label> 
+					<div class="controls">
+						<input name="Title" class="span4" id="input01" type="text" placeholder="I got this great name!">
+					</div>
+				</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			</fieldset>
+		</form>
+	</div>
+</div>
