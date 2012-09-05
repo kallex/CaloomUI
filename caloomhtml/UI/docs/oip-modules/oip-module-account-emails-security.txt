@@ -6,15 +6,15 @@
 				<tbody>
 					<tr>
 						<td style="border-top:none">Gmail OpenID</td>
-						<td style="border-top:none"><a data-toggle="modal" href="#edit"><button type="button" class="btn btn-mini btn-info">Edit</button></a></td>
-						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Authenticate</button></a></td>
-						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Delete</button></a></td>
+						<td style="border-top:none"><a></a></td>
+						<td style="border-top:none"></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Disconnect from OIP</button></a></td>
 					</tr>
 					<tr>
 						<td style="border-top:none">Yahoo OpenID</td>
-						<td style="border-top:none"><a data-toggle="modal" href="#edit"><button type="button" class="btn btn-mini btn-info">Edit</button></a></td>
-						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Authenticate</button></a></td>
-						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Delete</button></a></td>
+						<td style="border-top:none"><a></a></td>
+						<td style="border-top:none"></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Disconnect from OIP</button></a></td>
 					</tr>
 					<tr>
 						<td style="border-top:none"> <button type="button" class="btn btn-mini btn-info">Add new OpenID</button></a></td>
@@ -25,39 +25,27 @@
 				<tbody>
 					<tr>
 						<td style="border-top:none">email.adress@gmail.com</td>
-						<td style="border-top:none"><a data-toggle="modal" href="#edit"><button type="button" class="btn btn-mini btn-info">Edit</button></a></td>
-						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Authenticate</button></a></td>
-						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Delete</button></a></td>
+						<td style="border-top:none"><a></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Verify email</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Disconnect from OIP</button></a></td>
 					</tr>
 					<tr>
 						<td style="border-top:none">email.adress@yahoo.com</td>
-						<td style="border-top:none"><a data-toggle="modal" href="#edit"><button type="button" class="btn btn-mini btn-info">Edit</button></a></td>
-						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Authenticate</button></a></td>
-						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Delete</button></a></td>
+						<td style="border-top:none"><a></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Verify email</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Disconnect from OIP</button></a></td>
 					</tr>
 					<tr>
 						<td style="border-top:none">email.adress@twitter.com</td>
-						<td style="border-top:none"><a data-toggle="modal" href="#edit"><button type="button" class="btn btn-mini btn-info">Edit</button></a></td>
-						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Authenticate</button></a></td>
-						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Delete</button></a></td>
+						<td style="border-top:none"><a></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#authenticate"><button type="button" class="btn btn-mini btn-warning">Verify email</button></a></td>
+						<td style="border-top:none"><a data-toggle="modal" href="#delete"><button type="button" class="btn btn-mini btn-danger">Disconnect from OIP</button></a></td>
 					</tr>
 					<tr>
 						<td style="border-top:none"><a data-toggle="modal" href="#add"><button type="button" class="btn btn-mini btn-info">Add new email address</button></a></td>
 					</tr>
 				</tbody>
 			</table>
-			<div id="permissions" class="control-group">
-				<label class="control-label" for="optionsradioList">Who can see my OpenId and email addresses?</label> 
-				<div class="controls">
-					<label class="radio"> 
-					<input type="radio" name="optionsradioList1" value="option1">
-					No one </label> <label class="radio"> 
-					<input type="radio" name="optionsradioList2" value="option2">
-					All my collaborating partners </label> <label class="radio"> 
-					<input type="radio" name="optionsradioList3" value="option3" checked>
-					Every one (public) </label> 
-				</div>
-			</div>
 
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>

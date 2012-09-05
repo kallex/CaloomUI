@@ -31,15 +31,7 @@
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Rahim, Riina,...">
 				</div>
 			</div>
-			<div id="request-moderator" class="control-group">
-				<label class="control-label" for="optionscheckboxList">request for moderatorship </label> 
-				<div class="controls">
-					<label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-					<a data-toggle="modal" href="#user-profile"> Bruce </a><span class="badge badge-important"><i class="icon-star icon-white"></i></span> </label> 
-				</div>
-			</div>
-			<div id="permissions" class="control-group">
+			<!--<div id="permissions" class="control-group">
 				<label class="control-label" for="optionsradioList">Who can view this group's profile and activities'</label> 
 				<div class="controls">
 					<label class="radio"> 
@@ -50,7 +42,7 @@
 					<input type="radio" name="optionsradioList3" value="option3" checked>
 					Every one </label> 
 				</div>
-			</div>
+			</div>-->
 
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>

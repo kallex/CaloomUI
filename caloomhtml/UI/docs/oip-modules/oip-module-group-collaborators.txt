@@ -19,29 +19,34 @@
 					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
 					<a data-toggle="modal" href="#collaborator-profile"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span> </label> 
 					<p class="help-block">
-						<strong>Note:</strong> Moderators cannot remove other moderators unless you are the initiator of this group. In this example you ar not the initiator but your are a moderator
+						<strong>Note:</strong> Moderators cannot remove other moderators unless you are the initiator of this group. In this example you ar not the initiator but your are a moderator 
 					</p>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Pending collaborators</label> 
+				<div class="controls">
+					<label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
+					<a data-toggle="modal" href="#collaborator-profile-anne"> Bruce</a> </label> <label class="checkbox"> 
+					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
+					<a data-toggle="modal" href="#collaborator-profile"> Leena</a><span class="help-inline" style="color:#468847;">Moderator</span> </label> <label class="checkbox"> 
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="input01">Invite collaborators</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Rahim, Riina,...">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="email.addres@email.net">
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">List of collaborating organisations</label> 
+				<label class="control-label" for="input01">Organisations and groups linked to us</label> 
 				<div class="controls">
-					<label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-					<a data-toggle="modal" href="#collaborator-profile"> World Vision</a> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-					<a data-toggle="modal" href="#collaborator-profile"> Tekes</a> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" checked>
-					<a data-toggle="modal" href="#collaborator-profile"> MFA</a> </label> 
+<textarea class="input-xlarge" id="textarea" rows="6" placeholder="add group/org name"></textarea> 
 				</div>
 			</div>
-			<div class="control-group">
+
+<!--			<div class="control-group">
 				<label class="control-label" for="multiSelect">Invite known organisations</label> 
 				<div class="controls">
 					<select multiple="multiple" id="multiSelect">
@@ -62,22 +67,21 @@
 						<option>Project partners</option>
 					</select>
 				</div>
-			</div>
-
+			</div>-->
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
 </div>
-
 <!-- modals -->
 <div id="collaborator-profile-anne" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h2 class="title">
-			Collaborator's profile
+			Collaborator's profile 
 		</h2>
 	</div>
 	<div class="modal-body">
+
 <?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
 	</div>
 </div>

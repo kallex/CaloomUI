@@ -20,12 +20,6 @@
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Last Name">
 				</div>
 			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Email</label> 
-				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="email address">
-				</div>
-			</div>
 		</fieldset>
 		<fieldset>
 			<div class="control-group">
@@ -52,7 +46,7 @@
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Country">
 				</div>
 			</div>
-			<div id="permissions" class="control-group">
+<!--			<div id="permissions" class="control-group">
 				<label class="control-label" for="optionsradioList">Who can see my profile?</label> 
 				<div class="controls">
 					<label class="radio"> 
@@ -63,7 +57,7 @@
 					<input type="radio" name="optionsradioList3" value="option3" checked>
 					Public </label> 
 				</div>
-			</div>
+			</div>-->
 
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
