@@ -20,8 +20,6 @@
         <input name="[!ATOM]ID[ATOM!]_LastName" class="span3" id="[!ATOM]ID[ATOM!]_LastName" type="text" value="[!ATOM]LastName[ATOM!]" >
 				</div>
 			</div>
-		</fieldset>
-		<fieldset>
 <?php include 'oip-module-address.txt' ?><!-- UseInformationObject:Address-->
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>

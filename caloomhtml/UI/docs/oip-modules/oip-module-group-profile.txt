@@ -14,66 +14,26 @@
 					<input class="span2" id="appendedInputButtons" size="16" type="text">
 					<button class="btn" type="button">Choose image</button><button class="btn" type="button">Remove image</button> 
 				</div>
-			</div>
+			</div>			
 			<div class="control-group">
-				<label class="control-label" for="input01">Group name</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">First name</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Core group">
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Description</label> 
-				<div class="controls">
-                    <textarea class="input-xlarge" id="textarea" rows="6" placeholder="Describe your group"></textarea> 
+        <input name="[!ATOM]ID[ATOM!]_GroupName" class="span3" id="[!ATOM]ID[ATOM!]_GroupName" type="text" value="[!ATOM]GroupName[ATOM!]">
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">Organisations and groups linked to us</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label> 
 				<div class="controls">
-                <textarea class="input-xlarge" id="textarea" rows="6" placeholder="add group/org name"></textarea> 
+                    <textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea> 
 				</div>
 			</div>
-			
-			<!--<div id="permissions" class="control-group">
-				<label class="control-label" for="optionsradioList">Who can view this group's profile and activities'</label> 
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs">Organisations and groups linked to us</label> 
 				<div class="controls">
-					<label class="radio"> 
-					<input type="radio" name="optionsradioList1" value="option1">
-					No one </label> <label class="radio"> 
-					<input type="radio" name="optionsradioList2" value="option2">
-					All my collaborating partners </label> <label class="radio"> 
-					<input type="radio" name="optionsradioList3" value="option3" checked>
-					Every one </label> 
+                    <textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs" name="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs" rows="6" placeholder="add org name">[!ATOM]OrganizationsAndGroupsLinkedToUs[ATOM!]</textarea> 
 				</div>
-			</div>-->
-
+			</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
 </div>
-<!-- modals -->
-<div id="collaborator-profile" class="modal hide fade">
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal">&times;</button> 
-		<h2 class="title">
-			Moderator's profile 
-		</h2>
-	</div>
-	<div class="modal-body">
-
-<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
-	</div>
-</div>
-<div id="user-profile" class="modal hide fade">
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal">&times;</button> 
-		<h2 class="title">
-			Prospect moderator's profile 
-		</h2>
-	</div>
-	<div class="modal-body">
-
-<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
-	</div>
-</div>
-<!-- end modals -->
