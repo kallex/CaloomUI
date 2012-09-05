@@ -1,0 +1,47 @@
+<div id="group-images" class="span7" style=";margin-top:10px">
+	<form id="name" method="post" class="form-horizontal ">
+		<fieldset id="">
+			<div class="control-group">
+				<label class="control-label" for="input01">Image group name</label> 
+				<div class="controls">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Image group name">
+				</div>
+			</div>
+
+			<div class="control-group">
+				<label class="control-label" for="input01">Add image</label> 
+				<div class="controls">
+					<input class="span2" id="appendedInputButtons" size="16" type="text">
+					<button class="btn" type="button">Choose image</button><button class="btn" type="button">Remove image</button> 
+				</div>
+			</div>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+</div>
+<!-- modals -->
+<div id="collaborator-profile" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Moderator's profile 
+		</h2>
+	</div>
+	<div class="modal-body">
+
+<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
+	</div>
+</div>
+<div id="user-profile" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Prospect moderator's profile 
+		</h2>
+	</div>
+	<div class="modal-body">
+
+<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
+	</div>
+</div>
+<!-- end modals -->

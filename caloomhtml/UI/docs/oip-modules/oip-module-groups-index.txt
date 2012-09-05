@@ -1,6 +1,7 @@
 <!-- oip-groups-index.txt -->
 	<p>
 		<img src="[!ATOM]ContentUrl[ATOM]" alt="Responsive devices">
+		this is the group's profile image (200x200 px)
 	</p>
 	<h3>
 		Title

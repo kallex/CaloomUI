@@ -8,5 +8,4 @@
 <?php include '../oip-modules/oip-module-account.txt' ?><!-- UseInformationObject:AccountModule -->
 </div>
 </div>
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 <!-- end oip-container-account-focus-edit.txt -->

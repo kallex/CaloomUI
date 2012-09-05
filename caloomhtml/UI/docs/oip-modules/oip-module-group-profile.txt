@@ -2,6 +2,20 @@
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="profile">
 			<div class="control-group">
+				<label class="control-label" for="input01">Profile image</label> 
+				<div class="controls">
+					<input class="span2" id="appendedInputButtons" size="16" type="text">
+					<button class="btn" type="button">Choose image</button><button class="btn" type="button">Remove image</button> 
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Icon (for use on the map and as your group's logo)</label> 
+				<div class="controls">
+					<input class="span2" id="appendedInputButtons" size="16" type="text">
+					<button class="btn" type="button">Choose image</button><button class="btn" type="button">Remove image</button> 
+				</div>
+			</div>
+			<div class="control-group">
 				<label class="control-label" for="input01">Group name</label> 
 				<div class="controls">
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Core group">
@@ -13,24 +27,13 @@
                     <textarea class="input-xlarge" id="textarea" rows="6" placeholder="Describe your group"></textarea> 
 				</div>
 			</div>
-			<div id="GroupModerator" class="control-group">
-				<label class="control-label" for="optionscheckboxList">Moderator(s) </label> 
-				<div class="controls">
-					<label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList1" value="option1" disabled>
-					<a data-toggle="modal" href="#collaborator-profile"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList2" value="option2" checked>
-					<a data-toggle="modal" href="#collaborator-profile"> Sujil</a> </label> <label class="checkbox"> 
-					<input type="checkbox" name="optionscheckboxList3" value="option3" checked>
-					<a data-toggle="modal" href="#collaborator-profile"> Andew</a> </label> 
-				</div>
-			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">Invite moderators</label> 
+				<label class="control-label" for="input01">Organisations and groups linked to us</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Rahim, Riina,...">
+                <textarea class="input-xlarge" id="textarea" rows="6" placeholder="add group/org name"></textarea> 
 				</div>
 			</div>
+			
 			<!--<div id="permissions" class="control-group">
 				<label class="control-label" for="optionsradioList">Who can view this group's profile and activities'</label> 
 				<div class="controls">

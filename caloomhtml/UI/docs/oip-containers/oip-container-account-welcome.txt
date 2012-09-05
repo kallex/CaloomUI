@@ -8,5 +8,4 @@
 <?php include '../oip-modules/oip-module-account-welcome.txt' ?><!--UseInformationObject:PersonalModule -->
 </div>
 </div>
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
 <!-- end oip-container-account-welcome.txt -->

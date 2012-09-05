@@ -18,6 +18,12 @@
 				</div>
 			</div>
 			<div class="control-group">
+				<label class="control-label" for="input01">Street address</label> 
+				<div class="controls">
+					<input name="[!ATOM]ID[ATOM!]_StreetAddress" class="span3" id="[!ATOM]ID[ATOM!]_StreetAddress" type="text" value="[!ATOM]StreetAddress[ATOM!]" placeholder="StreetAddress">
+				</div>
+			</div>
+			<div class="control-group">
 				<label class="control-label" for="input01">Town</label> 
 				<div class="controls">
 					<input name="[!ATOM]ID[ATOM!]_Town" class="span3" id="[!ATOM]ID[ATOM!]_Town" type="text" value="[!ATOM]Town[ATOM!]" placeholder="Town">
@@ -35,9 +41,7 @@
 					<button class="btn btn-info" href="#">Look up address</button> 
 				</div>
 			</div>
-<hr>
-<?php include '../oip-modules/oip-module-locations-current.txt' ?>
-<hr>
+
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
