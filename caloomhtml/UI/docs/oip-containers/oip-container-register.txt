@@ -2,7 +2,7 @@
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
 <div class="span3">
-<?php include '../oip-modules/oip-module-register-index.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
+dummy text
 </div>
 <div class="span9" style="margin:0;padding:0">
 <?php include '../oip-modules/oip-module-register.txt' ?>

@@ -1,4 +1,4 @@
-<!-- oip-container-blog-focus-view.txt -->
+<!-- oip-container-blog.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 <hr>
 <!-- featured blog -->
@@ -16,4 +16,4 @@
 	</div>
 </div>
 <!-- end latest x# blogs -->
-<!-- end oip-container-blog-focus-view.txt -->
+<!-- end oip-container-blog.txt -->

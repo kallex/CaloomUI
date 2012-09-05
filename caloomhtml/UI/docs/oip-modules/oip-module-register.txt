@@ -1,9 +1,17 @@
+Sign in with your Google or Yahoo account,
+<?php include '../oip-modules/oip-module-register-index.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
+
 <p>
-oip-module-register.txt
+Sign up<br>
+You have come here because GROUP NAME/ COLLABORATOR has invited you, or, you want to become part of the Open Innovation Platform as you saw interesting projects.
 
-You are registering or signing in to the system, depends whether you already have an account.
+The Open Innovation Platform stores no passwords not login credentials, instead we use Google and Yahoo to offer this service.
+<?php include '../oip-modules/oip-module-register-index.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
+above comes from oip-module-register-index.txt
 
-TODO - Terms of use - YOU will own your own information.
+After you have signed in with your Google or Yahoo account you are part of the Open Innovation Platform. You can then begin to join or create a group, join or create an activity and collaborate with others.
+
+More about this on the account help page, the group help page, the activity help page.
 
 The location you will be forwarded after signing in: [!ATOM]ReturnUrl[ATOM!]
 
