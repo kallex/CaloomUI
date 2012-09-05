@@ -1,10 +1,12 @@
-<div id="group-images" class="span7" style=";margin-top:10px">
+<!-- oip-module-group-images.txt -->
+<div id="group-images" class="span7" style=";margin-top:10px;min-height:300px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="">
+		<h4>Create sets for your images</h4>
 			<div class="control-group">
-				<label class="control-label" for="input01">Image group name</label> 
+				<label class="control-label" for="input01">Image set name</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Image group name">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Image set name">
 				</div>
 			</div>
 
@@ -19,29 +21,4 @@
 		</fieldset>
 	</form>
 </div>
-<!-- modals -->
-<div id="collaborator-profile" class="modal hide fade">
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal">&times;</button> 
-		<h2 class="title">
-			Moderator's profile 
-		</h2>
-	</div>
-	<div class="modal-body">
-
-<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
-	</div>
-</div>
-<div id="user-profile" class="modal hide fade">
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal">&times;</button> 
-		<h2 class="title">
-			Prospect moderator's profile 
-		</h2>
-	</div>
-	<div class="modal-body">
-
-<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
-	</div>
-</div>
-<!-- end modals -->
+<!-- end oip-module-group-images.txt -->
