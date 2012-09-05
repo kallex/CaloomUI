@@ -1,64 +1,13 @@
-<!-- oip-module-blog-featured.txt -->
-	<h2>
-		[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
-	</h2>
-	<h6 class="published">
-		[!ATOM]Published[ATOM!] 
-	</h6>
-	<h6 class="author">
-		[!ATOM]Author[ATOM!]
-	</h6>
-	<!-- <h6 class="group">
-	Group
-	</h6> -->
-	<p>
-<?php include 'oip-module-modal-images-featured.txt' ?></p>
-	<p>
-		 I had more, but you go ahead. In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Um, is this the boring, peaceful kind of taking to the streets? 
-	</p>
-	<p>
-		Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Uh, is the puppy mechanical in any way? You'll have all the Slurm you can drink when you're partying with Slurms McKenzie! 
-	</p>
-	<ul>
-		<li>Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain.</li>
-		<li>You'll have all the Slurm you can drink when you're partying with Slurms McKenzie!</li>
-		<li>Fry, we have a crate to deliver.</li>
-	</ul>
-	<p>
-		Fry, you can't just sit here in the dark listening to classical music. Uh, is the puppy mechanical in any way? When the lights go out, it's nobody's business what goes on between two consenting adults. 
-	[!ATOM]Excerpt[ATOM!]
-	</p>
-	<p>
-	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
-	</p>
-<!-- end oip-module-blog-featured.txt -->
-
-<!-- ReadMore modal -->
-<div id="ReadMore" class="modal hide fade well in">
-<!-- some styling issues -->
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal">&times;</button> 
-		<h6 class="title">
-			Read More.... 
-		</h6>
-	</div>
-	<div class="modal-body">
-		<h1>
-			[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
-		</h1>
-		<h6>
-			[!ATOM]Published[ATOM!] 
-		</h6>
-		<h6>
-			[!ATOM]Author[ATOM!] 
-		</h6>
-		<p>
-
-<?php include 'oip-module-modal-images.txt' ?>
-			[!ATOM]Body[ATOM!] 
-		</p>
-	</div>
-	<div class="modal-footer">
-	</div>
-</div>
-<!-- ReadMore modal -->
+<!-- oip-module-blog-add.txt -->
+	oip-module-blog-add.txt	<form method="post" class="form-horizontal well">
+			<fieldset>
+				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?><!-- UseInformationObject:Title -->
+				<?php include '../oip-atoms/oip-atom-form-text-input.txt' ?><!-- UseInformationObject:SubTitle -->
+				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- UseInformationObject:Body -->
+				<?php include '../oip-atoms/oip-atom-form-text-area.txt' ?><!-- UseInformationObject:Excerpt -->
+				<div class="modal-footer">
+				<?php include '../oip-atoms/oip-atom-form-cancel-close-save.txt' ?>
+				</div>
+			</fieldset>
+		</form>
+<!-- end oip-module-blog-add.txt -->

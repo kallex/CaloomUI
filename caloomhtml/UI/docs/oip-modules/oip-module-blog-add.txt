@@ -1,0 +1,57 @@
+<!-- oip-module-blog-add.txt -->
+<h2>Publish a new blog article</h2>
+<form id="name" method="post" class="form-horizontal ">
+	<fieldset>
+		<div class="control-group">
+			<label class="control-label" for="input01">Title</label> 
+			<div class="controls">
+				<input name="Title" class="span3" id="input01" type="text" placeholder="Title">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="input01">Subtitle</label> 
+			<div class="controls">
+				<input name="Title" class="span3" id="input01" type="text" placeholder="Subtitle">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="input01">Published</label> 
+			<div class="controls">
+				<input name="Title" class="span3" id="input01" type="text" placeholder="Published">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="input01">From which location</label> 
+			<div class="controls">
+				<select>
+					<option>location 1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="input01">Body text</label> 
+			<div class="controls">
+<textarea class="span6 input-xxlarge" rows="20"></textarea> 
+			</div>
+		</div>
+		<div class="control-group input-xxlarge">
+			<label class="control-label" for="input01">Excerpt</label> 
+			<div class="controls">
+<textarea class="span6" rows="6"></textarea> 
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="input01">Add Blog Images</label> 
+			<div class="controls">
+				<input class="span2" id="appendedInputButtons" size="16" type="text">
+				<button class="btn" type="button">Choose image</button><button class="btn" type="button">Remove image</button> 
+			</div>
+		</div>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+	</fieldset>
+</form>
+<!-- end oip-module-blog-add.txt -->

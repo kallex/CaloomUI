@@ -1,0 +1,7 @@
+<!-- oip-module-blog-index-add.txt -->
+	<p><img src="[!ATOM]ContentUrl[ATOM]" alt="BlogIndex" style="float:left;margin-right:10px"></p>
+	<h2>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h2>
+	<p>[!ATOM]Introduction[ATOM!]</p>
+instructions
+	<p>[!ATOM]Summary[ATOM!]</p>
+<!-- end oip-module-blog-index-add.txt -->
