@@ -32,7 +32,7 @@
 					<ul class="dropdown-menu" style="list-style-type: none;">
 						<li><a href="oip-layout-search-results.phtml"></i>Search Results</a></li>
 						<li><a href="oip-layout-error.phtml"></i>Error</a></li>
-						<li><a href="../oip-layouts/oip-layout-landing.phtml">Switch to auth view</a></li>
+						<li><a href="../oip-public/oip-layout-landing.phtml">Switch to auth view</a></li>
 					</ul>
 					</li>
 				</ul>
