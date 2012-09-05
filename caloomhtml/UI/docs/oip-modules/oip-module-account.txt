@@ -6,7 +6,7 @@
 		<li><a href="#tab-roles" data-toggle="tab">Roles</a></li>
 		<li><a href="#tab-locations-current" data-toggle="tab">Locations</a></li>
 		<li><a href="#tab-locations-add" data-toggle="tab">Add location</a></li>
-<!--		<li><a href="#tab-activities" data-toggle="tab" class="next-phase">My activities <span class="badge badge-important">1</span></a></li>
+<!--	<li><a href="#tab-activities" data-toggle="tab" class="next-phase">My activities <span class="badge badge-important">1</span></a></li>
 		<li><a href="#tab-skills" data-toggle="tab" class="next-phase">Skills</a></li>
 		<li><a href="#tab-content" data-toggle="tab" class="next-phase">Content</a></li> -->
 	</ul>
@@ -15,8 +15,8 @@
 		<div class="tab-pane" id="tab-emails-security"><?php include'../oip-modules/oip-module-account-emails-security.txt' ?></div>
 		<div class="tab-pane" id="tab-roles"><?php include'../oip-modules/oip-module-account-roles.txt' ?></div>
 		<div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?></div>
-		<div class="tab-pane" id="tab-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?></div>
-<!--		<div class="tab-pane" id="tab-activities"> include'../oip-modules/oip-module-account-activities.txt' ?></div>
+		<div class="tab-pane" id="tab-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?><!-- UseInformationObject:AddLocationInfo--></div>
+<!--	<div class="tab-pane" id="tab-activities"> include'../oip-modules/oip-module-account-activities.txt' ?></div>
 		<div class="tab-pane" id="tab-skills"> include'../oip-modules/oip-module-account-skills.txt' ?></div>
 		<div class="tab-pane" id="tab-content"> include'../oip-modules/oip-module-content.txt' ?></div> -->
 	</div>

@@ -5,7 +5,7 @@
 <fieldset>
 <?php include'../oip-modules/oip-module-map-small.txt' ?>
 			<div class="control-group">
-				<label class="control-label" for="input01">Location name</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_LocationName">Location name</label> 
 				<div class="controls">
 					<input name="[!ATOM]ID[ATOM!]_LocationName" class="span3" id="[!ATOM]ID[ATOM!]_LocationName" type="text" value="[!ATOM]LocationName[ATOM!]" placeholder="Location name">
 				</div>
@@ -17,24 +17,7 @@
 					<input name="[!ATOM]ID[ATOM!]_Latitude" class="span3" id="[!ATOM]ID[ATOM!]_Latitude" type="text" value="[!ATOM]Latitude[ATOM!]" placeholder="Latitude">
 				</div>
 			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Street address</label> 
-				<div class="controls">
-					<input name="[!ATOM]ID[ATOM!]_StreetAddress" class="span3" id="[!ATOM]ID[ATOM!]_StreetAddress" type="text" value="[!ATOM]StreetAddress[ATOM!]" placeholder="StreetAddress">
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Town</label> 
-				<div class="controls">
-					<input name="[!ATOM]ID[ATOM!]_Town" class="span3" id="[!ATOM]ID[ATOM!]_Town" type="text" value="[!ATOM]Town[ATOM!]" placeholder="Town">
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Country</label> 
-				<div class="controls">
-					<input name="[!ATOM]ID[ATOM!]_Country" class="span3" id="[!ATOM]ID[ATOM!]_Country" type="text" value="[!ATOM]Country[ATOM!]" placeholder="Country">
-				</div>
-			</div>
+<?php include 'oip-module-address.txt' ?><!-- UseInformationObject:Address-->
 			<div class="control-group">
 				<label class="control-label" for="input01"></label> 
 				<div class="controls">

@@ -9,56 +9,20 @@
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">First name</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_FirstName">First name</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="First name">
+        <input name="[!ATOM]ID[ATOM!]_FirstName" class="span3" id="[!ATOM]ID[ATOM!]_FirstName" type="text" value="[!ATOM]ID[ATOM!]_FirstName" placeholder="Town">
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">Last name</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_LastName">Last name</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Last Name">
+        <input name="[!ATOM]ID[ATOM!]_LastName" class="span3" id="[!ATOM]ID[ATOM!]_LastName" type="text" value="[!ATOM]ID[ATOM!]_LastName" placeholder="Town">
 				</div>
 			</div>
 		</fieldset>
 		<fieldset>
-			<div class="control-group">
-				<label class="control-label" for="input01">Street</label> 
-				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Street">
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Zip code</label> 
-				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Zip code">
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Town</label> 
-				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Town">
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Country</label> 
-				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Country">
-				</div>
-			</div>
-<!--			<div id="permissions" class="control-group">
-				<label class="control-label" for="optionsradioList">Who can see my profile?</label> 
-				<div class="controls">
-					<label class="radio"> 
-					<input type="radio" name="optionsradioList1" value="option1">
-					No one </label> <label class="radio"> 
-					<input type="radio" name="optionsradioList2" value="option2">
-					All my collaborating partners </label> <label class="radio"> 
-					<input type="radio" name="optionsradioList3" value="option3" checked>
-					Public </label> 
-				</div>
-			</div>-->
-
+<?php include 'oip-module-address.txt' ?><!-- UseInformationObject:Address-->
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
