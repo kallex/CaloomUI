@@ -169,15 +169,18 @@
 			</InformationObject>
 			<InformationObject name="AccountModule" designDesc="Account module level information">
 				<InformationItems>
-					<InformationItem name="AccountIdentity" logicalDataType="InformationObject" informationObjectName="AccountProfile" />
-					<InformationItem name="AccountRoles" logicalDataType="InformationObject" informationObjectName="AccountRoles" />
-					<InformationItem name="AccountSkills" logicalDataType="InformationObject" informationObjectName="AccountSkills" />
-					<InformationItem name="AccountLocations" logicalDataType="InformationObject" informationObjectName="AccountLocations" />
+					<InformationItem name="Profile" logicalDataType="InformationObject" informationObjectName="AccountProfile" />
+          <InformationItem name="Security" logicalDataType="InformationObject" informationObjectName="AccountSecurity"/>
+					<InformationItem name="Roles" logicalDataType="InformationObject" informationObjectName="AccountRoles" />
+					<InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection" />
+          <!--
 					<InformationItem name="AccountStatistics" logicalDataType="InformationObject" informationObjectName="AccountStatistics" />
-					<InformationItem name="AccountProjects" logicalDataType="InformationObject" informationObjectName="AccountProjects" />
 					<InformationItem name="AccountContent" logicalDataType="InformationObject" informationObjectName="AccountContent" />
+          -->
+          <InformationItem name="AddLocationInfo" logicalDataType="InformationObject" informationObjectName="AddLocationInfo"/>
 				</InformationItems>
 			</InformationObject>
+      <!--
 			<InformationObject name="AccountStatistics" designDesc="Designed later">
 				<InformationItems>
 					<InformationItem name="Dummy" logicalDataType="Text_Short" />
@@ -193,11 +196,24 @@
 					<InformationItem name="Dummy" logicalDataType="Text_Short" />
 				</InformationItems>
 			</InformationObject>
-			<InformationObject name="AccountLocations" designDesc="Designed later">
-				<InformationItems>
-					<InformationItem name="Dummy" logicalDataType="Text_Short" />
-				</InformationItems>
+      -->
+      <InformationObject name="AddressAndLocationCollection" designDesc="Designed later">
+        <CollectionFor contentInformationObjectName="AddressAndLocation"/>
 			</InformationObject>
+      <InformationObject name="AddressAndLocation" designDesc="Street address and location">
+        <InformationItems>
+          <InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="StreetAddress"/>
+          <InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="StreetAddress" designDesc="Street Address">
+        <InformationItems>
+          <InformationItem name="Street" logicalDataType="Text_Short" />
+          <InformationItem name="ZipCode" logicalDataType="Text_Short" />
+          <InformationItem name="Town" logicalDataType="Text_Short" />
+          <InformationItem name="Country" logicalDataType="Text_Short" />
+        </InformationItems>
+      </InformationObject>
 			<InformationObject name="AccountContent" designDesc="Designed later">
 				<InformationItems>
 					<InformationItem name="Dummy" logicalDataType="Text_Short" />
@@ -205,26 +221,30 @@
 			</InformationObject>
 			<InformationObject name="AccountProfile" designDesc="Account profile">
 				<InformationItems>
-					<!-- TODO IMAGE HANDLING -->
-					<!--
-          <InformationItem name="Photo" logicalDataType="InformationObject" informationObjectName="ProfilePhoto"/>
-          -->
+          <InformationItem name="ProfileImage" logicalDataType="InformationObject" informationObjectName="Image"/>
 					<InformationItem name="FirstName" logicalDataType="Text_Short" />
 					<InformationItem name="LastName" logicalDataType="Text_Short" />
-					<InformationItem name="EmailAddress" logicalDataType="Text_Short" />
-					<InformationItem name="Street" logicalDataType="Text_Short" />
-					<InformationItem name="ZipCode" logicalDataType="Text_Short" />
-					<InformationItem name="Town" logicalDataType="Text_Short" />
-					<InformationItem name="Country" logicalDataType="Text_Short" />
+          <InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="StreetAddress"/>
+          <!--
 					<InformationItem name="PersonalInfoVisibility" logicalDataType="InformationObject" informationObjectName="PersonalInfoVisibility" />
+          -->
 				</InformationItems>
 			</InformationObject>
+      <InformationObject name="AccountSecurity" designDesc="Account security">
+        <InformationItems>
+          <InformationItem name="LoginInfoCollection" logicalDataType="InformationObject" informationObjectName="TBLoginInfoCollection" />
+          <InformationItem name="EmailCollection" logicalDataType="InformationObject" informationObjectName="TBEmailCollection" />
+        </InformationItems>
+      </InformationObject>
 			<InformationObject name="AccountRoles" designDesc="Account roles">
 				<InformationItems>
 					<InformationItem name="ModeratorInGroups" logicalDataType="InformationObject" informationObjectName="ReferenceCollection" />
 					<InformationItem name="MemberInGroups" logicalDataType="InformationObject" informationObjectName="ReferenceCollection" />
+          <InformationItem name="OrganizationsImPartOf" logicalDataType="Text_Long" />
+          <!--
 					<InformationItem name="MemberInOrganizations" logicalDataType="InformationObject" informationObjectName="ReferenceCollection" />
 					<InformationItem name="FollowingGroups" logicalDataType="InformationObject" informationObjectName="ReferenceCollection" />
+          -->
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="PersonalInfoVisibility" designDesc="Personal information visibility">
@@ -414,8 +434,10 @@
           <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader"/>
           <InformationItem name="GroupProfile" logicalDataType="InformationObject" informationObjectName="Group"/>
           <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
+          <!--
           <InformationItem name="CollaboratingGroups" logicalDataType="InformationObject" informationObjectName="CollaboratingGroupCollection"/>
           <InformationItem name="CollaboratingOrganizations" logicalDataType="InformationObject" informationObjectName="CollaboratingOrganizationCollection"/>
+          -->
           <InformationItem name="ActivityCollection" logicalDataType="InformationObject" informationObjectName="ActivityCollection"/>
           <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="LocationCollection"/>
           <InformationItem name="AddLocationInfo" logicalDataType="InformationObject" informationObjectName="AddLocationInfo"/>
@@ -425,10 +447,9 @@
       <InformationObject name="AddLocationInfo" designDesc="Add location info">
         <InformationItems>
           <InformationItem name="LocationName" logicalDataType="Text_Short"/>
-          <InformationItem name="Town" logicalDataType="Text_Short"/>
-          <InformationItem name="Country" logicalDataType="Text_Short"/>
           <InformationItem name="Longitude" logicalDataType="Text_Short"/>
           <InformationItem name="Latitude" logicalDataType="Text_Short"/>
+          <InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="StreetAddress"/>
         </InformationItems>
       </InformationObject>
 
@@ -446,9 +467,11 @@
       
       <InformationObject name="Group" designDesc="Group">
         <InformationItems>
-          <InformationItem name="MainImage" logicalDataType="InformationObject" informationObjectName="Image"/>
+          <InformationItem name="ProfileImage" logicalDataType="InformationObject" informationObjectName="Image"/>
+          <InformationItem name="IconImage" logicalDataType="InformationObject" informationObjectName="Image"/>
           <InformationItem name="GroupName" logicalDataType="Text_Short"/>
           <InformationItem name="Description" logicalDataType="Text_Long"/>
+          <InformationItem name="OrganizationsAndGroupsLinkedToUs" logicalDataType="Text_Long"/>
           <InformationItem name="Moderators" logicalDataType="InformationObject" informationObjectName="ModeratorCollection"/>
           <InformationItem name="ImageSets" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
         </InformationItems>
@@ -602,14 +625,18 @@
 					<InformationItem name="SocialFilter" informationObjectName="Filter" logicalDataType="InformationObject" />
 				</InformationItems>
 			</InformationObject>
+      <!--
 			<InformationObject name="EventCollection" designDesc="">
 				<CollectionFor contentInformationObjectName="Event5W" />
 			</InformationObject>
+      -->
+      <!--
 			<InformationObject name="MapEventCollection" designDesc="">
 				<InformationItems>
 					<InformationItem name="Events" logicalDataType="InformationObject" informationObjectName="EventCollection" />
 				</InformationItems>
 			</InformationObject>
+      -->
 			<InformationObject name="Longitude" designDesc="Longitude">
 				<InformationItems>
 					<InformationItem name="TextValue" logicalDataType="Text_Short" />
@@ -643,7 +670,7 @@
 					<InformationItem name="SexText" logicalDataType="Text_Short" />
 				</InformationItems>
 			</InformationObject>
-			<InformationObject name="Address" designDesc="Address">
+			<InformationObject name="OBSAddress" designDesc="Address">
 				<InformationItems>
 					<InformationItem name="StreetName" logicalDataType="Text_Short" />
 					<InformationItem name="BuildingNumber" logicalDataType="Text_Short" />
@@ -680,6 +707,7 @@
 					<InformationItem name="TextValue" logicalDataType="Text_Short" />
 				</InformationItems>
 			</InformationObject>
+      <!--
 			<InformationObject name="What" designDesc="What from 5W core">
 				<InformationItems>
 					<InformationItem name="ServiceName" logicalDataType="Text_Long" />
@@ -696,25 +724,24 @@
 					<InformationItem name="Time" logicalDataType="Time_DateTime" />
 				</InformationItems>
 			</InformationObject>
+      -->
+      <!--
 			<InformationObject name="Where" designDesc="Where from 5W core">
 				<InformationItems>
 					<InformationItem name="Title" logicalDataType="Text_Short" />
 					<InformationItem name="Description" logicalDataType="Text_Long" />
 					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location" />
-					<!--
 					work location
 					birth place
 					school location
 					home location
 					etc
-          -->
 					<InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="Address" />
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="Whom" designDesc="Whom from 5W core">
 				<InformationItems>
 					<InformationItem name="Identity" logicalDataType="InformationObject" informationObjectName="Identity" />
-					<!-- is identity better? -->
 					<InformationItem name="ProfileImage" logicalDataType="InformationObject" informationObjectName="ImageVideoSoundVectorRaw" />
 					<InformationItem name="BirthDate" logicalDataType="Time_Date" />
 				</InformationItems>
@@ -737,7 +764,8 @@
 			<InformationObject name="Event5WCollection" designDesc="Collection of events">
 				<CollectionFor contentInformationObjectName="Event5W" />
 			</InformationObject>
-			<InformationObject name="SubscriptionCollection" designDesc="Collection for Subscription objects - relatively linked to target of subscriptions">
+      -->
+      <InformationObject name="SubscriptionCollection" designDesc="Collection for Subscription objects - relatively linked to target of subscriptions">
 				<CollectionFor contentInformationObjectName="Subscription" />
 			</InformationObject>
 			<InformationObject name="Subscription" designDesc="The Ball Core Structure: Subscription content">
