@@ -1,0 +1,4 @@
+<label class="checkbox"> 
+<input type="checkbox" id="[!ATOM]ID[ATOM!]_LocationName" name="[!ATOM]ID[ATOM!]_LocationName" value="[!ATOM]ID[ATOM!]_LocationName">
+[!ATOM]LocationName[ATOM!]
+</label> 

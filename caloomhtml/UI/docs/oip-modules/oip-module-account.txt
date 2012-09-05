@@ -11,9 +11,9 @@
 		<li><a href="#tab-content" data-toggle="tab" class="next-phase">Content</a></li> -->
 	</ul>
 	<div class="tab-content tab-border">
-		<div class="tab-pane active" id="tab-identity"><?php include'../oip-modules/oip-module-account-identity.txt'  ?></div>
-		<div class="tab-pane" id="tab-emails-security"><?php include'../oip-modules/oip-module-account-emails-security.txt' ?></div>
-		<div class="tab-pane" id="tab-roles"><?php include'../oip-modules/oip-module-account-roles.txt' ?></div>
+		<div class="tab-pane active" id="tab-identity"><?php include'../oip-modules/oip-module-account-identity.txt'  ?><!-- UseInformationObject:Profile--></div>
+		<div class="tab-pane" id="tab-emails-security"><?php include'../oip-modules/oip-module-account-emails-security.txt' ?><!-- UseInformationObject:Security--></div>
+		<div class="tab-pane" id="tab-roles"><?php include'../oip-modules/oip-module-account-roles.txt' ?><!-- UseInformationObject:Roles--></div>
 		<div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?></div>
 		<div class="tab-pane" id="tab-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?><!-- UseInformationObject:AddLocationInfo--></div>
 <!--	<div class="tab-pane" id="tab-activities"> include'../oip-modules/oip-module-account-activities.txt' ?></div>

@@ -3,11 +3,9 @@
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="current-locations">
 			<div class="control-group">
-				<label class="control-label" for="input01">select checkbox to remove the location</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_LocationName">select checkbox to remove the location</label> 
 				<div class="controls">
-					<label class="checkbox"> 
-					<input type="checkbox" id="[!ATOM]ID[ATOM!]_LocationName" name="[!ATOM]ID[ATOM!]_LocationName value=" [!atom]locationname[atom!]>
-					Helsinki Office </label> 
+<?php include 'oip-module-location.txt' ?><!-- UseInformationObjectAsCollection:LocationCollection -->
 					<p class="help-block">
 						<strong>Note:</strong> You can remove the locations form your personal account but if they are shared with a group, the group still uses the location and can edit it. 
 					</p>
@@ -17,6 +15,9 @@
 		</fieldset>
 	</form>
 </div>
+
+
+
 <!-- modals -->
 <div id="location-used-by-groups" class="modal hide fade">
 	<div class="modal-header">
