@@ -11,15 +11,15 @@
 				</p>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">Activity name</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">First name</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Nordic Business Event 2012">
+        <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span3" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">Description</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label> 
 				<div class="controls">
-<textarea class="input-xlarge" id="textarea" rows="6" placeholder="Describe your activity"></textarea> 
+                    <textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea> 
 				</div>
 			</div>
 			<div class="control-group">
