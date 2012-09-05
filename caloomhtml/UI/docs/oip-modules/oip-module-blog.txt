@@ -2,6 +2,7 @@
 <h2>
 	[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
 </h2>
+
 <?php include 'oip-module-modal-images.txt' ?>
 <p>
 	I had more, but you go ahead. In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Um, is this the boring, peaceful kind of taking to the streets? 
@@ -18,15 +19,10 @@
 	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
 </p>
 <p class="blog-meta">
-<span>[!ATOM]Published[ATOM!]</span>
-<span>[!ATOM]Author[ATOM!]</span>
-<span>[!ATOM]Location[ATOM!]</span>
-<span>[!ATOM]Group[ATOM!]</span>
+	<span>[!ATOM]Published[ATOM!]</span> <span>[!ATOM]Author[ATOM!]</span> <span>[!ATOM]Location[ATOM!]</span> <span>[!ATOM]Group[ATOM!]</span> 
 </p>
-
-</div>
-
 <!-- end oip-module-blog.txt -->
+
 <!-- ReadMore modal -->
 <div id="ReadMore" class="modal hide fade well in">
 <!-- some styling issues -->
@@ -52,5 +48,5 @@
 			[!ATOM]Body[ATOM!] 
 		</p>
 	</div>
-
+</div>
 <!-- ReadMore modal -->

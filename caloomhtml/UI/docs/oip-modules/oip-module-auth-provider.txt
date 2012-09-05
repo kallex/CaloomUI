@@ -1,0 +1,1 @@
+<a href="[!ATOM]ProviderUrl[ATOM!]"><i class="[!ATOM]ProviderIconClass[ATOM!]"></i>[!ATOM]ProviderName[ATOM!]</a>

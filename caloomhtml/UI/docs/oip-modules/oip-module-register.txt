@@ -1,12 +1,12 @@
 Sign in with your Google or Yahoo account,
-<?php include '../oip-modules/oip-module-register-index.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
+<?php include '../oip-modules/oip-module-auth-provider.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
 
 <p>
 Sign up<br>
 You have come here because GROUP NAME/ COLLABORATOR has invited you, or, you want to become part of the Open Innovation Platform as you saw interesting projects.
 
-The Open Innovation Platform stores no passwords not login credentials, instead we use Google and Yahoo to offer this service.
-<?php include '../oip-modules/oip-module-register-index.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
+The Open Innovation Platform stores no passwords nor login credentials, instead we use Google and Yahoo to offer this service.
+<?php include '../oip-modules/oip-module-auth-provider.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
 above comes from oip-module-register-index.txt
 
 After you have signed in with your Google or Yahoo account you are part of the Open Innovation Platform. You can then begin to join or create a group, join or create an activity and collaborate with others.

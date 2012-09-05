@@ -9,6 +9,17 @@
 	<div class="span9 blog">these are the next 10 blogs
     <?php include '../oip-modules/oip-module-blog-more.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
 	</div>
+    <div class="span9" style="float:right;border-top:1px dotted">
+        <ul class="pager">
+            <li class="previous">
+                <a href="oip-layout-blog-more.phtml">&larr; Older</a>
+            </li>
+            <li class="next">
+                <a href="oip-layout-blog-more.phtml">Newer &rarr;</a>
+            </li>
+        </ul>
+    </div>
+
 </div>
 <!-- end latest x# blogs -->
 <!-- end oip-container-blog-more.txt -->

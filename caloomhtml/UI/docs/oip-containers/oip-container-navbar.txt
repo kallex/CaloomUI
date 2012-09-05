@@ -11,6 +11,7 @@
 					<ul class="dropdown-menu">
 						<li><a href="oip-layout-blog.phtml">AGI Blog page</a></li>
 						<li class="divider"></li>
+						<li><a href="oip-layout-blog-add.phtml">Blogs Add</a></li>
 						<li><a href="oip-layout-blog-edit.phtml">Blogs Edit</a></li>
 					</ul>
 					</li>
