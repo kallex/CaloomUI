@@ -1,15 +1,13 @@
-<!-- oip-module-group-images.txt -->
-<div id="group-images" class="span7" style=";margin-top:10px;min-height:300px">
+<!-- oip-module-group-images.txt -->check
+<div id="group-images" class="span7" style="margin-top:10px;min-height:300px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset id="">
-		<h4>Create sets for your images</h4>
 			<div class="control-group">
 				<label class="control-label" for="input01">Image set name</label> 
 				<div class="controls">
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Image set name">
 				</div>
 			</div>
-
 			<div class="control-group">
 				<label class="control-label" for="input01">Add image</label> 
 				<div class="controls">

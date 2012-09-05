@@ -1,0 +1,68 @@
+<!-- oip-module-collaborators.txt -->
+<div id="group-profile" class="span7" style=";margin-top:10px">
+	<form id="name" method="post" class="form-horizontal ">
+		<fieldset id="">
+            <div class="control-group">
+                <label class="control-label" for="input01">List of collaborators</label> 
+                <div class="controls">
+                    <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01">Pending collaborators</label> 
+                <div class="controls">
+                    <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+                </div>
+            </div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Invite collaborators</label> 
+				<div class="controls">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="email.addres@email.net">
+				</div>
+			</div>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+</div>
+
+<!-- modals -->
+<div id="view-profile" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h2 class="title">
+			Collaborator's profile 
+		</h2>
+	</div>
+	<div class="modal-body">
+
+<?php include '../oip-modules-views/oip-module-account-profile-view.txt' ?>
+	</div>
+</div>
+
+<div id="remove-collaborator" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Remove this collaborator
+		</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<p>
+					You are now about to remove this collaborator from your group. 
+				</p>
+				<div class="modal-footer">
+					<div class="control-group controls">
+						<div class="form-actions" style="padding:0;margin:0;border-top:0">
+							<button class="btn">Cancel</button> <button type="submit" class="btn btn-primary btn-danger">Remove !</button> 
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+<!-- end modals -->
+<!-- end oip-module-collaborators.txt -->
