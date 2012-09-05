@@ -2,6 +2,9 @@
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="name" method="post" class="form-horizontal ">
 		<fieldset>
+		
+		modules for openID and email
+		
 			<table id="OpenID" class="table">
 				<tbody>
 					<tr>

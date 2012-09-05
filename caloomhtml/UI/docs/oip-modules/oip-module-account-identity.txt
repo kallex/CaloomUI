@@ -11,13 +11,13 @@
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_FirstName">First name</label> 
 				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_FirstName" class="span3" id="[!ATOM]ID[ATOM!]_FirstName" type="text" value="[!ATOM]ID[ATOM!]_FirstName" placeholder="Town">
+        <input name="[!ATOM]ID[ATOM!]_FirstName" class="span3" id="[!ATOM]ID[ATOM!]_FirstName" type="text" value="[!ATOM]FirstName[ATOM!]">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_LastName">Last name</label> 
 				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_LastName" class="span3" id="[!ATOM]ID[ATOM!]_LastName" type="text" value="[!ATOM]ID[ATOM!]_LastName" placeholder="Town">
+        <input name="[!ATOM]ID[ATOM!]_LastName" class="span3" id="[!ATOM]ID[ATOM!]_LastName" type="text" value="[!ATOM]LastName[ATOM!]" >
 				</div>
 			</div>
 		</fieldset>
