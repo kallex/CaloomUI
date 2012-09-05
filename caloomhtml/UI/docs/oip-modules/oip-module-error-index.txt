@@ -1,7 +1,7 @@
 <!-- oip-module-error-index.txt -->
 <div class="span3">
 	<p><[!ATOM]ContentUrl[ATOM]" alt="Responsive devices"></p>
-	<h3>[!ATOM]Title[ATOM!]</h3>
+	<h4>[!ATOM]Title[ATOM!]</h4>
 	<p>[!ATOM]Introduction[ATOM!]</p>
 Error descriptions
 <p>[!ATOM]Summary[ATOM!]</p>

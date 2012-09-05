@@ -1,6 +1,6 @@
 <!-- oip-activities-index.txt -->
 	<p><img src="[!ATOM]ContentUrl[ATOM]"><br>This is the group's icon or brand image or logo</p>
-	<h3>[!ATOM]Title[ATOM!]</h3>
+	<h4>[!ATOM]Title[ATOM!]</h4>
 	<p>[!ATOM]Introduction[ATOM!]</p>
 <dl>
 	<dt>Projects (Category)</dt>
