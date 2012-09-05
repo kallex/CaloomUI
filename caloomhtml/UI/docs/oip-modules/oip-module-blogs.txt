@@ -1,0 +1,18 @@
+<!-- oip-module-groups.txt.txt -->
+<div class="tabbable tabs-left">
+    <ul class="nav nav-tabs" style="margin-bottom:0px;">
+        <li class="active"><a href="#tab-profile" data-toggle="tab">Blog article</a></li>
+         <li><a href="#tab-images" data-toggle="tab">Images</a></li>
+          <li><a href="#tab-video" data-toggle="tab">Video</a></li>
+      <li><a href="#tab-locations-current" data-toggle="tab">Locations</a></li>
+        <li><a href="#tab-delete" data-toggle="tab" class="delete">Delete</a></li>
+    </ul>
+    <div class="tab-content tab-border">
+        <div class="tab-pane active" id="tab-profile"><?php include'../oip-modules/oip-module-blog-edit.txt'  ?><!--UseInformationObject:Blog --></div>
+        <div class="tab-pane" id="tab-images"><?php include'../oip-modules/oip-module-images.txt'  ?><!--UseInformationObject:ImageGroup --></div>
+        <div class="tab-pane" id="tab-video"><?php include'../oip-modules/oip-module-videos.txt'  ?><!--UseInformationObject:VideoGroup --></div>
+        <div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-choose-current.txt' ?><!--UseInformationObject:Location --></div>
+        <div class="tab-pane" id="tab-delete"><?php include'../oip-modules/oip-module-group-delete.txt' ?></div>
+    </div>
+</div>
+<!-- end oip-module-groups.txt -->

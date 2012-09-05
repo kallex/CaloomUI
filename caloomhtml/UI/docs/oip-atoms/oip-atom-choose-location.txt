@@ -1,0 +1,5 @@
+<!-- oip-atom-choose-location.txt -->
+        <label class="checkbox">
+            <input type="checkbox"><a data-toggle="modal" href="#view-location">[!ATOM]LocationName[ATOM!]</a>
+        </label>
+<!-- end oip-atom-choose-location.txt -->

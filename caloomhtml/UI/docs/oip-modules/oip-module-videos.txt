@@ -1,0 +1,24 @@
+<!-- oip-module-images.txt -->
+<div id="group-images" class="span7" style=";margin-top:10px;min-height:300px">
+	<form id="name" method="post" class="form-horizontal ">
+	<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+		<h4>Create sets for your Videos</h4>
+		<fieldset id="">
+			<div class="control-group">
+				<label class="control-label" for="input01">Video group name</label> 
+				<div class="controls">
+					<input name="Title" class="span3" id="input01" type="text" placeholder="Video group name">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="input01">Add video URL</label> 
+				<div class="controls">
+					<input class="span3" id="appendedInputButtons" size="16" type="text" placeholder="youtube.com/your-url">
+					<button class="btn" type="button">Link video</button><button class="btn btn-warning" type="button">Remove video link</button> 
+				</div>
+			</div>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+</div>
+<!-- end oip-module-images.txt -->

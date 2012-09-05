@@ -1,0 +1,33 @@
+<!-- oip-module-blog-edit.txt -->
+<div id="group-profile" class="span7" style=";margin-top:10px">
+	<form id="name" method="post" class="form-horizontal ">
+		<fieldset id="">
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label> 
+				<div class="controls">
+        <input name="[!ATOM]ID[ATOM!]_Title" class="span3" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Subtitle">Subtitle</label> 
+				<div class="controls">
+        <input name="[!ATOM]ID[ATOM!]_Subtitle" class="span3" id="[!ATOM]ID[ATOM!]_Subtitle" type="text" value="[!ATOM]Subtitle[ATOM!]">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Body">Body</label> 
+				<div class="controls">
+                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_Body" name="[!ATOM]ID[ATOM!]_Body" rows="12" placeholder="add org name">[!ATOM]Body[ATOM!]</textarea> 
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Excerpt">Excerpt</label> 
+				<div class="controls">
+                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_Excerpt" name="[!ATOM]ID[ATOM!]_Excerpt" rows="6" placeholder="add org name">[!ATOM]Excerpt[ATOM!]</textarea> 
+				</div>
+			</div>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+</div>
+<!-- end oip-module-blog-edit.txt -->

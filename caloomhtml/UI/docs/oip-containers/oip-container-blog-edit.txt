@@ -1,20 +1,11 @@
-<!-- oip-container-blog-focus-edit.txt -->
+<!-- oip-container-blog-edit.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
-<hr>
-<!-- featured blog -->
-<?php include '../oip-modules/oip-module-blog-featured.txt' ?><!--UseInformationObject:FeaturedBlog -->
-<!-- featured blog -->
-<!-- latest x# blogs -->
 <div class="row">
 <div class="span3">
-<?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexCollection -->
+<?php include '../oip-modules/oip-module-blog-index-edit.txt' ?><!--UseInformationObject:BlogIndexCollection -->
 </div>
 	<div class="span9">
-    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[0] -->
-    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[1] -->
-    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObject:BlogCollection[2] -->
+    <?php include '../oip-modules/oip-module-blogs.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
 	</div>
 </div>
-<!-- end latest x# blogs -->
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
-<!-- end oip-container-blog-focus-edit.txt -->
+<!-- end oip-container-blog-edit.txt -->
