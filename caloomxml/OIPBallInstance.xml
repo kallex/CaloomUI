@@ -823,6 +823,7 @@
 					<InformationItem name="SourcePathRoot" logicalDataType="Text_Short" />
 					<InformationItem name="TargetContainerName" logicalDataType="Text_Short" />
 					<InformationItem name="TargetPathRoot" logicalDataType="Text_Short" />
+          <InformationItem name="RenderWhileSync" logicalDataType="TrueOrFalse_Boolean"/>
 					<InformationItem name="Handlers" logicalDataType="InformationObject" informationObjectName="UpdateWebContentHandlerCollection" />
 				</InformationItems>
 			</InformationObject>
