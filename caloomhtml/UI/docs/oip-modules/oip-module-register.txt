@@ -1,1 +1,10 @@
+<p>
 oip-module-register.txt
+
+You are registering or signing in to the system, depends whether you already have an account.
+
+TODO - Terms of use - YOU will own your own information.
+
+The location you will be forwarded after signing in: [!ATOM]ReturnUrl[ATOM!]
+
+</p>

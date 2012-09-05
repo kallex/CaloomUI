@@ -5,6 +5,13 @@
 <TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
   <InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
 		<InformationModel>
+      <!-- System -->
+      <InformationObject name="TBSystem" designDesc="System instance information (singleton class)">
+        <InformationItems>
+          <InformationItem name="InstanceName" logicalDataType="Text_Short"/>
+          <InformationItem name="AdminGroupID" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
 			<!-- Collaborators, Collaboration Groups, Organizations -->
 			<!-- Storage Roots -->
 			<InformationObject name="TBRLoginRoot" designDesc="Login root for LoginID">
@@ -89,13 +96,41 @@
 					<InformationItem name="ValidUntil" logicalDataType="Time_DateTime" />
 				</InformationItems>
 			</InformationObject>
-			<!-- Process Objects -->
+      <InformationObject name="TBRegisterContainer" designDesc="Registration container (dynamically filled - not stored at any stage) - not postback support needed either">
+        <InformationItems>
+          <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader"/>
+          <InformationItem name="ReturnUrl" logicalDataType="Text_Short"/>
+          <InformationItem name="LoginProviderCollection" logicalDataType="InformationObject" informationObjectName="LoginProviderCollection"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="LoginProvider" designDesc="External Login Providers">
+        <InformationItems>
+          <InformationItem name="ProviderName" logicalDataType="Text_Short"/>
+          <InformationItem name="ProviderIconClass" logicalDataType="Text_Short"/>
+          <InformationItem name="ProviderType" logicalDataType="Text_Short"/>
+          <InformationItem name="ProviderUrl" logicalDataType="Text_Short"/>
+          <InformationItem name="ReturnUrl" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="LoginProviderCollection" designDesc="Collection of login providers">
+        <CollectionFor contentInformationObjectName="LoginProvider"/>
+      </InformationObject>
+
+      <InformationObject name="ContactOipContainer" designDesc="Contact OIP Container (dynamically filled - not stored at any stage) - not postback support needed either">
+        <InformationItems>
+          <InformationItem name="OIPModeratorGroupID" logicalDataType="Text_Short" />
+        </InformationItems>
+      </InformationObject>
+
+
+      <!-- Process Objects -->
 			<InformationObject name="TBPRegisterEmail" designDesc="Process object for registering email">
 				<InformationItems>
 					<InformationItem name="EmailAddress" logicalDataType="Text_Short" />
 				</InformationItems>
 			</InformationObject>
-			<!-- Tech Page Level Stuff -->
+			
+      <!-- Tech Page Level Stuff -->
 			<InformationObject name="JavaScriptContainer" designDesc="Java script stuff">
 				<InformationItems>
 					<InformationItem name="HtmlContent" logicalDataType="Text_Long" />
