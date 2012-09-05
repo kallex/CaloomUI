@@ -14,13 +14,13 @@
 	<div class="span9 blog">
     <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
 <!-- these are now only for the dummy site -->
-    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
-    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
-    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
-    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
-    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
-    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
-    <?php include '../oip-modules/oip-module-blog.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
+    <?php include '../oip-modules/oip-module-blog.txt' ?>
+    <?php include '../oip-modules/oip-module-blog.txt' ?>
+    <?php include '../oip-modules/oip-module-blog.txt' ?>
+    <?php include '../oip-modules/oip-module-blog.txt' ?>
+    <?php include '../oip-modules/oip-module-blog.txt' ?>
+    <?php include '../oip-modules/oip-module-blog.txt' ?>
+    <?php include '../oip-modules/oip-module-blog.txt' ?>
     </div>
     <div class="span9" style="float:right;border-top:1px dotted">
         <ul class="pager">
