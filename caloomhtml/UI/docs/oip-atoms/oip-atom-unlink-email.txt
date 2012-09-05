@@ -1,3 +1,3 @@
 <!-- oip-atom-unlink-email.txt -->
-<p>[!ATOM]Email[ATOM!], <a data-toggle="modal" href="#unlink-email">unlink this email address</a></p>
+<p>[!ATOM]EmailAddress[ATOM!], <a data-toggle="modal" href="#unlink-email">unlink this email address</a></p>
 <!-- oip-atom-unlink-email.txt -->
