@@ -5193,3 +5193,9 @@ input[type="file"] {
 .affix {
   position: fixed;
 }
+
+div.span12.blog-featured,
+div.span8.blog {
+	margin-bottom: 20px;
+	clear: all;
+}

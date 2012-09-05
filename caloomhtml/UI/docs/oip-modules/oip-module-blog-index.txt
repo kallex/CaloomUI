@@ -5,19 +5,19 @@
 	<p>[!ATOM]Introduction[ATOM!]</p>
 	
 	<a href="../oip-layouts/oip-layout-blog-add.phtml">Add a new blog article</a>
-	<h4>[!ATOM]BlogByLocation[ATOM!]</h4>
+	<h6>[!ATOM]BlogByLocation[ATOM!]</h6>
 	<ul>
 		<li>blogs in Finland</li>
 		<li>blogs in Europe</li>
 		<li>blogs in South Africa</li>
 	</ul>
-	<h4>[!ATOM]BlogByDate[ATOM!]</h4>
+	<h6>[!ATOM]BlogByDate[ATOM!]</h6>
 	<ul>
 		<li>blogs in August</li>
 		<li>blogs in July</li>
 		<li>blogs in June</li>
 	</ul>
-	<h4>[!ATOM]BlogByAuthor[ATOM!]</h4>
+	<h6>[!ATOM]BlogByAuthor[ATOM!]</h6>
 	<ul>
 		<li>blogs by Rahim</li>
 		<li>blogs by Anne</li>

@@ -266,12 +266,6 @@ hr {
 	margin: 0px;
 }
 
-.shadow {
-	display: block;
-	border: none;
-	height: 20px;
-	background-image: url("../../../images/ui/hr-shadow-bg.png");
-}
 
 .hr-big {
 	margin: 18px 0;
@@ -317,17 +311,18 @@ div.span12.blog-featured ul li {
 	letter-spacing: 0.1em;
 	word-spacing: .3em;
 	font-weight: 200;
+	padding-right: 50px;
 }
 
 div.span12.blog-featured ul,
-div.span8.blog ul li {
+div.span9.blog ul li {
 	list-style-type: none;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
 div.span12.blog-featured ul li,
-div.span8.blog ul li {
+div.span9.blog ul li {
 	margin: 5px 200px 0 0;
 	padding-left: 20px;
 	display: table;
@@ -348,6 +343,10 @@ div.blog img {
 	margin: 10px;
 	margin-top: 0px;
 	margin-left: 0px
+}
+
+.blog-index ul li {
+	list-style: none;
 }
 
 div.focus-introduction p, div.row-summary p {
@@ -422,12 +421,21 @@ h6.published {
 	text-transform: none;
 	font-weight: 200;
 	color: #424242;
-	font-size: 110%;
+	font-size: 90%;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	line-height: 90%;
 }
 
 a.read-more {
 	float: right;
 }
+
+div.span3.blog-index h6 {
+	margin-bottom: 0px;
+}
+
+div.span
 
 ul.nav.nav-tabs {
 	margin-right: -1px;
