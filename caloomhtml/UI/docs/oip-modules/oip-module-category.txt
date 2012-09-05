@@ -1,0 +1,130 @@
+<!-- oip-module-category.txt --> 
+<div id="" class="span7" style=";margin-top:10px">
+	<h2>
+		Activity Categories 
+	</h2>
+	<form method="post" class="form-horizontal">
+		<fieldset>
+			<div class="control-group">
+				<label class="control-label" for="input01">Add a Main</label> 
+				<div class="controls">
+					<input name="Title" class="span4" id="input01" type="text" placeholder="add a main category">
+				</div>
+			</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+	<div class="row well" style="margin-left:auto;margin-right:auto">
+		<div class="span2">
+			<form>
+				<fieldset>
+					<div id="categories" class="control-group">
+						<label class="control-label" for="optionsradioList">Categories</label> 
+						<div class="controls hierarchy">
+							<label class="radio"> 
+							<input type="radio" name="optionsradioList1" value="option1">
+							Projects </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList2" value="option2">
+							Finland </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList3" value="option3" checked>
+							South America </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList3" value="option3" checked>
+							Africa </label> 
+						</div>
+						<div class="controls hierarchy">
+							<label class="radio"> 
+							<input type="radio" name="optionsradioList1" value="option1">
+							Events </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList2" value="option2">
+							Seminar </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList3" value="option3" checked>
+							Conference </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList3" value="option3" checked>
+							Meeting </label> 
+						</div>
+						<div class="controls hierarchy">
+							<label class="radio"> 
+							<input type="radio" name="optionsradioList1" value="option1">
+							Course </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList2" value="option2">
+							Ma </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList3" value="option3" checked>
+							BA </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList3" value="option3" checked>
+							Design </label> 
+						</div>
+						<div class="controls hierarchy">
+							<label class="radio"> 
+							<input type="radio" name="optionsradioList1" value="option1">
+							Research </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList2" value="option2">
+							BoP </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList3" value="option3" checked>
+							Inclusive Business </label> <label class="radio"> 
+							<input type="radio" name="optionsradioList3" value="option3" checked>
+							ASI </label> 
+						</div>
+					</div>
+		</div>
+		<div class="span3">
+			<form method="post" class="form-horizontal">
+				<fieldset>
+					<div class="control-group">
+						<label class="control-label" for="input01">Rename</label> 
+						<div class="controls">
+							<input name="Title" class="span4" id="input01" type="text" placeholder="new category name">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="input01">Add a subcategory</label> 
+						<div class="controls">
+							<input name="Title" class="span4" id="input01" type="text" placeholder="add a category">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="multiSelect">Assign to other category</label> 
+						<div class="controls">
+							<select multiple="multiple" id="multiSelect" size="12">
+								<optgroup label="Projects"> 
+								<option>Projects</option>
+								<option>Finland</option>
+								<option>South America</option>
+								<option>Africa</option>
+								</optgroup> <optgroup label="Events"> 
+								<option>Events</option>
+								<option>Seminar</option>
+								<option>Conference</option>
+								<option>Meeting</option>
+								</optgroup> <optgroup label="Courses"> 
+								<option>Courses</option>
+								<option>Ba</option>
+								<option>MA</option>
+								<option>Design</option>
+								</optgroup> <optgroup label="Research"> 
+								<option>Research</option>
+								<option>BoP</option>
+								<option>Inclusive Business</option>
+								</optgroup> 
+							</select>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="input01">Remove the selected category:</label> 
+						<div class="controls">
+							<label class="checkbox"> 
+							<input type="checkbox" name="optionscheckboxList1" value="option1" unchecked>
+							Remove </label> 
+							<p class="help-block" style="color:#b94a48">
+								<strong>Note:</strong> assign this category to another category perhaps, if you remove this category the content that already uses this category shall be assigned the category name "untitled" 
+							</p>
+						</div>
+					</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- end oip-module-category.txt -->

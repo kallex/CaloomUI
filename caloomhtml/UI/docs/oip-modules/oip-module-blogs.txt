@@ -5,6 +5,7 @@
          <li><a href="#tab-images" data-toggle="tab">Images</a></li>
           <li><a href="#tab-video" data-toggle="tab">Video</a></li>
       <li><a href="#tab-locations-current" data-toggle="tab">Locations</a></li>
+        <li><a href="#tab-category" data-toggle="tab">Category</a></li>
         <li><a href="#tab-delete" data-toggle="tab" class="delete">Delete</a></li>
     </ul>
     <div class="tab-content tab-border">
@@ -12,6 +13,7 @@
         <div class="tab-pane" id="tab-images"><?php include'../oip-modules/oip-module-images.txt'  ?><!--UseInformationObject:ImageGroup --></div>
         <div class="tab-pane" id="tab-video"><?php include'../oip-modules/oip-module-videos.txt'  ?><!--UseInformationObject:VideoGroup --></div>
         <div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-choose-current.txt' ?><!--UseInformationObject:Location --></div>
+        <div class="tab-pane" id="tab-category"><?php include'../oip-modules/oip-module-category.txt' ?><!--UseInformationObject:Catgeory --></div>
         <div class="tab-pane" id="tab-delete"><?php include'../oip-modules/oip-module-group-delete.txt' ?></div>
     </div>
 </div>
