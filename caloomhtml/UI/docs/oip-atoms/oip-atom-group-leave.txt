@@ -1,0 +1,1 @@
+<dd><a href="[!ATOM]URL[ATOM!]">[!ATOM]Title[ATOM!]</a>, <a data-toggle="modal" href="#group-leave">leave this group</a></dd>

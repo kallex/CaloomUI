@@ -1,0 +1,3 @@
+<!-- oip-atom-unlink-location.txt -->
+<p>[!ATOM]LocationName[ATOM!], <a data-toggle="modal" href="#unlink-location">unlink this location</a></p>
+<!-- oip-atom-unlink-location.txt -->

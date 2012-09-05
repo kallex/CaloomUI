@@ -1,0 +1,3 @@
+<!-- oip-atom-unlink-openid.txt -->
+<p><i class="[!ATOM]ProviderIconClass[ATOM!]"></i>[!ATOM]ProviderName[ATOM!], <a data-toggle="modal" href="#unink-openid">unlink this OpenID account</a></p>
+<!-- oip-atom-unlink-openid.txt -->

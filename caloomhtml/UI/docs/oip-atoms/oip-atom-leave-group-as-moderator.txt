@@ -1,0 +1,3 @@
+<!-- leave-group-as-moderator -->
+<p>[!ATOM]Title[ATOM!], <a data-toggle="modal" href="#leave-group-as-moderator">leave this group</a></p>
+<!-- end leave-group-as-moderator -->

@@ -1,27 +1,79 @@
 <div id="groups" class="span7" style=";margin-top:10px">
 	<form method="post" class="form-horizontal">
 		<fieldset>
-			<div id="GroupModerator" class="control-group">
-				<label class="control-label" for="optionscheckboxList">Moderator of </label> 
-				<div class="controls">
-<?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObjectAsCollection:ModeratorInGroups -->
-				</div>
-<!-- include'oip-module-add-item.txt' -->
-			</div>
-			<div id="GroupMember" class="control-group">
-				<label class="control-label" for="optionscheckboxList">Collaborator within </label> 
-				<div class="controls">
-<?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObjectAsCollection:MemberInGroups -->
-				</div>
-<!-- include'oip-module-add-item.txt' -->
-			</div>
+		
+            <div class="control-group">
+                <label class="control-label" for="input01">Moderator of</label> 
+                <div class="controls">
+                    <?php include '../oip-atoms/oip-atom-leave-group-as-moderator.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+                 </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01">Collaborator in</label> 
+                <div class="controls">
+                    <?php include '../oip-atoms/oip-atom-leave-group-as-collaborator.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+               </div>
+            </div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_OrganizationsImPartOf">Organisations I am part of</label> 
 				<div class="controls">
-<textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_OrganizationsImPartOf" name="[!ATOM]ID[ATOM!]_OrganizationsImPartOf" rows="6" placeholder="add org name">[!ATOM]OrganizationsImPartOf[ATOM!]</textarea>
+                    <textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_OrganizationsImPartOf" name="[!ATOM]ID[ATOM!]_OrganizationsImPartOf" rows="6" placeholder="add org name">[!ATOM]OrganizationsImPartOf[ATOM!]</textarea> 
 				</div>
 			</div>
+
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
 </div>
+
+
+<!-- modals -->
+<div id="leave-group-as-moderator" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Leave group as moderator 
+		</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<p>You are now about to leave this group as a moderator.</p>
+				<div class="modal-footer">
+					<div class="control-group controls">
+						<div class="form-actions" style="padding:0;margin:0;border-top:0">
+							<button class="btn">Cancel</button>
+							<button type="submit" class="btn btn-primary btn-danger">Leave !</button> 
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+<div id="leave-group-as-collaborator" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Leave group as collaborator 
+		</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal">
+			<fieldset>
+				<p>You are now about to leave this group as a collaborator.</p>
+				<div class="modal-footer">
+					<div class="control-group controls">
+						<div class="form-actions" style="padding:0;margin:0;border-top:0">
+							<button class="btn">Cancel</button>
+							<button type="submit" class="btn btn-primary btn-danger">Leave !</button> 
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+<!-- end modals -->

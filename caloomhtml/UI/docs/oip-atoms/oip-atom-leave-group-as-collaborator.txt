@@ -1,0 +1,3 @@
+<!-- leave-group-as-collaborator -->
+<p>[!ATOM]Title[ATOM!], <a data-toggle="modal" href="#leave-group-as-collaborator">leave this group</a></p>
+<!-- end leave-group-as-collaborator -->
