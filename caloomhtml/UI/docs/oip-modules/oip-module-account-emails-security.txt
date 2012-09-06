@@ -4,17 +4,24 @@
 			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset>
             <div class="control-group">
-                <label class="control-label" for="input01">Linked OpenID accounts</label> 
+                <label class="control-label" >Linked OpenID accounts</label> 
                 <div class="controls">
                     <?php include '../oip-atoms/oip-atom-unlink-openid.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
                  </div>
             </div>
             <div class="control-group">
-                <label class="control-label" for="input01">Linked emails</label> 
+                <label class="control-label" >Linked emails</label> 
                 <div class="controls">
                     <?php include '../oip-atoms/oip-atom-unlink-email.txt' ?><!-- UseInformationObjectAsCollection:EmailCollection -->
                </div>
             </div>
+            <div class="control-group">
+                <label class="control-label" for="[!ATOM]ID[ATOM!]_EmailAddress">Add an email address</label> 
+                <div class="controls">
+                    <input name="[!ATOM]ID[ATOM!]_EmailAddress" class="span3" id="[!ATOM]ID[ATOM!]_EmailAddress" type="text" value="[!ATOM]EmailAddress[ATOM!]">
+                </div>
+            </div>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
         </fieldset>
     </form>
 </div>

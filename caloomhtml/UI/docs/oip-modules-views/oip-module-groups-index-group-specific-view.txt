@@ -8,7 +8,7 @@
 <p class="atomized">
     Group XYZ is about water purification and sanitisation. We are a globally distributed network of NGOs, private enterprises and research institutes. Read more about us in the tabs on the left side.
 </p>
-<hr>
+<p><a href="#" class="btn">contact this group</a></p>
 <dl> 
     <dt>Other related available Public Groups</dt>
     <dd><a href="#">Water Purification</a> <span class="badge badge-important">1</span></dd>

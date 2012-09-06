@@ -3,6 +3,7 @@
 	<h4>[!ATOM]Title[ATOM!]</h4>
 	<p>[!ATOM]Introduction[ATOM!]</p>
 <p><a href="#add-group" role="button" class="btn" data-toggle="modal">Create a group</a></p>
+<p><a href="#add-activity" role="button" class="btn" data-toggle="modal">Add an activity</a></p>
 	<p>[!ATOM]Summary[ATOM!]</p>
 
 <!-- modals -->
