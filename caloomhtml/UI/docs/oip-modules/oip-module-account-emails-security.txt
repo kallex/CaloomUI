@@ -16,47 +16,6 @@
 </div>
 
 <!-- modals -->
-<div id="unink-openid" class="modal hide fade well">
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal">&times;</button> 
-		<h3>
-			Unlink OpenID Account 
-		</h3>
-	</div>
-	<div class="modal-body well">
-		<form method="post" class="form-horizontal">
-<!-- THEBALL-FORM-HIDDEN-FIELDS -->
-			<fieldset>
-				<p>
-					You are now about to unlink this OpenID account with your Open Innovation Platform account. 
-				</p>
-<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-			</fieldset>
-		</form>
-	</div>
-</div>
-
-<div id="unlink-email" class="modal hide fade well">
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal">&times;</button> 
-		<h3>
-			unlink this emails address 
-		</h3>
-	</div>
-	<div class="modal-body well">
-		<form method="post" class="form-horizontal">
-<!-- THEBALL-FORM-HIDDEN-FIELDS -->
-			<fieldset>
-				<p>
-					You are now about to unlink this email address for use with your Open Innovation Platform account. 
-				</p>
-<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-			</fieldset>
-		</form>
-	</div>
-</div>
-
-
 <div id="add-email" class="modal hide fade well">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
@@ -71,7 +30,7 @@
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 			<fieldset>
 				<p>
-					You are now about to unlink this email address for use with your Open Innovation Platform account. 
+					Add an email address for use with your Open Innovation Platform account. 
 				</p>
                     <div class="control-group">
                         <label class="control-label" for="[!ATOM]ID[ATOM!]_EmailAddress">Add an email address</label> 
