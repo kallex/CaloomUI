@@ -1,6 +1,6 @@
 <div id="group-profile" class="span7" style=";margin-top:10px">
 	<form id="" method="post" class="form-horizontal ">
-			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="profile">
 			<div class="control-group">
 				<label class="control-label">Profile image</label> 
