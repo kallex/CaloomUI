@@ -134,6 +134,28 @@ ul.nav.nav-tabs {
     background-color: #f3eddf;
 }
 
+.navbar .btn-navbar,
+.navbar .btn-navbar:hover,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active,
+.navbar .btn-navbar.disabled,
+.navbar .btn-navbar[disabled] {
+  background-color: #c7bda5;
+background-image: -moz-linear-gradient(top, #c7bda5, #c7bda5);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#c7bda5), to(#c7bda5));
+background-image: -webkit-linear-gradient(top, #c7bda5, #c7bda5);
+background-image: -o-linear-gradient(top, #c7bda5, #c7bda5);
+background-image: linear-gradient(to bottom, #c7bda5, #c7bda5);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc7bda5', endColorstr='#ffc7bda5', GradientType=0);
+border-color: #e8f6e8 #e8f6e8 #b1e0b1;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 0px rgba(255, 255, 255, 0.075);
+    background-color: rgb(199, 189, 165);
+    background-image: -moz-linear-gradient(center top , rgb(199, 189, 165), rgb(199, 189, 165));
+}
+
+
 a.btn.btn-primary.btn-small {
 margin-top: 11px;
 padding: 4px;
