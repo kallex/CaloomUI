@@ -227,3 +227,15 @@ padding-bottom: 4px;
 line-height: 1.4em;
 font-size:90%
 }
+
+/*backgrounds*/
+div.hero-unit.contact-oip {
+	height: 200px;
+	background: url(../oip-images/ui/oip-contact.png) no-repeat 0 41px;
+	bottom: 1px;
+	overflow: hidden;
+	padding-bottom: 0px;
+	margin-bottom: -20px;
+	margin-top: 10px;
+	border-style: none;
+}
