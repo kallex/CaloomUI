@@ -206,16 +206,24 @@ html>*, input {
 	color: #45330d;
 }
 
-h1,h2,h3,h4,h5,h6, small, h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, dt, dl, li, li a, p, label  {
+h1,h2,h3,h4,h5,h6, small, h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, dt, dl,ul, li, li a, p, label,.nav-tabs li.active > a, .nav-tabs li.active > a:hover, .navbar .nav > li > a
+  {
 font-weight: 200;	letter-spacing: 0.05em;
 	color: #45330d;
 }
 
-a>* {
+a:hover,a>*, nav-tabs, nav-tabs li, nav-tabs li a {
   color: #9c0001;
   text-decoration: none;
 }
 a>*:hover {
   color: #c50001;
   text-decoration: underline;
+}
+
+.nav-tabs > li > a, .nav-tabs li.active a {
+padding-top: 4px;
+padding-bottom: 4px;
+line-height: 1.4em;
+font-size:90%
 }
