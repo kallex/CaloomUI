@@ -24,7 +24,7 @@ div.tab-content {
 }
 
 #map img {
-	width: 100%;
+	max-width: none;
 }
 
 /*Color*/
