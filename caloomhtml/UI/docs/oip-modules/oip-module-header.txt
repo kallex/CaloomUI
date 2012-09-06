@@ -1,6 +1,6 @@
 <!-- oip-module-header.txt -->
 <div class="page-header marketing">
-	<h1>[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h1>
+	<h1>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h1>
 </div>
 <!-- end oip-module-header.txt -->
 

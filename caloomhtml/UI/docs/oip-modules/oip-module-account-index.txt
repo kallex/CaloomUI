@@ -2,12 +2,12 @@
 	<p><img src="[!ATOM]ContentUrl[ATOM]"></p>
 	<h4>[!ATOM]Title[ATOM!]</h4>
 	<p>[!ATOM]Introduction[ATOM!]</p>
-<p><a href="#add-group" role="button" class="btn" data-toggle="modal">Create a group</a></p>
+<p><a href="#create-group" role="button" class="btn" data-toggle="modal">Create a group</a></p>
 <p><a href="#add-activity" role="button" class="btn" data-toggle="modal">Add an activity</a></p>
 	<p>[!ATOM]Summary[ATOM!]</p>
 
 <!-- modals -->
-<div id="add-group" class="modal hide fade">
+<div id="create-group" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h2 class="title">
@@ -16,19 +16,20 @@
 	</div>
 	<div class="modal-body">
 		<form method="post" class="form-horizontal">
-
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.CreateGroupInfo:CreateGroup -->
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 			<fieldset>
 				<div class="control-group">
-					<label class="control-label" for="input01">Add the group's name'</label> 
+					<label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Add the group's name'</label> 
 					<div class="controls">
-						<input name="Title" class="span4" id="input01" type="text" placeholder="I got this great name!">
+						<input name="[!ATOM]ID[ATOM!]_GroupName" class="span4" id="[!ATOM]ID[ATOM!]_GroupName" type="text" value="[!ATOM]GroupName[ATOM!]" >
 					</div>
 				</div>
 
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 			</fieldset>
-		</form>
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.TYPENAME:ROOTNAME -->
+</form>
 	</div>
 </div>
 <!-- end modals -->
