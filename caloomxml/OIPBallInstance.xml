@@ -450,7 +450,6 @@
           -->
           <InformationItem name="ActivityCollection" logicalDataType="InformationObject" informationObjectName="ActivityCollection"/>
           <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="LocationCollection"/>
-          <InformationItem name="AddLocationInfo" logicalDataType="InformationObject" informationObjectName="AddLocationInfo"/>
         </InformationItems>
       </InformationObject>
 
