@@ -4,6 +4,6 @@
 <?php include 'oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
 	</div>
 <div class="row-fluid">
-<?php include 'oip-module-summary-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+<?php include 'oip-module-activities-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
 </div>
 <!-- end oip-module-activities-summary.txt -->
