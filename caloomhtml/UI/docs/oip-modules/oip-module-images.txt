@@ -5,16 +5,15 @@
 		<h4>Create sets for your images</h4>
 		<fieldset id="">
 			<div class="control-group">
-				<label class="control-label" for="input01">Image group name</label> 
+				<label class="control-label">Image group name</label> 
 				<div class="controls">
 					<input name="Title" class="span3" id="input01" type="text" placeholder="Image group name">
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="input01">Add image</label> 
+				<label class="control-label">Add image</label> 
 				<div class="controls">
-					<input class="span2" id="appendedInputButtons" size="16" type="text">
-					<button class="btn" type="button">Choose image</button><button class="btn btn-warning" type="button">Remove image</button> 
+					<input class="span2" id="appendedInputButtons" size="16" type="file">
 				</div>
 			</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>

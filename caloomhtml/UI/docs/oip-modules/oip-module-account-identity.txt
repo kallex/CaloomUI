@@ -3,10 +3,9 @@
 			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset>
 			<div class="control-group">
-				<label class="control-label" for="input01">Profile Image</label> 
+				<label class="control-label">Profile Image</label> 
 				<div class="controls">
-					<input class="span2" id="appendedInputButtons" size="16" type="text">
-					<button class="btn" type="button">Choose image</button><button class="btn" type="button">Remove image</button> 
+					<input class="span2" id="appendedInputButtons" size="16" type="file">
 				</div>
 			</div>
 			<div class="control-group">
