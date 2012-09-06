@@ -55,7 +55,6 @@
 
 <div id="leave-group-as-collaborator" class="modal hide fade well">
 	<div class="modal-header">
-    <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h3>
 			Leave group as collaborator 
@@ -63,6 +62,7 @@
 	</div>
 	<div class="modal-body well">
 		<form method="post" class="form-horizontal">
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 			<fieldset>
 				<p>You are now about to leave this group as a collaborator.</p>
 				<div class="modal-footer">

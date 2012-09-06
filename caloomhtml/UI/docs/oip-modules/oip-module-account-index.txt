@@ -21,7 +21,7 @@
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 			<fieldset>
 				<div class="control-group">
-					<label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Add the group's name'</label> 
+					<label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Add the group's name</label> 
 					<div class="controls">
 						<input name="[!ATOM]ID[ATOM!]_GroupName" class="span4" id="[!ATOM]ID[ATOM!]_GroupName" type="text" value="[!ATOM]GroupName[ATOM!]">
 					</div>
@@ -33,6 +33,7 @@
         </form>
 	</div>
 </div>
+
 <div id="add-event" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
