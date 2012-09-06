@@ -4,21 +4,21 @@
 			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="">
             <div class="control-group">
-                <label class="control-label" for="input01">List of collaborators</label> 
+                <label class="control-label">List of collaborators</label> 
                 <div class="controls">
                     <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
                 </div>
             </div>
             <div class="control-group">
-                <label class="control-label" for="input01">Pending collaborators</label> 
+                <label class="control-label">Pending collaborators</label> 
                 <div class="controls">
                     <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
                 </div>
             </div>
 			<div class="control-group">
-				<label class="control-label" for="input01">Invite collaborators</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Email">Invite collaborators</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="email.addres@email.net">
+					<input name="[!ATOM]ID[ATOM!]_Email" class="span3" id="[!ATOM]ID[ATOM!]_Email" type="text" value="[!ATOM]ID[ATOM!]_Email">
 				</div>
 			</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
@@ -49,6 +49,7 @@
 	</div>
 	<div class="modal-body well">
 		<form method="post" class="form-horizontal">
+			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 			<fieldset>
 				<p>
 					You are now about to remove this collaborator from your group. 

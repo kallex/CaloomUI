@@ -5,6 +5,6 @@
 <?php include '../oip-modules/oip-module-groups-index.txt' ?>
 </div>
 <div class="span9">
-<?php include '../oip-modules-views/oip-module-groups-summary-view.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+<?php include '../oip-modules/oip-module-groups-summary.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
 </div>
 <!-- end oip-container-groups-summary.txt -->

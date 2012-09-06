@@ -1,6 +1,6 @@
 <!-- oip-module-introduction.txt -->
-	<a href="oip-layout-activities-summary-view.phtml"><h3 style="margin-top:10px">[!ATOM]Title[ATOM!] oip-module-introduction.txt Title</h3></a>
+	<a href="[!ATOM]Url[ATOM!]"><h3>[!ATOM]Title[ATOM!]</h3></a>
 <p>
-	[!ATOM]Body[ATOM!] oip-module-introduction.txt Body text
+	[!ATOM]Body[ATOM!]
 </p>
 <!-- end oip-module-introduction.txt -->
