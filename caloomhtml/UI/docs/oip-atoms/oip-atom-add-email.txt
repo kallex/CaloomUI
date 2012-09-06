@@ -1,0 +1,3 @@
+<!-- oip-atom-add-email.txt -->
+<input name="[!ATOM]ID[ATOM!]_EmailAddress" class="span3" id="[!ATOM]ID[ATOM!]_EmailAddress" type="input" value="[!ATOM]EmailAddress[ATOM!]">
+<!-- end oip-atom-add-email.txt -->
