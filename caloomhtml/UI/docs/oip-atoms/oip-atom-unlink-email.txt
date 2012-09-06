@@ -1,3 +1,3 @@
 <!-- oip-atom-unlink-email.txt -->
-<p>[!ATOM]EmailAddress[ATOM!], <a data-toggle="modal" href="#unlink-email">unlink this email address</a></p>
+<input type="submit" id="[!ATOM]ID[ATOM!]_TBAction_Delete" name="[!ATOM]ID[ATOM!]_TBAction_Delete" value="Unlink [!ATOM]EmailAddress[ATOM!]" />
 <!-- oip-atom-unlink-email.txt -->
