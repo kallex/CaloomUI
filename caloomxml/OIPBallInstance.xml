@@ -462,13 +462,25 @@
         </InformationItems>
       </InformationObject>
 
-      <InformationObject name="AddEmailAddress" designDesc="Add email address">
+      <InformationObject name="AddEmailAddressInfo" designDesc="Add email address">
         <InformationItems>
           <InformationItem name="EmailAddress" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
 
-<!--
+      <InformationObject name="CreateGroupInfo" designDesc="Create group">
+        <InformationItems>
+          <InformationItem name="GroupName" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AddActivityInfo" designDesc="Add activity">
+        <InformationItems>
+          <InformationItem name="ActivityName" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <!--
       LocationName
       Town
       Country
