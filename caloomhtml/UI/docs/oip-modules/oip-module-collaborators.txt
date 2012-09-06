@@ -1,7 +1,7 @@
 <!-- oip-module-collaborators.txt -->
 <div id="group-profile" class="span7" style=";margin-top:10px">
 	<form id="" method="post" class="form-horizontal ">
-			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="">
             <div class="control-group">
                 <label class="control-label">List of collaborators</label> 
@@ -49,7 +49,7 @@
 	</div>
 	<div class="modal-body well">
 		<form method="post" class="form-horizontal">
-			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 			<fieldset>
 				<p>
 					You are now about to remove this collaborator from your group. 

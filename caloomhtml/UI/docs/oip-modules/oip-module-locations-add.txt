@@ -1,7 +1,7 @@
 <!-- oip-module-account-locations-add.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="" method="post" class="form-horizontal ">
-	<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 <fieldset>
 <?php include'../oip-modules/oip-module-map-small.txt' ?>
 			<div class="control-group">
