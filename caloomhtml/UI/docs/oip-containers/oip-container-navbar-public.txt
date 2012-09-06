@@ -3,10 +3,10 @@
 		<div class="container">
 			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
 			<a class="brand active" href="oip-layout-landing.phtml">Aalto Global Impact</a>
-			<a class="brand btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a>
 			<div class="nav-collapse">
 				<ul class="nav">
-					<li> <a href="oip-layout-map.phtml"> Map</a> </li>
+    			    <li><a class="btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a></li>
+			        <li> <a href="oip-layout-map.phtml"> Map</a> </li>
 					<!--<li><a href="oip-layout-calendar-view.phtml">Calendar</a></li>-->
 					<li><a href="oip-layout-blog.phtml">Blog</span></a></li>
 					<li><a href="oip-layout-about.phtml">About</span></a></li>

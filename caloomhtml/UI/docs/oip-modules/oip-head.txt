@@ -7,13 +7,13 @@
 	<meta name="author" content="">
 
 <!-- Le styles -->
-<!--	<link href="../bootstrap-default/assets/css/bootstrap.css" rel="stylesheet">-->
-	<link href="../oip-additions/oip-assets/oip-css/oip-theme.css" rel="stylesheet">
+    <!--<link href="../bootstrap-default/assets/css/bootstrap.css" rel="stylesheet">  -->
+    <link href="../oip-additions/oip-assets/oip-css/bootstrap-readable.css" rel="stylesheet">
 	<link href="../bootstrap-default/assets/css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="../bootstrap-default/assets/css/docs.css" rel="stylesheet">
 	<link href="../bootstrap-default/assets/css/dashboard.css" rel="stylesheet">
 	<link href="../bootstrap-default/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-	<link href="../oip-additions/oip-assets/oip-css/oip-additions.css" rel="stylesheet">
+    <link href="../oip-additions/oip-assets/oip-css/oip-additions.css" rel="stylesheet">
 
 	<!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
 <!--Extra Styles from jQuery UI-->

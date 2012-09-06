@@ -1,7 +1,5 @@
 <!-- oip-container-map-focus-view.txt -->
-<div class="row">
-	<div class="span12">
+<div class="span12">
 <?php include '../oip-modules-views/oip-module-map-view.txt' ?>
-	</div>
 </div>
 <!-- end oip-container-map-focus-view.txt -->
