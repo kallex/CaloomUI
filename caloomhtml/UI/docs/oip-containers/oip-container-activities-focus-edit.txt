@@ -8,5 +8,4 @@
 <?php include '../oip-modules/oip-module-activities.txt' ?><!-- UseInformationObject:ActivitiesModule -->
 </div>
 </div>
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter --> 
 <!-- end oip-container-activites-focus-edit.txt -->
