@@ -4,6 +4,7 @@
 <div class="span3">
 <?php include '../oip-modules/oip-module-groups-index.txt' ?>
 </div>
+<!-- oip-module-groups-summary.txt -->
 <div class="span9">
 <?php include '../oip-modules/oip-module-groups-summary.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
 </div>

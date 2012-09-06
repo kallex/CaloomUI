@@ -49,6 +49,7 @@
 	</div>
 	<div class="modal-body well">
 		<form method="post" class="form-horizontal">
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 			<fieldset>
 				<p>
 					You are now about to remove this collaborator from your group. 

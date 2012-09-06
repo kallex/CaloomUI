@@ -4,6 +4,8 @@
 		<h3>Enter email address</h3>
 	</div>
 	<div class="modal-body well">
+		<form method="post" class="form-horizontal">
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 			<fieldset>
 			<div class="control-group">				
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_Email">Email address</label>

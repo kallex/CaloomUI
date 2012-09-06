@@ -1,4 +1,4 @@
-<!-- oip-module-groups-summary-2-in-row.txt -->
+<!-- oip-module-activities-2-in-row -->
 <div class="row-fluid">
 	<div class="span6">
 		<a href="oip-layout-group-specific-view.phtml">
@@ -15,7 +15,7 @@
 		</p>
 	</div>
 	<div class="span6">
-		<a href="oip-layout-group-specific-view.phtml">
+		<a href=" oip-layout-group-specific-view.phtml">
 		<h2>[!ATOM]Title[ATOM!]</h2>
 		</a>
 		<p>
@@ -29,4 +29,4 @@
 		</p>
 	</div>
 </div>
-<!-- end oip-module-groups-summary-2-in-row.txt -->
+<!-- end oip-module-activities-2-in-row -->

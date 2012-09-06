@@ -25,6 +25,7 @@
 		</h3>
 	</div>
 	<div class="modal-body well">
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<form method="post" class="form-horizontal">
 			<fieldset>
 				<p>
