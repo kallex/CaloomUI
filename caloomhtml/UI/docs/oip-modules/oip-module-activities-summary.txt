@@ -3,5 +3,5 @@
 	<div class="span12 focus-introduction">
 <?php include 'oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
 	</div>
-<?php include 'oip-module-activities-summary-2-in-row.txt' ?><!--UseInformationObjectAsCollection: -->
+<?php include 'oip-module-summary-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
 <!-- end oip-module-activities-summary.txt -->

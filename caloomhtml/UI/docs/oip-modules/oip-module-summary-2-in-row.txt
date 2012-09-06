@@ -1,10 +1,8 @@
-<!-- oip-module-summary-2-in-row.txt -->
+<!-- oip-module-2-in-row.txt -->
 <div class="row-fluid">
 	<div class="span6">
-		<a href="oip-layout-group-specific-view.phtml">
-		<h2>[!ATOM]Title[ATOM!]</h2>
-		</a>
-		<p>
+        <a href="[!ATOM]Url[ATOM!]"><h2>[!ATOM]Title[ATOM!]</h2></a>
+        <p>
 		<img class="bs-icon" src="[!ATOM]ImageGroupUrl[ATOM!]"  />
 		</p>
 		<p>
@@ -15,10 +13,8 @@
 		</p>
 	</div>
 	<div class="span6">
-		<a href="oip-layout-group-specific-view.phtml">
-		<h2>[!ATOM]Title[ATOM!]</h2>
-		</a>
-		<p>
+        <a href="[!ATOM]Url[ATOM!]"><h2>[!ATOM]Title[ATOM!]</h2></a>
+        <p>
 		<img class="bs-icon" src="[!ATOM]ImageGroupUrl[ATOM!]"  />
 		</p>
 		<p>
@@ -29,4 +25,6 @@
 		</p>
 	</div>
 </div>
-<!-- end oip-module-summary-2-in-row.txt -->
+<!-- end oip-module-2-in-row.txt -->
+
+

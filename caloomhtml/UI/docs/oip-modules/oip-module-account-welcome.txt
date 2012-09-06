@@ -1,5 +1,5 @@
 <!-- oip-module-account-welcome.txt -->
 <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
-<?php include '../oip-modules/oip-module-activities-summary.txt' ?><!-- UseInformationObjectAsCollection:ActivityCollection -->
-<?php include '../oip-modules/oip-module-groups-summary.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+<?php include '../oip-modules/oip-module-activities-summary.txt' ?><!-- UseInformationObject:ActivitySummary -->
+<?php include '../oip-modules/oip-module-groups-summary.txt' ?><!-- UseInformationObject:GroupSummary -->
 <!-- end oip-module-account-welcome.txt -->
