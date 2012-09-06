@@ -153,11 +153,19 @@
 				</InformationItems>
 			</InformationObject>
 			<!-- Account/Group/Profile Pages -->
+      <InformationObject name="AccountSummary" designDesc="Account summary">
+        <InformationItems>
+          <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
+          <InformationItem name="ActivitySummary" logicalDataType="InformationObject" informationObjectName="ActivitySummaryContainer"/>
+          <InformationItem name="GroupSummary" logicalDataType="InformationObject" informationObjectName="GroupSummaryContainer"/>
+        </InformationItems>
+      </InformationObject>
       <InformationObject name="AccountContainer" designDesc="User account, centralized point for all">
         <InformationItems>
           <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader" />
           <InformationItem name="AccountIndex" logicalDataType="InformationObject" informationObjectName="AccountIndex" />
           <InformationItem name="AccountModule" logicalDataType="InformationObject" informationObjectName="AccountModule" />
+          <InformationItem name="AccountSummary" logicalDataType="InformationObject" informationObjectName="AccountSummary" />
         </InformationItems>
       </InformationObject>
 			<InformationObject name="AccountIndex" designDesc="Account index">
@@ -370,7 +378,9 @@
 
       <InformationObject name="Activity" designDesc="Activity">
         <InformationItems>
-          <InformationItem name="MainImage" logicalDataType="InformationObject" informationObjectName="Image"/>
+          <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
+          <InformationItem name="ProfileImage" logicalDataType="InformationObject" informationObjectName="Image"/>
+          <InformationItem name="IconImage" logicalDataType="InformationObject" informationObjectName="Image"/>
           <InformationItem name="ActivityName" logicalDataType="Text_Short"/>
           <InformationItem name="Description" logicalDataType="Text_Long"/>
           <InformationItem name="Moderators" logicalDataType="InformationObject" informationObjectName="ModeratorCollection"/>
@@ -467,6 +477,7 @@
       
       <InformationObject name="Group" designDesc="Group">
         <InformationItems>
+          <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
           <InformationItem name="ProfileImage" logicalDataType="InformationObject" informationObjectName="Image"/>
           <InformationItem name="IconImage" logicalDataType="InformationObject" informationObjectName="Image"/>
           <InformationItem name="GroupName" logicalDataType="Text_Short"/>
