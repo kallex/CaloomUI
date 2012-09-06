@@ -8,19 +8,6 @@
 	<p>
 <?php include 'oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
 	</p>
-	<p>
-		 I had more, but you go ahead. In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Um, is this the boring, peaceful kind of taking to the streets? 
-	</p>
-	<p>
-		Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Uh, is the puppy mechanical in any way? You'll have all the Slurm you can drink when you're partying with Slurms McKenzie! 
-	</p>
-	<ul>
-		<li>Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain.</li>
-		<li>You'll have all the Slurm you can drink when you're partying with Slurms McKenzie!</li>
-		<li>Fry, we have a crate to deliver.</li>
-	</ul>
-	<p>
-		Fry, you can't just sit here in the dark listening to classical music. Uh, is the puppy mechanical in any way? When the lights go out, it's nobody's business what goes on between two consenting adults. 
 	[!ATOM]Body[ATOM!]
 	</p>
 <!-- end oip-module-about.txt -->

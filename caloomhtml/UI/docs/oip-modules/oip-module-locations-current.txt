@@ -1,6 +1,7 @@
 <!-- oip-module-locations-current.txt -->
 <div id="identity" class="span7" style="margin-top:10px;min-height:300px">
-	<form id="name" method="post" class="form-horizontal ">
+	<form id="" method="post" class="form-horizontal ">
+			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="current-locations">
 		<div class="control-group">
 			<label class="control-label" for="[!ATOM]ID[ATOM!]_LocationName">List of locations used by you</label> 

@@ -1,5 +1,6 @@
 <div id="activity-profile" class="span7" style=";margin-top:10px">
-	<form id="name" method="post" class="form-horizontal ">
+	<form id="" method="post" class="form-horizontal ">
+			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="profile">
 			<div class="control-group">
 				<label class="control-label" for="input01">Icon or image</label> 

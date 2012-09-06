@@ -3,38 +3,25 @@
 		[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
 	</h2>
 	<h6 class="published">
-		[!ATOM]Published[ATOM!] 
-<!--UseInformationObject:Published-->
+		[!ATOM]Published[ATOM!]<!--UseInformationObject:Published-->
 	</h6>
 	<h6 class="author">
-		[!ATOM]Author[ATOM! 
+		[!ATOM]Author[ATOM!] 
 <!-- UseInformationObject:Author-->
 	</h6>
 	<h6 class="group">
-		[!ATOM]Group[ATOM! 
+		[!ATOM]Group[ATOM!] 
 <!-- UseInformationObject:Group-->
 	</h6>
 	<p>
 <?php include 'oip-module-modal-images-featured.txt' ?></p>
 <!-- UseInformationObject:ImageGroup -->
-	<p>
-		 I had more, but you go ahead. In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Um, is this the boring, peaceful kind of taking to the streets? 
-	</p>
-	<p>
-		Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Uh, is the puppy mechanical in any way? You'll have all the Slurm you can drink when you're partying with Slurms McKenzie! 
-	</p>
-	<ul>
-		<li>Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain.</li>
-		<li>You'll have all the Slurm you can drink when you're partying with Slurms McKenzie!</li>
-		<li>Fry, we have a crate to deliver.</li>
-	</ul>
-	<p>
-		Fry, you can't just sit here in the dark listening to classical music. Uh, is the puppy mechanical in any way? When the lights go out, it's nobody's business what goes on between two consenting adults. 
-	</p>
-	</dummy-text>[!ATOM]Excerpt[ATOM! 
-<!-- UseInformationObject:Excerpt-->
+	<p>[!ATOM]Excerpt[ATOM!]<!-- UseInformationObject:Excerpt-->
 	</p>
 	<p>
 	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
 	</p>
 <!-- end oip-module-about-mini-view.txt -->
+<!-- modals -->
+<?php include 'oip-module-modal-read-more.txt' ?>
+<!-- modals -->

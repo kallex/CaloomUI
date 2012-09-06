@@ -1,6 +1,7 @@
 <!-- oip-module-group-delete.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
-	<form id="name" method="post" class="form-horizontal ">
+	<form id="" method="post" class="form-horizontal ">
+			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="">
 are you sure you want to delete this group? You break all the links as well
 <?php include '../oip-atoms/oip-atom-form-cancel-delete.txt' ?>

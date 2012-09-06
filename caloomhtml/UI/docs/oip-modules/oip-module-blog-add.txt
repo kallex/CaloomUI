@@ -1,6 +1,6 @@
 <!-- oip-module-blog-add.txt -->
 <h2>Publish a new blog article</h2>
-<form id="name" method="post" class="form-horizontal ">
+<form id="" method="post" class="form-horizontal ">
 	<fieldset>
 		<div class="control-group">
 			<label class="control-label" for="input01">Title</label> 

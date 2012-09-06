@@ -1,6 +1,7 @@
 <!-- oip-module-account-locations-delete.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
-	<form id="name" method="post" class="form-horizontal ">
+	<form id="" method="post" class="form-horizontal ">
+			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="add-location">
 			<div class="control-group">
 				<label class="control-label" for="input01">Location name</label> 

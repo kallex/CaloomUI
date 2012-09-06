@@ -1,6 +1,6 @@
 <!-- oip-module-images.txt -->
 <div id="group-images" class="span7" style=";margin-top:10px;min-height:300px">
-	<form id="name" method="post" class="form-horizontal ">
+	<form id="" method="post" class="form-horizontal ">
 	<!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<h4>Create sets for your images</h4>
 		<fieldset id="">

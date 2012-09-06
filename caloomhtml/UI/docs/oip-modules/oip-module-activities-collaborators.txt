@@ -1,6 +1,7 @@
 <div id="group-profile" class="span7" style=";margin-top:10px">
-	<form id="name" method="post" class="form-horizontal ">
-		<fieldset id="sharing">
+	<form id="" method="post" class="form-horizontal ">
+			<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+		<fieldset id="">
 			<div class="control-group">
 				<label class="control-label" for="input01">List of collaborators</label>
 				<div class="controls">
