@@ -1,0 +1,3 @@
+<!-- oip-atom-blog-by-view.txt -->
+<li><a href="[!ATOM]BlogUrl[ATOM!]"> [!ATOM]Title[ATOM!]</a></li>
+<!-- oip-atom-blog-by-view.txt -->
