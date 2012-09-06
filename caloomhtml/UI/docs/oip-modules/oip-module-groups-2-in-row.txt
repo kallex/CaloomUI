@@ -1,6 +1,6 @@
 <!-- oip-module-groups-2-in-row.txt -->
 	<div class="span6">
-        <?php include 'oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
+        <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <p>
 		<img class="bs-icon" src="[!ATOM]ImageGroupUrl[ATOM!]"  />
 		</p>
