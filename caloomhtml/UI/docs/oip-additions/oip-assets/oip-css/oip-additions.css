@@ -28,6 +28,11 @@ min-height: 300px;
 max-width: none;
 }
 
+.olControlAttribution {
+    bottom: 5px;
+    right: 5px;
+ }
+
 /*Color*/
 body {
 background-color: #faf8f2;
