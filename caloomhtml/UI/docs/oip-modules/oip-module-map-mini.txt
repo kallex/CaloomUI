@@ -1,6 +1,6 @@
-<div id="map_canvas" style="height:243px"></div>
+<div id="map" style="height:243px"></div>
 <script>
-    map = new OpenLayers.Map("map_canvas");
+    map = new OpenLayers.Map("map");
     map.addLayer(new OpenLayers.Layer.OSM());
     map.zoomToMaxExtent();
 </script> 

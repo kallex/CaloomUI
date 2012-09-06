@@ -1,6 +1,6 @@
 <!-- oip-module-locations-view.txt -->
 <div id="group-profile" class="span7" style=";margin-top:10px">
-<?php include'../oip-modules/oip-module-map-small.txt' ?>oip-module-map-small.txt<!--UseInformationObject:MapPreview -->
+<?php include'../oip-modules/oip-module-map-small.txt' ?><!--UseInformationObject:MapPreview -->
 	<hr>
 	<div class="view-group">
 		<p class="view-label">

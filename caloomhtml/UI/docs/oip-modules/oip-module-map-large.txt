@@ -1,7 +1,7 @@
-<div id="map_canvas" style="height:522px;"></div>
+<div id="map" style="height:522px;"></div>
 <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
 <script>
-    map = new OpenLayers.Map("map_canvas");
+    map = new OpenLayers.Map("map");
     map.addLayer(new OpenLayers.Layer.OSM());
     var markers = new OpenLayers.Layer.Markers( "Markers" );
     map.addLayer(markers);
