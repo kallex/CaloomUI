@@ -43,7 +43,7 @@
 				<div class="modal-footer">
 					<div class="control-group controls">
 						<div class="form-actions" style="padding:0;margin:0;border-top:0">
-							<button class="btn">Cancel</button>
+							<button value="true" class="btn">Cancel</button>
 							<button type="submit" class="btn btn-primary btn-danger">Leave !</button> 
 						</div>
 					</div>
@@ -68,7 +68,7 @@
 				<div class="modal-footer">
 					<div class="control-group controls">
 						<div class="form-actions" style="padding:0;margin:0;border-top:0">
-							<button class="btn">Cancel</button>
+							<button value="true" class="btn">Cancel</button>
 							<button type="submit" class="btn btn-primary btn-danger">Leave !</button> 
 						</div>
 					</div>
