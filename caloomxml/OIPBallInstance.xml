@@ -181,30 +181,9 @@
           <InformationItem name="Security" logicalDataType="InformationObject" informationObjectName="AccountSecurity"/>
 					<InformationItem name="Roles" logicalDataType="InformationObject" informationObjectName="AccountRoles" />
 					<InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection" />
-          <!--
-					<InformationItem name="AccountStatistics" logicalDataType="InformationObject" informationObjectName="AccountStatistics" />
-					<InformationItem name="AccountContent" logicalDataType="InformationObject" informationObjectName="AccountContent" />
-          -->
           <InformationItem name="AddLocationInfo" logicalDataType="InformationObject" informationObjectName="AddLocationInfo"/>
 				</InformationItems>
 			</InformationObject>
-      <!--
-			<InformationObject name="AccountStatistics" designDesc="Designed later">
-				<InformationItems>
-					<InformationItem name="Dummy" logicalDataType="Text_Short" />
-				</InformationItems>
-			</InformationObject>
-			<InformationObject name="AccountSkills" designDesc="Designed later">
-				<InformationItems>
-					<InformationItem name="Dummy" logicalDataType="Text_Short" />
-				</InformationItems>
-			</InformationObject>
-			<InformationObject name="AccountProjects" designDesc="Designed later">
-				<InformationItems>
-					<InformationItem name="Dummy" logicalDataType="Text_Short" />
-				</InformationItems>
-			</InformationObject>
-      -->
       <InformationObject name="AddressAndLocationCollection" designDesc="Designed later">
         <CollectionFor contentInformationObjectName="AddressAndLocation"/>
 			</InformationObject>
@@ -366,8 +345,18 @@
         </InformationItems>
       </InformationObject>
 
+      <InformationObject name="ActivityIndex" designDesc="Activity index">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="Introduction" logicalDataType="Text_Long" />
+          <InformationItem name="Summary" logicalDataType="Text_Long" />
+        </InformationItems>
+      </InformationObject>
+
+
       <InformationObject name="ActivityContainer" designDesc="Group container">
         <InformationItems>
+          <InformationItem name="ActivityIndex" logicalDataType="InformationObject" informationObjectName="ActivityIndex" />
           <InformationItem name="Activities" logicalDataType="InformationObject" informationObjectName="ActivityCollection"/>
         </InformationItems>
       </InformationObject>
@@ -442,6 +431,7 @@
       <InformationObject name="GroupContainer" designDesc="Group container">
         <InformationItems>
           <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader"/>
+          <InformationItem name="GroupIndex" logicalDataType="InformationObject" informationObjectName="GroupIndex"/>
           <InformationItem name="GroupProfile" logicalDataType="InformationObject" informationObjectName="Group"/>
           <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
           <!--
@@ -452,6 +442,15 @@
           <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="LocationCollection"/>
         </InformationItems>
       </InformationObject>
+
+      <InformationObject name="GroupIndex" designDesc="Group index">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="Introduction" logicalDataType="Text_Long" />
+          <InformationItem name="Summary" logicalDataType="Text_Long" />
+        </InformationItems>
+      </InformationObject>
+
 
       <InformationObject name="AddLocationInfo" designDesc="Add location info">
         <InformationItems>

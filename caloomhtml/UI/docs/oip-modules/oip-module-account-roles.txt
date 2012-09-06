@@ -5,13 +5,13 @@
             <div class="control-group">
                 <label class="control-label" for="input01">Moderator of</label> 
                 <div class="controls">
-                    <?php include '../oip-atoms/oip-atom-leave-group-as-moderator.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+                    <?php include '../oip-atoms/oip-atom-leave-group-as-moderator.txt' ?><!-- UseInformationObjectAsCollection:ModeratorInGroups -->
                  </div>
             </div>
             <div class="control-group">
                 <label class="control-label" for="input01">Collaborator in</label> 
                 <div class="controls">
-                    <?php include '../oip-atoms/oip-atom-leave-group-as-collaborator.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+                    <?php include '../oip-atoms/oip-atom-leave-group-as-collaborator.txt' ?><!-- UseInformationObjectAsCollection:MemberInGroups -->
                </div>
             </div>
 			<div class="control-group">
