@@ -23,6 +23,10 @@ div.tab-content {
 	min-height: 300px;
 }
 
+#map img {
+	width: 100%;
+}
+
 /*Color*/
 body {
 	background-color: #faf8f2;
