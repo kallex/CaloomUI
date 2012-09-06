@@ -1,4 +1,4 @@
-<!-- oip-module-groups-view.txt -->
+<!-- oip-module-group-specific-view.txt -->
 <div class="tabbable tabs-left">
     <ul class="nav nav-tabs" style="margin-bottom:0px;">
         <li class="active"><a href="#tab-group-profile" data-toggle="tab">Group Profile</a></li> 
@@ -15,4 +15,4 @@
         <div class="tab-pane" id="tab-group-content"><?php include'../oip-modules-views/oip-module-content-view.txt' ?></div>
     </div>
 </div>
-<!-- end oip-module-groups-view.txt -->
+<!-- end oip-module-group-specific-view.txt -->

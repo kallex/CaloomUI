@@ -1,0 +1,3 @@
+<!-- oip-atom-collaborator-view.txt -->
+<a data-toggle="modal" href="#[!ATOM]ProfileUrl[ATOM!]"> [!ATOM]CollaboratorName[ATOM!]</a>
+<!-- end oip-atom-collaborator-view.txt -->

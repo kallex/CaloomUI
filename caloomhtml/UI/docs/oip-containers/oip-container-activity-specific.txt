@@ -1,11 +1,11 @@
-<!-- oip-container-projects-focus-view.txt -->
+<!-- oip-container-activity-specific-view.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
 <div class="span3">
 <?php include '../oip-modules/oip-module-activities-index.txt' ?>
 </div>
 <div class="span9">
-<?php include '../oip-modules-views/oip-module-activities-view.txt' ?>
+<?php include '../oip-modules-views/oip-module-activity-specific-view.txt' ?>
 </div>
 </div>
-<!-- end oip-container-projects-focus-view.txt -->
+<!-- end oip-container-activity-specific-view.txt -->

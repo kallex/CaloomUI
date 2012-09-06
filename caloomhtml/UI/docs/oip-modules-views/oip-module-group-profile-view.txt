@@ -3,10 +3,10 @@
 	<div class="view-group">
 		<div class="view-group">
 			<p class="view-label">
-				Activity main Photo 
+				Group's main Photo 
 			</p>
 			<p class="view-content">
-				<img class="thumbnail" src="http://flickholdr.com/120/120/people,group,face"  /> 
+				<?php include '../oip-modules/oip-module-modal-images.txt' ?> 
 			</p>
 		</div>
 		<p class="view-label">
@@ -23,14 +23,6 @@
 		<p class="view-content">
 			[!ATOM]Description[ATOM!]
 		</p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			Moderator(s) 
-		</p>
-		<p class="view-content">
-        <?php include '../oip-modules/oip-module-moderator-name.txt' ?><!-- UseInformationObjectAsCollection:Moderators -->
-        </p>
 	</div>
 </div>
 <!-- modals -->

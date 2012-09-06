@@ -1,19 +1,19 @@
 <!-- oip-module-group-profile-view.txt -->
 <div id="group-profile" class="span7" style=";margin-top:10px">
 	<div class="view-group">
-		<p class="view-label">
-			Activity main Photo 
-		</p>
-		<p class="view-content">
-			<img class="thumbnail" src="http://flickholdr.com/120/120/lake"  /> 
-		</p>
-	</div>
-	<div class="view-group">
+		<div class="view-group">
+			<p class="view-label">
+				Activity's main Photo 
+			</p>
+			<p class="view-content">
+				<?php include '../oip-modules/oip-module-modal-images.txt' ?> 
+			</p>
+		</div>
 		<p class="view-label">
 			Activity name 
 		</p>
 		<p class="view-content">
-			Nordic Business Event 
+			[!ATOM]GroupName[ATOM!]
 		</p>
 	</div>
 	<div class="view-group">
@@ -21,15 +21,7 @@
 			Description 
 		</p>
 		<p class="view-content">
-			The Nordic business highlight of the year 2012! Main themes of this amazing seminar are business growth, personal growth and growth of well-being. We promise you earth-shattering content and practical tools for a more successful and responsible business: conrete techniques, strategies, principles, methods, ideas, networks and inspiration for profitable growth. 
-		</p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			Moderator(s) 
-		</p>
-		<p class="view-content">
-			<a data-toggle="modal" href="#collaborator-profile-anne"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span><br> <a data-toggle="modal" href="#collaborator-profile-anne"> Sujil</a><br> <a data-toggle="modal" href="#collaborator-profile-anne"> Andew</a><br> 
+			[!ATOM]Description[ATOM!]
 		</p>
 	</div>
 </div>

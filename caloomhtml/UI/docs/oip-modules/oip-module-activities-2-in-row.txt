@@ -1,5 +1,5 @@
 <!-- oip-module-activities-2-in-row.txt -->
-	<div class="span6">
+	<div class="span6" class="information-item">
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <p>
 		<img class="bs-icon" src="[!ATOM]ImageGroupUrl[ATOM!]"  />

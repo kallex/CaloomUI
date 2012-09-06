@@ -16,9 +16,9 @@
                 </div>
             </div>
 			<div class="control-group">
-				<label class="control-label" for="[!ATOM]ID[ATOM!]_Email">Invite collaborators</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_EmailAddress">Invite collaborators</label> 
 				<div class="controls">
-					<input name="[!ATOM]ID[ATOM!]_Email" class="span3" id="[!ATOM]ID[ATOM!]_Email" type="text" value="[!ATOM]ID[ATOM!]_Email">
+					<input name="[!ATOM]ID[ATOM!]_EmailAddress" class="span3" id="[!ATOM]ID[ATOM!]_EmailAddress" type="text" value="[!ATOM]ID[ATOM!]_EmailAddress">
 				</div>
 			</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>

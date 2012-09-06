@@ -1,0 +1,3 @@
+<!-- oip-atom-location-view.txt -->
+<a data-toggle="modal" href="#[!ATOM]ProfileUrl[ATOM!]"> [!ATOM]LocationName[ATOM!]</a>
+<!-- end oip-atom-location-view.txt -->

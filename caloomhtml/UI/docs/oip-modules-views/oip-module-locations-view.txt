@@ -7,12 +7,7 @@
 			These locations are used by this activity (e.g. Nordic Events) 
 		</p>
 		<p class="view-content">
-		<a data-toggle="modal" href="#locations-profile-view"> Home</a><span class="help-inline" style="color:#468847;">Main</span><br>
-		<a data-toggle="modal" href="#locations-profile-view"> office in Helsinki</a><br>
-		<a data-toggle="modal" href="#locations-profile-view"> Design studio</a><br>
-		<a data-toggle="modal" href="#locations-profile-view"> Design Factory</a><br>
-		<a data-toggle="modal" href="#locations-profile-view"> Media Factory</a><br>
-		<a data-toggle="modal" href="#locations-profile-view"> Cafe AGI</a><br>
+                <?php include '../oip-atoms/oip-atom-location-view.txt' ?><!-- UseInformationObjectAsCollection:AddressAndLocationCollection -->
 		</p>
 	</div>
 </div>

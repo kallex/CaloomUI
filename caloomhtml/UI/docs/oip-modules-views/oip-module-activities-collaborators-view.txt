@@ -2,37 +2,27 @@
 <div id="group-profile" class="span7" style=";margin-top:10px">
 	<div class="view-group">
 		<p class="view-label">
-			List of collaborators
+			List of Collaborators 
 		</p>
 		<p class="view-content">
-		<a data-toggle="modal" href="#collaborator-profile-anne"> Anne</a> </br>
-		<a data-toggle="modal" href="#"> Andrew</a><span class="help-inline" style="color:#468847;">Moderator</span> </br>
-		<a data-toggle="modal" href="#r"> Rahim</a> </br>
-		<a data-toggle="modal" href="#"> Riina</a> </br>
-		<a data-toggle="modal" href="#"> Sujil</a><span class="help-inline" style="color:#468847;">Moderator</span> </br>
-		<a data-toggle="modal" href="#"> Teija</a><span class="help-inline" style="color:#468847;">Initiator</span> </br>
-		</p>
+        <?php include '../oip-atoms/oip-atom-collaborator-view.txt' ?><!-- UseInformationObjectAsCollection:Collaborator -->
+        </p>
 	</div>
 	<div class="view-group">
 		<p class="view-label">
-			List of collaboration groups
+			Moderator(s) 
 		</p>
 		<p class="view-content">
-		<a data-toggle="modal" href="#"> Steering</a> </br>
-		<a data-toggle="modal" href="#"> Core Team</a> </br>
-		<a data-toggle="modal" href="#"> FinPro Wecon</a> </br>
-		</p>
+        <?php include '../oip-atoms/oip-atom-moderator-name.txt' ?><!-- UseInformationObjectAsCollection:Moderators -->
+        </p>
 	</div>
 	<div class="view-group">
 		<p class="view-label">
-			List of collaborating organisations
+			Organisations and groups linked to us 
 		</p>
 		<p class="view-content">
-		<a data-toggle="modal" href="#"> FinPro</a> </br>
-		<a data-toggle="modal" href="#"> TEKES</a> </br>
-		<a data-toggle="modal" href="#"> Ministry of Foreign Affairs</a> </br>
-		<a data-toggle="modal" href="#"> Aalto</a> </br>
-		</p>
+        [!ATOM]OrganizationsAndGroupsLinkedToUs[ATOM!]
+        </p>
 	</div>
 </div>
 

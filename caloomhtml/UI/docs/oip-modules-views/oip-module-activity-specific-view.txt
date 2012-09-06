@@ -1,4 +1,4 @@
-<!-- oip-module-activities-view.txt -->
+<!-- oip-module-activity-specific.txt -->
 <div class="tabbable tabs-left">
     <ul class="nav nav-tabs" style="margin-bottom:0px;">
         <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Activity Profile</a></li> 
@@ -14,4 +14,4 @@
         <div class="tab-pane" id="tab-activities-content"><?php include'../oip-modules-views/oip-module-content-view.txt' ?></div>
     </div>
 </div>
-<!-- end oip-module-activities-view.txt -->
+<!-- end oip-module-activity-specific.txt -->
