@@ -462,6 +462,12 @@
         </InformationItems>
       </InformationObject>
 
+      <InformationObject name="AddEmailAddress" designDesc="Add email address">
+        <InformationItems>
+          <InformationItem name="EmailAddress" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
 <!--
       LocationName
       Town
