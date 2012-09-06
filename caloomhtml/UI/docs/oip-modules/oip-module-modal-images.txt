@@ -1,6 +1,6 @@
 <!-- oip-module-modal-images.txt -->
 <a data-toggle="modal" href="#ImagesCollection" rel="tooltip" title="click this image to open this image large and some other images if present">
-<img src="[!ATOM]ContentUrl[ATOM]" alt="Placeholder image from flickholdr.com" class="thumbnail"/></a>
+<img src="[!ATOM]ContentUrl[ATOM]"  class="thumbnail"/></a>
 <!-- end oip-module-modal-images.txt -->
 <!-- oip-modal-blog-read-more.txt -->
 <div id="ImagesCollection" class="modal hide fade">

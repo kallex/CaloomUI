@@ -11,17 +11,15 @@
 		<h1>
 			[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small> 
 		</h1>
+		<p>
+			[!ATOM]Body[ATOM!] 
+		</p>
 		<h6>
 			[!ATOM]Published[ATOM!] 
 		</h6>
 		<h6>
 			[!ATOM]Author[ATOM!] 
 		</h6>
-		<p>
-
-<?php include 'oip-module-modal-images.txt' ?>
-			[!ATOM]Body[ATOM!] 
-		</p>
 	</div>
 </div>
 <!-- end oip-module-modal-read-more.txt -->

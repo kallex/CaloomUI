@@ -12,14 +12,12 @@
 		[!ATOM]Group[ATOM!<!-- UseInformationObject:Group-->
 	</h6>
 	<p>
-<?php include 'oip-module-modal-images-featured.txt' ?></p>
-<!-- UseInformationObject:ImageGroup -->
+<?php include 'oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup --></p>
 	<p>[!ATOM]Excerpt[ATOM!<!-- UseInformationObject:Excerpt-->
 	</p>
 	<p>
 	<a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a> 
 	</p>
-
 <!-- modals -->
 <?php include 'oip-module-modal-read-more.txt' ?>
 <!-- modals -->

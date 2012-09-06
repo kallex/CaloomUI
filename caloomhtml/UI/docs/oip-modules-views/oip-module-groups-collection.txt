@@ -2,19 +2,19 @@
 <!-- this is the mini-view module that lists the <!ATOM>Title<ATOM!> and image in a compact form -->
 <div class="row-fluid"><!-- this shows the latest 3 edited groups summaries -->
 	<div class="span4">
-		<img class="thumbnail" src="http://flickholdr.com/120/120/group,people,face" alt="Placeholder image from flickholdr.com" /> 
+		<img class="thumbnail" src="http://flickholdr.com/120/120/group,people,face"  /> 
 		<a href="oip-layout-activities-view.phtml"><h3>
 			The Knights Who Say Ni demand a sacrifice! 
 		</h3></a>
 	</div>
 	<div class="span4">
-		<img class="thumbnail" src="http://flickholdr.com/120/120/group,people,face/2" alt="Placeholder image from flickholdr.com" /> 
+		<img class="thumbnail" src="http://flickholdr.com/120/120/group,people,face/2"  /> 
 		<a href="oip-layout-activities-view.phtml"><h3>
 			Am I right? 
 		</h3></a>
 	</div>
 	<div class="span4">
-		<img class="thumbnail" src="http://flickholdr.com/120/120/group,people,face/3" alt="Placeholder image from flickholdr.com" /> 
+		<img class="thumbnail" src="http://flickholdr.com/120/120/group,people,face/3"  /> 
 		<a href="oip-layout-activities-view.phtml"><h3>
 			Sir Lancelot 
 		</h3></a>

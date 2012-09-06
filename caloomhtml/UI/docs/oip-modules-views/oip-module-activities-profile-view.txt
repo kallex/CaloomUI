@@ -5,7 +5,7 @@
 			Activity main Photo 
 		</p>
 		<p class="view-content">
-			<img class="thumbnail" src="http://flickholdr.com/120/120/lake" alt="Placeholder image from flickholdr.com" /> 
+			<img class="thumbnail" src="http://flickholdr.com/120/120/lake"  /> 
 		</p>
 	</div>
 	<div class="view-group">

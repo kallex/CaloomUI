@@ -8,7 +8,7 @@
 </div>
 <div class="row-fluid">
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face" alt="Placeholder image from flickholdr.com" /> <a href="oip-layout-groups-view.phtml">
+		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face"  /> <a href="oip-layout-groups-view.phtml">
 		<h2>
 			The Knights Who Say Ni demand a sacrifice! 
 		</h2>
@@ -21,7 +21,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/2" alt="Placeholder image from flickholdr.com" /> <a href="oip-layout-groups-view.phtml">
+		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/2"  /> <a href="oip-layout-groups-view.phtml">
 		<h2>
 			Am I right? 
 		</h2>
@@ -31,7 +31,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/3" alt="Placeholder image from flickholdr.com" /> <a href="oip-layout-groups-view.phtml">
+		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/3"  /> <a href="oip-layout-groups-view.phtml">
 		<h2>
 			Sir Lancelot 
 		</h2>
@@ -43,7 +43,7 @@
 </div>
 <div class="row-fluid">
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/4" alt="Placeholder image from flickholdr.com" /> <a href="oip-layout-groups-view.phtml">
+		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/4"  /> <a href="oip-layout-groups-view.phtml">
 		<h2>
 			First shalt thou take out the Holy Pin 
 		</h2>
@@ -53,7 +53,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/5" alt="Placeholder image from flickholdr.com" /> <a href="oip-layout-groups-view.phtml">
+		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/5"  /> <a href="oip-layout-groups-view.phtml">
 		<h2>
 			First shalt thou take out the Holy Pin 
 		</h2>
@@ -66,7 +66,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/6" alt="Placeholder image from flickholdr.com" /> <a href="oip-layout-groups-view.phtml">
+		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/6"  /> <a href="oip-layout-groups-view.phtml">
 		<h2>
 			Blue. No, yel&hellip; 
 		</h2>
@@ -78,7 +78,7 @@
 </div>
 <div class="row-fluid">
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/11" alt="Placeholder image from flickholdr.com" /> <a href="oip-layout-groups-view.phtml">
+		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/11"  /> <a href="oip-layout-groups-view.phtml">
 		<h2>
 			The Knights Who Say Ni demand a sacrifice! 
 		</h2>
@@ -88,7 +88,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/8" alt="Placeholder image from flickholdr.com" /> <a href="oip-layout-groups-view.phtml">
+		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/8"  /> <a href="oip-layout-groups-view.phtml">
 		<h2>
 			The Knights Who Say Ni demand a sacrifice! 
 		</h2>
@@ -98,7 +98,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/9" alt="Placeholder image from flickholdr.com" /> <a href="oip-layout-groups-view.phtml">
+		<img class="bs-icon" src="http://flickholdr.com/120/120/group,people,face/9"  /> <a href="oip-layout-groups-view.phtml">
 		<h2>
 			Blue. No, yel&hellip; 
 		</h2>

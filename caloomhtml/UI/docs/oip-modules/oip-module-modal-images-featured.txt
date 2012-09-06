@@ -1,5 +1,5 @@
 <!-- oip-module-modal-images-featured.txt -->
-<a data-toggle="modal" href="#ImagesCollection" rel="tooltip" title="click this image to open this image large and some other images if presentt"> <img src="[!ATOM]ContentUrl[ATOM]" alt="Placeholder image from flickholdr.com" class="thumbnail" /></a> 
+<a data-toggle="modal" href="#ImagesCollection" rel="tooltip" title="click this image to open this image large and some other images if presentt"> <img src="[!ATOM]ContentUrl[ATOM]"  class="thumbnail" /></a> 
 <!-- end oip-module-modal-images-featured.txt -->
 <!-- oip-modal-blog-read-more.txt -->
 <div id="ImagesCollection" class="modal hide fade">
@@ -17,7 +17,7 @@
 				<div id="myCarousel" class="carousel slide">
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="[!ATOM]ContentUrl[ATOM]" alt="Placeholder image from flickholdr.com" /> 
+							<img src="[!ATOM]ContentUrl[ATOM]"  /> 
 							<div class="carousel-caption">
 								<h4>
 									First Thumbnail label
@@ -28,7 +28,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="[!ATOM]ContentUrl[ATOM]" alt="Placeholder image from flickholdr.com" /> 
+							<img src="[!ATOM]ContentUrl[ATOM]"  /> 
 							<div class="carousel-caption">
 								<h4>
 									Second Thumbnail label
@@ -39,7 +39,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="[!ATOM]ContentUrl[ATOM]" alt="Placeholder image from flickholdr.com" /> 
+							<img src="[!ATOM]ContentUrl[ATOM]"  /> 
 							<div class="carousel-caption">
 								<h4>
 									Third Thumbnail label

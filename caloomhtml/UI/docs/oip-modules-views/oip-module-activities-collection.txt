@@ -2,7 +2,7 @@
 <!-- this is the mini-view module that lists the <!ATOM>Title<ATOM!> and image in a compact form -->
 <div class="row-fluid">
 	<div class="span4">
-		<img class="thumbnail" src="http://flickholdr.com/120/120/lake" alt="Placeholder image from flickholdr.com" /> <a hre="#"> 
+		<img class="thumbnail" src="http://flickholdr.com/120/120/lake"  /> <a hre="#"> 
 		<h3>
 			The Knights Who Say Ni demand a sacrifice! 
 		</h2>
@@ -12,14 +12,14 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="thumbnail" src="http://flickholdr.com/120/120/lake/2" alt="Placeholder image from flickholdr.com" /> <a hre="#"> 
+		<img class="thumbnail" src="http://flickholdr.com/120/120/lake/2"  /> <a hre="#"> 
 		<h3>
 			Am I right? 
 		</h2>
 		</a>
 	</div>
 	<div class="span4">
-		<img class="thumbnail" src="http://flickholdr.com/120/120/lake/3" alt="Placeholder image from flickholdr.com" /> <a hre="#"> 
+		<img class="thumbnail" src="http://flickholdr.com/120/120/lake/3"  /> <a hre="#"> 
 		<h3>
 			Sir Lancelot 
 		</h2>

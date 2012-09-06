@@ -8,7 +8,7 @@
 </div>
 <div class="row-fluid">
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/lake" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon" src="http://flickholdr.com/120/120/lake"  />
 		<a href="oip-layout-activities-view.phtml"><h2>
 			The Knights Who Say Ni demand a sacrifice! 
 		</h2></a>
@@ -20,7 +20,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/lake/2" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon" src="http://flickholdr.com/120/120/lake/2"  />
 		<a href="oip-layout-activities-view.phtml"><h2>
 			Am I right? 
 		</h2></a>
@@ -29,7 +29,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/lake/3" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon" src="http://flickholdr.com/120/120/lake/3"  />
 		<a href="oip-layout-activities-view.phtml"><h2>
 			Sir Lancelot 
 		</h2></a>
@@ -40,7 +40,7 @@
 </div>
 <div class="row-fluid">
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/lake/4" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon" src="http://flickholdr.com/120/120/lake/4"  />
 		<a href="oip-layout-activities-view.phtml"><h2>
 			First shalt thou take out the Holy Pin 
 		</h2></a>
@@ -49,7 +49,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/lake/5" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon" src="http://flickholdr.com/120/120/lake/5"  />
 		<a href="oip-layout-activities-view.phtml"><h2>
 			First shalt thou take out the Holy Pin 
 		</h2></a>
@@ -61,7 +61,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/grass/6" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon" src="http://flickholdr.com/120/120/grass/6"  />
 		<a href="oip-layout-activities-view.phtml"><h2>
 			Blue. No, yel&hellip; 
 		</h2></a>
@@ -72,7 +72,7 @@
 </div>
 <div class="row-fluid">
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/grass/11" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon" src="http://flickholdr.com/120/120/grass/11"  />
 		<a href="oip-layout-activities-view.phtml"><h2>
 			The Knights Who Say Ni demand a sacrifice! 
 		</h2></a>
@@ -81,7 +81,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/grass/8" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon" src="http://flickholdr.com/120/120/grass/8"  />
 		<a href="oip-layout-activities-view.phtml"><h2>
 			The Knights Who Say Ni demand a sacrifice! 
 		</h2></a>
@@ -90,7 +90,7 @@
 		</p>
 	</div>
 	<div class="span4">
-		<img class="bs-icon" src="http://flickholdr.com/120/120/grass/9" alt="Placeholder image from flickholdr.com" />
+		<img class="bs-icon" src="http://flickholdr.com/120/120/grass/9"  />
 		<a href="oip-layout-activities-view.phtml"><h2>
 			Blue. No, yel&hellip; 
 		</h2></a>
