@@ -244,3 +244,16 @@ div.hero-unit.contact-oip {
 	margin-top: 10px;
 	border-style: none;
 }
+
+
+/*Openlayers*/
+div.olControlZoom a {
+background: #446969;
+background: rgba(68, 105, 105, 0.80);
+filter: alpha(opacity=80);
+}
+
+.olControlAttribution {
+	bottom: 5px;
+	right: 5px;
+}
