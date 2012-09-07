@@ -1,6 +1,6 @@
 <!-- oip-module-header.txt -->
 <div class="page-header marketing">
-	<h1>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h1>
+	<a data-toggle="modal" data-id="Title" data-kello="Change and save" data-toggle="modal" title="edit-content" class="open-AddBookDialog in-context-edit" href="#addBookDialog"><h1>[!ATOM]Title[ATOM!]<h1></a><br><small>[!ATOM]SubTitle[ATOM!]</small></h1>
 </div>
 <!-- end oip-module-header.txt -->
 

@@ -1,3 +1,4 @@
+<!-- oip-module-group-profile.txt -->
 <div id="group-profile" class="span7" style=";margin-top:10px">
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
@@ -5,17 +6,17 @@
 			<div class="control-group">
 				<label class="control-label">Profile image</label> 
 				<div class="controls">
-					<input class="span2" id="appendedInputButtons" size="16" type="file">
+					<input class="btn btn-small span5" id="appendedInputButtons" size="16" type="file">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label">Icon (for use on the map and as your group's logo)</label> 
 				<div class="controls">
-					<input class="span2" id="appendedInputButtons" size="16" type="file">
+					<input class="btn btn-small span5" id="appendedInputButtons" size="16" type="file">
 				</div>
 			</div>			
 			<div class="control-group">
-				<label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">First name</label> 
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Group name</label> 
 				<div class="controls">
         <input name="[!ATOM]ID[ATOM!]_GroupName" class="span3" id="[!ATOM]ID[ATOM!]_GroupName" type="text" value="[!ATOM]GroupName[ATOM!]">
 				</div>
@@ -23,16 +24,17 @@
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label> 
 				<div class="controls">
-                    <textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea> 
+                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea> 
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs">Organisations and groups linked to us</label> 
 				<div class="controls">
-                    <textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs" name="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs" rows="6" placeholder="add org name">[!ATOM]OrganizationsAndGroupsLinkedToUs[ATOM!]</textarea> 
+                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs" name="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs" rows="6" placeholder="add org name">[!ATOM]OrganizationsAndGroupsLinkedToUs[ATOM!]</textarea> 
 				</div>
 			</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
 </div>
+<!-- end oip-module-group-profile.txt -->

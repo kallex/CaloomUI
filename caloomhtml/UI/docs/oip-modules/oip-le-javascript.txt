@@ -15,5 +15,6 @@
 <script src="../bootstrap-default/assets/js/bootstrap-carousel.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-typeahead.js"></script>
 <!-- calendar -->
-<script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js" type="text/javascript" charset="utf-8"></script>
+<script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/in-context-editing.js"></script>
 <!-- end oip-le-javascript.txt -->

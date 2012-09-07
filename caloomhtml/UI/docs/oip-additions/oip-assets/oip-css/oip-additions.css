@@ -1,5 +1,4 @@
-/* @override http://caloomgit:8888/UI/docs/oip-additions/oip-assets/oip-css/oip-additions.css */
-
+/*structural changes*/
 #container-focus {
 margin-top: 40px;
 }
@@ -55,11 +54,6 @@ border-radius: 4px;
 -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-}
-
-.navbar .brand {
-color: #282828;
-text-shadow: 0 1px 0 #f0ebdf;
 }
 
 .navbar .divider-vertical {
@@ -204,25 +198,49 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 text-decoration: none;
 padding: 10; } 
 
+
+
 /*fonts*/
+#appendedInputButtons {
+	background-color: white;
+	font-weight: normal;
+	font-style: normal;
+	border-style: none;
+	*background-color: #a7283e;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fff));
+	background-image: -webkit-linear-gradient(top, #fff, #fff);
+	background-image: -o-linear-gradient(top, #fff, #fff);
+	background-image: linear-gradient(to bottom, #fff, #fff);
+	background-image: -moz-linear-gradient(top, #fff, #fff);
+	background-repeat: repeat-x;
+	-moz-box-shadow: 0 0 0 #fff;
+	-webkit-box-shadow: 0 0 0 #fff;
+	box-shadow: 0 0 0 #fff;
+	color: #a37a7f;
+	font-weight: 200;
+}
+
 html>*, input {
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-weight: 200;
-	color: #45330d;
+	color: #300f09;
 }
 
-h1,h2,h3,h4,h5,h6, small, h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, dt, dl,ul, li, li a, p, label,.nav-tabs li.active > a, .nav-tabs li.active > a:hover, .navbar .nav > li > a
+h1,h2,h3,h4,h5,h6, small, h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, dt, dl,ul, li, li a, p, label,.nav-tabs li.active > a, .nav-tabs li.active > a:hover, .navbar .nav > li > a, span.badge, span.badge a
   {
 font-weight: 200;	letter-spacing: 0.05em;
-	color: #45330d;
+	color: #300f09;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+	color: #6a4d51;
 }
 
 a:hover,a>*, nav-tabs, nav-tabs li, nav-tabs li a {
-  color: #9c0001;
+  color: #a7283e;
   text-decoration: none;
 }
 a>*:hover {
-  color: #c50001;
+  color: #ce344e;
   text-decoration: underline;
 }
 
@@ -245,6 +263,16 @@ div.hero-unit.contact-oip {
 	border-style: none;
 }
 
+span.badge, span.badge a {
+	background-color: #e65252;
+	font-size: 80%;
+	cursor: default;
+}
+
+element {
+	cursor: pointer;
+	cursor: hand;
+}
 
 /*Openlayers*/
 div.olControlZoom a {

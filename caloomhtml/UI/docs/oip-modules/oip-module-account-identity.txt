@@ -5,7 +5,7 @@
 			<div class="control-group">
 				<label class="control-label">Profile Image</label> 
 				<div class="controls">
-					<input class="span2" id="appendedInputButtons" size="16" type="file">
+					<input class="span5" id="appendedInputButtons" size="16" type="file">
 				</div>
 			</div>
 			<div class="control-group">
