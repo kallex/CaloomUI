@@ -1,5 +1,6 @@
 <!-- oip-module-account-emails-security.txt -->
 <div id="" class="span7" style="margin-top:10px;min-height:300px">
+		<form method="post" class="form-horizontal">
             <div class="control-group">
                 <label class="control-label" >Linked OpenID accounts</label> 
                 <div class="controls">
@@ -12,6 +13,7 @@
                     <?php include '../oip-atoms/oip-atom-unlink-email.txt' ?><!-- UseInformationObjectAsCollection:EmailCollection -->
                </div>
             </div>
+		</form>
 <p><a href="#add-email" role="button" class="btn" data-toggle="modal">Add an email</a></p>
 </div>
 

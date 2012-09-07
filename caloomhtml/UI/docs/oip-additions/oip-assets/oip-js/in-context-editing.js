@@ -1,11 +1,11 @@
-$(document).on("click", ".open-AddBookDialog", function () {
-    var myBookId = $(this).data('id');
-var kala = $(this).data('kello');
+$(document).on("click", ".open-IncontextEditDialog_Text_Short", function () {
+    var fieldid = $(this).data('id');
+    var fieldtext = $(this).text();
 
 
-    $(".modal-body #bookId").val( myBookId );     
-$(".modal-body #btn2").val( kala );
+    $(".modal-body #ObjectFieldID").val(fieldid);
+    $(".modal-body #Text_Short").val(fieldtext);
 
 
-    $('#addBookDialog').modal('show');
+$('#IncontextEditDialog_Text_Short').modal('show');
 });

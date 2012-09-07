@@ -1,6 +1,6 @@
 <!-- oip-module-header.txt -->
 <div class="page-header marketing">
-	<a data-toggle="modal" data-id="Title" data-kello="Change and save" data-toggle="modal" title="edit-content" class="open-AddBookDialog in-context-edit" href="#addBookDialog"><h1>[!ATOM]Title[ATOM!]<h1></a><br><small>[!ATOM]SubTitle[ATOM!]</small></h1>
+	<h1><a data-toggle="modal" data-id="[!ATOM]ID[ATOM!]_Title" data-toggle="modal" title="edit-content" class="open-IncontextEditDialog_Text_Short in-context-edit" href="#IncontextEditDialog_Text_Short">[!ATOM]Title[ATOM!]</a><h1><br><small>[!ATOM]SubTitle[ATOM!]</small></h1>
 </div>
 <!-- end oip-module-header.txt -->
 
