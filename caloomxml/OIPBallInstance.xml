@@ -181,7 +181,6 @@
           <InformationItem name="Security" logicalDataType="InformationObject" informationObjectName="AccountSecurity"/>
 					<InformationItem name="Roles" logicalDataType="InformationObject" informationObjectName="AccountRoles" />
 					<InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection" />
-          <InformationItem name="AddLocationInfo" logicalDataType="InformationObject" informationObjectName="AddLocationInfo"/>
 				</InformationItems>
 			</InformationObject>
       <InformationObject name="AddressAndLocationCollection" designDesc="Designed later">
@@ -798,18 +797,14 @@
 			<InformationObject name="Subscription" designDesc="The Ball Core Structure: Subscription content">
 				<InformationItems>
 					<InformationItem name="Priority" logicalDataType="Number_Integer" />
-					<InformationItem name="TargetItemID" logicalDataType="Text_Short" />
-					<InformationItem name="TargetObjectName" logicalDataType="Text_Short" />
-					<InformationItem name="TargetItemName" logicalDataType="Text_Short" />
 					<InformationItem name="TargetRelativeLocation" logicalDataType="Text_Short" />
-					<InformationItem name="SubscriberID" logicalDataType="Text_Short" />
 					<InformationItem name="SubscriberRelativeLocation" logicalDataType="Text_Short" />
-					<InformationItem name="OperationActionName" logicalDataType="Text_Short" />
+					<InformationItem name="SubscriptionType" logicalDataType="Text_Short" />
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="QueueEnvelope" designDesc="QueueEnvelope for all kinds of queued items" provideCreateMethod="false">
 				<InformationItems>
-					<InformationItem name="SubscriberUpdateOperation" logicalDataType="InformationObject" informationObjectName="SubscriberUpdateOperation" />
+					<InformationItem name="SubscriberNotification" logicalDataType="InformationObject" informationObjectName="Subscription" />
 					<InformationItem name="UpdateWebContentOperation" logicalDataType="InformationObject" informationObjectName="UpdateWebContentOperation" />
 					<InformationItem name="ErrorContent" logicalDataType="InformationObject" informationObjectName="SystemError" />
 				</InformationItems>
@@ -871,6 +866,7 @@
 					<InformationItem name="SubscriberRelativeLocation" logicalDataType="Text_Short" />
 				</InformationItems>
 			</InformationObject>
+      <!--
 			<InformationObject name="SubscriberUpdateOperation" designDesc="Subscriber update operation call">
 				<InformationItems>
 					<InformationItem name="TargetOwnerID" logicalDataType="Text_Short" />
@@ -879,6 +875,7 @@
 					<InformationItem name="OperationName" logicalDataType="Text_Short" />
 				</InformationItems>
 			</InformationObject>
+      -->
 			<InformationObject name="Monitor" designDesc="The Ball Core Structure: Monitoring content">
 				<InformationItems>
 					<InformationItem name="TargetObjectName" logicalDataType="Text_Short" />

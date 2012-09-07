@@ -1,1 +1,1 @@
-markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat([!ATOM]LocationText[ATOM!]),icon.clone()));
+markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat([!ATOM]LocationText[ATOM!]).transform('EPSG:4326', 'EPSG:3857'),icon.clone()));

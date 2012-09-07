@@ -3,7 +3,7 @@
             <div class="control-group">
                 <label class="control-label" >Linked OpenID accounts</label> 
                 <div class="controls">
-                    <?php include '../oip-atoms/oip-atom-unlink-openid.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
+                    <?php include '../oip-atoms/oip-atom-unlink-openid.txt' ?><!-- UseInformationObjectAsCollection:LoginInfoCollection -->
                  </div>
             </div>
             <div class="control-group">
