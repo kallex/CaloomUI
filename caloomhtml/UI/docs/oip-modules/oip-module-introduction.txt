@@ -1,6 +1,8 @@
 <!-- oip-module-introduction.txt -->
-<h3>[!ATOM]Title[ATOM!]</h3>
+<h3>
+<?php include '../oip-atoms/oip-atom-title.txt' ?>
+</h3>
 <p>
-[!ATOM]Body[ATOM!]
+<?php include '../oip-atoms/oip-atom-body.txt' ?>
 </p>
 <!-- end oip-module-introduction.txt -->

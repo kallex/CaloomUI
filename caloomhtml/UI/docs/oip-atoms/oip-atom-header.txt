@@ -1,0 +1,8 @@
+<!-- oip-atom-header.txt -->
+<div class="page-header marketing">
+	<h1><a data-toggle="modal" data-id="[!ATOM]ID[ATOM!]_Title" data-toggle="modal" title="edit-content" class="open-IncontextEditDialog_Text_Short in-context-edit" href="#IncontextEditDialog_Text_Short">[!ATOM]Title[ATOM!]</a><h1>
+	<br>
+	<small><a data-toggle="modal" data-id="[!ATOM]ID[ATOM!]_Title" data-toggle="modal" title="edit-content" class="open-IncontextEditDialog_Text_Short in-context-edit" href="#IncontextEditDialog_Text_Short">[!ATOM]SubTitle[ATOM!]</small></a>
+</div>
+<!-- end oip-atom-header.txt -->
+

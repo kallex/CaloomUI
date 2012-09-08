@@ -57,6 +57,8 @@
 					<ul class="dropdown-menu">
 						<li><a href="/auth/account/website/oip-layouts/oip-layout-account-welcome.phtml">Welcome</a></li>
 						<li><a href="/auth/account/website/oip-layouts/oip-layout-account-edit.phtml">Edit Account</a></li>
+						<li><a href="/auth/account/website/oip-layouts/oip-layout-account-edit.phtml">My locations</a></li>
+						<li><a href="/auth/account/website/oip-layouts/oip-layout-account-edit.phtml">My Content</a></li>
 						<li class="divider"></li>
 						<li><a href="#">Sign Out</a></li>
 					</ul>

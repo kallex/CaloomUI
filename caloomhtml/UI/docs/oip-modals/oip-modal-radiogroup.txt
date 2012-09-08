@@ -1,5 +1,5 @@
-<!-- oip-modal-locationname.txt -->
-<div class="modal hide fade well" id="IncontextEditDialog_LocationName">
+<!-- oip-modal-radiogroup.txt -->
+<div class="modal hide fade well" id="IncontextEditDialog_RadioGroup">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">close</button> 
 	</div>
@@ -15,4 +15,4 @@
 		</div>
 	</form>
 </div>
-<!-- end oip-modal-locationname.txt -->
+<!-- end oip-modal-radiogroup.txt -->

@@ -1,0 +1,11 @@
+<!-- oip-module-image-set-title-category-1-3.txt -->
+<div class="span4">
+<?php include 'oip-module-image-set.txt' ?>
+	<h3>
+<?php include '../oip-atoms/oip-atom-title.txt' ?>
+	</h3>
+</div>
+<!-- end oip-image-set-title-category-group-1-2.txt -->
+<!-- oip-module-...-1-1.txt  span12 -->
+<!-- oip-module-...-1-2.txt  span6 + span6 -->
+<!-- oip-module-...-1-3.txt  span4 + span4 + span4 -->

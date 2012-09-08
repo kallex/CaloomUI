@@ -1,6 +1,13 @@
 <!-- oip-module-header.txt -->
 <div class="page-header marketing">
-	<h1><a data-toggle="modal" data-id="[!ATOM]ID[ATOM!]_Title" data-toggle="modal" title="edit-content" class="open-IncontextEditDialog_Text_Short in-context-edit" href="#IncontextEditDialog_Text_Short">[!ATOM]Title[ATOM!]</a><h1><br><small>[!ATOM]SubTitle[ATOM!]</small></h1>
+	<h1>
+<?php include '../oip-atoms/oip-atom-title.txt' ?>
+	<h1>
+	<br>
+	<small>
+<?php include '../oip-atoms/oip-atom-subtitle.txt' ?>
+	</small>
+	</h1>
 </div>
 <!-- end oip-module-header.txt -->
 

@@ -1,0 +1,6 @@
+<!-- oip-module-about-collection.txt -->
+<?php include '../oip-modules/oip-module-image-set.txt' ?><!-- UseInformationObject:ImageGroup -->
+<p>
+<?php include '../oip-atoms/oip-atom-excerpt.txt' ?>
+</p>
+<!-- end oip-module-about-collection.txt -->

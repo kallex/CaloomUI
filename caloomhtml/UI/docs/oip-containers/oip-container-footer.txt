@@ -8,8 +8,9 @@
 <!-- end oip-container-footer.txt --> 
 
 <!-- in-context-modals -->
-<?php include '../oip-modals/oip-modal-header.txt' ?>
+<?php include '../oip-modals/oip-modal-text-short.txt' ?>
 <?php include '../oip-modals/oip-modal-multiselect.txt' ?>
-<?php include '../oip-modals/oip-modal-locationname.txt' ?>
+<?php include '../oip-modals/oip-modal-text-long.txt' ?>
+<?php include '../oip-modals/oip-modal-radio-group.txt' ?>
 <!-- end in-context-modals -->
 

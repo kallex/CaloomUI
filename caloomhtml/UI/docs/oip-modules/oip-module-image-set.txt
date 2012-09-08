@@ -1,0 +1,3 @@
+<!-- oip-module-image-set.txt -->
+		<img class="thumbnail" width="200" height="200" src=""  /> 
+<!-- oip-module-image-set.txt -->

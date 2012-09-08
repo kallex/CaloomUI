@@ -1,0 +1,7 @@
+<!-- oip-module-about-collection.txt -->
+<?php include '../oip-modules/oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
+<p>
+oip-module-title-excerpt-view.txt
+[!ATOM]Excerpt[ATOM!]
+</p>
+<!-- end oip-module-about-collection.txt -->
