@@ -5,29 +5,46 @@
 			<a class="brand active" href="oip-layout-landing.phtml">Aalto Global Impact</a> 
 			<div class="nav-collapse">
 				<ul class="nav">
-					<li> <a href="oip-layout-map.phtml"> Map</a> </li>
-					<!--<li><a href="oip-layout-calendar-view.phtml">Calendar</a></li>-->
+
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Blog<b class="caret"></b> </a> 
 					<ul class="dropdown-menu">
 						<li><a href="oip-layout-blog.phtml">AGI Blog page</a></li>
+						<li><a href="#">My blogs</a></li>
 						<li class="divider"></li>
 						<li><a href="oip-layout-blog-add.phtml">Blogs Add</a></li>
 						<li><a href="oip-layout-blog-edit.phtml">Blogs Edit</a></li>
+						<li><a href="oip-layout-blog-edit.phtml">Blogs Delete</a></li>
 					</ul>
 					</li>
+					
 					<li><a href="oip-layout-about.phtml">About</span></a></li>
+
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Locations<b class="caret"></b> </a> 
+					<ul class="dropdown-menu">
+						<li><a href="oip-layout-map.phtml">All locations</a></li>
+						<li><a href="oip-layout-map.phtml">My location</a></li>
+						<li class="divider"></li>
+						<li><a href="">Manage (add, edit, delete)</a></li>
+					</ul>
+					</li>
+
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities<b class="caret"></b> </a> 
 					<ul class="dropdown-menu">
-						<li><a href="oip-layout-activities-summary.phtml">Activities Summary</a></li>
+						<li><a href="oip-layout-activities-summary.phtml">All activities</a></li>
+						<li><a href="#">My Activities</a></li>
 						<li class="divider"></li>
-						<li><a href="oip-layout-activities-edit.phtml">Activities Edit</a></li>
+						<li><a href="oip-layout-activities-edit.phtml">Manage</a></li>
 					</ul>
 					</li>
+
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups<b class="caret"></b> </a> 
 					<ul class="dropdown-menu">
-						<li><a href="oip-layout-groups-summary.phtml">Groups summary</a></li>
+						<li><a href="oip-layout-groups-summary.phtml">All groups</a></li>
+						<li><a href="#">My groups</a></li>
+						<li><a href="#">Categories by group</a></li>
+						<li><a href="#">Locations by group</a></li>
 						<li class="divider"></li>
-						<li><a href="oip-layout-groups-edit.phtml">Groups Edit</a></li>
+						<li><a href="oip-layout-groups-edit.phtml">Manage</a></li>
 					</ul>
 					</li>
 				</ul>
@@ -35,7 +52,7 @@
 					<input type="text" class="search-query span2" placeholder="Search">
 				</form>-->
 				<ul class="nav pull-right">
-					<li> <a href="oip-layout-activities-in-context-edit.phtml"><i class="icon icon-pencil"></i>Edit</a> </li>
+					<li> <a href="oip-layout-activities-edit.phtml"><i class="icon icon-pencil"></i>No Edit</a> </li>
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a> 
 					<ul class="dropdown-menu">
 						<li><a href="/auth/account/website/oip-layouts/oip-layout-account-welcome.phtml">Welcome</a></li>

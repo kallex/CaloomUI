@@ -1,157 +1,51 @@
 <div id="activity-profile" class="span7" style=";margin-top:10px">
 <!-- oip-module-account-profile-view.txt -->
-<div id="group-profile" class="span7" style=";margin-top:10px">
-	<div class="view-group">
-		<p class="view-label">
-			First name 
-		</p>
-		<p class="view-content">
-			Anne 
-		</p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			Last name 
-		</p>
-		<p class="view-content">
-			Badan 
-		</p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			email 
-		</p>
-		<p class="view-content">
-			anne.badan@aalto.fi 
-		</p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			Street 
-		</p>
-		<p class="view-content">
-			Runebergkatu 34 
-		</p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			ZIP code 
-		</p>
-		<p class="view-content">
-			00001 
-		</p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			Town 
-		</p>
-		<p class="view-content">
-			Helsinki 
-		</p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			Country 
-		</p>
-		<p class="view-content">
-			Finland 
-		</p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			Anne's Roles 
-		</p>
-		<p class="view-content">
-			here are gonna be Anne's roles as a list 
-		</p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			Anne's Groups 
-		</p>
-		<p class="view-content">
-			here are gonna be Anne's groups as a list 
-		</p>
-	</div>
-	<hr>
-	<div class="view-group">
-		<p class="view-label">
-			Anne's Activities 
-		</p>
-		<p class="view-content">
-			here are gonna be Anne's activities as a list 
-		</p>
-	</div>
-	<hr>
-	<div class="view-group">
-		<p class="view-label">
-			Anne's Locations 
-		</p>
-		<p class="view-content">
-			here are gonna be Anne's locations as a list 
-		</p>
+	<div id="group-profile" class="span7" style=";margin-top:10px">
+		<div class="view-group">
+			<p class="view-label">
+				Group 
+			</p>
+			<p class="view-content">
+				[!ATOM]Group[ATOM!] this is a list of groups account is member of, activity can only belong to 1 group 
+			</p>
+		</div>
+		<div class="view-group">
+			<p class="view-label">
+				Activity's Title 
+			</p>
+			<p class="view-content">
+				[!ATOM]ActivityName[ATOM!] text_short 
+			</p>
+		</div>
+		<div class="view-group">
+			<p class="view-label">
+				Description 
+			</p>
+			<p class="view-content">
+				[!ATOM]Description[ATOM!] text_long 
+			</p>
+		</div>
+		<div class="view-group">
+			<p class="view-label">
+				Profile Image 
+			</p>
+			<p class="view-content">
+			<a href="#&quot;" value="ActivityPhoto">Activity Photo</a> 
+		</div>
+		<div class="view-group">
+			<p class="view-label">
+				Categories 
+			</p>
+			<p class="view-content">
+				<a data-toggle="modal" data-id="[!ATOM]ID[ATOM!]_Categories" data-toggle="modal" title="choose categories" class="open-IncontextEditDialog_Collection in-context-edit" href="#IncontextEditDialog_Collection">[!ATOM]Categories[ATOM!]</a> categories are owned by a group 
+			</p>
+		</div>		
+		<div class="view-group">
+			<p class="view-label">
+				Locations 
+			</p>
+			<p class="view-content">
+				<a data-toggle="modal" data-id="[!ATOM]ID[ATOM!]_LocationName" data-toggle="modal" title="choose a location" class="open-IncontextEditDialog_LocationName in-context-edit" href="#IncontextEditDialog_LocationName">[!ATOM]LocationName[ATOM!]</a> locations are owned by a group 
+		</div>
 	</div>
 </div>
-<p> visit the profile page for more information about this person/group/location/activity</p>
-<!-- oip-module-account-profile-view.txt -->
-
-
-
-
-	<form id="" method="post" class="form-horizontal ">
-<!-- THEBALL-FORM-HIDDEN-FIELDS -->
-		<fieldset id="profile">
-			<div class="control-group">
-				<label class="control-label" for="input01">Icon or image</label> 
-				<div class="controls">
-					<input class="span2" id="appendedInputButtons" size="16" type="text">
-					<button class="btn btn-mini" type="button">Choose image</button><button class="btn btn-mini" type="button">Remove image</button> 
-				</div>
-				<p class="help-block">You can add an icon or image that people will see on the map and in the introduction of your activity (Activity main Photo)
-				</p>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">First name</label> 
-				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span3" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label> 
-				<div class="controls">
-                    <textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea> 
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="multiSelect"> Assign category </label> 
-				<div class="controls">
-					<select multiple="multiple" id="multiSelect" size="12">
-						<optgroup label="Projects"> 
-						<option> Projects </option>
-						<option selected="selected"> Finland </option>
-						<option> South America </option>
-						<option> Africa </option>
-						</optgroup> <optgroup label="Events"> 
-						<option selected="selected"> Events </option>
-						<option> Seminar </option>
-						<option selected="selected"> Conference </option>
-						<option> Meeting </option>
-						</optgroup> <optgroup label="Courses"> 
-						<option> Courses </option>
-						<option> Ba </option>
-						<option> MA </option>
-						<option> Design </option>
-						</optgroup> <optgroup label="Research"> 
-						<option> Research </option>
-						<option> BoP </option>
-						<option selected="selected"> Inclusive Business </option>
-						</optgroup> 
-					</select>
-				</div>
-			</div>
-<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-		</fieldset>
-	</form>
-</div>
-
-

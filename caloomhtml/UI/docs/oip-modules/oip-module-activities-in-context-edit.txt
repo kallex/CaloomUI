@@ -2,11 +2,9 @@
 <div class="tabbable tabs-left">
     <ul class="nav nav-tabs" style="margin-bottom:0px;">
         <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Profile</a></li> 
+        <li><a href="#tab-images" data-toggle="tab">Date & Time</a></li>
         <li><a href="#tab-collaborators" data-toggle="tab">Collaborators</a></li>
-        <li><a href="#tab-category" data-toggle="tab">Categories</a></li>
         <li><a href="#tab-images" data-toggle="tab">Images</a></li>
-        <li><a href="#tab-activities-locations-current" data-toggle="tab">Locations</a></li>
-        <li><a href="#tab-activities-locations-add" data-toggle="tab">Add Location</a></li>
         <li><a href="#tab-activities-delete" data-toggle="tab" class="delete">Delete</a></li>
     </ul>
     

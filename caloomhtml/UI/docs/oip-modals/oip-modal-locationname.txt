@@ -1,0 +1,18 @@
+<!-- oip-modal-locationname.txt -->
+<div class="modal hide fade well" id="IncontextEditDialog_LocationName">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">close</button> 
+	</div>
+	<form method="post">
+		<input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+		<div class="modal-body">
+			<div class="control-group">
+				<label class="checkbox"> 
+				<input type="radio" id="[!ATOM]ID[ATOM!]_LocationName" name="[!ATOM]ID[ATOM!]_LocationName" value="[!ATOM]ID[ATOM!]_LocationName"> [!ATOM]LocationName[ATOM!] </label> 
+			</div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</div>
+	</form>
+</div>
+<!-- end oip-modal-locationname.txt -->
