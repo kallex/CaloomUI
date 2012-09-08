@@ -11,7 +11,7 @@
     </ul>
     
     <div class="tab-content tab-border">
-        <div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules/oip-module-activities-profile.txt'  ?></div>
+        <div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules/oip-module-activities-profile-in-context-edit.txt'  ?></div>
         <div class="tab-pane" id="tab-collaborators"><?php include'../oip-modules/oip-module-collaborators.txt' ?></div><!-- UseInformationObject:Collaborators-->
         <div class="tab-pane" id="tab-category"><?php include'../oip-modules/oip-module-category.txt' ?><!--UseInformationObject:Catgeory --></div>
         <div class="tab-pane" id="tab-images"><?php include'../oip-modules/oip-module-images.txt'  ?><!--UseInformationObject:GroupProfile --></div>

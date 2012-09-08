@@ -1,0 +1,23 @@
+/* @override http://caloomgit:8888/UI/docs/oip-additions/oip-assets/oip-css/oip-in-context-edit.css */
+
+in-context-edit p.view-content {
+	outline: 1px solid #fcfcc8;
+	background-color: rgba(252, 252, 200, 0.5);
+	
+}
+
+
+p.view-label {
+	display: inline-block;
+	width: 20%;
+	float: left;
+	margin-right: 2%;
+}
+
+p.view-content {
+display: inline;
+width: 76%;
+float: left;
+outline: 1px solid #fcfcc8;
+background-color: rgba(252, 252, 200, 0.5);
+}

@@ -15,6 +15,7 @@
 	<link href="../bootstrap-default/assets/css/dashboard.css" rel="stylesheet">
 	<link href="../bootstrap-default/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <link href="../oip-additions/oip-assets/oip-css/oip-navbar.css" rel="stylesheet">
+    <link href="../oip-additions/oip-assets/oip-css/oip-in-context-edit.css" rel="stylesheet">
 
 	<!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
 <!--Extra Styles from jQuery UI-->
