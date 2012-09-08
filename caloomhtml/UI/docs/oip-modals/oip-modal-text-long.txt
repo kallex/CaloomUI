@@ -6,9 +6,7 @@
 	<form method="post">
 		<div class="modal-body">
 			<input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-			<div class="control-group">
-			<textarea class="span5" rows="12"></textarea> 
-			</div>
+			<textarea class="span5" rows="12" id="Text_Long" name="Text_Long"></textarea> 
 
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</div>
