@@ -1,18 +1,29 @@
 <!-- oip-module-whats-buggin-me.txt -->
 <p>
-oip-module-locations-current.txt
+oip-module-locations-current.txt<br>
 I added a location 2 days ago, it shows well on the map but not in the list in oip-module-locations-current.txt
 </p>
 
 <p>
-oip-module-account-emails-security.txt
+oip-module-account-emails-security.txt<br>
 I added this morning another email address - jeroen@carelse.com - but this does not appear on the list of emails
 </p>
 
 <p>
-public/grp/default/publicsite/oip-public/oip-layout-landing.phtml
-menu item: temporary extras --> Switch to auth view --> bring me to http://theball.azurewebsites.net/public/grp/default/publicsite/oip-layouts/oip-layout-landing.phtml
+public/grp/default/publicsite/oip-public/oip-layout-landing.phtml<br>
+menu item: temporary extras --> Switch to auth view --> brings me to http://theball.azurewebsites.net/public/grp/default/publicsite/oip-layouts/oip-layout-landing.phtml
 is this possible even after we have removed the link/menu item all together?
 </p>
 
+<p>http://theball.azurewebsites.net/auth/account/website/oip-layouts/oip-layout-account-edit.phtml#tab-emails-security<br>
+click on:
+<ol>
+	<li>tab-emails-security</li>
+	<li>Linked OpenID accounts: first linked item thereafter "name of group" [!ATOM]URL[ATOM!]</li>
+	<li>gives azure error page</li>
+	<li>reload the page:http://theball.azurewebsites.net/auth/account/website/oip-layouts/oip-layout-account-edit.phtml#tab-emails-security</li>
+	<li>you get an OpenLayers error getZoomForExtent (and a few more)</li>
+</ol>
+
+</p>
 <!-- end oip-module-whats-buggin-me.txt -->

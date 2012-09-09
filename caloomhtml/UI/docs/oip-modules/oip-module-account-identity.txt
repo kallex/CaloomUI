@@ -1,3 +1,4 @@
+<!-- oip-module-account-identity.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
@@ -25,3 +26,4 @@
 		</fieldset>
 	</form>
 </div>
+<!-- end oip-module-account-identity.txt -->
