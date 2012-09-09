@@ -1,0 +1,6 @@
+<!-- oip-modal-collection.txt -->
+<?php include 'oip-modal-text-short.txt' ?>
+<?php include 'oip-modal-multiselect.txt' ?>
+<?php include 'oip-modal-text-long.txt' ?>
+<?php include 'oip-modal-radiogroup.txt' ?>
+<!-- end oip-modal-collection.txt -->

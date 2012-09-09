@@ -1,20 +1,21 @@
 <!-- oip-le-javascript.txt -->
-<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-<script src="../bootstrap-default/assets/js/jquery.js"></script>
-<script src="../bootstrap-default/assets/js/google-code-prettify/prettify.js"></script>
-<script src="../bootstrap-default/assets/js/bootstrap-transition.js"></script>
+<script src="../bootstrap-default/assets/js/bootstrap-affix.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-alert.js"></script>
-<script src="../bootstrap-default/assets/js/bootstrap-modal.js"></script>
+<script src="../bootstrap-default/assets/js/bootstrap-button.js"></script>
+<script src="../bootstrap-default/assets/js/bootstrap-carousel.js"></script>
+<script src="../bootstrap-default/assets/js/bootstrap-collapse.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-dropdown.js"></script>
+<script src="../bootstrap-default/assets/js/bootstrap-modal.js"></script>
+<script src="../bootstrap-default/assets/js/bootstrap-popover.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-scrollspy.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-tab.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-tooltip.js"></script>
-<script src="../bootstrap-default/assets/js/bootstrap-popover.js"></script>
-<script src="../bootstrap-default/assets/js/bootstrap-button.js"></script>
-<script src="../bootstrap-default/assets/js/bootstrap-collapse.js"></script>
-<script src="../bootstrap-default/assets/js/bootstrap-carousel.js"></script>
+<script src="../bootstrap-default/assets/js/bootstrap-transition.js"></script>
 <script src="../bootstrap-default/assets/js/bootstrap-typeahead.js"></script>
-<!-- calendar -->
-<script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js"></script>
+<script src="../bootstrap-default/assets/js/jquery.js"></script>
+<script src="../bootstrap-default/assets/js/google-code-prettify/prettify.js"></script>
+<script src="http://platform.twitter.com/widgets.js"></script>
+<!-- oip -->
+<!--<script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js"></script>-->
 <script src="../oip-additions/oip-assets/oip-js/in-context-editing.js"></script>
 <!-- end oip-le-javascript.txt -->
