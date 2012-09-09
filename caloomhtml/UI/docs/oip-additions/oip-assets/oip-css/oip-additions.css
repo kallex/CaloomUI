@@ -312,6 +312,12 @@ div.olControlZoom a {
 	filter: alpha(opacity=80);
 }
 
+div.olControlZoom a:hover {
+	background: #8fa5a5;
+	background: rgba(68,105,105,0.6);
+	filter: alpha(opacity=60);
+}
+
 .olControlAttribution {
 	bottom: 5px;
 	right: 5px;

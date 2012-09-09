@@ -41,6 +41,7 @@
 						<li><a href="/auth/account/website/oip-layouts/oip-layout-account-welcome.phtml">Welcome</a></li>
 						<li><a href="/auth/account/website/oip-layouts/oip-layout-account-edit.phtml">Edit Account</a></li>
 						<li class="divider"></li>
+						<li><a href="oip-layout-whats-buggin-me.phtml">What's buggin' me</a></li>
 						<li><a href="#">Sign Out</a></li>
 					</ul>
 					</li>

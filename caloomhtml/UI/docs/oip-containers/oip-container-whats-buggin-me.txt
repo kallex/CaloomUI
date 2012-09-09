@@ -1,0 +1,7 @@
+<!-- oip-container-whats-buggin-me.txt -->
+<h1>What's buggin' me </h1>
+<hr>
+<div class="span12 blog-featured">
+<?php include '../oip-modules/oip-module-whats-buggin-me.txt' ?>
+</div>
+<!-- oip-container-whats-buggin-me.txt -->

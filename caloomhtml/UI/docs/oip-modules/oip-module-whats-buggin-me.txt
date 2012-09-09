@@ -1,0 +1,18 @@
+<!-- oip-module-whats-buggin-me.txt -->
+<p>
+oip-module-locations-current.txt
+I added a location 2 days ago, it shows well on the map but not in the list in oip-module-locations-current.txt
+</p>
+
+<p>
+oip-module-account-emails-security.txt
+I added this morning another email address - jeroen@carelse.com - but this does not appear on the list of emails
+</p>
+
+<p>
+public/grp/default/publicsite/oip-public/oip-layout-landing.phtml
+menu item: temporary extras --> Switch to auth view --> bring me to http://theball.azurewebsites.net/public/grp/default/publicsite/oip-layouts/oip-layout-landing.phtml
+is this possible even after we have removed the link/menu item all together?
+</p>
+
+<!-- end oip-module-whats-buggin-me.txt -->
