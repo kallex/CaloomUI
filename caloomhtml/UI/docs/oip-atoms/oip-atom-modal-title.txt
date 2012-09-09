@@ -1,0 +1,3 @@
+<!-- oip-atom-modal-title.txt -->
+<a data-id="[!ATOM]ID[ATOM!]_Title" data-toggle="modal" title="edit-content" class="open-IncontextEditDialog_Text_Short in-context-edit" href="#IncontextEditDialog_Text_Short">[!ATOM]Title[ATOM!]</a>
+<!-- end oip-atom-modal-title.txt -->
