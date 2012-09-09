@@ -22,10 +22,27 @@ p.view-content {
 	float: left;
 	outline: 1px solid #fcfcc8;
 	background-color: rgba(252, 252, 200, 0.5);
+	border: 1px solid #fcfcc8;
 }
 
 a.open-IncontextEditDialog_Text_Short.in-context-edit:hover {
 	outline: 1px solid #fcfcc8;
 	background-color: rgba(252, 252, 200, 0.5);
 	color: #300f09;
+	outline: 1px solid #ebebb7;
 }
+
+#IncontextEditDialog_Text_Short,
+#IncontextEditDialog_Text_Long {
+	background-color: rgba(252, 252, 200, 1);
+	border-style: none;
+	-moz-box-shadow: 5px 5px 10px #504429;
+	-webkit-box-shadow: 5px 5px 10px #504429;
+	box-shadow: 5px 5px 10px #504429;
+}
+
+div.modal-backdrop.fade.in {
+	background-color: rgba(27, 21, 16, 0.54);
+}
+
+

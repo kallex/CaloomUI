@@ -11,8 +11,14 @@ padding: 19px;
 }
 
 #container-focus div.span12 {
-margin-left: 20px;
+margin-left: 0px;
 }
+
+div.span12.focus-introduction {
+	margin-bottom: 10px;
+	color: ;
+}
+
 
 div.page-header.marketing h1,div.page-header.marketing {
 margin-top: 0px;
@@ -273,6 +279,14 @@ line-height: 1.4em;
 font-size:90%
 }
 
+div.oip-marketing h1 {
+	text-align: center;
+	margin: 0;
+	font-size: 50px;
+}
+
+
+
 /*backgrounds*/
 div.hero-unit.contact-oip {
 	height: 200px;
@@ -286,9 +300,10 @@ div.hero-unit.contact-oip {
 }
 
 span.badge, span.badge a {
-	background-color: #e65252;
+	background-color: #797d6d;
 	font-size: 80%;
 	cursor: default;
+	color: white;
 }
 
 element {
