@@ -1,11 +1,11 @@
 <!-- oip-module-header.txt -->
 <div class="page-header marketing">
 	<h1>
-<?php include '../oip-atoms/oip-atom-title.txt' ?>
+<?php include '../oip-atoms/oip-atom-modal-title.txt' ?>
 	<h1>
 	<br>
 	<small>
-<?php include '../oip-atoms/oip-atom-subtitle.txt' ?>
+<?php include '../oip-atoms/oip-atom-modal-subtitle.txt' ?>
 	</small>
 	</h1>
 </div>

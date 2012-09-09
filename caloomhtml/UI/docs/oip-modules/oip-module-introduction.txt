@@ -1,8 +1,8 @@
 <!-- oip-module-introduction.txt -->
 <h3>
-<?php include '../oip-atoms/oip-atom-title.txt' ?>
+<?php include '../oip-atoms/oip-atom-modal-title.txt' ?>
 </h3>
 <p>
-<?php include '../oip-atoms/oip-atom-body.txt' ?>
+<?php include '../oip-atoms/oip-atom-modal-body.txt' ?>
 </p>
 <!-- end oip-module-introduction.txt -->

@@ -22,7 +22,7 @@
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button> 
 		<h3>
-			unlink this emails address 
+			Add an emails address 
 		</h3>
 	</div>
 	<div class="modal-body well">
