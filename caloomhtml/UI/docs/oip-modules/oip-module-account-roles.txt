@@ -1,4 +1,3 @@
-
 <div id="groups" class="span7" style=";margin-top:10px">
 	<form method="post" class="form-horizontal">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
@@ -18,7 +17,7 @@
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_OrganizationsImPartOf">Organisations I am part of</label> 
 				<div class="controls">
-                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_OrganizationsImPartOf" name="[!ATOM]ID[ATOM!]_OrganizationsImPartOf" rows="6" placeholder="add org name">[!ATOM]OrganizationsImPartOf[ATOM!]</textarea> 
+                    <textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_OrganizationsImPartOf" name="[!ATOM]ID[ATOM!]_OrganizationsImPartOf" rows="6" placeholder="add org name">[!ATOM]OrganizationsImPartOf[ATOM!]</textarea> 
 				</div>
 			</div>
 
@@ -26,6 +25,8 @@
 		</fieldset>
 	</form>
 </div>
+
+
 <!-- modals -->
 <div id="leave-group-as-moderator" class="modal hide fade well">
 	<div class="modal-header">
@@ -76,5 +77,5 @@
 		</form>
 	</div>
 </div>
+
 <!-- end modals -->
-<!-- end oip-module-account-roles.txt -->

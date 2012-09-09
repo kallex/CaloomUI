@@ -33,15 +33,12 @@
 					</li>
 				</ul>
 				<ul class="nav pull-right">
-					<li><a class="btn btn-primary btn-small" data-toggle="modal" href="http://theball.azurewebsites.net/auth/grp/bfcff2f8-7e87-45a4-b057-d07006db8ef2/publicsite/oip-layouts/oip-layout-landing.phtml
- " style="margin-right:10px">Edit</a></li>
-					<li><a class="btn btn-primary btn-small" data-toggle="modal" href="#Publish">Publish !</a></li>
+					<li><a class="btn btn-primary btn-small" data-toggle="modal"  href="#Publish">Publish !</a></li>
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a> 
 					<ul class="dropdown-menu">
 						<li><a href="/auth/account/website/oip-layouts/oip-layout-account-welcome.phtml">Welcome</a></li>
 						<li><a href="/auth/account/website/oip-layouts/oip-layout-account-edit.phtml">Edit Account</a></li>
 						<li class="divider"></li>
-						<li><a href="oip-layout-whats-buggin-me.phtml">What's buggin' me</a></li>
 						<li><a href="#">Sign Out</a></li>
 					</ul>
 					</li>
