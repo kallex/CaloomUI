@@ -1,6 +1,7 @@
 /* @override http://caloomgit:8888/UI/docs/oip-additions/oip-assets/oip-css/oip-in-context-edit.css */
 
-in-context-edit p.view-content {
+.in-context-edit p.view-content,
+.in-context-edit>*:hover {
 	outline: 1px solid #fcfcc8;
 	background-color: rgba(252, 252, 200, 0.5);
 	
@@ -16,9 +17,15 @@ p.view-label {
 }
 
 p.view-content {
-display: inline;
-width: 76%;
-float: left;
-outline: 1px solid #fcfcc8;
-background-color: rgba(252, 252, 200, 0.5);
+	display: inline;
+	width: 76%;
+	float: left;
+	outline: 1px solid #fcfcc8;
+	background-color: rgba(252, 252, 200, 0.5);
+}
+
+a.open-IncontextEditDialog_Text_Short.in-context-edit:hover {
+	outline: 1px solid #fcfcc8;
+	background-color: rgba(252, 252, 200, 0.5);
+	color: #300f09;
 }

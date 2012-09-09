@@ -1,3 +1,5 @@
+/* @override http://caloomgit:8888/UI/docs/oip-additions/oip-assets/oip-css/oip-additions.css */
+
 /*structural changes*/
 #container-focus {
 margin-top: 40px;
@@ -226,9 +228,29 @@ html>*, input {
 	color: #300f09;
 }
 
-h1,h2,h3,h4,h5,h6, small, h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, dt, dl,ul, li, li a, p, label,.nav-tabs li.active > a, .nav-tabs li.active > a:hover, .navbar .nav > li > a, span.badge, span.badge a
-  {
-font-weight: 200;	letter-spacing: 0.05em;
+
+h1, h1 a,
+h2, h2 a,
+h3, h3 a,
+h4, h4 a,
+h5, h5 a,
+h6, h6 a,
+small, small a,
+h1 small, h1 small a,
+h2 small, h2 small a,
+h3 small, h3 small a,
+h4 small, h4 small a,
+h5 small, h5 small a,
+h6 small, h6 small a,
+dt, dl,ul, li, li a,
+p, p a,
+label,.nav-tabs li.active > a,
+.nav-tabs li.active > a:hover,
+.navbar .nav > li > a,
+span.badge,
+span.badge a {
+	font-weight: 200;
+	letter-spacing: 0.05em;
 	color: #300f09;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
