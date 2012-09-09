@@ -2,7 +2,7 @@
 <div class="span4">
 <?php include 'oip-module-image-set.txt' ?>
 	<h3>
-<?php include '../oip-atoms/oip-atom-modal-title.txt' ?>
+<?php include '../oip-atoms/oip-atom-title.txt' ?>
 	</h3>
 </div>
 <!-- end oip-image-set-title-category-group-1-2.txt -->

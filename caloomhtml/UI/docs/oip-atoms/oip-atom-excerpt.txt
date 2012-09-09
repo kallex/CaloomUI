@@ -1,3 +1,3 @@
-<!-- oip-atom-modal-excerpt.txt -->
+<!-- oip-atom-excerpt.txt -->
 	<a data-id="[!ATOM]ID[ATOM!]_Excerpt" data-toggle="modal" title="edit-content" class="open-IncontextEditDialog_Text_Long in-context-edit" href="#IncontextEditDialog_Text_Long">[!ATOM]Excerpt[ATOM!]</a>
-<!-- end oip-modal-atom-excerpt.txt -->
+<!-- end oip-atom-excerpt.txt -->
