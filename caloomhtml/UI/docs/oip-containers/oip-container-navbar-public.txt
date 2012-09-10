@@ -17,11 +17,11 @@
 				</form>-->
 				<ul class="nav pull-right">
 					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">temporary extras<b class="caret"></b></a> 
-					<ul class="dropdown-menu" style="list-style-type: none;">
-						<li><a href="oip-layout-search-results.phtml"></i>Search Results</a></li>
-						<li><a href="oip-layout-error.phtml"></i>Error</a></li>
-						<li><a href="../oip-layouts/oip-layout-landing.phtml">Switch to auth view</a></li>
-					</ul>
+                        <ul class="dropdown-menu" style="list-style-type: none;">
+                            <li><a href="oip-layout-search-results.phtml"></i>Search Results</a></li>
+                            <li><a href="oip-layout-error.phtml"></i>Error</a></li>
+                            <li><a href="../oip-layouts/oip-layout-landing.phtml">Switch to auth view</a></li>
+                        </ul>
 					</li>
 				</ul>
 			</div><!-- nav-collapse -->
