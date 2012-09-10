@@ -8,7 +8,7 @@
 		<div class="modal-body">
 			<div class="control-group">
 				<label class="checkbox"> 
-				<input type="radio" id="[!ATOM]ID[ATOM!]_LocationName" name="[!ATOM]ID[ATOM!]_LocationName" value="[!ATOM]ID[ATOM!]_LocationName"> [!ATOM]LocationName[ATOM!] </label> 
+				<input type="radio" id="LocationName" name="_LocationName" value="_LocationName">LocationName</label> 
 			</div>
 
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
