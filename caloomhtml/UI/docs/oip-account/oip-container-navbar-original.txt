@@ -1,0 +1,77 @@
+<div class="account navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand active" href="oip-layout-landing.phtml">Aalto Global Impact (account)</a>
+			<div class="nav-collapse">
+				<ul class="nav">
+                    <li><a href="/auth/account/website/oip-account/oip-layout-about.phtml">About</a></li>
+                    <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My..<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/auth/account/website/oip-account/oip-layout-account-edit.phtml">Personal Information</a></li>
+                            <li><a href="/auth/account/website/oip-account/oip-layout-account-welcome.phtml">Activities & Groups</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Sign Out</a></li>
+                        </ul>
+                    </li>
+
+                    <li> <a href="/auth/account/website/oip-account/oip-layout-map.phtml"> Map</a> </li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Blog<b class="caret"></b> </a> 
+					<ul class="dropdown-menu">
+						<li><a href="/auth/account/website/oip-account/oip-layout-blog.phtml">Blog Summary</a></li>
+						<li class="divider"></li>
+						<li><a href="/auth/account/website/oip-account/oip-layout-blog-add.phtml">Blogs Add(hidden)</a></li>
+						<li><a href="/auth/account/website/oip-account/oip-layout-blog-edit.phtml">Blogs Edit(hidden)</a></li>
+					</ul>
+					</li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Activities<b class="caret"></b> </a>
+					<ul class="dropdown-menu">
+						<li><a href="/auth/account/website/oip-account/oip-layout-activities-summary.phtml">Activities Summary</a></li>
+						<li class="divider"></li>
+						<li><a href="/auth/account/website/oip-account/oip-layout-activities-edit.phtml">Activities Edit(hidden)</a></li>
+                        <li><a href="/auth/account/website/oip-account/oip-layout-activities-edit.phtml">Activities Add(hidden)</a></li>
+                    </ul>
+					</li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Groups<b class="caret"></b> </a> 
+					<ul class="dropdown-menu">
+						<li><a href="/auth/account/website/oip-account/oip-layout-groups-summary.phtml">Groups summary</a></li>
+						<li class="divider"></li>
+						<li><a href="/auth/account/website/oip-account/oip-layout-groups-edit.phtml">Groups Edit(hidden)</a></li>
+                        <li><a href="/auth/account/website/oip-account/oip-layout-groups-edit.phtml">Groups Add(hidden)</a></li>
+                    </ul>
+					</li>
+				</ul>
+				<ul class="nav pull-right">
+					<li><a class="btn btn-primary btn-small" data-toggle="modal"  style="margin-right:10px" href="http://theball.azurewebsites.net/auth/grp/bfcff2f8-7e87-45a4-b057-d07006db8ef2/publicsite/oip-layouts/oip-layout-landing.phtml">Edit</a></li>
+					<li><a class="btn btn-primary btn-small" data-toggle="modal"  href="#Publish">Publish !</a></li>
+				</ul>
+			</div>
+<!-- nav-collapse -->
+		</div>
+<!-- container -->
+	</div>
+<!-- navbar-inner -->
+</div>
+<!-- navbar navbar-fixed-top -->
+<!-- modals -->
+<!-- oip-modal-publish.txt -->
+<div class="modal hide fade well" id="Publish">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">close</button> 
+	</div>
+	<h2>
+		Publish the changes the public site 
+	</h2>
+	<form method="post">
+		<div class="control-group controls">
+			<div class="form-actions" style="padding:0;margin:0;border-top:0">
+				<button value="true" name="btnCancel" class="btn">Cancel</button>
+				<button type="submit" name="btnAccept" value="true" class="btn btn-primary">Accept changes</button> 
+			</div>
+		</div>
+	</form>
+</div>
+
+
+<!-- end oip-modal-publish.txt -->
+
+<!-- end modals -->

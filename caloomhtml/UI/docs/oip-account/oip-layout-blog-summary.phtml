@@ -1,4 +1,4 @@
-<!-- oip-layout-map.phtml -->
+<!-- oip-layout-blog-view.txt -->
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
@@ -7,20 +7,18 @@
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
 <?php include 'oip-container-navbar.txt' ?>
 <div class="container">
-	<!-- oip-container-map-focus-view.txt -->
-	<section id="container-focus" class="container well" > 
-<?php include '../oip-containers/oip-container-map-focus-view.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.MapContainer-->
-	</section>
-	<!-- oip-container-footer.txt -->
+<!-- oip-container-blog-focus-view.txt -->
+<section id="container-focus" class="container well" >
+<?php include '../oip-containers/oip-container-blog-summary.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.BlogContainer --> <!-- make this BlogContainerSummary-->
+</section>
+<!-- oip-container-footer.txt -->
 	<section class="container well"> 
 <?php include '../oip-containers/oip-container-footer.txt' ?>
-	</section> 
-</div>
-
-<!-- end container -->
+</section>
+</div><!-- end container -->
 <!-- javascript -->
 <?php include '../oip-modules/oip-le-javascript.txt' ?>
 <!-- end javascript -->
 </body>
 </html>
-<!-- end oip-layout-map.phtml -->
+<!-- end oip-layout-blog-view.txt -->
