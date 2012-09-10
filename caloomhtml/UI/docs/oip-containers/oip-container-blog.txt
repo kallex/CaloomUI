@@ -17,10 +17,10 @@
     <div class="span9" style="float:right;border-top:1px dotted">
         <ul class="pager">
             <li class="previous">
-                <a href="oip-layout-blog-more.phtml">&larr; Older</a>
+                <a href="../oip-layouts/oip-layout-blog-more.phtml">&larr; Older</a>
             </li>
             <li class="next">
-                <a href="oip-layout-blog-more.phtml">Newer &rarr;</a>
+                <a href="../oip-layouts/oip-layout-blog-more.phtml">Newer &rarr;</a>
             </li>
         </ul>
     </div>
