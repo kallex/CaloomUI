@@ -1,0 +1,4 @@
+<!-- oip-module-activity-profile-image-name.txt -->
+<?php include '../oip-atoms/oip-atom-profile-image.txt' ?><!--UseInformationObject:ProfileImage -->
+<h2>[!ATOM]ActivityName[ATOM!]</h2>
+<!-- end oip-module-activity-profile-image-name.txt -->

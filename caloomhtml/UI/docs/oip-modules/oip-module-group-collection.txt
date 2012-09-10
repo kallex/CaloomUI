@@ -1,7 +1,5 @@
 <!-- oip-module-group-collection.txt -->
 <div class="row-fluid">
-<?php include 'oip-module-image-set-title-category-1-3.txt' ?>
-<?php include 'oip-module-image-set-title-category-1-3.txt' ?>
-<?php include 'oip-module-image-set-title-category-1-3.txt' ?>
+<?php include 'oip-module-group-profile-image-name.txt' ?>
 </div>
 <!-- end oip-module-group-collection.txt -->
