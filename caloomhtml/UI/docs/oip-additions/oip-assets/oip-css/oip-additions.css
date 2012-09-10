@@ -41,6 +41,9 @@ max-width: none;
  }
 
 /*Color*/
+
+/* @group Color */
+
 body {
 background-color: #faf8f2;
 color: #302123;
@@ -93,12 +96,17 @@ container-summary {
 background-color: white;
 }
 
+/* @end */
+
 /*repositioning*/
 .marketing h1 {
 margin-top: 0;
 }
 
 /*borders*/
+
+/* @group Borders */
+
 .well {
 border-color: #e4d8bb;
 }
@@ -204,7 +212,9 @@ background-color: #a7283e;
 color: #ffffff;
 text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 text-decoration: none;
-padding: 10; } 
+padding: 10; }
+
+/* @end */ 
 
 
 
@@ -316,6 +326,12 @@ div.olControlZoom a {
 background: #446969;
 background: rgba(68, 105, 105, 0.80);
 filter: alpha(opacity=80);
+}
+
+div.olControlZoom a:hover {
+background: #b4c3c3;
+background: rgba(68, 105, 105, 0.40);
+filter: alpha(opacity=40);
 }
 
 .olControlAttribution {
