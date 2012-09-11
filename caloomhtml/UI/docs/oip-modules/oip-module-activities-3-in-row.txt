@@ -1,5 +1,5 @@
 <!-- oip-module-activities-3-in-row.txt -->
-	<div class="span4" class="information-item">
+	<li class="span4" class="information-item">
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <p>
 		<img class="bs-icon" src="[!ATOM]ImageGroupUrl[ATOM!]"  />
@@ -7,10 +7,10 @@
 		<p>
         [!ATOM]Description[ATOM!]
         </p>
-		<p>
-			<span class="badge">Category 1</span> <span class="badge">Category 2</span> <span class="badge">Category 3!</span> <span class="badge">Category 4</span> 
-		</p>
-	</div>
+		<ol>
+            <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection -->
+		</ol>
+	</li>
 <!-- end oip-module-activities-3-in-row.txt -->
 
 
