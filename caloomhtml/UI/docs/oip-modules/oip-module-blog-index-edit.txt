@@ -2,7 +2,6 @@
 	<p><img src="[!ATOM]ContentUrl[ATOM]" alt="BlogIndex" style="float:left;margin-right:10px"></p>
 	<h4>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h4>
 	<p>[!ATOM]Introduction[ATOM!]</p>
-	<a href="../oip-layouts/oip-layout-blog-add.phtml">Add a new blog article</a>
 	<p> select any of the blogs below to edit</p>
 	<h6>[!ATOM]BlogByLocation[ATOM!]</h6>
 	<ul>

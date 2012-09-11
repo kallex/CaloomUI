@@ -1,4 +1,4 @@
-<!-- oip-container-account-focus-view.txt -->
+<!-- oip-container-account-view.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
 <div class="span3">
@@ -8,4 +8,4 @@
 <?php include '../oip-modules/oip-module-account.txt' ?><!-- UseInformationObject:AccountModule -->
 </div>
 </div>
-<!-- end oip-container-account-focus-view.txt -->
+<!-- end oip-container-account-view.txt -->

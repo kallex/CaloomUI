@@ -5,7 +5,7 @@
 <?php include '../oip-modules/oip-module-account-index.txt' ?><!-- UseInformationObject:AccountIndex -->
 </div>
 <div class="span9">
-<?php include '../oip-modules/oip-module-account.txt' ?><!-- UseInformationObject:AccountModule -->
+<?php include '../oip-modules/oip-module-account-edit.txt' ?><!-- UseInformationObject:AccountModule -->
 </div>
 </div>
 <!-- end oip-container-account-edit.txt -->

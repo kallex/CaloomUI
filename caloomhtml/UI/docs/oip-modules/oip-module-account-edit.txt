@@ -1,4 +1,4 @@
-<!-- oip-module-account-view.txt -->
+<!-- oip-module-account-edit.txt -->
 <div class="tabbable tabs-left">
 	<ul class="nav nav-tabs" style="margin-bottom:0px">
 		<li class="active"><a href="#tab-identity" data-toggle="tab">Profile</a></li>
@@ -21,4 +21,4 @@
 		<div class="tab-pane" id="tab-content"> include'../oip-modules/oip-module-content.txt' ?></div> -->
 	</div>
 </div>
-<!-- end oip-module-account-view.txt -->
+<!-- end oip-module-account-edit.txt -->

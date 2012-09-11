@@ -1,0 +1,29 @@
+<!-- oip-module-blog-index-summary.txt -->
+
+<p><img src="[!ATOM]ContentUrl[ATOM]" alt="BlogIndex" style="float:left;margin-right:10px"></p>
+<h4>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h4>
+<p>[!ATOM]Introduction[ATOM!]</p>
+<p><a data-toggle="modal" href="#ReadMore">Single blog view [temp link]</a></p>
+<p><a href="../oip-group/oip-layout-blog-edit.phtml">Single blog edit [temp link]</a></p>
+<a href="../oip-group/oip-layout-blog-add.phtml">Add a new blog article</a>
+<h6>[!ATOM]BlogByLocation[ATOM!]</h6>
+<ul>
+    <li>blogs in Finland</li>
+    <li>blogs in Europe</li>
+    <li>blogs in South Africa</li>
+</ul>
+<h6>[!ATOM]BlogByDate[ATOM!]</h6>
+<ul>
+    <li>blogs in August</li>
+    <li>blogs in July</li>
+    <li>blogs in June</li>
+</ul>
+<h6>[!ATOM]BlogByAuthor[ATOM!]</h6>
+<ul>
+    <li>blogs by Rahim</li>
+    <li>blogs by Anne</li>
+    <li>blogs by Andrew</li>
+    <li>blogs by Riina</li>
+</ul>
+<p>[!ATOM]Summary[ATOM!]</p>
+<!-- end oip-module-blog-index-summary.txt -->

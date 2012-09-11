@@ -8,6 +8,8 @@
     </div>
     <div class="span9">
         <?php include '../oip-modules/oip-module-blog-summary.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection --><!-- My own blogs -->
+        <?php include '../oip-modules/oip-module-blog-collaborator-summary.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection --><!-- groups by my collaborators -->
+        <?php include '../oip-modules/oip-module-blog-related-summary.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection --><!-- related groups based on categories, needs a filter later on -->
     </div>
 </div>
 <!-- end latest x# blogs -->

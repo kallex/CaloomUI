@@ -7,5 +7,7 @@
 <!-- oip-module-groups-summary.txt -->
 <div class="span9">
     <?php include '../oip-modules/oip-module-groups-summary.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection --><!-- My groups -->
+    <?php include '../oip-modules/oip-module-groups-collaborator-summary.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection --><!-- groups by my collaborators -->
+    <?php include '../oip-modules/oip-module-groups-related-summary.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection --> <!-- related groups based on categories, needs a filter later on -->
 </div>
 <!-- end oip-container-groups-summary.txt -->
