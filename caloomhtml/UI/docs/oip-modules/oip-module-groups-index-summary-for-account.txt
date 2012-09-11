@@ -5,8 +5,8 @@ oip-groups-index-summary.txt
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <p>[!ATOM]Summary[ATOM!]</p>
-<p><a href="../oip-group/oip-layout-groups-view.phtml">Single group view [temp link]</a></p>
-<p><a href="../oip-group/oip-layout-groups-edit.phtml">Single group edit [temp link]</a></p>
+<p><a href="../oip-account/oip-layout-groups-view.phtml">Single group view [temp link]</a></p>
+<p><a href="../oip-account/oip-layout-groups-edit.phtml">Single group edit [temp link]</a></p>
 
 <!-- end oip-groups-index-summary.txt -->
 <div id="contact-group" class="modal hide fade">

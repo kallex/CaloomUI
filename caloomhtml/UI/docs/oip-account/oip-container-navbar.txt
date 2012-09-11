@@ -8,7 +8,7 @@
                     <li> <a href="oip-layout-maps-summary.phtml"> Maps</a> </li>
                     <li> <a href="oip-layout-blog-summary.phtml"> Blogs</a> </li>
                     <li> <a href="oip-layout-activities-summary.phtml"> Activities</a> </li>
-                    <li> <a href="../oip-group/oip-layout-groups-summary.phtml"> Groups</a> </li>
+                    <li> <a href="oip-layout-groups-summary.phtml"> Groups</a> </li>
                 </ul>
                 <ul class="nav pull-right">
                     <li><a class="btn btn-primary btn-small" data-toggle="modal"  style="margin-right:10px" href="http://theball.azurewebsites.net/auth/grp/bfcff2f8-7e87-45a4-b057-d07006db8ef2/publicsite/oip-layouts/oip-layout-landing.phtml">Edit</a></li>
