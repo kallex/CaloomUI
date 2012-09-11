@@ -1,0 +1,16 @@
+<!-- oip-module-activities-3-in-row.txt -->
+	<li class="span4" class="information-item">
+        <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
+        <p>
+		<img class="bs-icon" src="[!ATOM]ImageGroupUrl[ATOM!]"  />
+		</p>
+		<p>
+        [!ATOM]Description[ATOM!]
+        </p>
+		<ol>
+            <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection -->
+		</ol>
+	</li>
+<!-- end oip-module-activities-3-in-row.txt -->
+
+
