@@ -5,7 +5,6 @@
 			<a class="brand active" href="oip-layout-landing.phtml" style="float:left;margin-left:0px;margin-right:20px">Aalto Global Impact</a>
 			<div class="nav-collapse">
 				<ul class="nav">
-    			    <li><a class="btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a></li>
 			        <li> <a href="oip-layout-map.phtml"> Map</a> </li>
 					<!--<li><a href="oip-layout-calendar-view.phtml">Calendar</a></li>-->
 					<li><a href="oip-layout-blog.phtml">Blog</a></li>
@@ -17,11 +16,11 @@
 					<input type="text" class="search-query span2" placeholder="Search">
 				</form>-->
 				<ul class="nav pull-right">
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">temporary extras<b class="caret"></b></a> 
+                    <li><a class="btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a></li>
+                    <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">temporary extras<b class="caret"></b></a>
                         <ul class="dropdown-menu" style="list-style-type: none;">
                             <li><a href="oip-layout-search-results.phtml"></i>Search Results</a></li>
                             <li><a href="oip-layout-error.phtml"></i>Error</a></li>
-                            <li><a href="../oip-layouts/oip-layout-landing.phtml">Switch to auth view</a></li>
                         </ul>
 					</li>
 				</ul>
