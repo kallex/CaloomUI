@@ -1,3 +1,4 @@
+<!-- navbar account -->
 <div class="account navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">
@@ -48,8 +49,5 @@
 		</div>
 	</form>
 </div>
-
-
 <!-- end oip-modal-publish.txt -->
-
 <!-- end modals -->

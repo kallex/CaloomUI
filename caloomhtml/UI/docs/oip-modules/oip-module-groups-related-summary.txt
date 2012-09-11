@@ -1,0 +1,11 @@
+<!-- oip-module-groups-related-summary.txt -->
+<div class="row-fluid">
+<div class="focus-introduction">oip-module-groups-related-summary.txt
+<?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
+</div>
+<div class="row-fluid">
+    <ol>
+<?php include '../oip-modules/oip-module-groups-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+    </ol>
+</div>
+<!-- end oip-module-groups-related-summary.txt -->

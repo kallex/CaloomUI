@@ -1,0 +1,26 @@
+<!-- oip-module-blogs-2-in-row.txt -->
+	<li class="span6" class="blog-item">
+        <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
+        <h2>
+            [!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small>
+        </h2>
+
+        <img class="bs-icon" src="[!ATOM]ImageGroupUrl[ATOM!]"  />
+        <p>[!ATOM]Excerpt[ATOM!]<p>
+        <a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a>
+    </p>
+        <p class="blog-meta">
+            <span>[!ATOM]Published[ATOM!]</span>
+            <span>[!ATOM]Author[ATOM!]</span>
+            <span>[!ATOM]Location[ATOM!]</span>
+            <span>[!ATOM]Group[ATOM!]</span>
+        </p>
+        <!-- modals -->
+        <?php include 'oip-module-modal-read-more.txt' ?>
+        <!-- modals -->
+		<ol>
+            <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection -->
+		</ol>
+	</li>
+<!-- end oip-module-blogs-2-in-row.txt -->
+<!-- modals -->

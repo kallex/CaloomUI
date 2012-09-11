@@ -1,0 +1,22 @@
+<!-- oip-module-blog-summary.txt -->
+<div class="row-fluid">
+    <div class="focus-introduction"> oip-module-blog-summary.txt
+        <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
+    </div>
+    <div class="row-fluid">
+        <ol>
+            <?php include '../oip-modules/oip-module-blogs-2-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        </ol>
+    </div>
+    <div class="span12" style="float:right;border-top:1px dotted">
+        <ul class="pager">
+            <li class="previous">
+                <a href="../oip-layouts/oip-layout-blog-more.phtml">&larr; Older</a>
+            </li>
+            <li class="next">
+                <a href="../oip-layouts/oip-layout-blog-more.phtml">Newer &rarr;</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end oip-module-blog-summary.txt -->

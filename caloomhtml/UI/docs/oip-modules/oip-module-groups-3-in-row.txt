@@ -1,4 +1,4 @@
-<!-- oip-module-activities-3-in-row.txt -->
+<!-- oip-module-groups-3-in-row.txt -->
 	<li class="span4" class="information-item">
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <p>
@@ -11,6 +11,6 @@
             <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection -->
 		</ol>
 	</li>
-<!-- end oip-module-activities-3-in-row.txt -->
+<!-- end oip-module-groups-3-in-row.txt -->
 
 
