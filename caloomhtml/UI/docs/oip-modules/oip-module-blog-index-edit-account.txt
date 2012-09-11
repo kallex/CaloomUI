@@ -1,5 +1,5 @@
-<!-- oip-module-blog-index-edit.txt -->
-oip-module-blog-index-edit.txt
+<!-- oip-module-blog-index-edit-account.txt -->
+oip-module-blog-index-edit-account.txt
 	<p><img src="[!ATOM]ContentUrl[ATOM]" alt="BlogIndex" style="float:left;margin-right:10px"></p>
 	<h4>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h4>
 	<p>[!ATOM]Introduction[ATOM!]</p>
@@ -17,4 +17,4 @@ oip-module-blog-index-edit.txt
 <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByAuthor -->
 	</ul>
 	<p>[!ATOM]Summary[ATOM!]</p>
-<!-- end oip-module-blog-index-edit.txt -->
+<!-- end oip-module-blog-index-edit-account.txt -->

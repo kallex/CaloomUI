@@ -1,10 +1,7 @@
-<!-- oip-activities-index-summary.txt -->
-<p><img src="[!ATOM]ContentUrl[ATOM]"><br>This is the group's icon or brand image or logo</p>
+<!-- oip-activities-index-summary-account.txt -->
+oip-activities-index-summary-account.txt<p><img src="[!ATOM]ContentUrl[ATOM]"><br>This is the group's icon or brand image or logo</p>
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
-<p><a href="../oip-account/oip-layout-activity-view.phtml">Single activity view [temp link]</a></p>
-<p><a href="../oip-account/oip-layout-activity-edit.phtml">Single activity edit [temp link]</a></p>
-
 <dl>
     <dt>Projects (Category)</dt>
     <dd><a href="#">Nordic Business Event 2012 <span class="badge badge-important">1</span></a></dd>
@@ -31,4 +28,4 @@
 </dl>
 
 <p>[!ATOM]Summary[ATOM!]</p>
-<!-- end oip-activities-index-summary.txt -->
+<!-- end oip-activities-index-summary-account.txt -->

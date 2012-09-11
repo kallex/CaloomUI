@@ -1,5 +1,5 @@
-<!-- oip-module-activities-index.txt -->
-oip-module-activities-index.txt
+<!-- oip-module-activities-index-account.txt -->
+oip-module-activities-index-account.txt
 <p><img src="[!ATOM]ContentUrl[ATOM]"><br>This is the group's icon or brand image or logo</p>
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
@@ -31,7 +31,6 @@ oip-module-activities-index.txt
 
 <p>[!ATOM]Summary[ATOM!]</p>
 
-<!-- end oip-module-activities-index.txt -->
 <div id="add-activity" class="modal hide fade">
     <div class="modal-header">
         <button class="close" data-dismiss="modal">&times;</button>
@@ -55,4 +54,4 @@ oip-module-activities-index.txt
         </form>
     </div>
 </div>
-<!-- end oip-activities-index.txt -->
+<!-- oip-module-activities-index-account.txt -->

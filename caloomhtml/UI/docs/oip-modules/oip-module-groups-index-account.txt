@@ -5,10 +5,6 @@ oip-groups-index-account.txt
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <p>[!ATOM]Summary[ATOM!]</p>
-<p><a href="../oip-account/oip-layout-groups-view.phtml">Single group view [temp link]</a></p>
-<p><a href="../oip-account/oip-layout-groups-edit.phtml">Single group edit [temp link]</a></p>
-
-<!-- end oip-groups-index-summary.txt -->
 <div id="contact-group" class="modal hide fade">
     <div class="modal-header">
         <button class="close" data-dismiss="modal">&times;</button>

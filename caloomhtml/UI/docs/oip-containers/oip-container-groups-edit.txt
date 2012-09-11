@@ -2,7 +2,7 @@
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
 <div class="span3">
-<?php include '../oip-modules/oip-module-groups-index-summary-for-account.txt' ?><!-- UseInformationObject:GroupIndex -->
+<?php include '../oip-modules/oip-groups-index-edit.txt' ?><!-- UseInformationObject:GroupIndex -->
 </div>
 <div class="span9">
 <?php include '../oip-modules/oip-module-groups.txt' ?>

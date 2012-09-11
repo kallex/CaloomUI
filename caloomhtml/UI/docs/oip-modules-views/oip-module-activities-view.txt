@@ -1,0 +1,17 @@
+<!-- oip-module-activities-view.txt -->
+<div class="tabbable tabs-left">
+    <ul class="nav nav-tabs" style="margin-bottom:0px;">
+        <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Activity Profile</a></li> 
+        <li><a href="#tab-activities-collaborators" data-toggle="tab">Collaborators</a></li>
+        <li><a href="#tab-activities-locations" data-toggle="tab">Locations</a></li>
+        <li><a href="#tab-activities-content" data-toggle="tab">Content</a></li>
+    </ul>
+
+    <div class="tab-content tab-border">
+        <div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules-views/oip-module-activities-profile-view.txt'  ?></div>
+        <div class="tab-pane" id="tab-activities-collaborators"><?php include'../oip-modules-views/oip-module-activities-collaborators-view.txt' ?></div>
+        <div class="tab-pane" id="tab-activities-locations"><?php include'../oip-modules-views/oip-module-locations-view.txt' ?></div>
+        <div class="tab-pane" id="tab-activities-content"><?php include'../oip-modules-views/oip-module-content-view.txt' ?></div>
+    </div>
+</div>
+<!-- end oip-module-activities-view.txt -->
