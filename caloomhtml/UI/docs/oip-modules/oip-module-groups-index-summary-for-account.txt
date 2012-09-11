@@ -1,6 +1,6 @@
 <!-- oip-groups-index-summary-for-account.txt -->
 <p><img src="[!ATOM]ContentUrl[ATOM]"></p>
-oip-groups-index-summary.txt
+oip-groups-index-summary-for-account.txt
 <p><a href="#contact-group" data-toggle="modal" class="btn">contact this group</a></p>
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>

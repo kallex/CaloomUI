@@ -1,14 +1,10 @@
-<!-- oip-groups-index-summary-for-account.txt -->
+<!-- oip-activities-index-summary-public.txt -->
 <p><img src="[!ATOM]ContentUrl[ATOM]"></p>
-oip-groups-index-summary.txt  public
+oip-activities-index-summary-public.txt
 <p><a href="#contact-group" data-toggle="modal" class="btn">contact this group</a></p>
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <p>[!ATOM]Summary[ATOM!]</p>
-<p><a href="../oip-group/oip-layout-groups-view.phtml">Single group view [temp link]</a></p>
-<p><a href="../oip-group/oip-layout-groups-edit.phtml">Single group edit [temp link]</a></p>
-
-<!-- end oip-groups-index-summary.txt -->
 <div id="contact-group" class="modal hide fade">
     <div class="modal-header">
         <button class="close" data-dismiss="modal">&times;</button>
@@ -32,4 +28,4 @@ oip-groups-index-summary.txt  public
         </form>
     </div>
 </div>
-<!-- end oip-groups-index-summary-for-account.txt -->
+<!-- end oip-activities-index-summary-public.txt -->

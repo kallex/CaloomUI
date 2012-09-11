@@ -1,0 +1,11 @@
+<!-- oip-container-groups-summary-public.txt -->
+<?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
+<div class="row">
+<div class="span3">
+<?php include '../oip-modules/oip-module-groups-index-summary-public.txt' ?>
+</div>
+<!-- oip-module-groups-summary.txt -->
+<div class="span9">
+    <?php include '../oip-modules/oip-module-groups-summary.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection --><!-- My groups -->
+</div>
+<!-- end oip-container-groups-summary-public.txt -->
