@@ -802,14 +802,24 @@
 					<InformationItem name="SubscriptionType" logicalDataType="Text_Short" />
 				</InformationItems>
 			</InformationObject>
-			<InformationObject name="QueueEnvelope" designDesc="QueueEnvelope for all kinds of queued items" provideCreateMethod="false">
+			<InformationObject name="QueueEnvelope" designDesc="QueueEnvelope for all kinds of queued items">
 				<InformationItems>
-					<InformationItem name="SubscriberNotification" logicalDataType="InformationObject" informationObjectName="Subscription" />
-					<InformationItem name="UpdateWebContentOperation" logicalDataType="InformationObject" informationObjectName="UpdateWebContentOperation" />
-          <InformationItem name="DeleteEntireOwner" logicalDataType="InformationObject" informationObjectName="DeleteEntireOwnerOperation" />
+          <InformationItem name="SingleOperation" logicalDataType="InformationObject" informationObjectName="OperationRequest"/>
+          <InformationItem name="OrderDependentOperationSequence" logicalDataType="InformationObject" informationObjectName="OperationRequestCollection" />
 					<InformationItem name="ErrorContent" logicalDataType="InformationObject" informationObjectName="SystemError" />
 				</InformationItems>
 			</InformationObject>
+      <InformationObject name="OperationRequestCollection" designDesc="Collection of operation requests">
+        <CollectionFor contentInformationObjectName="OperationRequest"/>
+      </InformationObject>
+      <InformationObject name="OperationRequest" designDesc="Operation request">
+        <InformationItems>
+        <InformationItem name="SubscriberNotification" logicalDataType="InformationObject" informationObjectName="Subscription" />
+        <InformationItem name="UpdateWebContentOperation" logicalDataType="InformationObject" informationObjectName="UpdateWebContentOperation" />
+        <InformationItem name="DeleteEntireOwner" logicalDataType="InformationObject" informationObjectName="DeleteEntireOwnerOperation" />
+        </InformationItems>
+      </InformationObject>
+            
       <InformationObject name="DeleteEntireOwnerOperation" designDesc="Operation for deleting entire owner">
         <InformationItems>
           <InformationItem name="ContainerName" logicalDataType="Text_Short"/>
