@@ -6,10 +6,6 @@
     <div class="row-fluid" style="padding:0px;margin: 0px">
         <ol id="repos">
             <?php include '../oip-modules/oip-module-groups-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
-            <?php include '../oip-modules/oip-module-groups-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
-            <?php include '../oip-modules/oip-module-groups-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
-            <?php include '../oip-modules/oip-module-groups-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
-            <?php include '../oip-modules/oip-module-groups-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
         </ol>
     </div>
  </div>   <!-- end oip-module-groups-summary.txt -->

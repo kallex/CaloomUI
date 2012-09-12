@@ -3,7 +3,7 @@
 .in-context-edit p.view-content,
 .in-context-edit>*:hover {
 	outline: 1px solid #fcfcc8;
-	background-color: rgba(252, 252, 200, 0.5);
+	background-color: #d4e6e6;
 	
 }
 
@@ -21,20 +21,20 @@ p.view-content {
 	width: 76%;
 	float: left;
 	outline: 1px solid #fcfcc8;
-	background-color: rgba(252, 252, 200, 0.5);
-	border: 1px solid #fcfcc8;
+	background-color: #d4e6e6;
+	border: 1px solid #afbebe;
 }
 
 a.open-IncontextEditDialog_Text_Short.in-context-edit:hover {
 	outline: 1px solid #fcfcc8;
-	background-color: rgba(252, 252, 200, 0.5);
+	background-color: #c2d3d3;
 	color: #300f09;
 	outline: 1px solid #ebebb7;
 }
 
 #IncontextEditDialog_Text_Short,
 #IncontextEditDialog_Text_Long {
-	background-color: rgba(252, 252, 200, 1);
+	background-color: #d2e5e5;
 	border-style: none;
 	-moz-box-shadow: 5px 5px 10px #504429;
 	-webkit-box-shadow: 5px 5px 10px #504429;
