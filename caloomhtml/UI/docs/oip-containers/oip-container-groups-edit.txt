@@ -5,7 +5,7 @@
 <?php include '../oip-modules/oip-groups-index-edit.txt' ?><!-- UseInformationObject:GroupIndex -->
 </div>
 <div class="span9">
-<?php include '../oip-modules/oip-module-groups.txt' ?>
+<?php include '../oip-modules/oip-module-groups.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
 </div>
 </div>
 <!-- end oip-container-groups-focus-edit.txt -->
