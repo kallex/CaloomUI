@@ -806,9 +806,16 @@
 				<InformationItems>
 					<InformationItem name="SubscriberNotification" logicalDataType="InformationObject" informationObjectName="Subscription" />
 					<InformationItem name="UpdateWebContentOperation" logicalDataType="InformationObject" informationObjectName="UpdateWebContentOperation" />
+          <InformationItem name="DeleteEntireOwner" logicalDataType="InformationObject" informationObjectName="DeleteEntireOwnerOperation" />
 					<InformationItem name="ErrorContent" logicalDataType="InformationObject" informationObjectName="SystemError" />
 				</InformationItems>
 			</InformationObject>
+      <InformationObject name="DeleteEntireOwnerOperation" designDesc="Operation for deleting entire owner">
+        <InformationItems>
+          <InformationItem name="ContainerName" logicalDataType="Text_Short"/>
+          <InformationItem name="LocationPrefix" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
 			<InformationObject name="SystemError" designDesc="System error object">
 				<InformationItems>
 					<InformationItem name="ErrorTitle" logicalDataType="Text_Short" />
