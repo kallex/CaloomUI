@@ -11,10 +11,11 @@
                     <li> <a href="oip-layout-groups-summary.phtml"> Groups</a> </li>
                 </ul>
                 <ul class="nav pull-right">
-                    <li><a class="btn btn-primary btn-small" data-toggle="modal"  style="margin-right:10px" href="http://theball.azurewebsites.net/auth/grp/bfcff2f8-7e87-45a4-b057-d07006db8ef2/publicsite/oip-layouts/oip-layout-landing.phtml">Edit</a></li>
+                    <li><a class="btn btn-primary btn-small"  style="margin-right:10px" href="../../publicsite/oip-public/oip-layout-landing.phtml">Edit Public Site</a></li>
                     <li><a class="btn btn-primary btn-small" data-toggle="modal"  href="#Publish">Publish !</a></li>
                     <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My account<b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                            <li><a href="oip-layout-account-welcome.phtml">Personal starting page</a></li>
                             <li><a href="oip-layout-account-edit.phtml">Personal Information/edit</a></li>
                             <li><a href="oip-layout-account-summary.phtml">Account Summary</a></li>
                             <li class="divider"></li>
