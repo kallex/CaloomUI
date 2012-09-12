@@ -16,8 +16,9 @@
 	<link href="../bootstrap-default/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <link href="../oip-additions/oip-assets/oip-css/oip-navbar.css" rel="stylesheet">
     <link href="../oip-additions/oip-assets/oip-css/oip-in-context-edit.css" rel="stylesheet">
+    <link href="../oip-additions/oip-assets/oip-css/oip-grid.css" rel="stylesheet">
 
-	<!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
+    <!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
 <!--Extra Styles from jQuery UI-->
 <!--  <link href="../third-party/jquery-ui/css/demo.css" rel="stylesheet">
   <link href="../third-party/jquery-ui/css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet"> -->
