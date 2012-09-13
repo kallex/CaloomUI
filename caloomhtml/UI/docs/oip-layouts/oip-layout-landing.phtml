@@ -5,28 +5,35 @@
 <?php include '../oip-modules/oip-head.txt' ?>
 <!-- end head -->
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
-<?php include 'oip-container-navbar.txt' ?>
+<?php include '../oip-group/oip-container-navbar.txt' ?>
 <div class="container">
-	<!-- oip-container-map-focus-view.txt -->
-	<section id="container-focus" class="container well" > 
-<?php include '../oip-containers/oip-container-map-focus-view.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.MapContainer-->
-	</section>
-	<!-- oip-container-about-collection.txt -->
-	<section class="container well"> 
-<?php include '../oip-containers/oip-container-about-collection.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.AboutContainer  -->
-	</section>
-	<!-- oip-container-groups-collection.txt -->
-	<section class="container well"> 
-<?php include '../oip-containers/oip-container-group-summary-container.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.GroupSummaryContainer  -->
-	</section>
-	<!-- oip-container-activities-collection.txt -->
-	<section class="container well"> 
-<?php include '../oip-containers/oip-container-activity-summary-container.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.ActivitySummaryContainer  -->
-	</section> 
-	<!-- oip-container-footer.txt -->
-	<section class="container well"> 
-<?php include '../oip-containers/oip-container-footer.txt' ?>
-	</section> 
+    <!-- oip-container-map-focus-view.txt -->
+    <section id="container-focus" class="container well" >
+        <?php include '../oip-containers/oip-container-map-focus-view.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.MapContainer-->
+    </section>
+    <!-- oip-container-about-collection.txt -->
+    <section class="container well">
+        <?php include '../oip-containers/oip-container-blog.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.BlogContainer  -->
+        <?php include '../oip-containers/oip-container-blog-edit.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.BlogContainer  -->
+    </section>
+    <!-- oip-container-blog-collection.txt -->
+    <section class="container well">
+        <?php include '../oip-containers/oip-container-about-collection.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.AboutContainer  -->
+    </section>
+    <!-- oip-container-groups-collection.txt -->
+    <section class="container well">
+        <?php include '../oip-containers/oip-container-group-summary.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.GroupSummaryContainer  -->
+        <?php include '../oip-containers/oip-container-groups-edit.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.GroupSummaryContainer  -->
+    </section>
+    <!-- oip-container-activities-collection.txt -->
+    <section class="container well">
+        <?php include '../oip-containers/oip-container-activities-summary.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.ActivitySummaryContainer  -->
+        <?php include '../oip-containers/oip-container-activities-edit.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.ActivitySummaryContainer  -->
+    </section>
+    <!-- oip-container-footer.txt -->
+    <section class="container well">
+        <?php include '../oip-containers/oip-container-footer.txt' ?>
+    </section>
 </div>
 
 <!-- end container -->

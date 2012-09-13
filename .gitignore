@@ -17,3 +17,5 @@ caloomhtml/UI/UI..ReSharper
 .idea/encodings.xml
 
 .idea/CaloomUI.iml
+
+caloomhtml/UI/docs/bootstrap-default/assets/less/popovers.less

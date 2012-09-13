@@ -3,7 +3,7 @@
 <div class="span12 focus-introduction">
     <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
 </div>
-<div class="row-fluid mini-view">
+<div class="row-fluid">
     <?php include '../oip-modules/oip-module-group-collection.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
 </div>
 <!-- end oip-container-groups-collection.txt -->
