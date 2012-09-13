@@ -4,7 +4,7 @@ oip-module-activities-index.txt
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <p><a href="#" class="btn">contact this group</a></p>
-<dl>
+<!--<dl>
     <dt>Projects (Category)</dt>
     <dd><a href="#">Nordic Business Event 2012 <span class="badge badge-important">1</span></a></dd>
     <dd><a href="#">project b</a></dd>
@@ -27,7 +27,7 @@ oip-module-activities-index.txt
     <dd><a href="#">Research a </a></dd>
     <dd><a href="#">Research b</a></dd>
     <dd><a href="#">Research c</a></dd>
-</dl>
+</dl>     -->
 
 <p>[!ATOM]Summary[ATOM!]</p>
 
