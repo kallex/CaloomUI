@@ -21,7 +21,7 @@
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Groups<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li> <a href="oip-layout-groups-summary.phtml"> Summary</a> </li>
-                            <li> <a href="oip-layout-groups-summary.phtml"> Add</a> </li>
+                            <li> <a href="oip-layout-groups-add.phtml"> Add</a> </li>
                         </ul>
                     </li>
                 </ul>
