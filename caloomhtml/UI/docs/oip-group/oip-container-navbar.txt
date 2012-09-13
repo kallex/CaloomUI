@@ -37,23 +37,3 @@
     <!-- navbar-inner -->
 </div>
 <!-- navbar navbar-fixed-top -->
-<!-- modals -->
-<!-- oip-modal-publish.txt -->
-<div class="modal hide fade well" id="Publish">
-    <div class="modal-header">
-        <button class="close" data-dismiss="modal">close</button>
-    </div>
-    <h2>
-        Publish the changes the public site
-    </h2>
-    <form method="post">
-        <div class="control-group controls">
-            <div class="form-actions" style="padding:0;margin:0;border-top:0">
-                <button value="true" name="btnCancel" class="btn">Cancel</button>
-                <button type="submit" name="btnAccept" value="true" class="btn btn-primary">Accept changes</button>
-            </div>
-        </div>
-    </form>
-</div>
-<!-- end oip-modal-publish.txt -->
-<!-- end modals -->

@@ -34,7 +34,7 @@
 					</li>
 				</ul>
 			</div><!-- end nav-collapse -->
-		</div><!-- end container -->
+		</div>
 	</div><!-- end navbar-inner -->
 </div><!-- end navbar -->
 <!-- end oip-navbar-fixed-top.txt -->

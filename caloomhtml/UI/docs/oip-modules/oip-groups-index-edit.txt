@@ -1,4 +1,3 @@
-<!-- oip-groups-index-edit.txt -->
 <p><img src="[!ATOM]ContentUrl[ATOM]"></p>
 oip-groups-index-edit-account.txt
 <p><a href="#contact-group" data-toggle="modal" class="btn">contact this group</a></p>
@@ -29,4 +28,3 @@ oip-groups-index-edit-account.txt
         </form>
     </div>
 </div>
-<!-- end oip-groups-index-edit.txt -->

@@ -1,6 +1,5 @@
 <!-- oip-activities-index-summary-public.txt -->
 <p><img src="[!ATOM]ContentUrl[ATOM]"></p>
-oip-activities-index-summary-public.txt
 <p><a href="#contact-group" data-toggle="modal" class="btn">contact this group</a></p>
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>

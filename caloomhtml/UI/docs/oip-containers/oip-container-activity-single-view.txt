@@ -4,6 +4,6 @@
         <?php include '../oip-modules/oip-module-activities-index.txt' ?><!-- UseInformationObject:ActivitiesIndex -->
     </div>
     <div class="span9">
-        <?php include '../oip-modules/oip-module-activities.txt' ?><!-- UseInformationObject:ActivitiesModule -->
+        <?php include '../oip-modules-views/oip-module-activities-view.txt' ?><!-- UseInformationObjectAsCollection:ActivityCollection -->
     </div>
 </div>

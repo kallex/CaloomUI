@@ -1,11 +1,9 @@
-<!-- oip-container-activity-edit.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
-<div class="span3">
-<?php include '../oip-modules/oip-module-activities-index-summary-group.txt' ?><!-- UseInformationObject:ActivitiesIndex -->
+    <div class="span3">
+        <?php include '../oip-modules/oip-module-activities-index-summary-group.txt' ?><!-- UseInformationObject:ActivitiesIndex -->
+    </div>
+    <div class="span9">
+        <?php include '../oip-modules/oip-module-activity-edit.txt' ?><!-- UseInformationObject:ActivitiesModule -->
+    </div>
 </div>
-<div class="span9">
-<?php include '../oip-modules/oip-module-activity-edit.txt' ?><!-- UseInformationObject:ActivitiesModule -->
-</div>
-</div>
-<!-- end oip-container-activity-edit.txt -->

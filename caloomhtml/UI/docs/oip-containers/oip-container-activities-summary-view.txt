@@ -1,6 +1,4 @@
-<!-- oip-container-activities-summary-view.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row-fluid">
     <?php include '../oip-modules-views/oip-module-activities-summary-view.txt' ?><!-- UseInformationObjectAsCollection:ActivityCollection -->
 </div>
-<!-- end oip-container-activities-view.txt -->

@@ -1,14 +1,10 @@
-<!-- oip-container-blog-summary.txt -->
-<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->   blog-container-header
+<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 <hr>
-<!-- latest x# blogs -->
 <div class="row">
     <div class="span3 blog-index">
         <?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexGroup -->
     </div>
     <div class="span9">
         <?php include '../oip-modules/oip-module-blog-summary.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection --><!-- My own blogs -->
-     </div>
+    </div>
 </div>
-<!-- end latest x# blogs -->
-<!-- end oip-container-blog-summary.txt -->

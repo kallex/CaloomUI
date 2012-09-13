@@ -1,11 +1,8 @@
-<!-- oip-container-map-focus-edit.txt -->
 <div class="row">
-<div class="3">
-<?php include '../oip-modules/oip-module-map-index.txt' ?><!-- UseInformationObject:MapIndex -->
+    <div class="3">
+        <?php include '../oip-modules/oip-module-map-index.txt' ?><!-- UseInformationObject:MapIndex -->
+    </div>
+    <div class="span9">
+        <?php include '../oip-modules/oip-module-map-edit.txt' ?>
+    </div>
 </div>
-<div class="span9">
-<?php include '../oip-modules/oip-module-map-edit.txt' ?>
-</div>
-</div>
-<?php include '../oip-modules/oip-module-footer.txt' ?><!-- UseInformationObject:ModuleFooter -->
-<!-- end oip-container-map-focus-edit.txt -->

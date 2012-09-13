@@ -1,11 +1,9 @@
-<!-- oip-container-blog-edit.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 <div class="row">
-<div class="span3">
-<?php include '../oip-modules/oip-module-blog-index-edit.txt' ?><!--UseInformationObject:BlogIndexCollection -->
+    <div class="span3">
+        <?php include '../oip-modules/oip-module-blog-index-edit.txt' ?><!--UseInformationObject:BlogIndexCollection -->
+    </div>
+    <div class="span9">
+        <?php include '../oip-modules/oip-module-blogs.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
+    </div>
 </div>
-	<div class="span9">
-    <?php include '../oip-modules/oip-module-blogs.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
-	</div>
-</div>
-<!-- end oip-container-blog-edit.txt -->

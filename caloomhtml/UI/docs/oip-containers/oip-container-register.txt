@@ -1,11 +1,9 @@
-<!-- oip-container-register.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
-<div class="span3">
-dummy text
+    <div class="span3">
+        dummy text
+    </div>
+    <div class="span9" style="margin:0;padding:0">
+        <?php include '../oip-modules/oip-module-register.txt' ?>
+    </div>
 </div>
-<div class="span9" style="margin:0;padding:0">
-<?php include '../oip-modules/oip-module-register.txt' ?>
-</div>
-</div>
-<!-- end oip-container-register.txt -->

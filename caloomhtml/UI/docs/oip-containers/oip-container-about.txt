@@ -1,7 +1,5 @@
-<!-- oip-container-about-focus-view.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 <hr>
 <div class="span12 blog-featured">
-<?php include '../oip-modules/oip-module-about.txt' ?>
+    <?php include '../oip-modules/oip-module-about.txt' ?>
 </div>
-<!-- end oip-container-about-focus-view.txt -->

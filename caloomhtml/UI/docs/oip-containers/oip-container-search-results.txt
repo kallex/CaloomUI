@@ -1,11 +1,9 @@
-<!-- oip-container-search-results.txt -->
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 <div class="row">
-<div class="span3">
-<?php include '../oip-modules/oip-module-search-results-index.txt' ?><!-- UseInformationObject:SearchResultsIndex -->
+    <div class="span3">
+        <?php include '../oip-modules/oip-module-search-results-index.txt' ?><!-- UseInformationObject:SearchResultsIndex -->
+    </div>
+    <div class="span9">
+        <?php include '../oip-modules/oip-module-search-results.txt' ?><!-- UseInformationObject:SearchResultsObject -->
+    </div>
 </div>
-<div class="span9">
-<?php include '../oip-modules/oip-module-search-results.txt' ?><!-- UseInformationObject:SearchResultsObject -->
-</div>
-</div>
-<!-- end oip-container-search-results.txt -->
