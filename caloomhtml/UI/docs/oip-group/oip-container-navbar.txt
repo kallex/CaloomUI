@@ -6,9 +6,24 @@
             <div class="nav-collapse">
                 <ul class="nav">
                     <li> <a href="oip-layout-maps-summary.phtml"> Maps</a> </li>
-                    <li> <a href="oip-layout-blog-summary.phtml"> Blogs</a> </li>
-                    <li> <a href="oip-layout-activities-summary.phtml"> Activities</a> </li>
-                    <li> <a href="oip-layout-groups-summary.phtml"> Groups</a> </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blogs<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="oip-layout-blog-summary.phtml"> Summary</a> </li>
+                            <li> <a href="oip-layout-blog-add.phtml"> Add</a> </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
+                            <li> <a href="oip-layout-activities-add.phtml"> Add</a> </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Groups<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="oip-layout-groups-summary.phtml"> Summary</a> </li>
+                            <li> <a href="oip-layout-groups-add.phtml"> Add</a> </li>
+                        </ul>
+                    </li>
                 </ul>
                 <ul class="nav pull-right">
                     <li><a class="btn btn-primary btn-small"  style="margin-right:10px" href="../../publicsite/oip-public/oip-layout-landing.phtml">Edit Public Site</a></li>
