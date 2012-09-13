@@ -26,6 +26,7 @@
                     </li>
                 </ul>
                 <ul class="nav pull-right">
+                    <li><a class="btn btn-primary btn-small"  style="margin-right:10px" href="#">Delete this group</a></li>
                     <li><a class="btn btn-primary btn-small"  style="margin-right:10px" href="../../publicsite/oip-public/oip-layout-landing.phtml">Edit Public Site</a></li>
                     <li><a class="btn btn-primary btn-small" data-toggle="modal"  href="#Publish">Publish !</a></li>
                     <li><a href="/auth/account/website/oip-account/oip-layout-account-summary.phtml">My account</a></li>
