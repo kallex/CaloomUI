@@ -5,7 +5,7 @@
     </div>
     <div class="row-fluid grid">
         <ol id="repos">
-            <?php include '../oip-modules/oip-module-blogs-2-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+            <?php include '../oip-modules/oip-module-blogs-2-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
         </ol>
     </div>
     <div class="span12" style="float:right;border-top:1px dotted">

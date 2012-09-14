@@ -254,10 +254,17 @@
 				<InformationItems>
 					<InformationItem name="Header" informationObjectName="ContainerHeader" logicalDataType="InformationObject" />
 					<InformationItem name="FeaturedBlog" informationObjectName="Blog" logicalDataType="InformationObject" />
-					<InformationItem name="RecentBlogCollection" informationObjectName="BlogCollection" logicalDataType="InformationObject" />
-					<InformationItem name="BlogIndexGroup" informationObjectName="BlogIndexGroup" logicalDataType="InformationObject" />
-				</InformationItems>
-			</InformationObject>
+          <InformationItem name="RecentBlogSummary" logicalDataType="InformationObject" informationObjectName="RecentBlogSummary"/>
+          <InformationItem name="BlogIndexGroup" informationObjectName="BlogIndexGroup" logicalDataType="InformationObject" />
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="RecentBlogSummary" designDesc="Recent blog summary">
+        <InformationItems>
+          <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
+          <InformationItem name="RecentBlogCollection" informationObjectName="BlogCollection" logicalDataType="InformationObject" />
+        </InformationItems>
+      </InformationObject>
+      
 			<InformationObject name="MapContainer" designDesc="">
 				<InformationItems>
 					<InformationItem name="Header" informationObjectName="ContainerHeader" logicalDataType="InformationObject" />
@@ -374,6 +381,7 @@
           <InformationItem name="Description" logicalDataType="Text_Long"/>
           <InformationItem name="Moderators" logicalDataType="InformationObject" informationObjectName="ModeratorCollection"/>
           <InformationItem name="ImageSets" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
+          <InformationItem name="CategoryCollection" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
         </InformationItems>
       </InformationObject>
 
@@ -501,6 +509,7 @@
           <InformationItem name="OrganizationsAndGroupsLinkedToUs" logicalDataType="Text_Long"/>
           <InformationItem name="Moderators" logicalDataType="InformationObject" informationObjectName="ModeratorCollection"/>
           <InformationItem name="ImageSets" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
+          <InformationItem name="CategoryCollection" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
         </InformationItems>
       </InformationObject>
 
@@ -732,9 +741,12 @@
 			</InformationObject>
 			<InformationObject name="Category" designDesc="Category">
 				<InformationItems>
-					<InformationItem name="TextValue" logicalDataType="Text_Short" />
+					<InformationItem name="CategoryName" logicalDataType="Text_Short" />
 				</InformationItems>
 			</InformationObject>
+      <InformationObject name="CategoryCollection" designDesc="Collection of categories">
+        <CollectionFor contentInformationObjectName="Category"/>
+      </InformationObject>
       <!--
 			<InformationObject name="What" designDesc="What from 5W core">
 				<InformationItems>

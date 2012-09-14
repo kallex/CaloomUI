@@ -5,6 +5,6 @@
         <?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexGroup -->
     </div>
     <div class="span9">
-        <?php include '../oip-modules/oip-module-blog-summary.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection --><!-- My own blogs -->
+        <?php include '../oip-modules/oip-module-blog-summary.txt' ?><!--UseInformationObject:RecentBlogSummary --><!-- My own blogs -->
     </div>
 </div>
