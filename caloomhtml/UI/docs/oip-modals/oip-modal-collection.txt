@@ -3,4 +3,5 @@
 <?php include 'oip-modal-text-long.txt' ?>
 <?php include 'oip-modal-radiogroup.txt' ?>
 <?php include 'oip-modal-multiselect.txt' ?>
+<?php include 'oip-modal-action-confirmremove.txt' ?>
 <!-- end oip-modal-collection.txt -->

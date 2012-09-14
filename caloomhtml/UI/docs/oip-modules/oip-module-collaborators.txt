@@ -6,13 +6,13 @@
             <div class="control-group">
                 <label class="control-label">List of collaborators</label> 
                 <div class="controls">
-                    <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+                    <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:Collaborators -->
                 </div>
             </div>
             <div class="control-group">
                 <label class="control-label">Pending collaborators</label> 
                 <div class="controls">
-                    <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+                    <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:PendingCollaborators -->
                 </div>
             </div>
 			<div class="control-group">

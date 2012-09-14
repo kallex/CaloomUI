@@ -17,4 +17,5 @@
 <!-- calendar -->
 <script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js"></script>
 <script src="../oip-additions/oip-assets/oip-js/in-context-editing.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/modal-id-actions.js"></script>
 <!-- end oip-le-javascript.txt -->

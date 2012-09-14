@@ -4,6 +4,6 @@
         <?php include '../oip-modules/oip-module-groups-index-account.txt' ?><!-- UseInformationObject:GroupIndex -->
     </div>
     <div class="span9">
-        <?php include '../oip-modules-views/oip-module-group-specific-view.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules-views/oip-module-group-specific-view.txt' ?>
     </div>
 </div>

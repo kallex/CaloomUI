@@ -24,6 +24,14 @@
 			[!ATOM]Description[ATOM!]
 		</p>
 	</div>
+	<div class="view-group">
+		<p class="view-label">
+			Organisations and groups linked to us 
+		</p>
+		<p class="view-content">
+        [!ATOM]OrganizationsAndGroupsLinkedToUs[ATOM!]
+        </p>
+	</div>
 </div>
 <!-- modals -->
 <!-- end modals -->

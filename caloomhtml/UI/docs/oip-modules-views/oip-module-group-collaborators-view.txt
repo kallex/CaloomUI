@@ -5,25 +5,15 @@
 			List of Collaborators 
 		</p>
 		<p class="view-content">
-        <?php include '../oip-atoms/oip-atom-collaborator-view.txt' ?><!-- UseInformationObjectAsCollection:Collaborator -->
+        <?php include '../oip-atoms/oip-atom-collaborator-view.txt' ?><!-- UseInformationObjectAsCollection:Collaborators -->
         </p>
 	</div>
-	<div class="view-group">
-		<p class="view-label">
-			Moderator(s) 
-		</p>
-		<p class="view-content">
-        <?php include '../oip-atoms/oip-atom-moderator-name.txt' ?><!-- UseInformationObjectAsCollection:Moderators -->
-        </p>
-	</div>
-	<div class="view-group">
-		<p class="view-label">
-			Organisations and groups linked to us 
-		</p>
-		<p class="view-content">
-        [!ATOM]OrganizationsAndGroupsLinkedToUs[ATOM!]
-        </p>
-	</div>
+    <div class="control-group">
+        <label class="control-label" for="input01">Pending collaborators</label> 
+        <div class="controls">
+            <?php include '../oip-atoms/oip-atom-collaborator-view.txt' ?><!-- UseInformationObjectAsCollection:PendingCollaborators -->
+        </div>
+    </div>
 </div>
 
 <!-- modals -->

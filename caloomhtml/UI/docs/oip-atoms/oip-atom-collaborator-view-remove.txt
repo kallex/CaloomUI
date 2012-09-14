@@ -1,3 +1,3 @@
 <!-- oip-atom-collaborator-view-remove.txt -->
-<p><a data-toggle="modal" href="#view-profile">[!ATOM]FirstName[ATOM!] [!ATOM]LastName[ATOM!]</a>, <a data-toggle="modal" href="#remove-collaborator">remove this collaborator</a></p>
+<p><a data-toggle="modal" href="#view-profile">[!ATOM]CollaboratorName[ATOM!]</a>, <a data-id="[!ATOM]ID[ATOM!]" data-toggle="modal" href="#IDAction_ConfirmRemove" data-question="Remove [!ATOM]CollaboratorName[ATOM!] as collaborator?">remove this collaborator</a></p>
 <!-- end oip-atom-collaborator-view-remove.txt -->
