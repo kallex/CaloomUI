@@ -370,6 +370,7 @@
           <InformationItem name="ProfileImage" logicalDataType="InformationObject" informationObjectName="Image"/>
           <InformationItem name="IconImage" logicalDataType="InformationObject" informationObjectName="Image"/>
           <InformationItem name="ActivityName" logicalDataType="Text_Short"/>
+          <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
           <InformationItem name="Description" logicalDataType="Text_Long"/>
           <InformationItem name="Moderators" logicalDataType="InformationObject" informationObjectName="ModeratorCollection"/>
           <InformationItem name="ImageSets" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
@@ -517,7 +518,8 @@
 				<InformationItems>
 					<InformationItem name="Title" logicalDataType="Text_Short" />
 					<InformationItem name="SubTitle" logicalDataType="Text_Short" />
-					<InformationItem name="Published" logicalDataType="Time_DateTime" />
+          <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
+          <InformationItem name="Published" logicalDataType="Time_DateTime" />
 					<InformationItem name="Author" logicalDataType="Text_Short" />
 					<InformationItem name="ImageGroup" informationObjectName="ImageGroup" logicalDataType="InformationObject" />
 					<InformationItem name="Body" logicalDataType="Text_Long" />
