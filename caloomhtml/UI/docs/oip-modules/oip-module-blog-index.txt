@@ -1,5 +1,4 @@
 <!-- oip-module-blog-index.txt -->
-oip-module-blog-index.txt
 <p><img src="[!ATOM]ContentUrl[ATOM]" alt="BlogIndex" style="float:left;margin-right:10px"></p>
 <h4>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h4>
 <p>[!ATOM]Introduction[ATOM!]</p>

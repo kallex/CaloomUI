@@ -1,5 +1,5 @@
-<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->   blog-container-header
-<hr>
+<div class="services"><?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
+</div>
 <div class="row">
     <div class="span3 blog-index">
         <?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexGroup -->
