@@ -1,24 +1,24 @@
-    <div class="" style="margin-bottom: 40px">
-        <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
-    </div>
-    <div>
-        <ul class="thumbnails">
-            <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-            <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-            <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-            <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-            <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-            <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-            <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-            <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-            <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-        </ul>
-        <ul class="pager">
-            <li class="previous">
-                <a href="../oip-layouts/oip-layout-blog-more.phtml">&larr; Older</a>
-            </li>
-            <li class="next">
-                <a href="../oip-layouts/oip-layout-blog-more.phtml">Newer &rarr;</a>
-            </li>
-        </ul>
-    </div>
+<div class="" style="margin-bottom: 40px">
+    <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
+</div>
+<div>
+    <ul class="thumbnails">
+        <?php include '../oip-modules/oip-module-item-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+        <?php include '../oip-modules/oip-module-item-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+        <?php include '../oip-modules/oip-module-item-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+        <?php include '../oip-modules/oip-module-item-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+        <?php include '../oip-modules/oip-module-item-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+        <?php include '../oip-modules/oip-module-item-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+        <?php include '../oip-modules/oip-module-item-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+        <?php include '../oip-modules/oip-module-item-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+        <?php include '../oip-modules/oip-module-item-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+    </ul>
+    <ul class="pager">
+        <li class="previous">
+            <a href="../oip-layouts/oip-layout-blog-more.phtml">&larr; Older</a>
+        </li>
+        <li class="next">
+            <a href="../oip-layouts/oip-layout-blog-more.phtml">Newer &rarr;</a>
+        </li>
+    </ul>
+</div>

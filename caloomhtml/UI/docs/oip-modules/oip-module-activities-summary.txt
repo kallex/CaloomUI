@@ -1,11 +1,21 @@
-<!-- oip-module-activities-summary.txt -->
-<div class="row-fluid">
-<div class="focus-introduction">
-<?php include 'oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
+<div class="" style="margin-bottom: 40px">
+    <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
 </div>
-<div class="row-fluid">
-    <ol id="repos">
-        <?php include 'oip-module-activities-3-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
-    </ol>
+<div>
+    <ul class="thumbnails">
+        <?php include 'oip-module-item-activity-3-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-activity-3-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-activity-3-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-activity-3-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-activity-3-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-activity-3-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+    </ul>
+    <ul class="pager">
+        <li class="previous">
+            <a href="../oip-layouts/oip-layout-blog-more.phtml">&larr; Older</a>
+        </li>
+        <li class="next">
+            <a href="../oip-layouts/oip-layout-blog-more.phtml">Newer &rarr;</a>
+        </li>
+    </ul>
 </div>
-<!-- end oip-module-activities-summary.txt -->

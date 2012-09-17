@@ -1,4 +1,6 @@
-<?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
+<div class="services group">
+    <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
+</div>
 <div class="span12 focus-introduction">
     <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
 </div>

@@ -1,4 +1,5 @@
-<div class="services"><?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
+<div class="services blog">
+    <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 </div>
 <div class="row">
     <div class="span3">

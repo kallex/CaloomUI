@@ -4744,3 +4744,28 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+div.services {
+  border-top: 9px solid
+    #928b81;
+  padding: 0 0 7px 0;
+  border-color: #7f786d;
+}
+div.services.blog {
+  border-color: #1c9133;
+}
+div.services.about {
+  border-color: #5826ab;
+}
+div.services.map {
+  border-color: #a20690;
+}
+div.services.group {
+  border-color: #fd6309;
+}
+div.services.activity {
+  border-color: #1e9ca8;
+}
+div.services h1 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
