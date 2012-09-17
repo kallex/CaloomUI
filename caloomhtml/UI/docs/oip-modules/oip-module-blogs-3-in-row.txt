@@ -1,11 +1,10 @@
-<!-- oip-module-blogs-2-in-row.txt -->
-	<li  class="span3">
-        <h2>
+	<li class="span3">
+        <img src="../oip-additions/oip-assets/oip-images/placeholder/thumb_1.jpg" class="img-style row1" alt="">
+        <!--<img class="img-style row1" src="[!ATOM]ImageGroupUrl[ATOM!]"  /> -->
+        <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <br><small>[!ATOM]SubTitle[ATOM!]</small>
-        </h2>
-
-        <img class="bs-icon" src="[!ATOM]ImageGroupUrl[ATOM!]"  />
+        </h3>
         <p>[!ATOM]Excerpt[ATOM!]<p>
         <a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a>
     </p>
@@ -22,4 +21,3 @@
              include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection
 		</ol>  -->
 	</li>
-<!-- end oip-module-blogs-2-in-row.txt -->
