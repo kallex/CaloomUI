@@ -13,8 +13,6 @@
             <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
             <?php include '../oip-modules/oip-module-blogs-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
         </ul>
-    </div>
-    <div class="span12" style="float:right;border-top:1px dotted">
         <ul class="pager">
             <li class="previous">
                 <a href="../oip-layouts/oip-layout-blog-more.phtml">&larr; Older</a>

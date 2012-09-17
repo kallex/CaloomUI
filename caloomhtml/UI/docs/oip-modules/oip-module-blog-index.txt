@@ -4,22 +4,14 @@
 <p>[!ATOM]Introduction[ATOM!]</p>
 <h6>[!ATOM]BlogByLocation[ATOM!]</h6>
 <ul>
-    <li>blogs in Finland</li>
-    <li>blogs in Europe</li>
-    <li>blogs in South Africa</li>
+    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByLocation -->
 </ul>
 <h6>[!ATOM]BlogByDate[ATOM!]</h6>
 <ul>
-    <li>blogs in August</li>
-    <li>blogs in July</li>
-    <li>blogs in June</li>
+    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByDate -->
 </ul>
 <h6>[!ATOM]BlogByAuthor[ATOM!]</h6>
 <ul>
-    <li>blogs by Rahim</li>
-    <li>blogs by Anne</li>
-    <li>blogs by Andrew</li>
-    <li>blogs by Riina</li>
+    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByAuthor -->
 </ul>
 <p>[!ATOM]Summary[ATOM!]</p>
-<!-- end oip-module-blog-index.txt -->
