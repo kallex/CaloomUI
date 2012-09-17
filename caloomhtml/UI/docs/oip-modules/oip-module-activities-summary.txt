@@ -3,12 +3,12 @@
 </div>
 <div>
     <ul class="thumbnails">
-        <?php include 'oip-module-item-activity-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
-        <?php include 'oip-module-item-activity-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
-        <?php include 'oip-module-item-activity-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
-        <?php include 'oip-module-item-activity-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
-        <?php include 'oip-module-item-activity-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
-        <?php include 'oip-module-item-activity-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
+        <?php include 'oip-module-item-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
     </ul>
     <ul class="pager">
         <li class="previous">

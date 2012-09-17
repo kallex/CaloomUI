@@ -4771,6 +4771,9 @@ div.services.group {
 div.services.activity {
   border-color: #1e9ca8;
 }
+div.services.latest {
+  border-color: #0a0a0a;
+}
 div.services h1 {
   margin-top: 0px;
   padding-top: 0px;

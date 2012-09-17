@@ -1,0 +1,11 @@
+<div class="services latest">
+    <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
+</div>
+<div class="row">
+    <div class="span3">
+        <?php include '../oip-modules/oip-module-latest-index.txt' ?><!-- UseInformationObject:LatestIndex -->
+    </div>
+    <div class="span9">
+        <?php include '../oip-modules/oip-module-latest-summary.txt' ?>
+    </div>
+</div>
