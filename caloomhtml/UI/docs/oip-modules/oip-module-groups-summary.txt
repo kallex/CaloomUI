@@ -1,11 +1,16 @@
-<!-- oip-module-groups-summary.txt -->
-<div class="row-fluid">
-    <div class="focus-introduction">
-        <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
-    </div>
-    <div class="row-fluid" style="padding:0px;margin: 0px">
-        <ol id="repos">
-            <?php include '../oip-modules/oip-module-groups-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
-        </ol>
-    </div>
- </div>   <!-- end oip-module-groups-summary.txt -->
+<div class="" style="margin-bottom: 40px">
+    <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
+</div>
+<div>
+    <ul class="thumbnails">
+        <?php include '../oip-modules/oip-module-item-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-item-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-item-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-item-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-item-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-item-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-item-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-item-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-item-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+    </ul>
+</div>

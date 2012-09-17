@@ -1,4 +1,6 @@
-<?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
+<div class="services group">
+    <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
+</div>
 <div class="row">
     <div class="span3">
         <?php include '../oip-modules/oip-module-groups-index-account.txt' ?><!-- UseInformationObject:GroupIndex -->
