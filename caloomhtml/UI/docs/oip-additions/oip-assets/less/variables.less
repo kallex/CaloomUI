@@ -30,16 +30,31 @@
 @purple:                #7a43b6;
 
 
+// Aalto Colors
+// -------------------------
+@aaltoYellow:           #fcc20a;
+@aaltoOrange:           #fd6309;
+@aaltoRed:              #e61733;
+@aaltoFuchsia:          #a20690;
+@aaltoPurple:           #5826ab;
+@aaltoBlue:             #1655b2;
+@aaltoTurquoise:        #1e9ca8;
+@aaltoGreen:            #1c9133;
+@aaltoLightGreen:       #5fb728;
+@aaltoGray:             #7f786d;
+@aaltoGrayScale:        #666666;
+@aaltoBlack:            #0a0a0a;
+
 // Scaffolding
 // -------------------------
-@bodyBackground:        #fff7f2;
-@textColor:             @grayDark;
+@bodyBackground:        #ffffff;
+@textColor:             #2e1404;
 
 
 // Links
 // -------------------------
-@linkColor:             #08c;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:             @aaltoGrayScale;
+@linkColorHover:        darken(@linkColor, 50%);
 
 
 // Typography
@@ -144,12 +159,13 @@
 
 // Hr border color
 // -------------------------
-@hrBorder:                @grayLighter;
+@hrBorder:                darken(@bodyBackground, 5%); //@grayLighter;
 
 
 // Wells
 // -------------------------
-@wellBackground: #f5f0e9;
+//@wellBackground: darken(@bodyBackground, 2%);
+@wellBackground: @bodyBackground;
 
 
 // Navbar
