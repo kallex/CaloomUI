@@ -8,16 +8,10 @@
         <p>[!ATOM]Excerpt[ATOM!]<p>
         <a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a>
     </p>
-        <!--<p class="blog-meta">
-            <span>[!ATOM]Published[ATOM!]</span>
-            <span>[!ATOM]Author[ATOM!]</span>
-            <span>[!ATOM]Location[ATOM!]</span>
-            <span>[!ATOM]Group[ATOM!]</span>
-        </p> -->
         <!-- modals -->
         <?php include 'oip-module-modal-read-more.txt' ?>
         <!-- modals -->
-		<!--<ol>
-             include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection
-		</ol>  -->
+		<ol>
+             <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection-->
+		</ol>
 	</li>
