@@ -6,7 +6,7 @@
 		<div class="control-group">
 			<label class="control-label" for="[!ATOM]ID[ATOM!]_LocationName">List of locations used by you</label> 
 			<div class="controls">
-                <?php include '../oip-atoms/oip-atom-unlink-location.txt' ?><!-- UseInformationObjectAsCollection:AddressAndLocationCollection -->
+                <?php include '../oip-atoms/oip-atom-unlink-location.txt' ?><!-- UseInformationObjectAsCollection:LocationCollection -->
 				<p class="help-block">
 					<strong>Note:</strong> You can remove the locations form your personal account but if they are shared with a group, the group still uses the location and can edit it. 
 				</p>
