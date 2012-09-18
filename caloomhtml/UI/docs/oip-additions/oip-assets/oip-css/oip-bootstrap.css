@@ -138,7 +138,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #2e1404;
+  color: #3d3d3d;
   background-color: #ffffff;
 }
 a {
@@ -1186,7 +1186,7 @@ select:focus:required:invalid:focus {
 }
 .help-block,
 .help-inline {
-  color: #74330a;
+  color: #636363;
 }
 .help-block {
   display: block;
