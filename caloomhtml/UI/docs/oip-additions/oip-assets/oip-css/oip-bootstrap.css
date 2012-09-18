@@ -4744,6 +4744,7 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+/* OIP Specific Styling */
 #container-focus {
   margin-top: 60px;
 }
@@ -4753,6 +4754,7 @@ a.badge:hover {
 .span4plus {
   width: 46.777%;
 }
+/* Aalto Specific Styling */
 div.services {
   border-top: 9px solid #928b81;
   padding: 0 0 7px 0;
