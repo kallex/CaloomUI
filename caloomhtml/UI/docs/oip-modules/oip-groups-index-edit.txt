@@ -1,11 +1,11 @@
 <p><img src="[!ATOM]ContentUrl[ATOM]"></p>
 oip-groups-index-edit-account.txt
-<p><a href="#contact-group" data-toggle="modal" class="btn">contact this group</a></p>
+<p><a href="#add-group" data-toggle="modal" class="btn">Add a new group</a></p>
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <p>[!ATOM]Summary[ATOM!]</p>
 <!-- end oip-groups-index-summary.txt -->
-<div id="contact-group" class="modal hide fade">
+<div id="add-group" class="modal hide fade">
     <div class="modal-header">
         <button class="close" data-dismiss="modal">&times;</button>
         <h2 class="title">
@@ -17,7 +17,7 @@ oip-groups-index-edit-account.txt
             <!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
-                    <label class="control-label" for="input01">Contact this group</label>
+                    <label class="control-label" for="input01">Add a group group</label>
                     <div class="controls">
                         <input name="Title" class="span4" id="input01" type="text" placeholder="Some text!">
                     </div>

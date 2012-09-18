@@ -3,9 +3,9 @@
 </div>
 <div class="row">
     <div class="span3">
-        <?php include '../oip-modules/oip-module-groups-index-account.txt' ?><!-- UseInformationObject:GroupIndex -->
+        <?php include '../oip-modules/oip-module-groups-index-account.txt' ?><!-- UseInformationObject:GroupSummaryIndex -->
     </div>
     <div class="span9">
-        <?php include '../oip-modules/oip-module-groups-summary.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection --><!-- My groups -->
+        <?php include '../oip-modules/oip-module-groups-summary.txt' ?>
     </div>
 </div>
