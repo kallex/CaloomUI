@@ -6,9 +6,9 @@
 	<li><a href="#tab-map-groups" data-toggle="tab">Collaborators </a></li>
 </ul>
 <div class="tab-content tab-border">
-	<div class="tab-pane tab-map active" id="tab-map-preview"><?php include'../oip-modules/oip-module-map-large.txt' ?></div><!--UseInformationObject:MapPreview -->
-	<div class="tab-pane" id="tab-map-edit"><?php include'../oip-modules/oip-module-map-edit-edit.txt' ?></div><!--UseInformationObject:MapEdit -->
-	<div class="tab-pane" id="tab-map-followers"><?php include'../oip-modules/oip-module-map-followers.txt' ?></div><!--UseInformationObject:MapFollowers -->
-	<div class="tab-pane" id="tab-map-groups"><?php include'../oip-modules/oip-module-map-collaborators.txt' ?></div><!--UseInformationObject:MapCollaborators -->
+	<div class="tab-pane tab-map active" id="tab-map-preview"><?php include'../oip-modules/oip-module-map-large.txt' ?><!--UseInformationObject:MapPreview --></div>
+	<div class="tab-pane" id="tab-map-edit"><?php include'../oip-modules/oip-module-map-edit-edit.txt' ?><!--UseInformationObject:MapEdit --></div>
+	<div class="tab-pane" id="tab-map-followers"><?php include'../oip-modules/oip-module-map-followers.txt' ?><!--UseInformationObject:MapFollowers --></div>
+	<div class="tab-pane" id="tab-map-groups"><?php include'../oip-modules/oip-module-map-collaborators.txt' ?><!--UseInformationObject:MapCollaborators --></div>
 </div>
 <!-- end oip-module-map-view.txt -->

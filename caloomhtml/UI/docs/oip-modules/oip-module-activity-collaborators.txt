@@ -9,17 +9,12 @@
                     <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:Collaborators -->
                 </div>
             </div>
-            <div class="control-group">
-                <label class="control-label">Pending collaborators</label>
+          <div class="control-group">
+                <label class="control-label">Add collaborators</label>
                 <div class="controls">
-                    <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:PendingCollaborators -->
+                    <?php include '../oip-atoms/oip-atom-choose-group-member.txt' ?>
                 </div>
-            </div>
-            <div class="control-group">
-                <label class="control-label" for="[!ATOM]ID[ATOM!]_EmailAddress">Invite collaborators</label>
-                <div class="controls">
-                    <input name="[!ATOM]ID[ATOM!]_EmailAddress" class="span3" id="[!ATOM]ID[ATOM!]_EmailAddress" type="text" value="[!ATOM]ID[ATOM!]_EmailAddress">
-                </div>
+              <p>pick from this list a group member to participate in your activity and send an invitation</p>
             </div>
             <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
         </fieldset>

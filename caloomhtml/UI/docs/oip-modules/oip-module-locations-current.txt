@@ -1,4 +1,3 @@
-<!-- oip-module-locations-current.txt -->
 <div id="identity" class="span7" style="margin-top:10px;min-height:300px">
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
@@ -42,6 +41,4 @@
 		</form>
 	</div>
 </div>
-
 <!-- end modals -->
-<!-- end oip-module-locations-current.txt -->

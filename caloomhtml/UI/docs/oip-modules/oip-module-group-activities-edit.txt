@@ -1,0 +1,21 @@
+<div class="tabbable tabs-left">
+    <ul class="nav nav-tabs" style="margin-bottom:0px;">
+        <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Profile</a></li> 
+        <li><a href="#tab-collaborators" data-toggle="tab">Collaborators</a></li>
+        <li><a href="#tab-category" data-toggle="tab">Categories</a></li>
+        <li><a href="#tab-images" data-toggle="tab">Images</a></li>
+        <li><a href="#tab-activities-locations-current" data-toggle="tab">Locations</a></li>
+        <li><a href="#tab-activities-locations-add" data-toggle="tab">Add Location</a></li>
+        <li><a href="#tab-activities-delete" data-toggle="tab" class="delete">Delete</a></li>
+    </ul>
+    
+    <div class="tab-content tab-border">
+        <div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules/oip-module-activities-profile.txt'  ?></div>
+        <div class="tab-pane" id="tab-collaborators"><?php include'../oip-modules/oip-module-collaborators.txt' ?></div><!-- UseInformationObject:Collaborators-->
+        <div class="tab-pane" id="tab-category"><?php include'../oip-modules/oip-module-category.txt' ?><!--UseInformationObject:Catgeory --></div>
+        <div class="tab-pane" id="tab-images"><?php include'../oip-modules/oip-module-images.txt'  ?><!--UseInformationObject:GroupProfile --></div>
+        <div class="tab-pane" id="tab-activities-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?></div>
+        <div class="tab-pane" id="tab-activities-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?></div>
+        <div class="tab-pane" id="tab-activities-delete"><?php include'../oip-modules/oip-module-activities-delete.txt' ?></div>
+    </div>
+</div>
