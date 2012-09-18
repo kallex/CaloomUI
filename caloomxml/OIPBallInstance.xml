@@ -821,6 +821,7 @@
 			</InformationObject>
 			<InformationObject name="QueueEnvelope" designDesc="QueueEnvelope for all kinds of queued items">
 				<InformationItems>
+          <InformationItem name="CurrentRetryCount" logicalDataType="Number_Integer"/>
           <InformationItem name="SingleOperation" logicalDataType="InformationObject" informationObjectName="OperationRequest"/>
           <InformationItem name="OrderDependentOperationSequence" logicalDataType="InformationObject" informationObjectName="OperationRequestCollection" />
 					<InformationItem name="ErrorContent" logicalDataType="InformationObject" informationObjectName="SystemError" />
@@ -834,6 +835,7 @@
         <InformationItem name="SubscriberNotification" logicalDataType="InformationObject" informationObjectName="Subscription" />
         <InformationItem name="UpdateWebContentOperation" logicalDataType="InformationObject" informationObjectName="UpdateWebContentOperation" />
         <InformationItem name="DeleteEntireOwner" logicalDataType="InformationObject" informationObjectName="DeleteEntireOwnerOperation" />
+        <InformationItem name="DeleteOwnerContent" logicalDataType="InformationObject" informationObjectName="DeleteOwnerContentOperation" />
         </InformationItems>
       </InformationObject>
             
@@ -843,11 +845,19 @@
           <InformationItem name="LocationPrefix" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
+            <InformationObject name="DeleteOwnerContentOperation" designDesc="Operation for owner content (not system structures)">
+        <InformationItems>
+          <InformationItem name="ContainerName" logicalDataType="Text_Short"/>
+          <InformationItem name="LocationPrefix" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
 			<InformationObject name="SystemError" designDesc="System error object">
 				<InformationItems>
 					<InformationItem name="ErrorTitle" logicalDataType="Text_Short" />
 					<InformationItem name="OccurredAt" logicalDataType="Time_DateTime" />
 					<InformationItem name="SystemErrorItems" logicalDataType="InformationObject" informationObjectName="SystemErrorItemCollection" />
+          <InformationItem name="MessageContent" logicalDataType="InformationObject" informationObjectName="QueueEnvelope" />
 				</InformationItems>
 			</InformationObject>
 			<InformationObject name="SystemErrorItem" designDesc="Error Item">
