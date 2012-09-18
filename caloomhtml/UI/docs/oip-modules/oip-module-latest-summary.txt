@@ -4,14 +4,6 @@
 <div>
     <ul class="thumbnails">
         <?php include 'oip-module-item-4-in-row.txt' ?><!--UseInformationObjectAsCollection:LatestCollection -->
-        <?php include 'oip-module-item-4-in-row.txt' ?><!--UseInformationObjectAsCollection:LatestCollection -->
-        <?php include 'oip-module-item-4-in-row.txt' ?><!--UseInformationObjectAsCollection:LatestCollection -->
-        <?php include 'oip-module-item-4-in-row.txt' ?><!--UseInformationObjectAsCollection:LatestCollection -->
-        <?php include 'oip-module-item-4-in-row.txt' ?><!--UseInformationObjectAsCollection:LatestCollection -->
-        <?php include 'oip-module-item-4-in-row.txt' ?><!--UseInformationObjectAsCollection:LatestCollection -->
-        <?php include 'oip-module-item-4-in-row.txt' ?><!--UseInformationObjectAsCollection:LatestCollection -->
-        <?php include 'oip-module-item-4-in-row.txt' ?><!--UseInformationObjectAsCollection:LatestCollection -->
-        <?php include 'oip-module-item-4-in-row.txt' ?><!--UseInformationObjectAsCollection:LatestCollection -->
      </ul>
     <ul class="pager">
         <li class="previous">
