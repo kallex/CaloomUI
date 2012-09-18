@@ -363,8 +363,9 @@
 
       <InformationObject name="ActivityContainer" designDesc="Group container">
         <InformationItems>
+          <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader"/>
           <InformationItem name="ActivityIndex" logicalDataType="InformationObject" informationObjectName="ActivityIndex" />
-          <InformationItem name="Activities" logicalDataType="InformationObject" informationObjectName="ActivityCollection"/>
+          <InformationItem name="ActivityModule" logicalDataType="InformationObject" informationObjectName="Activity"/>
         </InformationItems>
       </InformationObject>
 
@@ -380,8 +381,9 @@
           <InformationItem name="ActivityName" logicalDataType="Text_Short"/>
           <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
           <InformationItem name="Description" logicalDataType="Text_Long"/>
-          <InformationItem name="Moderators" logicalDataType="InformationObject" informationObjectName="ModeratorCollection"/>
+          <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
           <InformationItem name="ImageSets" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
+          <InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="AddressAndLocation"/>
           <InformationItem name="CategoryCollection" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
         </InformationItems>
       </InformationObject>
@@ -434,6 +436,7 @@
           <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader"/>
           <InformationItem name="SummaryBody" logicalDataType="Text_Long"/>
           <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
+          <InformationItem name="GroupSummaryIndex" logicalDataType="InformationObject" informationObjectName="GroupIndex"/>
           <InformationItem name="GroupCollection" logicalDataType="InformationObject" informationObjectName="GroupCollection" />
         </InformationItems>
       </InformationObject>
@@ -465,6 +468,7 @@
 
       <InformationObject name="AddLocationInfo" designDesc="Add location info">
         <InformationItems>
+          <InformationItem name="MapMarkers" logicalDataType="InformationObject" informationObjectName="MapMarkerCollection" />
           <InformationItem name="LocationName" logicalDataType="Text_Short"/>
           <InformationItem name="Longitude" logicalDataType="Text_Short"/>
           <InformationItem name="Latitude" logicalDataType="Text_Short"/>
