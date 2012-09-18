@@ -1,11 +1,16 @@
 <div id="identity" class="span7" style="margin-top:10px">
-	<form id="" method="post" class="form-horizontal ">
+	<form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset>
 			<div class="control-group">
 				<label class="control-label">Profile Image</label> 
 				<div class="controls">
-					<input class="span5" id="appendedInputButtons" size="16" type="file">
+<!-- THEBALL-CONTEXT-OBJECT-BEGIN:ProfileImage -->
+<!-- THEBALL-CONTEXT-OBJECT-BEGIN:ImageData -->
+					<img src="[!ATOM]ContentUrl[ATOM!]" alt="Testdrive for ImageData" />
+					<input class="span5" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
+<!-- THEBALL-CONTEXT-END:* -->
+<!-- THEBALL-CONTEXT-END:* -->
 				</div>
 			</div>
 			<div class="control-group">

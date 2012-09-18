@@ -1,19 +1,27 @@
 <!-- oip-module-group-profile.txt -->
 <div id="group-profile" class="span7" style=";margin-top:10px">
-	<form id="" method="post" class="form-horizontal ">
+	<form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="profile">
 			<div class="control-group">
 				<label class="control-label">Profile image</label> 
 				<div class="controls">
-					<input class="btn btn-small span5" id="appendedInputButtons" size="16" type="file">
+<!-- THEBALL-CONTEXT-OBJECT-BEGIN:ProfileImage -->
+<!-- THEBALL-CONTEXT-OBJECT-BEGIN:ImageData -->
+					<img src="[!ATOM]ContentUrl[ATOM!]" alt="Group Profile Image" />
+					<input class="span5" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
+<!-- THEBALL-CONTEXT-END:* -->
+<!-- THEBALL-CONTEXT-END:* -->
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label">Icon (for use on the map and as your group's logo)</label> 
-				<div class="controls">
-					<input class="btn btn-small span5" id="appendedInputButtons" size="16" type="file">
-				</div>
+<!-- THEBALL-CONTEXT-OBJECT-BEGIN:IconImage -->
+<!-- THEBALL-CONTEXT-OBJECT-BEGIN:ImageData -->
+					<img src="[!ATOM]ContentUrl[ATOM!]" alt="Group Icon Image" />
+					<input class="span5" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
+<!-- THEBALL-CONTEXT-END:* -->
+<!-- THEBALL-CONTEXT-END:* -->
 			</div>			
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Group name</label> 

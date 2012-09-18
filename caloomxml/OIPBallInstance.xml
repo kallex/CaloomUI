@@ -633,9 +633,7 @@
 			<!-- end Calendar -->
 			<InformationObject name="Image" designDesc="Image and attributes">
 				<InformationItems>
-					<!--
-					<InformationItem name="ImageData" informationObjectName="ImageVideoSoundVectorRaw" logicalDataType="InformationObject" />
-          -->
+					<InformationItem name="ImageData" informationObjectName="MediaContent" logicalDataType="InformationObject" />
           <InformationItem name="Title" logicalDataType="Text_Short" />
           <InformationItem name="Caption" logicalDataType="Text_Short" />
           <!--
@@ -643,6 +641,11 @@
 					<InformationItem name="Tooltip" informationObjectName="Tooltip" logicalDataType="InformationObject" />-->
 				</InformationItems>
 			</InformationObject>
+      
+      <InformationObject name="MediaContent" designDesc="Generic media content">
+        <InformationObjectContent fileExtension="" originalFileName="" />
+      </InformationObject>
+      
       <InformationObject name="ImageGroupCollection" designDesc="Collection of image groups">
         <CollectionFor contentInformationObjectName="ImageGroup"/>
       </InformationObject>
@@ -948,6 +951,7 @@
 					<InformationItem name="ForAllPeople" logicalDataType="InformationObject" informationObjectName="IconTitleDescription" />
 				</InformationItems>
 			</InformationObject>
+      <!--
 			<InformationObject name="Icon" designDesc="Icon image">
 				<InformationObjectContent fileExtension=".png" originalFileName="Icon.png" />
 			</InformationObject>
@@ -957,6 +961,7 @@
 			<InformationObject name="WebPage" designDesc="Web Page Content">
 				<InformationObjectContent fileExtension=".html" originalFileName="WebPage.html" />
 			</InformationObject>
+      -->
 		</InformationModel>
 		<Operations>
 			<Operation name="UpdatePageContent">
