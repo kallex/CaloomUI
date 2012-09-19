@@ -1,15 +1,20 @@
 <!-- oip-module-group-profile.txt -->
 <div id="group-profile" class="span7" style=";margin-top:10px">
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
 =======
 	<form id="" enctype=”multipart/form-data” method="post" class="form-horizontal ">
 >>>>>>> 	<form id="" enctype=”multipart/form-data” method="post" class="form-horizontal ">
+=======
+    <form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
+>>>>>>> synced with Kalle's account-identity and group-profile
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="profile">
 			<div class="control-group">
 				<label class="control-label">Profile image</label> 
 				<div class="controls">
+<<<<<<< HEAD
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ProfileImage -->
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ImageData -->
 					<img src="[!ATOM]ContentUrl[ATOM!]" alt="Group Profile Image" />
@@ -26,6 +31,24 @@
 					<input class="span5" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
 <!-- THEBALL-CONTEXT-END:* -->
 <!-- THEBALL-CONTEXT-END:* -->
+=======
+                    <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ProfileImage -->
+                    <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ImageData -->
+                    <img src="[!ATOM]ContentUrl[ATOM!]" alt="Group Profile Image" />
+                    <input class="span5" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
+                    <!-- THEBALL-CONTEXT-END:* -->
+                    <!-- THEBALL-CONTEXT-END:* -->
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label">Icon (for use on the map and as your group's logo)</label>
+                !-- THEBALL-CONTEXT-OBJECT-BEGIN:IconImage -->
+                <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ImageData -->
+                <img src="[!ATOM]ContentUrl[ATOM!]" alt="Group Icon Image" />
+                <input class="span5" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
+                <!-- THEBALL-CONTEXT-END:* -->
+                <!-- THEBALL-CONTEXT-END:* -->
+>>>>>>> synced with Kalle's account-identity and group-profile
 			</div>			
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Group name</label> 
