@@ -1,5 +1,9 @@
 <div id="identity" class="span7" style="margin-top:10px">
+<<<<<<< HEAD
 	<form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
+=======
+	<form id="" enctype=”multipart/form-data” method="post" class="form-horizontal ">
+>>>>>>> 	<form id="" enctype=”multipart/form-data” method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset>
 			<div class="control-group">

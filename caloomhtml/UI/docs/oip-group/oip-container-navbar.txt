@@ -14,13 +14,13 @@
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Group Activities<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
-                            <li> <a href="oip-layout-activities-add.phtml"> Edit (temp)</a> </li>
+                            <li> <a href="oip-layout-activities-add.phtml"> Add (modal)</a> </li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Group<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li> <a href="oip-layout-groups-view.phtml"> Profile View</a> </li>
-                            <li> <a href="oip-layout-groups-edit.phtml"> Edit</a> </li>
+                            <li> <a href="oip-layout-groups-edit.phtml"> Edit this group</a> </li>
                         </ul>
                     </li>
                 </ul>

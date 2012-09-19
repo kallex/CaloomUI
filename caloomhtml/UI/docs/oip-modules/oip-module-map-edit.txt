@@ -1,4 +1,3 @@
-<!-- oip-module-map-view.txt -->
 <ul class="nav nav-tabs" style="margin-bottom:0px">
 	<li class="active"><a href="#tab-map-preview" data-toggle="tab">Map [Preview] </a></li>
 	<li><a href="#tab-map-edit" data-toggle="tab">What</a></li>
@@ -11,4 +10,3 @@
 	<div class="tab-pane" id="tab-map-followers"><?php include'../oip-modules/oip-module-map-followers.txt' ?><!--UseInformationObject:MapFollowers --></div>
 	<div class="tab-pane" id="tab-map-groups"><?php include'../oip-modules/oip-module-map-collaborators.txt' ?><!--UseInformationObject:MapCollaborators --></div>
 </div>
-<!-- end oip-module-map-view.txt -->
