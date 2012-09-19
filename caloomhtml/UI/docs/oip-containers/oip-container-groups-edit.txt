@@ -3,7 +3,7 @@
 </div>
 <div class="row">
     <div class="span3">
-        <?php include '../oip-modules/oip-groups-index-edit.txt' ?><!-- UseInformationObject:GroupIndex -->
+        <?php include '../oip-modules/oip-module-groups-index-edit.txt' ?><!-- UseInformationObject:GroupIndex -->
     </div>
     <div class="span9">
         <?php include '../oip-modules/oip-module-groups.txt' ?>
