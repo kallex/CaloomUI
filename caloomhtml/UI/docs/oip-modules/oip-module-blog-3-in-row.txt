@@ -11,7 +11,7 @@
     <!-- modals -->
     <?php include 'oip-module-modal-read-more.txt' ?>
     <!-- modals -->
-    <ol style="list-style: none;margin-left: 0px;">
+    <ol class="unstyled">
         <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection-->
     </ol>
 </li>

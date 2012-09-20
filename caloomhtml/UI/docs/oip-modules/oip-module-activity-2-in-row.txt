@@ -7,7 +7,7 @@
         </h3>
         <p>[!ATOM]Description[ATOM!]<p>
     </p>
- 		<ol>
+ 		<ol class="unstyled">
              <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection-->
 		</ol>
 	</li>

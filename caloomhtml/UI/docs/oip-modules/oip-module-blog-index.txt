@@ -3,15 +3,15 @@
 <h4>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <h6>[!ATOM]BlogByLocation[ATOM!]</h6>
-<ul>
+<ul class="unstyled">
     <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByLocation -->
 </ul>
 <h6>[!ATOM]BlogByDate[ATOM!]</h6>
-<ul>
+<ul class="unstyled">
     <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByDate -->
 </ul>
 <h6>[!ATOM]BlogByAuthor[ATOM!]</h6>
-<ul>
+<ul class="unstyled">
     <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByAuthor -->
 </ul>
 <p>[!ATOM]Summary[ATOM!]</p>
