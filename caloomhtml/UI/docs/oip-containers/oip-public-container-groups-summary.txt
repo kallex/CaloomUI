@@ -1,3 +1,4 @@
+<!--oip-public-container-groups-summary-->
 <div class="services group">
     <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 </div>

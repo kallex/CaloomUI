@@ -26,7 +26,7 @@
                 </ul>
                 <ul class="nav pull-right">
                     <li><a  href="../../publicsite/oip-public/oip-layout-landing.phtml">Edit Public Site</a></li>
-                    <li><a href="/auth/account/website/oip-account/oip-layout-account-summary.phtml">My Account</a></li>
+                    <li><a href="/auth/account/website/oip-account/oip-layout-account-welcome.phtml">My Account</a></li>
                 </ul>
             </div>
         </div>
