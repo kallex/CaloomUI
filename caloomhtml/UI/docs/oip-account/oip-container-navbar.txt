@@ -1,4 +1,4 @@
-<div class="account navbar navbar-fixed-top" style="border-bottom-color: red;border-bottom-style: solid;border-bottom-width: 9px;">
+<div class="account navbar navbar-fixed-top" style="border-bottom-color: #adff2f;border-bottom-style: solid;border-bottom-width: 1px;">
     <div class="navbar-inner">
         <div class="container">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand active" href="oip-layout-landing.phtml">Aalto Global Impact [AccountName]</a>
