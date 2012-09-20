@@ -4760,6 +4760,21 @@ div.services {
   padding: 0 0 7px 0;
   border-color: #7f786d;
 }
+.navbar .nav > li.blog:hover a {
+  color: #1c9133;
+}
+.navbar .nav > li.about:hover a {
+  color: #5826ab;
+}
+.navbar .nav > li.map:hover a {
+  color: #a20690;
+}
+.navbar .nav > li.group:hover a {
+  color: #fd6309;
+}
+.navbar .nav > li.activity:hover a {
+  color: #1e9ca8;
+}
 div.services.blog {
   border-color: #1c9133;
 }

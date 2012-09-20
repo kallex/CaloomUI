@@ -5,11 +5,11 @@
 			<a class="brand active" href="oip-layout-landing.phtml" style="float:left;margin-left:0px;margin-right:20px">Aalto Global Impact</a>
 			<div class="nav-collapse">
 				<ul class="nav">
-			        <li> <a href="oip-layout-map.phtml"> Map</a> </li>
-					<li><a href="oip-layout-blog.phtml">Blog</a></li>
-					<li><a href="oip-layout-about.phtml">About</span></a></li>
-					<li><a href="oip-layout-activities-summary.phtml">Activities</a></li>
-					<li><a href="oip-layout-groups-summary.phtml">Groups</a></li>
+			        <li class="map"> <a href="oip-layout-map.phtml"> Map</a> </li>
+					<li class="blog"><a href="oip-layout-blog.phtml">Blog</a></li>
+					<li class="about"><a href="oip-layout-about.phtml">About</span></a></li>
+					<li class="activity"><a href="oip-layout-activities-summary.phtml">Activities</a></li>
+					<li class="group"><a href="oip-layout-groups-summary.phtml">Groups</a></li>
                 </ul>
 				<ul class="nav pull-right">
                     <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">temporary extras<b class="caret"></b></a>
