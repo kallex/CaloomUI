@@ -1,0 +1,10 @@
+<?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
+<hr>
+<div class="row">
+    <div class="span3 blog-index">
+        <?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexGroup -->
+    </div>
+    <div class="span9">
+        <?php include '../oip-modules/oip-module-blog-summary.txt' ?><!--UseInformationObject:RecentBlogSummary --><!-- My own blogs -->
+    </div>
+</div>

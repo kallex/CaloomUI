@@ -5,4 +5,12 @@
     <ul class="thumbnails">
         <?php include '../oip-modules/oip-module-group-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
     </ul>
+    <ul class="pager">
+        <li class="previous">
+            <a href="../oip-layouts/oip-layout-blog-more.phtml">&larr; Older</a>
+        </li>
+        <li class="next">
+            <a href="../oip-layouts/oip-layout-blog-more.phtml">Newer &rarr;</a>
+        </li>
+    </ul>
 </div>
