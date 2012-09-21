@@ -354,6 +354,7 @@
 
       <InformationObject name="ActivityIndex" designDesc="Activity index">
         <InformationItems>
+          <InformationItem name="Icon" logicalDataType="InformationObject" informationObjectName="Image" />
           <InformationItem name="Title" logicalDataType="Text_Short" />
           <InformationItem name="Introduction" logicalDataType="Text_Long" />
           <InformationItem name="Summary" logicalDataType="Text_Long" />
@@ -459,6 +460,7 @@
 
       <InformationObject name="GroupIndex" designDesc="Group index">
         <InformationItems>
+          <InformationItem name="Icon" logicalDataType="InformationObject" informationObjectName="Image" />
           <InformationItem name="Title" logicalDataType="Text_Short" />
           <InformationItem name="Introduction" logicalDataType="Text_Long" />
           <InformationItem name="Summary" logicalDataType="Text_Long" />
@@ -549,8 +551,8 @@
 			<!-- should this be a Collection? -->
 			<InformationObject name="BlogIndexGroup" designDesc="Index of Blogs by Date, Location, Author">
 				<InformationItems>
+          <InformationItem name="Icon" logicalDataType="InformationObject" informationObjectName="Image" />
           <InformationItem name="Title" logicalDataType="Text_Short" />
-          <InformationItem name="SubTitle" logicalDataType="Text_Short" />
           <InformationItem name="Introduction" logicalDataType="Text_Long" />
           <InformationItem name="BlogByDate" logicalDataType="InformationObject" informationObjectName="BlogCollection" />
 					<InformationItem name="BlogByLocation" logicalDataType="InformationObject" informationObjectName="BlogCollection" />
