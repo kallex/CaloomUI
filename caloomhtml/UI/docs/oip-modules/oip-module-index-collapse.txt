@@ -1,5 +1,4 @@
-oip-activities-index-summary-group.txt
-<p><img src="[!ATOM]ContentUrl[ATOM]"><br>This is the group's icon or brand image or logo</p>
+<p><img src="[!ATOM]Icon.ImageData.ContentUrl[ATOM]"><br>This is the group's icon or brand image or logo</p>
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <div class="accordion index" id="accordion2">
