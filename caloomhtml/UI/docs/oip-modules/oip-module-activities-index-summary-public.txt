@@ -1,6 +1,5 @@
-<!-- oip-activities-index-summary-public.txt -->
 <p><img src="[!ATOM]ContentUrl[ATOM]"></p>
-<p><a href="#contact-group" data-toggle="modal" class="btn">contact this group</a></p>
+<!--<p><a href="#contact-group" data-toggle="modal" class="btn">contact this group</a></p>-->
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <p>[!ATOM]Summary[ATOM!]</p>
@@ -27,4 +26,3 @@
         </form>
     </div>
 </div>
-<!-- end oip-activities-index-summary-public.txt -->
