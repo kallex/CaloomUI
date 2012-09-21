@@ -1,0 +1,79 @@
+oip-activities-index-summary-group.txt
+<p><img src="[!ATOM]ContentUrl[ATOM]"><br>This is the group's icon or brand image or logo</p>
+<h4>[!ATOM]Title[ATOM!]</h4>
+<p>[!ATOM]Introduction[ATOM!]</p>
+<div class="accordion index" id="accordion2">
+    <div class="accordion-group accordion-group-index">
+        <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                blogs by A <i class="icon-hand-down"></i>
+            </a>
+        </div>
+        <div id="collapseOne" class="accordion-body collapse in">
+            <div class="accordion-inner accordion-group-index">
+                <ul class="unstyled">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-group accordion-group-index">
+        <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                blogs by B <i class="icon-hand-down"></i>
+            </a>
+        </div>
+        <div id="collapseTwo" class="accordion-body collapse">
+            <div class="accordion-inner accordion-group-index">
+                <ul class="unstyled">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-group accordion-group-index">
+        <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                blogs by c  <i class="icon-hand-down"></i>
+            </a>
+        </div>
+        <div id="collapseThree" class="accordion-body collapse">
+            <div class="accordion-inner accordion-group-index">
+                <ul class="unstyled">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-group accordion-group-index">
+        <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                blogs by d   <i class="icon-hand-down"></i>
+            </a>
+        </div>
+        <div id="collapseFour" class="accordion-body collapse">
+            <div class="accordion-inner accordion-group-index">
+                <ul class="unstyled">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<p>[!ATOM]Summary[ATOM!]</p>
