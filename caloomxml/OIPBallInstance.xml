@@ -170,7 +170,8 @@
       </InformationObject>
 			<InformationObject name="AccountIndex" designDesc="Account index">
 				<InformationItems>
-					<InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="Icon" logicalDataType="InformationObject" informationObjectName="Image" />
+          <InformationItem name="Title" logicalDataType="Text_Short" />
 					<InformationItem name="Introduction" logicalDataType="Text_Long" />
 					<InformationItem name="Summary" logicalDataType="Text_Long" />
 				</InformationItems>
@@ -534,17 +535,19 @@
 			</InformationObject>
 			<InformationObject name="Blog" designDesc="Individual Blog">
 				<InformationItems>
-					<InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
+          <InformationItem name="Title" logicalDataType="Text_Short" />
 					<InformationItem name="SubTitle" logicalDataType="Text_Short" />
           <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
           <InformationItem name="Published" logicalDataType="Time_DateTime" />
 					<InformationItem name="Author" logicalDataType="Text_Short" />
+          <InformationItem name="FeaturedImage" logicalDataType="InformationObject" informationObjectName="Image"/>
 					<InformationItem name="ImageGroup" informationObjectName="ImageGroup" logicalDataType="InformationObject" />
 					<InformationItem name="Body" logicalDataType="Text_Long" />
 					<InformationItem name="Excerpt" logicalDataType="Text_Long" />
 					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location" />
-					<InformationItem name="Category" logicalDataType="InformationObject" informationObjectName="Category" />
-					<!-- needed is, category, servicetype description, keywords -->
+          <InformationItem name="CategoryCollection" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
+          <!-- needed is, category, servicetype description, keywords -->
 					<InformationItem name="SocialPanel" informationObjectName="SocialPanelCollection" logicalDataType="InformationObject" />
 				</InformationItems>
 			</InformationObject>
@@ -565,8 +568,11 @@
 			<!-- end Blog -->
 			<InformationObject name="CalendarIndex" designDesc="">
 				<InformationItems>
-					<InformationItem name="Title" logicalDataType="Text_Short" />
-				</InformationItems>
+          <InformationItem name="Icon" logicalDataType="InformationObject" informationObjectName="Image" />
+          <InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="Introduction" logicalDataType="Text_Long" />
+          <InformationItem name="Summary" logicalDataType="Text_Long" />
+        </InformationItems>
 			</InformationObject>
 			<InformationObject name="Filter" designDesc="">
 				<InformationItems>
