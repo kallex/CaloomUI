@@ -3,9 +3,9 @@
 </div>
 <div class="row">
     <div class="span3">
-        <?php include '../oip-modules/oip-module-blog-index-edit.txt' ?><!--UseInformationObject:BlogIndexCollection -->
+        <?php include '../oip-modules/oip-module-index-collapse.txt' ?><!--UseInformationObject:BlogIndexGroup -->
     </div>
     <div class="span9">
-        <?php include '../oip-modules/oip-module-blogs.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
+        <?php include '../oip-modules/oip-module-blogs.txt' ?><!--UseInformationObject:FeaturedBlog-->
     </div>
 </div>
