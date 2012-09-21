@@ -1,12 +1,11 @@
-<!--oip-public-container-groups-summary-->
 <div class="services group">
     <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 </div>
 <div class="row">
     <div class="span3">
-        <?php include '../oip-modules/oip-module-groups-index-summary-public.txt' ?><!--UseInformationObject:GroupIndex-->
+        <?php include '../oip-modules/oip-module-groups-index-summary-public.txt' ?><!--UseInformationObject:GroupSummaryIndex-->
     </div>
     <div class="span9">
-        <?php include '../oip-modules/oip-module-groups-summary.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-groups-summary.txt' ?>
     </div>
 </div>
