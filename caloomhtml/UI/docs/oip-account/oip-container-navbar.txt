@@ -9,7 +9,8 @@
                     <li class="dropdown blog"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Blog<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li> <a href="oip-layout-blog-summary.phtml"> Summary</a> </li>
-                            <li> <a href="oip-layout-blog-add.phtml"> Edit (temp)</a> </li>
+                            <li> <a href="oip-layout-blog-edit.phtml"> Edit (temp)</a> </li>
+                            <li> <a href="#add-blog" data-toggle="modal"> Add</a> </li>
                         </ul>
                     </li>
                     <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Activities<b class="caret"></b></a>
@@ -45,14 +46,14 @@
     <div class="modal-header">
         <button class="close" data-dismiss="modal">&times;</button>
         <h2 class="title">
-            Change Group name
+            Create a group
         </h2>
     </div>
     <div class="modal-body">
         <form method="post" class="form-horizontal">
 
-            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.CreateGroupInfo:CreateGroup -->
-            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.CreateGroupInfo:CreateGroup -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
                     <label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Add the group's name</label>
@@ -63,7 +64,7 @@
 
                 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
             </fieldset>
-            <!-- THEBALL-CONTEXT-END:* -->
+<!-- THEBALL-CONTEXT-END:* -->
         </form>
     </div>
 </div>
@@ -72,17 +73,17 @@
     <div class="modal-header">
         <button class="close" data-dismiss="modal">&times;</button>
         <h2 class="title">
-            Add an event
+            Add an activity
         </h2>
     </div>
     <div class="modal-body">
         <form method="post" class="form-horizontal">
 
-            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddActivityInfo:AddActivity -->
-            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddActivityInfo:AddActivity -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
-                    <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Add the event's name'</label>
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Add the activity's name'</label>
                     <div class="controls">
                         <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span4" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
                     </div>
@@ -90,7 +91,34 @@
 
                 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
             </fieldset>
-            <!-- THEBALL-CONTEXT-END:* -->
+<!-- THEBALL-CONTEXT-END:* -->
+        </form>
+    </div>
+</div>
+
+
+<div id="add-blog" class="modal hide fade">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h2 class="title">
+            Add a blog article
+        </h2>
+    </div>
+    <div class="modal-body">
+        <form method="post" class="form-horizontal">
+
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddActivityInfo:AddActivity -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Add the blog's title'</label>
+                    <div class="controls">
+                        <input name="[!ATOM]ID[ATOM!]_Title" class="span4" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]">
+                    </div>
+                </div>
+                <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+            </fieldset>
+<!-- THEBALL-CONTEXT-END:* -->
         </form>
     </div>
 </div>
