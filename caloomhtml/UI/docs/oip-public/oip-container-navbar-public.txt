@@ -11,14 +11,6 @@
 					<li class="activity"><a href="oip-layout-activities-summary.phtml">Activities</a></li>
 					<li class="group"><a href="oip-layout-groups-summary.phtml">Groups</a></li>
                 </ul>
-				<ul class="nav pull-right">
-                    <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">temporary extras<b class="caret"></b></a>
-                        <ul class="dropdown-menu" style="list-style-type: none;">
-                            <li><a href="oip-layout-search-results.phtml"></i>Search Results</a></li>
-                            <li><a href="oip-layout-error.phtml"></i>Error</a></li>
-                        </ul>
-					</li>
-				</ul>
                 <a class="btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a>
 			</div>
 		</div>
