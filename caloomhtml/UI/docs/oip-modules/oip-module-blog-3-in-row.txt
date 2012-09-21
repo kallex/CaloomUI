@@ -1,6 +1,5 @@
 <li class="span3">
-    <img src="../oip-additions/oip-assets/oip-images/placeholder/thumb_1.jpg" class="img-style row1" alt="">
-    <!--<img class="img-style row1" src="[!ATOM]ImageGroupUrl[ATOM!]"  /> -->
+    <img class="img-style row1" src="[!ATOM]FeaturedImage.ImageData.ContentUrl[ATOM!]"/>
     <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <br><small>[!ATOM]SubTitle[ATOM!]</small>
