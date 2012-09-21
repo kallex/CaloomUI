@@ -1,3 +1,1 @@
-<!-- oip-atom-moderator-name.txt -->
-<a data-toggle="modal" href="#[!ATOM]ProfileUrl[ATOM!]"> [!ATOM]ModeratorName[ATOM!]</a>
-<!-- end oip-atom-moderator-name.txt -->
+<a data-toggle="modal" href="#[!ATOM]ProfileUrl[ATOM!]" class="editable endEditable"> [!ATOM]ModeratorName[ATOM!]</a>

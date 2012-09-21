@@ -1,3 +1,1 @@
-<!-- oip-atom-referencelink.txt -->
-<a href="[!ATOM]URL[ATOM!]">[!ATOM]Title[ATOM!]</a>
-<!-- end oip-atom-referencelink.txt -->
+<a href="[!ATOM]URL[ATOM!]" class="editable endEditable">[!ATOM]Title[ATOM!]</a>

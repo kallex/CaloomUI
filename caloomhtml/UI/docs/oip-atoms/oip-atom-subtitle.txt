@@ -1,4 +1,2 @@
-<!-- oip-atom-subtitle.txt -->
-<a data-id="[!ATOM]ID[ATOM!]_SubTitle" data-toggle="modal" title="edit-content" class="open-IncontextEditDialog_Text_Short in-context-edit" href="#IncontextEditDialog_Text_Short">[!ATOM]SubTitle[ATOM!]</a>
-<!-- end oip-atom-subtitle.txt -->
+<a data-id="[!ATOM]ID[ATOM!]_SubTitle" data-toggle="modal" title="edit-content" class="editable endEditable open-IncontextEditDialog_Text_Short in-context-edit" href="#IncontextEditDialog_Text_Short">[!ATOM]SubTitle[ATOM!]</a>
 
