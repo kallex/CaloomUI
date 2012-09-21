@@ -5,35 +5,27 @@
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                blogs by A <i class="icon-hand-down"></i>
+                blogs by location <i class="icon-hand-down"></i>
             </a>
         </div>
         <div id="collapseOne" class="accordion-body collapse in">
             <div class="accordion-inner accordion-group-index">
                 <ul class="unstyled">
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                    <li>item 4</li>
-                    <li>item 5</li>
-                </ul>
+                    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByLocation -->
+               </ul>
             </div>
         </div>
     </div>
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                blogs by B <i class="icon-hand-down"></i>
+                blogs by date <i class="icon-hand-down"></i>
             </a>
         </div>
         <div id="collapseTwo" class="accordion-body collapse">
             <div class="accordion-inner accordion-group-index">
                 <ul class="unstyled">
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                    <li>item 4</li>
-                    <li>item 5</li>
+                    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByDate -->
                 </ul>
             </div>
         </div>
@@ -41,17 +33,13 @@
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                blogs by c  <i class="icon-hand-down"></i>
+                blogs by author  <i class="icon-hand-down"></i>
             </a>
         </div>
         <div id="collapseThree" class="accordion-body collapse">
             <div class="accordion-inner accordion-group-index">
                 <ul class="unstyled">
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                    <li>item 4</li>
-                    <li>item 5</li>
+                    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByAuthor -->
                 </ul>
             </div>
         </div>
@@ -59,17 +47,13 @@
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-                blogs by d   <i class="icon-hand-down"></i>
+                blogs by category   <i class="icon-hand-down"></i>
             </a>
         </div>
         <div id="collapseFour" class="accordion-body collapse">
             <div class="accordion-inner accordion-group-index">
                 <ul class="unstyled">
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                    <li>item 4</li>
-                    <li>item 5</li>
+                    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByCategory -->
                 </ul>
             </div>
         </div>
