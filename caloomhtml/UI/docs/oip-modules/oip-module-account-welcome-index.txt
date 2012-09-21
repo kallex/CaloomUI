@@ -1,5 +1,5 @@
 <p>
-    <img src="[!ATOM]ContentUrl[ATOM]">
+    <img src="[!ATOM]Icon.ImageData.ContentUrl[ATOM]">
 </p>
 <h3>
     [!ATOM]Title[ATOM!]
@@ -7,12 +7,6 @@
 <p>
     [!ATOM]Introduction[ATOM!]
 </p>
-<ul class="unstyled">
-    <li>intro text</li>
-    <li>New groups</li>
-    <li>New Activities</li>
-    <li>New Messages</li>
-</ul>
 <p>
     [!ATOM]Summary[ATOM!]
 </p>
