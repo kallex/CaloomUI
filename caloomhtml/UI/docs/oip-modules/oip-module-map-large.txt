@@ -1,5 +1,5 @@
 <div id="map_canvas" style="height:522px;"></div>
-<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/OpenLayers.js"></script>
 <script>
     map = new OpenLayers.Map("map-canvas");
     map.addLayer(new OpenLayers.Layer.OSM());

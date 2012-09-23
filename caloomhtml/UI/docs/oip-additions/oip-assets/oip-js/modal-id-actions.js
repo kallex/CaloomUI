@@ -9,3 +9,13 @@ $(document).on("click", ".open-IDAction_ConfirmRemove", function () {
 
     $('#IDAction_ConfirmRemove').modal('show');
 });
+
+$("#edittogle").click(function () {
+    alert('Toggling page elements to/from edit mode...');
+    //var inEditMode = $(".editable");
+    //var notInEditMode = $(".endEditable");
+    //inEditMode.removeClass("editable").addClass("endEditable");
+    //notInEditMode.removeClass("endEditable").addClass("editable");
+    //alert("Toggled to edit: " + not.length + " - toggled off from edit: " + inedi.length + " elements...");
+});
+

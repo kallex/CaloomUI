@@ -363,7 +363,7 @@
       </InformationObject>
 
 
-      <InformationObject name="ActivityContainer" designDesc="Group container">
+      <InformationObject name="ActivityContainer" designDesc="Activity container">
         <InformationItems>
           <InformationItem name="Header" logicalDataType="InformationObject" informationObjectName="ContainerHeader"/>
           <InformationItem name="ActivityIndex" logicalDataType="InformationObject" informationObjectName="ActivityIndex" />
@@ -543,6 +543,7 @@
 					<InformationItem name="Author" logicalDataType="Text_Short" />
           <InformationItem name="FeaturedImage" logicalDataType="InformationObject" informationObjectName="Image"/>
 					<InformationItem name="ImageGroup" informationObjectName="ImageGroup" logicalDataType="InformationObject" />
+					<InformationItem name="VideoGroup" informationObjectName="VideoGroup" logicalDataType="InformationObject" />
 					<InformationItem name="Body" logicalDataType="Text_Long" />
 					<InformationItem name="Excerpt" logicalDataType="Text_Long" />
 					<InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location" />
@@ -639,7 +640,18 @@
 			</InformationObject>
       -->
 			<!-- end Calendar -->
-			<InformationObject name="Image" designDesc="Image and attributes">
+      <InformationObject name="Video" designDesc="Video and attributes">
+        <InformationItems>
+          <InformationItem name="VideoData" informationObjectName="MediaContent" logicalDataType="InformationObject" />
+          <InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="Caption" logicalDataType="Text_Short" />
+          <!--
+					<InformationItem name="ImageAlt" logicalDataType="Text_Short" />
+					<InformationItem name="Tooltip" informationObjectName="Tooltip" logicalDataType="InformationObject" />-->
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="Image" designDesc="Image and attributes">
 				<InformationItems>
 					<InformationItem name="ImageData" informationObjectName="MediaContent" logicalDataType="InformationObject" />
           <InformationItem name="Title" logicalDataType="Text_Short" />
@@ -664,10 +676,20 @@
 					<InformationItem name="ImagesCollection" informationObjectName="ImagesCollection" logicalDataType="InformationObject" />
 				</InformationItems>
 			</InformationObject>
-			<InformationObject name="ImagesCollection" designDesc="">
-				<CollectionFor contentInformationObjectName="Image" />
-			</InformationObject>
-			<InformationObject name="Tooltip" designDesc="Tooltip">
+      <InformationObject name="VideoGroup" designDesc="Group of Videos">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="Description" logicalDataType="Text_Short" />
+          <InformationItem name="VideoCollection" informationObjectName="VideoCollection" logicalDataType="InformationObject" />
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="ImagesCollection" designDesc="">
+        <CollectionFor contentInformationObjectName="Image" />
+      </InformationObject>
+      <InformationObject name="VideoCollection" designDesc="">
+        <CollectionFor contentInformationObjectName="Video" />
+      </InformationObject>
+      <InformationObject name="Tooltip" designDesc="Tooltip">
 				<InformationItems>
 					<InformationItem name="TooltipText" logicalDataType="Text_Short" />
 				</InformationItems>
