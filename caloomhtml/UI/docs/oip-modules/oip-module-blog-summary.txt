@@ -5,6 +5,12 @@
     <ul class="thumbnails">
         <?php include '../oip-modules/oip-module-blog-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
     </ul>
+    <ul class="thumbnails"> 2 in row
+        <?php include '../oip-modules/oip-module-blog-2-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+    </ul>
+    <ul class="thumbnails"> 1 in row
+        <?php include '../oip-modules/oip-module-blog-1-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+    </ul>
     <ul class="pager">
         <li class="previous">
             <a href="../oip-layouts/oip-layout-blog-more.phtml">&larr; Older</a>
