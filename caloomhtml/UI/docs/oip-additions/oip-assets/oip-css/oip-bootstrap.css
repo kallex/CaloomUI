@@ -4782,10 +4782,10 @@ a.badge:hover {
   margin-top: 60px;
 }
 .span2plus {
-  width: 21.777%;
+  width: 21.5%;
 }
 .span4plus {
-  width: 46.777%;
+  width: 46.57%;
 }
 /* Aalto Specific Styling */
 div.services {
@@ -4835,6 +4835,7 @@ div.services h1 {
   font-size: 80%;
   padding: 3px 10px;
 }
-.pager a:hover {
-  background-color: #f5f5f5;
+a.wide-flat img {
+  position: absolute;
+  clip: rect(250px, 800px, 350px, 0px);
 }

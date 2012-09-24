@@ -1,4 +1,4 @@
-<div class="tabbable tabs-left">
+<div class="tabbable tabs-left" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <ul class="nav nav-tabs" style="margin-bottom:0px;">
         <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Activity Profile</a></li> 
         <li><a href="#tab-activities-collaborators" data-toggle="tab">Collaborators</a></li>
@@ -13,3 +13,19 @@
         <div class="tab-pane" id="tab-activities-content"><?php include'../oip-modules-views/oip-module-content-view.txt' ?></div>
     </div>
 </div>
+
+<div class="span9">
+    <a href="#"><img class="thumbnail" src="[!ATOM]ProfileImage.ImageData.ContentUrl[ATOM!]"  /></a><br><br>
+   <p> <a href="#" class="wide-flat"><img class="thumbnail" src="../oip-additions/oip-assets/oip-images/placeholder/bootstrap-mdo-sfmoma-01.jpg"/></a></p>
+
+    <h3>
+        <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
+        <br><small>[!ATOM]ActivityName[ATOM!]</small>
+    </h3>
+    <p>[!ATOM]Description[ATOM!]Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, li to.<p>
+</p>
+    <ol class="unstyled">
+        <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection-->
+    </ol>
+</div>
+

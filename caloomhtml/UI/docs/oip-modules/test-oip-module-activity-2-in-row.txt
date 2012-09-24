@@ -1,10 +1,10 @@
 <li class="span4plus">
-    <img class="img-style row1" src="[!ATOM]ProfileImage.ImageData.ContentUrl[ATOM!]"  />
+    <img class="img-style" src="[!ATOM]ProfileImage.ImageData.ContentUrl[ATOM!]"  />
     <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <br><small>[!ATOM]ActivityName[ATOM!]</small>
     </h3>
-    <p>[!ATOM]Description[ATOM!]<p>
+    <p>[!ATOM]Description[ATOM!]Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, li to.<p>
 </p>
     <ol class="unstyled">
         <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection-->

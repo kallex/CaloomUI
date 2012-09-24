@@ -1,0 +1,6 @@
+<div class="services about">
+    <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
+</div>
+<div class="row">
+    <?php include '../oip-modules/oip-module-about-collection.txt' ?>
+</div>

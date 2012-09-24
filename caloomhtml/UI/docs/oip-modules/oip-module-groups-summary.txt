@@ -3,7 +3,14 @@
 </div>
 <div>
     <ul class="thumbnails">
-        <?php include '../oip-modules/oip-module-group-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-group-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-group-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-group-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-group-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-group-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-group-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-group-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
+        <?php include '../oip-modules/oip-module-group-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:GroupCollection -->
     </ul>
     <ul class="pager">
         <li class="previous">

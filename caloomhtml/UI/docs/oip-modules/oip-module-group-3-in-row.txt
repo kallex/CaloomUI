@@ -1,8 +1,8 @@
-<li class="span4plus">
+<li class="span3">
     <img class="img-style row1" src="[!ATOM]ProfileImage.ImageData.ContentUrl[ATOM!]"  />
     <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
-        <br><small>[!ATOM]ActivityName[ATOM!]</small>
+        <br><small>[!ATOM]GroupName[ATOM!]</small>
     </h3>
     <p>[!ATOM]Description[ATOM!]<p>
 </p>
