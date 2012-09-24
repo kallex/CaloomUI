@@ -1,5 +1,5 @@
 <p>
-    Sign in: <?php include '../oip-modules/oip-module-auth-provider.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
+    Sign in with: <?php include '../oip-modules/oip-module-auth-provider.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
 <p>
 
 <h2>Sign up</h2>

@@ -1,17 +1,16 @@
-	<li class="span2plus">
-        <img src="../oip-additions/oip-assets/oip-images/placeholder/thumb_1.jpg" class="img-style row1" alt="">
-        <!--<img class="img-style row1" src="[!ATOM]ImageGroupUrl[ATOM!]"  /> -->
-        <h3>
+<li class="span2plus">
+    <img class="img-style row1" src="[!ATOM]FeaturedImage.ImageData.ContentUrl[ATOM!]"/>
+    <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <br><small>[!ATOM]SubTitle[ATOM!]</small>
-        </h3>
-        <p>[!ATOM]Excerpt[ATOM!]<p>
-        <a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a>
-    </p>
-        <!-- modals -->
-        <?php include 'oip-module-modal-read-more.txt' ?>
-        <!-- modals -->
-        <ol class="unstyled">
-            <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection-->
-        </ol>
-    </li>
+    </h3>
+    <p>[!ATOM]Excerpt[ATOM!] Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</<p>
+    <a class="read-more" data-toggle="modal" href="#ReadMore">Read More...</a>
+</p>
+    <!-- modals -->
+    <?php include 'oip-module-modal-read-more.txt' ?>
+    <!-- modals -->
+    <ol class="unstyled">
+        <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection-->
+    </ol>
+</li>

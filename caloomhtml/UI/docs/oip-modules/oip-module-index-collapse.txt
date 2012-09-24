@@ -1,11 +1,11 @@
-<p><img src="[!ATOM]Icon.ImageData.ContentUrl[ATOM]"><br>This is the group's icon or brand image or logo</p>
+<p><img src="[!ATOM]Icon.ImageData.ContentUrl[ATOM]"></p>
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <div class="accordion index" id="accordion2">
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                blogs by location <i class="icon-hand-down"></i>
+                blogs by location <i class="icon-circle-arrow-down"></i>
             </a>
         </div>
         <div id="collapseOne" class="accordion-body collapse in">
@@ -19,7 +19,7 @@
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                blogs by date <i class="icon-hand-down"></i>
+                blogs by date <i class="icon-circle-arrow-down"></i>
             </a>
         </div>
         <div id="collapseTwo" class="accordion-body collapse">
@@ -33,7 +33,7 @@
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                blogs by author  <i class="icon-hand-down"></i>
+                blogs by author  <i class="icon-circle-arrow-down"></i>
             </a>
         </div>
         <div id="collapseThree" class="accordion-body collapse">
@@ -47,7 +47,7 @@
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-                blogs by category   <i class="icon-hand-down"></i>
+                blogs by category   <i class="icon-circle-arrow-down"></i>
             </a>
         </div>
         <div id="collapseFour" class="accordion-body collapse">
