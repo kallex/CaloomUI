@@ -4839,3 +4839,6 @@ a.wide-flat img {
   position: absolute;
   clip: rect(250px, 800px, 350px, 0px);
 }
+.endEditable {
+  background-color: #fef4d4;
+}
