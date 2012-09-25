@@ -496,6 +496,11 @@
           <InformationItem name="ActivityName" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
+      <InformationObject name="AddBlogPostInfo" designDesc="Add blog post">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
 
       <!--
       LocationName
