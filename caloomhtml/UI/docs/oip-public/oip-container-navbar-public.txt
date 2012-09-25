@@ -12,6 +12,7 @@
 					<li class="group"><a href="oip-layout-groups-summary.phtml">Groups</a></li>
                 </ul>
                 <a class="btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a>
+                <img src="../oip-additions/oip-assets/oip-images/ui/aaltoglobalimpact-right-align.png"  width="200px" class="" style="float: right;margin-right: -19px;">
 			</div>
 		</div>
 	</div>
