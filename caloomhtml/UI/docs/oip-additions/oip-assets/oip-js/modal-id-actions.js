@@ -10,12 +10,12 @@ $(document).on("click", ".open-IDAction_ConfirmRemove", function () {
     $('#IDAction_ConfirmRemove').modal('show');
 });
 
-$("#edittogle").click(function () {
+$("#edittoggle").click(function () {
     alert('Toggling page elements to/from edit mode...');
-    //var inEditMode = $(".editable");
-    //var notInEditMode = $(".endEditable");
-    //inEditMode.removeClass("editable").addClass("endEditable");
-    //notInEditMode.removeClass("endEditable").addClass("editable");
-    //alert("Toggled to edit: " + not.length + " - toggled off from edit: " + inedi.length + " elements...");
+    var inEditMode = $(".editable");
+    var notInEditMode = $(".noteditable");
+    inEditMode.removeClass("editable").addClass("noteditable");
+    notInEditMode.removeClass("noteditable").addClass("editable");
+    alert("Toggled to edit: " + notInEditMode.length + " - toggled off from edit: " + inEditMode.length + " elements...");
 });
 

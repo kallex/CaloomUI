@@ -1,1 +1,1 @@
-<a data-toggle="modal" href="#[!ATOM]ProfileUrl[ATOM!]" class="editable endEditable"> [!ATOM]CollaboratorName[ATOM!]</a>
+<a data-toggle="modal" href="#[!ATOM]ProfileUrl[ATOM!]"> [!ATOM]CollaboratorName[ATOM!]</a>

@@ -1,1 +1,1 @@
-<a href="[!ATOM]URL[ATOM!]" class="editable endEditable">[!ATOM]Title[ATOM!]</a>
+<a href="[!ATOM]URL[ATOM!]">[!ATOM]Title[ATOM!]</a>

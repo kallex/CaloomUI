@@ -1,1 +1,1 @@
-<li><a href="[!ATOM]ReferenceToInformation.URL[ATOM!]" class="editable endEditable"> [!ATOM]ReferenceToInformation.Title[ATOM!]</a></li>
+<li><a href="[!ATOM]ReferenceToInformation.URL[ATOM!]"> [!ATOM]ReferenceToInformation.Title[ATOM!]</a></li>

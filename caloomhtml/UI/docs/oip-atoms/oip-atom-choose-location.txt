@@ -1,3 +1,3 @@
 <label class="checkbox">
-    <input type="checkbox"><a data-toggle="modal" href="#view-location" class="editable endEditable">[!ATOM]LocationName[ATOM!]</a>
+    <input type="checkbox"><a data-toggle="modal" href="#view-location" class="noteditable">[!ATOM]LocationName[ATOM!]</a>
 </label>

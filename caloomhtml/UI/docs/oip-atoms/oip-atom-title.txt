@@ -1,2 +1,2 @@
-<a data-id="[!ATOM]ID[ATOM!]_Title" data-toggle="modal" title="edit-content" class="editable endEditable open-IncontextEditDialog_Text_Short in-context-edit" href="#IncontextEditDialog_Text_Short">[!ATOM]Title[ATOM!]</a>
+<a data-id="[!ATOM]ID[ATOM!]_Title" data-toggle="modal" title="edit-content" class="noteditable open-IncontextEditDialog_Text_Short in-context-edit" href="#IncontextEditDialog_Text_Short">[!ATOM]Title[ATOM!]</a>
 

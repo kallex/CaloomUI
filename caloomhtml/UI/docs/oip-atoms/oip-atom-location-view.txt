@@ -1,1 +1,1 @@
-<a data-toggle="modal" href="#locations-profile-view" class="editable endEditable"> [!ATOM]LocationName[ATOM!]</a>
+<a data-toggle="modal" href="#locations-profile-view" class="noteditable"> [!ATOM]LocationName[ATOM!]</a>
