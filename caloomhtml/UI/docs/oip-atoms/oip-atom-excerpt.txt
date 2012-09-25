@@ -1,1 +1,1 @@
-<a data-id="[!ATOM]ID[ATOM!]_Excerpt" title="Edit Excerpt" class="noteditable open-IncontextEditDialog_Text_Long in-context-edit" href="#IncontextEditDialog_Text_Long">[!ATOM]Excerpt[ATOM!]</a>
+<a data-id="[!ATOM]ID[ATOM!]_Excerpt" title="Edit Excerpt" class="noteditable open-IncontextEditDialog_Text_Long in-context-edit">[!ATOM]Excerpt[ATOM!]</a>

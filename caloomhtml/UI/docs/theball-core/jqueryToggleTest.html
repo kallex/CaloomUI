@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>jQuery Hello World</title>
+
+<script type="text/javascript">
+    alert('testi2');
+</script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#msgid22").html("This is Hello World by JQuery");
+        $("#edittoggle").click(function () {
+            alert('Toggling page elements to/from edit mode...');
+            var inEditMode = $(".editable");
+            var notInEditMode = $(".noteditable");
+            inEditMode.removeClass("editable").addClass("noteditable");
+            notInEditMode.removeClass("noteditable").addClass("editable");
+            alert("Toggled to edit: " + notInEditMode.length + " - toggled off from edit: " + inEditMode.length + " elements...");
+        });
+    });
+    alert('testi3');
+</script>
+
+</head>
+<body>
+ 
+ 
+This is Hello World by HTML
+ 
+<div id="msgid22">
+</div>
+
+<footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>The <a id="edittoggle">Open</a> Innovation Platform is offered to you by Aalto Global Impact, and Aalto University organisation</p>
+    <p>All content licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+    <p>Icons from <a href="http://glyphicons.com">Glyphicons Pro</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+</footer>
+ 
+</body>
+</html>

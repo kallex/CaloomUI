@@ -37,7 +37,7 @@
 				Categories 
 			</p>
 			<p class="view-content">
-				<a data-toggle="modal" data-id="[!ATOM]ID[ATOM!]_Categories" data-toggle="modal" title="choose categories" class="open-IncontextEditDialog_Collection in-context-edit" href="#IncontextEditDialog_Collection">[!ATOM]Categories[ATOM!]</a> categories are owned by a group 
+				<a data-id="[!ATOM]ID[ATOM!]_Categories" title="Choose categories" class="noteditable open-IncontextEditDialog_Collection in-context-edit">[!ATOM]Categories[ATOM!]</a> categories are owned by a group 
 			</p>
 		</div>		
 		<div class="view-group">
@@ -45,7 +45,7 @@
 				Locations 
 			</p>
 			<p class="view-content">
-				<a data-toggle="modal" data-id="[!ATOM]ID[ATOM!]_LocationName" data-toggle="modal" title="choose a location" class="open-IncontextEditDialog_LocationName in-context-edit" href="#IncontextEditDialog_LocationName">[!ATOM]LocationName[ATOM!]</a> locations are owned by a group 
+				<a data-toggle="modal" data-id="[!ATOM]ID[ATOM!]_LocationName" title="Choose a location" class="noteditable open-IncontextEditDialog_LocationName in-context-edit">[!ATOM]LocationName[ATOM!]</a> locations are owned by a group 
 		</div>
 	</div>
 </div>
