@@ -4879,3 +4879,25 @@ ul.header-first li.eng a {
   text-decoration: none;
   width: 129px;
 }
+.aalto-background {
+  background-color: fff;
+  padding: 4px;
+  text-shadow: none;
+}
+.aalto {
+  font-size: 100px;
+  line-height: 90px;
+  font-weight: bold;
+}
+.aalto-mark {
+  font-size: 100px;
+  line-height: 90px;
+  color: #e61733;
+  font-weight: bold;
+}
+.aalto-sub {
+  display: block;
+  clear: both;
+  font-size: 13px;
+  line-height: 14px;
+}

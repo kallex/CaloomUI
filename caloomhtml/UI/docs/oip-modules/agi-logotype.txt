@@ -1,0 +1,5 @@
+<div class="aalto-background">
+    <span class="aalto">A</span><span class="aalto-mark">?</span>
+    <span class="aalto-sub">Aalto University</span>
+    <span class="aalto-sub">Aalto Global Impact</span>
+</div>

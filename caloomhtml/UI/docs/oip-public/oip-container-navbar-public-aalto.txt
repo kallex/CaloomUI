@@ -15,7 +15,9 @@
             </div>
         </div>
         <div class="container">
-            <a class="brand active" href="oip-layout-landing.phtml" style="float:left;margin-left:0px;margin-right:20px"><img src="../oip-additions/oip-assets/oip-images/ui/agi-small.png" alt=""></a>
+            <a class="brand active" href="oip-layout-landing.phtml" style="float:left;margin-left:0px;margin-right:20px">
+                <?php include '../oip-modules/agi-logotype.txt' ?>
+            </a>
             <div class="nav-collapse">
                 <ul class="nav">
                     <li class="map"> <a href="oip-layout-map.phtml"> Map</a> </li>
