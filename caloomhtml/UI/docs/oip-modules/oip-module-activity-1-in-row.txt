@@ -1,0 +1,12 @@
+<li class="span9">
+    <img class="img-style row1" src="[!ATOM]ProfileImage.ImageData.ContentUrl[ATOM!]"  />
+    <h3>
+        <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
+        <br><small>[!ATOM]ActivityName[ATOM!]</small>
+    </h3>
+    <p>[!ATOM]Description[ATOM!]<p>
+</p>
+    <ol class="unstyled">
+        <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection-->
+    </ol>
+</li>

@@ -3,14 +3,15 @@
 </div>
 <div>
     <ul class="thumbnails">
-        <?php include '../oip-modules/oip-module-blog-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-        <?php include '../oip-modules/oip-module-blog-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-        <?php include '../oip-modules/oip-module-blog-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-        <?php include '../oip-modules/oip-module-blog-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-        <?php include '../oip-modules/oip-module-blog-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-        <?php include '../oip-modules/oip-module-blog-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-        <?php include '../oip-modules/oip-module-blog-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
-        <?php include '../oip-modules/oip-module-blog-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+        <?php include '../oip-modules/oip-module-blog-1-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+    </ul>
+    <ul class="thumbnails">
+        <?php include '../oip-modules/oip-module-blog-2-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+    </ul>
+    <ul class="thumbnails">
+        <?php include '../oip-modules/oip-module-blog-3-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
+    </ul>
+    <ul class="thumbnails">
         <?php include '../oip-modules/oip-module-blog-4-in-row.txt' ?><!-- UseInformationObjectAsCollection:RecentBlogCollection -->
     </ul>
     <ul class="pager">

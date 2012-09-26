@@ -6,6 +6,6 @@
         <?php include '../oip-modules/oip-module-groups-index-summary-public.txt' ?><!--UseInformationObject:GroupSummaryIndex-->
     </div>
     <div class="span9">
-        <?php include '../oip-modules/oip-module-groups-summary.txt' ?>
+        <?php include '../oip-modules/test-oip-module-groups-summary.txt' ?>
     </div>
 </div>
