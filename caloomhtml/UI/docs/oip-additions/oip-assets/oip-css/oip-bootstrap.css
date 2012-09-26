@@ -4842,3 +4842,13 @@ a.wide-flat img {
 .editable {
   background-color: #fef4d4;
 }
+.editable-with-border {
+  margin: 3px;
+  outline-color: red;
+  background-color: #ffb6c1;
+}
+.editable-when-empty {
+  margin: 3px;
+  outline-color: #1655b2;
+  background-color: #add8e6;
+}
