@@ -1,5 +1,6 @@
-<div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
+<div class="navbar navbar-fixed-top" style="background-color: white;">
+
+    <div class="navbar-inner" style="background-color: white;">
         <div class="container">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
             <div class="nav-collapse header">
@@ -14,10 +15,14 @@
                 </ul>
             </div>
         </div>
-        <div class="container">
+        <div class="container" style="background-color: white;">
             <a class="brand active" href="oip-layout-landing.phtml" style="float:left;margin-left:0px;margin-right:20px">
                 <?php include '../oip-modules/agi-logotype.txt' ?>
             </a>
+
+        </div>
+        <div class="container">
+
             <div class="nav-collapse">
                 <ul class="nav">
                     <li class="map"> <a href="oip-layout-map.phtml"> Map</a> </li>

@@ -172,7 +172,7 @@
 @navbarCollapseWidth:             979px;
 
 @navbarHeight:                    60px;
-@navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
+@navbarBackground:                @white;//darken(@navbarBackgroundHighlight, 5%);
 @navbarBackgroundHighlight:       #ffffff;
 @navbarBorder:                    darken(@navbarBackground, 12%);
 
@@ -290,3 +290,8 @@
 // 768px-979px
 @fluidGridColumnWidth768:      percentage(@gridColumnWidth768/@gridRowWidth768);
 @fluidGridGutterWidth768:      percentage(@gridGutterWidth768/@gridRowWidth768);
+
+
+// base URL
+@base-url-local: "http://caloomgit:8888/UI/docs/";
+@base-url-live: "http://oip.msunit.citrus.fi/auth/account/website/";

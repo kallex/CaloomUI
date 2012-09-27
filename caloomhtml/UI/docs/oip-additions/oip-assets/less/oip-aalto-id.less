@@ -136,7 +136,10 @@ ul.header-first li.eng a,
   padding-top: 2px;
   text-align: center;
   text-decoration: none;
-  width: 129px;
+  width: 120px;
+  border-left-color:white;
+  border-left-style: solid;
+  border-left-width: 3px;
 }
 
 // Aalto logotype in text
@@ -150,6 +153,7 @@ ul.header-first li.eng a,
   font-size: 100px;
   line-height: 90px;
   font-weight: bold;
+  color: @aaltoBlack;
 }
 
 .aalto-mark {
@@ -158,9 +162,19 @@ ul.header-first li.eng a,
   color: @aaltoRed;
   font-weight: bold;
 }
-.aalto-sub {
+.aalto-university, .aalto-gi {
   display: block;
   clear: both;
   font-size: 13px;
-  line-height: 14px;
+  line-height: 15px;
+  font-weight: bold;
 }
+.aalto-gi {
+  color: @aaltoGray;
+}
+// test from fab.com
+//img {
+//  background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/img-fill.gif");
+//  background-repeat: repeat ;
+//  width: 200px;
+//}
