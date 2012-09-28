@@ -30,5 +30,11 @@
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
+	<script type="text/javascript">
+		function addRichTextEditBlogBody() {
+			richArea = new nicEditor({fullPanel : true, iconsPath : '../oip-additions/oip-assets/oip-js/nicEditorIcons.gif' }).panelInstance('[!ATOM]ID[ATOM!]_Body');
+		}
+		bkLib.onDomLoaded(function() { addRichTextEditBlogBody(); });
+	</script>
 </div>
 <!-- end oip-module-blog-edit.txt -->

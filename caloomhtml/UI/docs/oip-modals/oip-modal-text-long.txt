@@ -11,5 +11,11 @@
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</div>
 	</form>
+	<script type="text/javascript">
+		function addRichTextEditTextLong() {
+			richArea = new nicEditor({fullPanel : true, iconsPath : '../oip-additions/oip-assets/oip-js/nicEditorIcons.gif' }).panelInstance('Text_Long');
+		}
+		bkLib.onDomLoaded(function() { addRichTextEditTextLong(); });
+	</script>
 </div>
 <!-- end oip-modal-text-long.txt -->
