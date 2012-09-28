@@ -1,6 +1,5 @@
-<div class="navbar navbar-fixed-top" style="background-color: white;">
-
-    <div class="navbar-inner" style="background-color: white;">
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
         <div class="container">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
             <div class="nav-collapse header">
