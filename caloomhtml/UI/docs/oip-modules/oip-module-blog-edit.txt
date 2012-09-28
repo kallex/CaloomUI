@@ -10,9 +10,9 @@
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="[!ATOM]ID[ATOM!]_Subtitle">SubTitle</label>
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_SubTitle">SubTitle</label>
 				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_Subtitle" class="span3" id="[!ATOM]ID[ATOM!]_Subtitle" type="text" value="[!ATOM]Subtitle[ATOM!]">
+        <input name="[!ATOM]ID[ATOM!]_SubTitle" class="span3" id="[!ATOM]ID[ATOM!]_SubTitle" type="text" value="[!ATOM]SubTitle[ATOM!]">
 				</div>
 			</div>
 			<div class="control-group">
