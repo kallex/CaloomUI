@@ -1,4 +1,3 @@
-<!-- oip-module-blog.txt -->
 <div class="span8">
 <h2 class="atomized">[!ATOM]Title[ATOM!]<small>[!ATOM]SubTitle[ATOM!]</small></h2>
 <h4 class="atomized">[!ATOM]Published[ATOM!]<!--UseInformationObject:Published--></h4>
