@@ -1,0 +1,11 @@
+<div class="services blog">
+    <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
+</div>
+<div class="row">
+    <div class="span3">
+        <?php include '../oip-modules/oip-module-index-collapse.txt' ?><!--UseInformationObject:BlogIndexGroup -->
+    </div>
+    <div class="span9">
+        <?php include '../oip-modules/oip-module-activity-view.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.Blog -->
+    </div>
+</div>

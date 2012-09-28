@@ -4738,7 +4738,8 @@ a.badge:hover {
 .carousel-caption p {
   margin-bottom: 0;
 }
-.hero-unit {
+.hero-unit,
+.oip-marketing {
   padding: 60px;
   margin-bottom: 30px;
   background-color: #eeeeee;
@@ -4746,18 +4747,22 @@ a.badge:hover {
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
-.hero-unit h1 {
+.hero-unit h1,
+.oip-marketing h1 {
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
   color: inherit;
   letter-spacing: -1px;
+  text-align: center;
 }
-.hero-unit p {
+.hero-unit p,
+.oip-marketing p {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
   color: inherit;
+  text-align: center;
 }
 .pull-right {
   float: right;
@@ -4788,28 +4793,29 @@ a.badge:hover {
   width: 46.57%;
 }
 /* Aalto Specific Styling */
-div.services {
-  border-top: 9px solid #928b81;
-  padding: 0 0 7px 0;
-  border-color: #7f786d;
+.hero-unit,
+.oip-marketing {
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoBlack.png");
+  background-repeat: no-repeat;
+  width: auto;
 }
-div.services.blog {
-  border-color: #1c9133;
+div.blog > .oip-marketing {
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoLightgreen.png");
 }
-div.services.about {
-  border-color: #5826ab;
+div.about > .oip-marketing {
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoPurple.png");
 }
-div.services.map {
-  border-color: #a20690;
+div.map > .oip-marketing {
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoFuchsia.png");
 }
-div.services.group {
-  border-color: #fd6309;
+div.group > .oip-marketing {
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/hero-unit-ui/aaltoOrange.png");
 }
-div.services.activity {
-  border-color: #1e9ca8;
+div.activity > .oip-marketing {
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/hero-unit-ui/aaltoTurquoise.png");
 }
-div.services.latest {
-  border-color: #0a0a0a;
+div.latest > .oip-marketing {
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoBlack.png");
 }
 div.services h1 {
   margin-top: 0px;
