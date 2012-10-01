@@ -3389,7 +3389,7 @@ input[type="submit"].btn.btn-mini {
   *z-index: 2;
 }
 .navbar-inner {
-  min-height: 60px;
+  min-height: 30px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #ffffff;
@@ -3417,7 +3417,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   float: left;
   display: block;
-  padding: 20px 20px 20px;
+  padding: 5px 20px 5px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
@@ -3429,7 +3429,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-text {
   margin-bottom: 0;
-  line-height: 60px;
+  line-height: 30px;
 }
 .navbar-link {
   color: #555555;
@@ -3438,14 +3438,14 @@ input[type="submit"].btn.btn-mini {
   color: #333333;
 }
 .navbar .divider-vertical {
-  height: 60px;
+  height: 30px;
   margin: 0 9px;
   border-left: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
 }
 .navbar .btn,
 .navbar .btn-group {
-  margin-top: 16px;
+  margin-top: 1px;
 }
 .navbar .btn-group .btn {
   margin: 0;
@@ -3467,7 +3467,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-form select,
 .navbar-form .radio,
 .navbar-form .checkbox {
-  margin-top: 15px;
+  margin-top: 0px;
 }
 .navbar-form input,
 .navbar-form select,
@@ -3492,7 +3492,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search {
   position: relative;
   float: left;
-  margin-top: 15px;
+  margin-top: 0px;
   margin-bottom: 0;
 }
 .navbar-search .search-query {
@@ -3574,7 +3574,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .nav > li > a {
   float: none;
-  padding: 20px 15px 20px;
+  padding: 5px 15px 5px;
   color: #555555;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
@@ -4909,8 +4909,8 @@ ul.header-first li.eng a {
 .aalto-gi {
   display: block;
   clear: both;
-  font-size: 13px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 30px;
   font-weight: bold;
 }
 .aalto-gi {

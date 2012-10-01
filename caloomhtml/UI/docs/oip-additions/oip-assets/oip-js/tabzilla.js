@@ -88,7 +88,7 @@ Tabzilla.jQueryCDNSrc =
     '//www.mozilla.org/media/js/libs/jquery-1.7.1.min.js';
 
 Tabzilla.LINK_TITLE = {
-    CLOSED: 'Mozilla links',
+    CLOSED: 'Aalto University links',
     OPENED: 'Close (Esc)'
 }
 
