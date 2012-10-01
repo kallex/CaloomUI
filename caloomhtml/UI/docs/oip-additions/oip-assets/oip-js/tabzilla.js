@@ -530,7 +530,7 @@ Tabzilla.content =
         + '  <div id="tabzilla-nav">'
         + '    <ul>'
         + '      <li><h2>Aalto University</h2>'
-        + '        <ul>'
+        + '        <ul class="nav">'
         + '          <li class="eng"><a href="http://eng.aalto.fi/fi/" style="font-size: 11px;">Insinööritieteiden korkeakoulu</a>'
         + '          <li><a href="http://business.aalto.fi/fi/">Kauppa-<br>korkeakoulu</a></li>'
         + '          <li><a href="http://chem.aalto.fi/fi/">Kemian tekniikan korkeakoulu</a></li>'
