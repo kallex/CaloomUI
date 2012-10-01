@@ -2,25 +2,9 @@
     <div class="navbar-inner">
         <div class="container">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-            <a href="http://www.aalto.fi/" id="tabzilla" style="background: url("//../oip-additions/oip-images/ui/aalto-global-impact-logo.png");;">Aalto</a>
-
-            <!--<div class="nav-collapse header">
-                <ul class="nav header-first" style="font-size: 11px;">
-                    <li class="eng"><a href="http://eng.aalto.fi/fi/" style="font-size: 11px;">Insinööritieteiden korkeakoulu</a></li>
-                    <li class="hse" style="font-size: 11px;"><a href="http://business.aalto.fi/fi/">Kauppa-<br>korkeakoulu</a></li>
-                    <li class="chem"><a href="http://chem.aalto.fi/fi/">Kemian tekniikan korkeakoulu</a></li>
-                    <li class="sci"><a href="http://sci.aalto.fi/fi/">Perustieteiden korkeakoulu</a></li>
-                    <li class="elec"><a href="http://elec.aalto.fi/fi/">Sähkötekniikan korkeakoulu</a></li>
-                    <li class="taik"><a href="http://arts.aalto.fi/fi/">Taiteiden ja suunnittelun korkeakoulu</a></li>
-                </ul>
-            </div> -->
         </div>
         <div class="container" style="background-color: white;">
-            <a class="brand active" href="oip-layout-landing.phtml" style="float:left;margin-left:0px;margin-right:20px">
-                <!-- include '../oip-modules/agi-logotype.txt' ?>-->
-                <img src="../oip-additions/oip-assets/oip-images/ui/aalto-global-impact-logo.png" width="100px" height="80px" alt="A? Aalto University Aalto Global Impact">
-            </a>
-
+            <a href="http://www.aalto.fi/" id="tabzilla">Aalto</a>
             <div class="nav-collapse">
                 <ul class="nav">
                     <li class="map"> <a href="oip-layout-map.phtml"> Map</a> </li>
