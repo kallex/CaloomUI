@@ -11,6 +11,8 @@
 	<link href="../oip-additions/oip-assets/oip-css/dashboard.css" rel="stylesheet">
 	<link href="../oip-additions/oip-assets/oip-js/google-code-prettify/prettify.css" rel="stylesheet">
 
+    <link href="../oip-additions/oip-assets/oip-css/tabzilla.css" rel="stylesheet" />
+
     <!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
 <!--Extra Styles from jQuery UI-->
 <!--  <link href="../third-party/jquery-ui/css/demo.css" rel="stylesheet">
