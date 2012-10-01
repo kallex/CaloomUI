@@ -18,7 +18,7 @@
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_Body">Body</label> 
 				<div class="controls">
-                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_Body" name="[!ATOM]ID[ATOM!]_Body" rows="12" placeholder="add org name">[!ATOM]Body[ATOM!]</textarea> 
+                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_Body" name="[!ATOM]ID[ATOM!]_Body" rows="20" placeholder="add org name">[!ATOM]Body[ATOM!]</textarea>
 				</div>
 			</div>
 			<div class="control-group">
