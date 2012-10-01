@@ -1,5 +1,5 @@
 <p><img src="[!ATOM]Icon.ImageData.ContentUrl[ATOM]"></p>
-<h4>[!ATOM]Title[ATOM!]</h4>
+<h4><?php include '../oip-atoms/oip-atom-title.txt' ?></h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <div class="accordion index" id="accordion2">
     <div class="accordion-group accordion-group-index">

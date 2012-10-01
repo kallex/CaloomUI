@@ -1,7 +1,7 @@
 <div class="" style="margin-bottom: 40px">
     <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
 </div>
-<div>
+<div class>
     <ul class="thumbnails">
         <?php include 'oip-module-activity-3-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
     </ul>
