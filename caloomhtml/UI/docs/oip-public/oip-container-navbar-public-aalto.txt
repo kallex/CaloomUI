@@ -16,11 +16,9 @@
         </div>
         <div class="container" style="background-color: white;">
             <a class="brand active" href="oip-layout-landing.phtml" style="float:left;margin-left:0px;margin-right:20px">
-                <?php include '../oip-modules/agi-logotype.txt' ?>
+                <!-- include '../oip-modules/agi-logotype.txt' ?>-->
+                <img src="../oip-additions/oip-assets/oip-images/ui/aalto-global-impact-logo.png" width="100px" height="80px" alt="A? Aalto University Aalto Global Impact">
             </a>
-
-        </div>
-        <div class="container">
 
             <div class="nav-collapse">
                 <ul class="nav">
@@ -33,6 +31,7 @@
                 <a class="btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a>
             </div>
         </div>
+
     </div>
 </div>
 
