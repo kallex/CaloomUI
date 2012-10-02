@@ -15,7 +15,8 @@ $(document).on("click", ".open-IncontextEditDialog_Text_Long", function () {
     if (isNotEditable == true)
         return;
     var fieldid = $(this).data('id');
-    var fieldtext = $(this).text();
+    //var fieldtext = $(this).text();
+    var fieldtext = $(this).html();
 
     $(".modal-body #ObjectFieldID").val(fieldid);
     $(".modal-body #Text_Long").val(fieldtext);
