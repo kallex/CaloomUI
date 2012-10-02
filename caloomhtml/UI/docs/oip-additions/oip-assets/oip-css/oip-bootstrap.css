@@ -4795,12 +4795,12 @@ a.badge:hover {
 /* Aalto Specific Styling */
 .hero-unit,
 .oip-marketing {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoBlack.png");
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/oip-hero-solid-turquoise.png");
   background-repeat: no-repeat;
   width: auto;
 }
 div.blog > .oip-marketing {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoLightgreen.png");
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/oip-hero-solid-turquoise.png");
 }
 div.about > .oip-marketing {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoPurple.png");
