@@ -167,7 +167,7 @@
 #tabzilla-panel #tabzilla-nav {
     float: left;
     display: inline;
-    width: 620px;
+    /*width: 620px; */
     margin: 0 10px;
 }
 
@@ -200,7 +200,7 @@
   /*  margin: 40px 3% 0 0;   */
     padding: 0;
     background-color: transparent;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABfCAMAAAAeT108AAAABlBMVEX////W1tZkFI+EAAAAAXRSTlMAQObYZgAAABdJREFUeNrVwwENAAAAwiDev7Q5ZEP8HhKOADGMXVvVAAAAAElFTkSuQmCC);
+    /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABfCAMAAAAeT108AAAABlBMVEX////W1tZkFI+EAAAAAXRSTlMAQObYZgAAABdJREFUeNrVwwENAAAAwiDev7Q5ZEP8HhKOADGMXVvVAAAAAElFTkSuQmCC); */
     background-position: 100% 0;
     background-repeat: no-repeat;
     line-height: 1.1;
