@@ -15,7 +15,8 @@
 		function addRichTextEditTextLong() {
 			richArea = new nicEditor({fullPanel : true, iconsPath : '../oip-additions/oip-assets/oip-js/nicEditorIcons.gif' }).panelInstance('Text_Long');
 		}
-		bkLib.onDomLoaded(function() { addRichTextEditTextLong(); });
+		// Moved to actual dialog initiation script as the content weren't appearing from previous data
+		// bkLib.onDomLoaded(function() { addRichTextEditTextLong(); });
 	</script>
 </div>
 <!-- end oip-modal-text-long.txt -->

@@ -9,7 +9,6 @@
                     <li class="dropdown blog"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Blog<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li> <a href="oip-layout-blog-summary.phtml"> Summary</a> </li>
-                            <li> <a href="oip-layout-blog-edit.phtml"> Edit (temp)</a> </li>
                             <li> <a href="#add-blog" data-toggle="modal"> Add</a> </li>
                         </ul>
                     </li>

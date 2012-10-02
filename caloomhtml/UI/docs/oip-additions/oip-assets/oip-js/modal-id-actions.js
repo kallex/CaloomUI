@@ -11,11 +11,11 @@ $(document).on("click", ".open-IDAction_ConfirmRemove", function () {
 });
 
 $("#edittoggle").click(function () {
-    alert('Toggling page elements to/from edit mode...');
+    // alert('Toggling page elements to/from edit mode...');
     var inEditMode = $(".editable");
     var notInEditMode = $(".noteditable");
     inEditMode.removeClass("editable").addClass("noteditable");
     notInEditMode.removeClass("noteditable").addClass("editable");
-    alert("Toggled to edit: " + notInEditMode.length + " - toggled off from edit: " + inEditMode.length + " elements...");
+    // alert("Toggled to edit: " + notInEditMode.length + " - toggled off from edit: " + inEditMode.length + " elements...");
 });
 
