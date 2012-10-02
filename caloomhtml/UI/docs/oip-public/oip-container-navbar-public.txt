@@ -1,7 +1,11 @@
 <div class="navbar navbar-static-top">
 	<div class="navbar-inner">
 		<div class="container">
-			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
             <a href="" id="tabzilla">Aalto</a>
 			<div class="nav-collapse">
 				<ul class="nav">
@@ -12,7 +16,6 @@
 					<li class="group"><a href="oip-layout-groups-summary.phtml">Groups</a></li>
                 </ul>
                 <a class="btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a>
-                <img src="../oip-additions/oip-assets/oip-images/ui/aaltoglobalimpact-right-align.png"  width="200px" class="" style="float: right;margin-right: -19px;">
 			</div>
 		</div>
 	</div>
