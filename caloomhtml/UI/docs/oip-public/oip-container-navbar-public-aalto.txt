@@ -2,10 +2,8 @@
     <div class="navbar-inner">
         <div class="container">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-        </div>
-        <div class="container">
             <a href="" id="tabzilla">Aalto</a>
-        <div class="nav-collapse">
+            <div class="nav-collapse">
                 <ul class="nav">
                     <li class="map"> <a href="oip-layout-map.phtml"> Map</a> </li>
                     <li class="blog"><a href="oip-layout-blog.phtml">Blog</a></li>
@@ -16,7 +14,6 @@
                 <a class="btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a>
             </div>
         </div>
-
     </div>
 </div>
 
