@@ -1,5 +1,5 @@
 /* Fonts */
-
+/*
 @font-face {
     font-family: 'Open Sans';
     src: url('//www.mozilla.org/img/fonts/OpenSans-Regular-webfont.eot');
@@ -32,16 +32,16 @@
     font-weight: normal;
     font-style: normal;
 }
-
+       */
 
 /* Tab */
 
 #tabzilla {
     float: right;
     display: block;
-    background: url(//www.mozilla.org/tabzilla/media/img/tab.png);
+/*    background: url(//www.mozilla.org/tabzilla/media/img/tab.png);
     height: 44px;
-    width: 150px;
+    width: 150px;*/
     position: relative;
     text-indent: -2000px;
     overflow: hidden;
@@ -51,9 +51,9 @@
 #tabzilla {
     float: left;
     display: block;
-    background: url(../oip-images/ui/aalto-global-impact-logo-55px.png);
-    height: 55px;
-    width: 120px;
+    background: url(../oip-images/ui/aalto-global-impact-logo-medium.png);
+    height: 80px;
+    width: 130px;
     background-repeat: no-repeat;
 }
 
@@ -63,7 +63,7 @@
     position: absolute;
     height: 16px;
     width: 16px;
-    top: 11px;
+    top: 0px;
     right: 23px;
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
@@ -104,12 +104,13 @@
 }
 
 #tabzilla-contents {
-    width: 960px;
+    /*width: 960px;*/
     margin: 0 auto;
     padding: 0 10px;
     text-align: left;
     position: relative;
     display:none;
+    background-color: yellow;
 }
 
 #tabzilla-panel.open #tabzilla-contents {
@@ -128,7 +129,7 @@
     height: 0;
 }
 
-#tabzilla-promo {
+/*#tabzilla-promo {
     float: left;
     display: inline;
     width: 300px;
@@ -161,7 +162,7 @@
     font-weight: normal;
     text-transform: uppercase;
     border: 0;
-}
+} */
 
 #tabzilla-panel #tabzilla-nav {
     float: left;
@@ -170,18 +171,19 @@
     margin: 0 10px;
 }
 
-#tabzilla-promo .snippet h4 {
+/*#tabzilla-promo .snippet h4 {
     line-height: 1.1;
     font-size: 13px;
     font-weight: bold;
     margin-bottom: 0.4em;
-}
+}  */
 
 #tabzilla-panel #tabzilla-nav h2 {
     font-weight: bold;
     font-size: 13px;
     margin: 0 20px 0.4em 0;
     white-space: nowrap;
+    color: red;
 }
 
 #tabzilla-panel #tabzilla-nav ul {
@@ -194,8 +196,8 @@
     float: left;
     display: inline;
     list-style-type: none;
-    width: 17%;
-    margin: 40px 3% 0 0;
+   /* width: 17%;  */
+  /*  margin: 40px 3% 0 0;   */
     padding: 0;
     background-color: transparent;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABfCAMAAAAeT108AAAABlBMVEX////W1tZkFI+EAAAAAXRSTlMAQObYZgAAABdJREFUeNrVwwENAAAAwiDev7Q5ZEP8HhKOADGMXVvVAAAAAElFTkSuQmCC);
