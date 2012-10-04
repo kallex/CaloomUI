@@ -4741,8 +4741,8 @@ a.badge:hover {
 .hero-unit,
 .oip-marketing {
   padding: 60px;
-  padding-top: 10px;
-  margin-bottom: 30px;
+  padding-top: 20px;
+  margin-bottom: 0px;
   background-color: #ffffff;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -4751,11 +4751,16 @@ a.badge:hover {
 .hero-unit h1,
 .oip-marketing h1 {
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 49px;
   line-height: 1;
   color: #555555;
   letter-spacing: -1px;
   text-align: center;
+}
+.hero-unit h1 small,
+.oip-marketing h1 small {
+  font-size: 21px;
+  color: #555555;
 }
 .hero-unit p,
 .oip-marketing p {
@@ -4801,9 +4806,9 @@ a.badge:hover {
 .oip-marketing {
   background-repeat: no-repeat;
   width: auto;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  background-color: ;
+  padding-top: 22px;
+  padding-bottom: 0px;
+  background-color: white;
 }
 div.blog > .oip-marketing {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-blog.png");
@@ -4826,6 +4831,18 @@ div.latest > .oip-marketing {
 div.services h1 {
   margin-top: 0px;
   padding-top: 0px;
+}
+.index {
+  background-repeat: no-repeat;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+}
+.index-blog {
+  background-color: #fcc20a;
+}
+.row-blog {
+  border-bottom: #fcc20a 9px solid;
 }
 .accordion-group-index {
   border: 1px solid #ffffff;

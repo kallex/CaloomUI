@@ -1,8 +1,8 @@
 <div class="services blog">
     <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 </div>
-<div class="row">
-    <div class="span3 blog-index">
+<div class="row row-blog">
+    <div class="span3 index index-blog">
         <?php include '../oip-modules/oip-module-index-collapse.txt' ?><!--UseInformationObject:BlogIndexGroup -->
     </div>
     <div class="span9">

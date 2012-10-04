@@ -5,18 +5,22 @@
 
 .hero-unit, .oip-marketing {
   padding: 60px;
-  padding-top: 10px;
-  margin-bottom: 30px;
+  padding-top: 20px;
+  margin-bottom: 0px;
   background-color: @white;//@heroUnitBackground;
   .border-radius(6px);
   h1 {
     margin-bottom: 0;
-    font-size: 60px;
-    line-height: 1;
+    font-size:@baseFontSize * 3.5;
+    line-height:1;
     color: @heroUnitHeadingColor;
     letter-spacing: -1px;
     text-align: center;
   }
+  h1 small {
+    font-size:@baseFontSize * 1.5;
+    color: @heroUnitHeadingColor;
+   }
   p {
     font-size: 18px;
     font-weight: 200;
