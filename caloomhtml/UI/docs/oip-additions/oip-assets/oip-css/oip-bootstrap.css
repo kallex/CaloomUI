@@ -4741,8 +4741,9 @@ a.badge:hover {
 .hero-unit,
 .oip-marketing {
   padding: 60px;
+  padding-top: 10px;
   margin-bottom: 30px;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -4752,7 +4753,7 @@ a.badge:hover {
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
-  color: inherit;
+  color: #555555;
   letter-spacing: -1px;
   text-align: center;
 }
@@ -4783,8 +4784,11 @@ a.badge:hover {
   position: fixed;
 }
 /* OIP Specific Styling */
+.navbar-static-top {
+  padding-top: 5px;
+}
 #container-focus {
-  margin-top: 0px;
+  margin-top: 10px;
 }
 .span2plus {
   width: 21.5%;
@@ -4795,27 +4799,29 @@ a.badge:hover {
 /* Aalto Specific Styling */
 .hero-unit,
 .oip-marketing {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/oip-hero-solid-turquoise.png");
   background-repeat: no-repeat;
   width: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: ;
 }
 div.blog > .oip-marketing {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/oip-hero-solid-turquoise.png");
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-blog.png");
 }
 div.about > .oip-marketing {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoPurple.png");
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-about.png");
 }
 div.map > .oip-marketing {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoFuchsia.png");
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-map.png");
 }
 div.group > .oip-marketing {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoOrange.png");
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-group.png");
 }
 div.activity > .oip-marketing {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoTurquoise.png");
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-activity.png");
 }
 div.latest > .oip-marketing {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-aaltoBlack.png");
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-latest.png");
 }
 div.services h1 {
   margin-top: 0px;

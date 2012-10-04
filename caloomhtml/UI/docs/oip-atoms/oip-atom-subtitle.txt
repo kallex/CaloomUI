@@ -1,2 +1,2 @@
-<a  style="color:#f5f5f5;"data-id="[!ATOM]ID[ATOM!]_SubTitle" title="Edit Subtitle" class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">[!ATOM]SubTitle[ATOM!]</a>
+<a data-id="[!ATOM]ID[ATOM!]_SubTitle" title="Edit Subtitle" class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">[!ATOM]SubTitle[ATOM!]</a>
 
