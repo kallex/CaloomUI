@@ -4845,7 +4845,16 @@ div.services h1 {
   margin: 0px;
 }
 .index-blog {
-  background-color: #fcc20a;
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-blog.png");
+}
+.index-about {
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-about.png");
+}
+.index-activity {
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-activity.png");
+}
+.index-group {
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-group.png");
 }
 .row-blog {
   border-bottom: #fcc20a 9px solid;
