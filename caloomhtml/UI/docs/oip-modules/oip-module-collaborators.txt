@@ -15,13 +15,7 @@
                     <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:PendingCollaborators -->
                 </div>
             </div>
-            <div class="control-group">
-                <label class="control-label" for="[!ATOM]ID[ATOM!]_EmailAddress">Invite collaborators</label>
-                <div class="controls">
-                    <input name="[!ATOM]ID[ATOM!]_EmailAddress" class="span3" id="[!ATOM]ID[ATOM!]_EmailAddress" type="text" value="[!ATOM]ID[ATOM!]_EmailAddress">
-                </div>
-            </div>
-            <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		<p><a href="#invite-collaborator" role="button" class="btn" data-toggle="modal">Invite new collaborator</a></p>
         </fieldset>
     </form>
 </div>
@@ -49,7 +43,7 @@
     </div>
     <div class="modal-body well">
         <form method="post" class="form-horizontal">
-            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <p>
                     You are now about to remove this collaborator from your group.
@@ -65,6 +59,36 @@
         </form>
     </div>
 </div>
+
+<div id="invite-collaborator" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Invite person to this group
+		</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal">
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddEmailAddressInfo:AddEmailAddress -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+			<fieldset>
+				<p>
+					Invite new collaborator to this group. Use only valid email address that you trust to belong to that person.
+				</p>
+                    <div class="control-group">
+                        <label class="control-label" for="[!ATOM]ID[ATOM!]_EmailAddress">Email address that you trust</label> 
+                        <div class="controls">
+                            <input name="[!ATOM]ID[ATOM!]_EmailAddress" class="span3" id="[!ATOM]ID[ATOM!]_EmailAddress" type="input" value="[!ATOM]EmailAddress[ATOM!]">
+                        </div>
+                    </div>
+
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			</fieldset>
+<!-- THEBALL-CONTEXT-END:* -->
+		</form>
+	</div>
+</div>
+
 
 <!-- end modals -->
 <!-- end oip-module-collaborators.txt -->

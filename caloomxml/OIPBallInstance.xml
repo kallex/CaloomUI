@@ -78,6 +78,7 @@
         <InformationItems>
           <InformationItem name="Email" logicalDataType="InformationObject" informationObjectName="TBEmail" />
           <InformationItem name="Role" logicalDataType="Text_Short" />
+          <InformationItem name="RoleStatus" logicalDataType="Text_Short" />
         </InformationItems>
       </InformationObject>
       <InformationObject name="TBCollaboratorRoleCollection" designDesc="Collection of collaborator roles">
