@@ -1,0 +1,36 @@
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="span4">
+                <img src="assets/img/bs-docs-twitter-github.png">
+                <h2>By nerds, for nerds.</h2>
+                <p>Built at Twitter by <a href="http://twitter.com/mdo">@mdo</a> and <a href="http://twitter.com/fat">@fat</a>, Bootstrap utilizes <a href="http://lesscss.org">LESS CSS</a>, is compiled via <a href="http://nodejs.org">Node</a>, and is managed through <a href="http://github.com">GitHub</a> to help nerds do awesome stuff on the web.</p>
+            </div>
+            <div class="span4">
+                <img src="assets/img/bs-docs-responsive-illustrations.png">
+                <h2>Made for everyone.</h2>
+                <p>Bootstrap was made to not only look and behave great in the latest desktop browsers (as well as IE7!), but in tablet and smartphone browsers via <a href="./scaffolding.html#responsive">responsive CSS</a> as well.</p>
+            </div>
+            <div class="span4">
+                <img src="assets/img/bs-docs-bootstrap-features.png">
+                <h2>Packed with features.</h2>
+                <p>A 12-column responsive <a href="./scaffolding.html#grid">grid</a>, dozens of components, <a href="./javascript.html">javascript plugins</a>, typography, form controls, and even a <a href="./customize.html">web-based Customizer</a> to make Bootstrap your own.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="../oip-additions/oip-assets/oip-images/placeholder/bootstrap-mdo-sfmoma-01.jpg" alt="">
+            <div class="carousel-caption">
+                <h4>First Thumbnail label</h4>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+        </div><div class="item">
+        <img src="../oip-additions/oip-assets/oip-images/placeholder/bootstrap-mdo-sfmoma-01.jpg" alt="">
+        <div class="carousel-caption">
+            <h4>First Thumbnail label</h4>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        </div>
+    </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+</div>

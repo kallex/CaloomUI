@@ -1,0 +1,8 @@
+<div class="item">
+    <?php include'../oip-atoms/oip-atom-image.txt' ?><!--UseInformationObject:Image-->
+    <div class="carousel-caption">
+        <?php include'../oip-atoms/oip-atom-title.txt' ?>	<!--UseInformationObject:Title-->
+        <?php include'../oip-atoms/oip-atom-caption.txt' ?>	<!--UseInformationObject:Caption-->
+    </div>
+</div>
+

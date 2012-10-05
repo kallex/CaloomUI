@@ -1,10 +1,7 @@
-<!-- oip-module-carousel-image.txt -->
 <div class="item">
-<?php include'../oip-atoms/oip-atom-image.txt' ?><!--UseInformationObject:Image-->
-<div class="carousel-caption">
-<?php include'../oip-atoms/oip-atom-title.txt' ?>	<!--UseInformationObject:Title-->
-<?php include'../oip-atoms/oip-atom-caption.txt' ?>	<!--UseInformationObject:Caption-->
+    <?php include'../oip-atoms/oip-atom-image.txt' ?>
+    <div class="carousel-caption">
+        <?php include'../oip-atoms/oip-atom-title.txt' ?>
+        <?php include'../oip-atoms/oip-atom-caption.txt' ?>
+    </div>
 </div>
-</div>
-<!-- oip-module-carousel-image.txt -->
-
