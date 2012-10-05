@@ -52,6 +52,7 @@
         <InformationItems>
           <InformationItem name="GroupID" logicalDataType="Text_Short" />
           <InformationItem name="GroupRole" logicalDataType="Text_Short" />
+          <InformationItem name="RoleStatus" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
       <InformationObject name="TBAccountCollaborationGroupCollection" designDesc="Account collaborating group collection">
@@ -90,11 +91,20 @@
           <InformationItem name="Roles" logicalDataType="InformationObject" informationObjectName="TBCollaboratorRoleCollection" />
         </InformationItems>
       </InformationObject>
-      <InformationObject name="TBEmailValidation" designDesc="Email validation object">
+      <InformationObject name="TBEmailValidation" designDesc="Email validation object, for confirmations as well" provideCreateMethod="false">
         <InformationItems>
           <InformationItem name="Email" logicalDataType="Text_Short" />
           <InformationItem name="AccountID" logicalDataType="Text_Short" />
           <InformationItem name="ValidUntil" logicalDataType="Time_DateTime" />
+          <InformationItem name="GroupJoinConfirmation" logicalDataType="InformationObject" informationObjectName="TBGroupJoinConfirmation"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBGroupJoinConfirmation" designDesc="Group joining confirmation through email">
+        <InformationItems>
+          <InformationItem name="GroupID" logicalDataType="Text_Short" />
+          <!--
+          <InformationItem name="InvitingAccountID" logicalDataType="Text_Short"/>
+          -->
         </InformationItems>
       </InformationObject>
       <InformationObject name="TBRegisterContainer" designDesc="Registration container (dynamically filled - not stored at any stage) - not postback support needed either">

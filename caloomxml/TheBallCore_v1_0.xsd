@@ -90,6 +90,13 @@
 		</xs:choice>
 		<xs:attribute name="name" type="xs:string" use="required"/>
 		<xs:attribute name="designDesc" type="xs:string" use="required"/>
+		<xs:attribute name="provideCreateMethod" type="xs:boolean" default="true">
+			<xs:annotation>
+				<xs:documentation>(Opt = true) Provides default create method that initializes all object types in the hierarchy.
+
+Useful to NOT have in system-internal objects such as queue operations where the null has meaning of NOT having the operation.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
 	</xs:complexType>
 	<xs:complexType name="InstanceOfTheBallType">
 		<xs:sequence>
