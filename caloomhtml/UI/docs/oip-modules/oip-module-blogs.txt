@@ -13,6 +13,6 @@
         <div class="tab-pane" id="tab-video"><?php include'../oip-modules/oip-module-videos.txt'  ?><!--UseInformationObject:VideoGroup --></div>
         <div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-choose-current.txt' ?><!--UseInformationObject:Location --></div>
         <div class="tab-pane" id="tab-category"><?php include'../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection--></div>
-        <div class="tab-pane" id="tab-delete"><?php include'../oip-modules/oip-module-group-delete.txt' ?></div>
+        <div class="tab-pane" id="tab-delete"><?php include'../oip-modules/oip-module-blog-delete.txt' ?></div>
     </div>
 </div>

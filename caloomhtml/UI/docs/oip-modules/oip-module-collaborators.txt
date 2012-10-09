@@ -1,18 +1,18 @@
 <!-- oip-module-collaborators.txt -->
 <div id="group-profile" class="span7" style=";margin-top:10px">
     <form id="" method="post" class="form-horizontal ">
-        <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
         <fieldset id="">
             <div class="control-group">
                 <label class="control-label">List of collaborators</label>
                 <div class="controls">
-                    <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:Collaborators -->
+                    <?php include '../oip-atoms/oip-atom-collaborator-view-assingrole-remove.txt' ?><!-- UseInformationObjectAsCollection:Collaborators -->
                 </div>
             </div>
             <div class="control-group">
                 <label class="control-label">Pending collaborators</label>
                 <div class="controls">
-                    <?php include '../oip-atoms/oip-atom-collaborator-view-remove.txt' ?><!-- UseInformationObjectAsCollection:PendingCollaborators -->
+                    <?php include '../oip-atoms/oip-atom-collaborator-view-assingrole-remove.txt' ?><!-- UseInformationObjectAsCollection:PendingCollaborators -->
                 </div>
             </div>
 		<p><a href="#invite-collaborator" role="button" class="btn" data-toggle="modal">Invite new collaborator</a></p>

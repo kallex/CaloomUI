@@ -3,7 +3,7 @@
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="">
-Are you sure you want to delete this activity? All the permanent links pointing to this activity will break.
+Are you sure you want to delete this blog post? All the permanent links pointing to this blog will break.
 <?php include '../oip-atoms/oip-atom-form-cancel-delete.txt' ?>
 		</fieldset>
 	</form>

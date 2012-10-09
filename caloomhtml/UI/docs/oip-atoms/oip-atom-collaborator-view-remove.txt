@@ -1,1 +1,0 @@
-<p><a data-toggle="modal" href="#view-profile">[!ATOM]CollaboratorName[ATOM!]</a>, <a data-id="[!ATOM]ID[ATOM!]" class="open-IDAction_ConfirmRemove" href="#IDAction_ConfirmRemove" data-question="Remove [!ATOM]CollaboratorName[ATOM!] as collaborator?">remove this collaborator</a></p>

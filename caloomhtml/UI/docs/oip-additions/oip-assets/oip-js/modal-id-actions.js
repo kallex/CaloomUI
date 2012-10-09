@@ -2,13 +2,24 @@ $(document).on("click", ".open-IDAction_ConfirmRemove", function () {
     var fieldid = $(this).data('id');
     var fieldquestion = $(this).data('question');
 
-
     $('.modal-body #ObjectFieldID').val(fieldid);
     $('.modal-body #question').val(fieldquestion);
 
-
     $('#IDAction_ConfirmRemove').modal('show');
 });
+
+$(document).on("click", ".open-IDAction_AssignGroupRole", function () {
+    var fieldid = $(this).data('id');
+    // var fieldquestion = $(this).data('question');
+
+    $('.modal-body #ObjectFieldID').val(fieldid);
+    $('.modal-body #grouproles').val("Dynamic role list here...");
+    
+    //$('.modal-body #question').val(fieldquestion);
+
+    $('#IDAction_AssignGroupRole').modal('show');
+});
+
 
 $("#edittoggle").click(function () {
     // alert('Toggling page elements to/from edit mode...');

@@ -1,6 +1,6 @@
 <div class="span9">
-<h2>[!ATOM]Title[ATOM!]<br><small>[!ATOM]SubTitle[ATOM!]</small></h2>
-<h4>[!ATOM]Published[ATOM!]<!--UseInformationObject:Published--></h4>
-<h4>[!ATOM]Author[ATOM]!<!-- UseInformationObject:Author--></h4>
-<p><?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObject:ImageGroup --></p>
-<p>[!ATOM]Body[ATOM!]<!-- UseInformationObject:Body--></p>
+<h2><?php include '../oip-atoms/oip-atom-activityname.txt' ?></h2>
+<?php include '../oip-modules/oip-module-introduction.txt ?><!-- UseInformationObject:Introduction -->
+<p><!-- include 'oip-module-modal-images.txt' --!><!-- UseInformationObject:ImageGroup --></p>
+<p><?php include '../oip-atoms/oip-atom-description.txt' ?></p>
+</div>
