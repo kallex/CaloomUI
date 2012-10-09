@@ -110,7 +110,7 @@
     text-align: left;
     position: relative;
     display:none;
-    background-color: yellow;
+    background-color: rgba(169, 166, 164, 0.28);
 }
 
 #tabzilla-panel.open #tabzilla-contents {
@@ -204,6 +204,18 @@
     background-position: 100% 0;
     background-repeat: no-repeat;
     line-height: 1.1;
+}
+
+/*aalto css*/
+#tabzilla-panel #tabzilla-nav ul li a {
+    border-left: 3px solid
+    #ffffff;
+    width: 115px;
+    height: 28px;
+    text-align: center;
+    line-height: 12px;
+    padding-top: 2px;
+    overflow: hidden;
 }
 
 * html #tabzilla-panel #tabzilla-nav ul li {
