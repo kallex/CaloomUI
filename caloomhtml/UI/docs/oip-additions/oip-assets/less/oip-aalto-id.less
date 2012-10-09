@@ -2,6 +2,8 @@
 /* OIP Specific Styling */
 .navbar-static-top{padding-top: 5px;}
 
+.well {padding-left: 0px;padding-right: 0px;}
+
 #container-focus {
   margin-top: 10px;
 }
@@ -33,7 +35,7 @@
 //.navbar .nav > li.group:hover a {color:@aaltoOrange;}
 //.navbar .nav > li.activity:hover a {color:@aaltoTurquoise;}
 
-.hero-unit, .oip-marketing {
+.hero-unit {
 //background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/oip-hero-solid-turquoise.png");
 background-repeat: no-repeat ;
 width: auto;
@@ -41,27 +43,38 @@ padding-top: 22px;
 padding-bottom: 0px;
 background-color: white;}
 
-div.blog >.oip-marketing {
+div.blog >.hero-unit {
   background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/hero-unit-blog.png");
 }
-div.about >.oip-marketing {
+div.about >.hero-unit {
   background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/hero-unit-about.png");
 }
-div.map >.oip-marketing  {
+div.map >.hero-unit  {
   background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/hero-unit-map.png");
 }
-div.group >.oip-marketing  {
+div.group >.hero-unit  {
   background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/hero-unit-group.png");
 }
-div.activity >.oip-marketing  {
+div.activity >.hero-unit  {
   background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/hero-unit-activity.png");
 }
-div.latest >.oip-marketing  {
+div.latest >.hero-unit  {
   background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/hero-unit-latest.png");
 }
-div.services h1  {
-  margin-top: 0px;
-  padding-top: 0px;
+
+.small>.hero-unit {
+  padding: 0px;
+  margin:0px;
+  min-height:70px;
+  h1 {text-align: left;line-height: 0.4;}
+  h1 a {
+    font-size: 50%;
+  }
+  small a {
+    font-size:70%;
+  }
+  background-color: none;
+  background-image: none !important;
 }
 
 .index {
@@ -69,6 +82,7 @@ div.services h1  {
   width: auto;
   padding: 0px;
   margin: 0px;
+  >* {font-size: 12px;}
 }
 .index-blog {
   background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/index-blog.png");
@@ -80,7 +94,7 @@ div.services h1  {
   background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/index-activity.png");
 }
 .index-group {
-  background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/index-group.png",*0.3);
+  background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/index-group.png,*0.3");
 }
 
 

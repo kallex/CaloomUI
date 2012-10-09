@@ -3,16 +3,7 @@
 </div>
 <div>
     <ul class="thumbnails">
-        <?php include 'oip-module-activity-1-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
-    </ul>
-    <ul class="thumbnails">
         <?php include 'oip-module-activity-2-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
-    </ul>
-    <ul class="thumbnails">
-        <?php include 'oip-module-activity-3-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
-    </ul>
-    <ul class="thumbnails">
-        <?php include 'oip-module-activity-4-in-row.txt' ?><!--UseInformationObjectAsCollection:ActivityCollection -->
     </ul>
     <ul class="pager">
         <li class="previous">
