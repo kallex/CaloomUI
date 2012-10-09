@@ -1,8 +1,8 @@
-<div class="services group">
+<div class="services group small">
     <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 </div>
 <div class="row">
-    <div class="span3 index-group">
+    <div class="span3 index index-group">
         <?php include '../oip-modules/oip-module-groups-index-summary-public.txt' ?><!--UseInformationObject:GroupSummaryIndex-->
     </div>
     <div class="span9">

@@ -1,8 +1,8 @@
-<div class="services activity">
+<div class="services activity small">
     <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 </div>
 <div class="row">
-    <div class="span3">
+    <div class="span3 index">
         <?php include '../oip-modules/oip-module-activities-index-summary-public.txt' ?><!--UseInformationObject:ActivityIndex-->
     </div>
     <div class="span9">
