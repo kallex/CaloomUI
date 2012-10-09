@@ -3508,7 +3508,6 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-static-top {
   position: static;
-  width: 100%;
   margin-bottom: 0;
 }
 .navbar-static-top .navbar-inner {
@@ -4738,8 +4737,7 @@ a.badge:hover {
 .carousel-caption p {
   margin-bottom: 0;
 }
-.hero-unit,
-.oip-marketing {
+.hero-unit {
   padding: 60px;
   padding-top: 20px;
   margin-bottom: 0px;
@@ -4754,8 +4752,7 @@ a.badge:hover {
   -moz-border-radius-bottomleft: 0px;
   border-bottom-left-radius: 0px;
 }
-.hero-unit h1,
-.oip-marketing h1 {
+.hero-unit h1 {
   margin-bottom: 0;
   font-size: 49px;
   line-height: 1;
@@ -4763,13 +4760,11 @@ a.badge:hover {
   letter-spacing: -1px;
   text-align: center;
 }
-.hero-unit h1 small,
-.oip-marketing h1 small {
+.hero-unit h1 small {
   font-size: 21px;
   color: #555555;
 }
-.hero-unit p,
-.oip-marketing p {
+.hero-unit p {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
@@ -4798,6 +4793,10 @@ a.badge:hover {
 .navbar-static-top {
   padding-top: 5px;
 }
+.well {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 #container-focus {
   margin-top: 10px;
 }
@@ -4808,41 +4807,57 @@ a.badge:hover {
   width: 46.57%;
 }
 /* Aalto Specific Styling */
-.hero-unit,
-.oip-marketing {
+.hero-unit {
   background-repeat: no-repeat;
   width: auto;
   padding-top: 22px;
   padding-bottom: 0px;
   background-color: white;
 }
-div.blog > .oip-marketing {
+div.blog > .hero-unit {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-blog.png");
 }
-div.about > .oip-marketing {
+div.about > .hero-unit {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-about.png");
 }
-div.map > .oip-marketing {
+div.map > .hero-unit {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-map.png");
 }
-div.group > .oip-marketing {
+div.group > .hero-unit {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-group.png");
 }
-div.activity > .oip-marketing {
+div.activity > .hero-unit {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-activity.png");
 }
-div.latest > .oip-marketing {
+div.latest > .hero-unit {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/hero-unit-latest.png");
 }
-div.services h1 {
-  margin-top: 0px;
-  padding-top: 0px;
+.small > .hero-unit {
+  padding: 0px;
+  margin: 0px;
+  min-height: 70px;
+  background-color: none;
+  background-image: none !important;
+}
+.small > .hero-unit h1 {
+  text-align: left;
+  line-height: 0.4;
+}
+.small > .hero-unit h1 a {
+  font-size: 50%;
+}
+.small > .hero-unit small a {
+  font-size: 70%;
 }
 .index {
+  background-color: #fafad2;
   background-repeat: no-repeat;
   width: auto;
   padding: 0px;
   margin: 0px;
+}
+.index > * {
+  font-size: 12px;
 }
 .index-blog {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-blog.png");
@@ -4854,7 +4869,7 @@ div.services h1 {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-activity.png");
 }
 .index-group {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-group.png");
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-group.png,*0.3");
 }
 .row-blog {
   border-bottom: #fcc20a 9px solid;

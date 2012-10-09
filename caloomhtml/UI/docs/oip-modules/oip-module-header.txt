@@ -1,7 +1,5 @@
-<!-- oip-module-header.txt -->
-<div class="oip-marketing">
-<h1><?php include '../oip-atoms/oip-atom-title.txt' ?></h1>
-<h1><small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></small></h1>
+<div class="hero-unit">
+    <h1><?php include '../oip-atoms/oip-atom-title.txt' ?></h1>
+    <h1><small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></small></h1>
 </div>
-<!-- end oip-module-header.txt -->
 
