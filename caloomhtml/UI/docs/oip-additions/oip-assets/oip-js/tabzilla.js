@@ -526,15 +526,15 @@ Tabzilla.closeSubmenu = function($item, $menu)
 };
 
 Tabzilla.content =
-    '<div id="tabzilla-contents">'
+    '<div id="tabzilla-contents" class="container">'
         + '  <div id="tabzilla-nav">'
         + '    <ul>'
-        + '          <li><a href="http://eng.aalto.fi/fi/" style="font-size: 11px;">Insinööritieteiden korkeakoulu</a>'
+        + '          <li><a href="http://eng.aalto.fi/fi/" style="font-size: 11px; border-left:0px">Insinööritieteiden korkeakoulu</a>'
         + '          <li><a href="http://business.aalto.fi/fi/">Kauppa-<br>korkeakoulu</a></li>'
         + '          <li><a href="http://chem.aalto.fi/fi/">Kemian tekniikan korkeakoulu</a></li>'
         + '          <li><a href="http://sci.aalto.fi/fi/">Perustieteiden korkeakoulu</a></li>'
         + '          <li><a href="http://elec.aalto.fi/fi/">Sähkötekniikan korkeakoulu</a></li>'
-        + '          <li><a href="http://arts.aalto.fi/fi/" style="width:120px">Taiteiden ja suunnittelun korkeakoulu</a></li>'
+        + '          <li><a href="http://arts.aalto.fi/fi/" style="width:160px">Taiteiden ja suunnittelun korkeakoulu</a></li>'
         + '    </ul>'
         + '  </div>'
         + '</div>';

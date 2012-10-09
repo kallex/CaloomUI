@@ -86,7 +86,7 @@
 
 #tabzilla-panel {
     height: 0;
-    background: #fff;
+    background-color: rgb(211, 208, 206);
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -110,7 +110,7 @@
     text-align: left;
     position: relative;
     display:none;
-    background-color: rgba(169, 166, 164, 0.28);
+    background-color: rgb(211, 208, 206);
 }
 
 #tabzilla-panel.open #tabzilla-contents {
@@ -218,6 +218,9 @@
     overflow: hidden;
 }
 
+#tabzilla-panel #tabzilla-nav ul li a:hover {
+    background-color: white;
+}
 * html #tabzilla-panel #tabzilla-nav ul li {
     margin-right: 10px; /* IE6 width oddity workaround */
 }
@@ -278,7 +281,7 @@
 }
 
 #tabzilla-panel #tabzilla-nav ul li#tabzilla-search input:hover {
-    border-color: #ccc;
+    border-color: #ffffff;
 }
 
 #tabzilla-panel #tabzilla-nav ul li#tabzilla-search input:focus {
