@@ -7,11 +7,14 @@
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     <li class="map"> <a href="oip-layout-map.phtml"> Map</a> </li>
-                    <li class="blog"><a href="oip-layout-blog.phtml">Blog</a></li>
-                    <li class="about"><a href="oip-layout-about.phtml">About</span></a></li>
-                    <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Activities<b class="caret"></b><span class="badge badge-info" style="margin-left: 4px;"> 5</span></a>
+                    <li class="blog"><a href="oip-layout-blog.phtml"> Blog</a></li>
+                    <li class="about"><a href="oip-layout-about.phtml"> About</span></a></li>
+                    <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities<b class="caret"></b><span class="badge badge-info" style="margin-left: 4px;"> 5</span></a>
                         <ul class="dropdown-menu">
                             <li> <a href="oip-layout-activities-summary.phtml"> Summary of all activities</a> </li>
+                            <li class="divider"></li>
+                            <li> <a href="oip-layout-activities-summary.phtml"> My activities</a> </li>
+                            <li class="divider"></li>
                             <li class="dropdown-submenu">
                                 <a tabindex="-1" href="#">Activities in Group A</a>
                                 <ul class="dropdown-menu">
@@ -50,16 +53,19 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Groups<b class="caret"></b></a>
+                    <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> My Groups<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li> <a href="oip-layout-activities-summary.phtml"> Summary of all groups</a> </li>
+                            <li> <a href="#"> Summary of all groups</a> </li>
+                            <li class="divider"></li>
+                            <li> <a href="#"> My groups</a> </li>
+                            <li class="divider"></li>
                             <li><a tabindex="-1" href="#">Group A</a></li>
                             <li><a tabindex="-1" href="#">Group B</a></li>
                             <li><a tabindex="-1" href="#">Group C</a></li>
                         </ul>
                     </li>
                     <li class="divider-vertical" style="border-left-color: #708090;;border-right-color: #708090;"></li>
-                    <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Our public site<b class="caret"></b></a>
+                    <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Our public site<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li> <a href="#"><i class="icon-arrow-right"></i> Homepage</a> </li>
                             <li><a tabindex="-1" href="#"><i class="icon-arrow-right"></i> Map</a></li>
