@@ -69,7 +69,6 @@
                             <li> <a href="oip-layout-activities-summary.phtml"> Homepage</a> </li>
                             <li> <a href="oip-layout-activities-summary.phtml"> Map</a> </li>
                             <li> <a href="oip-layout-activities-summary.phtml"> About</a> </li>
-                            <li> <a href="oip-layout-activities-summary.phtml"> Blog</a> </li>
                             <li class="dropdown-submenu">
                                 <a tabindex="-1" href="#">Blog</a>
                                 <ul class="dropdown-menu">
