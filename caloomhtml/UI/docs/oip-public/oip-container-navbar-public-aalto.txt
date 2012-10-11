@@ -64,18 +64,24 @@
                             <li><a tabindex="-1" href="#">Group C</a></li>
                         </ul>
                     </li>
-                    <li class="divider-vertical" style="border-left-color: #708090;;border-right-color: #708090;"></li>
-                    <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Our public site<b class="caret"></b></a>
+                    <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Our public site<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li> <a href="#"><i class="icon-arrow-right"></i> Homepage</a> </li>
-                            <li><a tabindex="-1" href="#"><i class="icon-arrow-right"></i> Map</a></li>
-                            <li><a tabindex="-1" href="#"><i class="icon-arrow-right"></i> Blog</a></li>
-                            <li><a tabindex="-1" href="#"><i class="icon-arrow-right"></i> About</a></li>
-                            <li><a tabindex="-1" href="#"><i class="icon-arrow-right"></i> Activities</a></li>
-                            <li><a tabindex="-1" href="#"><i class="icon-arrow-right"></i> Groups</a></li>
-                            <li><a tabindex="-1" href="#"><i class="icon-arrow-right"></i> Sign Up</a></li>
+                            <li> <a href="oip-layout-activities-summary.phtml"> Homepage</a> </li>
+                            <li> <a href="oip-layout-activities-summary.phtml"> Map</a> </li>
+                            <li> <a href="oip-layout-activities-summary.phtml"> About</a> </li>
+                            <li> <a href="oip-layout-activities-summary.phtml"> Blog</a> </li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                                </ul>
+                            </li>
+                            <li><a tabindex="-1" href="#"> Activities</a></li>
+                            <li><a tabindex="-1" href="#"> Groups</a></li>
+                            <li><a tabindex="-1" href="#"> Sign Up</a></li>
                         </ul>
                     </li>
+
                 </ul>
                 <a class="btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a>
             </div>
