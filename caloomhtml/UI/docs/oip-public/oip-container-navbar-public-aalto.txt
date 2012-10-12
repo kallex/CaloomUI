@@ -64,7 +64,7 @@
                             <li><a tabindex="-1" href="#">Group C</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown activity"><span><img src="../oip-additions/oip-assets/oip-images/ui/icons-oip-aalto-red.png" alt=""></span><br><a href="#" class="dropdown-toggle" data-toggle="dropdown">Our public site<b class="caret"></b></a>
+                    <li class="dropdown activity"><span><img style="width:auto;margin-left: auto;margin-right: auto;" src="../oip-additions/oip-assets/oip-images/ui/icons-oip-aalto-red.png" alt=""></span><br><a href="#" class="dropdown-toggle" data-toggle="dropdown">Our public site<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li> <a href="oip-layout-activities-summary.phtml"> Homepage</a> </li>
                             <li> <a href="oip-layout-activities-summary.phtml"> Map</a> </li>
