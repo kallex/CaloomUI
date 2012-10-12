@@ -5250,16 +5250,18 @@ ul li .aalto-nav,
   margin: 0;
   text-align: center;
   list-style: none;
-  border-left: 1px solid #7f786d;
-  border-right: 1px solid #7f786d;
 }
-ul li .aalto-nav:first-child {
-  border-right: 3px;
+ul li ul li > * {
+  text-align: left;
 }
 .icon-large {
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 36px;
+  color: #c7c4be;
+}
+.icon-large:hover {
+  color: #7f786d;
 }
 .footer {
   padding: 70px 0;
