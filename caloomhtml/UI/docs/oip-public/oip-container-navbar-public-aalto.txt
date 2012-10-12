@@ -10,7 +10,7 @@
                     <span>Map</span></a></li>
                 <li class="aalto-nav"><a href="#"> <i class="icon-book icon-large"></i> <br><span> Blog</span></a></li>
                 <li class="aalto-nav"><a href="#"> <i class="icon-umbrella icon-large"></i> <br><span> About</span></a></li>
-                <li class="dropdown activity"><a href="#" class="dropdown-toggle aalto-nav" data-toggle="dropdown"> <i class="icon-bullhorn icon-large"></i> <br><span>Activities<b class="caret"></b></span><span class="badge badge-info" style="margin-left: 4px;"> 5</span></a>
+                <li class="dropdown activity aalto-nav"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-bullhorn icon-large"></i> <br><span>Activities<b class="caret"></b></span></a>
                     <ul class="dropdown-menu">
                         <li> <a href="oip-layout-activities-summary.phtml"> Summary of all activities</a> </li>
                         <li class="divider"></li>
@@ -54,7 +54,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown activity"><a href="#" class="dropdown-toggle aalto-nav" data-toggle="dropdown"> <i class="icon-group icon-large"></i> <br><span>My Groups<b class="caret"></b></span></a>
+                <li class="dropdown activity  aalto-nav"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-group icon-large"></i> <br><span>My Groups<b class="caret"></b></span></a>
                     <ul class="dropdown-menu">
                         <li> <a href="#"> Summary of all groups</a> </li>
                         <li class="divider"></li>
@@ -65,7 +65,7 @@
                         <li><a tabindex="-1" href="#">Group C</a></li>
                     </ul>
                 </li>
-                <li class="dropdown activity"><a href="#" class="dropdown-toggle aalto-nav" data-toggle="dropdown"><i class="icon-camera-retro icon-large"></i> <br><span>Our public site<b class="caret"></b></span></a>
+                <li class="dropdown activity  aalto-nav"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-camera-retro icon-large"></i> <br><span>Our public site<b class="caret"></b></span></a>
                     <ul class="dropdown-menu">
                         <li> <a href="oip-layout-activities-summary.phtml"> Homepage</a> </li>
                         <li> <a href="oip-layout-activities-summary.phtml"> Map</a> </li>
