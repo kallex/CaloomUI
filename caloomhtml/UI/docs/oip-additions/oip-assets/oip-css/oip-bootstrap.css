@@ -1759,14 +1759,14 @@ a [class*=" icon-"] {
 li [class^="icon-"],
 li [class*=" icon-"] {
   display: inline-block;
-  width: 1.25em;
+  width: 1em;
   text-align: center;
 }
 li .icon-large:before,
 li .icon-large:before {
   /* 1.5 increased font size for icon-large * 1.25 width */
 
-  width: 1.875em;
+  width: 0.8em;
 }
 ul.icons {
   list-style-type: none;
@@ -5241,6 +5241,7 @@ ul.header-first li.eng a {
 .aalto-gi {
   color: #7f786d;
 }
+ul li .aalto-nav,
 .aalto-nav {
   float: left;
   min-width: 90px;
@@ -5251,6 +5252,14 @@ ul.header-first li.eng a {
   list-style: none;
   border-left: 1px solid #7f786d;
   border-right: 1px solid #7f786d;
+}
+ul li .aalto-nav:first-child {
+  border-right: 3px;
+}
+.icon-large {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 36px;
 }
 .footer {
   padding: 70px 0;

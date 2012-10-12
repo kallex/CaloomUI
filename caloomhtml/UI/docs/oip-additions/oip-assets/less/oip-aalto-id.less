@@ -219,7 +219,7 @@ ul.header-first li.eng a,
   color: @aaltoGray;
 }
 
-.aalto-nav {
+ul li .aalto-nav, .aalto-nav {
   float: left;
   min-width: 90px;
   height: 80px;
@@ -230,6 +230,17 @@ ul.header-first li.eng a,
   border-left: 1px solid @aaltoGray;
   border-right: 1px solid @aaltoGray;
 }
+ul li .aalto-nav:first-child {
+  border-right: 3px;
+}
+
+.icon-large {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+
 // test from fab.com
 //img {
 //  background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/img-fill.gif");

@@ -5,7 +5,7 @@
         <a href="#" style="float:left"><img src="../oip-additions/oip-assets/oip-images/ui/aalto-global-impact-logo-medium.png" alt=""></a>
         <a href="" id="tabzilla">Aalto</a>
         <div class="nav-collapse collapse">
-            <ul class="nav">
+            <ul class="nav pull-right">
                 <li class="aalto-nav"><a href="#"> <i class="icon-map-marker icon-large"></i> <br>
                     <span>Map</span></a></li>
                 <li class="aalto-nav"><a href="#"> <i class="icon-book icon-large"></i> <br><span> Blog</span></a></li>
@@ -81,9 +81,9 @@
                         <li><a tabindex="-1" href="#"> Sign Up</a></li>
                     </ul>
                 </li>
+                <a class="btn btn-primary btn-small pull-right" style="margin-left: 10px;" href="oip-layout-register.phtml">Collaborate!</a>
 
             </ul>
-            <a class="btn btn-primary btn-small" href="oip-layout-register.phtml">Collaborate!</a>
         </div>
     </div>
 </div>
