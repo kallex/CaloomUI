@@ -10,7 +10,7 @@
         <div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules/oip-module-activities-profile.txt'  ?></div>
         <div class="tab-pane" id="tab-images"><?php include'../oip-modules/oip-module-images.txt'  ?></div>
         <div class="tab-pane" id="tab-activities-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?><!--UseInformationObject:Location--></div>
-        <div class="tab-pane" id="tab-activities-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.AddLocationInfo:AddLocation --></div>
+        <div class="tab-pane" id="tab-activities-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.AddAddressAndLocationInfo:AddLocation --></div>
         <div class="tab-pane" id="tab-activities-delete"><?php include'../oip-modules/oip-module-activities-delete.txt' ?></div>
     </div>
 </div>

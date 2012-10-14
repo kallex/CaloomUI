@@ -30,3 +30,9 @@ $("#edittoggle").click(function () {
     // alert("Toggled to edit: " + notInEditMode.length + " - toggled off from edit: " + inEditMode.length + " elements...");
 });
 
+$(".remoteurlmodal").on('click', function () {
+    var url = $(this).data('url');
+    var modal_id = "IDRemoteUrlModal";
+    $("#" + modal_id).load(url);
+    $("#" + modal_id).modal('show');
+});

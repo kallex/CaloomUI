@@ -4,6 +4,6 @@
         <?php include '../oip-modules/oip-module-activities-index-summary-public.txt' ?><!-- UseInformationObject:ActivityIndex -->
     </div>
     <div class="span9">
-        <?php include '../oip-modules/oip-module-activity-edit.txt' ?><!-- UseInformationObjectAsRoot:Activity -->
+        <?php include '../oip-modules/oip-module-activity-edit.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.Activity -->
     </div>
 </div>

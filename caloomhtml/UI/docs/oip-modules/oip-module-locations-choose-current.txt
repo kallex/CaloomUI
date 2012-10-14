@@ -1,16 +1,19 @@
 <!-- oip-module-locations-choose-current.txt -->
 <div id="identity" class="span7" style="margin-top:10px;min-height:300px">
 	<form id="" method="post" class="form-horizontal ">
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.LocationContainer:Locations -->
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="current-locations">
 		<div class="control-group">
-			<label class="control-label" for="[!ATOM]ID[ATOM!]_LocationName">List of locations used by you</label> 
+			<label class="control-label">List of locations used</label> 
 			<div class="controls">
-                <?php include '../oip-atoms/oip-atom-choose-location.txt' ?><!-- UseInformationObjectAsCollection:AddressAndLocationCollection -->
+                <?php include '../oip-atoms/oip-atom-choose-location.txt' ?><!-- UseInformationObjectAsCollection:Locations -->
 			</div>
 		</div>
+		<a href="#add-location" data-toggle="modal">Add Location</a>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 	</fieldset>
+<!-- THEBALL-CONTEXT-END:* -->
 </form>
 </div>
 
@@ -40,6 +43,33 @@
 		</form>
 	</div>
 </div>
+
+<div id="add-location" class="modal hide fade">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h2 class="title">
+            Add a location
+        </h2>
+    </div>
+    <div class="modal-body">
+        <form method="post" class="form-horizontal">
+
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddAddressAndLocationInfo:AddLocation -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_LocationName">Location name</label>
+                    <div class="controls">
+                        <input name="[!ATOM]ID[ATOM!]_LocationName" class="span4" id="[!ATOM]ID[ATOM!]_LocationName" type="text" value="[!ATOM]LocationName[ATOM!]">
+                    </div>
+                </div>
+                <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+            </fieldset>
+<!-- THEBALL-CONTEXT-END:* -->
+        </form>
+    </div>
+</div>
+
 
 <!-- end modals -->
 <!-- end oip-module-locations-choose-current.txt -->

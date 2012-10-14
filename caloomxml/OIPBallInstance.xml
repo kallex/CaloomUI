@@ -195,11 +195,17 @@
           <InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection" />
         </InformationItems>
       </InformationObject>
+      <InformationObject name="LocationContainer" designDesc="Container of locations">
+        <InformationItems>
+          <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
+        </InformationItems>
+      </InformationObject>
       <InformationObject name="AddressAndLocationCollection" designDesc="Designed later">
         <CollectionFor contentInformationObjectName="AddressAndLocation"/>
       </InformationObject>
       <InformationObject name="AddressAndLocation" designDesc="Street address and location">
         <InformationItems>
+          <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
           <InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="StreetAddress"/>
           <InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location"/>
         </InformationItems>
@@ -480,13 +486,16 @@
       </InformationObject>
 
 
-      <InformationObject name="AddLocationInfo" designDesc="Add location info">
+      <InformationObject name="AddAddressAndLocationInfo" designDesc="Add addres and location info">
         <InformationItems>
+          <InformationItem name="LocationName" logicalDataType="Text_Short"/>
+          <!--
           <InformationItem name="MapMarkers" logicalDataType="InformationObject" informationObjectName="MapMarkerCollection" />
           <InformationItem name="LocationName" logicalDataType="Text_Short"/>
           <InformationItem name="Longitude" logicalDataType="Text_Short"/>
           <InformationItem name="Latitude" logicalDataType="Text_Short"/>
           <InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="StreetAddress"/>
+          -->
         </InformationItems>
       </InformationObject>
 

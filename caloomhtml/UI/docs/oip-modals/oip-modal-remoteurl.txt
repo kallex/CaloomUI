@@ -1,0 +1,2 @@
+<div class="modal hide fade well" id="IDRemoteUrlModal">
+</div>

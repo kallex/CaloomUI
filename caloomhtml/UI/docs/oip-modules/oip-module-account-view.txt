@@ -15,7 +15,7 @@
 		<div class="tab-pane" id="tab-emails-security"><?php include'../oip-modules/oip-module-account-emails-security.txt' ?><!-- UseInformationObject:Security--></div>
 		<div class="tab-pane" id="tab-roles"><?php include'../oip-modules/oip-module-account-roles.txt' ?><!-- UseInformationObject:Roles--></div>
 		<div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?></div>
-		<div class="tab-pane" id="tab-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.AddLocationInfo:AddLocation--></div>
+		<div class="tab-pane" id="tab-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.AddAddressAndLocationInfo:AddLocation--></div>
 <!--	<div class="tab-pane" id="tab-activities"> include'../oip-modules/oip-module-account-activities.txt' ?></div>
 		<div class="tab-pane" id="tab-skills"> include'../oip-modules/oip-module-account-skills.txt' ?></div>
 		<div class="tab-pane" id="tab-content"> include'../oip-modules/oip-module-content.txt' ?></div> -->
