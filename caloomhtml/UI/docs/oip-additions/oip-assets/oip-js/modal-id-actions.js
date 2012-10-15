@@ -33,6 +33,7 @@ $("#edittoggle").click(function () {
 $(".remoteurlmodal").on('click', function () {
     var url = $(this).data('url');
     var modal_id = "IDRemoteUrlModal";
-    $("#" + modal_id).load(url);
+    var modal_body = modal_id + "Body";
+    $("#" + modal_body).load(url);
     $("#" + modal_id).modal('show');
 });

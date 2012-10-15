@@ -4,7 +4,7 @@
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:Location -->
 <fieldset>
-<?php include'../oip-modules/oip-module-map-small.txt' ?>
+<?php include'../oip-modules/oip-module-map-small-nomarkers.txt' ?>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_LocationName">Location name</label> 
 				<div class="controls">
