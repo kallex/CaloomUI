@@ -1,7 +1,7 @@
 <!-- oip-module-locations-choose-current.txt -->
 <div id="identity" class="span7" style="margin-top:10px;min-height:300px">
 	<form id="" method="post" class="form-horizontal ">
-<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.LocationContainer:Locations -->
+<!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.LocationContainer:Locations -->
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="current-locations">
 		<div class="control-group">

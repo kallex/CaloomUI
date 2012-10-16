@@ -14,8 +14,8 @@
 			<div class="control-group">
 				<label class="control-label" for="input01">Lon Lat</label> 
 				<div class="controls">
-					<input name="[!ATOM]ID[ATOM!]_Longitude" class="span3" id="[!ATOM]ID[ATOM!]_Longitude" type="text" value="[!ATOM]Longitude[ATOM!]" placeholder="Longitude">
-					<input name="[!ATOM]ID[ATOM!]_Latitude" class="span3" id="[!ATOM]ID[ATOM!]_Latitude" type="text" value="[!ATOM]Latitude[ATOM!]" placeholder="Latitude">
+					<input name="[!ATOM]Longitude.ID[ATOM!]_TextValue" class="span3" id="[!ATOM]Longitude.ID[ATOM!]_TextValue" type="text" value="[!ATOM]Longitude.TextValue[ATOM!]" placeholder="Longitude">
+					<input name="[!ATOM]Latitude.ID[ATOM!]_TextValue" class="span3" id="[!ATOM]Latitude.ID[ATOM!]_TextValue" type="text" value="[!ATOM]Latitude.TextValue[ATOM!]" placeholder="Latitude">
 				</div>
 			</div>
 <!-- THEBALL-CONTEXT-END:* -->

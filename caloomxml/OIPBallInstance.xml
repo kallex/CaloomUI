@@ -937,6 +937,7 @@
           <InformationItem name="SourceName" logicalDataType="Text_Short" />
           <InformationItem name="SourceLocation" logicalDataType="Text_Short" />
           <InformationItem name="SourceType" logicalDataType="Text_Short" />
+          <InformationItem name="IsDynamic" logicalDataType="TrueOrFalse_Boolean"/>
           <InformationItem name="SourceInformationObjectType" logicalDataType="Text_Short" />
           <InformationItem name="SourceETag" logicalDataType="Text_Short" />
           <InformationItem name="SourceMD5" logicalDataType="Text_Short" />
