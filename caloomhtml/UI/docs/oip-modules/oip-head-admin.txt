@@ -12,8 +12,6 @@
 	<link href="../oip-additions/oip-assets/oip-js/google-code-prettify/prettify.css" rel="stylesheet">
     <link href="../oip-additions/oip-assets/oip-css/tabzilla.css" rel="stylesheet" />
     <link href="../oip-additions/oip-assets/oip-css/oip-font-awesome.css" rel="stylesheet">
-<!--    <link href="../oip-additions/oip-assets/oip-css/oip-base-admin.css" rel="stylesheet"
-    <link href="../oip-additions/oip-assets/oip-css/oip-base-admin-responsive.css" rel="stylesheet">   -->
 
     <!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
 <!--Extra Styles from jQuery UI-->
