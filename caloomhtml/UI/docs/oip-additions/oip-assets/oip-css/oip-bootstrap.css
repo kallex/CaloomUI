@@ -3665,14 +3665,14 @@ input[type="submit"].btn.btn-mini {
   min-height: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #ffffff;
-  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
-  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
-  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  background-color: #74b080;
+  background-image: -moz-linear-gradient(top, #187c2b, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#187c2b), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #187c2b, #ffffff);
+  background-image: -o-linear-gradient(top, #187c2b, #ffffff);
+  background-image: linear-gradient(to bottom, #187c2b, #ffffff);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff187c2b', endColorstr='#ffffffff', GradientType=0);
   border: 1px solid #e0e0e0;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -3694,8 +3694,8 @@ input[type="submit"].btn.btn-mini {
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
-  color: #555555;
-  text-shadow: 0 1px 0 #ffffff;
+  color: #5fb728;
+  text-shadow: 0 1px 0 #187c2b;
 }
 .navbar .brand:hover {
   text-decoration: none;
@@ -3705,16 +3705,16 @@ input[type="submit"].btn.btn-mini {
   line-height: 30px;
 }
 .navbar-link {
-  color: #555555;
+  color: #5fb728;
 }
 .navbar-link:hover {
-  color: #333333;
+  color: #78d53d;
 }
 .navbar .divider-vertical {
   height: 30px;
   margin: 0 9px;
   border-left: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
+  border-right: 1px solid #187c2b;
 }
 .navbar .btn,
 .navbar .btn-group {
@@ -3847,11 +3847,11 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a {
   float: none;
   padding: 5px 10px 5px;
-  color: #555555;
+  color: #5fb728;
   text-decoration: none;
-  text-shadow: 0 1px 0 #ffffff;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
+  border-radius: 3px;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
@@ -3859,13 +3859,14 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: transparent;
-  color: #333333;
+  border-radius: 3px;
+  color: #78d53d;
   text-decoration: none;
 }
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #555555;
+  color: #146624;
   text-decoration: none;
   background-color: #f2f2f2;
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -3880,14 +3881,14 @@ input[type="submit"].btn.btn-mini {
   margin-right: 5px;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #f2f2f2;
-  background-image: -moz-linear-gradient(top, #f2f2f2, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #f2f2f2, #f2f2f2);
-  background-image: -o-linear-gradient(top, #f2f2f2, #f2f2f2);
-  background-image: linear-gradient(to bottom, #f2f2f2, #f2f2f2);
+  background-color: #6d9e76;
+  background-image: -moz-linear-gradient(top, #146624, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#146624), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #146624, #f2f2f2);
+  background-image: -o-linear-gradient(top, #146624, #f2f2f2);
+  background-image: linear-gradient(to bottom, #146624, #f2f2f2);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2f2f2', endColorstr='#fff2f2f2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff146624', endColorstr='#fff2f2f2', GradientType=0);
   border-color: #f2f2f2 #f2f2f2 #cccccc;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #f2f2f2;
@@ -3964,17 +3965,17 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
   background-color: #f2f2f2;
-  color: #555555;
+  color: #146624;
 }
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
-  border-top-color: #555555;
-  border-bottom-color: #555555;
+  border-top-color: #5fb728;
+  border-bottom-color: #5fb728;
 }
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
-  border-top-color: #555555;
-  border-bottom-color: #555555;
+  border-top-color: #146624;
+  border-bottom-color: #146624;
 }
 .navbar .pull-right > li > .dropdown-menu,
 .navbar .nav > li > .dropdown-menu.pull-right {
@@ -5044,7 +5045,7 @@ a.badge:hover {
   color: inherit;
   text-align: center;
 }
-/* OIP Specific Styling */
+/* Start Aalto Visual Identity Additions */
 body {
   background-color: #79c3d2;
 }
@@ -5068,29 +5069,12 @@ body {
 .navbar .nav a {
   font-size: 11px;
 }
-.navbar .brand {
-  font-weight: 600;
-  position: relative;
-  top: 2px;
-}
-.navbar .search-query {
-  background-color: #444;
-  width: 150px;
-  font-size: 11px;
-  font-weight: bold;
-}
-.navbar .search-query::-webkit-input-placeholder {
-  color: #666;
-}
-.navbar .search-query:-moz-placeholder {
-  color: #666;
-}
 .subnavbar {
   border-top: 1px solid #595959;
 }
 .subnavbar-inner {
   height: 80px;
-  background: #3A3A3A;
+  background: green;
   background-image: -moz-linear-gradient(top, #414141, #323232);
   background-image: -ms-linear-gradient(top, #414141, #323232);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#414141), to(#323232));
@@ -5198,7 +5182,6 @@ body {
 .span4plus {
   width: 46.57%;
 }
-/* Aalto Specific Styling */
 .hero-unit {
   background-repeat: no-repeat;
   width: auto;
@@ -5388,6 +5371,7 @@ ul li ul li > * {
   border-top: 1px solid #ffffff;
   background-color: #f6f6f5;
 }
+/* End Aalto Visual Identity Additions */
 @media (max-width: 480px) {
   .error-container h1 {
     font-size: 72px;

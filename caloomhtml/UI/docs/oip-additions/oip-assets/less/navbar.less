@@ -235,9 +235,10 @@
   padding: ((@navbarHeight - @baseLineHeight) / 2) 10px ((@navbarHeight - @baseLineHeight) / 2);
   color: @navbarLinkColor;
   text-decoration: none;
-  text-shadow: 0 1px 0 @navbarBackgroundHighlight;
-  font-weight: @headingsFontWeight;
+  //text-shadow: 0 1px 0 @navbarBackgroundHighlight;
+  font-weight: normal;//@headingsFontWeight;
   font-size: @baseFontSize;
+  border-radius:@inputBorderRadius;
 }
 
 .navbar .nav .dropdown-toggle .caret {
@@ -248,6 +249,7 @@
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: @navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
+  border-radius:@inputBorderRadius;
   color: @navbarLinkColorHover;
   text-decoration: none;
 }

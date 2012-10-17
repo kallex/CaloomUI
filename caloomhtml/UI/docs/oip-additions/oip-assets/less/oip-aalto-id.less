@@ -1,8 +1,9 @@
+/* Start Aalto Visual Identity Additions */
 
-/* OIP Specific Styling */
 body {
   background-color: #79c3d2;
 }
+
 // Navbar
 
 .navbar-static-top{padding-top: 5px;}
@@ -12,10 +13,8 @@ body {
 }
 .navbar-inner {
   padding: 7px 0;
-
   background: #292929;
   border-bottom: 1px solid #121212;
-
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -29,28 +28,6 @@ body {
   font-size: 11px;
 }
 
-.navbar .brand {
-  font-weight: 600;
-  position: relative;
-  top: 2px;
-}
-
-.navbar .search-query {
-  background-color: #444;
-  width: 150px;
-  font-size: 11px;
-  font-weight: bold;
-}
-
-.navbar .search-query::-webkit-input-placeholder {
-  color: #666;
-}
-
-.navbar .search-query:-moz-placeholder {
-  color: #666;
-}
-
-
 //Subnavbar
 
 .subnavbar {
@@ -59,7 +36,7 @@ body {
 
 .subnavbar-inner {
   height: 80px;
-  background: #3A3A3A;
+  background: green;
   background-image: -moz-linear-gradient(top, #414141, #323232);
   background-image: -ms-linear-gradient(top, #414141, #323232);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#414141), to(#323232));
@@ -74,42 +51,32 @@ body {
 
 .subnavbar .container > ul {
   display: inline-block;
-
   height: 80px;
   padding: 0;
   margin: 0;
-
   border-left: 1px solid #292929;
   border-right: 1px solid #4A4A4A;
 }
 
 .subnavbar .container > ul > li {
   float: left;
-
   min-width: 90px;
   height: 80px;
   padding: 0;
   margin: 0;
-
   text-align: center;
   list-style: none;
-
   border-left: 1px solid #4A4A4A;
   border-right: 1px solid #292929;
-
 }
 
 .subnavbar .container > ul > li > a {
   display: block;
-
   height: 100%;
   padding: 0 15px;
-
-
   font-size: 12px;
   font-weight: bold;
   color: #636363;
-
   text-shadow: 1px 1px 1px rgba(0,0,0,.2);
 }
 
@@ -140,11 +107,9 @@ body {
   color: #F90;
 }
 
-
 .subnavbar .dropdown .dropdown-menu a {
   font-size: 12px;
 }
-
 
 .subnavbar .dropdown .dropdown-menu {
   text-align: left;
@@ -155,8 +120,6 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-
-
 
 .subnavbar .dropdown-menu::before {
   content: '';
@@ -204,28 +167,8 @@ body {
 //  width: 46.777%;
   width: 46.57%;
 }
-// Aalto specific styling
-/* Aalto Specific Styling */
-//  div.services {
-//  border-top: 9px solid #928b81;
-//  padding: 0 0 7px 0;
-//  border-color:#7f786d;
-
-//  border-bottom: 9px solid #928b81;
-//  border-top-left-radius: 100% 20px;
-//  border-top-right-radius: 10% 100%;
-//  border-bottom-left-radius: 100% 20px;
-//  border-bottom-right-radius: 10% 100%;
-
-//}
-//.navbar .nav > li.blog:hover a {color:@aaltoGreen;}
-//.navbar .nav > li.about:hover a {color:@aaltoPurple;}
-//.navbar .nav > li.map:hover a {color:@aaltoFuchsia;}
-//.navbar .nav > li.group:hover a {color:@aaltoOrange;}
-//.navbar .nav > li.activity:hover a {color:@aaltoTurquoise;}
 
 .hero-unit {
-//background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/oip-hero-solid-turquoise.png");
   background-repeat: no-repeat ;
   width: auto;
   padding-top: 22px;
@@ -450,3 +393,5 @@ ul li ul li >*{
   border-top: 1px solid lighten(@aaltoGray, 80%);
   background-color:lighten(@aaltoGray, 50%);
 }
+
+/* End Aalto Visual Identity Additions */
