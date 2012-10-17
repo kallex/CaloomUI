@@ -333,18 +333,17 @@ ul.header-first li.eng a,
   text-shadow: none;
 }
 
-.aalto {
-  font-size: (@baseFontSize *2);
+.aalto, .aalto-mark {
+  font-size: (@baseFontSize *3);
   line-height: (@baseLineHeight *2);
   font-weight: bold;
   color: lighten(@bodyBackground,100%);
+  display: inline-block;
+  float: left;
 }
 
 .aalto-mark {
-  font-size: (@baseFontSize *2);
-  line-height: (@baseLineHeight *2);
   color: @logoColor;
-  font-weight: bold;
 }
 .aalto-university, .aalto-gi {
 //  display: inline-block;
@@ -355,7 +354,6 @@ ul.header-first li.eng a,
   font-weight: normal;
 }
 .aalto-gi {
-  clear: both;
   color: @white;
 }
 
