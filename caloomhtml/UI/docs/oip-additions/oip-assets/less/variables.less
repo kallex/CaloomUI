@@ -49,11 +49,11 @@
 // -------------------------
 @bodyBackground:        @aaltoGray;
 @textColor:             lighten(@aaltoBlack, 20%);
-
+@logoColor:             @aaltoYellow;
 
 // Links
 // -------------------------
-@linkColor:             @aaltoGrayScale;
+@linkColor:             @aaltoGray;
 @linkColorHover:        darken(@linkColor, 50%);
 
 
@@ -177,9 +177,9 @@
 @navbarBorder:                    darken(@navbarBackground, 12%);
 
 @navbarText:                      @gray;
-@navbarLinkColor:                 desaturate(@bodyBackground, 60%);//@gray;
+@navbarLinkColor:                 fadeout(@bodyBackground, 30%);//@gray;
 @navbarLinkColorHover:            lighten(@navbarLinkColor, 20%);//@grayDark;
-@navbarLinkColorActive:           lighten(@navbarLinkColor, 40%);//@gray;
+@navbarLinkColorActive:           fadein(@bodyBackground, 80%);//@gray;
 @navbarLinkBackgroundHover:       transparent;
 @navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
 

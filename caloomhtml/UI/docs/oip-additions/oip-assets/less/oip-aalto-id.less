@@ -89,7 +89,7 @@ body {
 }
 
 .subnavbar .container > ul > li > a:hover {
-  color: lighten(@bodyBackground, 10%);
+  color: fade(@logoColor, 70%);
   text-decoration: none;
 }
 
@@ -108,10 +108,10 @@ body {
 }
 
 .subnavbar .container > ul > li.active > a {
-position: relative;
+  position: relative;
   background-color: darken(@bodyBackground, 30%);
   border-top: 1px solid darken(@bodyBackground, 30%);
-  color: @aaltoRed;
+  color: @logoColor;
   top:-1px;
 }
 
@@ -328,33 +328,35 @@ ul.header-first li.eng a,
 
 // Aalto logotype in text
 .aalto-background {
-  background-color: fff;
+  background-color: transparent;
   padding: 4px;
   text-shadow: none;
 }
 
 .aalto {
-  font-size: 100px;
-  line-height: 90px;
+  font-size: (@baseFontSize *2);
+  line-height: (@baseLineHeight *2);
   font-weight: bold;
-  color: @aaltoBlack;
+  color: lighten(@bodyBackground,100%);
 }
 
 .aalto-mark {
-  font-size: 100px;
-  line-height: 90px;
-  color: @aaltoRed;
+  font-size: (@baseFontSize *2);
+  line-height: (@baseLineHeight *2);
+  color: @logoColor;
   font-weight: bold;
 }
 .aalto-university, .aalto-gi {
-  display: block;
-  clear: both;
-  font-size: 14px;
-  line-height: 30px;
-  font-weight: bold;
+//  display: inline-block;
+  //clear: both;
+  padding-left:5px;
+  font-size: (@baseFontSize *0.9);
+  line-height: (@baseLineHeight *0.2);
+  font-weight: normal;
 }
 .aalto-gi {
-  color: @aaltoGray;
+  clear: both;
+  color: @white;
 }
 
 ul li .aalto-nav, .aalto-nav {

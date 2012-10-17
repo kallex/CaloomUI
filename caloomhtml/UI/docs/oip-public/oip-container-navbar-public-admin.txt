@@ -3,7 +3,10 @@
 
         <div class="container">
             <div style="float:left">
-            <a href="#" style="float:left"><img src="../oip-additions/oip-assets/oip-images/ui/aalto-global-impact-side-white.png" alt=""></a>
+            <a href="#" style="float:left">
+                <!--<img src="../oip-additions/oip-assets/oip-images/ui/aalto-global-impact-side-white.png" alt="">-->
+                <?php include'../oip-modules/agi-logotype.txt' ?>
+                </a>
                 <a href="" id="tabzilla" style="float:right;margin-left: 10px;" >Aalto</a>
             </div>
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
