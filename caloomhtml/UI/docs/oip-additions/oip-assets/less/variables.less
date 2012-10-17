@@ -47,7 +47,7 @@
 
 // Scaffolding
 // -------------------------
-@bodyBackground:        #ffffff;
+@bodyBackground:        @aaltoGray;
 @textColor:             lighten(@aaltoBlack, 20%);
 
 
@@ -177,9 +177,9 @@
 @navbarBorder:                    darken(@navbarBackground, 12%);
 
 @navbarText:                      @gray;
-@navbarLinkColor:                 @aaltoLightGreen;//@gray;
-@navbarLinkColorHover:            lighten(@aaltoLightGreen, 10%);//@grayDark;
-@navbarLinkColorActive:           darken(@aaltoGreen, 10%);//@gray;
+@navbarLinkColor:                 desaturate(@bodyBackground, 60%);//@gray;
+@navbarLinkColorHover:            lighten(@navbarLinkColor, 20%);//@grayDark;
+@navbarLinkColorActive:           lighten(@navbarLinkColor, 40%);//@gray;
 @navbarLinkBackgroundHover:       transparent;
 @navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
 

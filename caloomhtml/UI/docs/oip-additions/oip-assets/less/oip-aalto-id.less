@@ -1,9 +1,16 @@
 /* Start Aalto Visual Identity Additions */
 
 body {
-  background-color: #79c3d2;
+  background-color:lighten(@bodyBackground, 50%);
+}
+.well, .row {
+  background-color:lighten(@bodyBackground, 95%);
+  border-radius: (3px);
 }
 
+.row-fluid {
+  background-color: @white;
+}
 // Navbar
 
 .navbar-static-top{padding-top: 5px;}
@@ -13,7 +20,7 @@ body {
 }
 .navbar-inner {
   padding: 7px 0;
-  background: #292929;
+  background: darken(@bodyBackground, 30%);
   border-bottom: 1px solid #121212;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -31,20 +38,20 @@ body {
 //Subnavbar
 
 .subnavbar {
-  border-top: 1px solid #595959;
+  //border-top: 1px solid #595959;
 }
 
 .subnavbar-inner {
   height: 80px;
-  background: green;
-  background-image: -moz-linear-gradient(top, #414141, #323232);
-  background-image: -ms-linear-gradient(top, #414141, #323232);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#414141), to(#323232));
-  background-image: -webkit-linear-gradient(top, #414141, #323232);
-  background-image: -o-linear-gradient(top, #414141, #323232);
-  background-image: linear-gradient(top, #414141, #323232);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#414141', endColorstr='#323232', GradientType=0);
+  background: darken(@bodyBackground, 33%);
+  //background-image: -moz-linear-gradient(top, #414141, #323232);
+ // background-image: -ms-linear-gradient(top, #414141, #323232);
+ //background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#414141), to(#323232));
+ // background-image: -webkit-linear-gradient(top, #414141, #323232);
+ // background-image: -o-linear-gradient(top, #414141, #323232);
+ // background-image: linear-gradient(top, #414141, #323232);
+  //background-repeat: repeat-x;
+ // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#414141', endColorstr='#323232', GradientType=0);
 
   border-bottom: 1px solid #000;
 }
@@ -66,8 +73,9 @@ body {
   margin: 0;
   text-align: center;
   list-style: none;
-  border-left: 1px solid #4A4A4A;
-  border-right: 1px solid #292929;
+  border-left: 1px solid darken(@bodyBackground, 20%);
+  border-right: 1px solid darken(@bodyBackground, 20%);
+  border-top: 1px solid darken(@bodyBackground, 20%);
 }
 
 .subnavbar .container > ul > li > a {
@@ -75,24 +83,22 @@ body {
   height: 100%;
   padding: 0 15px;
   font-size: 12px;
-  font-weight: bold;
-  color: #636363;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  font-weight: normal;
+  color: lighten(@bodyBackground, 0%);
+  //text-shadow: 1px 1px 1px rgba(0,0,0,.2);
 }
 
 .subnavbar .container > ul > li > a:hover {
-  color: #888;
+  color: lighten(@bodyBackground, 10%);
   text-decoration: none;
 }
 
 .subnavbar .container > ul > li > a > i {
   display: inline-block;
-
   width: 24px;
   height: 24px;
   margin-top: 17px;
   margin-bottom: .25em;
-
   font-size: 28px;
 
 }
@@ -101,10 +107,12 @@ body {
   display: block;
 }
 
-
 .subnavbar .container > ul > li.active > a {
-  background: #333;
-  color: #F90;
+position: relative;
+  background-color: darken(@bodyBackground, 30%);
+  border-top: 1px solid darken(@bodyBackground, 30%);
+  color: @aaltoRed;
+  top:-1px;
 }
 
 .subnavbar .dropdown .dropdown-menu a {
@@ -156,6 +164,7 @@ body {
 }
 
 // Container and Well
+
 #container-focus {
   margin-top: 10px;
 }
@@ -230,9 +239,6 @@ div.latest >.hero-unit  {
 }
 
 
-.row-blog {
-  border-bottom: @aaltoYellow 9px solid;
-}
 // adjustments for accordion in index
 // border set to bodybackground
 .accordion-group-index {
