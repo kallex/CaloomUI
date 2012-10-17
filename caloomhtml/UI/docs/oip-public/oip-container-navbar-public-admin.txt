@@ -1,16 +1,99 @@
-<div class="navbar navbar-static-top " xmlns="http://www.w3.org/1999/html">
-    <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-        <a href="#" style="float:left"><img src="../oip-additions/oip-assets/oip-images/ui/aalto-global-impact-logo-medium.png" alt="">        <span>My Group Name</span>
-    </a>
-        <a href="" id="tabzilla">Aalto</a>
-        <div class="nav-collapse collapse">
-            <ul class="nav pull-right">
-                <li class="aalto-nav"><a href="#"> <i class="icon-map-marker icon-large"></i> <br>
-                    <span>Map</span></a></li>
-                <li class="aalto-nav"><a href="#"> <i class="icon-book icon-large"></i> <br><span> Blog</span></a></li>
-                <li class="aalto-nav"><a href="#"> <i class="icon-umbrella icon-large"></i> <br><span> About</span></a></li>
-                <li class="dropdown activity aalto-nav"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-bullhorn icon-large"></i> <br><span>Activities<b class="caret"></b></span></a>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+
+        <div class="container">
+            <div style="float:left">
+            <a href="#" style="float:left">
+                <!--<img src="../oip-additions/oip-assets/oip-images/ui/aalto-global-impact-side-white.png" alt="">-->
+                <?php include'../oip-modules/agi-logotype.txt' ?>
+                </a>
+                <a href="" id="tabzilla" style="float:right;margin-left: 10px;" >Aalto</a>
+            </div>
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span><i class="icon-circle-arrow-down icon-large"></i></span>
+            </a>
+           <div class="nav-collapse">
+                <ul class="nav pull-right">
+                    <li class="dropdown">
+
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-cog"></i>
+                            Settings
+                            <b class="caret"></b>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href=""">Account Settings</a></li>
+                            <li><a href=""">Privacy Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href=""">Help</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="dropdown">
+
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-user"></i>
+                            Sujil
+                            <b class="caret"></b>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="javascript:;">My Profile</a></li>
+                            <li><a href="javascript:;">My Groups</a></li>
+                            <li class="divider"></li>
+                            <li><a href="javascript:;">Logout</a></li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+
+               <!-- <form class="navbar-search pull-right">
+                    <input type="text" class="search-query" placeholder="Search">
+                </form>  -->
+
+            </div><!--/.nav-collapse -->
+
+        </div> <!-- /container -->
+
+    </div> <!-- /navbar-inner -->
+
+</div> <!-- /navbar -->
+
+
+
+
+
+<div class="subnavbar">
+    <div class="subnavbar-inner">
+        <div class="container">
+            <ul class="mainnav">
+                <li class="active">
+                    <a href="./">
+                        <i class="icon-map-marker"></i>
+                        <span>Map</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="icon-book"></i>
+                        <span>Blog</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle">
+                        <i class="icon-umbrella"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-bullhorn"></i>
+                        <span>Activities</span>
+                        <b class="caret"></b>
+                    </a>
                     <ul class="dropdown-menu">
                         <li> <a href="oip-layout-activities-summary.phtml"> Summary of all activities</a> </li>
                         <li class="divider"></li>
@@ -54,7 +137,12 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown activity  aalto-nav"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-group icon-large"></i> <br><span>My Groups<b class="caret"></b></span></a>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-group"></i>
+                        <span>Group</span>
+                        <b class="caret"></b>
+                    </a>
                     <ul class="dropdown-menu">
                         <li> <a href="#"> Summary of all groups</a> </li>
                         <li class="divider"></li>
@@ -65,7 +153,12 @@
                         <li><a tabindex="-1" href="#">Group C</a></li>
                     </ul>
                 </li>
-                <li class="dropdown activity  aalto-nav"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-camera-retro icon-large"></i> <br><span>Our public site<b class="caret"></b></span></a>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-globe"></i>
+                        <span>Our Public Site</span>
+                        <b class="caret"></b>
+                    </a>
                     <ul class="dropdown-menu">
                         <li> <a href="oip-layout-activities-summary.phtml"> Homepage</a> </li>
                         <li> <a href="oip-layout-activities-summary.phtml"> Map</a> </li>
@@ -81,10 +174,15 @@
                         <li><a tabindex="-1" href="#"> Sign Up</a></li>
                     </ul>
                 </li>
-                <a class="btn btn-primary btn-small pull-right" style="margin-left: 10px;" href="oip-layout-register.phtml">Collaborate!</a>
-
+                <li>
+                    <a href="#" class="dropdown-toggle">
+                        <i class="icon-cogs"></i>
+                        <span>Collaborate</span>
+                    </a>
+                </li>
             </ul>
-        </div>
-    </div>
-</div>
-</div>
+        </div> <!-- /container -->
+
+    </div> <!-- /subnavbar-inner -->
+
+</div> <!-- /subnavbar -->

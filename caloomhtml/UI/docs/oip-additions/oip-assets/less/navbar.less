@@ -20,6 +20,7 @@
 
 // Inner for background effects
 // Gradient is applied to its own element because overflow visible is not honored by IE when filter is present
+// navbar.less
 .navbar-inner {
   min-height: @navbarHeight;
   padding-left:  20px;
@@ -231,11 +232,11 @@
 .navbar .nav > li > a {
   float: none;
 // Vertically center the text given @navbarHeight
-  padding: ((@navbarHeight - @baseLineHeight) / 2) 15px ((@navbarHeight - @baseLineHeight) / 2);
+  padding: ((@navbarHeight - @baseLineHeight) / 2) 10px ((@navbarHeight - @baseLineHeight) / 2);
   color: @navbarLinkColor;
   text-decoration: none;
-  text-shadow: 0 1px 0 @navbarBackgroundHighlight;
-  font-weight: @headingsFontWeight;
+  //text-shadow: 0 1px 0 @navbarBackgroundHighlight;
+  font-weight: normal;//@headingsFontWeight;
   font-size: @baseFontSize;
 }
 
@@ -247,6 +248,7 @@
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: @navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
+  border-radius:@inputBorderRadius;
   color: @navbarLinkColorHover;
   text-decoration: none;
 }

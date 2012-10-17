@@ -1,4 +1,4 @@
-<div class="row row-latest">
+<div class="row-fluid row-latest">
     <div class="span12">
         <?php include '../oip-modules/test-oip-module-carousel-latest.txt' ?>
     </div>
