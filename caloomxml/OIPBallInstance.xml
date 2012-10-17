@@ -203,7 +203,7 @@
       <InformationObject name="AddressAndLocationCollection" designDesc="Designed later">
         <CollectionFor contentInformationObjectName="AddressAndLocation"/>
       </InformationObject>
-      <InformationObject name="AddressAndLocation" designDesc="Street address and location">
+      <InformationObject name="AddressAndLocation" designDesc="Street address and location" isIndependentMaster="true">
         <InformationItems>
           <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
           <InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="StreetAddress"/>

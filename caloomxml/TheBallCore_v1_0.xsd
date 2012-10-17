@@ -97,6 +97,11 @@
 Useful to NOT have in system-internal objects such as queue operations where the null has meaning of NOT having the operation.</xs:documentation>
 			</xs:annotation>
 		</xs:attribute>
+		<xs:attribute name="isIndependentMaster" type="xs:boolean" default="false">
+			<xs:annotation>
+				<xs:documentation>(Opt = false) Is object independent master data object. Independent master is treated master-first-order in data storing and comparison against existing data.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
 	</xs:complexType>
 	<xs:complexType name="InstanceOfTheBallType">
 		<xs:sequence>
