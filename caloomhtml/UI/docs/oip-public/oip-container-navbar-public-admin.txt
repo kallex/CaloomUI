@@ -172,7 +172,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#" class="dropdown-toggle" style="background-color: #2e8b57;">
+                    <a href="#" class="dropdown-toggle">
                         <i class="icon-cogs"></i>
                         <span>Collaborate</span>
                     </a>

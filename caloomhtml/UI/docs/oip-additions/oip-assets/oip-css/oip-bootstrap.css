@@ -5085,9 +5085,6 @@ body {
 .navbar .search-query:-moz-placeholder {
   color: #666;
 }
-/*------------------------------------------------------------------
-[3. Subnavbar / .subnavbar]
-*/
 .subnavbar {
   border-top: 1px solid #595959;
 }
@@ -5191,10 +5188,6 @@ body {
 }
 .subnavbar .dropdown.open .caret {
   display: none;
-}
-.well {
-  padding-left: 0px;
-  padding-right: 0px;
 }
 #container-focus {
   margin-top: 10px;
