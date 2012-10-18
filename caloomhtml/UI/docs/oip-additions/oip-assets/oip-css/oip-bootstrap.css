@@ -5101,6 +5101,18 @@ body {
   border-right: 1px solid #48443e;
   border-top: 1px solid #48443e;
 }
+.subnavbar .container > ul > li.group-name {
+  float: left;
+  min-width: 90px;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+  border-left: 1px solid #24221f;
+  border-right: 1px solid #24221f;
+  border-top: 1px solid #24221f;
+}
 .subnavbar .container > ul > li > a {
   display: block;
   height: 100%;
@@ -5337,28 +5349,6 @@ ul.header-first li.eng a {
 }
 .aalto-gi {
   color: #ffffff;
-}
-ul li .aalto-nav,
-.aalto-nav {
-  float: left;
-  min-width: 90px;
-  height: 80px;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  list-style: none;
-}
-ul li ul li > * {
-  text-align: left;
-}
-.icon-large {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-size: 36px;
-  color: #c7c4be;
-}
-.icon-large:hover {
-  color: #7f786d;
 }
 .footer {
   padding: 70px 0;

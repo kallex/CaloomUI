@@ -78,6 +78,19 @@ body {
   border-top: 1px solid darken(@bodyBackground, 20%);
 }
 
+.subnavbar .container > ul > li.group-name {
+  float: left;
+  min-width: 90px;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+  border-left: 1px solid darken(@bodyBackground, 33%);
+  border-right: 1px solid darken(@bodyBackground, 33%);
+  border-top: 1px solid darken(@bodyBackground, 33%);
+}
+
 .subnavbar .container > ul > li > a {
   display: block;
   height: 100%;
@@ -356,42 +369,6 @@ ul.header-first li.eng a,
 .aalto-gi {
   color: @white;
 }
-
-ul li .aalto-nav, .aalto-nav {
-  float: left;
-  min-width: 90px;
-  height: 80px;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  list-style: none;
-//  border-left: 1px solid @aaltoGray;
-//  border-right: 1px solid @aaltoGray;
-}
-ul li.aalto-nav:first-child {
-//  border-left: 1px solid @aaltoGray;
-//  border-right: 1px solid @aaltoGray;
-}
-
-ul li ul li >*{
-  text-align: left;
-}
-
-.icon-large {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-size: 36px;
-  color:lighten(@aaltoGray,30%);
-}
-.icon-large:hover {
-  color:lighten(@aaltoGray,0%);
-}
-// test from fab.com
-//  img {
-//  background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/img-fill.gif");
-//  background-repeat: repeat ;
-//  width: 200px;
-//}
 
 .footer {
   padding: 70px 0;
