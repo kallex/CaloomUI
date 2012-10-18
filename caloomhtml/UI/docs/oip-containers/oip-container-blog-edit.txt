@@ -1,7 +1,7 @@
-<div class="services blog">
+<div class="services blog small">
     <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 </div>
-<div class="row">
+<div class="row-fluid">
     <div class="span3">
         <?php include '../oip-modules/oip-module-index-collapse.txt' ?><!--UseInformationObject:BlogIndexGroup -->
     </div>

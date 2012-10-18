@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row-fluid">
     <div class="3">
         <?php include '../oip-modules/oip-module-map-index.txt' ?><!-- UseInformationObject:MapIndex -->
     </div>

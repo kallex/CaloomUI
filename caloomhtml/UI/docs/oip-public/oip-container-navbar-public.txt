@@ -51,7 +51,7 @@
         <div class="container">
             <ul class="mainnav">
                 <li class="dropdown group-name">
-                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i></i>
                         <span style="color: white;">Aalto Global Impact <i class="icon-arrow-right"></i></span>
                     </a>
