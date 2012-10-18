@@ -1,6 +1,6 @@
-<div class="services about">
+<div class="services about small">
     <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 </div>
-<div class="row">
+<div class="row-fluid">
     <?php include '../oip-modules/oip-module-about-collection.txt' ?>
 </div>

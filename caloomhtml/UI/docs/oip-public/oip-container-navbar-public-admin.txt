@@ -67,19 +67,19 @@
                     </ul>
                 </li>
                 <li class="active">
-                    <a href="./">
+                    <a href="oip-layout-map.phtml">
                         <i class="icon-map-marker"></i>
                         <span>Map</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="oip-layout-blog.phtml">
                         <i class="icon-book"></i>
                         <span>Blog</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="dropdown-toggle">
+                    <a href="oip-layout-about.phtm" class="dropdown-toggle">
                         <i class="icon-umbrella"></i>
                         <span>About</span>
                     </a>
@@ -155,7 +155,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#" class="dropdown-toggle">
+                    <a href="oip-layout-register.phtml" class="dropdown-toggle">
                         <i class="icon-cogs"></i>
                         <span>Collaborate</span>
                     </a>
