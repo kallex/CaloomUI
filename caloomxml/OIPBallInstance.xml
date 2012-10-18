@@ -877,7 +877,9 @@
         <InformationItems>
           <InformationItem name="Priority" logicalDataType="Number_Integer" />
           <InformationItem name="TargetRelativeLocation" logicalDataType="Text_Short" />
+          <InformationItem name="TargetInformationObjectType" logicalDataType="Text_Short"/>
           <InformationItem name="SubscriberRelativeLocation" logicalDataType="Text_Short" />
+          <InformationItem name="SubscriberInformationObjectType" logicalDataType="Text_Short"/>
           <InformationItem name="SubscriptionType" logicalDataType="Text_Short" />
         </InformationItems>
       </InformationObject>
