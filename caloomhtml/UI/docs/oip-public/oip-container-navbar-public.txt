@@ -53,18 +53,8 @@
                 <li class="dropdown group-name">
                     <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="icon-group"></i>
-                        <span>Group's Name :</span>
-                        <b class="caret"></b>
+                        <span>Group's Name <i class="icon-arrow-right"></i></span>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li> <a href="#"> Summary of all groups</a> </li>
-                        <li class="divider"></li>
-                        <li> <a href="#"> My group</a> </li>
-                        <li class="divider"></li>
-                        <li><a tabindex="-1" href="#">Group A</a></li>
-                        <li><a tabindex="-1" href="#">Group B</a></li>
-                        <li><a tabindex="-1" href="#">Group C</a></li>
-                    </ul>
                 </li>
                 <li class="active">
                     <a href="oip-layout-map.phtml">
@@ -88,50 +78,7 @@
                     <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="icon-bullhorn"></i>
                         <span>Activities</span>
-                        <b class="caret"></b>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li> <a href="oip-layout-activities-summary.phtml"> Summary of all activities</a> </li>
-                        <li class="divider"></li>
-                        <li><a href="oip-layout-activities-summary.phtml"> AGI activities</a> </li>
-                        <li class="divider"></li>
-                        <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Activities in Group A</a>
-                            <ul class="dropdown-menu">
-                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
-                                <li class="divider"></li>
-                                <li><a tabindex="-1" href="#">Activity A-A</a></li>
-                                <li><a tabindex="-1" href="#">Activity A-B</a></li>
-                                <li><a tabindex="-1" href="#">Activity A-C</a></li>
-                                <li><a tabindex="-1" href="#">Activity A-D</a></li>
-                                <li><a tabindex="-1" href="#">Activity A-E</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Activities in Group B</a>
-                            <ul class="dropdown-menu">
-                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
-                                <li class="divider"></li>
-                                <li><a tabindex="-1" href="#">Activity B-A</a></li>
-                                <li><a tabindex="-1" href="#">Activity B-B</a></li>
-                                <li><a tabindex="-1" href="#">Activity B-C</a></li>
-                                <li><a tabindex="-1" href="#">Activity B-D</a></li>
-                                <li><a tabindex="-1" href="#">Activity B-E</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Activities in Group C <span class="badge badge-info">5</span></a>
-                            <ul class="dropdown-menu">
-                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
-                                <li class="divider"></li>
-                                <li><a tabindex="-1" href="#">Activity C-A <span class="badge badge-success">2</span></a></li>
-                                <li><a tabindex="-1" href="#">Activity C-B</a></li>
-                                <li><a tabindex="-1" href="#">Activity C-C <span class="badge badge-warning">3</span></a></li>
-                                <li><a tabindex="-1" href="#">Activity C-D</a></li>
-                                <li><a tabindex="-1" href="#">Activity C-E</a></li>
-                            </ul>
-                        </li>
-                    </ul>
                 </li>
                 <li>
                     <a href="oip-layout-register.phtml" class="dropdown-toggle">
