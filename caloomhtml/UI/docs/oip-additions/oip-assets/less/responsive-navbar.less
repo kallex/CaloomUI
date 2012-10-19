@@ -5,6 +5,7 @@
 
 // TABLETS AND BELOW
 // -----------------
+/*responsive-navbar.less */
 @media (max-width: @navbarCollapseWidth) {
 
   // UNFIX THE TOPBAR
@@ -18,14 +19,21 @@
   .navbar-fixed-bottom {
     position: static;
   }
+  //.navbar-fixed-top {
+  //  margin-bottom: @baseLineHeight;
+  //}
+
   .navbar-fixed-top {
-    margin-bottom: @baseLineHeight;
+    position: static;
+    margin-bottom: 0;
   }
+
   .navbar-fixed-bottom {
     margin-top: @baseLineHeight;
   }
 
-  //responsive-navbar.less
+
+//responsive-navbar.less
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
     padding: 5px;

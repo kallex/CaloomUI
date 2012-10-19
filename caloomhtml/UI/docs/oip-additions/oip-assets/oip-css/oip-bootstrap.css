@@ -5433,6 +5433,7 @@ ul.header-first li.eng a {
     margin-right: 1em;
   }
 }
+/*  oip-aalto-responsive.less */
 @media (max-width: 979px) {
   .navbar-fixed-top {
     position: static;
