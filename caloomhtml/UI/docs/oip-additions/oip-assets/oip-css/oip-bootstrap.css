@@ -5046,11 +5046,16 @@ a.badge:hover {
 }
 /* Start Aalto Visual Identity Additions */
 body {
-  background-color: #f6f6f5;
+  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/BR_school_eating_break.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #ffffff;
 }
 .well,
 .row {
   background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
   border-radius: 3px;
 }
 .row-fluid {
@@ -5065,7 +5070,7 @@ body {
 .navbar-inner {
   padding: 7px 0;
   padding-bottom: 0px;
-  background: #2d2a26;
+  background: #11100f;
   border-bottom: 1px solid #121212;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -5147,8 +5152,8 @@ body {
 }
 .subnavbar .container > ul > li.active > a {
   position: relative;
-  background-color: #2d2a26;
-  border-top: 1px solid #2d2a26;
+  background-color: #11100f;
+  border-top: 1px solid #11100f;
   color: #fcc20a;
   top: -1px;
 }
