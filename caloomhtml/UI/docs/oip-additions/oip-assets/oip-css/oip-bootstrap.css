@@ -5046,10 +5046,18 @@ a.badge:hover {
 }
 /* Start Aalto Visual Identity Additions */
 body {
+  background-color: #ffffff;
+}
+.background {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/BR_school_eating_break.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: #ffffff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
 }
 .well,
 .row {
