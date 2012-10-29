@@ -201,7 +201,7 @@
         </InformationItems>
       </InformationObject>
       <InformationObject name="AddressAndLocationCollection" designDesc="Designed later">
-        <CollectionFor contentInformationObjectName="AddressAndLocation"/>
+        <CollectionFor contentInformationObjectName="AddressAndLocation" collectionType="Master"/>
       </InformationObject>
       <InformationObject name="AddressAndLocation" designDesc="Street address and location" isIndependentMaster="true">
         <InformationItems>
