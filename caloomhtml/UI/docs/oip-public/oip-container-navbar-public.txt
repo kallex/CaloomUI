@@ -35,17 +35,17 @@
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="javascript:;">My Profile</a></li>
-                            <li><a href="javascript:;">My Groups</a></li>
+                            <li><a href="">My Profile</a></li>
+                            <li><a href="">My Groups</a></li>
                             <li class="divider"></li>
-                            <li><a href="javascript:;">Logout</a></li>
+                            <li><a href="">Logout</a></li>
                         </ul>
                     </li>
                 </ul>
-            </div><!--/.nav-collapse -->
-        </div> <!-- /container -->
-    </div> <!-- /navbar-inner -->
-</div> <!-- /navbar -->
+            </div>
+        </div>
+    </div>
+</div>
 <div class="subnavbar">
     <div class="subnavbar-inner">
         <div class="container">
@@ -87,7 +87,7 @@
                     </a>
                 </li>
             </ul>
-        </div> <!-- /container -->
-    </div> <!-- /subnavbar-inner -->
-</div> <!-- /subnavbar -->
+        </div>
+    </div>
+</div>
 

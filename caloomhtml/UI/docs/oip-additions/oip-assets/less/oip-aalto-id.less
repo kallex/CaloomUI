@@ -1,10 +1,19 @@
 /* Start Aalto Visual Identity Additions */
 
 body {
+  background-color:lighten(@bodyBackground, 100%);
+}
+
+.background {
   background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/BR_school_eating_break.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color:lighten(@bodyBackground, 100%);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
 }
 .well, .row {
   background-color:lighten(@bodyBackground, 95%);
