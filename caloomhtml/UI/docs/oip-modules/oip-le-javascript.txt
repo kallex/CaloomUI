@@ -15,6 +15,8 @@
 <script src="../oip-additions/oip-assets/oip-js/bootstrap-typeahead.js"></script>
 <!-- calendar -->
 <script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js"></script>
+<!-- OIP specific -->
 <script src="../oip-additions/oip-assets/oip-js/in-context-editing.js"></script>
 <script src="../oip-additions/oip-assets/oip-js/modal-id-actions.js"></script>
+<!-- Tabzilla-->
 <script src="../oip-additions/oip-assets/oip-js/tabzilla.js"></script>
