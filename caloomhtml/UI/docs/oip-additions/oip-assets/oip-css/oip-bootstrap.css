@@ -5265,9 +5265,6 @@ div.latest > .hero-unit {
 .index-group {
   background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-group.png,*0.3");
 }
-.accordion-group-index {
-  border: 1px solid #7f786d;
-}
 .accordion-inner-index {
   padding-left: 3px;
   border-top: 1px solid #7f786d;
