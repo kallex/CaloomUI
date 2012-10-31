@@ -1,38 +1,158 @@
-<div class="account navbar navbar-static-top" style="border-bottom-color: #fd6309;border-bottom-style: solid;border-bottom-width: 1px;">
-<div class="navbar-inner">
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
         <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-            <a href="" id="tabzilla">Aalto</a>
+            <p style="float:left"> <span class="aalto">A</span>
+                <span class="aalto-mark">?</span>
+            </p>
+            <p style="float:left">
+                <span class="aalto-university">Aalto University</span> <br>
+                <span class="aalto-gi">Aalto Global Impact</span>
+            </p>
+            <p  style="float:left"><a href="" id="tabzilla" style=" float:right;margin-left: 20px;" >Aalto</a></p>
+
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span><i class="icon-circle-arrow-down icon-large"></i></span>
+            </a>
             <div class="nav-collapse">
-                <ul class="nav">
-                    <li class="map"> <a href="oip-layout-maps-summary.phtml"> Maps</a> </li>
-                    <li class="dropdown group"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Group's Blog<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="oip-layout-blog-summary.phtml"> Summary</a> </li>
-                            <li> <a href="#add-blog" data-toggle="modal"> Add</a> </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Group's Activities<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
-                            <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown group"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Group<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="oip-layout-groups-view.phtml"> Profile View</a> </li>
-                            <li> <a href="oip-layout-groups-edit.phtml"> Edit this group</a> </li>
-                        </ul>
-                    </li>
-                </ul>
                 <ul class="nav pull-right">
-                    <li><a  href="../../publicsite/oip-public/oip-layout-landing.phtml">Edit Public Site</a></li>
-                    <li><a href="/auth/account/website/oip-account/oip-layout-account-welcome.phtml">My Account</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-user"></i>
+                            My Account
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/auth/account/website/oip-account/oip-layout-account-welcome.phtml">Welcome Page</a></li>
+                            <li><a href="oip-layout-account-edit.phtml">My Profile (not working)</a></li>
+                            <li><a  href="../../publicsite/oip-public/oip-layout-landing.phtml">Edit Public Site</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/TheBallLogin.aspx?SignOut=true">Logout</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </div>
-        </div>
-    </div>
-</div>
+            </div><!--/.nav-collapse -->
+        </div> <!-- /container -->
+    </div> <!-- /navbar-inner -->
+</div> <!-- /navbar -->
+<div class="subnavbar">
+    <div class="subnavbar-inner">
+        <div class="container">
+            <ul class="mainnav">
+                <li class="dropdown group-name">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-group"></i>
+                        <span>Group's Name :</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="oip-layout-groups-view.phtml"> Profile View</a> </li>
+                        <li> <a href="oip-layout-groups-edit.phtml"> Edit this group</a> </li>
+                        <li class="divider"></li>
+                        <li> <a href="#"> My group</a> </li>
+                        <li class="divider"></li>
+                        <li><a tabindex="-1" href="#">Group A</a></li>
+                        <li><a tabindex="-1" href="#">Group B</a></li>
+                        <li><a tabindex="-1" href="#">Group C</a></li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="oip-layout-map.phtml">
+                        <i class="icon-map-marker"></i>
+                        <span>Map</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-book"></i>
+                        <span>Blog</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="oip-layout-blog-summary.phtml"> Summary</a> </li>
+                        <li> <a href="#add-blog" data-toggle="modal"> Add</a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="oip-layout-about.phtm" class="dropdown-toggle">
+                        <i class="icon-umbrella"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-bullhorn"></i>
+                        <span>Activities</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
+                        <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                        <li class="divider"></li>
+                        <li><a href="oip-layout-activities-summary.phtml"> My activities</a> </li>
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Activities in Group A</a>
+                            <ul class="dropdown-menu">
+                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                                <li class="divider"></li>
+                                <li><a tabindex="-1" href="#">Activity A-A</a></li>
+                                <li><a tabindex="-1" href="#">Activity A-B</a></li>
+                                <li><a tabindex="-1" href="#">Activity A-C</a></li>
+                                <li><a tabindex="-1" href="#">Activity A-D</a></li>
+                                <li><a tabindex="-1" href="#">Activity A-E</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Activities in Group B</a>
+                            <ul class="dropdown-menu">
+                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                                <li class="divider"></li>
+                                <li><a tabindex="-1" href="#">Activity B-A</a></li>
+                                <li><a tabindex="-1" href="#">Activity B-B</a></li>
+                                <li><a tabindex="-1" href="#">Activity B-C</a></li>
+                                <li><a tabindex="-1" href="#">Activity B-D</a></li>
+                                <li><a tabindex="-1" href="#">Activity B-E</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Activities in Group C <span class="badge badge-info">5</span></a>
+                            <ul class="dropdown-menu">
+                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                                <li class="divider"></li>
+                                <li><a tabindex="-1" href="#">Activity C-A <span class="badge badge-success">2</span></a></li>
+                                <li><a tabindex="-1" href="#">Activity C-B</a></li>
+                                <li><a tabindex="-1" href="#">Activity C-C <span class="badge badge-warning">3</span></a></li>
+                                <li><a tabindex="-1" href="#">Activity C-D</a></li>
+                                <li><a tabindex="-1" href="#">Activity C-E</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-globe"></i>
+                        <span>Our Public Site</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="oip-layout-activities-summary.phtml"> Homepage</a> </li>
+                        <li> <a href="oip-layout-activities-summary.phtml"> Map</a> </li>
+                        <li> <a href="oip-layout-activities-summary.phtml"> About</a> </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                            </ul>
+                        </li>
+                        <li><a tabindex="-1" href="#"> Activities</a></li>
+                        <li><a tabindex="-1" href="#"> Groups</a></li>
+                        <li><a tabindex="-1" href="#"> Sign Up</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div> <!-- /container -->
+    </div> <!-- /subnavbar-inner -->
+</div> <!-- /subnavbar -->
 
 <!-- modals -->
 <div id="create-group" class="modal hide fade">
