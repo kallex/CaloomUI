@@ -258,7 +258,7 @@
       </InformationObject>
       <!-- End of Account/Group/Profile -->
       <!-- Generic stuff -->
-      <InformationObject name="ReferenceToInformation" designDesc="Reference to information">
+      <InformationObject name="ReferenceToInformation" designDesc="Reference to information" isIndependentMaster="true">
         <InformationItems>
           <InformationItem name="Title" logicalDataType="Text_Short" />
           <InformationItem name="URL" logicalDataType="Text_Short" />
@@ -388,8 +388,8 @@
         </InformationItems>
       </InformationObject>
 
-      <InformationObject name="ActivityCollection" designDesc="Group collection">
-        <CollectionFor contentInformationObjectName="Activity"/>
+      <InformationObject name="ActivityCollection" designDesc="Activity collection">
+        <CollectionFor contentInformationObjectName="Activity" collectionType="Master"/>
       </InformationObject>
 
       <InformationObject name="Activity" designDesc="Activity">
@@ -555,8 +555,8 @@
         </InformationItems>
       </InformationObject>
 
-      <InformationObject name="BlogCollection" designDesc="">
-        <CollectionFor contentInformationObjectName="Blog" />
+      <InformationObject name="BlogCollection" designDesc="Collection of blogs">
+        <CollectionFor contentInformationObjectName="Blog" collectionType="Master" />
       </InformationObject>
       <InformationObject name="Blog" designDesc="Individual Blog">
         <InformationItems>
