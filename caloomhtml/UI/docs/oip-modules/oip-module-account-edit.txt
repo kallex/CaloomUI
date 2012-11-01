@@ -5,20 +5,12 @@
 		<li><a href="#tab-emails-security" data-toggle="tab">Emails & Security</a></li>
 		<li><a href="#tab-roles" data-toggle="tab">Roles</a></li>
 		<li><a href="#tab-locations-current" data-toggle="tab">Locations</a></li>
-		<li><a href="#tab-locations-add" data-toggle="tab">Add location</a></li>
-<!--	<li><a href="#tab-activities" data-toggle="tab" class="next-phase">My activities <span class="badge badge-important">1</span></a></li>
-		<li><a href="#tab-skills" data-toggle="tab" class="next-phase">Skills</a></li>
-		<li><a href="#tab-content" data-toggle="tab" class="next-phase">Content</a></li> -->
 	</ul>
 	<div class="tab-content tab-border">
 		<div class="tab-pane active" id="tab-identity"><?php include'../oip-modules/oip-module-account-identity.txt'  ?><!-- UseInformationObject:Profile--></div>
 		<div class="tab-pane" id="tab-emails-security"><?php include'../oip-modules/oip-module-account-emails-security.txt' ?><!-- UseInformationObject:Security--></div>
 		<div class="tab-pane" id="tab-roles"><?php include'../oip-modules/oip-module-account-roles.txt' ?><!-- UseInformationObject:Roles--></div>
 		<div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-current.txt' ?></div>
-		<div class="tab-pane" id="tab-locations-add"><?php include'../oip-modules/oip-module-locations-add.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.AddAddressAndLocationInfo:AddLocation--></div>
-<!--	<div class="tab-pane" id="tab-activities"> include'../oip-modules/oip-module-account-activities.txt' ?></div>
-		<div class="tab-pane" id="tab-skills"> include'../oip-modules/oip-module-account-skills.txt' ?></div>
-		<div class="tab-pane" id="tab-content"> include'../oip-modules/oip-module-content.txt' ?></div> -->
 	</div>
 </div>
 <!-- end oip-module-account-edit.txt -->

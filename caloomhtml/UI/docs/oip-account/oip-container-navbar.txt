@@ -51,8 +51,8 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="oip-layout-blog-summary.phtml">Summary of Blogs</li>
-                        <li> <a href="#add-blog" data-toggle="modal">Add Article</a> </li>
+                        <li> <a href="oip-layout-blog-summary.phtml"> Summary of Blogs</li>
+                        <li> <a href="#add-blog" data-toggle="modal"> Add New Blog Article</a> </li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -63,7 +63,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li> <a href="oip-layout-groups-summary.phtml"> Summary of Groups</a> </li>
-                        <li> <a href="#create-group" data-toggle="modal"> Add</a> </li>
+                        <li> <a href="#create-group" data-toggle="modal"> Create New Group</a> </li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -74,7 +74,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li> <a href="oip-layout-activities-summary.phtml"> Summary of Activities</a> </li>
-                        <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                        <li> <a href="#add-activity" data-toggle="modal"> Add New Activity</a> </li>
                     </ul>
                 </li>
             </ul>
@@ -92,7 +92,6 @@
     </div>
     <div class="modal-body">
         <form method="post" class="form-horizontal">
-
 <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.CreateGroupInfo:CreateGroup -->
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
@@ -122,7 +121,7 @@
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
-                    <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Add the activity's name'</label>
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Name of the activity</label>
                     <div class="controls">
                         <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span4" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
                     </div>
@@ -148,7 +147,7 @@
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
-                    <label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Blog post's title</label>
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title of the blog article</label>
                     <div class="controls">
                         <input name="[!ATOM]ID[ATOM!]_Title" class="span4" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]">
                     </div>

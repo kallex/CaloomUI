@@ -69,7 +69,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li> <a href="oip-layout-blog-summary.phtml"> Summary</a> </li>
-                        <li> <a href="#add-blog" data-toggle="modal"> Add</a> </li>
+                        <li> <a href="#add-blog" data-toggle="modal"> Add New Blog Article</a> </li>
                     </ul>
                 </li>
                 <li>
@@ -86,7 +86,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
-                        <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                        <li> <a href="#add-activity" data-toggle="modal"> Add New Activity</a> </li>
                         <!--<li class="divider"></li>
                         <li><a href="oip-layout-activities-summary.phtml"> My activities</a> </li>
                         <li class="divider"></li>
@@ -135,20 +135,12 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li> <a href="oip-layout-activities-summary.phtml"> Homepage | Edit</a> </li>
-                        <li> <a href="oip-layout-activities-summary.phtml"> Map | Edit</a> </li>
-                        <li> <a href="oip-layout-activities-summary.phtml"> About | Edit</a> </li>
-                        <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Blog</a>
-                            <ul class="dropdown-menu">
-                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
-                            </ul>
-                        </li>
-                        <li><a tabindex="-1" href="#"> Activities | Edit</a></li>
-                        <li><a tabindex="-1" href="#"> Groups | Edit</a></li>
-                        <li><a tabindex="-1" href="#"> Sign Up | Edit</a></li>
-                        <li class="divider"</li>
-                        <li><a href="">publish to WWW</a></li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-landing.phtml"> Homepage | Edit</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-map.phtml"> Map | Edit</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-blog.phtml"> Blog | Edit</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-about.phtml"> About | Edit</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-activities-summary.phtml"> Activities | Edit</a> </li>
+                        <li> <a href="#publishtowww" data-toggle="modal">Publish to WWW</a></li>
                     </ul>
                 </li>
             </ul>
@@ -157,32 +149,6 @@
 </div> <!-- /subnavbar -->
 
 <!-- modals -->
-<div id="create-group" class="modal hide fade">
-    <div class="modal-header">
-        <button class="close" data-dismiss="modal">&times;</button>
-        <h2 class="title">
-            Create a group
-        </h2>
-    </div>
-    <div class="modal-body">
-        <form method="post" class="form-horizontal">
-
-<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.CreateGroupInfo:CreateGroup -->
-<!-- THEBALL-FORM-HIDDEN-FIELDS -->
-            <fieldset>
-                <div class="control-group">
-                    <label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Name of the group</label>
-                    <div class="controls">
-                        <input name="[!ATOM]ID[ATOM!]_GroupName" class="span4" id="[!ATOM]ID[ATOM!]_GroupName" type="text" value="[!ATOM]GroupName[ATOM!]">
-                    </div>
-                </div>
-                <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-            </fieldset>
-<!-- THEBALL-CONTEXT-END:* -->
-        </form>
-    </div>
-</div>
-
 <div id="add-activity" class="modal hide fade">
     <div class="modal-header">
         <button class="close" data-dismiss="modal">&times;</button>
@@ -196,7 +162,7 @@
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
-                    <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Add the activity's name'</label>
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Name of the activity</label>
                     <div class="controls">
                         <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span4" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
                     </div>
@@ -219,12 +185,11 @@
     </div>
     <div class="modal-body">
         <form method="post" class="form-horizontal">
-
 <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddBlogPostInfo:AddBlogPost -->
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
-                    <label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Blog post's title</label>
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title of the blog article</label>
                     <div class="controls">
                         <input name="[!ATOM]ID[ATOM!]_Title" class="span4" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]">
                     </div>
@@ -235,5 +200,19 @@
         </form>
     </div>
 </div>
+
+<div class="modal hide fade" id="publishwww">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">close</button> 
+	</div>
+	<form method="post">
+		<div class="modal-body">
+			<input id="CommandFieldID" name="CommandFieldID" type="hidden" value="publishwww" />
+			<p name="question" id="question">Publish the content to group-assigned WWW pages?</p>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</div>
+	</form>
+</div>
+
 
 <!-- end modals -->
