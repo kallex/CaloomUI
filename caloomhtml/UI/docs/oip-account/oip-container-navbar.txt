@@ -6,7 +6,7 @@
             </p>
             <p style="float:left">
                 <span class="aalto-university">Aalto University</span> <br>
-                <span class="aalto-gi">Aalto Global Impact</span>
+                <span class="aalto-gi"><a href="http://oip.msunit.citrus.fi/public/grp/default/publicsite/oip-public/oip-layout-landing.phtml"> Aalto Global Impact</a></span>
             </p>
             <p  style="float:left"><a href="" id="tabzilla" style=" float:right;margin-left: 20px;" >Aalto</a></p>
 
