@@ -63,7 +63,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li> <a href="oip-layout-groups-summary.phtml"> Summary of Groups</a> </li>
-                        <li> <a href="#add-group" data-toggle="modal"> Add</a> </li>
+                        <li> <a href="#create-group" data-toggle="modal"> Add</a> </li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -93,8 +93,8 @@
     <div class="modal-body">
         <form method="post" class="form-horizontal">
 
-            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.CreateGroupInfo:CreateGroup -->
-            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.CreateGroupInfo:CreateGroup -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
                     <label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Name of the group</label>
@@ -104,7 +104,7 @@
                 </div>
                 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
             </fieldset>
-            <!-- THEBALL-CONTEXT-END:* -->
+<!-- THEBALL-CONTEXT-END:* -->
         </form>
     </div>
 </div>
@@ -118,8 +118,8 @@
     </div>
     <div class="modal-body">
         <form method="post" class="form-horizontal">
-            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddActivityInfo:AddActivity -->
-            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddActivityInfo:AddActivity -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
                     <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Add the activity's name'</label>
@@ -127,10 +127,9 @@
                         <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span4" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
                     </div>
                 </div>
-
                 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
             </fieldset>
-            <!-- THEBALL-CONTEXT-END:* -->
+<!-- THEBALL-CONTEXT-END:* -->
         </form>
     </div>
 </div>
@@ -145,9 +144,8 @@
     </div>
     <div class="modal-body">
         <form method="post" class="form-horizontal">
-
-            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddBlogPostInfo:AddBlogPost -->
-            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddBlogPostInfo:AddBlogPost -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
                     <label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Blog post's title</label>
@@ -157,7 +155,7 @@
                 </div>
                 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
             </fieldset>
-            <!-- THEBALL-CONTEXT-END:* -->
+<!-- THEBALL-CONTEXT-END:* -->
         </form>
     </div>
 </div>
