@@ -45,17 +45,17 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li> <a href="oip-layout-groups-view.phtml"> Profile View</a> </li>
+                        <!--<li> <a href="oip-layout-groups-view.phtml"> Profile View</a> </li>-->
                         <li> <a href="oip-layout-groups-edit.phtml"> Edit this group</a> </li>
-                        <li class="divider"></li>
+                        <!--<li class="divider"></li>
                         <li> <a href="#"> My group</a> </li>
                         <li class="divider"></li>
                         <li><a tabindex="-1" href="#">Group A</a></li>
                         <li><a tabindex="-1" href="#">Group B</a></li>
-                        <li><a tabindex="-1" href="#">Group C</a></li>
+                        <li><a tabindex="-1" href="#">Group C</a></li> -->
                     </ul>
                 </li>
-                <li class="active">
+                <li>
                     <a href="oip-layout-map.phtml">
                         <i class="icon-map-marker"></i>
                         <span>Map</span>
@@ -75,7 +75,7 @@
                 <li>
                     <a href="oip-layout-about.phtml" class="dropdown-toggle">
                         <i class="icon-umbrella"></i>
-                        <span>About</span>
+                        <span>About this group</span>
                     </a>
                 </li>
                 <li class="dropdown">
@@ -87,7 +87,7 @@
                     <ul class="dropdown-menu">
                         <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
                         <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
-                        <li class="divider"></li>
+                        <!--<li class="divider"></li>
                         <li><a href="oip-layout-activities-summary.phtml"> My activities</a> </li>
                         <li class="divider"></li>
                         <li class="dropdown-submenu">
@@ -125,7 +125,7 @@
                                 <li><a tabindex="-1" href="#">Activity C-D</a></li>
                                 <li><a tabindex="-1" href="#">Activity C-E</a></li>
                             </ul>
-                        </li>
+                        </li>  -->
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -135,18 +135,20 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li> <a href="oip-layout-activities-summary.phtml"> Homepage</a> </li>
-                        <li> <a href="oip-layout-activities-summary.phtml"> Map</a> </li>
-                        <li> <a href="oip-layout-activities-summary.phtml"> About</a> </li>
+                        <li> <a href="oip-layout-activities-summary.phtml"> Homepage | Edit</a> </li>
+                        <li> <a href="oip-layout-activities-summary.phtml"> Map | Edit</a> </li>
+                        <li> <a href="oip-layout-activities-summary.phtml"> About | Edit</a> </li>
                         <li class="dropdown-submenu">
                             <a tabindex="-1" href="#">Blog</a>
                             <ul class="dropdown-menu">
                                 <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
                             </ul>
                         </li>
-                        <li><a tabindex="-1" href="#"> Activities</a></li>
-                        <li><a tabindex="-1" href="#"> Groups</a></li>
-                        <li><a tabindex="-1" href="#"> Sign Up</a></li>
+                        <li><a tabindex="-1" href="#"> Activities | Edit</a></li>
+                        <li><a tabindex="-1" href="#"> Groups | Edit</a></li>
+                        <li><a tabindex="-1" href="#"> Sign Up | Edit</a></li>
+                        <li class="divider"</li>
+                        <li><a href="">publish to WWW</a></li>
                     </ul>
                 </li>
             </ul>
