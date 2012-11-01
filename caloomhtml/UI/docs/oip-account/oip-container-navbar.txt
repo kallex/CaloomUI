@@ -22,8 +22,9 @@
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="oip-layout-account-welcome.phtml">Welcome Page</a></li>
-                            <li><a href="oip-layout-account-edit.phtml">My Profile</a></li>
+                            <li><a href="oip-layout-account-welcome.phtml">Account Page</a></li>
+                            <li><a href="oip-layout-account-edit.phtml">Edit Profile</a></li>
+                            <li><a href="oip-layout-account-view.phtml">View Profile</a></li>
                             <li class="divider"></li>
                             <li><a href="/TheBallLogin.aspx?SignOut=true">Logout</a></li>
                         </ul>
@@ -37,23 +38,6 @@
     <div class="subnavbar-inner">
         <div class="container">
             <ul class="mainnav">
-                <li class="dropdown group-name">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="icon-group"></i>
-                        <span>Group's Name :</span>
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li> <a href="oip-layout-groups-summary.phtml"> Summary of all groups</a></li>
-                        <li> <a href="#create-group" data-toggle="modal"> Add</a> </li>
-                        <li class="divider"></li>
-                        <li> <a href="#"> My group</a> </li>
-                        <li class="divider"></li>
-                        <li><a tabindex="-1" href="#">Other Group A</a></li>
-                        <li><a tabindex="-1" href="#">Other Group B</a></li>
-                        <li><a tabindex="-1" href="#">Other Group C</a></li>
-                    </ul>
-                </li>
                 <li>
                     <a href="oip-layout-maps-summary.phtml">
                         <i class="icon-map-marker"></i>
@@ -68,14 +52,19 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="oip-layout-blog-summary.phtml">Summary of Blogs</li>
-                        <li> <a href="#add-blog" data-toggle="modal"> Add Article</a> </li>
+                        <li> <a href="#add-blog" data-toggle="modal">Add Article</a> </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="oip-layout-about.phtml" class="dropdown-toggle">
-                        <i class="icon-umbrella"></i>
-                        <span>About</span>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-group"></i>
+                        <span>Groups</span>
+                        <b class="caret"></b>
                     </a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="oip-layout-groups-summary.phtml"> Summary of Groups</a> </li>
+                        <li> <a href="#add-group" data-toggle="modal"> Add</a> </li>
+                    </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -88,29 +77,89 @@
                         <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="icon-globe"></i>
-                        <span>Our Public Site</span>
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li> <a href="../oip-public/oip-layout-landing.phtml"> Homepage</a> </li>
-                        <li> <a href="../oip-public/oip-layout-map.phtml"> Map</a> </li>
-                        <li> <a href="../oip-public/oip-layout-about.phtml"> About</a> </li>
-                        <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Blog</a>
-                            <ul class="dropdown-menu">
-                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
-                            </ul>
-                        </li>
-                        <li><a tabindex="-1" href="../oip-public/oip-layout-activities-summary.phtml.phtml"> Activities</a></li>
-                        <li><a tabindex="-1" href="../oip-public/oip-layout-groups-summary.phtml.phtml"> Groups</a></li>
-                        <li><a tabindex="-1" href="../oip-public/oip-layout-register.phtml"> Sign Up</a></li>
-                    </ul>
-                </li>
             </ul>
         </div> <!-- /container -->
     </div> <!-- /subnavbar-inner -->
 </div> <!-- /subnavbar -->
 
+<!-- modals -->
+<div id="create-group" class="modal hide fade">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h2 class="title">
+            Create a group
+        </h2>
+    </div>
+    <div class="modal-body">
+        <form method="post" class="form-horizontal">
+
+            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.CreateGroupInfo:CreateGroup -->
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Name of the group</label>
+                    <div class="controls">
+                        <input name="[!ATOM]ID[ATOM!]_GroupName" class="span4" id="[!ATOM]ID[ATOM!]_GroupName" type="text" value="[!ATOM]GroupName[ATOM!]">
+                    </div>
+                </div>
+                <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+            </fieldset>
+            <!-- THEBALL-CONTEXT-END:* -->
+        </form>
+    </div>
+</div>
+
+<div id="add-activity" class="modal hide fade">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h2 class="title">
+            Add an activity
+        </h2>
+    </div>
+    <div class="modal-body">
+        <form method="post" class="form-horizontal">
+            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddActivityInfo:AddActivity -->
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Add the activity's name'</label>
+                    <div class="controls">
+                        <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span4" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
+                    </div>
+                </div>
+
+                <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+            </fieldset>
+            <!-- THEBALL-CONTEXT-END:* -->
+        </form>
+    </div>
+</div>
+
+
+<div id="add-blog" class="modal hide fade">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h2 class="title">
+            Add a blog article
+        </h2>
+    </div>
+    <div class="modal-body">
+        <form method="post" class="form-horizontal">
+
+            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddBlogPostInfo:AddBlogPost -->
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Blog post's title</label>
+                    <div class="controls">
+                        <input name="[!ATOM]ID[ATOM!]_Title" class="span4" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]">
+                    </div>
+                </div>
+                <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+            </fieldset>
+            <!-- THEBALL-CONTEXT-END:* -->
+        </form>
+    </div>
+</div>
+
+<!-- end modals -->

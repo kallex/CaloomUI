@@ -73,7 +73,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="oip-layout-about.phtm" class="dropdown-toggle">
+                    <a href="oip-layout-about.phtml" class="dropdown-toggle">
                         <i class="icon-umbrella"></i>
                         <span>About</span>
                     </a>
