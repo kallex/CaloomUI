@@ -1,11 +1,9 @@
-<!-- oip-module-group-delete.txt -->
-<div id="identity" class="span7" style="margin-top:10px">
+<div id="identity" style="min-height:400px;margin-top:10px">
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="">
-are you sure you want to delete this group? You break all the links as well
+<p>are you sure you want to delete this group? You break all the links as well</p>
 <?php include '../oip-atoms/oip-atom-form-cancel-delete.txt' ?>
 		</fieldset>
 	</form>
 </div>
-<!-- end oip-module-group-delete.txt -->

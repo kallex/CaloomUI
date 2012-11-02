@@ -1,4 +1,4 @@
-<div id="group-profile" class="span7" style=";margin-top:10px">
+<div id="group-profile" style="min-height:400px;margin-top:10px">
 	<form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="profile">
@@ -8,36 +8,38 @@
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ProfileImage -->
 <!-- ImageData -->
 					<img src="[!ATOM]ImageData.ContentUrl[ATOM!]" alt="Group Profile Image" />
-					<input class="span5" id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
+					<input  id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
 <!-- * -->
 <!-- THEBALL-CONTEXT-END:* -->
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label">Icon (for use on the map and as your group's logo)</label> 
+				<label class="control-label">Icon (for use on the map and as your group's logo)</label>
+                <div class="controls">
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:IconImage -->
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ImageData -->
 					<img src="[!ATOM]ContentUrl[ATOM!]" alt="Group Icon Image" />
-					<input class="span5" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
+					<input class="input-xlarge" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
 <!-- THEBALL-CONTEXT-END:* -->
 <!-- THEBALL-CONTEXT-END:* -->
+                </div>
 			</div>			
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_GroupName">Group name</label> 
 				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_GroupName" class="span3" id="[!ATOM]ID[ATOM!]_GroupName" type="text" value="[!ATOM]GroupName[ATOM!]">
+        <input name="[!ATOM]ID[ATOM!]_GroupName" class="input-xlarge" id="[!ATOM]ID[ATOM!]_GroupName" type="text" value="[!ATOM]GroupName[ATOM!]">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label> 
 				<div class="controls">
-                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea> 
+                    <textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea>
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs">Organisations and groups linked to us</label> 
 				<div class="controls">
-                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs" name="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs" rows="6" placeholder="add org name">[!ATOM]OrganizationsAndGroupsLinkedToUs[ATOM!]</textarea> 
+                    <textarea class="input-xlarge" id="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs" name="[!ATOM]ID[ATOM!]_OrganizationsAndGroupsLinkedToUs" rows="6" placeholder="add org name">[!ATOM]OrganizationsAndGroupsLinkedToUs[ATOM!]</textarea>
 				</div>
 			</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
