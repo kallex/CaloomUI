@@ -2676,17 +2676,17 @@ button.close {
   cursor: pointer;
   color: #333333;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-  background-color: #feddfa;
-  background-image: -moz-linear-gradient(top, #ffffff, #fcabf3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#fcabf3));
-  background-image: -webkit-linear-gradient(top, #ffffff, #fcabf3);
-  background-image: -o-linear-gradient(top, #ffffff, #fcabf3);
-  background-image: linear-gradient(to bottom, #ffffff, #fcabf3);
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fffcabf3', GradientType=0);
-  border-color: #fcabf3 #fcabf3 #f961e8;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #fcabf3;
+  *background-color: #e6e6e6;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -2707,12 +2707,12 @@ button.close {
 .btn.disabled,
 .btn[disabled] {
   color: #333333;
-  background-color: #fcabf3;
-  *background-color: #fb93ef;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
 }
 .btn:active,
 .btn.active {
-  background-color: #fa7aeb \9;
+  background-color: #cccccc \9;
 }
 .btn:first-child {
   *margin-left: 0;
@@ -2724,7 +2724,7 @@ button.close {
   *background-color: #d9d9d9;
   /* Buttons in IE7 don't get borders, so darken on hover */
 
-  background-position: 0 -15px;
+  background-position: 0 -30px;
   -webkit-transition: background-position 0.1s linear;
   -moz-transition: background-position 0.1s linear;
   -o-transition: background-position 0.1s linear;
@@ -3198,7 +3198,7 @@ input[type="submit"].btn.btn-mini {
   box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
 }
 .btn-group.open .btn.dropdown-toggle {
-  background-color: #fcabf3;
+  background-color: #e6e6e6;
 }
 .btn-group.open .btn-primary.dropdown-toggle {
   background-color: #7f7e6d;
@@ -3563,6 +3563,8 @@ input[type="submit"].btn.btn-mini {
 .tab-content {
   overflow: auto;
   border: 1px solid #e5e5e5;
+  padding-left: 10px;
+  padding-top: 8px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -5355,6 +5357,9 @@ ul.header-first li.eng a {
 }
 .aalto-gi {
   color: #ffffff;
+}
+.form-tab {
+  min-height: 400px !important;
 }
 .footer {
   padding: 70px 0;

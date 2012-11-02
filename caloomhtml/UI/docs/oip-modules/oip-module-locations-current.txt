@@ -1,4 +1,4 @@
-<div id="identity" class="span7" style="margin-top:10px;min-height:300px">
+<div class="span11 form-tab">
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="current-locations">

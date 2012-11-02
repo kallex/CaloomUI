@@ -1,23 +1,21 @@
-<!-- oip-module-images.txt -->
-<div id="group-images" class="span7" style=";margin-top:10px;min-height:300px">
+<div id="group-images" class="span11" style=";margin-top:10px;min-height:300px">
+    <h4 style="text-align: center">Create sets for your images</h4>
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
-		<h4>Create sets for your images</h4>
 		<fieldset id="">
 			<div class="control-group">
 				<label class="control-label">Image group name</label> 
 				<div class="controls">
-					<input name="Title" class="span3" id="input01" type="text" placeholder="Image group name">
+					<input name="Title" class="span11" id="input01" type="text" placeholder="Image group name">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label">Add image</label> 
 				<div class="controls">
-					<input class="span2" id="appendedInputButtons" size="16" type="file">
+					<input class="input-xlarge" id="appendedInputButtons" size="16" type="file">
 				</div>
 			</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
 </div>
-<!-- end oip-module-images.txt -->
