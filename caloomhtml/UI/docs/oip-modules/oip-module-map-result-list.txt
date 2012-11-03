@@ -1,14 +1,4 @@
-        <div class="accordion" id="accordion2"
-             style="
-             background-color:rgba(33, 32, 31, 0.8);
-             padding:10px;
-             -webkit-border-radius: 6px;
-             -moz-border-radius: 6px;
-             border-radius: 6px;
-             -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-             -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-             box-shadow: 0 1px 4px rgba(0,0,0,.065);
-            ">
+        <div class="accordion accordion-map-result-list" id="accordion2">
             <div class="accordion-group">
                 <div class="accordion-heading">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
