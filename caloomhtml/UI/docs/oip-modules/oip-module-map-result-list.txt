@@ -1,5 +1,75 @@
-    <ul class="nav nav-list bs-docs-sidenav affix-top">
-        <li><a href="#Activities" style="color:white; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);"><i class="icon-chevron-right"></i> Activities</a></li>
-        <li><a href="#Groups" style="color:white; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);"><i class="icon-chevron-right"></i> Groups</a></li>
-        <li><a href="#Blogs" style="color:white; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);"><i class="icon-chevron-right"></i> Blogs</a></li>
-    </ul>
+        <div class="accordion" id="accordion2"
+             style="
+             background-color:rgba(33, 32, 31, 0.8);
+             padding:10px;
+             -webkit-border-radius: 6px;
+             -moz-border-radius: 6px;
+             border-radius: 6px;
+             -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+             -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+             box-shadow: 0 1px 4px rgba(0,0,0,.065);
+            ">
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                        Groups
+                    </a>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse in">
+                    <div class="accordion-inner">
+                        <ul>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                    Activities
+                </a>
+            </div>
+            <div id="collapseTwo" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 1</li>
+                        <li>item 1</li>
+                        <li>item 1</li>
+                        <li>item 1</li>
+                        <li>item 1</li>
+                        <li>item 1</li>
+                        <li>item 1</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                        Blogs
+                    </a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <ul>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                            <li>item 1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
