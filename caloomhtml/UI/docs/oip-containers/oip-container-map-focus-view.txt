@@ -1,3 +1,1 @@
-<div class="row-fluid" style="margin-left: auto;margin-right: auto;"><!-- change -->
-    <?php include '../oip-modules-views/oip-module-map-view.txt' ?>
-</div>
+<?php include '../oip-modules-views/oip-module-map-view.txt' ?>

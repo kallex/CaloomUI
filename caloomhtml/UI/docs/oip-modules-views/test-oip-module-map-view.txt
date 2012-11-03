@@ -1,0 +1,1 @@
+<div style="background-color: #fafad2"><?php include'../oip-modules/oip-module-map-large.txt' ?></div>

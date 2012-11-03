@@ -1,0 +1,1 @@
+<?php include '../oip-modules-views/test-oip-module-map-view.txt' ?>
