@@ -1,0 +1,5 @@
+    <ul class="nav nav-list bs-docs-sidenav affix-top">
+        <li><a href="#Activities" style="color:white; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);"><i class="icon-chevron-right"></i> Activities</a></li>
+        <li><a href="#Groups" style="color:white; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);"><i class="icon-chevron-right"></i> Groups</a></li>
+        <li><a href="#Blogs" style="color:white; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);"><i class="icon-chevron-right"></i> Blogs</a></li>
+    </ul>
