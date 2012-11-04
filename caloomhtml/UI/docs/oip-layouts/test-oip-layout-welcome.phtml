@@ -2,551 +2,134 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Bootstrap, from Twitter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link href="../bootstrap-default/assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        html, body { height: 100%; }
 
-    <!-- Le styles -->
-    <link href="../oip-additions/oip-assets/oip-css/oip-bootstrap.css" rel="stylesheet">
-    <link href="../oip-additions/oip-assets/oip-css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../oip-additions/oip-assets/oip-css/dashboard.css" rel="stylesheet">
-    <link href="../oip-additions/oip-assets/oip-js/google-code-prettify/prettify.css" rel="stylesheet">
+        footer {
+            padding: 0 10px 0 10px;
+            border-top: 1px solid #eee;
+            color: white;
+            background-color: black;
+        }
 
-    <!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
-    <!--Extra Styles from jQuery UI-->
-    <!--  <link href="../third-party/jquery-ui/css/demo.css" rel="stylesheet">
- <link href="../third-party/jquery-ui/css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet"> -->
-    <!-- calendar -->
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="../oip-additions/oip-assets/oip-images/icons/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-72x72.png">
-    <link rel="apple-touch-icon-precomposed" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-57x57.png">
-    <script src="../oip-additions/oip-assets/oip-js/OpenLayers.js"></script>
-    <script type="text/javascript" src="../oip-additions/oip-assets/oip-js/nicEdit.js"></script>
+        footer > p {
+            margin-bottom: 11px;
+            margin-top: 13px;
+        }
+
+        .wrapper {
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
+            margin: 0 auto -43px;
+        }
+
+        .push { height: 63px; } /* Just some arbitrary space to add between footer and rest of the content, when they are close */
+
+            /* not required for sticky footer; just makes some space for navigation bar */
+        .wrapper > .container-fluid {
+            padding-top: 60px;
+        }
+    </style>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
-
-
-<body data-spy="scroll" data-target=".subnav" data-offset="50">
-<div class="account navbar navbar-fixed-top" style="border-bottom-color: #adff2f;border-bottom-style: solid;border-bottom-width: 1px;">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-            <a class="brand active" href="oip-layout-account-welcome.phtml">Aalto Global Impact [AccountName]</a>
-            <div class="nav-collapse">
-                <ul class="nav">
-                    <li class="map"> <a href="oip-layout-maps-summary.phtml"> Maps</a> </li>
-                    <li class="dropdown blog"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Blog<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="oip-layout-blog-summary.phtml"> Summary</a> </li>
-                            <li> <a href="oip-layout-blog-edit.phtml"> Edit (temp)</a> </li>
-                            <li> <a href="#add-blog" data-toggle="modal"> Add</a> </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown activity"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Activities<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
-                            <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown group"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Groups<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="oip-layout-groups-summary.phtml"> Summary</a> </li>
-                            <li> <a href="#create-group" data-toggle="modal"> Add</a> </li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="nav pull-right">
-                    <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="oip-layout-account-welcome.phtml">Welcome Page</a></li>
-                            <li><a href="oip-layout-account-edit.phtml">Information</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/TheBallLogin.aspx?SignOut=true">Sign Out</a></li>
-                        </ul>
-                    </li>
-                </ul>
+<body>
+<div class="wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="#">Project name</a>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <p class="navbar-text pull-right">Logged in as <a href="#">%username%</a></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-<!-- modals -->
-<div id="create-group" class="modal hide fade">
-    <div class="modal-header">
-        <button class="close" data-dismiss="modal">&times;</button>
-        <h2 class="title">
-            Create a group
-        </h2>
-    </div>
-    <div class="modal-body">
-        <form method="post" class="form-horizontal">
-
-            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.CreateGroupInfo:CreateGroup -->
-<span id='f0ac91e2-88eb-4d25-9523-c13fe9bc1ce5' data-id='f0ac91e2-88eb-4d25-9523-c13fe9bc1ce5' data-etag='0x8CF640057E82D22' class='theballitem'>
-<!-- THEBALL-FORM-HIDDEN-FIELDS -->
-<input id="RootSourceName" name="RootSourceName" type="hidden" value="CreateGroup" />
-            <fieldset>
-                <div class="control-group">
-                    <label class="control-label" for="f0ac91e2-88eb-4d25-9523-c13fe9bc1ce5_GroupName">Name of the group</label>
-                    <div class="controls">
-                        <input name="f0ac91e2-88eb-4d25-9523-c13fe9bc1ce5_GroupName" class="span4" id="f0ac91e2-88eb-4d25-9523-c13fe9bc1ce5_GroupName" type="text" value="CreateGroupInfo.GroupName">
-                    </div>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span2">
+                <div class="well sidebar-nav">
+                    <ul class="nav nav-list">
+                        <li class="nav-header">Sidebar</li>
+                        <li class="active"><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="nav-header">Sidebar</li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="nav-header">Sidebar</li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
                 </div>
-                <div class="control-group controls">
-                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
-                        <button value="true" name="btnCancel" class="btn">Cancel</button>
-                        <button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
-                    </div>
-                </div>
-
-            </fieldset>
-</span>
-            <!-- THEBALL-CONTEXT-END:* -->
-        </form>
-    </div>
-</div>
-
-<div id="add-activity" class="modal hide fade">
-    <div class="modal-header">
-        <button class="close" data-dismiss="modal">&times;</button>
-        <h2 class="title">
-            Add an activity
-        </h2>
-    </div>
-    <div class="modal-body">
-        <form method="post" class="form-horizontal">
-            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddActivityInfo:AddActivity -->
-<span id='7f1c86eb-5f7a-406b-b5c0-5c51d5ed6e73' data-id='7f1c86eb-5f7a-406b-b5c0-5c51d5ed6e73' data-etag='0x8CF6B65CDB5FF8D' class='theballitem'>
-<!-- THEBALL-FORM-HIDDEN-FIELDS -->
-<input id="RootSourceName" name="RootSourceName" type="hidden" value="AddActivity" />
-            <fieldset>
-                <div class="control-group">
-                    <label class="control-label" for="7f1c86eb-5f7a-406b-b5c0-5c51d5ed6e73_ActivityName">Add the activity's name'</label>
-                    <div class="controls">
-                        <input name="7f1c86eb-5f7a-406b-b5c0-5c51d5ed6e73_ActivityName" class="span4" id="7f1c86eb-5f7a-406b-b5c0-5c51d5ed6e73_ActivityName" type="text" value="another activity by Jeroen, and one more and one more--number 4">
-                    </div>
-                </div>
-
-                <div class="control-group controls">
-                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
-                        <button value="true" name="btnCancel" class="btn">Cancel</button>
-                        <button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
-                    </div>
-                </div>
-
-            </fieldset>
-</span>
-            <!-- THEBALL-CONTEXT-END:* -->
-        </form>
-    </div>
-</div>
-
-
-<div id="add-blog" class="modal hide fade">
-    <div class="modal-header">
-        <button class="close" data-dismiss="modal">&times;</button>
-        <h2 class="title">
-            Add a blog article
-        </h2>
-    </div>
-    <div class="modal-body">
-        <form method="post" class="form-horizontal">
-
-            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddBlogPostInfo:AddBlogPost -->
-<span id='f977663f-891a-4e57-882b-d3d45ccd7a29' data-id='f977663f-891a-4e57-882b-d3d45ccd7a29' data-etag='0x8CF6A7AF9150CC3' class='theballitem'>
-<!-- THEBALL-FORM-HIDDEN-FIELDS -->
-<input id="RootSourceName" name="RootSourceName" type="hidden" value="AddBlogPost" />
-            <fieldset>
-                <div class="control-group">
-                    <label class="control-label" for="f977663f-891a-4e57-882b-d3d45ccd7a29_Title">Blog post's title</label>
-                    <div class="controls">
-                        <input name="f977663f-891a-4e57-882b-d3d45ccd7a29_Title" class="span4" id="f977663f-891a-4e57-882b-d3d45ccd7a29_Title" type="text" value="">
-                    </div>
-                </div>
-                <div class="control-group controls">
-                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
-                        <button value="true" name="btnCancel" class="btn">Cancel</button>
-                        <button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
-                    </div>
-                </div>
-
-            </fieldset>
-</span>
-            <!-- THEBALL-CONTEXT-END:* -->
-        </form>
-    </div>
-</div>
-
-<!-- end modals -->
-<div class="container">
-<section id="container-focus" class="container well" >
-
-    <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AccountContainer -->
-<span id='5d3030a7-25a8-4cf2-bc58-645c3c292197' data-id='5d3030a7-25a8-4cf2-bc58-645c3c292197' data-etag='0x8CF6C8C8F014A94' class='theballitem'>
-
-<!-- THEBALL-CONTEXT-OBJECT-BEGIN:Header -->
-<span id='17ed0cf9-84bf-4544-abe5-5e98cd92cede' data-id='17ed0cf9-84bf-4544-abe5-5e98cd92cede' data-etag='' class='theballitem'>
-<!-- oip-module-header.txt -->
-<div class="oip-marketing">
-    <h1><a data-id="17ed0cf9-84bf-4544-abe5-5e98cd92cede_Title" title="Edit Title" class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">Account Welcome Page</a>
-
-    </h1>
-    <h1><small><a data-id="17ed0cf9-84bf-4544-abe5-5e98cd92cede_SubTitle" title="Edit Subtitle" class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">The OIP Account welcome page is your landing page where you arrive after signing in</a>
-
-    </small></h1>
-</div>
-<!-- end oip-module-header.txt -->
-
-
-</span>
-<!-- THEBALL-CONTEXT-END:Header -->
-
-<div class="row">
-    <div class="span3">
-
-        <!-- THEBALL-CONTEXT-OBJECT-BEGIN:AccountIndex -->
-<span id='d559acee-9c15-4844-bc14-30a81925f6e8' data-id='d559acee-9c15-4844-bc14-30a81925f6e8' data-etag='' class='theballitem'>
-<p>
-    <img src="[!ATOM]Icon.ImageData.ContentUrl[ATOM]">
-</p>
-<h3>
-    AccountIndex.Title is null
-</h3>
-<p>
-    AccountIndex.Introduction is null
-</p>
-<p>
-    AccountIndex.Summary is null
-</p>
-
-
-</span>
-        <!-- THEBALL-CONTEXT-END:AccountIndex -->
-
-    </div>
-    <div class="span9">
-
-        <!-- THEBALL-CONTEXT-OBJECT-BEGIN:AccountSummary -->
-<span id='026bd7aa-dd3d-4f36-a030-c6bbe4c2c902' data-id='026bd7aa-dd3d-4f36-a030-c6bbe4c2c902' data-etag='' class='theballitem'>
-
-<!-- THEBALL-CONTEXT-OBJECT-BEGIN:Introduction -->
-<span id='8caf02d4-0e3f-4464-9af9-695c5e68f228' data-id='8caf02d4-0e3f-4464-9af9-695c5e68f228' data-etag='' class='theballitem'>
-<!-- oip-module-introduction.txt -->
-<h3>
-    <a data-id="8caf02d4-0e3f-4464-9af9-695c5e68f228_Title" title="Edit Title" class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">These are the activity summaries</a>
-
-
-</h3>
-<p>
-    <a data-id="8caf02d4-0e3f-4464-9af9-695c5e68f228_Body" title="Edit Body" class="noteditable open-IncontextEditDialog_Text_Long in-context-edit">some long text from oip-account/oip-layout-account-welcome</a>
-
-</p>
-<!-- end oip-module-introduction.txt -->
-
-</span>
-<!-- THEBALL-CONTEXT-END:Introduction -->
-
-
-<!-- THEBALL-CONTEXT-OBJECT-BEGIN:ActivitySummary -->
-<span id='04ebfc31-66df-406b-ab75-b2ccbffd3d22' data-id='04ebfc31-66df-406b-ab75-b2ccbffd3d22' data-etag='' class='theballitem'>
-<div class="" style="margin-bottom: 40px">
-
-    <!-- THEBALL-CONTEXT-OBJECT-BEGIN:Introduction -->
-<span id='24a575e3-7cc7-488e-8d2f-40fbc811b1c2' data-id='24a575e3-7cc7-488e-8d2f-40fbc811b1c2' data-etag='' class='theballitem'>
-<!-- oip-module-introduction.txt -->
-<h3>
-    <a data-id="24a575e3-7cc7-488e-8d2f-40fbc811b1c2_Title" title="Edit Title" class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">This is the first activity added by Jeroen</a>
-
-
-</h3>
-<p>
-    <a data-id="24a575e3-7cc7-488e-8d2f-40fbc811b1c2_Body" title="Edit Body" class="noteditable open-IncontextEditDialog_Text_Long in-context-edit"><p>Pellentesque <b>habitant</b> morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, <u>tempor</u> sit amet, ante. Donec eu libero sit amet quam egestas semper. <i>Aenean</i> ultricies mi vitae est. Mauris placerat eleifend leo.&nbsp;</p><h4>Quisque sit amet est et</h4><p>sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p><div><br></div><div>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus<br></div><div><br></div><div>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus<br></div></a>
-
-</p>
-<!-- end oip-module-introduction.txt -->
-
-</span>
-    <!-- THEBALL-CONTEXT-END:Introduction -->
-
-</div>
-<div>
-    <ul class="thumbnails">
-
-        <!-- THEBALL-CONTEXT-COLLECTION-BEGIN:ActivityCollection -->
-<span id='d04cfc16-9b5c-4195-b4dd-7a4c9733bc7f' data-id='d04cfc16-9b5c-4195-b4dd-7a4c9733bc7f' data-etag='' class='theballcollection'>
-</span>
-
-    </ul>
-    <ul class="pager">
-        <li class="previous">
-            <a href="../oip-layouts/oip-layout-blog-more.phtml">&larr; Older</a>
-        </li>
-        <li class="next">
-            <a href="../oip-layouts/oip-layout-blog-more.phtml">Newer &rarr;</a>
-        </li>
-    </ul>
-</div>
-
-</span>
-<!-- THEBALL-CONTEXT-END:ActivitySummary -->
-
-
-<!-- THEBALL-CONTEXT-OBJECT-BEGIN:GroupSummary -->
-<span id='40a4c780-a7be-4c9a-8f63-4c1e81b2ac17' data-id='40a4c780-a7be-4c9a-8f63-4c1e81b2ac17' data-etag='' class='theballitem'>
-<div class="" style="margin-bottom: 40px">
-
-    <!-- THEBALL-CONTEXT-OBJECT-BEGIN:Introduction -->
-<span id='2d9733d1-1fdc-43cc-9461-04e3d2234095' data-id='2d9733d1-1fdc-43cc-9461-04e3d2234095' data-etag='' class='theballitem'>
-<!-- oip-module-introduction.txt -->
-<h3>
-    <a data-id="2d9733d1-1fdc-43cc-9461-04e3d2234095_Title" title="Edit Title" class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">Introduction.Title is null</a>
-
-
-</h3>
-<p>
-    <a data-id="2d9733d1-1fdc-43cc-9461-04e3d2234095_Body" title="Edit Body" class="noteditable open-IncontextEditDialog_Text_Long in-context-edit">Introduction.Body is null</a>
-
-</p>
-<!-- end oip-module-introduction.txt -->
-
-</span>
-    <!-- THEBALL-CONTEXT-END:Introduction -->
-
-</div>
-<div>
-    <ul class="thumbnails">
-
-        <!-- THEBALL-CONTEXT-COLLECTION-BEGIN:GroupCollection -->
-<span id='f6611c29-8b46-4319-8b1b-c5034d890a17' data-id='f6611c29-8b46-4319-8b1b-c5034d890a17' data-etag='' class='theballcollection'>
-</span>
-
-    </ul>
-    <ul class="pager">
-        <li class="previous">
-            <a href="../oip-layouts/oip-layout-blog-more.phtml">&larr; Older</a>
-        </li>
-        <li class="next">
-            <a href="../oip-layouts/oip-layout-blog-more.phtml">Newer &rarr;</a>
-        </li>
-    </ul>
-</div>
-
-</span>
-<!-- THEBALL-CONTEXT-END:GroupSummary -->
-
-
-</span>
-        <!-- THEBALL-CONTEXT-END:AccountSummary -->
-
-    </div>
-</div>
-
-</span>
-    <!-- THEBALL-CONTEXT-END:AaltoGlobalImpact.OIP.AccountContainer -->
-
-</section>
-<section class="container well">
-    <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>The <a id="edittoggle">Open</a> Innovation Platform is offered to you by Aalto Global Impact, and Aalto University organisation</p>
-        <p>All content licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p>Icons from <a href="http://glyphicons.com">Glyphicons Pro</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-    </footer>
-
-    <!-- ========== Begin: oip-account\..\oip-containers\../oip-modals/oip-modal-collection.txt ========== -->
-    <!-- oip-modal-collection.txt -->
-
-    <!-- ========== Begin: oip-account\..\oip-containers\..\oip-modals\oip-modal-text-short.txt ========== -->
-    <!-- oip-modal-header.txt -->
-    <div class="modal hide fade well in-context-edit" id="IncontextEditDialog_Text_Short">
-        <div class="modal-header">
-            <button class="close" data-dismiss="modal">close</button>
-        </div>
-        <form method="post">
-            <div class="modal-body">
-                <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-                <input class="span4" type="text" name="Text_Short" id="Text_Short" value="" />
-
-                <div class="control-group controls">
-                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
-                        <button value="true" name="btnCancel" class="btn">Cancel</button>
-                        <button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
-                    </div>
-                </div>
-
             </div>
-        </form>
-    </div>
-    <!-- end oip-modal-header.txt -->
+            <div class="span10">
 
-    <!-- ========== End: oip-account\..\oip-containers\..\oip-modals\oip-modal-text-short.txt ========== -->
-
-
-    <!-- ========== Begin: oip-account\..\oip-containers\..\oip-modals\oip-modal-text-long.txt ========== -->
-    <!-- oip-modal-text-long.txt -->
-    <div class="modal hide fade well" id="IncontextEditDialog_Text_Long">
-        <div class="modal-header">
-            <button class="close" data-dismiss="modal">close</button>
-        </div>
-        <form method="post">
-            <div class="modal-body">
-                <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-                <textarea class="span5" rows="30" id="Text_Long" name="Text_Long"></textarea>
-
-                <div class="control-group controls">
-                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
-                        <button value="true" name="btnCancel" class="btn">Cancel</button>
-                        <button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
+                <div class="row-fluid">
+                    <div class="span4">
+                        <h2>Heading</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                        <p><a class="btn" href="#">View details »</a></p>
+                    </div>
+                    <div class="span4">
+                        <h2>Heading</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                        <p><a class="btn" href="#">View details »</a></p>
+                    </div>
+                    <div class="span4">
+                        <h2>Heading</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                        <p><a class="btn" href="#">View details »</a></p>
                     </div>
                 </div>
-
+                <div class="row-fluid">
+                    <div class="span4">
+                        <h2>Heading</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                        <p><a class="btn" href="#">View details »</a></p>
+                    </div>
+                    <div class="span4">
+                        <h2>Heading</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                        <p><a class="btn" href="#">View details »</a></p>
+                    </div>
+                    <div class="span4">
+                        <h2>Heading</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                        <p><a class="btn" href="#">View details »</a></p>
+                    </div>
+                </div>
             </div>
-        </form>
-        <script type="text/javascript">
-            function addRichTextEditTextLong() {
-                richArea = new nicEditor({fullPanel : true, iconsPath : '../oip-additions/oip-assets/oip-js/nicEditorIcons.gif' }).panelInstance('Text_Long');
-            }
-            bkLib.onDomLoaded(function() { addRichTextEditTextLong(); });
-        </script>
-    </div>
-    <!-- end oip-modal-text-long.txt -->
-
-    <!-- ========== End: oip-account\..\oip-containers\..\oip-modals\oip-modal-text-long.txt ========== -->
-
-
-    <!-- ========== Begin: oip-account\..\oip-containers\..\oip-modals\oip-modal-radiogroup.txt ========== -->
-    <!-- oip-modal-radiogroup.txt -->
-    <div class="modal hide fade well" id="IncontextEditDialog_RadioGroup">
-        <div class="modal-header">
-            <button class="close" data-dismiss="modal">close</button>
         </div>
-        <form method="post">
-            <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-            <div class="modal-body">
-                <div class="control-group">
-                    <label class="checkbox">
-                        <input type="radio" id="LocationName" name="_LocationName" value="_LocationName">LocationName</label>
-                </div>
-
-                <div class="control-group controls">
-                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
-                        <button value="true" name="btnCancel" class="btn">Cancel</button>
-                        <button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
-                    </div>
-                </div>
-
-            </div>
-        </form>
     </div>
-    <!-- end oip-modal-radiogroup.txt -->
-
-    <!-- ========== End: oip-account\..\oip-containers\..\oip-modals\oip-modal-radiogroup.txt ========== -->
-
-
-    <!-- ========== Begin: oip-account\..\oip-containers\..\oip-modals\oip-modal-multiselect.txt ========== -->
-    <!-- oip-modal-multiselect.txt -->
-    <div class="modal hide fade well" id="IncontextEditDialog_MultiSelect">
-        <div class="modal-header">
-            <button class="close" data-dismiss="modal">close</button>
-        </div>
-        <form method="post">
-            <div class="modal-body">
-                <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-                <div class="control-group">
-                    <label class="control-label" for="multiSelect"> Assign category </label>
-                    <div class="controls">
-                        <select multiple="multiple" id="multiSelect" size="12">
-                            <optgroup label="Projects">
-                                <option> Projects </option>
-                                <option selected="selected"> Finland </option>
-                                <option> South America </option>
-                                <option> Africa </option>
-                            </optgroup> <optgroup label="Events">
-                            <option selected="selected"> Events </option>
-                            <option> Seminar </option>
-                            <option selected="selected"> Conference </option>
-                            <option> Meeting </option>
-                        </optgroup> <optgroup label="Courses">
-                            <option> Courses </option>
-                            <option> Ba </option>
-                            <option> MA </option>
-                            <option> Design </option>
-                        </optgroup> <optgroup label="Research">
-                            <option> Research </option>
-                            <option> BoP </option>
-                            <option selected="selected"> Inclusive Business </option>
-                        </optgroup>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="control-group controls">
-                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
-                        <button value="true" name="btnCancel" class="btn">Cancel</button>
-                        <button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
-                    </div>
-                </div>
-
-            </div>
-        </form>
-    </div>
-    <!-- end oip-modal-multiselect.txt -->
-
-    <!-- ========== End: oip-account\..\oip-containers\..\oip-modals\oip-modal-multiselect.txt ========== -->
-
-    <div class="modal hide fade well in-context-edit" id="IDAction_ConfirmRemove">
-        <div class="modal-header">
-            <button class="close" data-dismiss="modal">close</button>
-        </div>
-        <form method="post">
-            <div class="modal-body">
-                <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-                <p name="question" id="question">Not set</p>
-                <div class="control-group controls">
-                    <div class="form-actions" style="padding:0;margin:0;border-top:0">
-                        <button value="true" name="btnCancel"  class="btn">Cancel</button>
-                        <button type="submit" class="btn btn-primary btn-danger" name="RootSourceAction" value="Delete">Delete</button>
-                    </div>
-                </div>
-
-            </div>
-        </form>
-    </div>
-
-    <!-- end oip-modal-collection.txt -->
-    <!-- ========== End: oip-account\..\oip-containers\../oip-modals/oip-modal-collection.txt ========== -->
-
-
-
-</section>
-</div>
-<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/jquery.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/google-code-prettify/prettify.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-transition.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-alert.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-modal.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-dropdown.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-scrollspy.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-tab.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-tooltip.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-popover.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-button.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-collapse.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-carousel.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/bootstrap-typeahead.js"></script>
-<!-- calendar -->
-<script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/in-context-editing.js"></script>
-<script src="../oip-additions/oip-assets/oip-js/modal-id-actions.js"></script>
-
+    <div class="push"><!--//--></div>
+</div><!--/.fluid-container-->
+<footer class="container-fluid">
+    <p>Put together in less than five minutes by <a href="http://www.martinbean.co.uk/" rel="author">Martin Bean</a>. Uses <a href="http://twitter.github.com/bootstrap/" rel="external">Twitter Bootstrap</a> and <a href="http://ryanfait.com/sticky-footer/" rel="external">Ryan Fait’s Sticky Footer</a>. Bit modified by <a href="http://www.art-coder.com/" rel="contributor">Eugene Serkin</a></p>
+</footer>
 </body>
 </html>
-
