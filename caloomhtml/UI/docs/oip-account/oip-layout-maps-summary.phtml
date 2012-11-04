@@ -3,10 +3,11 @@
 <?php include '../oip-modules/oip-head.txt' ?>
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
 <?php include 'oip-container-navbar.txt' ?>
-<div class="container">
-    <section id="container-focus" class="container well" >
-        <?php include '../oip-containers/oip-container-map-focus-view.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.MapContainer--> <!-- rename this to MapContainerSummary ? -->
-    </section>
+<div class="container" style="margin-left: 0px;margin-right: 0px; width:100%;position:relative">
+    <?php include '../oip-containers/oip-container-map-focus-view.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.MapContainer-->
+    <div class="span2 bs-docs-sidebar" style="position: absolute; top: 8px;right: 8px;height: 504px;">
+        <?php include '../oip-modules/oip-module-map-result-list.txt' ?>
+    </div>
 </div>
 <?php include '../oip-containers/oip-container-footer.txt' ?>
 <?php include '../oip-modules/oip-le-javascript.txt' ?>
