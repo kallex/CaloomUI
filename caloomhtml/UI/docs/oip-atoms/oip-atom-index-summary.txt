@@ -1,1 +1,1 @@
-<a data-id="[!ATOM]ID[ATOM!]_Summary" title="Edit Summary" class="noteditable open-IncontextEditDialog_Text_Long in-context-edit">[!ATOM]Summary[ATOM!]</a>
+<a data-id="[!ATOM]ID[ATOM!]_Summary"  class="noteditable open-IncontextEditDialog_Text_Long in-context-edit">[!ATOM]Summary[ATOM!]</a>

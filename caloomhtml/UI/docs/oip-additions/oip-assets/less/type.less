@@ -40,13 +40,16 @@ cite {
 // Headings
 // -------------------------
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+h1 a.noteditable, h2 a.noteditable, h3 a.noteditable, h4 a.noteditable, h5 a.noteditable, h6 a.noteditable,
+h1 a.noteditable:hover, h2 a.noteditable:hover, h3 a.noteditable:hover, h4 a.noteditable:hover, h5 a.noteditable:hover, h6 a.noteditable:hover{
   margin: (@baseLineHeight / 2) 0;
   margin-bottom: (@baseLineHeight / 3);
   font-family: @headingsFontFamily;
   font-weight: @headingsFontWeight;
   line-height: 1;
   color: @headingsColor;
+  text-decoration: none;
   text-rendering: optimizelegibility; // Fix the character spacing for headings
   small {
     font-weight: normal;

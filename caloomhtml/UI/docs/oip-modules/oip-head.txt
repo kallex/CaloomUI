@@ -29,6 +29,6 @@
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-72x72.png">
 	<link rel="apple-touch-icon-precomposed" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-57x57.png">
 	<script src="../oip-additions/oip-assets/oip-js/OpenLayers.js"></script> 
-	<script type="text/javascript" src="../oip-additions/oip-assets/oip-js/nicEdit.js"></script> 
+	<script type="text/javascript" src="../oip-additions/oip-assets/oip-js/nicEdit.js"></script>
 </head>
 

@@ -140,6 +140,7 @@ body {
   line-height: 20px;
   color: #3d3d3d;
   background-color: #7f786d;
+  text-decoration: none;
 }
 a {
   color: #7f786d;
@@ -148,6 +149,11 @@ a {
 a:hover {
   color: #000000;
   text-decoration: underline;
+}
+body p a.noteditable,
+p a.noteditable:hover {
+  color: #3d3d3d;
+  text-decoration: none;
 }
 .img-rounded {
   -webkit-border-radius: 6px;
@@ -499,13 +505,26 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h1 a.noteditable,
+h2 a.noteditable,
+h3 a.noteditable,
+h4 a.noteditable,
+h5 a.noteditable,
+h6 a.noteditable,
+h1 a.noteditable:hover,
+h2 a.noteditable:hover,
+h3 a.noteditable:hover,
+h4 a.noteditable:hover,
+h5 a.noteditable:hover,
+h6 a.noteditable:hover {
   margin: 10px 0;
   margin-bottom: 6.666666666666667px;
   font-family: inherit;
   font-weight: bold;
   line-height: 1;
   color: inherit;
+  text-decoration: none;
   text-rendering: optimizelegibility;
 }
 h1 small,
@@ -513,7 +532,19 @@ h2 small,
 h3 small,
 h4 small,
 h5 small,
-h6 small {
+h6 small,
+h1 a.noteditable small,
+h2 a.noteditable small,
+h3 a.noteditable small,
+h4 a.noteditable small,
+h5 a.noteditable small,
+h6 a.noteditable small,
+h1 a.noteditable:hover small,
+h2 a.noteditable:hover small,
+h3 a.noteditable:hover small,
+h4 a.noteditable:hover small,
+h5 a.noteditable:hover small,
+h6 a.noteditable:hover small {
   font-weight: normal;
   line-height: 1;
   color: #999999;
