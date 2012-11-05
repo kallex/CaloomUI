@@ -150,11 +150,6 @@ a:hover {
   color: #000000;
   text-decoration: underline;
 }
-body p a.noteditable,
-p a.noteditable:hover {
-  color: #3d3d3d;
-  text-decoration: none;
-}
 .img-rounded {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -5080,6 +5075,11 @@ a.badge:hover {
 /* Start Aalto Visual Identity Additions */
 body {
   background-color: #ffffff;
+}
+p a.noteditable,
+p a.noteditable:hover {
+  color: #3d3d3d;
+  text-decoration: none;
 }
 .well,
 .row {
