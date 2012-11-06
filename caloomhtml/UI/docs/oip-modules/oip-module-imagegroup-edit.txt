@@ -1,0 +1,22 @@
+<!-- oip-module-imagegroup-edit.txt -->
+<div id="identity" class="span7" style="margin-top:10px">
+	<form id="" method="post" class="form-horizontal ">
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<fieldset>
+		<div class="control-group">
+			<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label> 
+			<div class="controls">
+				<input name="[!ATOM]ID[ATOM!]_Title" class="span3" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]" placeholder="Title">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label> 
+			<div class="controls">
+				<input name="[!ATOM]ID[ATOM!]_Description" class="span3" id="[!ATOM]ID[ATOM!]_Description" type="text" value="[!ATOM]Description[ATOM!]" placeholder="Description">
+			</div>
+		</div>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+</div>
+<!-- end oip-module-imagegroup-edit.txt -->

@@ -195,6 +195,11 @@
           <InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection" />
         </InformationItems>
       </InformationObject>
+      <InformationObject name="ImageGroupContainer" designDesc="Container of Image Groups">
+        <InformationItems>
+          <InformationItem name="ImageGroups" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection"/>
+        </InformationItems>
+      </InformationObject>
       <InformationObject name="LocationContainer" designDesc="Container of locations">
         <InformationItems>
           <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
@@ -486,7 +491,7 @@
       </InformationObject>
 
 
-      <InformationObject name="AddAddressAndLocationInfo" designDesc="Add addres and location info">
+      <InformationObject name="AddAddressAndLocationInfo" designDesc="Add address and location info">
         <InformationItems>
           <InformationItem name="LocationName" logicalDataType="Text_Short"/>
           <!--
@@ -496,6 +501,18 @@
           <InformationItem name="Latitude" logicalDataType="Text_Short"/>
           <InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="StreetAddress"/>
           -->
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AddImageInfo" designDesc="Add image info">
+        <InformationItems>
+          <InformationItem name="ImageTitle" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AddImageGroupInfo" designDesc="Add image group info">
+        <InformationItems>
+          <InformationItem name="ImageGroupTitle" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
 
@@ -676,8 +693,9 @@
         </InformationItems>
       </InformationObject>
 
-      <InformationObject name="Image" designDesc="Image and attributes">
+      <InformationObject name="Image" designDesc="Image and attributes" isIndependentMaster="true">
         <InformationItems>
+          <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
           <InformationItem name="ImageData" informationObjectName="MediaContent" logicalDataType="InformationObject" />
           <InformationItem name="Title" logicalDataType="Text_Short" />
           <InformationItem name="Caption" logicalDataType="Text_Short" />
@@ -692,12 +710,13 @@
       </InformationObject>
 
       <InformationObject name="ImageGroupCollection" designDesc="Collection of image groups">
-        <CollectionFor contentInformationObjectName="ImageGroup"/>
+        <CollectionFor contentInformationObjectName="ImageGroup" collectionType="Master"/>
       </InformationObject>
-      <InformationObject name="ImageGroup" designDesc="Group of Images">
+      <InformationObject name="ImageGroup" designDesc="Group of Images" isIndependentMaster="true">
         <InformationItems>
+          <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
           <InformationItem name="Title" logicalDataType="Text_Short" />
-          <InformationItem name="Description" logicalDataType="Text_Short" />
+          <InformationItem name="Description" logicalDataType="Text_Long" />
           <InformationItem name="ImagesCollection" informationObjectName="ImagesCollection" logicalDataType="InformationObject" />
         </InformationItems>
       </InformationObject>
