@@ -40,7 +40,7 @@
         <div class="container">
             <ul class="mainnav">
                 <li class="group-name">
-                    <a href="#"> <img src="../oip-additions/oip-assets/oip-images/placeholder/andrew.png.png" width="34" height="34" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 6px;height: 34px;width: 34px;margin-bottom: 0px;padding: 1px">
+                    <a href="#"> <img src="../oip-additions/oip-assets/oip-images/placeholder/andrew.png" width="34" height="34" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 6px;height: 34px;width: 34px;margin-bottom: 0px;padding: 1px">
                         <span>My Name :</span>
                     </a>
                 </li>
