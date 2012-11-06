@@ -1,10 +1,10 @@
 <p><img src="[!ATOM]Icon.ImageData.ContentUrl[ATOM]"></p>
 <h4><?php include '../oip-atoms/oip-atom-title.txt' ?></h4>
 <p><?php include '../oip-atoms/oip-atom-index-introduction.txt' ?></p>
-<div class="accordion index" id="accordion2">
+<div class="accordion index" id="accordion-blog-index">
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-blog-index" href="#collapseOne">
                 blogs by location <i class="icon-circle-arrow-down"></i>
             </a>
         </div>
@@ -18,7 +18,7 @@
     </div>
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-blog-index" href="#collapseTwo">
                 blogs by date <i class="icon-circle-arrow-down"></i>
             </a>
         </div>
@@ -32,7 +32,7 @@
     </div>
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-blog-index" href="#collapseThree">
                 blogs by author  <i class="icon-circle-arrow-down"></i>
             </a>
         </div>
@@ -46,7 +46,7 @@
     </div>
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-blog-index" href="#collapseFour">
                 blogs by category   <i class="icon-circle-arrow-down"></i>
             </a>
         </div>
