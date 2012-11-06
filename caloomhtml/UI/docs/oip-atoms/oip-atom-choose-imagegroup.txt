@@ -1,5 +1,0 @@
-<label class="checkbox">
-    <input type="checkbox"><a data-toggle="modal" href="#view-location" class="noteditable">[!ATOM]Title[ATOM!]</a>
-</label>
-<a class='remoteurlmodal' data-url='[!ATOM]ReferenceToInformation.URL[ATOM!]'>Edit Image Group: [!ATOM]ReferenceToInformation.Title[ATOM!]</a>
-
