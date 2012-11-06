@@ -40,8 +40,7 @@
         <div class="container">
             <ul class="mainnav">
                 <li class="group-name">
-                    <a href="#">
-                        <i class="icon-group"></i>
+                    <a href="#"> <img src="../oip-additions/oip-assets/oip-images/placeholder/profile-image-300x300.gif" width="24" height="24" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 9px;height: 24px;width: 24px;margin-bottom: 0px">
                         <span>My Name :</span>
                     </a>
                 </li>
