@@ -5412,9 +5412,29 @@ ul.header-first li.eng a {
   line-height: 4px;
   font-weight: normal;
 }
-.aalto-gi {
+.aalto-gi,
+.aalto-gi a {
   color: #ffffff;
 }
+.aalto-gi a:hover {
+  text-decoration: none;
+}
+/*edittoggle styling in navbar */
+#edittoggle {
+  width: inherit;
+  text-align: inherit;
+  display: inline-block;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+}
+#edittoggle:active {
+  color: red;
+}
+#edittoggle:hover {
+  color: #fcc20a;
+}
+/* tab min-height*/
 .form-tab {
   min-height: 400px !important;
 }

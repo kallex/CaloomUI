@@ -409,10 +409,31 @@ ul.header-first li.eng a,
   line-height: (@baseLineHeight *0.2);
   font-weight: normal;
 }
-.aalto-gi {
+.aalto-gi, .aalto-gi a {
   color: @white;
 }
 
+.aalto-gi a:hover {
+  text-decoration: none;
+}
+
+/*edittoggle styling in navbar */
+#edittoggle {
+  width: inherit;
+  text-align: inherit;
+  display: inline-block;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+}
+#edittoggle:active {
+  color: red;
+}
+#edittoggle:hover {
+  color: @aaltoYellow;
+}
+
+/* tab min-height*/
 .form-tab {
   min-height:400px !important;
 
