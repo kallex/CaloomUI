@@ -1,6 +1,6 @@
 <div class="span9">
-<h2><?php include '../oip-atoms/oip-atom-activityname.txt' ?></h2>
+    <h2><?php include '../oip-atoms/oip-atom-activityname.txt' ?></h2>
 <?php include '../oip-modules/oip-module-introduction.txt ?><!-- UseInformationObject:Introduction -->
-<p><!-- include 'oip-module-modal-images.txt' --!><!-- UseInformationObject:ImageGroup --></p>
-<p><?php include '../oip-atoms/oip-atom-description.txt' ?></p>
+    <p><!-- include 'oip-module-modal-images.txt' --><!-- UseInformationObject:ImageGroup --></p>
+    <p><?php include '../oip-atoms/oip-atom-description.txt' ?></p>
 </div>

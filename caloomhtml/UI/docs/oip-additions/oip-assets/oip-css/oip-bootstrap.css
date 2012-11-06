@@ -5227,6 +5227,20 @@ p a.noteditable:hover {
 .subnavbar .dropdown.open .caret {
   display: none;
 }
+.subnavbar-inner .alert {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  margin-left: 4px;
+  margin-right: 4px;
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  white-space: nowrap;
+  margin-bottom: 0px;
+}
 #container-focus {
   margin-top: 10px;
 }
