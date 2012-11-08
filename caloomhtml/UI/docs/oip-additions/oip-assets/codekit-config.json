@@ -81,15 +81,6 @@
       "initialSize" : 23408,
       "fileType" : 4096
     },
-    "\/less\/responsive.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/responsive.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/oip-images\/ui\/aaltoYellow.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -100,6 +91,15 @@
       "outputAbbreviatedPath" : "\/oip-images\/ui\/aaltoYellow.png",
       "initialSize" : 702,
       "fileType" : 8192
+    },
+    "\/less\/responsive.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/responsive.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/oip-images\/ui\/aalto-global-impact-side-white.png" : {
       "ignoreWasSetByUser" : 0,
@@ -224,17 +224,6 @@
       "initialSize" : 4427,
       "fileType" : 8192
     },
-    "\/oip-js\/in-context-editing-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-js\/in-context-editing-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/oip-js\/in-context-editing-ck-ck.js",
-      "fileType" : 64
-    },
     "\/oip-images\/icons\/favicon-OIP-72x72.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -244,6 +233,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/oip-images\/icons\/favicon-OIP-72x72.png",
       "initialSize" : 965,
+      "fileType" : 8192
+    },
+    "\/oip-images\/ui\/glyphicons_023_cogwheels@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/oip-images\/ui\/glyphicons_023_cogwheels@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/ui\/glyphicons_023_cogwheels@2x.png",
+      "initialSize" : 911,
       "fileType" : 8192
     },
     "\/oip-images\/ui\/aaltoGray.png" : {
@@ -257,16 +257,16 @@
       "initialSize" : 741,
       "fileType" : 8192
     },
-    "\/oip-images\/ui\/glyphicons_023_cogwheels@2x.png" : {
+    "\/oip-js\/in-context-editing-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/ui\/glyphicons_023_cogwheels@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/ui\/glyphicons_023_cogwheels@2x.png",
-      "initialSize" : 911,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/oip-js\/in-context-editing-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/oip-js\/in-context-editing-ck-ck.js",
+      "fileType" : 64
     },
     "\/oip-images\/oip-markers\/OIP-marker-course.png" : {
       "ignoreWasSetByUser" : 0,
@@ -301,17 +301,6 @@
       "outputAbbreviatedPath" : "\/oip-js\/bootstrap-typeahead-ck.js",
       "fileType" : 64
     },
-    "\/oip-images\/ui\/hero-unit-aaltoGray.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/ui\/hero-unit-aaltoGray.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/ui\/hero-unit-aaltoGray.png",
-      "initialSize" : 17157,
-      "fileType" : 8192
-    },
     "\/less\/responsive-1200px-min.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -324,6 +313,17 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/oip-images\/ui\/hero-unit-aaltoGray.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/oip-images\/ui\/hero-unit-aaltoGray.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/ui\/hero-unit-aaltoGray.png",
+      "initialSize" : 17157,
+      "fileType" : 8192
     },
     "\/oip-images\/img\/glyphicons\/glyphicons_079_podium.png" : {
       "ignoreWasSetByUser" : 0,
@@ -358,6 +358,19 @@
       "initialSize" : 405,
       "fileType" : 8192
     },
+    "\/less\/progress-bars.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/progress-bars.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/less\/progress-bars.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/oip-images\/ui\/aaltoPurple.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -368,17 +381,6 @@
       "outputAbbreviatedPath" : "\/oip-images\/ui\/aaltoPurple.png",
       "initialSize" : 746,
       "fileType" : 8192
-    },
-    "\/oip-js\/bootstrap-tooltip.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-js\/bootstrap-tooltip.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/oip-js\/bootstrap-tooltip-ck.js",
-      "fileType" : 64
     },
     "\/oip-js\/tabzilla-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -415,18 +417,16 @@
       "initialSize" : 84,
       "fileType" : 8192
     },
-    "\/less\/progress-bars.less" : {
+    "\/oip-js\/bootstrap-tooltip.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/progress-bars.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/less\/progress-bars.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/oip-js\/bootstrap-tooltip.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/oip-js\/bootstrap-tooltip-ck.js",
+      "fileType" : 64
     },
     "\/oip-js\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
@@ -452,6 +452,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/oip-images\/ui\/aaltoOrange.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/oip-images\/ui\/aaltoOrange.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/ui\/aaltoOrange.png",
+      "initialSize" : 709,
+      "fileType" : 8192
+    },
     "\/oip-js\/bootstrap-collapse.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -462,17 +473,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/oip-js\/bootstrap-collapse-ck.js",
       "fileType" : 64
-    },
-    "\/oip-images\/img\/browsers.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/img\/browsers.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/img\/browsers.png",
-      "initialSize" : 19776,
-      "fileType" : 8192
     },
     "\/oip-js\/third-party-calendar.js" : {
       "ignoreWasSetByUser" : 0,
@@ -505,15 +505,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/oip-images\/ui\/aaltoOrange.png" : {
+    "\/oip-images\/img\/browsers.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/ui\/aaltoOrange.png",
+      "inputAbbreviatedPath" : "\/oip-images\/img\/browsers.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/ui\/aaltoOrange.png",
-      "initialSize" : 709,
+      "outputAbbreviatedPath" : "\/oip-images\/img\/browsers.png",
+      "initialSize" : 19776,
       "fileType" : 8192
     },
     "\/oip-images\/img\/example-sites\/soundready.png" : {
@@ -724,16 +724,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/oip-images\/ui\/hero-unit-aaltoPurple.png" : {
+    "\/oip-js\/OpenLayers.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/ui\/hero-unit-aaltoPurple.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/ui\/hero-unit-aaltoPurple.png",
-      "initialSize" : 19674,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/oip-js\/OpenLayers.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/oip-js\/OpenLayers-ck.js",
+      "fileType" : 64
     },
     "\/oip-images\/ui\/BR_school_eating_break.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -746,16 +746,16 @@
       "initialSize" : 76904,
       "fileType" : 4096
     },
-    "\/oip-js\/OpenLayers.js" : {
+    "\/oip-images\/ui\/hero-unit-aaltoPurple.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-js\/OpenLayers.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/oip-js\/OpenLayers-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/oip-images\/ui\/hero-unit-aaltoPurple.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/ui\/hero-unit-aaltoPurple.png",
+      "initialSize" : 19674,
+      "fileType" : 8192
     },
     "\/oip-css\/oip-in-context-edit.css" : {
       "ignoreWasSetByUser" : 0,
@@ -887,19 +887,6 @@
       "initialSize" : 711,
       "fileType" : 8192
     },
-    "\/less\/dropdowns.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/dropdowns.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/less\/dropdowns.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/less\/navs.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -909,6 +896,19 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/less\/navs.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/less\/dropdowns.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/dropdowns.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/less\/dropdowns.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -974,17 +974,6 @@
       "initialSize" : 141,
       "fileType" : 8192
     },
-    "\/oip-images\/img\/icon-html5.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/img\/icon-html5.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/img\/icon-html5.png",
-      "initialSize" : 452,
-      "fileType" : 8192
-    },
     "\/oip-images\/ui\/hero-unit-aaltoLightGreen.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -994,6 +983,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/oip-images\/ui\/hero-unit-aaltoLightGreen.png",
       "initialSize" : 19929,
+      "fileType" : 8192
+    },
+    "\/oip-images\/img\/icon-html5.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/oip-images\/img\/icon-html5.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/img\/icon-html5.png",
+      "initialSize" : 452,
       "fileType" : 8192
     },
     "\/less\/oip-aalto-id.less" : {
@@ -1033,16 +1033,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/oip-js\/bootstrap-carousel.js" : {
+    "\/oip-images\/oip-markers\/OIP-marker-seminar.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-js\/bootstrap-carousel.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/oip-js\/bootstrap-carousel-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/oip-images\/oip-markers\/OIP-marker-seminar.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/oip-markers\/OIP-marker-seminar.png",
+      "initialSize" : 1827,
+      "fileType" : 8192
     },
     "\/oip-images\/ui\/aalto-global-impact-logo-medium.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1064,16 +1064,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/oip-images\/oip-markers\/OIP-marker-seminar.png" : {
+    "\/oip-js\/bootstrap-carousel.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/oip-markers\/OIP-marker-seminar.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/oip-markers\/OIP-marker-seminar.png",
-      "initialSize" : 1827,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/oip-js\/bootstrap-carousel.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/oip-js\/bootstrap-carousel-ck.js",
+      "fileType" : 64
     },
     "\/oip-images\/oip-markers\/OIP-marker-project.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1167,15 +1167,15 @@
       "outputAbbreviatedPath" : "\/oip-js\/bootstrap.min-ck.js",
       "fileType" : 64
     },
-    "\/oip-js\/bootstrap-affix.js" : {
+    "\/oip-js\/bootstrap-popover.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-js\/bootstrap-affix.js",
+      "inputAbbreviatedPath" : "\/oip-js\/bootstrap-popover.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/oip-js\/bootstrap-affix-ck.js",
+      "outputAbbreviatedPath" : "\/oip-js\/bootstrap-popover-ck.js",
       "fileType" : 64
     },
     "\/oip-css\/oip-font-awesome.css" : {
@@ -1187,15 +1187,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/oip-js\/bootstrap-popover.js" : {
+    "\/oip-js\/bootstrap-affix.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-js\/bootstrap-popover.js",
+      "inputAbbreviatedPath" : "\/oip-js\/bootstrap-affix.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/oip-js\/bootstrap-popover-ck.js",
+      "outputAbbreviatedPath" : "\/oip-js\/bootstrap-affix-ck.js",
       "fileType" : 64
     },
     "\/less\/wells.less" : {
@@ -1283,17 +1283,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/oip-images\/ui\/aalto-global-impact-logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/ui\/aalto-global-impact-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/ui\/aalto-global-impact-logo.png",
-      "initialSize" : 4283,
-      "fileType" : 8192
-    },
     "\/oip-images\/ui\/aaltoFuchsia.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1303,6 +1292,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/oip-images\/ui\/aaltoFuchsia.png",
       "initialSize" : 718,
+      "fileType" : 8192
+    },
+    "\/oip-images\/ui\/aalto-global-impact-logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/oip-images\/ui\/aalto-global-impact-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/ui\/aalto-global-impact-logo.png",
+      "initialSize" : 4283,
       "fileType" : 8192
     },
     "\/oip-images\/ui\/hr-shadow-bg.png" : {
@@ -1351,17 +1351,6 @@
       "initialSize" : 2231,
       "fileType" : 8192
     },
-    "\/oip-images\/ui\/glyphicons_045_calendar@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/ui\/glyphicons_045_calendar@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/ui\/glyphicons_045_calendar@2x.png",
-      "initialSize" : 276,
-      "fileType" : 8192
-    },
     "\/oip-js\/modal-id-actions.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1372,6 +1361,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/oip-js\/modal-id-actions-ck.js",
       "fileType" : 64
+    },
+    "\/oip-images\/ui\/glyphicons_045_calendar@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/oip-images\/ui\/glyphicons_045_calendar@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/ui\/glyphicons_045_calendar@2x.png",
+      "initialSize" : 276,
+      "fileType" : 8192
     },
     "\/less\/scaffolding.less" : {
       "ignoreWasSetByUser" : 0,
@@ -1653,17 +1653,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/oip-images\/img\/jppicker-images\/bg_selected.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/img\/jppicker-images\/bg_selected.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/img\/jppicker-images\/bg_selected.png",
-      "initialSize" : 742,
-      "fileType" : 8192
-    },
     "\/oip-images\/ui\/glyphicons_043_group@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1673,6 +1662,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/oip-images\/ui\/glyphicons_043_group@2x.png",
       "initialSize" : 672,
+      "fileType" : 8192
+    },
+    "\/oip-images\/img\/jppicker-images\/bg_selected.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/oip-images\/img\/jppicker-images\/bg_selected.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/img\/jppicker-images\/bg_selected.png",
+      "initialSize" : 742,
       "fileType" : 8192
     },
     "\/oip-js\/underscore.min.js" : {
@@ -1743,15 +1743,15 @@
       "outputAbbreviatedPath" : "\/oip-js\/bootstrap-fileupload-ck.js",
       "fileType" : 64
     },
-    "\/oip-images\/ui\/OIP-hero-unit-background.png" : {
+    "\/oip-images\/ui\/aaltoBlack.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/ui\/OIP-hero-unit-background.png",
+      "inputAbbreviatedPath" : "\/oip-images\/ui\/aaltoBlack.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/ui\/OIP-hero-unit-background.png",
-      "initialSize" : 24866,
+      "outputAbbreviatedPath" : "\/oip-images\/ui\/aaltoBlack.png",
+      "initialSize" : 441,
       "fileType" : 8192
     },
     "\/oip-images\/ui\/glyphicons_190_circle_plus.png" : {
@@ -1776,15 +1776,15 @@
       "initialSize" : 19321,
       "fileType" : 8192
     },
-    "\/oip-images\/ui\/aaltoBlack.png" : {
+    "\/oip-images\/ui\/OIP-hero-unit-background.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/ui\/aaltoBlack.png",
+      "inputAbbreviatedPath" : "\/oip-images\/ui\/OIP-hero-unit-background.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/ui\/aaltoBlack.png",
-      "initialSize" : 441,
+      "outputAbbreviatedPath" : "\/oip-images\/ui\/OIP-hero-unit-background.png",
+      "initialSize" : 24866,
       "fileType" : 8192
     },
     "\/oip-images\/ui\/aaltoglobalimpact-right-align.png" : {
@@ -1897,17 +1897,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/oip-images\/ui\/index-about.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/ui\/index-about.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/ui\/index-about.png",
-      "initialSize" : 4754,
-      "fileType" : 8192
-    },
     "\/oip-images\/ui\/navbar-meadows-and-sky.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1918,6 +1907,17 @@
       "outputAbbreviatedPath" : "\/oip-images\/ui\/navbar-meadows-and-sky.jpg",
       "initialSize" : 47540,
       "fileType" : 4096
+    },
+    "\/oip-images\/ui\/index-about.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/oip-images\/ui\/index-about.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/ui\/index-about.png",
+      "initialSize" : 4754,
+      "fileType" : 8192
     },
     "\/oip-images\/placeholder\/andrew.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1987,6 +1987,17 @@
       "outputAbbreviatedPath" : "\/oip-js\/index\/index-ck.js",
       "fileType" : 64
     },
+    "\/oip-images\/img\/bootstrap-mdo-sfmoma-02.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/oip-images\/img\/bootstrap-mdo-sfmoma-02.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/img\/bootstrap-mdo-sfmoma-02.jpg",
+      "initialSize" : 81284,
+      "fileType" : 4096
+    },
     "\/oip-images\/img\/less-logo-large.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2010,17 +2021,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/oip-images\/img\/bootstrap-mdo-sfmoma-02.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/img\/bootstrap-mdo-sfmoma-02.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/img\/bootstrap-mdo-sfmoma-02.jpg",
-      "initialSize" : 81284,
-      "fileType" : 4096
     },
     "\/oip-images\/ui\/hero-unit-about.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2226,17 +2226,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/oip-images\/ui\/index-activity.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/oip-images\/ui\/index-activity.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/oip-images\/ui\/index-activity.png",
-      "initialSize" : 14985,
-      "fileType" : 8192
-    },
     "\/less\/responsive-767px-max.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2262,6 +2251,17 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/oip-images\/ui\/index-activity.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/oip-images\/ui\/index-activity.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/oip-images\/ui\/index-activity.png",
+      "initialSize" : 14985,
+      "fileType" : 8192
     },
     "\/oip-images\/ui\/glyphicons_330_blog.png" : {
       "ignoreWasSetByUser" : 0,
