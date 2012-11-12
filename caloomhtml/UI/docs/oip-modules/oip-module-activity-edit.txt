@@ -1,11 +1,10 @@
-<!-- oip-module-activity-edit.txt -->
 <div class="tabbable tabs-left">
     <ul class="nav nav-tabs" style="margin-bottom:0px;">
-        <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Profile</a></li> 
-        <li><a href="#tab-category" data-toggle="tab">Categories</a></li>
-        <li><a href="#tab-images" data-toggle="tab">Images</a></li>
-        <li><a href="#tab-location-current" data-toggle="tab">Location</a></li>
-        <li><a href="#tab-activities-delete" data-toggle="tab" class="delete">Delete</a></li>
+        <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Activity Profile</a></li>
+        <li><a href="#tab-category" data-toggle="tab">Activity Categories</a></li>
+        <li><a href="#tab-images" data-toggle="tab">My Images</a></li>
+        <li><a href="#tab-location-current" data-toggle="tab">Activity Locations</a></li>
+        <li><a href="#tab-activities-delete" data-toggle="tab" class="delete">Delete Activity</a></li>
     </ul>
     
     <div class="tab-content tab-border">
@@ -15,4 +14,3 @@
         <div class="tab-pane" id="tab-activities-delete"><?php include'../oip-modules/oip-module-activities-delete.txt' ?></div>
     </div>
 </div>
-<!-- end oip-module-activity-edit.txt -->

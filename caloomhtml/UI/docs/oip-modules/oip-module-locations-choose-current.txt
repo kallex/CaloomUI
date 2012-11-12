@@ -1,5 +1,4 @@
-<!-- oip-module-locations-choose-current.txt -->
-<div id="identity" class="span7" style="margin-top:10px;min-height:300px">
+<div id="identity" class="span11" style="margin-top:10px;min-height:300px">
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.LocationContainer:Locations -->
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->

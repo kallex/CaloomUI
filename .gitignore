@@ -18,3 +18,7 @@ caloomhtml/UI/UI..ReSharper
 
 .idea/CaloomUI.iml
 
+
+caloomhtml/.DS_Store
+
+caloomhtml/UI/docs/oip-additions/oip-assets/codekit-config.json
