@@ -1,21 +1,31 @@
 <!-- oip-module-imagegroup-edit.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
-	<form id="" method="post" class="form-horizontal ">
+	<form id="" method="post" action="AaltoGlobalImpact.OIP.ImageGroup_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal" enctype="multipart/form-data">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
-<fieldset>
-		<div class="control-group">
-			<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label> 
-			<div class="controls">
-				<input name="[!ATOM]ID[ATOM!]_Title" class="span3" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]" placeholder="Title">
+		<fieldset>
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label> 
+				<div class="controls">
+					<input name="[!ATOM]ID[ATOM!]_Title" class="span3" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]" placeholder="Title">
+				</div>
 			</div>
-		</div>
-		<div class="control-group">
-			<label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label> 
-			<div class="controls">
-				<input name="[!ATOM]ID[ATOM!]_Description" class="span3" id="[!ATOM]ID[ATOM!]_Description" type="text" value="[!ATOM]Description[ATOM!]" placeholder="Description">
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label> 
+				<div class="controls">
+					<input name="[!ATOM]ID[ATOM!]_Description" class="span3" id="[!ATOM]ID[ATOM!]_Description" type="text" value="[!ATOM]Description[ATOM!]" placeholder="Description">
+				</div>
 			</div>
-		</div>
-<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+			<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+		</fieldset>
+	</form>
+	<form id="" method="post" action="AaltoGlobalImpact.OIP.ImageGroup_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal" enctype="multipart/form-data">
+		<fieldset>
+			<?php include '../oip-atoms/oip-atom-image-add.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.Image:AddImageToImageGroup -->
+		</fieldset>
+	</form>
+	<form id="" method="post" action="AaltoGlobalImpact.OIP.ImageGroup_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal" enctype="multipart/form-data">
+		<fieldset>
+			<?php include '../oip-atoms/oip-atom-image-edit-remove.txt' ?><!-- UseInformationObjectAsCollection:ImagesCollection -->
 		</fieldset>
 	</form>
 </div>

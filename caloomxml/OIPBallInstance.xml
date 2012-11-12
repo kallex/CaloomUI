@@ -515,7 +515,7 @@
           <InformationItem name="ImageGroupTitle" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
-
+      
       <InformationObject name="AddEmailAddressInfo" designDesc="Add email address">
         <InformationItems>
           <InformationItem name="EmailAddress" logicalDataType="Text_Short"/>

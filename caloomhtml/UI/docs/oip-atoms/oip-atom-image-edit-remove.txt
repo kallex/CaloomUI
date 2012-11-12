@@ -1,0 +1,18 @@
+<fieldset>
+	<img src="[!ATOM]ImageData.ContentUrl[ATOM!]" alt="Image Content" />
+	<input class="span5" id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
+	<div class="control-group">
+		<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label> 
+		<div class="controls">
+			<input name="[!ATOM]ID[ATOM!]_Title" class="span3" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]" placeholder="Title">
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="[!ATOM]ID[ATOM!]_Caption">Caption</label> 
+		<div class="controls">
+			<input name="[!ATOM]ID[ATOM!]_Caption" class="span3" id="[!ATOM]ID[ATOM!]_Caption" type="text" value="[!ATOM]Caption[ATOM!]" placeholder="Caption">
+		</div>
+	</div>
+	<button type="submit" class="btn" name="RootSourceAction" value="cmdRemoveFromCollectionAndDelete_[!ATOM]ID[ATOM!]">Remove Image</button>
+	<button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
+</fieldset>
