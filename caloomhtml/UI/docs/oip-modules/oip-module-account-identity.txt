@@ -1,4 +1,4 @@
-<div id="identity" class="span7" style="margin-top:10px">
+<div id="identity" class="span12" style="margin-top:10px">
 	<form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset>
@@ -8,7 +8,7 @@
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ProfileImage -->
 <!-- ImageData -->
 					<img src="[!ATOM]ImageData.ContentUrl[ATOM!]" alt="Testdrive for ImageData" />
-					<input class="span5" id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
+					<input class="span12" id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
 <!-- * -->
 <!-- THEBALL-CONTEXT-END:* -->
 				</div>
@@ -16,13 +16,13 @@
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_FirstName">First name</label> 
 				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_FirstName" class="span3" id="[!ATOM]ID[ATOM!]_FirstName" type="text" value="[!ATOM]FirstName[ATOM!]">
+        <input name="[!ATOM]ID[ATOM!]_FirstName" class="span7" id="[!ATOM]ID[ATOM!]_FirstName" type="text" value="[!ATOM]FirstName[ATOM!]">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_LastName">Last name</label> 
 				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_LastName" class="span3" id="[!ATOM]ID[ATOM!]_LastName" type="text" value="[!ATOM]LastName[ATOM!]" >
+        <input name="[!ATOM]ID[ATOM!]_LastName" class="span7" id="[!ATOM]ID[ATOM!]_LastName" type="text" value="[!ATOM]LastName[ATOM!]" >
 				</div>
 			</div>
 <?php include 'oip-module-address.txt' ?><!-- UseInformationObject:Address-->
