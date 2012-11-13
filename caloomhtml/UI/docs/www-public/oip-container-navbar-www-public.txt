@@ -50,12 +50,6 @@
                         <span>Activities</span>
                     </a>
                 </li>
-                <li>
-                    <a href="oip-layout-register.phtml" class="dropdown-toggle">
-                        <i class="icon-cogs"></i>
-                        <span>Collaborate</span>
-                    </a>
-                </li>
             </ul>
         </div>
     </div>
