@@ -49,6 +49,7 @@ p a.noteditable:hover{
 //border-top: 1px solid #595959;
 }
 
+/*oip-aalto-id.less*/
 .subnavbar-inner {
   height: 80px;
   background: darken(@bodyBackground, 33%);
@@ -61,8 +62,19 @@ p a.noteditable:hover{
 //background-repeat: repeat-x;
 // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#414141', endColorstr='#323232', GradientType=0);
 
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid @bodyBackground;
 }
+
+.navbar-account {
+  background-color: yellow;
+  border-bottom: 3px solid @aaltoOrange;
+}
+
+.navbar-group {
+  background-color: blue;
+  border-bottom: 3px solid @aaltoOrange;
+}
+
 
 .subnavbar .container > ul {
   display: inline-block;

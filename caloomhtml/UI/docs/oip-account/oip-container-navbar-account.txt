@@ -36,7 +36,7 @@
     </div> <!-- /navbar-inner -->
 </div> <!-- /navbar -->
 <div class="subnavbar">
-    <div class="subnavbar-inner">
+    <div class="subnavbar-inner navbar-account">
         <div class="container">
             <ul class="mainnav">
                 <li class="group-name">

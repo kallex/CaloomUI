@@ -120,7 +120,7 @@ textarea {
   clear: both;
 }
 .hide-text {
-  font: a;
+  font: 0/0 a;
   color: transparent;
   text-shadow: none;
   background-color: transparent;
@@ -5111,10 +5111,19 @@ p a.noteditable:hover {
 .navbar .nav a {
   font-size: 11px;
 }
+/*oip-aalto-id.less*/
 .subnavbar-inner {
   height: 80px;
   background: #24221f;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #7f786d;
+}
+.navbar-account {
+  background-color: yellow;
+  border-bottom: 3px solid #fd6309;
+}
+.navbar-group {
+  background-color: blue;
+  border-bottom: 3px solid #fd6309;
 }
 .subnavbar .container > ul {
   display: inline-block;
