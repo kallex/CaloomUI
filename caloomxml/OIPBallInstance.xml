@@ -904,6 +904,7 @@
       </InformationObject>
       <InformationObject name="QueueEnvelope" designDesc="QueueEnvelope for all kinds of queued items">
         <InformationItems>
+          <InformationItem name="ActiveContainerName" logicalDataType="Text_Short"/>
           <InformationItem name="CurrentRetryCount" logicalDataType="Number_Integer"/>
           <InformationItem name="SingleOperation" logicalDataType="InformationObject" informationObjectName="OperationRequest"/>
           <InformationItem name="OrderDependentOperationSequence" logicalDataType="InformationObject" informationObjectName="OperationRequestCollection" />
