@@ -5171,51 +5171,43 @@ p a.noteditable:hover {
 }
 /*coloring for the account navbar*/
 .navbar-account-border {
-  border-bottom: 3px solid #bcc1c9;
+  border-bottom: 3px solid #aebacb;
 }
 .navbar-account-background {
   background-color: #445369;
 }
 .navbar-account-background .container > ul > li > a {
-  color: #d5d9de;
+  color: #eceff3;
 }
 .navbar-account-background .container > ul > li > a:hover {
   background-color: #282f38;
   color: #be474e;
 }
-.navbar-account-background .container > ul > li {
-  border-left: 1px solid #d5d9de;
-  border-right: 1px solid #d5d9de;
-  border-top: 0px solid #d5d9de;
-}
+.navbar-account-background .container > ul > li,
 .navbar-account-background .container > ul > li.group-name {
-  border-left: 1px solid #d5d9de;
-  border-right: 1px solid #d5d9de;
-  border-top: 0px solid #d5d9de;
+  border-left: 1px solid #aebacb;
+  border-right: 1px solid #aebacb;
+  border-top: 0px solid #aebacb;
 }
 /*coloring for the group navbar*/
 .navbar-group-border {
-  border-bottom: 3px solid #bcc1c9;
+  border-bottom: 3px solid #93ac9a;
 }
 .navbar-group-background {
   background-color: #324136;
 }
 .navbar-group-background .container > ul > li > a {
-  color: #a1a8a3;
+  color: #cdd8d0;
 }
 .navbar-group-background .container > ul > li > a:hover {
   background-color: #232b24;
   color: #be474e;
 }
-.navbar-group-background .container > ul > li {
-  border-left: 1px solid #a1a8a3;
-  border-right: 1px solid #a1a8a3;
-  border-top: 0px solid #a1a8a3;
-}
+.navbar-group-background .container > ul > li,
 .navbar-group-background .container > ul > li.group-name {
-  border-left: 1px solid #a1a8a3;
-  border-right: 1px solid #a1a8a3;
-  border-top: 0px solid #a1a8a3;
+  border-left: 1px solid #93ac9a;
+  border-right: 1px solid #93ac9a;
+  border-top: 0px solid #93ac9a;
 }
 /* icons*/
 .subnavbar .container > ul > li > a > i {

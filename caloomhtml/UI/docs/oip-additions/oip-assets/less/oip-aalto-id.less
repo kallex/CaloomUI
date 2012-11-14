@@ -125,15 +125,15 @@ p a.noteditable:hover{
 
 /*coloring for the account navbar*/
 .navbar-account-border {
-  border-bottom: 3px solid #bcc1c9;
+  border-bottom: 3px solid @accountNavbarBorder;
 }
 
 .navbar-account-background {
-  background-color: #445369;
+  background-color: @account;
 }
 
 .navbar-account-background .container > ul > li > a {
-  color: #d5d9de;
+  color: @accountNavbarText;
 }
 
 .navbar-account-background .container > ul > li > a:hover {
@@ -141,29 +141,26 @@ p a.noteditable:hover{
   color: #be474e;
 }
 
-.navbar-account-background .container > ul > li {
-  border-left: 1px solid #d5d9de;
-  border-right: 1px solid #d5d9de;
-  border-top: 0px solid #d5d9de;
+.navbar-account-background .container > ul > li,
+.navbar-account-background .container > ul > li.group-name {
+  border-left: 1px solid @accountNavbarBorder;
+  border-right: 1px solid @accountNavbarBorder;
+  border-top: 0px solid @accountNavbarBorder;
 }
 
-.navbar-account-background .container > ul > li.group-name {
-  border-left: 1px solid #d5d9de;
-  border-right: 1px solid #d5d9de;
-  border-top: 0px solid #d5d9de;
-}
+
 
 /*coloring for the group navbar*/
 .navbar-group-border {
-  border-bottom: 3px solid #bcc1c9;
+  border-bottom: 3px solid @groupNavbarBorder;
 }
 
 .navbar-group-background {
-  background-color: #324136;
+  background-color: @group;
 }
 
 .navbar-group-background .container > ul > li > a {
-  color: #a1a8a3;
+  color: @groupNavbarText;
 }
 
 .navbar-group-background .container > ul > li > a:hover {
@@ -171,17 +168,13 @@ p a.noteditable:hover{
   color: #be474e;
 }
 
-.navbar-group-background .container > ul > li {
-  border-left: 1px solid #a1a8a3;
-  border-right: 1px solid #a1a8a3;
-  border-top: 0px solid #a1a8a3;
+.navbar-group-background .container > ul > li,
+.navbar-group-background .container > ul > li.group-name {
+  border-left: 1px solid @groupNavbarBorder;
+  border-right: 1px solid @groupNavbarBorder;
+  border-top: 0px solid @groupNavbarBorder;
 }
 
-.navbar-group-background .container > ul > li.group-name {
-  border-left: 1px solid #a1a8a3;
-  border-right: 1px solid #a1a8a3;
-  border-top: 0px solid #a1a8a3;
-}
 
 /* icons*/
 .subnavbar .container > ul > li > a > i {
