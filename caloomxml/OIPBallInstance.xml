@@ -295,11 +295,16 @@
           <InformationItem name="MapCollection" informationObjectName="MapCollection" logicalDataType="InformationObject" />
           <InformationItem name="MapResultCollection" informationObjectName="MapResultCollection" logicalDataType="InformationObject" />
           <InformationItem name="MapIndexCollection" informationObjectName="MapIndexCollection" logicalDataType="InformationObject" />
+          <InformationItem name="MarkerSourceLocations" informationObjectName="AddressAndLocationCollection" logicalDataType="InformationObject"/>
+          <InformationItem name="MarkerSourceBlogs" informationObjectName="BlogCollection" logicalDataType="InformationObject"/>
+          <InformationItem name="MarkerSourceActivities" informationObjectName="ActivityCollection" logicalDataType="InformationObject"/>
           <InformationItem name="MapMarkers" logicalDataType="InformationObject" informationObjectName="MapMarkerCollection" />
         </InformationItems>
       </InformationObject>
       <InformationObject name="MapMarker" designDesc="Marker for a map">
         <InformationItems>
+          <InformationItem name="IconUrl" logicalDataType="Text_Short"/>
+          <InformationItem name="MarkerSource" logicalDataType="Text_Short"/>
           <InformationItem name="LocationText" logicalDataType="Text_Short" />
           <InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="Location" />
         </InformationItems>

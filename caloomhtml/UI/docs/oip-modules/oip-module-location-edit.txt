@@ -1,6 +1,6 @@
-<!-- oip-module-account-locations-add.txt -->
+<!-- oip-module-account-location-edit.txt -->
 <div id="identity" class="span7" style="margin-top:10px">
-	<form id="" method="post" class="form-horizontal ">
+	<form id="" method="post" action="AaltoGlobalImpact.OIP.AddressAndLocation_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:Location -->
 <fieldset>
@@ -31,4 +31,4 @@
 		</fieldset>
 	</form>
 </div>
-<!-- end oip-module-account-locations-add.txt -->
+<!-- end oip-module-account-location-edit.txt -->
