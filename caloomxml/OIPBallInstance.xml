@@ -407,7 +407,7 @@
           <InformationItem name="Description" logicalDataType="Text_Long"/>
           <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
           <InformationItem name="ImageSets" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
-          <InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="AddressAndLocation"/>
+          <InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
           <InformationItem name="CategoryCollection" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
         </InformationItems>
       </InformationObject>
@@ -494,13 +494,6 @@
       <InformationObject name="AddAddressAndLocationInfo" designDesc="Add address and location info">
         <InformationItems>
           <InformationItem name="LocationName" logicalDataType="Text_Short"/>
-          <!--
-          <InformationItem name="MapMarkers" logicalDataType="InformationObject" informationObjectName="MapMarkerCollection" />
-          <InformationItem name="LocationName" logicalDataType="Text_Short"/>
-          <InformationItem name="Longitude" logicalDataType="Text_Short"/>
-          <InformationItem name="Latitude" logicalDataType="Text_Short"/>
-          <InformationItem name="Address" logicalDataType="InformationObject" informationObjectName="StreetAddress"/>
-          -->
         </InformationItems>
       </InformationObject>
 
@@ -588,7 +581,7 @@
           <InformationItem name="VideoGroup" informationObjectName="VideoGroup" logicalDataType="InformationObject" />
           <InformationItem name="Body" logicalDataType="Text_Long" />
           <InformationItem name="Excerpt" logicalDataType="Text_Long" />
-          <InformationItem name="Location" logicalDataType="InformationObject" informationObjectName="AddressAndLocation"/>
+          <InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
           <InformationItem name="CategoryCollection" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
           <!-- needed is, category, servicetype description, keywords -->
           <InformationItem name="SocialPanel" informationObjectName="SocialPanelCollection" logicalDataType="InformationObject" />

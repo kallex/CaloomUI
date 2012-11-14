@@ -1,15 +1,15 @@
 <div class="tabbable tabs-left">
     <ul class="nav nav-tabs" style="margin-bottom:0px;">
         <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Activity Profile</a></li>
-        <li><a href="#tab-category" data-toggle="tab">Activity Categories</a></li>
         <li><a href="#tab-images" data-toggle="tab">My Images</a></li>
         <li><a href="#tab-location-current" data-toggle="tab">Activity Locations</a></li>
+        <li><a href="#tab-category" data-toggle="tab">Activity Categories</a></li>
         <li><a href="#tab-activities-delete" data-toggle="tab" class="delete">Delete Activity</a></li>
     </ul>
-    
     <div class="tab-content tab-border">
         <div class="tab-pane active" id="tab-activities-profile"><?php include'../oip-modules/oip-module-activities-profile.txt'  ?></div>
-        <div class="tab-pane" id="tab-location-current"><?php include'../oip-modules/oip-module-locations-choose-current.txt' ?><!--UseInformationObject:Location --></div>
+        <div class="tab-pane" id="tab-images"><?php include'../oip-modules/oip-module-imagegroups-choose-current.txt'  ?></div>
+        <div class="tab-pane" id="tab-location-current"><?php include'../oip-modules/oip-module-locations-choose-current.txt' ?></div>
         <div class="tab-pane" id="tab-category"><?php include'../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection--></div>
         <div class="tab-pane" id="tab-activities-delete"><?php include'../oip-modules/oip-module-activities-delete.txt' ?></div>
     </div>

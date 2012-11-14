@@ -4,12 +4,12 @@
         <li><a href="#tab-images" data-toggle="tab">Images</a></li>
         <li><a href="#tab-locations-current" data-toggle="tab">Locations</a></li>
         <li><a href="#tab-category" data-toggle="tab">Category</a></li>
-        <li><a href="#tab-delete" data-toggle="tab" class="delete">Delete</a></li>
+        <li><a href="#tab-delete" data-toggle="tab" class="delete">Delete Blog</a></li>
     </ul>
     <div class="tab-content tab-border">
         <div class="tab-pane active" id="tab-profile"><?php include'../oip-modules/oip-module-blog-edit.txt'  ?></div>
-        <div class="tab-pane" id="tab-images"><?php include'../oip-modules/oip-module-imagegroups-choose-current.txt'  ?><!--UseInformationObject:ImageGroup --></div>
-        <div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-choose-current.txt' ?><!--UseInformationObject:Location --></div>
+        <div class="tab-pane" id="tab-images"><?php include'../oip-modules/oip-module-imagegroups-choose-current.txt' ?></div>
+        <div class="tab-pane" id="tab-locations-current"><?php include'../oip-modules/oip-module-locations-choose-current.txt' ?></div>
         <div class="tab-pane" id="tab-category"><?php include'../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection--></div>
         <div class="tab-pane" id="tab-delete"><?php include'../oip-modules/oip-module-blog-delete.txt' ?></div>
     </div>
