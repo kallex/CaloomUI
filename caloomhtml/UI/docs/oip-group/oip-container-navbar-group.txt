@@ -35,7 +35,7 @@
     </div> <!-- /navbar-inner -->
 </div> <!-- /navbar -->
 <div class="subnavbar">
-    <div class="subnavbar-inner navbar-group">
+    <div class="subnavbar-inner navbar-group-border navbar-group-background">
         <div class="container">
             <ul class="mainnav">
                 <li class="dropdown group-name">

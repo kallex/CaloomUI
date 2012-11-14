@@ -5117,14 +5117,6 @@ p a.noteditable:hover {
   background: #24221f;
   border-bottom: 1px solid #7f786d;
 }
-.navbar-account {
-  background-color: yellow;
-  border-bottom: 3px solid #fd6309;
-}
-.navbar-group {
-  background-color: blue;
-  border-bottom: 3px solid #fd6309;
-}
 .subnavbar .container > ul {
   display: inline-block;
   height: 80px;
@@ -5176,6 +5168,54 @@ p a.noteditable:hover {
 .subnavbar .container > ul > li > a:hover {
   color: rgba(252, 194, 10, 0.7);
   text-decoration: none;
+}
+/*coloring for the account navbar*/
+.navbar-account-border {
+  border-bottom: 3px solid #bcc1c9;
+}
+.navbar-account-background {
+  background-color: #445369;
+}
+.navbar-account-background .container > ul > li > a {
+  color: white;
+}
+.navbar-account-background .container > ul > li > a:hover {
+  background-color: #282f38;
+  color: #be474e;
+}
+.navbar-account-background .container > ul > li {
+  border-left: 1px solid #727d8e;
+  border-right: 1px solid #727d8e;
+  border-top: 0px solid #727d8e;
+}
+.navbar-account-background .container > ul > li.group-name {
+  border-left: 1px solid #727d8e;
+  border-right: 1px solid #727d8e;
+  border-top: 0px solid #727d8e;
+}
+/*coloring for the group navbar*/
+.navbar-group-border {
+  border-bottom: 3px solid #bcc1c9;
+}
+.navbar-group-background {
+  background-color: #324136;
+}
+.navbar-group-background .container > ul > li > a {
+  color: #a1a8a3;
+}
+.navbar-group-background .container > ul > li > a:hover {
+  background-color: #232b24;
+  color: #be474e;
+}
+.navbar-group-background .container > ul > li {
+  border-left: 1px solid #a1a8a3;
+  border-right: 1px solid #a1a8a3;
+  border-top: 0px solid #a1a8a3;
+}
+.navbar-group-background .container > ul > li.group-name {
+  border-left: 1px solid #a1a8a3;
+  border-right: 1px solid #a1a8a3;
+  border-top: 0px solid #a1a8a3;
 }
 .subnavbar .container > ul > li > a > i {
   display: inline-block;

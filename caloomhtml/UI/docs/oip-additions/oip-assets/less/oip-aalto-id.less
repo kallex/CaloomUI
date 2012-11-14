@@ -61,20 +61,8 @@ p a.noteditable:hover{
 // background-image: linear-gradient(top, #414141, #323232);
 //background-repeat: repeat-x;
 // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#414141', endColorstr='#323232', GradientType=0);
-
   border-bottom: 1px solid @bodyBackground;
 }
-
-.navbar-account {
-  background-color: yellow;
-  border-bottom: 3px solid @aaltoOrange;
-}
-
-.navbar-group {
-  background-color: blue;
-  border-bottom: 3px solid @aaltoOrange;
-}
-
 
 .subnavbar .container > ul {
   display: inline-block;
@@ -133,6 +121,68 @@ p a.noteditable:hover{
   color: fade(@logoColor, 70%);
   text-decoration: none;
 }
+
+
+/*coloring for the account navbar*/
+.navbar-account-border {
+  border-bottom: 3px solid #bcc1c9;
+}
+
+.navbar-account-background {
+  background-color: #445369;
+}
+
+.navbar-account-background .container > ul > li > a {
+  color: white;
+}
+
+.navbar-account-background .container > ul > li > a:hover {
+  background-color: #282f38;
+  color: #be474e;
+}
+
+.navbar-account-background .container > ul > li {
+  border-left: 1px solid #727d8e;
+  border-right: 1px solid #727d8e;
+  border-top: 0px solid #727d8e;
+}
+
+.navbar-account-background .container > ul > li.group-name {
+  border-left: 1px solid #727d8e;
+  border-right: 1px solid #727d8e;
+  border-top: 0px solid #727d8e;
+}
+
+/*coloring for the group navbar*/
+.navbar-group-border {
+  border-bottom: 3px solid #bcc1c9;
+}
+
+.navbar-group-background {
+  background-color: #324136;
+}
+
+.navbar-group-background .container > ul > li > a {
+  color: #a1a8a3;
+}
+
+.navbar-group-background .container > ul > li > a:hover {
+  background-color: #232b24;
+  color: #be474e;
+}
+
+.navbar-group-background .container > ul > li {
+  border-left: 1px solid #a1a8a3;
+  border-right: 1px solid #a1a8a3;
+  border-top: 0px solid #a1a8a3;
+}
+
+.navbar-group-background .container > ul > li.group-name {
+  border-left: 1px solid #a1a8a3;
+  border-right: 1px solid #a1a8a3;
+  border-top: 0px solid #a1a8a3;
+}
+
 
 .subnavbar .container > ul > li > a > i {
   display: inline-block;
