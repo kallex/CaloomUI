@@ -35,7 +35,7 @@
                 <li>
                     <a href="oip-layout-blog.phtml">
                         <i class="icon-book"></i>
-                        <span>Blog</span>
+                        <span>News</span>
                     </a>
                 </li>
                 <li>

@@ -7,7 +7,7 @@
             <p style="float:left">
                 <span class="aalto-university">Aalto Global Impact</span> <br>
                 <span class="aalto-gi"><a href="http://demooip.aaltoglobalimpact.org/auth/account/website/oip-account/oip-layout-account-welcome.phtml">Open Innovation Platform</a></span>
-<!--                <span class="aalto-gi">Open Innovation Platform</span> -->
+<!--            <span class="aalto-gi">Open Innovation Platform</span> -->
             </p>
             <p  style="float:left"><a href="" id="tabzilla" style=" float:right;margin-left: 20px;" >Aalto</a></p>
 
@@ -65,7 +65,7 @@
                 <li class="dropdown">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="icon-book"></i>
-                        <span>Blog</span>
+                        <span>News</span>
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
