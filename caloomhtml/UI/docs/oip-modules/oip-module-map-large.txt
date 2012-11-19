@@ -10,4 +10,19 @@
     var icon = new OpenLayers.Icon('http://www.openlayers.org/dev/img/marker.png', size, offset);
     <?php include 'oip-module-markers.txt' ?><!-- UseInformationObjectAsCollection:MapMarkers -->
     map.zoomToMaxExtent();
+
+    //newly added test for map-controls
+    var map = new OpenLayers.Map('map', { controls: [] });
+
+    map.addControl(new OpenLayers.Control.PanZoomBar());
+    map.addControl(new OpenLayers.Control.MouseToolbar());
+    map.addControl(new OpenLayers.Control.LayerSwitcher({'ascending':false}));
+    map.addControl(new OpenLayers.Control.Permalink());
+    map.addControl(new OpenLayers.Control.Permalink('permalink'));
+    map.addControl(new OpenLayers.Control.MousePosition());
+    map.addControl(new OpenLayers.Control.OverviewMap());
+    map.addControl(new OpenLayers.Control.KeyboardDefaults());
+    //end newly added test for map-controls
+
+
 </script> 
