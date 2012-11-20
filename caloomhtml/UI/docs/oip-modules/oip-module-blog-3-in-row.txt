@@ -1,4 +1,4 @@
-<li class="span3">
+<li class="span3 module-in-row">
     <img class="img-style row1" src="[!ATOM]FeaturedImage.ImageData.ContentUrl[ATOM!]"/>
     <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->

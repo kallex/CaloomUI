@@ -5396,6 +5396,12 @@ div.latest > .hero-unit {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+.module-in-row {
+  border-color: #d3d3d3;
+  border-style: dotted;
+  padding: 6px;
+  border-width: 1px;
+}
 .pager a {
   font-size: 80%;
   padding: 3px 10px;
