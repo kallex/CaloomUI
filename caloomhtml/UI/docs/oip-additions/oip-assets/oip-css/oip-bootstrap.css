@@ -5076,6 +5076,8 @@ a.badge:hover {
 /* Start Aalto Visual Identity Additions */
 body {
   background-color: #ffffff;
+  background-image: url(../oip-images/ui/yt-background-image.png);
+  height: 100%;
 }
 p a.noteditable,
 p a.noteditable:hover {
@@ -5510,6 +5512,7 @@ ul.header-first li.eng a {
   margin-top: 70px;
   border-top: 1px solid #ffffff;
   background-color: #f6f6f5;
+  bottom: 0px;
 }
 /* End Aalto Visual Identity Additions */
 /*Openlayers Additions*/
