@@ -1,1 +1,1 @@
-<img class="" src="../oip-additions/oip-assets/oip-images/placeholder/thumb_1.jpg"  />
+<img class="" src=""  />
