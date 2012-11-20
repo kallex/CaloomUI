@@ -5297,6 +5297,7 @@ p a.noteditable:hover {
   width: auto;
   padding-top: 22px;
   padding-bottom: 0px;
+  margin-bottom: 20px;
   background-color: white;
 }
 div.blog > .hero-unit {
@@ -5320,6 +5321,7 @@ div.latest > .hero-unit {
 .small > .hero-unit {
   padding: 0px;
   margin: 0px;
+  margin-bottom: 20px;
   min-height: 70px;
   background-color: none;
   background-image: none !important;

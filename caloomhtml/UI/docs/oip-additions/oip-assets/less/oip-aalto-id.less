@@ -281,6 +281,7 @@ p a.noteditable:hover{
   width: auto;
   padding-top: 22px;
   padding-bottom: 0px;
+  margin-bottom: 20px;
   background-color: white;}
 
 div.blog >.hero-unit {
@@ -305,6 +306,7 @@ div.latest >.hero-unit  {
 .small>.hero-unit {
   padding: 0px;
   margin:0px;
+  margin-bottom: 20px;
   min-height:70px;
   h1 {text-align: left;line-height: 0.4;}
   h1 a {
@@ -396,6 +398,13 @@ border: 0px solid @bodyBackground;
   border-style: dotted;
   padding: 6px;
   border-width: 1px
+}
+
+
+// correcting the <a data-id="" acting as a link
+
+.li a data-id {
+  color: @textcolor;
 }
 
 //pager adjustments
