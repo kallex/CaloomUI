@@ -5528,7 +5528,7 @@ Set the container for the bar
   height: 20px;
   width: 200px;
   padding: 10px;
-  margin: 200px auto 0;
+  margin: 200px auto 200px;
   background-color: rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;

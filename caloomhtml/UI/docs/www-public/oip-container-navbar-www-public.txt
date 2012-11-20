@@ -22,11 +22,11 @@
             <ul class="mainnav">
                 <li class="dropdown group-name">
                     <a href="oip-layout-landing.phtml">
-                        <i></i>
+                        <i class="icon-home"></i>
                         <span style="color: white;">Aalto Global Impact <i class="icon-arrow-right"></i></span>
                     </a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="oip-layout-map.phtml">
                         <i class="icon-map-marker"></i>
                         <span>Map</span>
