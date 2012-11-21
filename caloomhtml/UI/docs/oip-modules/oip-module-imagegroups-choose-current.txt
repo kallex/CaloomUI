@@ -1,5 +1,5 @@
 <!-- oip-module-imagegroup-choose-current.txt -->
-<div id="identity" class="span7" style="margin-top:10px;min-height:300px">
+<div id="identity" class="span12" style="margin-top:10px;min-height:300px">
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.ImageGroupContainer:ImageGroups -->
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
@@ -10,7 +10,11 @@
                 <?php include '../oip-atoms/oip-atom-choose-imagegroup.txt' ?><!-- UseInformationObjectAsCollection:ImageGroups -->
 			</div>
 		</div>
-		<a href="#add-imagegroup" data-toggle="modal">Add Image Group</a>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <a href="#add-imagegroup" role="button" class="btn" data-toggle="modal">Add Image Group</a>
+                </div>
+            </div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 	</fieldset>
 <!-- THEBALL-CONTEXT-END:* -->
