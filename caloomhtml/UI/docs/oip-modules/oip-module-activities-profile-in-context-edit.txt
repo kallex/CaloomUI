@@ -1,4 +1,4 @@
-<div id="activity-profile" class="span7" style=";margin-top:10px">
+<div id="activity-profile" class="span12" style=";margin-top:10px">
 <!-- oip-module-account-profile-view.txt -->
 	<div id="group-profile" class="span7" style=";margin-top:10px">
 		<div class="view-group">

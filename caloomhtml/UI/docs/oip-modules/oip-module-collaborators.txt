@@ -1,5 +1,5 @@
 <!-- oip-module-collaborators.txt -->
-<div id="group-profile" class="span7" style=";margin-top:10px">
+<div id="group-profile" class="span12" style=";margin-top:10px">
     <form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
         <fieldset id="">

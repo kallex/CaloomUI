@@ -1,5 +1,5 @@
 <!-- oip-module-category.txt --> 
-<div id="" class="span7" style=";margin-top:10px">
+<div id="" class="span12" style=";margin-top:10px">
 	<h2>
 		Activity Categories 
 	</h2>
