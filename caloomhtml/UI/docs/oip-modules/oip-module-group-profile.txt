@@ -1,4 +1,4 @@
-<div id="group-profile" class="span11">
+<div id="group-profile" class="span12">
 	<form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="profile">
@@ -19,7 +19,7 @@
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:IconImage -->
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ImageData -->
 					<img src="[!ATOM]ContentUrl[ATOM!]" alt="Group Icon Image" />
-					<input class="input-xlarge" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
+					<input class="span11" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
 <!-- THEBALL-CONTEXT-END:* -->
 <!-- THEBALL-CONTEXT-END:* -->
                 </div>

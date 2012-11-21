@@ -1,4 +1,4 @@
-<div id="group-images" class="span11" style=";margin-top:10px;min-height:300px">
+<div id="group-images" class="span12" style=";margin-top:10px;min-height:300px">
     <h4 style="text-align: center">Create sets for your images</h4>
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
@@ -12,7 +12,7 @@
 			<div class="control-group">
 				<label class="control-label">Add image</label> 
 				<div class="controls">
-					<input class="input-xlarge" id="appendedInputButtons" size="16" type="file">
+					<input class="span11" id="appendedInputButtons" size="16" type="file">
 				</div>
 			</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
