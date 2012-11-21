@@ -1,4 +1,4 @@
-    <a class="aalto" style="color: #716b63 !important;font-size: 12px;margin:0px; padding: 0px 15px 8px 15px;" href="http://www.aalto.fi/en">Aalto.fi</a>
+    <a class="aalto" href="http://www.aalto.fi/en">Aalto.fi</a>
     <ul class="mainnav">
         <li class="dropdown"style="list-style-type: none; display: block;
 color: #716b63 !important;

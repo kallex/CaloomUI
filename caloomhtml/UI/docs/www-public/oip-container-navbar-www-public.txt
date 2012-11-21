@@ -10,7 +10,7 @@
         <div class="container">
             <ul class="mainnav">
 
-                <p style="float:left"> <span class="aalto">A</span>
+                <p style="float:left"> <span class="aalto-mark aalto-a">A</span>
                     <span class="aalto-mark">?</span>
                 </p>
 

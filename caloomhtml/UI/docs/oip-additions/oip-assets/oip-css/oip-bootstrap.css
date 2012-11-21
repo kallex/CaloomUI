@@ -5468,7 +5468,16 @@ ul.header-first li.eng a {
   padding: 4px;
   text-shadow: none;
 }
-.aalto,
+.aalto {
+  color: #716b63 !important;
+  line-height: 12px;
+  font-weight: normal;
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px 15px 8px 15px;
+}
 .aalto-mark {
   font-size: 42px;
   line-height: 40px;
@@ -5479,6 +5488,9 @@ ul.header-first li.eng a {
 }
 .aalto-mark {
   color: #fcc20a;
+}
+.aalto-a {
+  color: #ffffff;
 }
 .aalto-university,
 .aalto-gi {
