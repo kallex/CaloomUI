@@ -1,3 +1,4 @@
+<!--oip-module-locations-choose-current.txt-->
 <div id="identity" class="span11" style="margin-top:10px;min-height:300px">
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.LocationContainer:Locations -->
@@ -9,7 +10,11 @@
                 <?php include '../oip-atoms/oip-atom-choose-location.txt' ?><!-- UseInformationObjectAsCollection:Locations -->
 			</div>
 		</div>
-		<a href="#add-location" data-toggle="modal">Add Location</a>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+		            <a href="#add-location" role="button" class="btn" data-toggle="modal">Add Location</a>
+                </div>
+            </div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 	</fieldset>
 <!-- THEBALL-CONTEXT-END:* -->
