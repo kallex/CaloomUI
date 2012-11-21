@@ -1,18 +1,7 @@
 <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
+    <div class="navbar-inner" style="background-color: white;height: 32px">
         <div class="container">
-            <p style="float:left"> <span class="aalto">A</span>
-                <span class="aalto-mark">?</span>
-            </p>
-            <p style="float:left">
-                <span class="aalto-university">Aalto University</span> <br>
-                <span class="aalto-gi"><a href="oip-layout-landing.phtml"> Aalto Global Impact</a></span>
-            </p>
-            <p  style="float:left"><a href="" id="tabzilla" style=" float:right;margin-left: 20px;" >Aalto</a></p>
-
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span><i class="icon-circle-arrow-down icon-large"></i></span>
-            </a>
+            <?php include'../oip-modules/oip-aalto-navbar.txt'?></php>
         </div>
     </div>
 </div>
@@ -20,6 +9,11 @@
     <div class="subnavbar-inner">
         <div class="container">
             <ul class="mainnav">
+
+                <p style="float:left"> <span class="aalto">A</span>
+                    <span class="aalto-mark">?</span>
+                </p>
+
                 <li class="dropdown group-name">
                     <a href="oip-layout-landing.phtml">
                         <i class="icon-home"></i>
@@ -34,7 +28,7 @@
                 </li>
                 <li>
                     <a href="oip-layout-blog.phtml">
-                        <i class="icon-book"></i>
+                        <i class="icon-bullhorn"></i>
                         <span>News</span>
                     </a>
                 </li>
@@ -45,10 +39,17 @@
                     </a>
                 </li>
                 <li class="dropdown">
-                    <a href="oip-layout-activities-summary.phtml">
-                        <i class="icon-bullhorn"></i>
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-comments-alt"></i>
                         <span>Activities</span>
+                        <b class="caret"></b>
                     </a>
+                    <ul class="dropdown-menu">
+                        <li> <a href=""> <i class="icon-pencil" style="font-size: 130%;padding-right: 3px"></i> Blog</a> </li>
+                        <li> <a href=""> <i class="icon-time"></i> Projects</a> </li>
+                        <li> <a href=""> <i class="icon-flag"></i> Events</a> </li>
+
+                    </ul>
                 </li>
             </ul>
         </div>
