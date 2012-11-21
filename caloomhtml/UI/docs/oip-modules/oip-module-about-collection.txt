@@ -1,6 +1,6 @@
 <div class="span5">
     <?php include '../oip-modules/oip-module-image-set.txt' ?><!-- UseInformationObject:ImageGroup -->
 </div>
-<div class="span4">
+<div class="span7">
     <p><?php include '../oip-atoms/oip-atom-excerpt.txt' ?></p>
 </div>
