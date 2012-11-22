@@ -1105,6 +1105,47 @@
           </SequentialExecution>
         </Execution>
       </Operation>
+      <Operation name="RemoveMemberFromGroup">
+        <OperationSpec>
+          <Description>Invite member to collaboration group</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="MemberEmailAddress" dataType="string" designDesc="Email address of the member" state="designApproved"/>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID to invite to" state="designApproved"/>
+          <!--
+          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="designApproved">
+            <Target name="GroupID"/>
+          </Validation>
+          <Validation name="ValidateEmailAddress" designDesc="Validate that email address really " state="designApproved">
+            <Target name="MemberEmailAddress"/>
+          </Validation>
+          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="designApproved">
+            <Target name="MemberEmailAddress"/>
+          </Validation>-->
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root for given ID" state="designApproved">
+              <Parameter name="GroupID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="string" name="AccountID" designDesc="Account ID of email" state="designApproved">
+              <Parameter name="MemberEmailAddress"/>
+            </TargetDefinition>
+            <MethodExecute name="RemoveMemberFromGroup" designDesc="Remove member from group" state="designApproved">
+              <Parameter name="MemberEmailAddress"/>
+              <Target name="GroupRoot"/>
+            </MethodExecute>
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+              <Target name="GroupRoot"/>
+            </MethodExecute>
+            <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
+                  state="designApproved">
+              <Target name="GroupRoot"/>
+              <Target name="AccountID"/>
+            </OperationExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
       <Operation name="ConfirmInviteToJoinGroup">
         <OperationSpec>
           <Description>Confirm member joining to collaboration group</Description>
