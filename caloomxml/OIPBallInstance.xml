@@ -1107,11 +1107,12 @@
       </Operation>
       <Operation name="RemoveMemberFromGroup">
         <OperationSpec>
-          <Description>Invite member to collaboration group</Description>
+          <Description>Remove member from collaboration group</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="MemberEmailAddress" dataType="string" designDesc="Email address of the member" state="designApproved"/>
-          <Parameter name="GroupID" dataType="string" designDesc="Group ID to invite to" state="designApproved"/>
+          <Parameter name="EmailAddress" dataType="string" designDesc="Email address of the member" state="designApproved"/>
+          <Parameter name="AccountID" dataType="string" designDesc="AccountID of the member" state="designApproved"/>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID to remove from" state="designApproved"/>
           <!--
           <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="designApproved">
             <Target name="GroupID"/>
@@ -1129,10 +1130,19 @@
               <Parameter name="GroupID"/>
             </TargetDefinition>
             <TargetDefinition dataType="string" name="AccountID" designDesc="Account ID of email" state="designApproved">
-              <Parameter name="MemberEmailAddress"/>
+              <Parameter name="EmailAddress"/>
+              <Parameter name="AccountID" />
+            </TargetDefinition>
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of member" state="designApproved">
+              <Target name="AccountID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="string" name="MemberEmailAddress" designDesc="Member email address" state="designApproved">
+              <Parameter name="EmailAddress"/>
+              <Target name="AccountRoot"/>
+              <Target name="GroupRoot"/>
             </TargetDefinition>
             <MethodExecute name="RemoveMemberFromGroup" designDesc="Remove member from group" state="designApproved">
-              <Parameter name="MemberEmailAddress"/>
+              <Target name="MemberEmailAddress"/>
               <Target name="GroupRoot"/>
             </MethodExecute>
             <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
@@ -1335,6 +1345,34 @@
             </MethodExecute>
           </SequentialExecution>
         </Execution>
+      </Operation>
+      <Operation name="PerformWebAction">
+        <OperationSpec>
+          <Description>Perform web action based on action name and ObjectID, given the page information sources in as well</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="TargetObjectID" dataType="string" designDesc="Target object id" state="designApproved"/>
+          <Parameter name="CommandName" dataType="string" designDesc="Command name" state="designApproved"/>
+          <Parameter name="Owner" dataType="IContainerOwner" designDesc="Data owner" state="designApproved"/>
+          <Parameter name="InformationSources" dataType="InformationSourceCollection" designDesc="Information sources of the page" state="designApproved"/>
+          <Parameter name="FormSourceNames" dataType="string[]" designDesc="Form source names" state="designApproved"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <MethodExecute name="ExecuteActualOperation" designDesc="Execute actual operation" state="designApproved">
+              <Parameter name="TargetObjectID"/>
+              <Parameter name="CommandName"/>
+              <Parameter name="Owner"/>
+              <Parameter name="InformationSources"/>
+              <Parameter name="FormSourceNames"/>
+              <ReturnValue name="RenderPageAfterOperation" dataType="bool" designDesc="If true, page should be rendered after operation" state="designApproved"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+        <OperationReturnValues>
+          <ReturnValue name="RenderPageAfterOperation" dataType="bool" designDesc="If true, page should be rendered after operation" state="designApproved"/>
+          <Target name="ExecuteActualOperationOutput"/>
+        </OperationReturnValues>
       </Operation>
       <Operation name="UpdatePageContent">
         <OperationSpec>
