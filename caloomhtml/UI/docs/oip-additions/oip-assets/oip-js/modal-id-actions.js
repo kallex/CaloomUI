@@ -1,9 +1,16 @@
 $(document).on("click", ".open-IDAction_ConfirmRemove", function () {
     var fieldid = $(this).data('id');
     var fieldquestion = $(this).data('question');
+    var command = $(this).data('command');
+    var commandtext = $(this).data('commandtext');
 
     $('.modal-body #ObjectFieldID').val(fieldid);
-    $('.modal-body #question').val(fieldquestion);
+    $('.modal-body #question').text(fieldquestion);
+    var button = $('.modal-body #RootSourceAction');
+    // Set button text
+    button.html(commandtext);
+    // Set button value
+    button.val(command);
 
     $('#IDAction_ConfirmRemove').modal('show');
 });
