@@ -5343,8 +5343,7 @@ p a.noteditable:hover {
   letter-spacing: 4px;
 }
 .small > .hero-unit h1 a {
-  font-size: 50%;
-  color: #fffaf0 ;
+  font-size: 50% ;
   font-weight: 100;
 }
 .small > .hero-unit small a {
