@@ -5340,9 +5340,9 @@ p a.noteditable:hover {
   background-image: none !important;
 }
 .small > .hero-unit h1 {
-  text-align: right;
+  text-align: left;
   line-height: 0.4;
-  margin-right: 19px;
+  margin-left: 540px;
   font-kerning: 4px;
   letter-spacing: 4px;
 }
