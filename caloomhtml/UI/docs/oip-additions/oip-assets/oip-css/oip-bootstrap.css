@@ -5309,7 +5309,7 @@ p a.noteditable:hover {
   background-color: transparent;
 }
 .blog-header {
-  background-image: url("../oip-images/ui/hero-unit-blog.png");
+  background-image: url("../oip-images/ui/oip-header-background-blog.png");
 }
 .about-header {
   background-image: url("../oip-images/ui/hero-unit-about.png");
@@ -5411,6 +5411,11 @@ p a.noteditable:hover {
   border-style: dotted;
   padding: 6px;
   border-width: 1px;
+}
+p.truncate {
+  word-wrap: ;
+  height: 60px !important;
+  overflow: hidden !important;
 }
 .pager a {
   font-size: 80%;

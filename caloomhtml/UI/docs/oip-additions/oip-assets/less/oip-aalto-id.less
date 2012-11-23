@@ -295,7 +295,7 @@ p a.noteditable:hover{
 }
 
 .blog-header {
-  background-image: url("../oip-images/ui/hero-unit-blog.png");
+  background-image: url("../oip-images/ui/oip-header-background-blog.png");
 }
 .about-header {
   background-image: url("../oip-images/ui/hero-unit-about.png");
@@ -380,10 +380,14 @@ p a.noteditable:hover{
   margin-left: 0px;
 }
 
+//
+// Here we style the index of left column, often span3
+//
+
 // adjustments for accordion in index
 // border set to bodybackground
 .accordion-group-index {
-border: 0px solid @bodyBackground;
+  border: 0px solid @bodyBackground;
 }
 
 // border set to bodybackground
@@ -411,9 +415,15 @@ border: 0px solid @bodyBackground;
   border-width: 1px
 }
 
+//
+// here we deal with the content, often in span9
+//
 
-// correcting the <a data-id="" acting as a link
-
+p.truncate {
+  word-wrap: ;
+  height: @baseLineHeight * 3 !important;
+  overflow: hidden !important;
+}
 //pager adjustments
 .pager a {
   font-size: 80%;
@@ -496,12 +506,12 @@ ul.header-first li.eng a,
   background: url("../oip-images/ui/aalto-dotted_divider.gif") repeat-y top right;
 }
 
- li .aalto-navbar {
-   list-style-type: none;
-   color: #716b63 !important;
-   font-size: 12px;
-   padding: 10px 15px 8px 15px;
- }
+li .aalto-navbar {
+  list-style-type: none;
+  color: #716b63 !important;
+  font-size: 12px;
+  padding: 10px 15px 8px 15px;
+}
 
 
 .aalto-mark {
