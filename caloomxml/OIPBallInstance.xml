@@ -1374,6 +1374,56 @@
           <Target name="ExecuteActualOperationOutput"/>
         </OperationReturnValues>
       </Operation>
+      <Operation name="PublishGroupContentToPublicArea">
+        <OperationSpec>
+          <Description />
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID of group being published" state="designApproved" />
+          <Parameter name="UseWorker" dataType="bool" designDesc="Use worker as processor" state="designApproved" />
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="string" name="CurrentContainerName" designDesc="Group's content container name" state="designApproved">
+              <Parameter name="GroupID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="string" name="PublicContainerName" designDesc="Group's public container name" state="designApproved">
+              <Parameter name="GroupID"/>
+            </TargetDefinition>
+            <MethodExecute name="PublishGroupContent" designDesc="Do the update page" state="underDesign">
+              <Parameter name="GroupID"/>
+              <Parameter name="UseWorker"/>
+              <Target name="CurrentContainerName"/>
+              <Target name="PublicContainerName"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="PublishGroupContentToWww">
+        <OperationSpec>
+          <Description />
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID of group being published" state="designApproved" />
+          <Parameter name="UseWorker" dataType="bool" designDesc="Use worker as processor" state="designApproved" />
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="string" name="CurrentContainerName" designDesc="Group's content container name" state="designApproved">
+              <Parameter name="GroupID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="string" name="WwwContainerName" designDesc="Group's www container name" state="designApproved">
+              <Parameter name="GroupID"/>
+            </TargetDefinition>
+            <MethodExecute name="PublishGroupContentToWww" designDesc="Do the update page" state="underDesign">
+              <Parameter name="GroupID"/>
+              <Parameter name="UseWorker"/>
+              <Target name="CurrentContainerName"/>
+              <Target name="WwwContainerName"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
       <Operation name="UpdatePageContent">
         <OperationSpec>
           <Description />
