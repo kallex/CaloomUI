@@ -5294,7 +5294,7 @@ p a.noteditable:hover {
 .span4plus {
   width: 46.57%;
 }
-.services {
+.well {
   background-repeat: no-repeat;
   width: auto;
   padding: 0px;
@@ -5309,7 +5309,7 @@ p a.noteditable:hover {
   background-color: transparent;
 }
 .blog-header {
-  background-image: url("../oip-images/ui/oip-header-background-blog.png");
+  background-image: url("../oip-images/ui/well-blog-background.png");
 }
 .about-header {
   background-image: url("../oip-images/ui/hero-unit-about.png");
@@ -5337,9 +5337,14 @@ p a.noteditable:hover {
 .small > .hero-unit h1 {
   text-align: right;
   line-height: 0.4;
+  margin-right: 19px;
+  color: #eeeeee;
+  letter-spacing: 2px;
+  font-weight: 200;
 }
 .small > .hero-unit h1 a {
   font-size: 50%;
+  font-weight: 200;
 }
 .small > .hero-unit small a {
   font-size: 70%;
