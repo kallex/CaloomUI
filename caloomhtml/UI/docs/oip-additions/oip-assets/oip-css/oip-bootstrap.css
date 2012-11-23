@@ -5079,6 +5079,10 @@ body {
   background-image: url(../oip-images/ui/yt-background-image-brown.png);
   height: 100%;
 }
+p {
+  font-weight: 200;
+  letter-spacing: 0.1em;
+}
 p a.noteditable,
 p a.noteditable:hover {
   color: #3d3d3d;
@@ -5309,8 +5313,8 @@ p a.noteditable:hover {
   margin-bottom: 20px;
   background-color: transparent;
 }
-.blog-header {
-  background-image: url("../oip-images/ui/well-blog-header-background.png");
+.news-header {
+  background-image: url("../oip-images/ui/well-news-header-background.png");
 }
 .about-header {
   background-image: url("../oip-images/ui/well-about-header-background.png");
