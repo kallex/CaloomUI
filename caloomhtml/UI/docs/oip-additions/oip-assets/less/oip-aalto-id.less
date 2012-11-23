@@ -312,6 +312,7 @@ p a.noteditable:hover{
 .latest-header  {
   background-image: url("../oip-images/ui/hero-unit-latest.png");
 }
+.register-header {}
 
 .small>.hero-unit {
   padding: 0px;
@@ -476,6 +477,8 @@ ul.header-first li.eng a,
   border-left-width: 3px;
 }
 
+
+
 // Aalto logotype in text
 .aalto-background {
   background-color: transparent;
@@ -483,15 +486,23 @@ ul.header-first li.eng a,
   text-shadow: none;
 }
 
-.aalto {
+.aalto-navbar {
   color: #716b63 !important;
-  line-height:12px;
-  font-weight:normal;
-  display:inline-block;
-  float:left;font-size:12px;
+  display: block;
+  float:left;
+  font-size:12px;
   margin:0px;
   padding: 0px 15px 8px 15px;
+  background: url("../oip-images/ui/aalto-dotted_divider.gif") repeat-y top right;
 }
+
+ li .aalto-navbar {
+   list-style-type: none;
+   color: #716b63 !important;
+   font-size: 12px;
+   padding: 10px 15px 8px 15px;
+ }
+
 
 .aalto-mark {
   font-size: (@baseFontSize *3);
