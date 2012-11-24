@@ -6,12 +6,9 @@
 	<meta name="author" content="">
 
 <!-- Le styles -->
+	<link href="../oip-additions/oip-assets/oip-js/google-code-prettify/prettify.css" rel="stylesheet">
     <link href="../oip-additions/oip-assets/oip-css/oip-bootstrap.css" rel="stylesheet">
     <link href="../oip-additions/oip-assets/oip-css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="../oip-additions/oip-assets/less/responsive.css" rel="stylesheet">
-<!--	<link href="../oip-additions/oip-assets/oip-css/dashboard.css" rel="stylesheet"> -->
-	<link href="../oip-additions/oip-assets/oip-js/google-code-prettify/prettify.css" rel="stylesheet">
-    <link href="../oip-additions/oip-assets/oip-css/tabzilla.css" rel="stylesheet" />
 
     <!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
 <!--Extra Styles from jQuery UI-->

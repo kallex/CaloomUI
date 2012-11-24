@@ -5105,8 +5105,7 @@ p a.noteditable:hover {
 .navbar-inner {
   padding: 7px 0;
   padding-bottom: 0px;
-  background: #11100f;
-  border-bottom: 1px solid #121212;
+  background: #ffffff;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -5117,19 +5116,15 @@ p a.noteditable:hover {
 .navbar .nav a {
   font-size: 11px;
 }
-/*oip-aalto-id.less*/
 .subnavbar-inner {
   height: 80px;
-  background: #24221f;
-  border-bottom: 1px solid #7f786d;
+  background: #ffffff;
 }
 .subnavbar .container > ul {
   display: inline-block;
   height: 80px;
   padding: 0;
   margin: 0;
-  border-left: 1px solid #292929;
-  border-right: 1px solid #4A4A4A;
 }
 .subnavbar .container > ul > li {
   float: left;
@@ -5139,9 +5134,6 @@ p a.noteditable:hover {
   margin: 0;
   text-align: center;
   list-style: none;
-  border-left: 1px solid #48443e;
-  border-right: 1px solid #48443e;
-  border-top: 1px solid #48443e;
 }
 .subnavbar .container > ul > li.group-name {
   float: left;
@@ -5151,9 +5143,6 @@ p a.noteditable:hover {
   margin: 0;
   text-align: center;
   list-style: none;
-  border-left: 1px solid #24221f;
-  border-right: 1px solid #24221f;
-  border-top: 1px solid #24221f;
 }
 .subnavbar .container > ul > li > a > i.group-name {
   display: inline-block;
@@ -5289,6 +5278,18 @@ p a.noteditable:hover {
   white-space: nowrap;
   margin-bottom: 0px;
 }
+.news {
+  color: #a20690;
+}
+.about {
+  color: #fcc20a;
+}
+.activity {
+  color: #5fb728;
+}
+.map {
+  color: #1e9ca8;
+}
 #container-focus {
   margin-top: 10px;
 }
@@ -5343,9 +5344,10 @@ p a.noteditable:hover {
   background-image: none !important;
 }
 .small > .hero-unit h1 {
-  text-align: left;
+  text-align: right;
   line-height: 0.4;
-  margin-left: 540px;
+  margin-left: auto%;
+  margin-right: auto;
   font-kerning: 4px;
   letter-spacing: 4px;
 }

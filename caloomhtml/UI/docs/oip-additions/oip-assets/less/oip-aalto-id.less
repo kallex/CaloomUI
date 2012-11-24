@@ -35,8 +35,9 @@ p a.noteditable:hover{
 .navbar-inner {
   padding: 7px 0;
   padding-bottom: 0px;
-  background: darken(@bodyBackground, 40%);
-  border-bottom: 1px solid #121212;
+  background:#ffffff;
+  //background: darken(@bodyBackground, 40%);
+  //border-bottom: 1px solid #121212;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -56,10 +57,10 @@ p a.noteditable:hover{
 //border-top: 1px solid #595959;
 }
 
-/*oip-aalto-id.less*/
 .subnavbar-inner {
   height: 80px;
-  background: darken(@bodyBackground, 33%);
+  background: #ffffff;
+  //background: darken(@bodyBackground, 33%);
 //background-image: -moz-linear-gradient(top, #414141, #323232);
 // background-image: -ms-linear-gradient(top, #414141, #323232);
 //background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#414141), to(#323232));
@@ -68,7 +69,7 @@ p a.noteditable:hover{
 // background-image: linear-gradient(top, #414141, #323232);
 //background-repeat: repeat-x;
 // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#414141', endColorstr='#323232', GradientType=0);
-  border-bottom: 1px solid @bodyBackground;
+  //border-bottom: 1px solid @bodyBackground;
 }
 
 .subnavbar .container > ul {
@@ -76,8 +77,8 @@ p a.noteditable:hover{
   height: 80px;
   padding: 0;
   margin: 0;
-  border-left: 1px solid #292929;
-  border-right: 1px solid #4A4A4A;
+  //border-left: 1px solid #292929;
+  //border-right: 1px solid #4A4A4A;
 }
 
 .subnavbar .container > ul > li {
@@ -88,9 +89,9 @@ p a.noteditable:hover{
   margin: 0;
   text-align: center;
   list-style: none;
-  border-left: 1px solid darken(@bodyBackground, 20%);
-  border-right: 1px solid darken(@bodyBackground, 20%);
-  border-top: 1px solid darken(@bodyBackground, 20%);
+  //border-left: 1px solid darken(@bodyBackground, 20%);
+  //border-right: 1px solid darken(@bodyBackground, 20%);
+  //border-top: 1px solid darken(@bodyBackground, 20%);
 }
 
 .subnavbar .container > ul > li.group-name {
@@ -101,9 +102,9 @@ p a.noteditable:hover{
   margin: 0;
   text-align: center;
   list-style: none;
-  border-left: 1px solid darken(@bodyBackground, 33%);
-  border-right: 1px solid darken(@bodyBackground, 33%);
-  border-top: 1px solid darken(@bodyBackground, 33%);
+  //border-left: 1px solid darken(@bodyBackground, 33%);
+ //border-right: 1px solid darken(@bodyBackground, 33%);
+  //border-top: 1px solid darken(@bodyBackground, 33%);
 }
 .subnavbar .container > ul > li > a > i.group-name {
   display: inline-block;
@@ -269,6 +270,21 @@ p a.noteditable:hover{
   margin-bottom: 0px;
 }
 
+
+// custom navbar color coding foor Aalto Global Impact
+.news {
+  color: @aaltoFuchsia;
+}
+.about {
+  color: @aaltoYellow;
+}
+.activity {
+  color: @aaltoLightGreen;
+}
+.map {
+  color: @aaltoTurquoise;
+}
+
 // Container and Well
 
 #container-focus {
@@ -328,7 +344,7 @@ p a.noteditable:hover{
   margin:0px;
   margin-bottom: 20px;
   min-height:70px;
-  h1 {text-align: left;line-height: 0.4;margin-left: 540px; font-kerning: 4px;letter-spacing: 4px;}
+  h1 {text-align: right;line-height: 0.4;margin-left: auto%;margin-right: auto; font-kerning: 4px;letter-spacing: 4px;}
   h1 a {
     font-size: 50% ;font-weight: 100;
   }

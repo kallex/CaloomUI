@@ -1,10 +1,10 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner"
          style="
-            background-color: white;
+            /*background-color: white;
             /*height: 32px;*/
-            border-bottom: 1px solid #e4e2df;
-            padding-top: 4px;
+            /*border-bottom: 1px solid #e4e2df;
+            /*padding-top: 4px;
         ">
         <div class="container">
             <?php include'../oip-modules/oip-aalto-navbar.txt'?></php>
@@ -12,41 +12,41 @@
     </div>
 </div>
 <div class="subnavbar">
-    <div class="subnavbar-inner" ">  <!--style="background-color: white-->
-        <div class="container">
+    <div class="subnavbar-inner" ">
+        <div class="container" style="margin-left:50px">
             <ul class="mainnav">
 
-                <p style="float:left"> <span class="aalto-mark aalto-a">A</span>
+                <p style="float:left; padding-top: 10px"> <span class="aalto-mark aalto-a" style="color: black">A</span>
                     <span class="aalto-mark">?</span>
                 </p>
 
                 <li class="dropdown group-name">
                     <a href="oip-layout-landing.phtml">
                         <i class="icon-home"></i>
-                        <span style="color: white;">Aalto Global Impact <i class="icon-arrow-right"></i></span>
+                        <span style="color: black;">Aalto Global Impact <i class="icon-arrow-right"></i></span>
                     </a>
                 </li>
                 <li>
                     <a href="oip-layout-map.phtml">
-                        <i class="icon-map-marker"></i>
+                        <i class="icon-map-marker map"></i>
                         <span>Map</span>
                     </a>
                 </li>
                 <li>
                     <a href="oip-layout-news.phtml">
-                        <i class="icon-bullhorn"></i>
+                        <i class="icon-bullhorn news"></i>
                         <span>News</span>
                     </a>
                 </li>
                 <li>
                     <a href="oip-layout-about.phtml">
-                        <i class="icon-umbrella"></i>
+                        <i class="icon-umbrella about"></i>
                         <span>About</span>
                     </a>
                 </li>
                 <li class="dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="icon-comments-alt"></i>
+                    <a href="" class="dropdown-toggle activity" data-toggle="dropdown">
+                        <i class="icon-comments-alt activity"></i>
                         <span>Activities</span>
                         <b class="caret"></b>
                     </a>
