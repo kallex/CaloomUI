@@ -6,7 +6,7 @@
             /*border-bottom: 1px solid #e4e2df;
             /*padding-top: 4px;
         ">
-        <div class="container">
+        <div class="container" style="margin-left:40px">
             <?php include'../oip-modules/oip-aalto-navbar.txt'?></php>
         </div>
     </div>
