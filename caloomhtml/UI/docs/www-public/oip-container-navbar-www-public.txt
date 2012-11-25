@@ -6,60 +6,56 @@
             /*border-bottom: 1px solid #e4e2df;
             /*padding-top: 4px;
         ">
-        <div class="container" style="margin-left:40px">
+        <div class="container">
             <?php include'../oip-modules/oip-aalto-navbar.txt'?></php>
         </div>
     </div>
 </div>
 <div class="subnavbar">
     <div class="subnavbar-inner" ">
-        <div class="container" style="margin-left:50px">
-            <ul class="mainnav">
-
-                <p style="float:left; padding-top: 10px"> <span class="aalto-mark aalto-a" style="color: black">A</span>
+    <div class="container">
+        <ul class="mainnav">
+            <li class="dropdown" style="margin-top: 8px">
+                <a href="oip-layout-landing.phtml">
+                    <span class="aalto-mark aalto-a" style="color: black">A</span>
                     <span class="aalto-mark">?</span>
-                </p>
-
-                <li class="dropdown group-name">
-                    <a href="oip-layout-landing.phtml">
-                        <i class="icon-home"></i>
-                        <span style="color: black;">Aalto Global Impact <i class="icon-arrow-right"></i></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="oip-layout-map.phtml">
-                        <i class="icon-map-marker map"></i>
-                        <span>Map</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="oip-layout-news.phtml">
-                        <i class="icon-bullhorn news"></i>
-                        <span>News</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="oip-layout-about.phtml">
-                        <i class="icon-umbrella about"></i>
-                        <span>About</span>
-                    </a>
-                </li>
-                <li class="dropdown">
-                    <a href="" class="dropdown-toggle activity" data-toggle="dropdown">
-                        <i class="icon-comments-alt activity"></i>
-                        <span>Activities</span>
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
-                        <li> <a href=""> <i class="icon-pencil" style="font-size: 130%;padding-right: 3px"></i> Blog</a> </li>
-                        <li> <a href=""> <i class="icon-time"></i> Projects</a> </li>
-                        <li> <a href=""> <i class="icon-flag"></i> Events</a> </li>
-
-                    </ul>
-                </li>
-            </ul>
-        </div>
+                    <br style="clear: both">
+                    <span>Aalto Global Impact <i class="icon-home"></i></span>
+                </a>
+            </li>
+            <li>
+                <a href="oip-layout-map.phtml">
+                    <i class="icon-map-marker map"></i>
+                    <span>Map</span>
+                </a>
+            </li>
+            <li>
+                <a href="oip-layout-news.phtml">
+                    <i class="icon-bullhorn news"></i>
+                    <span>News</span>
+                </a>
+            </li>
+            <li>
+                <a href="oip-layout-about.phtml">
+                    <i class="icon-umbrella about"></i>
+                    <span>About</span>
+                </a>
+            </li>
+            <li class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="icon-comments-alt activity"></i>
+                    <span>Activities</span>
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
+                    <li> <a href=""> <i class="icon-pencil" style="font-size: 130%;padding-right: 3px"></i> Blog</a> </li>
+                    <li> <a href=""> <i class="icon-time"></i> Projects</a> </li>
+                    <li> <a href=""> <i class="icon-flag"></i> Events</a> </li>
+                </ul>
+            </li>
+        </ul>
     </div>
+</div>
 </div>
 

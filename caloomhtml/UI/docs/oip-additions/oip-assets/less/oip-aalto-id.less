@@ -121,15 +121,13 @@ p a.noteditable:hover{
   padding: 0 15px;
   font-size: 12px;
   font-weight: normal;
-  color: lighten(@bodyBackground, 0%);
+  //color: lighten(@bodyBackground, 0%);
 //text-shadow: 1px 1px 1px rgba(0,0,0,.2);
 }
 
-.subnavbar .container > ul > li > a:hover {
-  color: fade(@logoColor, 70%);
+li [class^="icon-"], li [class*=" icon-"]{
   text-decoration: none;
 }
-
 
 /*coloring for the account navbar*/
 .navbar-account-border {
@@ -203,7 +201,7 @@ p a.noteditable:hover{
   position: relative;
   background-color: darken(@bodyBackground, 40%);
   border-top: 1px solid darken(@bodyBackground, 40%);
-  color: @logoColor;
+  color: @linkColor;
   top:-1px;
 }
 

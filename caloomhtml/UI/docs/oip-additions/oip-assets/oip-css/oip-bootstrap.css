@@ -5158,10 +5158,9 @@ p a.noteditable:hover {
   padding: 0 15px;
   font-size: 12px;
   font-weight: normal;
-  color: #7f786d;
 }
-.subnavbar .container > ul > li > a:hover {
-  color: rgba(252, 194, 10, 0.7);
+li [class^="icon-"],
+li [class*=" icon-"] {
   text-decoration: none;
 }
 /*coloring for the account navbar*/
@@ -5220,7 +5219,7 @@ p a.noteditable:hover {
   position: relative;
   background-color: #11100f;
   border-top: 1px solid #11100f;
-  color: #fcc20a;
+  color: #1655b2;
   top: -1px;
 }
 .subnavbar .dropdown .dropdown-menu a {
