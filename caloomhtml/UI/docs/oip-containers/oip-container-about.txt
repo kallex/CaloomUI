@@ -1,6 +1,11 @@
 <div class="services about-header small">
-    <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
+    <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
 </div>
-<div class="span12 blog-featured">
+<div class="row-fluid">
+    <div class="span3">
     <?php include '../oip-modules/oip-module-about.txt' ?>
+</div>
+<div class="span9">
+    <?php include '../oip-modules/oip-module-activities-summary.txt' ?>
+</div>
 </div>

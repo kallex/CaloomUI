@@ -342,7 +342,10 @@ li [class^="icon-"], li [class*=" icon-"]{
   margin:0px;
   margin-bottom: 20px;
   min-height:70px;
-  h1 {text-align: right;line-height: 0.4;margin-left: auto%;margin-right: auto; font-kerning: 4px;letter-spacing: 4px;}
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; /*this creates a white outline around the title and subtitle which is needed to let them stand out over the background images used*/
+  h1 {
+    text-align: right;line-height: 0.4;margin-left: auto;margin-right: auto; font-kerning: 4px;letter-spacing: 4px;
+  }
   h1 a {
     font-size: 50% ;font-weight: 100;
   }
@@ -441,10 +444,10 @@ li [class^="icon-"], li [class*=" icon-"]{
 //activity, blog, group summary span3 additional class for styling of border around small container
 .module-in-row
 {
-  border-color: #d3d3d3;
-  border-style: dotted;
-  padding: 6px;
-  border-width: 1px
+  //border-color: #d3d3d3;
+  //border-style: dotted;
+  //padding: 6px;
+ // border-width: 1px
 }
 
 //
