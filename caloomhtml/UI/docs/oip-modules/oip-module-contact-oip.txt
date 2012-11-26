@@ -1,5 +1,5 @@
 <!-- oip-module-footer.txt -->
 	<p>
-	<a class="btn btn-primary btn-large">contact OIP, become partner, collaborator</a>
+	<a href="http://demooip.aaltoglobalimpact.org/about/oip-public/oip-layout-register.phtml" class="btn btn-primary btn-large">Visit us at the Open Innovation Platform</a>
 	</p>
 <!-- end oip-module-footer.txt -->

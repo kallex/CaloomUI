@@ -1,52 +1,40 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
-        <div class="container">
-            <p style="float:left"> <span class="aalto">A</span>
-                <span class="aalto-mark">?</span>
-            </p>
-            <p style="float:left">
-                <span class="aalto-university">Aalto University</span> <br>
-                <span class="aalto-gi"><a href="oip-layout-landing.phtml"> Aalto Global Impact</a></span>
-            </p>
-            <p  style="float:left"><a href="" id="tabzilla" style=" float:right;margin-left: 20px;" >Aalto</a></p>
-
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span><i class="icon-circle-arrow-down icon-large"></i></span>
-            </a>
+        <div class="container oip-navbar">
+            <?php include'../oip-modules/oip-module-aaltoglobalimpact-navbar.txt'?></php><!-- navigation to www.aaltoglobalimpact.org -->
+            <!--include'../oip-modules/oip-module-nav-right.txt' ?>--><!-- edit and my account menus-->
         </div>
     </div>
 </div>
 <div class="subnavbar">
-    <div class="subnavbar-inner">
+    <div class="subnavbar-inner navbar-account-border navbar-account-background">
         <div class="container">
             <ul class="mainnav">
-                <li class="dropdown group-name">
-                    <a href="oip-layout-landing.phtml">
-                        <i></i>
-                        <span style="color: white;">Aalto Global Impact <i class="icon-arrow-right"></i></span>
-                    </a>
+                <li class="account" style="border: none">
+                    <a href="" style="background-image: url(../oip-additions/oip-assets/oip-images/ui/oip-account-navbar-background.png);width: 200px"></a>
                 </li>
-                <li class="active">
+
+                <li>
                     <a href="oip-layout-map.phtml">
-                        <i class="icon-map-marker"></i>
+                        <i class="icon-map-marker map"></i>
                         <span>Map</span>
                     </a>
                 </li>
                 <li>
                     <a href="oip-layout-blog.phtml">
-                        <i class="icon-book"></i>
-                        <span>Blog</span>
+                        <i class="icon-book news"></i>
+                        <span>News</span>
                     </a>
                 </li>
                 <li>
                     <a href="oip-layout-about.phtml">
-                        <i class="icon-umbrella"></i>
+                        <i class="icon-umbrella about"></i>
                         <span>About</span>
                     </a>
                 </li>
                 <li class="dropdown">
                     <a href="oip-layout-activities-summary.phtml">
-                        <i class="icon-bullhorn"></i>
+                        <i class="icon-bullhorn activity"></i>
                         <span>Activities</span>
                     </a>
                 </li>

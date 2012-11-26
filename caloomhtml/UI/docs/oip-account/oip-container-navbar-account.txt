@@ -3,9 +3,9 @@
         <div class="container oip-navbar">
             <?php include'../oip-modules/oip-module-aaltoglobalimpact-navbar.txt'?></php><!-- navigation to www.aaltoglobalimpact.org -->
             <?php include'../oip-modules/oip-module-nav-right.txt' ?></php><!-- edit and my account menus-->
-        </div> <!-- /container -->
-    </div> <!-- /navbar-inner -->
-</div> <!-- /navbar -->
+        </div>
+    </div>
+</div>
 <div class="subnavbar">
     <div class="subnavbar-inner navbar-account-border navbar-account-background">
         <div class="container">
@@ -25,8 +25,8 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li class="alert"> Private view only </li>
-                        <li> <a href="oip-layout-blog-summary.phtml"> Summary of My Blogs</a></li>
-                        <li> <a href="#add-blog" data-toggle="modal"> Add New Blog Article</a> </li>
+                        <li> <a href="oip-layout-blog-summary.phtml"> Summary of My News Items</a></li>
+                        <li> <a href="#add-blog" data-toggle="modal"> Add New News Item</a> </li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -73,9 +73,9 @@
                     </ul>
                 </li> -->
             </ul>
-        </div> <!-- /container -->
-    </div> <!-- /subnavbar-inner -->
-</div> <!-- /subnavbar -->
+        </div>
+    </div>
+</div>
 
 <!-- modals -->
 <div id="create-group" class="modal hide fade">
