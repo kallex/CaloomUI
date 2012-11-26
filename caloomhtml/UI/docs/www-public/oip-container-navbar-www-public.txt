@@ -1,13 +1,7 @@
 <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner"
-         style="
-            /*background-color: white;
-            /*height: 32px;*/
-            /*border-bottom: 1px solid #e4e2df;
-            /*padding-top: 4px;
-        ">
+    <div class="navbar-inner">
         <div class="container">
-            <?php include'../oip-modules/oip-aalto-navbar.txt'?></php>
+            <?php include'../oip-modules/oip-module-aalto-navbar.txt'?></php>
         </div>
     </div>
 </div>

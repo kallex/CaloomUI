@@ -1,25 +1,7 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <ul class="mainnav">
-                <li style="min-width: 0px;margin-top: 2px">
-                    <a href="oip-layout-landing.phtml" style="padding-right: 0px;padding-left: 15px">
-                        <span class="aalto-mark aalto-a">A</span>
-                        <span class="aalto-mark">?</span>
-                    </a>
-                </li>
-                <li style="margin-top: 15px">
-                    <a href="oip-layout-landing.phtml" class="aalto-gi">
-                        <span>Aalto</span>
-                        <span>Global</span>
-                        <span>Impact</span> <br>
-                        <span class="aalto-gi"><a href="http://demooip.aaltoglobalimpact.org/auth/account/website/oip-account/oip-layout-account-welcome.phtml">Open Innovation Platform</a></span>
-                    </a>
-                </li>
-            </ul>
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span><i class="icon-circle-arrow-down icon-large"></i></span>
-            </a>
+            <?php include'../oip-modules/oip-module-aaltoglobalimpact-navbar.txt'?></php>
             <div class="nav-collapse">
                 <ul class="nav pull-right">
                     <li class="dropdown">
