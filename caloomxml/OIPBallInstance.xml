@@ -296,10 +296,10 @@
           <InformationItem name="MapResultCollection" informationObjectName="MapResultCollection" logicalDataType="InformationObject" />
           <InformationItem name="MapIndexCollection" informationObjectName="MapIndexCollection" logicalDataType="InformationObject" />
           <InformationItem name="MarkerSourceLocations" informationObjectName="AddressAndLocationCollection" logicalDataType="InformationObject"/>
-          <!--
+          <!-- Uncommented for test of DAG with topology sorting -->
           <InformationItem name="MarkerSourceBlogs" informationObjectName="BlogCollection" logicalDataType="InformationObject"/>
           <InformationItem name="MarkerSourceActivities" informationObjectName="ActivityCollection" logicalDataType="InformationObject"/>
-          -->
+          <!-- uncomment here -->
           <InformationItem name="MapMarkers" logicalDataType="InformationObject" informationObjectName="MapMarkerCollection" />
         </InformationItems>
       </InformationObject>
@@ -414,9 +414,9 @@
           <InformationItem name="Description" logicalDataType="Text_Long"/>
           <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
           <InformationItem name="ImageSets" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
-          <!--
+          <!-- Uncommented for test -->
           <InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
-          -->
+          <!-- Uncomment ends -->
           <InformationItem name="CategoryCollection" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
         </InformationItems>
       </InformationObject>
@@ -593,9 +593,9 @@
           <InformationItem name="VideoGroup" informationObjectName="VideoGroup" logicalDataType="InformationObject" />
           <InformationItem name="Body" logicalDataType="Text_Long" />
           <InformationItem name="Excerpt" logicalDataType="Text_Long" />
-          <!--
+          <!-- Uncommented for test -->
           <InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
-          -->
+          <!-- Uncomment ends -->
           <InformationItem name="CategoryCollection" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
           <!-- needed is, category, servicetype description, keywords -->
           <InformationItem name="SocialPanel" informationObjectName="SocialPanelCollection" logicalDataType="InformationObject" />
@@ -924,11 +924,37 @@
       <InformationObject name="OperationRequest" designDesc="Operation request">
         <InformationItems>
           <InformationItem name="SubscriberNotification" logicalDataType="InformationObject" informationObjectName="Subscription" />
+          <InformationItem name="SubscriptionChainRequest" logicalDataType="InformationObject" informationObjectName="SubscriptionChainRequestMessage" />
           <InformationItem name="UpdateWebContentOperation" logicalDataType="InformationObject" informationObjectName="UpdateWebContentOperation" />
           <InformationItem name="RefreshDefaultViewsOperation" logicalDataType="InformationObject" informationObjectName="RefreshDefaultViewsOperation"/>
           <InformationItem name="DeleteEntireOwner" logicalDataType="InformationObject" informationObjectName="DeleteEntireOwnerOperation" />
           <InformationItem name="DeleteOwnerContent" logicalDataType="InformationObject" informationObjectName="DeleteOwnerContentOperation" />
         </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="SubscriptionChainRequestMessage" designDesc="Subscription chain request message">
+        <InformationItems>
+          <InformationItem name="ContentItemID" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="SubscriptionChainRequestContent" designDesc="Subscription chain request content object">
+        <InformationItems>
+          <InformationItem name="SubmitTime" logicalDataType="Time_DateTime"/>
+          <InformationItem name="ProcessingStartTime" logicalDataType="Time_DateTime"/>
+          <InformationItem name="ProcessingEndTime" logicalDataType="Time_DateTime"/>
+          <InformationItem name="SubscriptionTargetCollection" logicalDataType="InformationObject" informationObjectName="SubscriptionTargetCollection" />
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="SubscriptionTarget" designDesc="Subscription target">
+        <InformationItems>
+          <InformationItem name="BlobLocation" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="SubscriptionTargetCollection" designDesc="Subscription target collection">
+        <CollectionFor contentInformationObjectName="SubscriptionTarget"/>
       </InformationObject>
 
       <InformationObject name="DeleteEntireOwnerOperation" designDesc="Operation for deleting entire owner">
