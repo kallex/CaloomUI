@@ -5506,10 +5506,9 @@ li .aalto-navbar {
   padding: 10px 15px 8px 15px;
 }
 .aalto-mark {
-  font-size: 42px;
-  line-height: 40px;
+  font-size: 70px;
+  line-height: 70px;
   font-weight: bold;
-  color: #ffffff;
   display: inline-block;
   float: left;
 }
@@ -5517,18 +5516,21 @@ li .aalto-navbar {
   color: #fcc20a;
 }
 .aalto-a {
-  color: #ffffff;
+  color: #0a0a0a;
 }
 .aalto-university,
 .aalto-gi {
-  padding-left: 5px;
+  padding-left: 0px;
+  margin-left: 0px;
   font-size: 12.6px;
-  line-height: 4px;
+  line-height: 10px;
   font-weight: normal;
+  text-align: left;
+  letter-spacing: 2px;
 }
 .aalto-gi,
 .aalto-gi a {
-  color: #ffffff;
+  color: #7f786d;
 }
 .aalto-gi a:hover {
   text-decoration: none;

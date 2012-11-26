@@ -14,15 +14,22 @@
 <div class="subnavbar">
     <div class="subnavbar-inner" ">
     <div class="container">
-        <ul class="mainnav">
-            <li class="dropdown" style="margin-top: 8px">
-                <a href="oip-layout-landing.phtml">
-                    <span class="aalto-mark aalto-a" style="color: black">A</span>
+        <ul class="mainnav aaltoLogoType">
+            <li style="min-width: 0px;margin-top: 2px">
+                <a href="oip-layout-landing.phtml" style="padding-right: 0px;padding-left: 15px">
+                    <span class="aalto-mark aalto-a">A</span>
                     <span class="aalto-mark">?</span>
-                    <br style="clear: both">
-                    <span>Aalto Global Impact <i class="icon-home"></i></span>
                 </a>
             </li>
+            <li style="margin-top: 15px">
+                <a href="oip-layout-landing.phtml" class="aalto-gi">
+                    <span>Aalto</span><br>
+                    <span>Global</span><br>
+                    <span>Impact</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="mainnav">
             <li>
                 <a href="oip-layout-map.phtml">
                     <i class="icon-map-marker map"></i>
