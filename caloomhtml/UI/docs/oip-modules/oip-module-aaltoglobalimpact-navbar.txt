@@ -8,12 +8,11 @@
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-                <li class="taik"><a href="http://arts.aalto.fi/en/">School of Arts, Design and Architecture</a></li>
-                <li class="hse"><a href="http://business.aalto.fi/en/">School of Business</a></li>
-                <li class="chem"><a href="http://chem.aalto.fi/en/">School of Chemical Technology</a></li>
-                <li class="elec"><a href="http://elec.aalto.fi/en/">School of Electrical Engineering</a></li>
-                <li class="eng"><a href="http://eng.aalto.fi/en/">School of Engineering</a></li>
-                <li class="sci"><a href="http://sci.aalto.fi/en/" style="border: none;">School of Science</a></li>
+                <li class="taik"><a href="../www-public/oip-layout-activities-summary.phtml">Homepage</a></li>
+                <li class="hse"><a href="../www-public/oip-layout-map.phtml">Map</a></li>
+                <li class="chem"><a href="../www-public/oip-layout-news.phtml">News</a></li>
+                <li class="elec"><a href="../www-public/oip-layout-about.phtml">About</a></li>
+                <li class="eng"><a href="../www-public/oip-layout-activities-summary.phtml"style="border: none;">Activities</a></li>
             </ul>
         </li>
     </ul>
