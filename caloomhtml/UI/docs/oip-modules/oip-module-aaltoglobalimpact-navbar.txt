@@ -1,8 +1,8 @@
-    <ul class="mainnav">
+    <ul class="nav">
         <li class="dropdown aalto-navbar">
             <a href="" class="dropdown-toggle" data-toggle="dropdown"
                     style="
-                    color: #716b63 !important;
+                    color: rgba(127, 120, 109, 0.7) !important;
                     ">
                 <span style="">Aalto Global Impact</span>
                 <b class="caret"></b>

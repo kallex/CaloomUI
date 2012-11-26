@@ -2,25 +2,23 @@
     <div class="navbar-inner">
         <div class="container">
             <?php include'../oip-modules/oip-module-aaltoglobalimpact-navbar.txt'?></php>
-            <div class="nav-collapse">
-                <ul class="nav pull-right">
-                    <li class="dropdown">
-                        <a id="edittoggle"<i class="icon-pencil"></i> Edit</a> </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="icon-user"></i>
-                            My Account
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="oip-layout-account-welcome.phtml">Welcome Page</a></li>
-                            <li><a href="oip-layout-account-edit.phtml">My Profile</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/TheBallLogin.aspx?SignOut=true">Logout</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div><!--/.nav-collapse -->
+            <ul class="nav pull-right">
+                <li class="dropdown">
+                    <a id="edittoggle"<i class="icon-pencil"></i> Edit</a> </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-user"></i>
+                        My Account
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="oip-layout-account-welcome.phtml">Welcome Page</a></li>
+                        <li><a href="oip-layout-account-edit.phtml">My Profile</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/TheBallLogin.aspx?SignOut=true">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div> <!-- /container -->
     </div> <!-- /navbar-inner -->
 </div> <!-- /navbar -->
