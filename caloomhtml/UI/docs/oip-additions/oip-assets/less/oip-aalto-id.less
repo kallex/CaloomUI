@@ -131,15 +131,15 @@ li [class^="icon-"], li [class*=" icon-"]{
 
 /*coloring for the account navbar*/
 .navbar-account-border {
-  border-bottom: 3px solid @accountNavbarBorder;
+  //border-bottom: 3px solid @accountNavbarBorder;
 }
 
 .navbar-account-background {
-  background-color: @account;
+  //background-color: @account;
 }
 
 .navbar-account-background .container > ul > li > a {
-  color: @accountNavbarText;
+  //color: @accountNavbarText;
 }
 
 .navbar-account-background .container > ul > li > a:hover {
@@ -149,9 +149,9 @@ li [class^="icon-"], li [class*=" icon-"]{
 
 .navbar-account-background .container > ul > li,
 .navbar-account-background .container > ul > li.group-name {
-  border-left: 1px solid @accountNavbarBorder;
-  border-right: 1px solid @accountNavbarBorder;
-  border-top: 0px solid @accountNavbarBorder;
+  border-left: 1px solid rgba(0,0,0,.1);
+  border-right: 1px solid rgba(0,0,0,.1);
+  border-top: 0px solid rgba(0,0,0,.1);
 }
 
 
@@ -269,7 +269,7 @@ li [class^="icon-"], li [class*=" icon-"]{
 }
 
 
-// custom navbar color coding foor Aalto Global Impact
+// custom navbar color coding for Aalto Global Impact
 .news {
   color: @aaltoFuchsia;
 }
@@ -282,7 +282,9 @@ li [class^="icon-"], li [class*=" icon-"]{
 .map {
   color: @aaltoTurquoise;
 }
-
+.group {
+  color: @aaltoRed;
+}
 // Container and Well
 
 #container-focus {
@@ -524,7 +526,6 @@ ul.header-first li.eng a,
 
 
 
-// Aalto logotype in text
 .aalto-background {
   background-color: transparent;
   padding: 4px;
@@ -548,7 +549,9 @@ li .aalto-navbar {
   padding: 10px 15px 8px 15px;
 }
 
-
+//
+// Aalto logotype in text
+//
 .aalto-mark {
   font-size: (@baseFontSize *5);
   line-height: (@baseFontSize *5);
@@ -589,7 +592,9 @@ li .aalto-navbar {
   text-decoration: none;
 }
 
+//
 /*edittoggle styling in navbar */
+//
 #edittoggle {
   width: inherit;
   text-align: inherit;

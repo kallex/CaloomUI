@@ -1,18 +1,15 @@
     <ul class="nav">
-        <li class="dropdown aalto-navbar">
-            <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                    style="
-                    color: rgba(127, 120, 109, 0.7) !important;
-                    ">
+        <li class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown"">
                 <span style="">Aalto Global Impact</span>
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-                <li class="taik"><a href="../www-public/oip-layout-activities-summary.phtml">Homepage</a></li>
-                <li class="hse"><a href="../www-public/oip-layout-map.phtml">Map</a></li>
-                <li class="chem"><a href="../www-public/oip-layout-news.phtml">News</a></li>
-                <li class="elec"><a href="../www-public/oip-layout-about.phtml">About</a></li>
-                <li class="eng"><a href="../www-public/oip-layout-activities-summary.phtml"style="border: none;">Activities</a></li>
+                <li><a href="../www-public/oip-layout-activities-summary.phtml">Homepage</a></li>
+                <li><a href="../www-public/oip-layout-map.phtml">Map</a></li>
+                <li><a href="../www-public/oip-layout-news.phtml">News</a></li>
+                <li><a href="../www-public/oip-layout-about.phtml">About</a></li>
+                <li><a href="../www-public/oip-layout-activities-summary.phtml"style="border: none;">Activities</a></li>
             </ul>
         </li>
     </ul>

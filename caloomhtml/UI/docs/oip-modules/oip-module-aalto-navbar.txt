@@ -1,5 +1,5 @@
     <a class="aalto-navbar" href="http://www.aalto.fi/en">Aalto.fi</a>
-    <ul class="mainnav">
+    <ul>
         <li class="dropdown aalto-navbar">
             <a href="" class="dropdown-toggle" data-toggle="dropdown"
                     style="

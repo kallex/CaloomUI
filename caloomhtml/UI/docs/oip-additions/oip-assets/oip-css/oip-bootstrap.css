@@ -5164,24 +5164,15 @@ li [class*=" icon-"] {
   text-decoration: none;
 }
 /*coloring for the account navbar*/
-.navbar-account-border {
-  border-bottom: 3px solid #aebacb;
-}
-.navbar-account-background {
-  background-color: #445369;
-}
-.navbar-account-background .container > ul > li > a {
-  color: #eceff3;
-}
 .navbar-account-background .container > ul > li > a:hover {
   background-color: #282f38;
   color: #be474e;
 }
 .navbar-account-background .container > ul > li,
 .navbar-account-background .container > ul > li.group-name {
-  border-left: 1px solid #aebacb;
-  border-right: 1px solid #aebacb;
-  border-top: 0px solid #aebacb;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 0px solid rgba(0, 0, 0, 0.1);
 }
 /*coloring for the group navbar*/
 .navbar-group-border {
@@ -5288,6 +5279,9 @@ li [class*=" icon-"] {
 }
 .map {
   color: #1e9ca8;
+}
+.group {
+  color: #e61733;
 }
 #container-focus {
   margin-top: 10px;
