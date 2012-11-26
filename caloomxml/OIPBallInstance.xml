@@ -942,6 +942,8 @@
         <InformationItems>
           <InformationItem name="SubmitTime" logicalDataType="Time_DateTime"/>
           <InformationItem name="ProcessingStartTime" logicalDataType="Time_DateTime"/>
+          <InformationItem name="ProcessingEndTimeInformationObjects" logicalDataType="Time_DateTime"/>
+          <InformationItem name="ProcessingEndTimeWebTemplatesRendering" logicalDataType="Time_DateTime"/>
           <InformationItem name="ProcessingEndTime" logicalDataType="Time_DateTime"/>
           <InformationItem name="SubscriptionTargetCollection" logicalDataType="InformationObject" informationObjectName="SubscriptionTargetCollection" />
         </InformationItems>
