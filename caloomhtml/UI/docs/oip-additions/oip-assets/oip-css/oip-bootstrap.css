@@ -5316,8 +5316,8 @@ li [class*=" icon-"] {
 .activity-header {
   background-image: url("../oip-images/ui/well-activity-header-background.png");
 }
-.latest-header {
-  background-image: url("../oip-images/ui/well-latest-header-background.png");
+.account-header {
+  background-image: url("../oip-images/ui/well-account-header-background.png");
 }
 .small > .hero-unit {
   padding: 0px;
