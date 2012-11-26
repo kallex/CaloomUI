@@ -14,8 +14,7 @@
                     <a href="" style="background-image: url(../oip-additions/oip-assets/oip-images/ui/oip-account-navbar-background.png);width: 200px"></a>
                 </li>
                 <li class="group-name" style="border-left: none">
-                    <a href="#"> <img src="../oip-additions/oip-assets/oip-images/placeholder/andrew.png" width="34" height="34" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 6px;height: 34px;width: 34px;margin-bottom: 0px;padding: 1px">
-                        <span>My Name :</span>
+                    <a href="#"> <img src="../oip-additions/oip-assets/oip-images/placeholder/andrew.png" width="60" height="60" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 10px;height: 60px;width: 60px;margin-bottom: 0px;padding: 1px">
                     </a>
                 </li>
                 <li class="dropdown">

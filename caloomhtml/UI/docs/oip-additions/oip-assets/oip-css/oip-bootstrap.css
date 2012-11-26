@@ -5164,10 +5164,6 @@ li [class*=" icon-"] {
   text-decoration: none;
 }
 /*coloring for the account navbar*/
-.navbar-account-background .container > ul > li > a:hover {
-  background-color: #282f38;
-  color: #be474e;
-}
 .navbar-account-background .container > ul > li,
 .navbar-account-background .container > ul > li.group-name {
   border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -5183,10 +5179,6 @@ li [class*=" icon-"] {
 }
 .navbar-group-background .container > ul > li > a {
   color: #cdd8d0;
-}
-.navbar-group-background .container > ul > li > a:hover {
-  background-color: #232b24;
-  color: #be474e;
 }
 .navbar-group-background .container > ul > li,
 .navbar-group-background .container > ul > li.group-name {
@@ -5246,11 +5238,6 @@ li [class*=" icon-"] {
   top: -6px;
   left: 10px;
 }
-.subnavbar .caret {
-  margin-top: 4px;
-  border-top-color: white;
-  border-bottom-color: white;
-}
 .subnavbar .dropdown.open .caret {
   display: none;
 }
@@ -5282,6 +5269,10 @@ li [class*=" icon-"] {
 }
 .group {
   color: #e61733;
+}
+.dropdown .caret {
+  margin-top: 2px;
+  margin-left: 2px;
 }
 #container-focus {
   margin-top: 10px;
