@@ -5164,27 +5164,12 @@ li [class*=" icon-"] {
   text-decoration: none;
 }
 /*coloring for the account navbar*/
-.navbar-account-background .container > ul > li,
+.navbar-group-background .container > ul > li,
+.navbar-group-background .container > ul > li.group-name .navbar-account-background .container > ul > li,
 .navbar-account-background .container > ul > li.group-name {
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 0px solid rgba(0, 0, 0, 0.1);
-}
-/*coloring for the group navbar*/
-.navbar-group-border {
-  border-bottom: 3px solid #f5e6e8;
-}
-.navbar-group-background {
-  background-color: #ba5560;
-}
-.navbar-group-background .container > ul > li > a {
-  color: #ffffff;
-}
-.navbar-group-background .container > ul > li,
-.navbar-group-background .container > ul > li.group-name {
-  border-left: 1px solid #f5e6e8;
-  border-right: 1px solid #f5e6e8;
-  border-top: 0px solid #f5e6e8;
 }
 /* icons*/
 .subnavbar .container > ul > li > a > i {
@@ -5609,6 +5594,12 @@ li .aalto-navbar {
 }
 .oip-account {
   color: #5e9560;
+}
+.oip-about {
+  color: #5e9560;
+}
+.oip-public {
+  color: #7f786d;
 }
 .oip-news-header {
   background-image: url("../oip-images/ui/oip-well-news-header-background.png");

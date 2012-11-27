@@ -1,4 +1,4 @@
-<div class="services activities small">
+<div class="services oip-activity-header small">
     <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 </div>
 <div class="row-fluid">
