@@ -5077,7 +5077,6 @@ a.badge:hover {
 body {
   background-color: #ffffff;
   background-image: url(../oip-images/ui/yt-background-image-brown.png);
-  height: 100%;
 }
 p {
   font-weight: 200;
@@ -5560,12 +5559,13 @@ li .aalto-navbar {
   min-height: 400px !important;
 }
 .footer {
-  padding: 70px 0;
+  padding: 30px 0;
   margin-top: 70px;
   border-top: 3px solid #ffffff;
   background-color: #f6f6f5;
   background-image: url("../oip-images/ui/yt-footer-background-image.png");
   bottom: 0px;
+  min-width: 100%;
 }
 /* End Aalto Visual Identity Additions */
 /*Openlayers Additions*/

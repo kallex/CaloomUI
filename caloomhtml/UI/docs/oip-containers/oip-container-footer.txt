@@ -1,9 +1,29 @@
 <footer class="footer">
-    <div class="container">
+    <div class="container"><div class="span12">
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>The <a id="edittoggle">Open</a> Innovation Platform is offered to you by Aalto Global Impact, and Aalto University organisation</p>
-        <p>All content licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p>Icons from <a href="http://glyphicons.com">Glyphicons Pro</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+    </div>
+        <div class="span3">
+            <ul class="unstyled">
+                <li >
+                    <a href="http://www.aalto.fi/en">Aalto.fi</a>
+                    <ul class="unstyled">
+                        <li class="taik"><a href="http://arts.aalto.fi/en/">School of Arts, Design and Architecture</a></li>
+                        <li class="hse"><a href="http://business.aalto.fi/en/">School of Business</a></li>
+                        <li class="chem"><a href="http://chem.aalto.fi/en/">School of Chemical Technology</a></li>
+                        <li class="elec"><a href="http://elec.aalto.fi/en/">School of Electrical Engineering</a></li>
+                        <li class="eng"><a href="http://eng.aalto.fi/en/">School of Engineering</a></li>
+                        <li class="sci"><a href="http://sci.aalto.fi/en/" style="border: none;">School of Science</a></li>
+                    </ul>
+                </li>
+            </ul>        </div>
+        <div class="span3 offset1">
+            <p>Aalto Global Impact has been formed to bring together these existing parties working in societal issues and to help them develop their activities further</p>
+        </div>
+        <div class="span3 offset1">
+            <p>The <a id="edittoggle">Open</a> Innovation Platform is offered to you by Aalto Global Impact, and Aalto University organisation</p>
+            <p>All content licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+            <p>Icons from <a href="http://glyphicons.com">Glyphicons Pro</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        </div>
     </div>
 </footer>
 
