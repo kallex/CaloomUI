@@ -9,19 +9,7 @@
     <div class="subnavbar-inner" ">
     <div class="container">
         <ul class="mainnav aaltoLogoType">
-            <li style="min-width: 0px;margin-top: 2px">
-                <a href="oip-layout-landing.phtml" style="padding-right: 0px;padding-left: 15px">
-                    <span class="aalto-mark aalto-a">A</span>
-                    <span class="aalto-mark">?</span>
-                </a>
-            </li>
-            <li style="margin-top: 15px">
-                <a href="oip-layout-landing.phtml" class="aalto-gi">
-                    <span>Aalto</span><br>
-                    <span>Global</span><br>
-                    <span>Impact</span>
-                </a>
-            </li>
+            <?php include'../oip-modules/oip-module-logotype-old.txt'?></php>
         </ul>
         <ul class="mainnav">
             <li>

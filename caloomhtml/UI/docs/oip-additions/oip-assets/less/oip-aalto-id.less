@@ -550,13 +550,65 @@ li .aalto-navbar {
 }
 
 //
+// Aalto logotype in text OLD!
+//
+.aalto-mark-old {
+  font-size: (@baseFontSize *3);
+  line-height: (@baseFontSize *2.6);
+  font-weight: bold;
+//color: lighten(@bodyBackground,100%);
+  display: inline-block;
+  float: left;
+  margin-top: 2px;
+}
+.aalto-mark-old {
+  color: @aaltoRed;
+  clear: right;
+}
+
+.aalto-a-old {
+  color: @aaltoBlack;
+}
+
+
+.aalto-university-old, .aalto-gi-old {
+//  display: inline-block;
+//clear: both;
+  padding-left:0px;
+  margin-left: 0px;
+  font-size: (@baseFontSize *0.9);
+  line-height: (@baseLineHeight *0.7);
+  font-weight: normal;
+//  margin-left:0px;
+//line-height: 10px;
+  text-align: left;
+  letter-spacing: .5px;
+  float: left;
+
+
+}
+.aalto-gi-old, .aalto-gi-old a {
+  color: @aaltoGray;
+}
+
+.aalto-gi-old a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+//
 // Aalto logotype in text
 //
 .aalto-mark {
   font-size: (@baseFontSize *5);
   line-height: (@baseFontSize *5);
   font-weight: bold;
-  //color: lighten(@bodyBackground,100%);
+//color: lighten(@bodyBackground,100%);
   display: inline-block;
   float: left;
 }
@@ -578,7 +630,7 @@ li .aalto-navbar {
   line-height: (@baseLineHeight *0.5);
   font-weight: normal;
 //  margin-left:0px;
-  //line-height: 10px;
+//line-height: 10px;
   text-align: left;
   letter-spacing: 2px;
 

@@ -1,0 +1,13 @@
+<li style="min-width: 0px;margin-top: 2px">
+    <a href="../www-public/oip-layout-landing.phtml" style="padding-right: 0px;padding-left: 15px">
+        <span class="aalto-mark aalto-a">A</span>
+        <span class="aalto-mark">?</span>
+    </a>
+</li>
+<li style="margin-top: 15px">
+    <a href="../www-public/oip-layout-landing.phtml" class="aalto-gi">
+        <span>Aalto</span><br>
+        <span>Global</span><br>
+        <span>Impact</span>
+    </a>
+</li>

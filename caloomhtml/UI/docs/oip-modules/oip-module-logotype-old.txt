@@ -1,0 +1,11 @@
+<li xmlns="http://www.w3.org/1999/html">
+        <p>
+            <span class="aalto-mark-old aalto-a-old">A</span>
+            <span class="aalto-mark-old">!</span>
+        </p>
+        <p>
+            <span class="aalto-university-old">Aalto University</span><br>
+            <span class="aalto-gi-old"><a href="../www-public/oip-layout-landing.phtml">Aalto Global Impact</a></span>
+        </p>
+    </a>
+</li>

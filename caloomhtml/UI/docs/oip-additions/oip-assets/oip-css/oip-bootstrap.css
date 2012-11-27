@@ -5490,6 +5490,39 @@ li .aalto-navbar {
   font-size: 12px;
   padding: 10px 15px 8px 15px;
 }
+.aalto-mark-old {
+  font-size: 42px;
+  line-height: 36.4px;
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+  margin-top: 2px;
+}
+.aalto-mark-old {
+  color: #e61733;
+  clear: right;
+}
+.aalto-a-old {
+  color: #0a0a0a;
+}
+.aalto-university-old,
+.aalto-gi-old {
+  padding-left: 0px;
+  margin-left: 0px;
+  font-size: 12.6px;
+  line-height: 14px;
+  font-weight: normal;
+  text-align: left;
+  letter-spacing: .5px;
+  float: left;
+}
+.aalto-gi-old,
+.aalto-gi-old a {
+  color: #7f786d;
+}
+.aalto-gi-old a:hover {
+  text-decoration: none;
+}
 .aalto-mark {
   font-size: 70px;
   line-height: 70px;
