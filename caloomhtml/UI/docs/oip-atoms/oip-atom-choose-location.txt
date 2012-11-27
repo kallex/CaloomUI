@@ -1,5 +1,5 @@
 <label class="checkbox">
-    <input type="checkbox"><a data-toggle="modal" href="#view-location" class="noteditable">[!ATOM]Location.LocationName[ATOM!]</a>
+    <input type="checkbox" id="[!ATOM]ID[ATOM!]_Selected"><a data-toggle="modal" href="#view-location" class="noteditable">[!ATOM]Location.LocationName[ATOM!]</a>
 </label>
 <a class='remoteurlmodal' data-url='[!ATOM]ReferenceToInformation.URL[ATOM!]'>Edit Location: [!ATOM]ReferenceToInformation.Title[ATOM!]</a>
 

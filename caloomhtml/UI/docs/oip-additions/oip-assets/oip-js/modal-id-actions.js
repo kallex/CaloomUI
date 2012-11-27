@@ -44,3 +44,5 @@ $(".remoteurlmodal").on('click', function () {
     $("#" + modal_body).load(url);
     $("#" + modal_id).modal('show');
 });
+
+//SelectedIDCommaSeparated

@@ -1,15 +1,42 @@
 <!--oip-module-locations-choose-current.txt-->
 <div id="identity" class="span11" style="margin-top:10px;min-height:300px">
 	<form id="" method="post" class="form-horizontal ">
-<!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.LocationContainer:Locations -->
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.LocationContainer:Locations -->
 		<fieldset id="current-locations">
-		<div class="control-group">
-			<label class="control-label">List of locations used</label> 
-			<div class="controls">
-                <?php include '../oip-atoms/oip-atom-choose-location.txt' ?><!-- UseInformationObjectAsCollection:Locations -->
+			<div class="control-group">
+				<label class="control-label">List of locations used</label> 
+				<div id="SelectedLocations_[!ATOM]Locations.ID[ATOM!]" class="controls">
+					<?php include '../oip-atoms/oip-atom-choose-location.txt' ?><!-- UseInformationObjectAsCollection:Locations -->
+				</div>
 			</div>
-		</div>
+<script type="text/javascript">
+	$(function () {
+		$('#SelectedLocations_[!ATOM]Locations.ID[ATOM!] input').each(function (index) {
+			$(this).prop('checked', false);
+		});
+
+		$('#SelectedLocations_[!ATOM]Locations.ID[ATOM!] input').on("click", function (event) {
+			var selected = new Array();
+			$('#SelectedLocations_[!ATOM]Locations.ID[ATOM!] input:checked').each(function () {
+				selected.push($(this).attr('id'));
+			});
+// <!-- THEBALL-CONTEXT-END:* -->
+			// Context switch here!
+			$("#[!ATOM]LocationCollection.ID[ATOM!]_SelectedIDCommaSeparated").val(selected.join(",").split("_Selected").join(""));
+			// alert($("#[!ATOM]LocationCollection.ID[ATOM!]_SelectedIDCommaSeparated").val());
+		});
+
+		var initializationArray = $("#[!ATOM]LocationCollection.ID[ATOM!]_SelectedIDCommaSeparated").val().split(",");
+		$.each(initializationArray, function (index, value) {
+			$("#" + value + "_Selected").prop('checked', true);
+		});
+
+	});
+</script>
+			<input type="hidden" id="[!ATOM]LocationCollection.ID[ATOM!]_SelectedIDCommaSeparated" name="[!ATOM]LocationCollection.ID[ATOM!]_SelectedIDCommaSeparated" value="[!ATOM]LocationCollection.SelectedIDCommaSeparated[ATOM!]">
+
+
             <div class="control-group controls">
                 <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
 		            <a href="#add-location" role="button" class="btn" data-toggle="modal">Add Location</a>
@@ -17,7 +44,6 @@
             </div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 	</fieldset>
-<!-- THEBALL-CONTEXT-END:* -->
 </form>
 </div>
 

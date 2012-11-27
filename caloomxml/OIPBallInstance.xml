@@ -489,7 +489,7 @@
           <InformationItem name="CollaboratingOrganizations" logicalDataType="InformationObject" informationObjectName="CollaboratingOrganizationCollection"/>
           -->
           <InformationItem name="Activities" logicalDataType="InformationObject" informationObjectName="ActivityCollection"/>
-          <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="LocationCollection"/>
+          <InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
         </InformationItems>
       </InformationObject>
 
