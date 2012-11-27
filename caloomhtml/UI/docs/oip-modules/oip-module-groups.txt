@@ -9,7 +9,7 @@
     <div class="tab-content tab-border">
         <div class="tab-pane active" id="tab-profile"><?php include'../oip-modules/oip-module-group-profile.txt'  ?><!--UseInformationObject:GroupProfile --></div>
         <div class="tab-pane" id="tab-collaborators"><?php include'../oip-modules/oip-module-collaborators.txt' ?></div>
-        <div class="tab-pane" id="tab-images"><?php include'../oip-modules/oip-module-images.txt'  ?><!--UseInformationObject:GroupProfile --></div>
+        <div class="tab-pane" id="tab-images"><?php include'../oip-modules/oip-module-imagegroups-choose-current.txt' ?></div>
         <div class="tab-pane" id="tab-group-locations-current"><?php include'../oip-modules/oip-module-locations-choose-current.txt' ?></div>
         <div class="tab-pane" id="tab-group-delete"><?php include'../oip-modules/oip-module-group-delete.txt' ?></div>
     </div>

@@ -35,8 +35,6 @@
 	});
 </script>
 			<input type="hidden" id="[!ATOM]LocationCollection.ID[ATOM!]_SelectedIDCommaSeparated" name="[!ATOM]LocationCollection.ID[ATOM!]_SelectedIDCommaSeparated" value="[!ATOM]LocationCollection.SelectedIDCommaSeparated[ATOM!]">
-
-
             <div class="control-group controls">
                 <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
 		            <a href="#add-location" role="button" class="btn" data-toggle="modal">Add Location</a>

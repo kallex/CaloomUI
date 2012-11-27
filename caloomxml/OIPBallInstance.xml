@@ -413,7 +413,7 @@
           <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
           <InformationItem name="Description" logicalDataType="Text_Long"/>
           <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
-          <InformationItem name="ImageSets" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
+          <InformationItem name="ImageGroupCollection" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
           <!-- Uncommented for test -->
           <InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
           <!-- Uncomment ends -->
@@ -489,6 +489,7 @@
           <InformationItem name="CollaboratingOrganizations" logicalDataType="InformationObject" informationObjectName="CollaboratingOrganizationCollection"/>
           -->
           <InformationItem name="Activities" logicalDataType="InformationObject" informationObjectName="ActivityCollection"/>
+          <InformationItem name="ImageGroupCollection" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
           <InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
         </InformationItems>
       </InformationObject>
@@ -565,7 +566,6 @@
           <InformationItem name="Description" logicalDataType="Text_Long"/>
           <InformationItem name="OrganizationsAndGroupsLinkedToUs" logicalDataType="Text_Long"/>
           <InformationItem name="Moderators" logicalDataType="InformationObject" informationObjectName="ModeratorCollection"/>
-          <InformationItem name="ImageSets" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
           <InformationItem name="CategoryCollection" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
         </InformationItems>
       </InformationObject>
@@ -589,7 +589,7 @@
           <InformationItem name="Published" logicalDataType="Time_DateTime" />
           <InformationItem name="Author" logicalDataType="Text_Short" />
           <InformationItem name="FeaturedImage" logicalDataType="InformationObject" informationObjectName="Image"/>
-          <InformationItem name="ImageGroup" informationObjectName="ImageGroup" logicalDataType="InformationObject" />
+          <InformationItem name="ImageGroupCollection" informationObjectName="ImageGroupCollection" logicalDataType="InformationObject" />
           <InformationItem name="VideoGroup" informationObjectName="VideoGroup" logicalDataType="InformationObject" />
           <InformationItem name="Body" logicalDataType="Text_Long" />
           <InformationItem name="Excerpt" logicalDataType="Text_Long" />
