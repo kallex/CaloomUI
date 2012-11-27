@@ -2,7 +2,7 @@
     <div class="navbar-inner">
         <div class="container oip-navbar">
             <?php include'../oip-modules/oip-module-aaltoglobalimpact-navbar.txt'?></php><!-- navigation to www.aaltoglobalimpact.org -->
-            <?php include'../oip-modules/oip-module-nav-right.txt' ?></php><!-- edit and my account menus-->
+            <?php include'../oip-modules/oip-module-account-nav-right.txt' ?></php><!-- edit and my account menus-->
         </div>
     </div>
 </div>
@@ -19,7 +19,7 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="icon-book news"></i>
+                        <i class="icon-book oip-news"></i>
                         <span>News</span>
                         <b class="caret"></b>
                     </a>
@@ -31,7 +31,7 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="icon-group group"></i>
+                        <i class="icon-group oip-group"></i>
                         <span>Groups</span>
                         <b class="caret"></b>
                     </a>
@@ -43,7 +43,7 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="icon-bullhorn activity"></i>
+                        <i class="icon-bullhorn oip-activity"></i>
                         <span>Activities</span>
                         <b class="caret"></b>
                     </a>
