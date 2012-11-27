@@ -5565,7 +5565,9 @@ li .aalto-navbar {
   border-top: 3px solid #ffffff;
   background-color: #f6f6f5;
   background-image: url("../oip-images/ui/yt-footer-background-image.png");
+  position: absolute;
   bottom: 0px;
+  min-width: 100%;
 }
 /* End Aalto Visual Identity Additions */
 /*Openlayers Additions*/
