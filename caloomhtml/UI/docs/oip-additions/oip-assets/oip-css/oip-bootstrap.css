@@ -5490,6 +5490,9 @@ li .aalto-navbar {
   font-size: 12px;
   padding: 10px 15px 8px 15px;
 }
+.aaltoLogoType {
+  margin-left: 15px !important;
+}
 .aalto-mark-old {
   font-size: 42px;
   line-height: 36.4px;
