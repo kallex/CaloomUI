@@ -13,9 +13,22 @@
                 <li class="account" style="border: none">
                     <a href="" style="background-image: url(../oip-additions/oip-assets/oip-images/ui/oip-group-navbar-background.png);width: 200px"></a>
                 </li>
-                <li class="group-name" style="border-left: none">
-                    <a href="#"> <img src="../oip-additions/oip-assets/oip-images/placeholder/aalto-group-core.png" width="60" height="60" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 10px;height: 60px;width: 60px;margin-bottom: 0px;padding: 1px">
+                <li class="dropdown group-name">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="../oip-additions/oip-assets/oip-images/placeholder/aalto-group-core.png" width="34" height="34" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 6px;height: 34px;width: 34px;margin-bottom: 0px;padding: 1px">
+                            <span style="">Group Name :</span>
+                        <b class="caret"></b>
                     </a>
+                    <ul class="dropdown-menu">
+                        <!--<li> <a href="oip-layout-groups-view.phtml"> Profile View</a> </li>-->
+                        <li> <a href="oip-layout-groups-edit.phtml"> Edit this group</a> </li>
+                        <!--<li class="divider"></li>
+                        <li> <a href="#"> My group</a> </li>
+                        <li class="divider"></li>
+                        <li><a tabindex="-1" href="#">Group A</a></li>
+                        <li><a tabindex="-1" href="#">Group B</a></li>
+                        <li><a tabindex="-1" href="#">Group C</a></li> -->
+                    </ul>
+                </li>
                 </li>
                 <li>
                     <a href="oip-layout-map.phtml">
@@ -122,8 +135,8 @@
     </div>
     <div class="modal-body">
         <form method="post" class="form-horizontal">
-<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddActivityInfo:AddActivity -->
-<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddActivityInfo:AddActivity -->
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
                     <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Name of the activity</label>
@@ -134,7 +147,7 @@
 
                 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
             </fieldset>
-<!-- THEBALL-CONTEXT-END:* -->
+            <!-- THEBALL-CONTEXT-END:* -->
         </form>
     </div>
 </div>
@@ -149,8 +162,8 @@
     </div>
     <div class="modal-body">
         <form method="post" class="form-horizontal">
-<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddBlogPostInfo:AddBlogPost -->
-<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddBlogPostInfo:AddBlogPost -->
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <fieldset>
                 <div class="control-group">
                     <label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title of the blog article</label>
@@ -160,45 +173,45 @@
                 </div>
                 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
             </fieldset>
-<!-- THEBALL-CONTEXT-END:* -->
+            <!-- THEBALL-CONTEXT-END:* -->
         </form>
     </div>
 </div>
 
 <div class="modal hide fade" id="publishtowww">
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal">close</button> 
-	</div>
-	<form method="post">
-		<div class="modal-body">
-			<input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-			<p name="question" id="question">Publish the current www content to group-assigned www pages?</p>
-			<div class="control-group controls">
-				<div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
-					<button value="true" name="btnCancel" class="btn">No</button>
-					<button type="submit" class="btn btn-primary" name="RootSourceAction" value="PublishGroupWwwContent">Yes!</button>
-				</div>
-			</div>
-		</div>
-	</form>
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+            <p name="question" id="question">Publish the current www content to group-assigned www pages?</p>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">No</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" value="PublishGroupWwwContent">Yes!</button>
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
 
 <div class="modal hide fade" id="publishtogrouppublic">
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal">close</button> 
-	</div>
-	<form method="post">
-		<div class="modal-body">
-			<input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-			<p name="question" id="question">Publish the current public content to group public area?</p>
-			<div class="control-group controls">
-				<div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
-					<button value="true" name="btnCancel" class="btn">No</button>
-					<button type="submit" class="btn btn-primary" name="RootSourceAction" value="PublishGroupPublicContent">Yes!</button>
-				</div>
-			</div>
-		</div>
-	</form>
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+            <p name="question" id="question">Publish the current public content to group public area?</p>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">No</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" value="PublishGroupPublicContent">Yes!</button>
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
 
 

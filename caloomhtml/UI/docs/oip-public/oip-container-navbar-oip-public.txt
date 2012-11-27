@@ -1,13 +1,12 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
-        <div class="container oip-navbar">
-            <?php include'../oip-modules/oip-module-aaltoglobalimpact-navbar.txt'?></php><!-- navigation to www.aaltoglobalimpact.org -->
-            <!--include'../oip-modules/oip-module-nav-right.txt' ?>--><!-- edit and my account menus-->
+        <div class="container">
+            <?php include'../oip-modules/oip-module-aalto-navbar.txt'?></php>
         </div>
     </div>
 </div>
 <div class="subnavbar">
-    <div class="subnavbar-inner navbar-account-border navbar-account-background">
+    <div class="subnavbar-inner">
         <div class="container">
             <ul class="mainnav">
                 <li class="account" style="border: none">
