@@ -5655,6 +5655,9 @@ li .aalto-navbar {
   .error-container h1 {
     font-size: 72px;
   }
+  .row-fluid [class*="span"] li {
+    margin-left: 0;
+  }
 }
 @media (max-width: 767px) {
   .subnavbar {
@@ -5716,6 +5719,9 @@ li .aalto-navbar {
     margin-left: 0;
     margin-right: 1em;
   }
+  .row-fluid [class*="span"] li {
+    margin-left: 0;
+  }
 }
 /*  oip-aalto-responsive.less */
 @media (max-width: 979px) {
@@ -5726,6 +5732,20 @@ li .aalto-navbar {
   .subnavbar .container {
     width: auto;
   }
+  .row-fluid [class*="span"] li {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .row-fluid [class*="span"] li {
+    margin-left: 0;
+  }
+}
+.row-fluid [class*="span"] li {
+  margin-left: 0;
+}
+.row-fluid .span3 {
+  width: 23%;
 }
 .pull-right {
   float: right;

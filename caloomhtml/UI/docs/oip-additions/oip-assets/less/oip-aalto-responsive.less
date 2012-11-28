@@ -3,6 +3,9 @@
 	.error-container h1 {
 		font-size: 72px;
 	}
+  .row-fluid [class*="span"] li {
+    margin-left: 0;
+  }
 }
 
 //Max Width: 767px]
@@ -79,7 +82,9 @@
 		margin-left: 0;
 		margin-right: 1em;
 	}
-
+  .row-fluid [class*="span"] li {
+    margin-left: 0;
+  }
 }
 
 //Max Width: 979px]
@@ -95,4 +100,26 @@
 	.subnavbar .container {		
 		width: auto;
 	}
+
+  .row-fluid [class*="span"] li {
+    margin-left: 0;
+  }
+}
+
+
+//
+// this is a hack to solve the fitting of the li in the listing of activities 4 in a row
+//
+@media (min-width: 1200px) {
+  .row-fluid [class*="span"] li {
+    margin-left: 0;
+  }
+}
+
+.row-fluid [class*="span"] li {
+  margin-left: 0;
+}
+
+.row-fluid .span3 {
+  width: 23%;
 }
