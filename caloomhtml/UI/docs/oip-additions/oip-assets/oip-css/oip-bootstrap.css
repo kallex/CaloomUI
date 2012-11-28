@@ -5567,8 +5567,13 @@ li .aalto-navbar {
   border-top: 3px solid #ffffff;
   background-color: #f6f6f5;
   background-image: url("../oip-images/ui/yt-footer-background-image.png");
+  font-size: 80%;
   bottom: 0px;
   min-width: 100%;
+}
+.footer p {
+  font-weight: 400;
+  letter-spacing: 0.1em;
 }
 .footer ul {
   padding: 19px;
@@ -5591,13 +5596,9 @@ li .aalto-navbar {
 .footer li {
   list-style-type: none;
   list-style: none;
-  font-size: 12px;
-  font-style: bold;
 }
 .footer li a {
   color: #3d3d3d;
-  font-weight: 200;
-  letter-spacing: 0.1em;
 }
 /* End Aalto Visual Identity Additions */
 /*Openlayers Additions*/

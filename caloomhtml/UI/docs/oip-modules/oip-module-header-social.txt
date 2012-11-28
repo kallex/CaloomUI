@@ -1,0 +1,5 @@
+<div class="hero-unit">
+    <h1><a data-id="" class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">Aalto Global Impact</h1></a>
+    <h1><small><a data-id=""  class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">...and we ARE social</small></h1>
+</div>
+

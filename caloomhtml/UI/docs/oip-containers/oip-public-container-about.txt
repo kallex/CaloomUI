@@ -5,7 +5,10 @@
     <div class="span3">
         <?php include '../oip-modules/oip-module-about.txt' ?>
     </div>
-    <div class="span9">
+    <div class="span6">
         <?php include '../oip-modules/oip-module-activities-summary.txt' ?>
+    </div>
+    <div class="span3">
+        <?php include '../oip-modules/oip-module-social.txt' ?>
     </div>
 </div>

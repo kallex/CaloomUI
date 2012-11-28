@@ -2,7 +2,6 @@
 <a data-toggle="modal" href="#ImagesCollection" rel="tooltip" title="click this image to open this image large and some other images if present">
 <img src="[!ATOM]ContentUrl[ATOM]"  class="thumbnail"/></a>
 <!-- end oip-module-modal-images.txt -->
-<!-- oip-modal-blog-read-more.txt -->
 <div id="ImagesCollection" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button>
@@ -45,5 +44,4 @@
 		</div>
 	</div>
 </div>
-<!-- end oip-modal-blog-read-more.txt -->
 
