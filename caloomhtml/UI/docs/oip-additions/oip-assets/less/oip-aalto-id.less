@@ -35,8 +35,8 @@ p a.noteditable:hover{
   padding: 7px 0;
   padding-bottom: 0px;
   background:#ffffff;
-  //background: darken(@bodyBackground, 40%);
-  //border-bottom: 1px solid #121212;
+//background: darken(@bodyBackground, 40%);
+//border-bottom: 1px solid #121212;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -59,7 +59,7 @@ p a.noteditable:hover{
 .subnavbar-inner {
   height: 80px;
   background: #ffffff;
-  //background: darken(@bodyBackground, 33%);
+//background: darken(@bodyBackground, 33%);
 //background-image: -moz-linear-gradient(top, #414141, #323232);
 // background-image: -ms-linear-gradient(top, #414141, #323232);
 //background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#414141), to(#323232));
@@ -68,7 +68,7 @@ p a.noteditable:hover{
 // background-image: linear-gradient(top, #414141, #323232);
 //background-repeat: repeat-x;
 // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#414141', endColorstr='#323232', GradientType=0);
-  //border-bottom: 1px solid @bodyBackground;
+//border-bottom: 1px solid @bodyBackground;
 }
 
 .subnavbar .container > ul {
@@ -76,8 +76,8 @@ p a.noteditable:hover{
   height: 80px;
   padding: 0;
   margin: 0;
-  //border-left: 1px solid #292929;
-  //border-right: 1px solid #4A4A4A;
+//border-left: 1px solid #292929;
+//border-right: 1px solid #4A4A4A;
 }
 
 .subnavbar .container > ul > li {
@@ -88,9 +88,9 @@ p a.noteditable:hover{
   margin: 0;
   text-align: center;
   list-style: none;
-  //border-left: 1px solid darken(@bodyBackground, 20%);
-  //border-right: 1px solid darken(@bodyBackground, 20%);
-  //border-top: 1px solid darken(@bodyBackground, 20%);
+//border-left: 1px solid darken(@bodyBackground, 20%);
+//border-right: 1px solid darken(@bodyBackground, 20%);
+//border-top: 1px solid darken(@bodyBackground, 20%);
 }
 
 .subnavbar .container > ul > li.group-name {
@@ -101,9 +101,9 @@ p a.noteditable:hover{
   margin: 0;
   text-align: center;
   list-style: none;
-  //border-left: 1px solid darken(@bodyBackground, 33%);
- //border-right: 1px solid darken(@bodyBackground, 33%);
-  //border-top: 1px solid darken(@bodyBackground, 33%);
+//border-left: 1px solid darken(@bodyBackground, 33%);
+//border-right: 1px solid darken(@bodyBackground, 33%);
+//border-top: 1px solid darken(@bodyBackground, 33%);
 }
 .subnavbar .container > ul > li > a > i.group-name {
   display: inline-block;
@@ -120,7 +120,7 @@ p a.noteditable:hover{
   padding: 0 15px;
   font-size: 12px;
   font-weight: normal;
-  //color: lighten(@bodyBackground, 0%);
+//color: lighten(@bodyBackground, 0%);
 //text-shadow: 1px 1px 1px rgba(0,0,0,.2);
 }
 
@@ -130,15 +130,15 @@ li [class^="icon-"], li [class*=" icon-"]{
 
 /*coloring for the account navbar*/
 .navbar-account-border {
-  //border-bottom: 3px solid @accountNavbarBorder;
+//border-bottom: 3px solid @accountNavbarBorder;
 }
 
 .navbar-account-background {
-  //background-color: @account;
+//background-color: @account;
 }
 
 .navbar-account-background .container > ul > li > a {
-  //color: @accountNavbarText;
+//color: @accountNavbarText;
 }
 
 .navbar-account-background .container > ul > li > a:hover {
@@ -258,7 +258,7 @@ li [class^="icon-"], li [class*=" icon-"]{
 }
 
 .dropdown .caret {
-  //margin-top: 2px;
+//margin-top: 2px;
   margin-left: 2px;
 }
 
@@ -329,9 +329,9 @@ li [class^="icon-"], li [class*=" icon-"]{
     font-size: 50% ;font-weight: 100;
   }
   small a {
-      font-size:70%;
-      font-style: italic;
-    }
+    font-size:70%;
+    font-style: italic;
+  }
 
   background-color: none;
   background-image: none !important;
@@ -423,10 +423,10 @@ li [class^="icon-"], li [class*=" icon-"]{
 //activity, blog, group summary span3 additional class for styling of border around small container
 .module-in-row
 {
-  //border-color: #d3d3d3;
-  //border-style: dotted;
-  //padding: 6px;
- // border-width: 1px
+//border-color: #d3d3d3;
+//border-style: dotted;
+//padding: 6px;
+// border-width: 1px
 }
 
 //
@@ -528,7 +528,7 @@ li .aalto-navbar {
 
 
 .aaltoLogoType {
-   margin-left: 15px !important;
+  margin-left: 15px !important;
 }
 
 //
@@ -652,14 +652,40 @@ li .aalto-navbar {
 
 // Footer
 .footer {
-  padding: 30px 0;
+  padding: 20px 0;
   margin-top: 70px;
   border-top: 3px solid lighten(@aaltoGray, 80%);
   background-color:lighten(@aaltoGray, 50%);
   background-image: url("../oip-images/ui/yt-footer-background-image.png");
-  //position: absolute;
+//position: absolute;
   bottom: 0px;
   min-width: 100%;
+  ul {
+    padding: 19px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    background-color: lighten(@bodyBackground,10% );
+    background-image: url(../oip-images/ui/yt-background-image-brown.png);
+    border: 1px solid darken(@wellBackground, 7%);
+    .border-radius(4px);
+    .box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
+  }
+
+  li ul {
+    margin-left: 0px;
+    border: 1px solid lighten(@wellBackground, 30%);
+  }
+  li {
+    list-style-type: none;
+    list-style: none;
+    font-size: 12px;
+    font-style: bold;
+  }
+  li a {
+    color:@textColor;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+  }
 }
 
 /* End Aalto Visual Identity Additions */

@@ -2,11 +2,11 @@
     <div class="container"><div class="span12">
         <p class="pull-right"><a href="#">Back to top</a></p>
     </div>
-        <div class="span3">
-            <ul class="unstyled">
+        <div class="span4">
+            <ul class="aalto-footer">
                 <li >
                     <a href="http://www.aalto.fi/en">Aalto.fi</a>
-                    <ul class="unstyled">
+                    <ul>
                         <li class="taik"><a href="http://arts.aalto.fi/en/">School of Arts, Design and Architecture</a></li>
                         <li class="hse"><a href="http://business.aalto.fi/en/">School of Business</a></li>
                         <li class="chem"><a href="http://chem.aalto.fi/en/">School of Chemical Technology</a></li>
@@ -16,7 +16,7 @@
                     </ul>
                 </li>
             </ul>        </div>
-        <div class="span3 offset1">
+        <div class="span3">
             <p>Aalto Global Impact has been formed to bring together these existing parties working in societal issues and to help them develop their activities further</p>
         </div>
         <div class="span3 offset1">
