@@ -5,9 +5,9 @@
     <div class="span3">
         <?php include '../oip-modules/oip-module-blog-index.txt' ?><!--UseInformationObject:BlogIndexGroup -->
     </div>
-    <div class="span9">
+    <div class="span6">
         <?php include '../oip-modules/oip-module-blog-more.txt' ?><!--UseInformationObjectAsCollection:RecentBlogCollection -->
-        <div class="span9" style="float:right;border-top:1px dotted">
+        <div class="span12" style="float:right;border-top:1px dotted">
             <ul class="pager">
                 <li class="previous">
                     <a href="../oip-common/oip-layout-blog-more.phtml">&larr; Older</a>
@@ -17,5 +17,8 @@
                 </li>
             </ul>
         </div>
+    </div>
+    <div class="span3">
+        <?php include '../oip-modules/oip-module-social.txt' ?>
     </div>
 </div>
