@@ -1,45 +1,33 @@
 <!-- oip-module-modal-images.txt -->
-<a data-toggle="modal" href="#ImagesCollection" rel="tooltip" title="click this image to open this image large and some other images if present">
-<img src="[!ATOM]ContentUrl[ATOM]"  class="thumbnail"/></a>
+<a data-toggle="modal" href="#ImagesCollection[!ATOM]ID[ATOM!]" rel="tooltip" title="click this image to open this image large and some other images if present">[!ATOM]Title[ATOM!]</a>
 <!-- end oip-module-modal-images.txt -->
 <!-- oip-modal-blog-read-more.txt -->
-<div id="ImagesCollection" class="modal hide fade">
+<div id="ImagesCollection[!ATOM]ID[ATOM!]" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button>
-		<h2 class="title">Blog Title</h2>
+		<h2 class="title">[!ATOM]Title[ATOM!]</h2>
+		<p>[!ATOM]Description[ATOM!]</p>
 	</div>
 	<div class="modal-body">
-		<div id="#myCarousel" class="carousel">
+		<div id="#myCarousel[!ATOM]ID[ATOM!]" class="carousel">
 			<!-- Carousel items -->
-			<div class=" columns">
-				<h2>Example carousel</h2>
-				<p>Watch the slideshow below.</p>
-				<div id="myCarousel" class="carousel slide">
+			<div class="columns">
+				<h2>[!ATOM]Title[ATOM!]</h2>
+				<p>[!ATOM]Description[ATOM!]</p>
+				<div id="myCarousel[!ATOM]ID[ATOM!]" class="carousel slide">
 					<div class="carousel-inner">
-						<div class="item active">
-							<img src="[!ATOM]ContentUrl[ATOM]" alt="">
-							<div class="carousel-caption">
-								<h4>First Thumbnail label</h4>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-							</div>
-						</div>
+<!-- THEBALL-CONTEXT-COLLECTION-BEGIN:ImagesCollection -->
 						<div class="item">
-							<img src="[!ATOM]ContentUrl[ATOM]" alt="">
+							<img src="[!ATOM]ImageData.ContentUrl[ATOM!]" alt="[!ATOM]Caption[ATOM!]">
 							<div class="carousel-caption">
-								<h4>Second Thumbnail label</h4>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+								<h4>[!ATOM]Title[ATOM!]</h4>
+								<p>[!ATOM]Caption[ATOM!]</p>
 							</div>
 						</div>
-						<div class="item">
-							<img src="[!ATOM]ContentUrl[ATOM]" alt="">
-							<div class="carousel-caption">
-								<h4>Third Thumbnail label</h4>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-							</div>
-						</div>
+<!-- THEBALL-CONTEXT-END:* -->
 					</div>
-					<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-					<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+					<a class="left carousel-control" href="#myCarousel[!ATOM]ID[ATOM!]" data-slide="prev">‹</a>
+					<a class="right carousel-control" href="#myCarousel[!ATOM]ID[ATOM!]" data-slide="next">›</a>
 				</div>
 			</div>
 		</div>
