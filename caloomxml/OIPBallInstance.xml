@@ -724,6 +724,7 @@
           <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
           <InformationItem name="Title" logicalDataType="Text_Short" />
           <InformationItem name="Description" logicalDataType="Text_Long" />
+          <InformationItem name="FeaturedImage" logicalDataType="InformationObject" informationObjectName="Image"/>
           <InformationItem name="ImagesCollection" informationObjectName="ImagesCollection" logicalDataType="InformationObject" />
         </InformationItems>
       </InformationObject>
