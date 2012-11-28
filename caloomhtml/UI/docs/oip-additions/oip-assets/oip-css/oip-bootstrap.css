@@ -5225,6 +5225,9 @@ li [class*=" icon-"] {
 .subnavbar .dropdown.open .caret {
   display: none;
 }
+.subnavbar .dropdown .caret {
+  margin-top: 4px;
+}
 .subnavbar-inner .alert {
   color: #b94a48;
   background-color: #f2dede;
