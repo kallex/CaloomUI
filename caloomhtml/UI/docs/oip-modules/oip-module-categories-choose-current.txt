@@ -1,0 +1,77 @@
+<!--oip-module-categories-choose-current.txt-->
+<div id="identity" class="span11" style="margin-top:10px;min-height:300px">
+	<form id="" method="post" class="form-horizontal ">
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+<!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.CategoryContainer:Categories -->
+		<fieldset id="current-categories">
+			<div class="control-group">
+				<label class="control-label">List of categories used</label> 
+				<div id="SelectedCategories_[!ATOM]Categories.ID[ATOM!]" class="controls">
+					<?php include '../oip-atoms/oip-atom-choose-category.txt' ?><!-- UseInformationObjectAsCollection:Categories -->
+				</div>
+			</div>
+<script type="text/javascript">
+	$(function () {
+		$('#SelectedCategories_[!ATOM]Categories.ID[ATOM!] input').each(function (index) {
+			$(this).prop('checked', false);
+		});
+
+		$('#SelectedCategories_[!ATOM]Categories.ID[ATOM!] input').on("click", function (event) {
+			var selected = new Array();
+			$('#SelectedCategories_[!ATOM]Categories.ID[ATOM!] input:checked').each(function () {
+				selected.push($(this).attr('id'));
+			});
+// <!-- THEBALL-CONTEXT-END:* -->
+			// Context switch here!
+			$("#[!ATOM]CategoryCollection.ID[ATOM!]_SelectedIDCommaSeparated").val(selected.join(",").split("_Selected").join(""));
+			// alert($("#[!ATOM]CategoryCollection.ID[ATOM!]_SelectedIDCommaSeparated").val());
+		});
+
+		var initializationArray = $("#[!ATOM]CategoryCollection.ID[ATOM!]_SelectedIDCommaSeparated").val().split(",");
+		$.each(initializationArray, function (index, value) {
+			$("#" + value + "_Selected").prop('checked', true);
+		});
+
+	});
+</script>
+			<input type="hidden" id="[!ATOM]CategoryCollection.ID[ATOM!]_SelectedIDCommaSeparated" name="[!ATOM]CategoryCollection.ID[ATOM!]_SelectedIDCommaSeparated" value="[!ATOM]CategoryCollection.SelectedIDCommaSeparated[ATOM!]">
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+		            <a href="#add-category" role="button" class="btn" data-toggle="modal">Add Category</a>
+                </div>
+            </div>
+<?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+	</fieldset>
+</form>
+</div>
+
+<!-- modals -->
+<div id="add-category" class="modal hide fade">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h2 class="title">
+            Add a category
+        </h2>
+    </div>
+    <div class="modal-body">
+        <form method="post" class="form-horizontal">
+
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddCategoryInfo:AddCategory -->
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_CategoryName">Category name</label>
+                    <div class="controls">
+                        <input name="[!ATOM]ID[ATOM!]_CategoryName" class="span11" id="[!ATOM]ID[ATOM!]_CategoryName" type="text" value="[!ATOM]CategoryName[ATOM!]">
+                    </div>
+                </div>
+                <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+            </fieldset>
+<!-- THEBALL-CONTEXT-END:* -->
+        </form>
+    </div>
+</div>
+
+
+<!-- end modals -->
+<!-- end oip-module-categories-choose-current.txt -->

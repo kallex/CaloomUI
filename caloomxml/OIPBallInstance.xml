@@ -544,6 +544,11 @@
           <InformationItem name="Title" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
+      <InformationObject name="AddCategoryInfo" designDesc="Add category">
+        <InformationItems>
+          <InformationItem name="CategoryName" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
 
       <!--
       LocationName
@@ -831,13 +836,19 @@
           <InformationItem name="Raw" logicalDataType="Data_Binary" />
         </InformationItems>
       </InformationObject>
-      <InformationObject name="Category" designDesc="Category">
+      <InformationObject name="CategoryContainer" designDesc="Container for categories">
         <InformationItems>
+          <InformationItem name="Categories" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="Category" designDesc="Category" isIndependentMaster="true">
+        <InformationItems>
+          <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
           <InformationItem name="CategoryName" logicalDataType="Text_Short" />
         </InformationItems>
       </InformationObject>
       <InformationObject name="CategoryCollection" designDesc="Collection of categories">
-        <CollectionFor contentInformationObjectName="Category"/>
+        <CollectionFor contentInformationObjectName="Category" collectionType="Master"/>
       </InformationObject>
       <!--
 			<InformationObject name="What" designDesc="What from 5W core">
