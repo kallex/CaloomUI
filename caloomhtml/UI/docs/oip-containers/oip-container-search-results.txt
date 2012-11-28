@@ -1,5 +1,5 @@
 <?php include '../oip-modules/oip-module-header.txt' ?><!-- UseInformationObject:Header -->
-<div class="row">
+<div class="row-fluid">
     <div class="span3">
         <?php include '../oip-modules/oip-module-search-results-index.txt' ?><!-- UseInformationObject:SearchResultsIndex -->
     </div>
