@@ -3,9 +3,9 @@
 </div>
 <div class="row-fluid">
     <div class="span3">
-        dummy text
+        This is accompanying text written by the Aalto Global Impact team to explain what is the purpose of this page
     </div>
-    <div class="span9" style="margin:0;padding:0">
+    <div class="span9">
         <?php include '../oip-modules/oip-module-register.txt' ?>
     </div>
 </div>

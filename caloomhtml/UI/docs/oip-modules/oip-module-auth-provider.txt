@@ -1,1 +1,1 @@
-<em></em><a href="[!ATOM]ProviderUrl[ATOM!]"><i class="[!ATOM]ProviderIconClass[ATOM!]"></i>[!ATOM]ProviderName[ATOM!]</a></em>
+<em></em><a href="[!ATOM]ProviderUrl[ATOM!]" class="btn btn-large btn-primary"><i class="[!ATOM]ProviderIconClass[ATOM!]"></i>[!ATOM]ProviderName[ATOM!]</a></em>
