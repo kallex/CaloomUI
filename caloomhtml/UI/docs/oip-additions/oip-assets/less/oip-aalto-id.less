@@ -344,26 +344,21 @@ li [class^="icon-"], li [class*=" icon-"]{
   color: @grayLight;
 }
 
-.index {
-  background-repeat: no-repeat ;
-  width: auto;
-  padding: 0px;
-  margin: 0px;
-  >* {font-size: 12px;}
-}
-.index-blog {
-  background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/index-blog.png");
-}
-.index-about {
-  background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/index-about.png");
-}
-.index-activity {
-  background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/index-activity.png");
-}
-.index-group {
-  background-image: url("@{base-url-local}/../oip-additions/oip-assets/oip-images/ui/index-group.png,*0.3");
-}
 
+//
+// index and span3
+//
+.index{
+  background-image: url("../oip-images/ui/index.png");
+  background-repeat: no-repeat;
+  background-position: right;
+//background-color: lighten(@oip-public, 40%);
+  //border: 1px solid @inputBorder;
+  //.box-shadow(inset 0 1px 1px rgba(0,0,0,.045));
+  //.transition(~"border linear .2s, box-shadow linear .2s");
+  //.border-radius(@inputBorderRadius);
+  padding-left: 5px;
+}
 
 .map-result-list{
   position: absolute;

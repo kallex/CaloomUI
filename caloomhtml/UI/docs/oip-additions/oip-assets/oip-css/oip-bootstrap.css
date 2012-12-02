@@ -5339,25 +5339,10 @@ li [class*=" icon-"] {
   color: #999999;
 }
 .index {
+  background-image: url("../oip-images/ui/index.png");
   background-repeat: no-repeat;
-  width: auto;
-  padding: 0px;
-  margin: 0px;
-}
-.index > * {
-  font-size: 12px;
-}
-.index-blog {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-blog.png");
-}
-.index-about {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-about.png");
-}
-.index-activity {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-activity.png");
-}
-.index-group {
-  background-image: url("http://caloomgit:8888/UI/docs//../oip-additions/oip-assets/oip-images/ui/index-group.png,*0.3");
+  background-position: right;
+  padding-left: 5px;
 }
 .map-result-list {
   position: absolute;
