@@ -1,0 +1,28 @@
+<div id="map_canvas" style="height:300px;"></div>
+<script>
+/*
+var markers = new OpenLayers.Layer.Markers( "Markers" );
+marker = new OpenLayers.Marker(lonLat) ;
+markers.addMarker(marker);
+map.addLayer(markers);
+
+map.events.register("click", map , function(e){
+var opx = map.getLayerPxFromViewPortPx(e.xy) ;
+marker.map = map ;
+marker.moveTo(opx) ;
+});
+*/
+
+
+    map = new OpenLayers.Map("map_canvas");
+    map.addLayer(new OpenLayers.Layer.OSM());
+    var markers = new OpenLayers.Layer.Markers( "Markers" );
+    map.addLayer(markers);
+    var size = new OpenLayers.Size(21,25);
+    var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
+    var icon = new OpenLayers.Icon('http://www.openlayers.org/dev/img/marker.png', size, offset);
+    map.zoomToMaxExtent();
+	var click = new OpenLayers.Control.Click();
+	map.addControl(click);
+	click.activate();
+</script> 

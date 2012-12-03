@@ -41,7 +41,24 @@ $(".remoteurlmodal").on('click', function () {
     var url = $(this).data('url');
     var modal_id = "IDRemoteUrlModal";
     var modal_body = modal_id + "Body";
-    $("#" + modal_body).load(url);
+    var modal_body_selector = "#" + modal_body;
+    $(modal_body_selector).load(url);
+    var modalForm = $("#" + modal_id).children("form");
+    modalForm.submit(function () {
+        var options = {
+            /* target:"#divResult", */
+
+            success: function (html) {
+                $(modal_body_selector).replaceWith(html);
+            },
+
+            url: url
+        }
+        $(this).ajaxSubmit(options);
+        return false;
+    });
+
+
     $("#" + modal_id).modal('show');
 });
 
