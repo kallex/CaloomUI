@@ -42,22 +42,57 @@ $(".remoteurlmodal").on('click', function () {
     var modal_id = "IDRemoteUrlModal";
     var modal_body = modal_id + "Body";
     var modal_body_selector = "#" + modal_body;
-    $(modal_body_selector).load(url);
-    var modalForm = $("#" + modal_id).children("form");
-    modalForm.submit(function () {
+    var RemoteUrlFormSubmit = function () {
+        //alert("Submitting...");
         var options = {
-            /* target:"#divResult", */
+            // target:"#divResult",
 
             success: function (html) {
-                $(modal_body_selector).replaceWith(html);
+                //alert("Replacing...");
+                $(modal_body_selector).html(html);
+                var modalForm = $("#" + modal_id + " form").each(function () {
+                    $(this).submit(RemoteUrlFormSubmit);
+                });
             },
+            error: function (html, textStatus, errorThrown) {
+                    alert("Someone changed the information during the edit and save. Please retry your change.");
+                    $(modal_body_selector).load(url, function () {
+                        var modalForm = $("#" + modal_id + " form").each(function () {
+                            $(this).submit(RemoteUrlFormSubmit);
+                        });
+                    });
+                },
 
             url: url
         }
         $(this).ajaxSubmit(options);
+        //alert("Submitted");
         return false;
-    });
+    };
 
+
+    $(modal_body_selector).load(url, function () {
+        var modalForm = $("#" + modal_id + " form").each(function () {
+            $(this).submit(RemoteUrlFormSubmit);
+        });
+    });
+    /*
+    modalForm.submit(function () {
+    alert("Submitting...");
+    var options = {
+    // target:"#divResult",
+
+    success: function (html) {
+    $(modal_body_selector).replaceWith(html);
+    },
+
+    url: url
+    }
+    $(this).ajaxSubmit(options);
+    alert("Submitted");
+    return false;
+    });
+    */
 
     $("#" + modal_id).modal('show');
 });
