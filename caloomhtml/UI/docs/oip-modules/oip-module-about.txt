@@ -1,16 +1,16 @@
 <!-- oip-module-about.txt -->
 	<h6 class="published">
-		[!ATOM]Published[ATOM!] 
+<?php include '../oip-atoms/oip-atom-published.txt' ?>
 	</h6>
 	<h6 class="author">
-		[!ATOM]Author[ATOM!]
+<?php include '../oip-atoms/oip-atom-author.txt' ?>
 	</h6>
 	<p>
 <?php include 'oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
 	</p>
-	[!ATOM]Excerpt[ATOM!]
+<?php include '../oip-atoms/oip-atom-excerpt.txt' ?>
 	</p>
 	</p>
-	[!ATOM]Body[ATOM!]
+<?php include '../oip-atoms/oip-atom-body.txt' ?>
 	</p>
 <!-- end oip-module-about.txt -->
