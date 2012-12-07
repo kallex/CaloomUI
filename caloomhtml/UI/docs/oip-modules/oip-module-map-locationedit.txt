@@ -13,15 +13,18 @@ marker.moveTo(opx) ;
 });
 */
 
-
     map = new OpenLayers.Map("map_canvas");
     map.addLayer(new OpenLayers.Layer.OSM());
     var markers = new OpenLayers.Layer.Markers( "Markers" );
     map.addLayer(markers);
-    var size = new OpenLayers.Size(21,25);
-    var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
-    var icon = new OpenLayers.Icon('http://www.openlayers.org/dev/img/marker.png', size, offset);
+	var size = new OpenLayers.Size(30,40);
+	var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
+	var icon = new OpenLayers.Icon('../oip-additions/oip-assets/oip-images/oip-markers/OIP-marker-1.png', size, offset);
+	var lonlat = new OpenLayers.LonLat([!ATOM]Longitude.TextValue[ATOM!], [!ATOM]Latitude.TextValue[ATOM!]).transform('EPSG:4326', 'EPSG:3857');
+	var marker = new OpenLayers.Marker(lonlat,icon);
+	markers.addMarker(marker);
     map.zoomToMaxExtent();
+	map.setCenter(lonlat, 16);
 	var click = new OpenLayers.Control.Click();
 	map.addControl(click);
 	click.activate();
