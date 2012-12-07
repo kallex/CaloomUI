@@ -30,8 +30,8 @@
 					}, 
 
 					trigger: function(e) {
-						var lonlat = map.getLonLatFromPixel(e.xy).transform('EPSG:4326', 'EPSG:3857');
-						alert("You clicked near " + lonlat.lat + " N, " +
+						var lonlat = map.getLonLatFromPixel(e.xy); //.transform('EPSG:4326', 'EPSG:3857');
+						alert("You clicked near - " + lonlat.lat + " N, " +
 												  + lonlat.lon + " E");
 						/*var markLayer = map.getLayersByName("Markers")[0];
 						var size = new OpenLayers.Size(21,25);

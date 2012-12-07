@@ -15,5 +15,6 @@
 			<input name="[!ATOM]ID[ATOM!]_Caption" class="span3" id="[!ATOM]ID[ATOM!]_Caption" type="text" value="[!ATOM]Caption[ATOM!]" placeholder="Caption">
 		</div>
 	</div>
-	<button type="submit" class="btn" name="RootSourceAction" value="cmdAddToCollection_[!ATOM]ID[ATOM!]">Add Image</button>
+	<input type="hidden" name="RootSourceAction" value="cmdAddToCollection_[!ATOM]ID[ATOM!]" />
+	<button type="submit" class="btn">Add Image</button>
 </fieldset>

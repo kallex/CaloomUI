@@ -1,5 +1,6 @@
 <fieldset>
 	<img src="[!ATOM]ImageData.ContentUrl[ATOM!]" alt="Image Content" />
+	<div class="control-group">[!ATOM]ImageData.ContentUrl[ATOM!]</div>
 	<input class="span5" id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
 	<div class="control-group">
 		<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label> 
@@ -13,6 +14,7 @@
 			<input name="[!ATOM]ID[ATOM!]_Caption" class="span3" id="[!ATOM]ID[ATOM!]_Caption" type="text" value="[!ATOM]Caption[ATOM!]" placeholder="Caption">
 		</div>
 	</div>
+	<!-- TODO manipulate RootSourceAction properly -->
 	<button type="submit" class="btn" name="RootSourceAction" value="cmdRemoveFromCollectionAndDelete_[!ATOM]ID[ATOM!]">Remove Image</button>
 	<button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
 </fieldset>

@@ -1,4 +1,4 @@
-<p><img src="[!ATOM]ContentUrl[ATOM]"></p>
+<p><img src="[!ATOM]Icon.ImageData.ContentUrl[ATOM!]"></p>
 <h4>[!ATOM]Title[ATOM!]</h4>
 <p>[!ATOM]Introduction[ATOM!]</p>
 <p>[!ATOM]Summary[ATOM!]</p>

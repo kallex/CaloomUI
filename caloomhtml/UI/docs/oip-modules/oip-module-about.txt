@@ -8,6 +8,9 @@
 	<p>
 <?php include 'oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
 	</p>
+	[!ATOM]Excerpt[ATOM!]
+	</p>
+	</p>
 	[!ATOM]Body[ATOM!]
 	</p>
 <!-- end oip-module-about.txt -->

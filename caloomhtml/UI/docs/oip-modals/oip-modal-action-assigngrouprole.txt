@@ -5,6 +5,7 @@
 	<form method="post">
 		<div class="modal-body">
 			<input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+			<input id="RootSourceAction" name="RootSourceAction" type="hidden" value="Save" />
 			<div id="grouproles">Group role list here</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</div>

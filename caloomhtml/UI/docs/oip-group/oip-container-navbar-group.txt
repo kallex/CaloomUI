@@ -14,8 +14,9 @@
                     <a href="" style="background-image: url(../oip-additions/oip-assets/oip-images/ui/oip-group-navbar-background.png);width: 200px"></a>
                 </li>
                 <li class="dropdown group-name">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="../oip-additions/oip-assets/oip-images/placeholder/aalto-group-core.png" width="32" height="32" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 6px;height: 34px;width: 34px;margin-bottom: 0px;padding: 1px">
-                            <span style="">Group Name :</span>
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.GroupContainer -->
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="[!ATOM]GroupProfile.IconImage.ImageData.ContentUrl[ATOM!]" width="32" height="32" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 6px;height: 34px;width: 34px;margin-bottom: 0px;padding: 1px">
+                            <span style="">[!ATOM]GroupProfile.GroupName[ATOM!]</span>
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
@@ -28,6 +29,7 @@
                         <li><a tabindex="-1" href="#">Group B</a></li>
                         <li><a tabindex="-1" href="#">Group C</a></li> -->
                     </ul>
+<!-- THEBALL-CONTEXT-END:* -->
                 </li>
                 </li>
                 <li>

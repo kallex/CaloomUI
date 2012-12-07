@@ -5,6 +5,7 @@
 	<form method="post">
 		<div class="modal-body">
 			<input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+			<input id="RootSourceAction" name="RootSourceAction" type="hidden" value="" />
 			<p name="question" id="question">Not set</p>
 <?php include '../oip-atoms/oip-atom-form-cancel-delete.txt' ?>
 		</div>
