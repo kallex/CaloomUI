@@ -1,7 +1,9 @@
 <!-- oip-module-modal-images.txt -->
 <a data-toggle="modal" href="#ImagesCollection[!ATOM]ID[ATOM!]" rel="tooltip" title="click this image to open this image large and some other images if present">
-<img src="[!ATOM]FeaturedImage.ImageData.ContentUrl[ATOM!]" class="thumbnail" alt="[!ATOM]Title[ATOM!]"/>[!ATOM]Title[ATOM!]</a>
-<!-- end oip-module-modal-images.txt -->
+<img src="[!ATOM]FeaturedImage.ImageData.ContentUrl[ATOM!]" class="img-style row1" alt="[!ATOM]Title[ATOM!]"/>
+    <br>
+    [!ATOM]Title[ATOM!]
+</a>
 <div id="ImagesCollection[!ATOM]ID[ATOM!]" class="modal hide fade">
 	<div class="modal-header">
 		<button class="close" data-dismiss="modal">&times;</button>
@@ -31,4 +33,5 @@
 		</div>
 	</div>
 </div>
+<!-- end oip-module-modal-images.txt -->
 
