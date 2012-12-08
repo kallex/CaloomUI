@@ -5411,36 +5411,6 @@ a.wide-flat img {
   outline-color: #1655b2;
   background-color: #add8e6;
 }
-ul.header-first li.hse a,
-ul.header-first li.chem a,
-ul.header-first li.sci a,
-ul.header-first li.elec a,
-ul.header-first li.taik a,
-ul.header-first li.aalto a,
-ul.header-first li.eng a {
-  float: none;
-  font-family: arial, helvetica, sans-serif;
-  font-size: 11px;
-  height: 28px;
-  line-height: 12px;
-  list-style-type: none;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 2px;
-  text-align: center;
-  text-decoration: none;
-  width: 120px;
-  border-left-color: white;
-  border-left-style: solid;
-  border-left-width: 3px;
-}
 .aalto-background {
   background-color: transparent;
   padding: 4px;
@@ -5584,6 +5554,9 @@ li .aalto-navbar {
 }
 .footer li a {
   color: #3d3d3d;
+}
+.image-carousel {
+  height: 400px;
 }
 /* End Aalto Visual Identity Additions */
 /*Openlayers Additions*/

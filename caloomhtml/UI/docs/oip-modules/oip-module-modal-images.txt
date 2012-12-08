@@ -12,9 +12,7 @@
 		<div id="#myCarousel[!ATOM]ID[ATOM!]" class="carousel">
 			<!-- Carousel items -->
 			<div class="columns">
-				<h2>[!ATOM]Title[ATOM!]</h2>
-				<p>[!ATOM]Description[ATOM!]</p>
-				<div id="myCarousel[!ATOM]ID[ATOM!]" class="carousel slide">
+				<div id="myCarousel[!ATOM]ID[ATOM!]" class="carousel slide image-carousel">
 					<div class="carousel-inner">
 <!-- THEBALL-CONTEXT-COLLECTION-BEGIN:ImagesCollection -->
 						<div class="item">
