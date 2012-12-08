@@ -1,6 +1,6 @@
 <!-- oip-module-modal-images.txt -->
 <a data-toggle="modal" href="#ImagesCollection[!ATOM]ID[ATOM!]" rel="tooltip" title="click this image to open this image large and some other images if present">
-<img src="[!ATOM]FeaturedImage.ImageData.ContentUrl[ATOM!]" class="img-style row1" alt="[!ATOM]Title[ATOM!]"/>
+<img src="[!ATOM]FeaturedImage.ImageData.ContentUrl[ATOM!]" class="img-style row1" style="width:190px" alt="[!ATOM]Title[ATOM!]"/>
     <br>
     [!ATOM]Title[ATOM!]
 </a>
