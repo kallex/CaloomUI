@@ -1,1 +1,4 @@
-<input type="submit" id="[!ATOM]ID[ATOM!]_TBAction_Delete" name="[!ATOM]ID[ATOM!]_TBAction_Delete" value="Unlink [!ATOM]OpenIDUrl[ATOM!]" />
+<form method="post" class="form-horizontal">
+	<input id="ObjectFieldID" name="ObjectFieldID" value="[!ATOM]ID[ATOM!]" type="hidden" />
+	<button type="submit" id="RootSourceAction" name="RootSourceAction" value="UnlinkLogin">Unlink [!ATOM]OpenIDUrl[ATOM!]</button>
+</form>
