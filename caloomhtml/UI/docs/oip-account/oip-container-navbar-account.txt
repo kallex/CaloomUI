@@ -13,10 +13,12 @@
                 <li class="account" style="border: none">
                     <a href="" style="background-image: url(../oip-additions/oip-assets/oip-images/ui/oip-account-navbar-background.png);width: 200px"></a>
                 </li>
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AccountContainer -->
                 <li class="group-name" style="border-left: none">
-                    <a href="#"> <img src="../oip-additions/oip-assets/oip-images/placeholder/andrew.png" width="60" height="60" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 10px;height: 60px;width: 60px;margin-bottom: 0px;padding: 1px">
+                    <a href="#"> <img src="[!ATOM]AccountModule.Profile.ProfileImage.ImageData.ContentUrl[ATOM!]" width="60" height="60" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 10px;height: 60px;width: 60px;margin-bottom: 0px;padding: 1px">
                     </a>
                 </li>
+<!-- THEBALL-CONTEXT-END:* -->
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="icon-book oip-news"></i>
