@@ -1,4 +1,7 @@
-<h2><?php include '../oip-atoms/oip-atom-title.txt' ?><br><small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></small></h2>
+<h2><?php include '../oip-atoms/oip-atom-title.txt' ?>
+    <br>
+    <small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></small>
+</h2>
 <h4>[!ATOM]Published[ATOM!]</h4>
 <h4>[!ATOM]Author[ATOM!]</h4>
 <div class>
