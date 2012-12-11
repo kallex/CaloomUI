@@ -17,11 +17,22 @@ $(document).on("click", ".open-IDAction_ConfirmRemove", function () {
 
 $(document).on("click", ".open-IDAction_AssignGroupRole", function () {
     var fieldid = $(this).data('id');
+    var currentrole = $(this).data('currentrole');
+    var command = $(this).data('command');
     // var fieldquestion = $(this).data('question');
 
     $('.modal-body #ObjectFieldID').val(fieldid);
-    $('.modal-body #grouproles').val("Dynamic role list here...");
-    
+    if (currentrole == "Initiator") {
+        alert("Cannot assign role for initiator of the group");
+        return;
+    }
+    $("#rad" + currentrole).prop('checked', true);
+    //$('.modal-body #grouproles').val("Dynamic role list here...");
+
+    var button = $('#IDAction_AssignGroupRole #RootSourceAction');
+    button.val(command);
+    button.html("Assign Role!");
+
     //$('.modal-body #question').val(fieldquestion);
 
     $('#IDAction_AssignGroupRole').modal('show');

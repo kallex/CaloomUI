@@ -1236,6 +1236,64 @@
           </SequentialExecution>
         </Execution>
       </Operation>
+      <Operation name="AssignCollaboratorRole">
+        <OperationSpec>
+          <Description>Remove member from collaboration group</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID" state="designApproved"/>
+          <Parameter name="GroupContainer" dataType="GroupContainer" designDesc="Group container" state="designApproved"/>
+          <Parameter name="CollaboratorID" dataType="string" designDesc="Collaborator ID within group" state="designApproved"/>
+          <Parameter name="RoleToAssign" dataType="string" designDesc="Role to assign" state="designApproved"/>
+          <!--
+          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="designApproved">
+            <Target name="GroupID"/>
+          </Validation>
+          <Validation name="ValidateEmailAddress" designDesc="Validate that email address really " state="designApproved">
+            <Target name="MemberEmailAddress"/>
+          </Validation>
+          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="designApproved">
+            <Target name="MemberEmailAddress"/>
+          </Validation>-->
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root for given ID" state="designApproved">
+              <Parameter name="GroupID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="Collaborator" name="Collaborator" designDesc="Collaborator for given ID" state="designApproved">
+              <Parameter name="GroupContainer"/>
+              <Parameter name="CollaboratorID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="string" name="AccountID" designDesc="Account ID of Collaborator" state="designApproved">
+              <Target name="Collaborator"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of Collaborator" state="designApproved">
+              <Target name="AccountID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="string" name="EmailAddress" designDesc="Email address of collaborator role" state="designApproved">
+              <Target name="GroupRoot"/>
+              <Target name="AccountRoot"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="TBCollaboratorRole" name="TBCollaboratorRole" designDesc="Collaborator role in group root" state="designApproved">
+              <Target name="GroupRoot"/>
+              <Target name="EmailAddress"/>
+            </TargetDefinition>
+            <MethodExecute name="AssignCollaboratorRole" designDesc="Assign collaborator role" state="designApproved">
+              <Parameter name="RoleToAssign"/>
+              <Target name="TBCollaboratorRole"/>
+            </MethodExecute>
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+              <Target name="GroupRoot"/>
+            </MethodExecute>
+            <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
+                  state="designApproved">
+              <Target name="GroupRoot"/>
+              <Target name="AccountID"/>
+            </OperationExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
       <Operation name="RefreshAccountGroupMemberships">
         <OperationSpec>
           <Description>Refresh account group memberships in logins, group and account containers</Description>
@@ -1396,6 +1454,7 @@
           <Parameter name="Owner" dataType="IContainerOwner" designDesc="Data owner" state="designApproved"/>
           <Parameter name="InformationSources" dataType="InformationSourceCollection" designDesc="Information sources of the page" state="designApproved"/>
           <Parameter name="FormSourceNames" dataType="string[]" designDesc="Form source names" state="designApproved"/>
+          <Parameter name="FormSubmitContent" dataType="NameValueCollection" designDesc="Form field collection as-posted" state="designApproved"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
@@ -1405,6 +1464,7 @@
               <Parameter name="Owner"/>
               <Parameter name="InformationSources"/>
               <Parameter name="FormSourceNames"/>
+              <Parameter name="FormSubmitContent"/>
               <ReturnValue name="RenderPageAfterOperation" dataType="bool" designDesc="If true, page should be rendered after operation" state="designApproved"/>
             </MethodExecute>
           </SequentialExecution>

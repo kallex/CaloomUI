@@ -89,6 +89,42 @@
 	</div>
 </div>
 
+<div id="IDAction_AssignGroupRole" class="modal hide fade well">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button> 
+		<h3>
+			Assign Collaborator Role
+		</h3>
+	</div>
+	<div class="modal-body well">
+		<form method="post" class="form-horizontal">
+			<input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+			<fieldset>
+				<p>
+					Assign role to collaborator. Only moderators can assign roles, only initiator can assign moderator role.
+				</p>
+                    <div class="control-group">
+						<input type="radio" id="radModerator" name="AssignRoleToCollaborator" value="Moderator" checked="true"/>
+						<label for="radModerator">Moderator</label>
+						<input type="radio" id="radCollaborator" name="AssignRoleToCollaborator" value="Collaborator" />
+						<label for="radCollaborator">Collaborator</label>
+						<input type="radio" id="radViewer" name="AssignRoleToCollaborator" value="Viewer" />
+						<label for="radViewer">Viewer</label>
+                    </div>
+					<div class="control-group controls">
+						<div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+							<button value="true" name="btnCancel" class="btn">Cancel</button>
+							<button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Assign Role</button>
+						</div>
+					</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+
+
+
 
 <!-- end modals -->
 <!-- end oip-module-collaborators.txt -->

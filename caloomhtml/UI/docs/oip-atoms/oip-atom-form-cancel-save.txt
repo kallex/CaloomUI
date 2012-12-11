@@ -1,6 +1,6 @@
 <div class="control-group controls">
 	<div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
 		<button value="true" name="btnCancel" class="btn">Cancel</button>
-		<button type="submit" class="btn btn-primary" name="RootSourceAction" value="">Save changes</button>
+		<button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
 	</div>
 </div>
