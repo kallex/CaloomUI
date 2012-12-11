@@ -5398,6 +5398,10 @@ a.wide-flat img {
   position: absolute;
   clip: rect(250px, 800px, 350px, 0px);
 }
+li.span3 a img {
+  width: 97%;
+  max-width: 190px;
+}
 .editable {
   background-color: #fef4d4;
 }
@@ -5681,6 +5685,9 @@ li .aalto-navbar {
     margin-left: 0;
   }
 }
+li.span3 {
+  margin-right: 10px;
+}
 /*  oip-aalto-responsive.less */
 @media (max-width: 979px) {
   .navbar-fixed-top {
@@ -5693,6 +5700,9 @@ li .aalto-navbar {
   .row-fluid [class*="span"] li {
     margin-left: 0;
   }
+}
+li.span3 {
+  margin-right: 10px;
 }
 @media (min-width: 1200px) {
   .row-fluid [class*="span"] li {

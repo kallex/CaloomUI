@@ -2,19 +2,19 @@
 <div class="control-group">
     <label class="control-label" for="input01">Street address</label> 
     <div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_Street" class="span11" id="[!ATOM]ID[ATOM!]_Street" type="text" value="[!ATOM]Street[ATOM!]" placeholder="Street">
+        <input name="[!ATOM]ID[ATOM!]_Street" class="input-xlarge modal-form" id="[!ATOM]ID[ATOM!]_Street" type="text" value="[!ATOM]Street[ATOM!]" placeholder="Street">
     </div>
 </div>
 <div class="control-group">
     <label class="control-label" for="input01">Town</label> 
     <div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_Town" class="span11" id="[!ATOM]ID[ATOM!]_Town" type="text" value="[!ATOM]Town[ATOM!]" placeholder="Town">
+        <input name="[!ATOM]ID[ATOM!]_Town" class="input-xlarge modal-form" id="[!ATOM]ID[ATOM!]_Town" type="text" value="[!ATOM]Town[ATOM!]" placeholder="Town">
     </div>
 </div>
 <div class="control-group">
     <label class="control-label" for="input01">Country</label> 
     <div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_Country" class="span11" id="[!ATOM]ID[ATOM!]_Country" type="text" value="[!ATOM]Country[ATOM!]" placeholder="Country">
+        <input name="[!ATOM]ID[ATOM!]_Country" class="input-xlarge modal-form" id="[!ATOM]ID[ATOM!]_Country" type="text" value="[!ATOM]Country[ATOM!]" placeholder="Country">
     </div>
 </div>
 <!-- end oip-module-address.txt -->
