@@ -206,16 +206,31 @@ li [class^="icon-"], li [class*=" icon-"]{
 }
 
 .navbar-account-background {
-//background-color: @account;
+background-color: @oip-account;
 }
 
-.navbar-account-background .container > ul > li > a {
-//color: @accountNavbarText;
+.navbar-group-background {
+  background-color: @oip-group;
 }
 
+.navbar-account-background .container > ul > li > a,
+.navbar-account-background .container > ul > li > a > i {
+color: @accountNavbarText;
+}
+
+.navbar-group-background .container > ul > li > a,
+.navbar-group-background .container > ul > li > a > i{
+  color: @groupNavbarText;
+}
+
+.navbar-account-background .container > ul > li > a > i:hover,
 .navbar-account-background .container > ul > li > a:hover {
-//  background-color: #282f38;
-//  color: #be474e;
+color: @accountNavbarTextHover;
+}
+
+.navbar-group-background .container > ul > li > a > i:hover,
+.navbar-group-background .container > ul > li > a:hover{
+  color: @groupNavbarTextHover;
 }
 
 .navbar-group-background .container > ul > li,
@@ -235,7 +250,10 @@ li [class^="icon-"], li [class*=" icon-"]{
   margin-top: 17px;
   margin-bottom: .25em;
   font-size: 28px;
+}
 
+.subnavbar .container > ul > li > a > i:hover {
+  //color: #be474e;
 }
 
 .subnavbar .container > ul > li > a > span {

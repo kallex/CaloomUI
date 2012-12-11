@@ -51,8 +51,8 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li> <a href="oip-layout-blog-summary.phtml"> Summary of Blogs</li>
-                        <li> <a href="#add-blog" data-toggle="modal"> Add New Blog Article</a> </li>
+                        <li> <a href="oip-layout-blog-summary.phtml"> Summary of News articles</li>
+                        <li> <a href="#add-blog" data-toggle="modal"> Add News Article</a> </li>
                     </ul>
                 </li>
                 <li class="dropdown">
