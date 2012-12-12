@@ -5164,10 +5164,10 @@ li [class*=" icon-"] {
 }
 /*coloring for the account navbar*/
 .navbar-account-background {
-  background-color: #73984c;
+  background-image: url("../oip-images/ui/navbar-background-oip-account.png");
 }
 .navbar-group-background {
-  background-color: #b54852;
+  background-image: url("../oip-images/ui/navbar-background-oip-group.png");
 }
 .navbar-account-background .container > ul > li > a,
 .navbar-account-background .container > ul > li > a > i {
