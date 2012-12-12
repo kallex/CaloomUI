@@ -1,4 +1,4 @@
-<!-- oip-module-nav-right.txt -->
+<!-- start oip-module-nav-right.txt -->
 <div class="nav-collapse">
     <ul class="nav pull-right">
         <li class="dropdown">
@@ -17,4 +17,4 @@
         </li>
     </ul>
 </div>
-<!-- oip-module-nav-right.txt -->
+<!-- end oip-module-nav-right.txt -->

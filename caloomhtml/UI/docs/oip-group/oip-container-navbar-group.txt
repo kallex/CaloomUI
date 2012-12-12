@@ -1,3 +1,4 @@
+<!-- start oip-container-navbar-group.txt -->
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container oip-navbar">
@@ -187,7 +188,7 @@
     <form method="post">
         <div class="modal-body">
             <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-            <p name="question" id="question">Publish the current www content to group-assigned www pages?</p>
+            <p name="question" id="question">Publish the current www content to group-assigned www pages (www.aaltoglobalimpact.org)?</p>
             <div class="control-group controls">
                 <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
                     <button value="true" name="btnCancel" class="btn">No</button>
@@ -205,7 +206,7 @@
     <form method="post">
         <div class="modal-body">
             <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-            <p name="question" id="question">Publish the current public content to group public area?</p>
+            <p name="question" id="question">Publish the current public content to group public area (oip.aaltoglobalimpact.org)?</p>
             <div class="control-group controls">
                 <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
                     <button value="true" name="btnCancel" class="btn">No</button>
@@ -215,6 +216,5 @@
         </div>
     </form>
 </div>
-
-
 <!-- end modals -->
+<!-- end oip-container-navbar-group.txt -->

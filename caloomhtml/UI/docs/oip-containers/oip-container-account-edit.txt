@@ -1,3 +1,4 @@
+<!-- start oip-container-account-edit.text -->
 <div class="services oip-account small">
     <?php include '../oip-modules/oip-module-header.txt' ?><!--UseInformationObject:Header -->
 </div>
@@ -9,3 +10,4 @@
         <?php include '../oip-modules/oip-module-account-edit.txt' ?><!-- UseInformationObject:AccountModule -->
     </div>
 </div>
+<!-- end oip-container-account-edit.text -->
