@@ -1,4 +1,4 @@
-<!-- oip-module-account-emails-security.txt -->
+<!-- start oip-module-account-emails-security.txt -->
 <div id="" class="span12" style="margin-top:10px;min-height:300px">
 <!-- Form removed and moved to individual buttons
 		<form method="post" class="form-horizontal">
@@ -20,9 +20,7 @@
                     <a href="#add-email" role="button" class="btn" data-toggle="modal">Add an email</a>
                 </div>
             </div>
-<!--
-		</form>
--->
+<!-- </form -->
 </div>
 
 <!-- modals -->
