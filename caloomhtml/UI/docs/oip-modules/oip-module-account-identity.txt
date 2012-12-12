@@ -8,7 +8,7 @@
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ProfileImage -->
 <!-- ImageData -->
 					<img src="[!ATOM]ImageData.ContentUrl[ATOM!]" alt="Testdrive for ImageData" />
-					<input class="span11" id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
+					<input class="input-xlarge modal-form" id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
 <!-- * -->
 <!-- THEBALL-CONTEXT-END:* -->
 				</div>
@@ -16,13 +16,13 @@
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_FirstName">First name</label> 
 				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_FirstName" class="span11" id="[!ATOM]ID[ATOM!]_FirstName" type="text" value="[!ATOM]FirstName[ATOM!]">
+        <input name="[!ATOM]ID[ATOM!]_FirstName" class="input-xlarge modal-form" id="[!ATOM]ID[ATOM!]_FirstName" type="text" value="[!ATOM]FirstName[ATOM!]">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_LastName">Last name</label> 
 				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_LastName" class="span11" id="[!ATOM]ID[ATOM!]_LastName" type="text" value="[!ATOM]LastName[ATOM!]" >
+        <input name="[!ATOM]ID[ATOM!]_LastName" class="input-xlarge modal-form" id="[!ATOM]ID[ATOM!]_LastName" type="text" value="[!ATOM]LastName[ATOM!]" >
 				</div>
 			</div>
 <?php include 'oip-module-address.txt' ?><!-- UseInformationObject:Address-->
