@@ -726,7 +726,6 @@ li .aalto-navbar {
     padding-top: 0px;
     margin-bottom: 20px;
     margin-left: -20px;
-    font-size: 12px;
   //background-color: lighten(@bodyBackground,10% );
     //background-image: url(../oip-images/ui/yt-background-image-brown.png);
     //border: 1px solid darken(@wellBackground, 7%);
@@ -744,14 +743,20 @@ li .aalto-navbar {
     //font-size: 12px;
     //font-style: bold;
   }
-  li a {
-    //color:@textColor;
-    //font-weight: 200;
-    //letter-spacing: 0.1em;
+  ul li a {
+  font-size: 14px;
   }
+
+  ul li ul li a {
+    font-size: 12px;
+  }
+
+  a:hover, :active,
+  ul li a:hover, ul li ul li a:hover,
+  ul li a:active, ul li ul li a:active{
+  color:darken(@linkColorHover, 40%);
 }
-
-
+}
 // -------------------------------------------------------------
 // Components: Misc
 //      thumbnails

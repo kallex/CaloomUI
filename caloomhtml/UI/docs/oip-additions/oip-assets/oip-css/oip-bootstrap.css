@@ -5560,7 +5560,6 @@ li .aalto-navbar {
   padding-top: 0px;
   margin-bottom: 20px;
   margin-left: -20px;
-  font-size: 12px;
 }
 .footer li ul {
   margin-left: 0px;
@@ -5568,6 +5567,20 @@ li .aalto-navbar {
 .footer li {
   list-style-type: none;
   list-style: none;
+}
+.footer ul li a {
+  font-size: 14px;
+}
+.footer ul li ul li a {
+  font-size: 12px;
+}
+.footer a:hover,
+.footer :active,
+.footer ul li a:hover,
+.footer ul li ul li a:hover,
+.footer ul li a:active,
+.footer ul li ul li a:active {
+  color: #103f85;
 }
 .image-carousel {
   height: 400px;
