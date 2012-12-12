@@ -1,6 +1,7 @@
+
 <!-- start oip-module-account-edit.txt -->
 <div class="tabbable tabs-left">
-	<ul class="nav nav-tabs" data-tabs="tabs" style="margin-bottom:0px">
+	<ul class="nav nav-tabs" style="margin-bottom:0px">
 		<li class="active"><a href="#tab-identity" data-toggle="tab">Profile</a></li>
 		<li><a href="#tab-emails-security" data-toggle="tab">Emails & Security</a></li>
 		<li><a href="#tab-roles" data-toggle="tab">Roles</a></li>
@@ -14,3 +15,4 @@
 	</div>
 </div>
 <!-- end oip-module-account-edit.txt -->
+

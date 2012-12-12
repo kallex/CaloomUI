@@ -1,3 +1,5 @@
+
+<!-- start oip-module-register.txt -->
 <p>
     Sign in with: <?php include '../oip-modules/oip-module-auth-provider.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
 <p>
@@ -14,5 +16,5 @@
     More about this on the account help page, the group help page, the activity help page.
 </p><p>
     The location you will be forwarded after signing in: [!ATOM]ReturnUrl[ATOM!]
-
 </p>
+<!-- end oip-module-register.txt -->

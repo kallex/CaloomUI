@@ -15,7 +15,8 @@
                         <li class="sci"><a href="http://sci.aalto.fi/en/" style="border: none;">School of Science</a></li>
                     </ul>
                 </li>
-            </ul>        </div>
+            </ul>
+        </div>
         <div class="span4">
             <p>Aalto Global Impact has been formed to bring together these existing parties working in societal issues and to help them develop their activities further</p>
         </div>

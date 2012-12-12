@@ -30,4 +30,3 @@
 	<script src="../oip-additions/oip-assets/oip-js/OpenLayers.js"></script> 
 	<script type="text/javascript" src="../oip-additions/oip-assets/oip-js/nicEdit.js"></script>
 </head>
-
