@@ -1238,7 +1238,7 @@
       </Operation>
       <Operation name="AssignCollaboratorRole">
         <OperationSpec>
-          <Description>Remove member from collaboration group</Description>
+          <Description>Assign collaborator role</Description>
         </OperationSpec>
         <Parameters>
           <Parameter name="GroupID" dataType="string" designDesc="Group ID" state="designApproved"/>
@@ -1291,6 +1291,142 @@
               <Target name="GroupRoot"/>
               <Target name="AccountID"/>
             </OperationExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="UpdateAccountContainerFromAccountRoot">
+        <OperationSpec>
+          <Description>Update account container from account root</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID" state="designApproved"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root " state="designApproved">
+              <Parameter name="AccountID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="AccountContainer" name="AccountContainer" designDesc="Account container. Create if missing." state="designApproved">
+              <Target name="AccountRoot"/>
+            </TargetDefinition>
+            <MethodExecute name="UpdateAccountContainerLogins" designDesc="Update account container logins" state="designApproved">
+              <Target name="AccountRoot"/>
+              <Target name="AccountContainer"/>
+            </MethodExecute>
+            <MethodExecute name="UpdateAccountContainerEmails" designDesc="Update account container emails" state="designApproved">
+              <Target name="AccountRoot"/>
+              <Target name="AccountContainer"/>
+            </MethodExecute>
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+              <Target name="AccountContainer"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="UnlinkEmailAddress">
+        <OperationSpec>
+          <Description>Unlink email address from account</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID" state="designApproved"/>
+          <Parameter name="AccountContainerBeforeGroupRemoval" dataType="AccountContainer" designDesc="Account container" state="designApproved"/>
+          <Parameter name="EmailAddressID" dataType="string" designDesc="Email Address ID within AccountContainer" state="designApproved"/>
+          <!--
+          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="designApproved">
+            <Target name="GroupID"/>
+          </Validation>
+          <Validation name="ValidateEmailAddress" designDesc="Validate that email address really " state="designApproved">
+            <Target name="MemberEmailAddress"/>
+          </Validation>
+          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="designApproved">
+            <Target name="MemberEmailAddress"/>
+          </Validation>-->
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRootBeforeGroupRemoval" designDesc="Account root of Collaborator" state="designApproved">
+              <Parameter name="AccountID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="string" name="EmailAddress" designDesc="Email address within the account container" state="designApproved">
+              <Parameter name="AccountContainerBeforeGroupRemoval"/>
+              <Parameter name="EmailAddressID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="TBRGroupRoot[]" name="GroupRoots" designDesc="Group roots for account, having the unlinked email address" state="designApproved">
+              <Target name="AccountRootBeforeGroupRemoval"/>
+              <Target name="EmailAddress"/>
+            </TargetDefinition>
+            <MethodExecute name="RemoveGroupMemberships" designDesc="Assign collaborator role" state="designApproved">
+              <Target name="EmailAddress"/>
+              <Target name="GroupRoots"/>
+            </MethodExecute>
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRootAfterGroupRemoval" designDesc="Account root AFTER group removal" state="designApproved">
+              <Parameter name="AccountID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="TBREmailRoot" name="EmailRoot" designDesc="Email root" state="designApproved">
+              <Target name="EmailAddress"/>
+            </TargetDefinition>
+            <MethodExecute name="RemoveEmailFromAccountRoot" designDesc="Remove email from account root" state="designApproved">
+              <Target name="AccountRootAfterGroupRemoval"/>
+              <Target name="EmailAddress"/>
+            </MethodExecute>
+            <MethodExecute name="DeleteEmailRoot" designDesc="Delete email root" state="designApproved">
+              <Target name="EmailRoot"/>
+            </MethodExecute>
+            <MethodExecute name="StoreObjects" designDesc="Store modified accountcontainer and accountroot" state="designApproved">
+              <Target name="AccountRootAfterGroupRemoval"/>
+            </MethodExecute>
+            <OperationExecute name="UpdateAccountContainer" targetOperationName="UpdateAccountContainerFromAccountRoot" designDesc="Update account container from account root"
+                  state="designApproved">
+              <Parameter name="AccountID"/>
+            </OperationExecute>
+            <OperationExecute name="UpdateAccountRoot" targetOperationName="UpdateAccountRootToReferences" designDesc="Update account root references" state="designApproved">
+              <Parameter name="AccountID"/>
+            </OperationExecute>
+            <!--
+            <MethodExecute name="RemoveEmailFromAccountContainer" designDesc="Remove email address from account container" state="designApproved">
+              <Parameter name="EmailAddressID"/>
+              <Target name="AccountContainerAfterGroupRemoval"/>
+            </MethodExecute>
+            UpdateAccountContainerFromAccountRoot
+            <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
+                  state="designApproved">
+              <Parameter name="AccountID"/>
+              <Target name="GroupRoot"/>
+            </OperationExecute>
+            -->
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="UpdateAccountRootToReferences">
+        <OperationSpec>
+          <Description>Update account root to references</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="designApproved"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root" state="designApproved">
+              <Parameter name="AccountID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="TBRLoginRoot[]" name="AccountLogins" designDesc="Account logins" state="designApproved">
+              <Target name="AccountRoot"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="TBREmailRoot[]" name="AccountEmails" designDesc="Account logins" state="designApproved">
+              <Target name="AccountRoot"/>
+            </TargetDefinition>
+            <MethodExecute name="UpdateAccountToLogins" designDesc="Delete email root" state="designApproved">
+              <Target name="AccountRoot"/>
+              <Target name="AccountLogins"/>
+            </MethodExecute>
+            <MethodExecute name="UpdateAccountToEmails" designDesc="Delete email root" state="designApproved">
+              <Target name="AccountRoot"/>
+              <Target name="AccountEmails"/>
+            </MethodExecute>
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+              <Target name="AccountLogins"/>
+              <Target name="AccountEmails"/>
+            </MethodExecute>
           </SequentialExecution>
         </Execution>
       </Operation>

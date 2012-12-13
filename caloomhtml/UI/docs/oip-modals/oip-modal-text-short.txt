@@ -5,7 +5,7 @@
 	</div>
 	<form method="post">
 		<div class="modal-body">
-			<input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+			<input id="InContextEditFieldID" name="InContextEditFieldID" type="hidden" value="NotSet" />
 			<input id="RootSourceAction" name="RootSourceAction" type="hidden" value="Save" />
 			<input class="span4" type="text" name="Text_Short" id="Text_Short" value="" />
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
