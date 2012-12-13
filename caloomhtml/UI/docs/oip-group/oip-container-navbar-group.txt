@@ -23,12 +23,12 @@
                     <ul class="dropdown-menu">
                         <!--<li> <a href="oip-layout-groups-view.phtml"> Profile View</a> </li>-->
                         <li> <a href="oip-layout-groups-edit.phtml"> Edit this group</a> </li>
-                        <!--<li class="divider"></li>
+                        <li class="divider"></li>
                         <li> <a href="#"> My group</a> </li>
                         <li class="divider"></li>
                         <li><a tabindex="-1" href="#">Group A</a></li>
                         <li><a tabindex="-1" href="#">Group B</a></li>
-                        <li><a tabindex="-1" href="#">Group C</a></li> -->
+                        <li><a tabindex="-1" href="#">Group C</a></li>
                     </ul>
 <!-- THEBALL-CONTEXT-END:* -->
                 </li>
