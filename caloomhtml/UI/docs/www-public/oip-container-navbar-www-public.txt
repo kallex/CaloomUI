@@ -38,13 +38,12 @@
                 </a>
                 <ul class="dropdown-menu">
                     <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
-                    <li> <a href=""> <i class="icon-pencil" style="font-size: 130%;padding-right: 3px"></i> Blog</a> </li>
-                    <li> <a href=""> <i class="icon-time"></i> Projects</a> </li>
-                    <li> <a href=""> <i class="icon-flag"></i> Events</a> </li>
+                    <li> <a href="oip-layout-news.phtml"> <i class="icon-bullhorn" style="font-size: 130%;padding-right: 3px"></i> News</a> </li>
+                    <li> <a href="oip-layout-activities-summary.phtml"> <i class="icon-time"></i> Projects</a> </li>
+                    <li> <a href="oip-layout-activities-summary.phtml"> <i class="icon-flag"></i> Events</a> </li>
                 </ul>
             </li>
         </ul>
     </div>
-</div>
 </div>
 
