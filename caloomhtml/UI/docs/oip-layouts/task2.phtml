@@ -1,0 +1,1364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../oip-additions/oip-assets/oip-js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="../oip-additions/oip-assets/oip-css/oip-bootstrap.css" rel="stylesheet">
+    <link href="../oip-additions/oip-assets/oip-css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
+    <!--Extra Styles from jQuery UI-->
+    <!--  <link href="../third-party/jquery-ui/css/demo.css" rel="stylesheet">
+      <link href="../third-party/jquery-ui/css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet"> -->
+    <!-- calendar -->
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../oip-additions/oip-assets/oip-images/icons/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-57x57.png">
+    <script src="../oip-additions/oip-assets/oip-js/jquery.js"></script>
+    <script src="../oip-additions/oip-assets/oip-js/jquery.form.js"></script>
+    <script src="../oip-additions/oip-assets/oip-js/OpenLayers.js"></script>
+    <script type="text/javascript" src="../oip-additions/oip-assets/oip-js/nicEdit.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+
+<!-- ========== Begin: oip-group\oip-container-navbar-group.txt ========== -->
+<!-- start oip-container-navbar-group.txt -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container oip-navbar">
+            <ul class="nav">
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown"">
+                    <span style="">Aalto Global Impact</span>
+                    <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../www-public/oip-layout-activities-summary.phtml">Homepage</a></li>
+                        <li><a href="../www-public/oip-layout-map.phtml">Map</a></li>
+                        <li><a href="../www-public/oip-layout-news.phtml">News</a></li>
+                        <li><a href="../www-public/oip-layout-about.phtml">About</a></li>
+                        <li><a href="../www-public/oip-layout-activities-summary.phtml"style="border: none;">Activities</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </php><!-- navigation to www.aaltoglobalimpact.org -->
+
+            <!-- ========== Begin: oip-group\../oip-modules/oip-module-group-nav-right.txt ========== -->
+            <!-- start oip-module-nav-right.txt -->
+            <div class="nav-collapse">
+                <ul class="nav pull-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-user oip-account"></i>
+                            My Account
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/auth/account/website/oip-account/oip-layout-account-welcome.phtml">Welcome Page</a></li>
+                            <li><a href="/auth/account/website/oip-account/oip-layout-account-edit.phtml">My Profile</a></li>
+                            <li><a  href="../../publicsite/oip-public/oip-layout-landing.phtml">Edit Public Site</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/TheBallLogin.aspx?SignOut=true">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- end oip-module-nav-right.txt -->
+            <!-- ========== End: oip-group\../oip-modules/oip-module-group-nav-right.txt ========== -->
+            </php><!-- edit and my account menus for the group sections-->
+        </div>
+    </div>
+</div>
+<div class="subnavbar">
+    <div class="subnavbar-inner navbar-group-border navbar-group-background">
+        <div class="container">
+            <ul class="mainnav">
+                <li class="account" style="border: none">
+                    <a href="" style="background-image: url(../oip-additions/oip-assets/oip-images/ui/oip-group-navbar-background.png);width: 200px"></a>
+                </li>
+                <li class="dropdown group-name">
+                    <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.GroupContainer -->
+
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="/auth/grp/9798daca-afc4-4046-a99b-d0d88bb364e0/AaltoGlobalImpact.OIP/MediaContent/3c972870-aec2-40b6-b6c9-800f21f1c85b.png" width="32" height="32" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 6px;height: 34px;width: 34px;margin-bottom: 0px;padding: 1px">
+                        <span style=""> www.aaltoglobalimpact.org</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!--<li> <a href="oip-layout-groups-view.phtml"> Profile View</a> </li>-->
+                        <li> <a href="oip-layout-groups-edit.phtml"> Edit this group</a> </li>
+                        <li class="divider"></li>
+                        <li> <a href="#"> My group</a> </li>
+                        <li class="divider"></li>
+                        <li><a tabindex="-1" href="#">Group A</a></li>
+                        <li><a tabindex="-1" href="#">Group B</a></li>
+                        <li><a tabindex="-1" href="#">Group C</a></li>
+                    </ul>
+
+                    <!-- THEBALL-CONTEXT-END:* -->
+                </li>
+                </li>
+                <li>
+                    <a href="oip-layout-map.phtml">
+                        <i class="icon-map-marker oip-map"></i>
+                        <span>Map</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-book oip-news"></i>
+                        <span>News</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="oip-layout-blog-summary.phtml"> Summary of News Articles</a> </li>
+                        <li> <a href="#add-blog" data-toggle="modal"> Add News Article</a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="oip-layout-about.phtml" class="dropdown-toggle">
+                        <i class="icon-umbrella oip-about"></i>
+                        <span>About this group</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-bullhorn oip-activity"></i>
+                        <span>Activities</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="oip-layout-activities-summary.phtml"> Summary</a> </li>
+                        <li> <a href="#add-activity" data-toggle="modal"> Add New Activity</a> </li>
+                        <!--<li class="divider"></li>
+                        <li><a href="oip-layout-activities-summary.phtml"> My activities</a> </li>
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Activities in Group A</a>
+                            <ul class="dropdown-menu">
+                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                                <li class="divider"></li>
+                                <li><a tabindex="-1" href="#">Activity A-A</a></li>
+                                <li><a tabindex="-1" href="#">Activity A-B</a></li>
+                                <li><a tabindex="-1" href="#">Activity A-C</a></li>
+                                <li><a tabindex="-1" href="#">Activity A-D</a></li>
+                                <li><a tabindex="-1" href="#">Activity A-E</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Activities in Group B</a>
+                            <ul class="dropdown-menu">
+                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                                <li class="divider"></li>
+                                <li><a tabindex="-1" href="#">Activity B-A</a></li>
+                                <li><a tabindex="-1" href="#">Activity B-B</a></li>
+                                <li><a tabindex="-1" href="#">Activity B-C</a></li>
+                                <li><a tabindex="-1" href="#">Activity B-D</a></li>
+                                <li><a tabindex="-1" href="#">Activity B-E</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Activities in Group C <span class="badge badge-info">5</span></a>
+                            <ul class="dropdown-menu">
+                                <li> <a href="#add-activity" data-toggle="modal"> Add</a> </li>
+                                <li class="divider"></li>
+                                <li><a tabindex="-1" href="#">Activity C-A <span class="badge badge-success">2</span></a></li>
+                                <li><a tabindex="-1" href="#">Activity C-B</a></li>
+                                <li><a tabindex="-1" href="#">Activity C-C <span class="badge badge-warning">3</span></a></li>
+                                <li><a tabindex="-1" href="#">Activity C-D</a></li>
+                                <li><a tabindex="-1" href="#">Activity C-E</a></li>
+                            </ul>
+                        </li>  -->
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-globe oip-public"></i>
+                        <span>Our Public Site</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="../../publicsite/oip-public/oip-layout-landing.phtml"> Homepage | Edit</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-map.phtml"> Map | Edit</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-blog.phtml"> Blog | Edit</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-about.phtml"> About | Edit</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-activities-summary.phtml"> Activities | Edit</a> </li>
+                        <li class="divider"></li>
+                        <li> <a href="#publishtogrouppublic" data-toggle="modal">Publish to Group Public Area</a></li>
+                        <li> <a href="#publishtowww" data-toggle="modal">Publish to WWW</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div> <!-- /container -->
+    </div> <!-- /subnavbar-inner -->
+</div> <!-- /subnavbar -->
+
+<!-- modals -->
+<div id="add-activity" class="modal hide fade">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h2 class="title">
+            Add an activity
+        </h2>
+    </div>
+    <div class="modal-body">
+        <form method="post" class="form-horizontal">
+            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddActivityInfo:AddActivity -->
+
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <input id="RootSourceName" name="RootSourceName" type="hidden" value="AddActivity" />
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="3aa91ed3-08aa-470d-ad0f-fdbaff79f6a8_ActivityName">Name of the activity</label>
+                    <div class="controls">
+                        <input name="3aa91ed3-08aa-470d-ad0f-fdbaff79f6a8_ActivityName" class="span4" id="3aa91ed3-08aa-470d-ad0f-fdbaff79f6a8_ActivityName" type="text" value="AddActivityInfo.ActivityName">
+                    </div>
+                </div>
+
+                <div class="control-group controls">
+                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                        <button value="true" name="btnCancel" class="btn">Cancel</button>
+                        <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <!-- THEBALL-CONTEXT-END:* -->
+        </form>
+    </div>
+</div>
+
+
+<div id="add-blog" class="modal hide fade">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h2 class="title">
+            Add a blog article
+        </h2>
+    </div>
+    <div class="modal-body">
+        <form method="post" class="form-horizontal">
+            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddBlogPostInfo:AddBlogPost -->
+
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <input id="RootSourceName" name="RootSourceName" type="hidden" value="AddBlogPost" />
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="8bfbf3f2-4220-4899-b908-dc1ea4c170d6_Title">Title of the blog article</label>
+                    <div class="controls">
+                        <input name="8bfbf3f2-4220-4899-b908-dc1ea4c170d6_Title" class="span4" id="8bfbf3f2-4220-4899-b908-dc1ea4c170d6_Title" type="text" value="">
+                    </div>
+                </div>
+                <div class="control-group controls">
+                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                        <button value="true" name="btnCancel" class="btn">Cancel</button>
+                        <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <!-- THEBALL-CONTEXT-END:* -->
+        </form>
+    </div>
+</div>
+
+<div class="modal hide fade" id="publishtowww">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+            <p name="question" id="question">Publish the current www content to group-assigned www pages (www.aaltoglobalimpact.org)?</p>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">No</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" value="PublishGroupWwwContent">Yes!</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="modal hide fade" id="publishtogrouppublic">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+            <p name="question" id="question">Publish the current public content to group public area (oip.aaltoglobalimpact.org)?</p>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">No</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" value="PublishGroupPublicContent">Yes!</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<!-- end modals -->
+<!-- end oip-container-navbar-group.txt -->
+<!-- ========== End: oip-group\oip-container-navbar-group.txt ========== -->
+
+<div class="container">
+<section id="container-focus" class="container well" >
+
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.GroupContainer -->
+
+<div class="services oip-group-header small">
+
+    <!-- THEBALL-CONTEXT-OBJECT-BEGIN:Header -->
+
+    <div class="hero-unit">
+        <h1>
+            <!-- start oip-atom-subtitle.txt -->
+            <a data-id="920b8146-eb62-40ed-96de-f2327e86b4ed_Title"  class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">ContainerHeader.Title</a>
+            <!-- end oip-atom-subtitle.txt -->
+
+
+        </h1>
+        <h1><small>
+            <!-- start oip-atom-subtitle.txt -->
+            <span class="small-before-after"/>"</span>
+            <a data-id="920b8146-eb62-40ed-96de-f2327e86b4ed_SubTitle"  class="noteditable open-IncontextEditDialog_Text_Short in-context-edit">ContainerHeader.SubTitle</a>
+            <span class="small-before-after"/>"</span>
+            <!-- end oip-atom-subtitle.txt -->
+        </small></h1>
+    </div>
+
+
+
+    <!-- THEBALL-CONTEXT-END:Header -->
+
+</div>
+<div class="row-fluid">
+<div class="span3">
+
+    <!-- THEBALL-CONTEXT-OBJECT-BEGIN:GroupIndex -->
+
+    <p><img src="/auth/grp/9798daca-afc4-4046-a99b-d0d88bb364e0/AaltoGlobalImpact.OIP/MediaContent/94a82cab-aced-492b-bd2f-f9437855a66c.png"></p>
+    <h4>GroupIndex.Title</h4>
+    <p>GroupIndex.Introduction
+        GroupIndex.Introduction
+        GroupIndex.Introduction
+        GroupIndex.Introduction
+        GroupIndex.Introduction
+    </p>
+    <p>GroupIndex.Summary
+        GroupIndex.Summary
+        GroupIndex.Summary
+        GroupIndex.Summary
+        GroupIndex.Summary
+    </p>
+
+
+    <!-- THEBALL-CONTEXT-END:GroupIndex -->
+
+</div>
+<div class="span9">
+<div class="tabbable tabs-left">
+<ul class="nav nav-tabs" style="margin-bottom:0px;">
+    <li class="active"><a href="#tab-profile" data-toggle="tab">Profile</a></li>
+    <li><a href="#tab-collaborators" data-toggle="tab">Collaborators</a></li>
+    <li><a href="#tab-images" data-toggle="tab">Images</a></li>
+    <li><a href="#tab-group-locations-current" data-toggle="tab">Locations</a></li>
+    <li><a href="#tab-group-delete" data-toggle="tab" class="delete">Delete</a></li>
+</ul>
+<div class="tab-content tab-border">
+<div class="tab-pane active" id="tab-profile">
+    <!-- THEBALL-CONTEXT-OBJECT-BEGIN:GroupProfile -->
+
+    <div id="group-profile" class="span12">
+        <form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <input id="RootSourceName" name="RootSourceName" type="hidden" value="" />
+            <fieldset id="profile">
+                <div class="control-group">
+                    <label class="control-label">Profile image</label>
+                    <div class="controls">
+                        <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ProfileImage -->
+
+                        <!-- ImageData -->
+                        <img src="/auth/grp/9798daca-afc4-4046-a99b-d0d88bb364e0/AaltoGlobalImpact.OIP/MediaContent/94a82cab-aced-492b-bd2f-f9437855a66c.png" alt="Group Profile Image" />
+                        <input  id="94a82cab-aced-492b-bd2f-f9437855a66c" name="94a82cab-aced-492b-bd2f-f9437855a66c" size="16" type="file">
+                        <!-- * -->
+
+                        <!-- THEBALL-CONTEXT-END:* -->
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Icon (for use on the map and as your group's logo)</label>
+                    <div class="controls">
+                        <!-- THEBALL-CONTEXT-OBJECT-BEGIN:IconImage -->
+
+                        <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ImageData -->
+
+                        <img src="/auth/grp/9798daca-afc4-4046-a99b-d0d88bb364e0/AaltoGlobalImpact.OIP/MediaContent/3c972870-aec2-40b6-b6c9-800f21f1c85b.png" alt="Group Icon Image" />
+                        <input class="span11" id="3c972870-aec2-40b6-b6c9-800f21f1c85b" name="3c972870-aec2-40b6-b6c9-800f21f1c85b" size="16" type="file">
+
+                        <!-- THEBALL-CONTEXT-END:* -->
+
+                        <!-- THEBALL-CONTEXT-END:* -->
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="abd4ed38-b956-4eca-aa00-bbd2dc5300e2_GroupName">Group name</label>
+                    <div class="controls">
+                        <input name="abd4ed38-b956-4eca-aa00-bbd2dc5300e2_GroupName"  id="abd4ed38-b956-4eca-aa00-bbd2dc5300e2_GroupName" type="text" value=" www.aaltoglobalimpact.org">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="abd4ed38-b956-4eca-aa00-bbd2dc5300e2_Description">Description</label>
+                    <div class="controls">
+                        <textarea class="span11" id="abd4ed38-b956-4eca-aa00-bbd2dc5300e2_Description" name="abd4ed38-b956-4eca-aa00-bbd2dc5300e2_Description" rows="6" placeholder="add org name">From within this group you publish to the www.aaltoglobalimpact.org web site. </textarea>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="abd4ed38-b956-4eca-aa00-bbd2dc5300e2_OrganizationsAndGroupsLinkedToUs">Organisations and groups linked to us</label>
+                    <div class="controls">
+                        <textarea class="span11" id="abd4ed38-b956-4eca-aa00-bbd2dc5300e2_OrganizationsAndGroupsLinkedToUs" name="abd4ed38-b956-4eca-aa00-bbd2dc5300e2_OrganizationsAndGroupsLinkedToUs" rows="6" placeholder="add org name"></textarea>
+                    </div>
+                </div>
+                <div class="control-group controls">
+                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                        <button value="true" name="btnCancel" class="btn">Cancel</button>
+                        <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+
+    <!-- THEBALL-CONTEXT-END:GroupProfile -->
+</div>
+<div class="tab-pane" id="tab-collaborators">
+<!-- ========== Begin: oip-group\..\oip-containers\..\oip-modules\../oip-modules/oip-module-collaborators.txt ========== -->
+<!-- oip-module-collaborators.txt -->
+<div id="group-profile" class="span12" style=";margin-top:10px">
+    <form id="" method="post" class="form-horizontal ">
+        <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+        <input id="RootSourceName" name="RootSourceName" type="hidden" value="" />
+        <fieldset id="">
+            <div class="control-group">
+                <label class="control-label">List of collaborators</label>
+                <div class="controls">
+
+                    <!-- THEBALL-CONTEXT-COLLECTION-BEGIN:Collaborators -->
+
+
+                    <p><a data-id="cf7d7eba-95d2-494c-baa3-7b311e6fb672" data-profileurl="" href="#ViewCollaboratorProfile" class="open-IDAction_ViewCollaboratorProfile">Kalle Launiala, Initiator</a> - <a data-id="cf7d7eba-95d2-494c-baa3-7b311e6fb672" class="open-IDAction_AssignGroupRole" data-currentrole="Initiator" data-command="AssignCollaboratorRole" href="#AssignGroupRole">assign role</a>, <a data-id="cdda015a-309c-4b60-b3f0-5d6d43cff36a" class="open-IDAction_ConfirmRemove" href="#RemoveCollaborator" data-question="Remove Kalle Launiala as collaborator?" data-command="RemoveCollaborator" data-commandtext="Remove">remove this collaborator</a></p>
+
+
+                    <!-- THEBALL-CONTEXT-END:Collaborators -->
+
+                    <p><a data-id="88260c16-4b8c-4641-b72a-419e57813a8f" data-profileurl="" href="#ViewCollaboratorProfile" class="open-IDAction_ViewCollaboratorProfile">Jeroen Carelse, Moderator</a> - <a data-id="88260c16-4b8c-4641-b72a-419e57813a8f" class="open-IDAction_AssignGroupRole" data-currentrole="Moderator" data-command="AssignCollaboratorRole" href="#AssignGroupRole">assign role</a>, <a data-id="5aa88723-ef01-4bb5-a7bd-f5f78689f99a" class="open-IDAction_ConfirmRemove" href="#RemoveCollaborator" data-question="Remove Jeroen Carelse as collaborator?" data-command="RemoveCollaborator" data-commandtext="Remove">remove this collaborator</a></p>
+
+
+                    <!-- THEBALL-CONTEXT-END:Collaborators -->
+
+                    <p><a data-id="e152a9db-f439-45b9-ab64-7d6bba7abe98" data-profileurl="" href="#ViewCollaboratorProfile" class="open-IDAction_ViewCollaboratorProfile">AGI  common login, Collaborator</a> - <a data-id="e152a9db-f439-45b9-ab64-7d6bba7abe98" class="open-IDAction_AssignGroupRole" data-currentrole="Collaborator" data-command="AssignCollaboratorRole" href="#AssignGroupRole">assign role</a>, <a data-id="86859a0e-875e-40c7-8687-7ffd22560dc3" class="open-IDAction_ConfirmRemove" href="#RemoveCollaborator" data-question="Remove AGI  common login as collaborator?" data-command="RemoveCollaborator" data-commandtext="Remove">remove this collaborator</a></p>
+
+
+                    <!-- THEBALL-CONTEXT-END:Collaborators -->
+
+                    <p><a data-id="59de45d4-b025-43d6-9e17-47ced04908ca" data-profileurl="" href="#ViewCollaboratorProfile" class="open-IDAction_ViewCollaboratorProfile">Sujil Kodathoor, Moderator</a> - <a data-id="59de45d4-b025-43d6-9e17-47ced04908ca" class="open-IDAction_AssignGroupRole" data-currentrole="Moderator" data-command="AssignCollaboratorRole" href="#AssignGroupRole">assign role</a>, <a data-id="cfb451d9-a633-4934-a20a-161c36d0454f" class="open-IDAction_ConfirmRemove" href="#RemoveCollaborator" data-question="Remove Sujil Kodathoor as collaborator?" data-command="RemoveCollaborator" data-commandtext="Remove">remove this collaborator</a></p>
+
+
+                    <!-- THEBALL-CONTEXT-END:Collaborators -->
+
+                    <p><a data-id="64bfc30d-2ab4-47ce-a8ca-db86da7c52dd" data-profileurl="" href="#ViewCollaboratorProfile" class="open-IDAction_ViewCollaboratorProfile">Kalle (loc) Launiala (loc), Collaborator</a> - <a data-id="64bfc30d-2ab4-47ce-a8ca-db86da7c52dd" class="open-IDAction_AssignGroupRole" data-currentrole="Collaborator" data-command="AssignCollaboratorRole" href="#AssignGroupRole">assign role</a>, <a data-id="bc898f67-763e-414b-9c7c-2f3d73e8c0aa" class="open-IDAction_ConfirmRemove" href="#RemoveCollaborator" data-question="Remove Kalle (loc) Launiala (loc) as collaborator?" data-command="RemoveCollaborator" data-commandtext="Remove">remove this collaborator</a></p>
+
+
+                    <!-- THEBALL-CONTEXT-END:Collaborators -->
+
+                    <p><a data-id="86beb4b2-a104-4cfe-a269-c78c6d447c86" data-profileurl="" href="#ViewCollaboratorProfile" class="open-IDAction_ViewCollaboratorProfile">Rahim Saatov, Collaborator</a> - <a data-id="86beb4b2-a104-4cfe-a269-c78c6d447c86" class="open-IDAction_AssignGroupRole" data-currentrole="Collaborator" data-command="AssignCollaboratorRole" href="#AssignGroupRole">assign role</a>, <a data-id="743b5641-7f8f-49dd-b1d5-e10e0175ebf7" class="open-IDAction_ConfirmRemove" href="#RemoveCollaborator" data-question="Remove Rahim Saatov as collaborator?" data-command="RemoveCollaborator" data-commandtext="Remove">remove this collaborator</a></p>
+
+
+                    <!-- THEBALL-CONTEXT-END:Collaborators -->
+
+
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Pending collaborators</label>
+                <div class="controls">
+
+                    <!-- THEBALL-CONTEXT-COLLECTION-BEGIN:PendingCollaborators -->
+
+
+
+                </div>
+            </div>
+            <p><a href="#invite-collaborator" role="button" class="btn" data-toggle="modal">Invite new collaborator</a></p>
+        </fieldset>
+    </form>
+</div>
+
+<!-- modals -->
+<div id="view-profile" class="modal hide fade">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h2 class="title">
+            Collaborator's profile
+        </h2>
+    </div>
+    <div class="modal-body">
+
+
+        <!-- ========== Begin: oip-group\..\oip-containers\..\oip-modules\..\oip-modules\../oip-modules-views/oip-module-account-profile-view.txt ========== -->
+        <!-- oip-module-account-profile-view.txt -->
+        <div id="group-profile" class="span7" style=";margin-top:10px">
+            <div class="view-group">
+                <p class="view-label">
+                    First name
+                </p>
+                <p class="view-content">
+                    Anne
+                </p>
+            </div>
+            <div class="view-group">
+                <p class="view-label">
+                    Last name
+                </p>
+                <p class="view-content">
+                    Badan
+                </p>
+            </div>
+            <div class="view-group">
+                <p class="view-label">
+                    email
+                </p>
+                <p class="view-content">
+                    anne.badan@aalto.fi
+                </p>
+            </div>
+            <div class="view-group">
+                <p class="view-label">
+                    Street
+                </p>
+                <p class="view-content">
+                    Runebergkatu 34
+                </p>
+            </div>
+            <div class="view-group">
+                <p class="view-label">
+                    ZIP code
+                </p>
+                <p class="view-content">
+                    00001
+                </p>
+            </div>
+            <div class="view-group">
+                <p class="view-label">
+                    Town
+                </p>
+                <p class="view-content">
+                    Helsinki
+                </p>
+            </div>
+            <div class="view-group">
+                <p class="view-label">
+                    Country
+                </p>
+                <p class="view-content">
+                    Finland
+                </p>
+            </div>
+            <hr>
+            <div class="view-group">
+                <p class="view-label">
+                    Anne's Roles
+                </p>
+                <p class="view-content">
+                    here are gonna be Anne's roles as a list
+                </p>
+            </div>
+            <div class="view-group">
+                <p class="view-label">
+                    Anne's Groups
+                </p>
+                <p class="view-content">
+                    here are gonna be Anne's groups as a list
+                </p>
+            </div>
+            <hr>
+            <div class="view-group">
+                <p class="view-label">
+                    Anne's Activities
+                </p>
+                <p class="view-content">
+                    here are gonna be Anne's activities as a list
+                </p>
+            </div>
+            <hr>
+            <div class="view-group">
+                <p class="view-label">
+                    Anne's Locations
+                </p>
+                <p class="view-content">
+                    here are gonna be Anne's locations as a list
+                </p>
+            </div>
+        </div>
+        <p> visit the profile page for more information about this person/group/location/activity</p>
+        <!-- oip-module-account-profile-view.txt -->
+
+        <!-- ========== End: oip-group\..\oip-containers\..\oip-modules\..\oip-modules\../oip-modules-views/oip-module-account-profile-view.txt ========== -->
+
+    </div>
+</div>
+
+<div id="remove-collaborator" class="modal hide fade well">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h3>
+            Remove this collaborator
+        </h3>
+    </div>
+    <div class="modal-body well">
+        <form method="post" class="form-horizontal">
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <input id="RootSourceName" name="RootSourceName" type="hidden" value="" />
+            <fieldset>
+                <p>
+                    You are now about to remove this collaborator from your group.
+                </p>
+                <div class="modal-footer">
+                    <div class="control-group controls">
+                        <div class="form-actions" style="padding:0;margin:0;border-top:0">
+                            <button class="btn">Cancel</button> <button type="submit" class="btn btn-primary btn-danger">Remove !</button>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<div id="invite-collaborator" class="modal hide fade well">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h3>
+            Invite person to this group
+        </h3>
+    </div>
+    <div class="modal-body well">
+        <form method="post" class="form-horizontal">
+            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddEmailAddressInfo:AddEmailAddress -->
+
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <input id="RootSourceName" name="RootSourceName" type="hidden" value="AddEmailAddress" />
+            <fieldset>
+                <p>
+                    Invite new collaborator to this group. Use only valid email address that you trust to belong to that person.
+                </p>
+                <div class="control-group">
+                    <label class="control-label" for="580425d7-1ebd-44c4-add9-6a414d43a7c4_EmailAddress">Email address that you trust</label>
+                    <div class="controls">
+                        <input name="580425d7-1ebd-44c4-add9-6a414d43a7c4_EmailAddress" class="span3" id="580425d7-1ebd-44c4-add9-6a414d43a7c4_EmailAddress" type="input" value="AddEmailAddressInfo.EmailAddress">
+                    </div>
+                </div>
+
+                <div class="control-group controls">
+                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                        <button value="true" name="btnCancel" class="btn">Cancel</button>
+                        <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <!-- THEBALL-CONTEXT-END:* -->
+        </form>
+    </div>
+</div>
+
+<div id="IDAction_AssignGroupRole" class="modal hide fade well">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h3>
+            Assign Collaborator Role
+        </h3>
+    </div>
+    <div class="modal-body well">
+        <form method="post" class="form-horizontal">
+            <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+            <fieldset>
+                <p>
+                    Assign role to collaborator. Only moderators can assign roles, only initiator can assign moderator role.
+                </p>
+                <div class="control-group">
+                    <input type="radio" id="radModerator" name="AssignRoleToCollaborator" value="Moderator" checked="true"/>
+                    <label for="radModerator">Moderator</label>
+                    <input type="radio" id="radCollaborator" name="AssignRoleToCollaborator" value="Collaborator" />
+                    <label for="radCollaborator">Collaborator</label>
+                    <input type="radio" id="radViewer" name="AssignRoleToCollaborator" value="Viewer" />
+                    <label for="radViewer">Viewer</label>
+                </div>
+                <div class="control-group controls">
+                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                        <button value="true" name="btnCancel" class="btn">Cancel</button>
+                        <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Assign Role</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+<!-- end modals -->
+<!-- end oip-module-collaborators.txt -->
+
+<!-- ========== End: oip-group\..\oip-containers\..\oip-modules\../oip-modules/oip-module-collaborators.txt ========== -->
+</div>
+<div class="tab-pane" id="tab-images">
+    <!-- ========== Begin: oip-group\..\oip-containers\..\oip-modules\../oip-modules/oip-module-imagegroups-choose-current.txt ========== -->
+    <!-- oip-module-imagegroup-choose-current.txt -->
+    <div id="identity" class="span12" style="margin-top:10px;min-height:300px">
+        <form id="" method="post" class="form-horizontal ">
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <input id="RootSourceName" name="RootSourceName" type="hidden" value="" />
+            <!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.ImageGroupContainer:ImageGroups -->
+
+            <fieldset id="current-imagegroups">
+                <div class="control-group">
+                    <label class="control-label">List of image groups</label>
+
+                    <div id="SelectedImageGroups_d3e29c59-d572-43e4-bf05-bd0bb213d998" class="controls">
+
+                        <!-- THEBALL-CONTEXT-COLLECTION-BEGIN:ImageGroups -->
+
+
+                        <div class="well tab-well">
+
+                        <label class="checkbox">
+                            <input type="checkbox" id="51cf81aa-4398-4264-8207-6663327f3e35_Selected"><a data-toggle="modal" href="#view-imagegroup" class="noteditable">Test activity images Added</a>
+                        </label>
+                        <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.ImageGroup_51cf81aa-4398-4264-8207-6663327f3e35_DefaultView.phtml'><i class="icon-pencil" style="padding-right:10px"></i>Edit Image Group: Test activity images Added</a>
+                        </div>
+
+                        <!-- THEBALL-CONTEXT-END:ImageGroups -->
+
+                        <label class="checkbox">
+                            <input type="checkbox" id="7a8d3e3d-9a85-4035-8b78-94db693953ad_Selected"><a data-toggle="modal" href="#view-imagegroup" class="noteditable">Movember</a>
+                        </label>
+                        <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.ImageGroup_7a8d3e3d-9a85-4035-8b78-94db693953ad_DefaultView.phtml'>Edit Image Group: Movember</a>
+
+
+                        <!-- THEBALL-CONTEXT-END:ImageGroups -->
+
+                        <label class="checkbox">
+                            <input type="checkbox" id="80b0c569-0c1a-4841-b53a-778e18a5942c_Selected"><a data-toggle="modal" href="#view-imagegroup" class="noteditable">Test image group 2</a>
+                        </label>
+                        <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.ImageGroup_80b0c569-0c1a-4841-b53a-778e18a5942c_DefaultView.phtml'>Edit Image Group: Test image group 2</a>
+
+
+                        <!-- THEBALL-CONTEXT-END:ImageGroups -->
+
+                        <label class="checkbox">
+                            <input type="checkbox" id="fd94985f-75aa-4264-84bc-fa4696577525_Selected"><a data-toggle="modal" href="#view-imagegroup" class="noteditable">Jeroen's image group</a>
+                        </label>
+                        <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.ImageGroup_fd94985f-75aa-4264-84bc-fa4696577525_DefaultView.phtml'>Edit Image Group: Jeroen's image group</a>
+
+
+                        <!-- THEBALL-CONTEXT-END:ImageGroups -->
+
+
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $(function () {
+                        $('#SelectedImageGroups_d3e29c59-d572-43e4-bf05-bd0bb213d998 input').each(function (index) {
+                            $(this).prop('checked', false);
+                        });
+
+                        $('#SelectedImageGroups_d3e29c59-d572-43e4-bf05-bd0bb213d998 input').on("click", function (event) {
+                            var selected = new Array();
+                            $('#SelectedImageGroups_d3e29c59-d572-43e4-bf05-bd0bb213d998 input:checked').each(function () {
+                                selected.push($(this).attr('id'));
+                            });
+
+// <!-- THEBALL-CONTEXT-END:* -->
+                            // Context switch here!
+                            $("#1c722208-0471-44ca-9b4c-085ed089bf31_SelectedIDCommaSeparated").val(selected.join(",").split("_Selected").join(""));
+                            // alert($("#1c722208-0471-44ca-9b4c-085ed089bf31_SelectedIDCommaSeparated").val());
+                        });
+
+                        var initializationArray = $("#1c722208-0471-44ca-9b4c-085ed089bf31_SelectedIDCommaSeparated").val().split(",");
+                        $.each(initializationArray, function (index, value) {
+                            $("#" + value + "_Selected").prop('checked', true);
+                        });
+
+                    });
+                </script>
+                <input type="hidden" id="1c722208-0471-44ca-9b4c-085ed089bf31_SelectedIDCommaSeparated" name="1c722208-0471-44ca-9b4c-085ed089bf31_SelectedIDCommaSeparated" value="">
+                <input type="hidden" id="1c722208-0471-44ca-9b4c-085ed089bf31_IsCollectionFiltered" name="1c722208-0471-44ca-9b4c-085ed089bf31_IsCollectionFiltered" value="true">
+                <div class="control-group controls">
+                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                        <a href="#add-imagegroup" role="button" class="btn" data-toggle="modal">Add Image Group</a>
+                    </div>
+                </div>
+                <div class="control-group controls">
+                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                        <button value="true" name="btnCancel" class="btn">Cancel</button>
+                        <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- modals -->
+    <div id="view-imagegroup" class="modal hide fade well">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h3>
+                View this image group
+            </h3>
+        </div>
+        <div class="modal-body well">
+            <form method="post" class="form-horizontal">
+                <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+                <input id="RootSourceName" name="RootSourceName" type="hidden" value="" />
+                <fieldset>
+                    <p>
+                        Here is going to be the image group view
+                    </p>
+                    <div class="modal-footer">
+                        <div class="control-group controls">
+                            <div class="form-actions" style="padding:0;margin:0;border-top:0">
+                                <button class="btn">Close window</button>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div id="add-imagegroup" class="modal hide fade">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h2 class="title">
+                Add an image group
+            </h2>
+        </div>
+        <div class="modal-body">
+            <form method="post" class="form-horizontal">
+
+                <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddImageGroupInfo:AddImageGroup -->
+
+                <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+                <input id="RootSourceName" name="RootSourceName" type="hidden" value="AddImageGroup" />
+                <fieldset>
+                    <div class="control-group">
+                        <label class="control-label" for="737dcb27-6e73-4181-8e1d-c65b172c5008_ImageGroupTitle">Image group title</label>
+                        <div class="controls">
+                            <input name="737dcb27-6e73-4181-8e1d-c65b172c5008_ImageGroupTitle" class="span4" id="737dcb27-6e73-4181-8e1d-c65b172c5008_ImageGroupTitle" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="control-group controls">
+                        <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                            <button value="true" name="btnCancel" class="btn">Cancel</button>
+                            <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+
+                <!-- THEBALL-CONTEXT-END:* -->
+            </form>
+        </div>
+    </div>
+
+
+    <!-- end modals -->
+    <!-- end oip-module-imagegroup-choose-current.txt -->
+
+    <!-- ========== End: oip-group\..\oip-containers\..\oip-modules\../oip-modules/oip-module-imagegroups-choose-current.txt ========== -->
+</div>
+<div class="tab-pane" id="tab-group-locations-current">
+<!-- ========== Begin: oip-group\..\oip-containers\..\oip-modules\../oip-modules/oip-module-locations-choose-current.txt ========== -->
+<!--oip-module-locations-choose-current.txt-->
+<div id="identity" class="span11" style="margin-top:10px;min-height:300px">
+    <form id="" method="post" class="form-horizontal ">
+        <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+        <input id="RootSourceName" name="RootSourceName" type="hidden" value="" />
+        <!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.LocationContainer:Locations -->
+
+        <fieldset id="current-locations">
+            <div class="control-group">
+                <label class="control-label">List of locations used</label>
+                <div id="SelectedLocations_12956f4b-4a39-4db3-89ac-1e1ab3ddd6a3" class="controls">
+
+                    <!-- THEBALL-CONTEXT-COLLECTION-BEGIN:Locations -->
+
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="17fe4c98-b55d-40dd-9b19-f0ca30578083_Selected"><a data-toggle="modal" href="#view-location" class="noteditable">Rahim's home</a>
+                    </label>
+                    <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.AddressAndLocation_17fe4c98-b55d-40dd-9b19-f0ca30578083_DefaultView.phtml'>Edit Location: Rahim's home</a>
+
+
+
+                    <!-- THEBALL-CONTEXT-END:Locations -->
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="4ab5177b-d3a3-4196-a595-0227bad92b46_Selected"><a data-toggle="modal" href="#view-location" class="noteditable">India Gujarat</a>
+                    </label>
+                    <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.AddressAndLocation_4ab5177b-d3a3-4196-a595-0227bad92b46_DefaultView.phtml'>Edit Location: India Gujarat</a>
+
+
+
+                    <!-- THEBALL-CONTEXT-END:Locations -->
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="54f6d9ba-8e2a-455e-85ef-fb618b0cf25c_Selected"><a data-toggle="modal" href="#view-location" class="noteditable">Nairobi, Kenya</a>
+                    </label>
+                    <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.AddressAndLocation_54f6d9ba-8e2a-455e-85ef-fb618b0cf25c_DefaultView.phtml'>Edit Location: Nairobi, Kenya</a>
+
+
+
+                    <!-- THEBALL-CONTEXT-END:Locations -->
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="bb4607ee-113d-498d-9377-5022fca55aa7_Selected"><a data-toggle="modal" href="#view-location" class="noteditable">New</a>
+                    </label>
+                    <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.AddressAndLocation_bb4607ee-113d-498d-9377-5022fca55aa7_DefaultView.phtml'>Edit Location: New</a>
+
+
+
+                    <!-- THEBALL-CONTEXT-END:Locations -->
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="dd2e432f-7f17-4827-94ae-36dfd176933b_Selected"><a data-toggle="modal" href="#view-location" class="noteditable">Aalto 2</a>
+                    </label>
+                    <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.AddressAndLocation_dd2e432f-7f17-4827-94ae-36dfd176933b_DefaultView.phtml'>Edit Location: Aalto 2</a>
+
+
+
+                    <!-- THEBALL-CONTEXT-END:Locations -->
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="0adcef7a-d9f6-404a-9cc5-c90d8570da2b_Selected"><a data-toggle="modal" href="#view-location" class="noteditable"></a>
+                    </label>
+                    <a class='remoteurlmodal' data-url=''>Edit Location: </a>
+
+
+
+                    <!-- THEBALL-CONTEXT-END:Locations -->
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="e92c3ecb-2ccb-4985-916d-8be0da8d1296_Selected"><a data-toggle="modal" href="#view-location" class="noteditable">Kamppi X - 15.11. 11:59</a>
+                    </label>
+                    <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.AddressAndLocation_e92c3ecb-2ccb-4985-916d-8be0da8d1296_DefaultView.phtml'>Edit Location: Kamppi X - 15.11. 11:59</a>
+
+
+
+                    <!-- THEBALL-CONTEXT-END:Locations -->
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="fcdde612-2ee5-4572-b418-0b044291f695_Selected"><a data-toggle="modal" href="#view-location" class="noteditable">Kalle's new location 5.12.-12</a>
+                    </label>
+                    <a class='remoteurlmodal' data-url='AaltoGlobalImpact.OIP.AddressAndLocation_fcdde612-2ee5-4572-b418-0b044291f695_DefaultView.phtml'>Edit Location: Kalle's new location 5.12.-12</a>
+
+
+
+                    <!-- THEBALL-CONTEXT-END:Locations -->
+
+
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(function () {
+                    $('#SelectedLocations_12956f4b-4a39-4db3-89ac-1e1ab3ddd6a3 input').each(function (index) {
+                        $(this).prop('checked', false);
+                    });
+
+                    $('#SelectedLocations_12956f4b-4a39-4db3-89ac-1e1ab3ddd6a3 input').on("click", function (event) {
+                        var selected = new Array();
+                        $('#SelectedLocations_12956f4b-4a39-4db3-89ac-1e1ab3ddd6a3 input:checked').each(function () {
+                            selected.push($(this).attr('id'));
+                        });
+
+// <!-- THEBALL-CONTEXT-END:* -->
+                        // Context switch here!
+                        $("#53b10e98-0693-4c34-b7af-819dcd58c73b_SelectedIDCommaSeparated").val(selected.join(",").split("_Selected").join(""));
+                        // alert($("#53b10e98-0693-4c34-b7af-819dcd58c73b_SelectedIDCommaSeparated").val());
+                    });
+
+                    var initializationArray = $("#53b10e98-0693-4c34-b7af-819dcd58c73b_SelectedIDCommaSeparated").val().split(",");
+                    $.each(initializationArray, function (index, value) {
+                        $("#" + value + "_Selected").prop('checked', true);
+                    });
+
+                });
+            </script>
+            <input type="hidden" id="53b10e98-0693-4c34-b7af-819dcd58c73b_SelectedIDCommaSeparated" name="53b10e98-0693-4c34-b7af-819dcd58c73b_SelectedIDCommaSeparated" value="">
+            <input type="hidden" id="53b10e98-0693-4c34-b7af-819dcd58c73b_IsCollectionFiltered" name="53b10e98-0693-4c34-b7af-819dcd58c73b_IsCollectionFiltered" value="true">
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <a href="#add-location" role="button" class="btn" data-toggle="modal">Add Location</a>
+                </div>
+            </div>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+
+<!-- modals -->
+<div id="view-location" class="modal hide fade well">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h3>
+            view this location
+        </h3>
+    </div>
+    <div class="modal-body well">
+        <form method="post" class="form-horizontal">
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <input id="RootSourceName" name="RootSourceName" type="hidden" value="" />
+            <fieldset>
+                <p>
+                    Here is going to be a map
+                </p>
+                <div class="modal-footer">
+                    <div class="control-group controls">
+                        <div class="form-actions" style="padding:0;margin:0;border-top:0">
+                            <button class="btn">Close window</button>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<div id="add-location" class="modal hide fade">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h2 class="title">
+            Add a location
+        </h2>
+    </div>
+    <div class="modal-body">
+        <form method="post" class="form-horizontal">
+
+            <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AddAddressAndLocationInfo:AddLocation -->
+
+            <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+            <input id="RootSourceName" name="RootSourceName" type="hidden" value="AddLocation" />
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="48b7dfb5-6d00-430b-ada1-0b54fbf75203_LocationName">Location name</label>
+                    <div class="controls">
+                        <input name="48b7dfb5-6d00-430b-ada1-0b54fbf75203_LocationName" class="span4" id="48b7dfb5-6d00-430b-ada1-0b54fbf75203_LocationName" type="text" value="">
+                    </div>
+                </div>
+                <div class="control-group controls">
+                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                        <button value="true" name="btnCancel" class="btn">Cancel</button>
+                        <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <!-- THEBALL-CONTEXT-END:* -->
+        </form>
+    </div>
+</div>
+
+
+<!-- end modals -->
+<!-- end oip-module-locations-choose-current.txt -->
+
+<!-- ========== End: oip-group\..\oip-containers\..\oip-modules\../oip-modules/oip-module-locations-choose-current.txt ========== -->
+</div>
+<div class="tab-pane" id="tab-group-delete"><div id="identity" style="min-height:400px;margin-top:10px">
+    <form id="" method="post" class="form-horizontal ">
+        <!-- THEBALL-FORM-HIDDEN-FIELDS -->
+        <input id="RootSourceName" name="RootSourceName" type="hidden" value="" />
+        <fieldset id="">
+            <p>are you sure you want to delete this group? You break all the links as well</p>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color: transparent">
+                    <button value="true" name="btnCancel"  class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-danger" name="RootSourceAction" id="RootSourceAction" value="Delete">Delete</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- THEBALL-CONTEXT-END:AaltoGlobalImpact.OIP.GroupContainer -->
+
+</section>
+</div>
+<footer class="footer">
+    <div class="container"><div class="span12">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+    </div>
+        <div class="span4">
+            <ul class="aalto-footer">
+                <li >
+                    <a href="http://www.aalto.fi/en">Aalto.fi</a>
+                    <ul>
+                        <li class="taik"><a href="http://arts.aalto.fi/en/">School of Arts, Design and Architecture</a></li>
+                        <li class="hse"><a href="http://business.aalto.fi/en/">School of Business</a></li>
+                        <li class="chem"><a href="http://chem.aalto.fi/en/">School of Chemical Technology</a></li>
+                        <li class="elec"><a href="http://elec.aalto.fi/en/">School of Electrical Engineering</a></li>
+                        <li class="eng"><a href="http://eng.aalto.fi/en/">School of Engineering</a></li>
+                        <li class="sci"><a href="http://sci.aalto.fi/en/" style="border: none;">School of Science</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="span4">
+            <p>Aalto Global Impact has been formed to bring together these existing parties working in societal issues and to help them develop their activities further</p>
+        </div>
+        <div class="span3">
+            <p>The <a id="edittoggle">Open</a> Innovation Platform is offered to you by Aalto Global Impact, and Aalto University organisation</p>
+            <p>All content licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+            <p>Icons from <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- ========== Begin: oip-group\..\oip-containers\../oip-modals/oip-modal-collection.txt ========== -->
+<!-- oip-modal-collection.txt -->
+
+<!-- ========== Begin: oip-group\..\oip-containers\..\oip-modals\oip-modal-text-short.txt ========== -->
+<!-- oip-modal-header.txt -->
+<div class="modal hide fade well in-context-edit" id="IncontextEditDialog_Text_Short">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="InContextEditFieldID" name="InContextEditFieldID" type="hidden" value="NotSet" />
+            <input id="RootSourceAction" name="RootSourceAction" type="hidden" value="Save" />
+            <input class="span4" type="text" name="Text_Short" id="Text_Short" value="" />
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+<!-- end oip-modal-header.txt -->
+
+<!-- ========== End: oip-group\..\oip-containers\..\oip-modals\oip-modal-text-short.txt ========== -->
+
+
+<!-- ========== Begin: oip-group\..\oip-containers\..\oip-modals\oip-modal-text-long.txt ========== -->
+<!-- oip-modal-text-long.txt -->
+<div class="modal hide fade well" id="IncontextEditDialog_Text_Long">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="InContextEditFieldID" name="InContextEditFieldID" type="hidden" value="NotSet" />
+            <input id="RootSourceAction" name="RootSourceAction" type="hidden" value="Save" />
+            <textarea class="span5" rows="30" id="Text_Long" name="Text_Long"></textarea>
+
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+    <script type="text/javascript">
+        function addRichTextEditTextLong() {
+            richArea = new nicEditor({fullPanel : true, iconsPath : '../oip-additions/oip-assets/oip-js/nicEditorIcons.gif' }).panelInstance('Text_Long');
+        }
+        // Moved to actual dialog initiation script as the content weren't appearing from previous data
+        // bkLib.onDomLoaded(function() { addRichTextEditTextLong(); });
+    </script>
+</div>
+<!-- end oip-modal-text-long.txt -->
+
+<!-- ========== End: oip-group\..\oip-containers\..\oip-modals\oip-modal-text-long.txt ========== -->
+
+
+<!-- ========== Begin: oip-group\..\oip-containers\..\oip-modals\oip-modal-radiogroup.txt ========== -->
+<!-- oip-modal-radiogroup.txt -->
+<div class="modal hide fade well" id="IncontextEditDialog_RadioGroup">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+        <div class="modal-body">
+            <div class="control-group">
+                <label class="checkbox">
+                    <input type="radio" id="LocationName" name="_LocationName" value="_LocationName">LocationName</label>
+            </div>
+
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+<!-- end oip-modal-radiogroup.txt -->
+
+<!-- ========== End: oip-group\..\oip-containers\..\oip-modals\oip-modal-radiogroup.txt ========== -->
+
+
+<!-- ========== Begin: oip-group\..\oip-containers\..\oip-modals\oip-modal-multiselect.txt ========== -->
+<!-- oip-modal-multiselect.txt -->
+<div class="modal hide fade well" id="IncontextEditDialog_MultiSelect">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+            <div class="control-group">
+                <label class="control-label" for="multiSelect"> Assign category </label>
+                <div class="controls">
+                    <select multiple="multiple" id="multiSelect" size="12">
+                        <optgroup label="Projects">
+                            <option> Projects </option>
+                            <option selected="selected"> Finland </option>
+                            <option> South America </option>
+                            <option> Africa </option>
+                        </optgroup> <optgroup label="Events">
+                        <option selected="selected"> Events </option>
+                        <option> Seminar </option>
+                        <option selected="selected"> Conference </option>
+                        <option> Meeting </option>
+                    </optgroup> <optgroup label="Courses">
+                        <option> Courses </option>
+                        <option> Ba </option>
+                        <option> MA </option>
+                        <option> Design </option>
+                    </optgroup> <optgroup label="Research">
+                        <option> Research </option>
+                        <option> BoP </option>
+                        <option selected="selected"> Inclusive Business </option>
+                    </optgroup>
+                    </select>
+                </div>
+            </div>
+
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+<!-- end oip-modal-multiselect.txt -->
+
+<!-- ========== End: oip-group\..\oip-containers\..\oip-modals\oip-modal-multiselect.txt ========== -->
+
+<div class="modal hide fade well in-context-edit" id="IDAction_ConfirmRemove">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+            <input id="RootSourceAction" name="RootSourceAction" type="hidden" value="" />
+            <p name="question" id="question">Not set</p>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color: transparent">
+                    <button value="true" name="btnCancel"  class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-danger" name="RootSourceAction" id="RootSourceAction" value="Delete">Delete</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+
+<div class="modal hide fade well" id="IDRemoteUrlModal">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <div id="IDRemoteUrlModalBody">
+        Loading content...
+    </div>
+</div>
+
+<!-- end oip-modal-collection.txt -->
+<!-- ========== End: oip-group\..\oip-containers\../oip-modals/oip-modal-collection.txt ========== -->
+
+
+
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/google-code-prettify/prettify.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-transition.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-alert.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-modal.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-dropdown.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-scrollspy.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-tab.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-tooltip.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-popover.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-button.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-collapse.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-carousel.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-typeahead.js"></script>
+<!-- calendar -->
+<script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js"></script>
+<!-- OIP specific -->
+<script src="../oip-additions/oip-assets/oip-js/in-context-editing.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/modal-id-actions.js"></script>
+</body>
+</html>
+

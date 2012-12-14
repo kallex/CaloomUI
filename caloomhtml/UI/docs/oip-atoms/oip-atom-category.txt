@@ -1,1 +1,1 @@
-<li><span class="badge">[!ATOM]CategoryName[ATOM!]</span></li>
+<li><span class="badge category">[!ATOM]CategoryName[ATOM!]</span></li>
