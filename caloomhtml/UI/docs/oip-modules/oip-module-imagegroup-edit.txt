@@ -1,5 +1,4 @@
 <!-- oip-module-imagegroup-edit.txt -->
-<div id="identity" class="span7" style="margin-top:10px">
 	<form id="" method="post" action="AaltoGlobalImpact.OIP.ImageGroup_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal" enctype="multipart/form-data">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset>
@@ -28,5 +27,4 @@
 			<?php include '../oip-atoms/oip-atom-image-edit-remove.txt' ?><!-- UseInformationObjectAsCollection:ImagesCollection -->
 		</fieldset>
 	</form>
-</div>
 <!-- end oip-module-imagegroup-edit.txt -->

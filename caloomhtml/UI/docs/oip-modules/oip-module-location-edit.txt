@@ -1,5 +1,4 @@
 <!-- oip-module-account-location-edit.txt -->
-<div id="identity" class="span7" style="margin-top:10px">
 	<form id="LocationEdit" method="post" action="AaltoGlobalImpact.OIP.AddressAndLocation_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:Location -->
@@ -78,5 +77,5 @@
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
 		</fieldset>
 	</form>
-</div>
 <!-- end oip-module-account-location-edit.txt -->
+
