@@ -35,6 +35,7 @@
 	});
 </script>
 			<input type="hidden" id="[!ATOM]CategoryCollection.ID[ATOM!]_SelectedIDCommaSeparated" name="[!ATOM]CategoryCollection.ID[ATOM!]_SelectedIDCommaSeparated" value="[!ATOM]CategoryCollection.SelectedIDCommaSeparated[ATOM!]">
+			<input type="hidden" id="[!ATOM]CategoryCollection.ID[ATOM!]_IsCollectionFiltered" name="[!ATOM]CategoryCollection.ID[ATOM!]_IsCollectionFiltered" value="true">
             <div class="control-group controls">
                 <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
 		            <a href="#add-category" role="button" class="btn" data-toggle="modal">Add Category</a>

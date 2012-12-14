@@ -1096,6 +1096,43 @@
       -->
     </InformationModel>
     <Operations>
+      <Operation name="CreateGroup">
+        <OperationSpec>
+          <Description>Create group</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="GroupName" dataType="string" designDesc="Group name to be created" state="designApproved"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID of initiator" state="designApproved"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Created group with given name" state="designApproved">
+              <Parameter name="GroupName"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of initiator" state="designApproved">
+              <Parameter name="AccountID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="TBEmail[]" name="AccountEmails" designDesc="Account emails" state="designApproved">
+              <Target name="AccountRoot"/>
+            </TargetDefinition>
+            <MethodExecute name="AddAsInitiatorToGroupRoot" designDesc="Add as initiator group root for every email address" state="designApproved">
+              <Target name="GroupRoot"/>
+              <Target name="AccountEmails"/>
+            </MethodExecute>
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+              <Target name="GroupRoot"/>
+            </MethodExecute>
+            <MethodExecute name="InitializeGroupContentAndMasters" designDesc="Initialize group content with templates, initialize subscriptions." state="designApproved">
+              <Target name="GroupRoot"/>
+            </MethodExecute>
+            <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
+                  state="designApproved">
+              <Parameter name="AccountID"/>
+              <Target name="GroupRoot"/>
+            </OperationExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
       <Operation name="InviteMemberToGroup">
         <OperationSpec>
           <Description>Invite member to collaboration group</Description>
@@ -1444,6 +1481,9 @@
               <Parameter name="GroupRoot"/>
               <Parameter name="AccountID"/>
             </OperationExecute>
+            <OperationExecute name="UpdateAccountRootReferences" targetOperationName="UpdateAccountRootToReferences" designDesc="Update account root references" state="designApproved">
+              <Parameter name="AccountID"/>
+            </OperationExecute>
             <OperationExecute name="UpdateAccountLoginGroups" targetOperationName="UpdateLoginGroupPermissions" designDesc="Update login group permissions" state="designApproved">
               <Parameter name="AccountID"/>
             </OperationExecute>
@@ -1514,7 +1554,7 @@
       </Operation>
       <Operation name="UpdateAccountRootGroupMembership">
         <OperationSpec>
-          <Description>Updates account container level group memberships and summaries based on the values</Description>
+          <Description>Updates account root group memberships</Description>
         </OperationSpec>
         <Parameters>
           <Parameter name="GroupRoot" dataType="TBRGroupRoot" designDesc="Group root record" state="designApproved"/>
@@ -1525,7 +1565,7 @@
             <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root" state="designApproved">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <MethodExecute name="UpdateAccountRootGroupMemberships" designDesc="Update account container memberships" state="designApproved">
+            <MethodExecute name="UpdateAccountRootGroupMemberships" designDesc="Update account root group membership" state="designApproved">
               <Parameter name="GroupRoot"/>
               <Target name="AccountRoot"/>
             </MethodExecute>

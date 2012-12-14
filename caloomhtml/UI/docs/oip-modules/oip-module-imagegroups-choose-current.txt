@@ -36,6 +36,7 @@
 	});
 </script>
 			<input type="hidden" id="[!ATOM]ImageGroupCollection.ID[ATOM!]_SelectedIDCommaSeparated" name="[!ATOM]ImageGroupCollection.ID[ATOM!]_SelectedIDCommaSeparated" value="[!ATOM]ImageGroupCollection.SelectedIDCommaSeparated[ATOM!]">
+			<input type="hidden" id="[!ATOM]ImageGroupCollection.ID[ATOM!]_IsCollectionFiltered" name="[!ATOM]ImageGroupCollection.ID[ATOM!]_IsCollectionFiltered" value="true">
             <div class="control-group controls">
                 <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
                     <a href="#add-imagegroup" role="button" class="btn" data-toggle="modal">Add Image Group</a>
