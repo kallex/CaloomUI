@@ -2,5 +2,5 @@
     <label class="checkbox">
         <input type="checkbox" id="[!ATOM]ID[ATOM!]_Selected"><a data-toggle="modal" href="#view-imagegroup" class="noteditable">[!ATOM]Title[ATOM!]</a>
     </label>
-    <a class='remoteurlmodal' data-url='[!ATOM]ReferenceToInformation.URL[ATOM!]'>Edit: [!ATOM]ReferenceToInformation.Title[ATOM!]</a>
+    <a class='remoteurlmodal' data-url='[!ATOM]ReferenceToInformation.URL[ATOM!]'><i class="icon-pencil" style="padding-right:10px"></i>Edit: [!ATOM]ReferenceToInformation.Title[ATOM!]</a>
 </div>
