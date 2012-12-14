@@ -21,14 +21,7 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <!--<li> <a href="oip-layout-groups-view.phtml"> Profile View</a> </li>-->
                         <li> <a href="oip-layout-groups-edit.phtml"> Edit this group</a> </li>
-                        <li class="divider"></li>
-                        <li> <a href="#"> My group</a> </li>
-                        <li class="divider"></li>
-                        <li><a tabindex="-1" href="#">Group A</a></li>
-                        <li><a tabindex="-1" href="#">Group B</a></li>
-                        <li><a tabindex="-1" href="#">Group C</a></li>
                     </ul>
 <!-- THEBALL-CONTEXT-END:* -->
                 </li>
@@ -113,11 +106,11 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li> <a href="../../publicsite/oip-public/oip-layout-landing.phtml"> Homepage | Edit</a> </li>
-                        <li> <a href="../../publicsite/oip-public/oip-layout-map.phtml"> Map | Edit</a> </li>
-                        <li> <a href="../../publicsite/oip-public/oip-layout-blog.phtml"> Blog | Edit</a> </li>
-                        <li> <a href="../../publicsite/oip-public/oip-layout-about.phtml"> About | Edit</a> </li>
-                        <li> <a href="../../publicsite/oip-public/oip-layout-activities-summary.phtml"> Activities | Edit</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-landing.phtml"> Public Homepage</a> | <a href="../../wwwsite/www-public/oip-layout-landing.phtml"> Www</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-map.phtml"> Public Map</a> | <a href="../../wwwsite/www-public/oip-layout-map.phtml"> Www</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-blog.phtml"> Public Blog</a> | <a href="../../wwwsite/www-public/oip-layout-blog.phtml"> Www</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-about.phtml"> Public About</a> | <a href="../../wwwsite/www-public/oip-layout-about.phtml"> Www</a> </li>
+                        <li> <a href="../../publicsite/oip-public/oip-layout-activities-summary.phtml"> Public Activities</a> | <a href="../../wwwsite/www-public/oip-layout-activities-summary.phtml"> Www</a> </li>
                         <li class="divider"></li>
                         <li> <a href="#publishtogrouppublic" data-toggle="modal">Publish to Group Public Area</a></li>
                         <li> <a href="#publishtowww" data-toggle="modal">Publish to WWW</a></li>

@@ -8,9 +8,8 @@
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-                <li><a href="/auth/account/website/oip-account/oip-layout-account-welcome.phtml">Welcome Page</a></li>
+                <li><a href="/auth/account/website/oip-account/oip-layout-account-welcome.phtml">My Welcome Page</a></li>
                 <li><a href="/auth/account/website/oip-account/oip-layout-account-edit.phtml">My Profile</a></li>
-                <li><a  href="../../publicsite/oip-public/oip-layout-landing.phtml">Edit Public Site</a></li>
                 <li class="divider"></li>
                 <li><a href="/TheBallLogin.aspx?SignOut=true">Logout</a></li>
             </ul>
