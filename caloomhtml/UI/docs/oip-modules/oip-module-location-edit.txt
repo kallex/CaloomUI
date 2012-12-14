@@ -1,5 +1,5 @@
 <!-- oip-module-account-location-edit.txt -->
-	<form id="LocationEdit" method="post" action="AaltoGlobalImpact.OIP.AddressAndLocation_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal ">
+<form id="LocationEdit" method="post" action="AaltoGlobalImpact.OIP.AddressAndLocation_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:Location -->
 <fieldset>
@@ -57,7 +57,7 @@
 					<input name="[!ATOM]ID[ATOM!]_LocationName" class="span3" id="[!ATOM]ID[ATOM!]_LocationName" type="text" value="[!ATOM]LocationName[ATOM!]" placeholder="Location name">
 				</div>
 			</div>
-			<div class="control-group">
+			<div class="control-group form-inline">
 				<label class="control-label" for="input01">Latitude and Longitude</label> 
 				<div class="controls">
 					<input name="[!ATOM]Latitude.ID[ATOM!]_TextValue" class="span3" id="[!ATOM]Latitude.ID[ATOM!]_TextValue" type="text" value="[!ATOM]Latitude.TextValue[ATOM!]" placeholder="Latitude">
@@ -66,16 +66,8 @@
 			</div>
 <!-- THEBALL-CONTEXT-END:* -->
 <?php include 'oip-module-address.txt' ?><!-- UseInformationObject:Address-->
-<!--
-			<div class="control-group">
-				<label class="control-label" for="input01"></label> 
-				<div class="controls">
-					<button class="btn btn-info" href="#">Look up address</button> 
-				</div>
-			</div>
--->
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-		</fieldset>
-	</form>
+</fieldset>
+</form>
 <!-- end oip-module-account-location-edit.txt -->
 
