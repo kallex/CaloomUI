@@ -5,25 +5,25 @@
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label> 
 				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_Title" class="span3" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]">
+        <input name="[!ATOM]ID[ATOM!]_Title" class="input-xxlarge" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_SubTitle">SubTitle</label>
 				<div class="controls">
-        <input name="[!ATOM]ID[ATOM!]_SubTitle" class="span3" id="[!ATOM]ID[ATOM!]_SubTitle" type="text" value="[!ATOM]SubTitle[ATOM!]">
+        <input name="[!ATOM]ID[ATOM!]_SubTitle" class="input-xxlarge" id="[!ATOM]ID[ATOM!]_SubTitle" type="text" value="[!ATOM]SubTitle[ATOM!]">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_Body">Body</label> 
 				<div class="controls">
-                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_Body" name="[!ATOM]ID[ATOM!]_Body" rows="20" placeholder="add org name">[!ATOM]Body[ATOM!]</textarea>
+                    <textarea class="input-xxlarge" id="[!ATOM]ID[ATOM!]_Body" name="[!ATOM]ID[ATOM!]_Body" rows="20" placeholder="add org name">[!ATOM]Body[ATOM!]</textarea>
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_Excerpt">Excerpt</label> 
 				<div class="controls">
-                    <textarea class="span5" id="[!ATOM]ID[ATOM!]_Excerpt" name="[!ATOM]ID[ATOM!]_Excerpt" rows="6" placeholder="add org name">[!ATOM]Excerpt[ATOM!]</textarea> 
+                    <textarea class="input-xxlarge" id="[!ATOM]ID[ATOM!]_Excerpt" name="[!ATOM]ID[ATOM!]_Excerpt" rows="6" placeholder="add org name">[!ATOM]Excerpt[ATOM!]</textarea>
 				</div>
 			</div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
