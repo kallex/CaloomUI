@@ -3,6 +3,9 @@
 </div>
 <div class="row-fluid">
     <div class="span3 index">
-        <?php include '../oip-modules/oip-module-about.txt' ?>
+        <?php include '../oip-modules/oip' ?>
+    </div>
+    <div class="span9">
+        <?php include '../oip-modules/oip-module-activities-summary.txt' ?>
     </div>
 </div>
