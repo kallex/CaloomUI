@@ -54,14 +54,14 @@
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_LocationName">Location name</label> 
 				<div class="controls">
-					<input name="[!ATOM]ID[ATOM!]_LocationName" class="span3" id="[!ATOM]ID[ATOM!]_LocationName" type="text" value="[!ATOM]LocationName[ATOM!]" placeholder="Location name">
+					<input name="[!ATOM]ID[ATOM!]_LocationName" class="input-xxlarge" id="[!ATOM]ID[ATOM!]_LocationName" type="text" value="[!ATOM]LocationName[ATOM!]" placeholder="Location name">
 				</div>
 			</div>
 			<div class="control-group form-inline">
 				<label class="control-label" for="input01">Latitude and Longitude</label> 
 				<div class="controls">
-					<input name="[!ATOM]Latitude.ID[ATOM!]_TextValue" class="span3" id="[!ATOM]Latitude.ID[ATOM!]_TextValue" type="text" value="[!ATOM]Latitude.TextValue[ATOM!]" placeholder="Latitude">
-					<input name="[!ATOM]Longitude.ID[ATOM!]_TextValue" class="span3" id="[!ATOM]Longitude.ID[ATOM!]_TextValue" type="text" value="[!ATOM]Longitude.TextValue[ATOM!]" placeholder="Longitude">
+					<input name="[!ATOM]Latitude.ID[ATOM!]_TextValue" class="input-small" id="[!ATOM]Latitude.ID[ATOM!]_TextValue" type="text" value="[!ATOM]Latitude.TextValue[ATOM!]" placeholder="Latitude">
+					<input name="[!ATOM]Longitude.ID[ATOM!]_TextValue" class="input-small" id="[!ATOM]Longitude.ID[ATOM!]_TextValue" type="text" value="[!ATOM]Longitude.TextValue[ATOM!]" placeholder="Longitude">
 				</div>
 			</div>
 <!-- THEBALL-CONTEXT-END:* -->
