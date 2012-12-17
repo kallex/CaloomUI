@@ -1,4 +1,7 @@
 <!-- oip-module-about-3-sections-1.txt --><!-- this is a static page -->
+<div>
+    <h2>About Aalto</h2>
+</div>
 <div class="span5">
 <?php include 'oip-module-modal-images-about-3-sections.txt' ?>
 </div>
