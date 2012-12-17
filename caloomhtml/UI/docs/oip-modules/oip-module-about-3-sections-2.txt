@@ -1,0 +1,12 @@
+<!-- oip-module-about-3-sections-1.txt --><!-- this is a static page -->
+<div class="span6">
+    <p>
+        Aalto Global Impact has been formed to bring together these existing parties working in societal issues and to help them develop their activities further. Our dream is, in addition to working on concrete projects, to become a physical and virtual community where people get inspired and stimulated to co-create new collaborative projects and initiatives for increased societal impact.
+    </p>
+</div>
+<div class="span5">
+    <?php include 'oip-module-modal-images-about-3-sections.txt' ?>
+</div>
+
+<!-- end oip-module-about-3-sections-1.txt -->
+
