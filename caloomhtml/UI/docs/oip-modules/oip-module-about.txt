@@ -1,19 +1,9 @@
-
 <!-- oip-module-about.txt -->
-<h6 class="published">
-    <?php include '../oip-atoms/oip-atom-published.txt' ?>
-</h6>
-<h6 class="author">
-    <?php include '../oip-atoms/oip-atom-author.txt' ?>
-</h6>
-<p>
+<div class="span5">
     <?php include 'oip-module-modal-images-featured.txt' ?><!-- UseInformationObject:ImageGroup -->
-</p>
-<p>
-    <?php include '../oip-atoms/oip-atom-excerpt.txt' ?>
-</p>
-<p>
+</div
+<div class="span7">
     <?php include '../oip-atoms/oip-atom-body.txt' ?>
-</p>
+</div>
 <!-- end oip-module-about.txt -->
 
