@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../TheBallCoreABS/TheBallCore/Content_v1_0/TheBallCore_v1_0.xsd">
+-->
+<TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
+  <InstanceOfTheBall semanticDomainName="TheBall.CORE">
+    <InformationModel>
+      <InformationObject name="InvoiceCollection" designDesc="Collection of invoices">
+        <CollectionFor contentInformationObjectName="Invoice" collectionType="Master"/>
+      </InformationObject>
+      <InformationObject name="Invoice" designDesc="">
+        <InformationItems>
+          <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject"
+                           informationObjectName="ReferenceToInformation"/>
+          <InformationItem name="InvoiceName" logicalDataType="Text_Short" />
+          <InformationItem name="InvoiceID" logicalDataType="Text_Short" />
+          <InformationItem name="InvoicedAmount" logicalDataType="Text_Short" />
+          <InformationItem name="CreateDate" logicalDataType="Time_Date" />
+          <InformationItem name="DueDate" logicalDataType="Time_Date" />
+          <InformationItem name="PaidAmount" logicalDataType="Text_Short" />
+          <InformationItem name="FeesAndInterestAmount" logicalDataType="Text_Short"/>
+          <InformationItem name="UnpaidAmount" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="InvoiceDetails" designDesc="Invoice details">
+        <InformationItems>
+          <InformationItem name="MonthlyFeesTotal" logicalDataType="Text_Short"/>
+          <InformationItem name="OneTimeFeesTotal" logicalDataType="Text_Short"/>
+          <InformationItem name="UsageFeesTotal" logicalDataType="Text_Short"/>
+          <InformationItem name="InterestFeesTotal" logicalDataType="Text_Short"/>
+          <InformationItem name="PenaltyFeesTotal" logicalDataType="Text_Short"/>
+          <InformationItem name="TotalFeesTotal" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="InvoiceUser" designDesc="">
+        <InformationItems>
+          <InformationItem name="UserName" logicalDataType="Text_Short"/>
+          <InformationItem name="UserID" logicalDataType="Text_Short"/>
+          <InformationItem name="UserPhoneNumber" logicalDataType="Text_Short"/>
+          <InformationItem name="UserSubscriptionNumber" logicalDataType="Text_Short"/>
+          <InformationItem name="UserInvoiceTotalAmount" logicalDataType="Text_Short"/>
+          <InformationItem name="InvoiceRowGroupCollection" logicalDataType="InformationObject"
+                           informationObjectName="InvoiceRowGroupCollection"/>
+          <InformationItem name="InvoiceEventDetailGroupCollection" logicalDataType="InformationObject"
+                           informationObjectName="InvoiceEventDetailGroupCollection"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="InvoiceRowGroupCollection" designDesc="">
+        <CollectionFor contentInformationObjectName="InvoiceRowGroup"/>
+      </InformationObject>
+      <InformationObject name="InvoiceEventDetailGroupCollection" designDesc="">
+        <CollectionFor contentInformationObjectName="InvoiceEventDetailGroup"/>
+      </InformationObject>
+
+      <InformationObject name="InvoiceRowGroup" designDesc="">
+        <InformationItems>
+          <InformationItem name="GroupName" logicalDataType="Text_Short"/>
+          <InformationItem name="GroupTotalPriceWithoutTaxes" logicalDataType="Text_Short"/>
+          <InformationItem name="GroupTotalTaxes" logicalDataType="Text_Short"/>
+          <InformationItem name="GroupTotalPriceWithTaxes" logicalDataType="Text_Short"/>
+          <InformationItem name="InvoiceRowCollection" logicalDataType="InformationObject"
+                           informationObjectName="InvoiceRowCollection"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="InvoiceEventDetailGroup" designDesc="">
+        <InformationItems>
+          <InformationItem name="GroupName" logicalDataType="Text_Short"/>
+          <InformationItem name="InvoiceEventDetailCollection" logicalDataType="InformationObject"
+                           informationObjectName="InvoiceEventDetailCollection"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="InvoiceEventDetailCollection" designDesc="">
+        <CollectionFor contentInformationObjectName="InvoiceEventDetail"/>
+      </InformationObject>
+      <InformationObject name="InvoiceRowCollection" designDesc="">
+        <CollectionFor contentInformationObjectName="InvoiceRow"/>
+      </InformationObject>
+      <InformationObject name="InvoiceEventDetail" designDesc="">
+        <InformationItems>
+          <InformationItem name="IndentMode" logicalDataType="Text_Short"/>
+          <InformationItem name="EventStartDateTime" logicalDataType="Time_DateTime"/>
+          <InformationItem name="EventEndDateTime" logicalDataType="Time_DateTime"/>
+          <InformationItem name="ReceivingParty" logicalDataType="Text_Short"/>
+          <InformationItem name="AmountOfUnits" logicalDataType="Text_Short"/>
+          <InformationItem name="Duration" logicalDataType="Text_Short"/>
+          <InformationItem name="UnitPrice" logicalDataType="Text_Short"/>
+          <InformationItem name="PriceWithoutTaxes" logicalDataType="Text_Short" />
+          <InformationItem name="Taxes" logicalDataType="Text_Short" />
+          <InformationItem name="PriceWithTaxes" logicalDataType="Text_Short" />
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="InvoiceRow" designDesc="">
+        <InformationItems>
+          <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject"
+                           informationObjectName="ReferenceToInformation"/>
+          <InformationItem name="IndentMode" logicalDataType="Text_Short"/>
+          <InformationItem name="AmountOfUnits" logicalDataType="Text_Short" />
+          <InformationItem name="Duration" logicalDataType="Text_Short" />
+          <InformationItem name="UnitPrice" logicalDataType="Text_Short" />
+          <InformationItem name="PriceWithoutTaxes" logicalDataType="Text_Short" />
+          <InformationItem name="Taxes" logicalDataType="Text_Short" />
+          <InformationItem name="PriceWithTaxes" logicalDataType="Text_Short" />
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="CategoryCollection" designDesc="Collection of categories">
+        <CollectionFor contentInformationObjectName="Category"/>
+      </InformationObject>
+      <InformationObject name="Category" designDesc="Category">
+        <InformationItems>
+          <InformationItem name="CategoryName" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="Process" designDesc="">
+        <InformationItems>
+          <InformationItem name="ProcessID" logicalDataType="Text_Short"/>
+          <InformationItem name="ProcessName" logicalDataType="Text_Short"/>
+          <InformationItem name="CategoryCollection" logicalDataType="InformationObject"
+                           informationObjectName="CategoryCollection"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="ReferenceToInformation" designDesc="Reference to information" isIndependentMaster="true">
+        <InformationItems>
+          <InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="URL" logicalDataType="Text_Short" />
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="ReferenceCollection" designDesc="Collection of references">
+        <CollectionFor contentInformationObjectName="ReferenceToInformation" />
+      </InformationObject>
+    </InformationModel>
+    <Operations>
+      <Operation name="CreateInvoiceForGroup">
+        <OperationSpec>
+          <Description>Create invoice for group</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID" state="designApproved"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root" state="designApproved">
+              <Parameter name="GroupID"/>
+            </TargetDefinition>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+    </Operations>
+    <!--
+    <Subscriptions>
+      <Subscription triggeredOperationName="UpdatePageContent">
+        <TriggeringInformationItem itemName="BuiltForAnybodyTitle" objectName="AboutAGIApplications" />
+        <OperationParameter name="changedInformation" informationItemSource="TriggeringObject" informationObjectName="AboutAGIApplications" informationItemName="BuiltForAnybodyTitle" />
+      </Subscription>
+    </Subscriptions>
+    -->
+    <!--
+    <Monitoring>
+      <Monitor monitoringOperationName="UpdatePageContent">
+        <MonitoredInformationItem objectName="AboutAGIApplications" itemName="ForAllPeopleTitle" />
+        <MonitoringFrequency utcTimeStampToStart="2012-08-13T14:00:00.123456789+02:00">
+          <RegularMonitoringCycle frequencyUnit="Minute" monitorEveryXthOfUnit="15" />
+        </MonitoringFrequency>
+        <OperationParameter name="changedInformation" informationItemSource="TriggeringObject" informationObjectName="AboutAGIApplications" informationItemName="ForAllPeopleTitle" />
+      </Monitor>
+    </Monitoring>
+    -->
+  </InstanceOfTheBall>
+</TheBallCoreAbstraction>

@@ -1,5 +1,5 @@
 <div class="well tab-well">
     <a data-id="[!ATOM]ID[ATOM!]" data-profileurl="[!ATOM]ProfileUrl[ATOM!]" href="#ViewCollaboratorProfile" class="open-IDAction_ViewCollaboratorProfile"><i class="icon-eye-open" style="padding-right:10px"></i>[!ATOM]CollaboratorName[ATOM!], [!ATOM]Role[ATOM!]</a><br>
-    <a data-id="[!ATOM]ID[ATOM!]" class="open-IDAction_AssignGroupRole" data-currentrole="[!ATOM]Role[ATOM!]" data-command="AssignCollaboratorRole" href="#AssignGroupRole"><i class="icon-star-empty" style="padding-right:10px">assign role</a><br>
+    <a data-id="[!ATOM]ID[ATOM!]" class="open-IDAction_AssignGroupRole" data-currentrole="[!ATOM]Role[ATOM!]" data-command="AssignCollaboratorRole" href="#AssignGroupRole"><i class="icon-star-empty" style="padding-right:10px"></i>assign role</a><br>
     <a data-id="[!ATOM]AccountID[ATOM!]" class="open-IDAction_ConfirmRemove" href="#RemoveCollaborator" data-question="Remove [!ATOM]CollaboratorName[ATOM!] as collaborator?" data-command="RemoveCollaborator" data-commandtext="Remove" class="alert"><i class="icon-trash" style="padding-right:10px;"></i>remove this collaborator</a>
 </div>

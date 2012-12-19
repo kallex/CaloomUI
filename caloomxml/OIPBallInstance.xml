@@ -1627,7 +1627,7 @@
         <Parameters>
           <Parameter name="TargetObjectID" dataType="string" designDesc="Target object id" state="designApproved"/>
           <Parameter name="CommandName" dataType="string" designDesc="Command name" state="designApproved"/>
-          <Parameter name="Owner" dataType="IContainerOwner" designDesc="Data owner" state="designApproved"/>
+          <Parameter name="Owner" dataType="TheBall.CORE.IContainerOwner" designDesc="Data owner" state="designApproved"/>
           <Parameter name="InformationSources" dataType="InformationSourceCollection" designDesc="Information sources of the page" state="designApproved"/>
           <Parameter name="FormSourceNames" dataType="string[]" designDesc="Form source names" state="designApproved"/>
           <Parameter name="FormSubmitContent" dataType="NameValueCollection" designDesc="Form field collection as-posted" state="designApproved"/>
