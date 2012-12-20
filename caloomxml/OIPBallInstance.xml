@@ -1530,6 +1530,24 @@
           </SequentialExecution>
         </Execution>
       </Operation>
+      <Operation name="DeleteInformationObject">
+        <OperationSpec>
+          <Description>Deletes information object</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="ObjectToDelete" dataType="TheBall.CORE.IInformationObject" designDesc="Information object to delete" state="designApproved"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <MethodExecute name="DeleteObjectViews" designDesc="Delete all information object views from all template-based sites" state="designApproved">
+              <Parameter name="ObjectToDelete"/>
+            </MethodExecute>
+            <MethodExecute name="DeleteObject" designDesc="Delete information object" state="designApproved">
+              <Parameter name="ObjectToDelete"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
       <Operation name="UpdateLoginGroupPermissions">
         <OperationSpec>
           <Description>Updates account login permissions per group</Description>
