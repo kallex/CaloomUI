@@ -1,7 +1,7 @@
 <div class="tabbable tabs-left">
     <ul class="nav nav-tabs" style="margin-bottom:0px;">
         <li class="active"><a href="#tab-activities-profile" data-toggle="tab">Activity Profile</a></li>
-        <li><a href="#tab-images" data-toggle="tab">My Images</a></li>
+        <li><a href="#tab-images" data-toggle="tab">Activity Images</a></li>
         <li><a href="#tab-location-current" data-toggle="tab">Activity Locations</a></li>
         <li><a href="#tab-category" data-toggle="tab">Activity Categories</a></li>
         <li><a href="#tab-activities-delete" data-toggle="tab" class="delete">Delete Activity</a></li>
