@@ -16,7 +16,7 @@
     <!--  <link href="../bootstrap-default/assets/css/jdpicker.css" rel="stylesheet">-->
     <!--Extra Styles from jQuery UI-->
     <!--  <link href="../third-party/jquery-ui/css/demo.css" rel="stylesheet">
-      <link href="../third-party/jquery-ui/css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet"> -->
+        <link href="../third-party/jquery-ui/css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet"> -->
     <!-- calendar -->
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -40,9 +40,9 @@
         <div class="container oip-navbar">
             <ul class="nav">
                 <li class="dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown"">
-                    <span style="">Aalto Global Impact</span>
-                    <b class="caret"></b>
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <span style="">Aalto Global Impact</span>
+                        <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="../www-public/oip-layout-activities-summary.phtml">Homepage</a></li>
@@ -264,36 +264,35 @@
         <!-- THEBALL-FORM-HIDDEN-FIELDS -->
         <fieldset id="profile">
             <div class="control-group">
-                <div class="control-group">
-                    <label class="control-label">Profile image</label>
-                    <div class="controls">
-                        <input class="btn btn-small span11" id="appendedInputButtons" size="16" type="file">
-                    </div>
+                <label class="control-label">Profile image</label>
+                <div class="controls">
+                    <input class="btn btn-small span11" id="appendedInputButtons" size="16" type="file">
                 </div>
-                <div class="control-group">
-                    <label class="control-label">Icon (for use on the map and as your group's logo)</label>
-                    <div class="controls">
-                        <input class="btn btn-small span11" id="appendedInputButtons" size="16" type="file">
-                    </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Icon (for use on the map and as your group's logo)</label>
+                <div class="controls">
+                    <input class="btn btn-small span11" id="appendedInputButtons" size="16" type="file">
                 </div>
-                <div class="control-group">
-                    <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Activity Name</label>
-                    <div class="controls">
-                        <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span11" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
-                    </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Activity Name</label>
+                <div class="controls">
+                    <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span11" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
                 </div>
-                <div class="control-group">
-                    <label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label>
-                    <div class="controls">
-                        <textarea class="span11" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea>
-                    </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label>
+                <div class="controls">
+                    <textarea class="span11" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea>
                 </div>
-                <div class="control-group controls">
-                    <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
-                        <button value="true" name="btnCancel" class="btn">Cancel</button>
-                        <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
-                    </div>
+            </div>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
                 </div>
+            </div>
         </fieldset>
     </form>
 </div>
@@ -308,7 +307,6 @@
             <fieldset id="current-imagegroups">
                 <div class="control-group">
                     <label class="control-label">List of image groups</label>
-
                     <div id="SelectedImageGroups_[!ATOM]ImageGroups.ID[ATOM!]" class="controls">
                         <div class="well tab-well">
                             <label class="checkbox">
@@ -330,7 +328,7 @@
                             $('#SelectedImageGroups_[!ATOM]ImageGroups.ID[ATOM!] input:checked').each(function () {
                                 selected.push($(this).attr('id'));
                             });
-// <!-- THEBALL-CONTEXT-END:* -->
+                            // <!-- THEBALL-CONTEXT-END:* -->
                             // Context switch here!
                             $("#[!ATOM]ImageGroupCollection.ID[ATOM!]_SelectedIDCommaSeparated").val(selected.join(",").split("_Selected").join(""));
                             // alert($("#[!ATOM]ImageGroupCollection.ID[ATOM!]_SelectedIDCommaSeparated").val());
@@ -417,14 +415,13 @@
             </form>
         </div>
     </div>
-
-
     <!-- end modals -->
     <!-- end oip-module-imagegroup-choose-current.txt -->
+
 </div>
 <div class="tab-pane" id="tab-location-current"><!--oip-module-locations-choose-current.txt-->
     <div class="span12" style="margin-top:10px;min-height:300px">
-        <form id="" method="post" class="form-horizontal ">
+        <form id="" action="" method="post" class="form-horizontal ">
             <!-- THEBALL-FORM-HIDDEN-FIELDS -->
             <!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.LocationContainer:Locations -->
             <fieldset id="current-locations">
@@ -451,7 +448,7 @@
                             $('#SelectedLocations_[!ATOM]Locations.ID[ATOM!] input:checked').each(function () {
                                 selected.push($(this).attr('id'));
                             });
-// <!-- THEBALL-CONTEXT-END:* -->
+                            // <!-- THEBALL-CONTEXT-END:* -->
                             // Context switch here!
                             $("#[!ATOM]LocationCollection.ID[ATOM!]_SelectedIDCommaSeparated").val(selected.join(",").split("_Selected").join(""));
                             // alert($("#[!ATOM]LocationCollection.ID[ATOM!]_SelectedIDCommaSeparated").val());
@@ -572,7 +569,7 @@
                 $('#SelectedCategories_[!ATOM]Categories.ID[ATOM!] input:checked').each(function () {
                     selected.push($(this).attr('id'));
                 });
-// <!-- THEBALL-CONTEXT-END:* -->
+                // <!-- THEBALL-CONTEXT-END:* -->
                 // Context switch here!
                 $("#[!ATOM]CategoryCollection.ID[ATOM!]_SelectedIDCommaSeparated").val(selected.join(",").split("_Selected").join(""));
                 // alert($("#[!ATOM]CategoryCollection.ID[ATOM!]_SelectedIDCommaSeparated").val());

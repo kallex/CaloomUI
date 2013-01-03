@@ -2,8 +2,8 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container oip-navbar">
-            <?php include'../oip-modules/oip-module-aaltoglobalimpact-navbar.txt'?></php><!-- navigation to www.aaltoglobalimpact.org -->
-            <?php include'../oip-modules/oip-module-account-nav-right.txt' ?></php><!-- edit and my account menus-->
+            <?php include'../oip-modules/oip-module-aaltoglobalimpact-navbar.txt' ?> <!-- navigation to www.aaltoglobalimpact.org -->
+            <?php include'../oip-modules/oip-module-account-nav-right.txt' ?><!-- edit and my account menus-->
         </div>
     </div>
 </div>
