@@ -1,4 +1,6 @@
-<div id="identity" class="span12" style="margin-top:10px;min-height: 300px">
+
+<!-- oip-module-activities-delete.txt -->
+<div class="span12" style="margin-top:10px;min-height: 300px">
 	<form id="ActivityDelete" method="post" action="oip-layout-activities-summary.phtml" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<input id="RootSourceAction" name="RootSourceAction" type="hidden" value="DeleteActivity" />
@@ -9,4 +11,4 @@
 		</fieldset>
 	</form>
 </div>
-
+<!-- end oip-module-activities-delete.txt -->

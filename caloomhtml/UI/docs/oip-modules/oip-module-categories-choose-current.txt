@@ -1,11 +1,12 @@
+
 <!--oip-module-categories-choose-current.txt-->
 <div class="span11" style="margin-top:10px;min-height:300px">
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 <!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.CategoryContainer:Categories -->
-		<fieldset id="current-categories">
+		<fieldset>
 			<div class="control-group">
-				<label class="control-label">List of categories used</label> 
+				<label class="control-label">List of categories used</label>
 				<div id="SelectedCategories_[!ATOM]Categories.ID[ATOM!]" class="controls">
 					<?php include '../oip-atoms/oip-atom-choose-category.txt' ?><!-- UseInformationObjectAsCollection:Categories -->
 				</div>
