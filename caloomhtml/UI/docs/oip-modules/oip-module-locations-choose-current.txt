@@ -1,6 +1,6 @@
 <!--oip-module-locations-choose-current.txt-->
 <div class="span12" style="margin-top:10px;min-height:300px">
-	<form id="" method="post" class="form-horizontal ">
+	<form id="" action="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 <!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.LocationContainer:Locations -->
 		<fieldset id="current-locations">
@@ -42,8 +42,8 @@
                 </div>
             </div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-	</fieldset>
-</form>
+	    </fieldset>
+    </form>
 </div>
 
 <!-- modals -->

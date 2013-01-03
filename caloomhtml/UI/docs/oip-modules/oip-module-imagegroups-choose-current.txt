@@ -5,8 +5,7 @@
 <!-- THEBALL-CONTEXT-DYNAMICROOT-BEGIN:AaltoGlobalImpact.OIP.ImageGroupContainer:ImageGroups -->
 		<fieldset id="current-imagegroups">
 			<div class="control-group">
-				<label class="control-label">List of image groups</label> 
-
+				<label class="control-label">List of image groups</label>
 				<div id="SelectedImageGroups_[!ATOM]ImageGroups.ID[ATOM!]" class="controls">
 					<?php include '../oip-atoms/oip-atom-choose-imagegroup.txt' ?><!-- UseInformationObjectAsCollection:ImageGroups -->
 				</div>
@@ -43,8 +42,8 @@
                 </div>
             </div>
 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
-	</fieldset>
-</form>
+	    </fieldset>
+    </form>
 </div>
 
 <!-- modals -->
@@ -100,6 +99,6 @@
     </div>
 </div>
 
-
 <!-- end modals -->
 <!-- end oip-module-imagegroup-choose-current.txt -->
+

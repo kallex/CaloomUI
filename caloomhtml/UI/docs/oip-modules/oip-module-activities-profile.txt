@@ -1,8 +1,7 @@
 <div id="activity-profile" class="span12" style=";margin-top:10px">
     <form id="" method="post" class="form-horizontal ">
-<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+        <!-- THEBALL-FORM-HIDDEN-FIELDS -->
         <fieldset id="profile">
-            <div class="control-group">
                 <div class="control-group">
                     <label class="control-label">Profile image</label>
                     <div class="controls">
@@ -16,18 +15,18 @@
                     </div>
                 </div>
                 <div class="control-group">
-                <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Activity Name</label>
-                <div class="controls">
-                    <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span11" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_ActivityName">Activity Name</label>
+                    <div class="controls">
+                        <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span11" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
+                    </div>
                 </div>
-            </div>
-            <div class="control-group">
-                <label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label>
-                <div class="controls">
-                    <textarea class="span11" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea>
+                <div class="control-group">
+                    <label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label>
+                    <div class="controls">
+                        <textarea class="span11" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea>
+                    </div>
                 </div>
-            </div>
-             <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
+                <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
         </fieldset>
     </form>
 </div>
