@@ -5,6 +5,21 @@
 <TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
   <InstanceOfTheBall semanticDomainName="TheBall.CORE">
     <InformationModel>
+      <InformationObject name="InvoiceFiscalExportSummary" designDesc="Annual export summary of invoices">
+        <InformationItems>
+          <InformationItem name="FiscalInclusiveStartDate" logicalDataType="Time_Date"/>
+          <InformationItem name="FiscalInclusiveEndDate" logicalDataType="Time_Date"/>
+          <InformationItem name="ExportedInvoices" logicalDataType="InformationObject" informationObjectName="InvoiceCollection"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="InvoiceSummaryContainer" designDesc="Container for combined invoice data">
+        <InformationItems>
+          <InformationItem name="OpenInvoices" logicalDataType="InformationObject" informationObjectName="InvoiceCollection"/>
+          <InformationItem name="PredictedInvoices" logicalDataType="InformationObject" informationObjectName="InvoiceCollection" />
+          <InformationItem name="PaidInvoicesActiveYear" logicalDataType="InformationObject" informationObjectName="InvoiceCollection" />
+          <InformationItem name="PaidInvoicesLast12Months" logicalDataType="InformationObject" informationObjectName="InvoiceCollection" />
+        </InformationItems>
+      </InformationObject>
       <InformationObject name="InvoiceCollection" designDesc="Collection of invoices">
         <CollectionFor contentInformationObjectName="Invoice" collectionType="Master"/>
       </InformationObject>
@@ -20,6 +35,8 @@
           <InformationItem name="PaidAmount" logicalDataType="Text_Short" />
           <InformationItem name="FeesAndInterestAmount" logicalDataType="Text_Short"/>
           <InformationItem name="UnpaidAmount" logicalDataType="Text_Short"/>
+          <InformationItem name="InvoiceDetails" logicalDataType="InformationObject" informationObjectName="InvoiceDetails"/>
+          <InformationItem name="InvoiceUsers" logicalDataType="InformationObject" informationObjectName="InvoiceUserCollection"/>
         </InformationItems>
       </InformationObject>
       <InformationObject name="InvoiceDetails" designDesc="Invoice details">
@@ -31,6 +48,9 @@
           <InformationItem name="PenaltyFeesTotal" logicalDataType="Text_Short"/>
           <InformationItem name="TotalFeesTotal" logicalDataType="Text_Short"/>
         </InformationItems>
+      </InformationObject>
+      <InformationObject name="InvoiceUserCollection" designDesc="">
+        <CollectionFor contentInformationObjectName="InvoiceUser"/>
       </InformationObject>
       <InformationObject name="InvoiceUser" designDesc="">
         <InformationItems>

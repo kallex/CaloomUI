@@ -1,0 +1,18 @@
+<!-- Event Reference Edit -->
+<div id="HeaderEdit" class="modal hide fade well">
+	<div class="modal-header">
+		<h3>Update This Invoice</h3>
+	</div>
+	<div class="modal-body well">
+			<fieldset>
+			<div class="control-group">				
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_InvoiceName">Invoice Name</label>
+				<input name="[!ATOM]ID[ATOM!]_InvoiceName" class="input-large" id="[!ATOM]ID[ATOM!]_InvoiceName" type="text" value="[!ATOM]InvoiceName[ATOM!]">
+			</div>
+			<div class="control-group">				
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_InvoicedAmount">Invoice Amount</label>
+				<input name="[!ATOM]ID[ATOM!]_InvoicedAmount" class="input-large" id="[!ATOM]ID[ATOM!]_InvoicedAmount" type="text" value="[!ATOM]InvoicedAmount[ATOM!]">
+			</div>
+		</fieldset>
+	</div>
+</div>

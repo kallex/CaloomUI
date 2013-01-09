@@ -1,0 +1,11 @@
+<!-- Reference Head -->
+<form method="post" class="form-horizontal well">
+<!-- THEBALL-FORM-HIDDEN-FIELDS -->
+	<fieldset>
+		<?php include 'core-billing-example1-module-edit.txt' ?>
+		<div class="modal-footer">
+			<button type="submit" name="bCancel" id="bCancel" class="btn btn-primary">Cancel</button>
+			<button type="submit" name="bSave" id="bSave" class="btn btn-primary">Submit</button>
+		</div>
+	</fieldset>
+</form>
