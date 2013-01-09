@@ -1,4 +1,4 @@
 CaloomUI
 ========
 
-CaloomUI designer focused work repository - to be submoduled elsewhere
+CaloomUI designer focused work repository - to be submoduled elsewhere.
