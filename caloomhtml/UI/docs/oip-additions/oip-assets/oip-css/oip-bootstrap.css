@@ -5074,6 +5074,10 @@ a.badge:hover {
   text-align: center;
 }
 /* Start Aalto Visual Identity Additions */
+.modal-header {
+  min-height: 30px;
+  margin-bottom: 5px;
+}
 body {
   background-color: #ffffff;
   background-image: url(../oip-images/ui/yt-background-image-brown.png);
