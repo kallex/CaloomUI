@@ -1,4 +1,4 @@
 <p><img src="[!ATOM]ContentUrl[ATOM]"><br>This is the group's icon or brand image or logo</p>
-<h4>[!ATOM]Title[ATOM!]</h4>
-<p>[!ATOM]Introduction[ATOM!]</p>
-<p>[!ATOM]Summary[ATOM!]</p>
+<h4>[!ATOM]Title[ATOM!] <-- Title</h4>
+<p>[!ATOM]Introduction[ATOM!] <-- Introduction</p>
+<p>[!ATOM]Summary[ATOM!] <-- Summary</p>
