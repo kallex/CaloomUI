@@ -5618,6 +5618,9 @@ li .aalto-navbar {
 .footer ul li ul li a:active {
   color: #103f85;
 }
+ul.category li {
+  display: inline;
+}
 .badge.category {
   font-size: 9.044px;
   font-weight: normal;
