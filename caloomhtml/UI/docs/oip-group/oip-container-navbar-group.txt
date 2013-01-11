@@ -2,7 +2,7 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container oip-navbar">
-            <?php include'../oip-modules/oip-module-aaltoglobalimpact-navbar.txt'?></php><!-- navigation to www.aaltoglobalimpact.org -->
+            <?php include'../oip-modules/oip-module-aaltoglobalimpact-navbar.txt' ?></php><!-- navigation to www.aaltoglobalimpact.org -->
             <?php include'../oip-modules/oip-module-group-nav-right.txt' ?></php><!-- edit and my account menus for the group sections-->
         </div>
     </div>

@@ -5,12 +5,11 @@
             <b class="caret"></b>
         </a>
         <ul class="dropdown-menu">
-            <li><a href="../www-public/oip-layout-activities-summary.phtml">Homepage</a></li>
-            <li><a href="../www-public/oip-layout-map.phtml">Map</a></li>
-            <li><a href="../www-public/oip-layout-news.phtml">News</a></li>
-            <li><a href="../www-public/oip-layout-about.phtml">About</a></li>
-            <li><a href="../www-public/oip-layout-activities-summary.phtml"style="border: none;">Activities</a></li>
+            <li><a href="http://demowww.aaltoglobalimpact.org/www-public/oip-layout-activities-summary.phtml">Homepage</a></li>
+            <li><a href="http://demowww.aaltoglobalimpact.org/www-public/oip-layout-map.phtml">Map</a></li>
+            <li><a href="http://demowww.aaltoglobalimpact.org/www-public/oip-layout-news.phtml">News</a></li>
+            <li><a href="http://demowww.aaltoglobalimpact.org/www-public/oip-layout-about.phtml">About</a></li>
+            <li><a href="http://demowww.aaltoglobalimpact.org/www-public/oip-layout-activities-summary.phtml"style="border: none;">Activities</a></li>
         </ul>
     </li>
 </ul>
-
