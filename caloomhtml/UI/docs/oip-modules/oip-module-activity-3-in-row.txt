@@ -1,5 +1,6 @@
 <li class="span3">
-    <img class="img-style row1" src="[!ATOM]ProfileImage.ImageData.ContentUrl[ATOM!]"  />
+<!--    <div style="height: 70px;overflow: hidden"><img class="img-style row1" src="[!ATOM]ProfileImage.ImageData.ContentUrl[ATOM!]" width="100%" style="margin-top: -30%"/></div>-->
+    <div style="height: 70px;overflow: hidden"><img class="img-style row1" src="../oip-additions/oip-assets/oip-images/placeholder/fff.png" width="100%" /></div>
     <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <!--<br><small>[!ATOM]ActivityName[ATOM!]</small>-->
