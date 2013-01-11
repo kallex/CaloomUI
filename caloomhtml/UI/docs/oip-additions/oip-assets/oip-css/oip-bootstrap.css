@@ -5469,19 +5469,6 @@ li.span3 a img {
   width: 97%;
   max-width: 190px;
 }
-.editable {
-  background-color: #fef4d4;
-}
-.editable-with-border {
-  margin: 3px;
-  outline-color: red;
-  background-color: #ffb6c1;
-}
-.editable-when-empty {
-  margin: 3px;
-  outline-color: #1655b2;
-  background-color: #add8e6;
-}
 .aalto-background {
   background-color: transparent;
   padding: 4px;
@@ -5647,6 +5634,20 @@ li .aalto-navbar {
   width: 23px;
   height: 23px;
   background: url("../oip-images/ui/zoomin.png") no-repeat scroll 0% 0% transparent;
+}
+.editable {
+  background-color: #fef4d4;
+}
+.editable-with-border {
+  margin: 3px;
+  outline-color: red;
+  background-color: #ffb6c1;
+}
+.editable-when-empty {
+  min-width: 50px;
+  margin: 3px;
+  outline-color: #1655b2;
+  background-color: #add8e6;
 }
 .oip-news {
   color: #9e468f;
