@@ -1,20 +1,17 @@
 
 <!-- start oip-module-register.txt -->
 <p>
-    Sign in with: <?php include '../oip-modules/oip-module-auth-provider.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
+    Register and sign in with one of your emails at: <?php include '../oip-modules/oip-module-auth-provider.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
 <p>
 
-<h2>Sign up</h2>
+<h2>Getting added to a group or create groups</h2>
 <p>
-    You have come here because GROUP NAME/ COLLABORATOR has invited you, or, you want to become part of the Open Innovation Platform as you saw interesting projects.
+    After you have signed in with your Google or Yahoo account you are part of the Open Innovation Platform. You can then begin to join or create a group, join or create an activity and collaborate with others.
 </p>
 <p>
     The Open Innovation Platform stores no passwords nor login credentials, instead we use Google and Yahoo to offer this service.
-    <?php include '../oip-modules/oip-module-auth-provider.txt' ?><!-- UseInformationObjectAsCollection:LoginProviderCollection -->
-    above comes from oip-module-register-index.txt
-    After you have signed in with your Google or Yahoo account you are part of the Open Innovation Platform. You can then begin to join or create a group, join or create an activity and collaborate with others.
-    More about this on the account help page, the group help page, the activity help page.
-</p><p>
+</p>
+<p>
     The location you will be forwarded after signing in: [!ATOM]ReturnUrl[ATOM!]
 </p>
 <!-- end oip-module-register.txt -->
