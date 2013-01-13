@@ -43,6 +43,13 @@
                     <li> <a href="oip-layout-activities-summary.phtml"> <i class="icon-flag"></i> Events</a> </li>
                 </ul>
             </li>
+
+            <li>
+                <a href="http://demooip.aaltoglobalimpact.org/about/oip-public/oip-layout-register.phtml">
+                    <i class="icon-star" style="color:#a9a9a9"></i>
+                    <span>(OIP Beta)</span>
+                </a>
+            </li>
         </ul>
     </div>
 </div>

@@ -78,7 +78,7 @@
                     <div class="control-group">
                         <label class="control-label" for="[!ATOM]ID[ATOM!]_EmailAddress">Email address that you trust</label> 
                         <div class="controls">
-                            <input name="[!ATOM]ID[ATOM!]_EmailAddress" class="span3" id="[!ATOM]ID[ATOM!]_EmailAddress" type="input" value="[!ATOM]EmailAddress[ATOM!]">
+                            <input name="[!ATOM]ID[ATOM!]_EmailAddress" class="input-xlarge" id="[!ATOM]ID[ATOM!]_EmailAddress" type="input" value="[!ATOM]EmailAddress[ATOM!]">
                         </div>
                     </div>
 
