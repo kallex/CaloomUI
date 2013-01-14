@@ -6,13 +6,13 @@
 	<div class="control-group">
 		<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label> 
 		<div class="controls">
-			<input name="[!ATOM]ID[ATOM!]_Title" class="span3" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]" placeholder="Title">
+			<input name="[!ATOM]ID[ATOM!]_Title" class="input-medium" id="[!ATOM]ID[ATOM!]_Title" type="text" value="[!ATOM]Title[ATOM!]" placeholder="Title">
 		</div>
 	</div>
 	<div class="control-group">
 		<label class="control-label" for="[!ATOM]ID[ATOM!]_Caption">Caption</label> 
 		<div class="controls">
-			<input name="[!ATOM]ID[ATOM!]_Caption" class="span3" id="[!ATOM]ID[ATOM!]_Caption" type="text" value="[!ATOM]Caption[ATOM!]" placeholder="Caption">
+			<input name="[!ATOM]ID[ATOM!]_Caption" class="input-medium" id="[!ATOM]ID[ATOM!]_Caption" type="text" value="[!ATOM]Caption[ATOM!]" placeholder="Caption">
 		</div>
 	</div>
 	<input type="hidden" name="RootSourceAction" value="cmdAddToCollection_[!ATOM]ID[ATOM!]" />
