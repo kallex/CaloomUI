@@ -1,7 +1,9 @@
 <div class="span9">
     <h2><?php include '../oip-atoms/oip-atom-activityname.txt' ?></h2>
 <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
-    <!-- include oip-module-modal-images.txt -->
+    <ul class="thumbnails">
+        <?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObjectAsCollection:ImageGroupCollection -->
+    </ul>
     <!-- UseInformationObject:ImageGroup  -->
     <p><?php include '../oip-atoms/oip-atom-description.txt' ?></p>
 </div>

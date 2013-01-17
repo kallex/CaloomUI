@@ -411,6 +411,7 @@
           <InformationItem name="IconImage" logicalDataType="InformationObject" informationObjectName="Image"/>
           <InformationItem name="ActivityName" logicalDataType="Text_Short"/>
           <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
+          <InformationItem name="Excerpt" logicalDataType="Text_Long"/>
           <InformationItem name="Description" logicalDataType="Text_Long"/>
           <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
           <InformationItem name="ImageGroupCollection" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />

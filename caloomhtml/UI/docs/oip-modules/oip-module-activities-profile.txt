@@ -26,6 +26,12 @@
                         <textarea class="span11" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea>
                     </div>
                 </div>
+				<div class="control-group">
+					<label class="control-label" for="[!ATOM]ID[ATOM!]_Excerpt">Excerpt (max. 200 chars)</label> 
+					<div class="controls">
+						<textarea class="input-xxlarge" id="[!ATOM]ID[ATOM!]_Excerpt" name="[!ATOM]ID[ATOM!]_Excerpt" rows="6" placeholder="Max. 200 characters (autotruncated at save)">[!ATOM]Excerpt[ATOM!]</textarea>
+					</div>
+				</div>
                 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
         </fieldset>
     </form>
