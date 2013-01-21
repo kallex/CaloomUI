@@ -4,15 +4,57 @@
     map = new OpenLayers.Map("map_canvas");
     map.addLayer(new OpenLayers.Layer.OSM());
     var markers = new OpenLayers.Layer.Markers( "Markers" );
-    map.addLayer(markers);
+	var vectors = new OpenLayers.Layer.Vector("Vector Layer", {
+		styleMap: new OpenLayers.StyleMap({
+							"default": new OpenLayers.Style(OpenLayers.Util.applyDefaults({
+								externalGraphic: "../oip-additions/oip-assets/oip-images/oip-markers/OIP-marker-1.png",
+								graphicOpacity: 1,
+								rotation: -180,
+								pointRadius: 10
+							}, OpenLayers.Feature.Vector.style["default"])),
+							"select": new OpenLayers.Style({
+								externalGraphic: "../oip-additions/oip-assets/oip-images/oip-markers/OIP-marker-2.png",
+								graphicOpacity: 1,
+								rotation: -180,
+								pointRadius: 10
+							}, OpenLayers.Feature.Vector.style["select"])
+						})
+	});
+    map.addLayer(vectors);
+	selectControl = new OpenLayers.Control.SelectFeature(
+					[vectors],
+					{
+						clickout: true, toggle: false,
+						multiple: false, hover: false,
+						toggleKey: "ctrlKey", // ctrl key removes from selection
+						multipleKey: "shiftKey" // shift key adds to selection
+					}
+				);
+            
+	map.addControl(selectControl);
+	selectControl.activate();
+
+    //map.addLayer(markers);
     var size = new OpenLayers.Size(21,25);
     var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
     // var icon = new OpenLayers.Icon('http://www.openlayers.org/dev/img/marker.png', size, offset);
     <?php include 'oip-module-markers.txt' ?><!-- UseInformationObjectAsCollection:MapMarkers -->
     map.zoomToMaxExtent();
 
+	vectors.events.on({
+			"featureselected": function(e) {
+				//showStatus("selected feature "+e.feature.id+" on Vector Layer 1");
+				alert("Selected feature");
+			},
+			"featureunselected": function(e) {
+				//showStatus("unselected feature "+e.feature.id+" on Vector Layer 1");
+				alert("Unselected feature");
+			}
+		});
+
+
     //newly added test for map-controls
-    var map = new OpenLayers.Map('map', { controls: [] });
+    //var map = new OpenLayers.Map('map', { controls: [] });
 
     map.addControl(new OpenLayers.Control.PanZoomBar());
     map.addControl(new OpenLayers.Control.MouseToolbar());
