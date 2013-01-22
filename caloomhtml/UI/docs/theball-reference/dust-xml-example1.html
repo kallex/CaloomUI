@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="../oip-additions/oip-assets/oip-js/dust-full-1.1.1.js" type="text/javascript" language="javascript"></script>
+<script src="../oip-additions/oip-assets/oip-js/xml2json.js" type="text/javascript" language="javascript"></script>
+<script src="../oip-additions/oip-assets/oip-js/jquery.js" type="text/javascript" language="javascript"></script>
+</head>
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+<!-- section -->
+<section id="gridSystem">
+<!-- container -->
+<div id="primary" class="container-fluid marketing well" >HOLLO KO POLLO!
+<script type="text/javascript">
+
+    $(function () {
+        $.get("../AaltoGlobalImpact.OIP/AboutContainer/default", function (responseXml) {
+            dom = (new DOMParser()).parseFromString(responseXml, "text/xml");
+            var json = xml2json(dom, "  ");
+            alert(json);
+            //var ID = $("ID", responseXml).text();
+            //var Name = $("Name", responseXml).text();
+
+            //alert(ID); // >> Catcher in the Rye
+            //alert(Name); // >> J.D. Salinger
+
+            //var myObj = $("Author", responseXml).text();
+            var myObj = jQuery.parseJSON(json);
+            //myObj = jQuery.parseXML(responseXml);
+            alert(myObj);
+            $.get("dust-xml-template1.html", function (responseTemplate) {
+                //var aboutCompiled = dust.compile("PÖÖÖT! {#AboutContainer} Pööt pööt! {ID} {Name} {:else} TÄH? {/AboutContainer} Kauha", "aboutdemo");
+                var aboutCompiled = dust.compile(responseTemplate, "aboutdemo");
+                dust.loadSource(aboutCompiled);
+                console.log("About demo begin");
+                dust.render("aboutdemo", myObj, function (err, out) {
+                    console.log("Err: " + err);
+                    console.log("Out: " + out);
+                });
+                console.log("About demo out");
+            });
+        });
+    });
+
+    console.log("Pööt!");
+    //var dust = require("dust");
+    var testObject = 
+        {
+         "title": "Famous People", 
+         "names" : [{ "name": "Larry" },{ "name": "Curly" },{ "name": "Moe" }]
+         };
+    var compiled = dust.compile("{title} <ul> {#names}  <li>{name}</li>{~n} {/names} </ul>", "firstdemo");
+    dust.loadSource(compiled);
+    dust.render("firstdemo", testObject, function (err, out) {
+        console.log(err);
+        console.log(out);
+    });
+</script>
+</div>
+</section>
+</body>
+</html>
