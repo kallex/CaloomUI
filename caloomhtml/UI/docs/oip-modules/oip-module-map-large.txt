@@ -1,70 +1,30 @@
-<div id="map_canvas" style="height:522px;"></div>
+<div id="map" style="height:522px;"></div>
 <script src="../oip-additions/oip-assets/oip-js/OpenLayers.js"></script>
 <script>
-    map = new OpenLayers.Map("map_canvas");
-    map.addLayer(new OpenLayers.Layer.OSM());
-    var markers = new OpenLayers.Layer.Markers( "Markers" );
-	var vectors = new OpenLayers.Layer.Vector("Vector Layer", {
-		styleMap: new OpenLayers.StyleMap({
-							"default": new OpenLayers.Style(OpenLayers.Util.applyDefaults({
-								externalGraphic: "../oip-additions/oip-assets/oip-images/oip-markers/OIP-marker-1.png",
-								graphicOpacity: 1,
-								rotation: -180,
-								pointRadius: 10
-							}, OpenLayers.Feature.Vector.style["default"])),
-							"select": new OpenLayers.Style({
-								externalGraphic: "../oip-additions/oip-assets/oip-images/oip-markers/OIP-marker-2.png",
-								graphicOpacity: 1,
-								rotation: -180,
-								pointRadius: 10
-							}, OpenLayers.Feature.Vector.style["select"])
-						})
-	});
-    map.addLayer(vectors);
-	selectControl = new OpenLayers.Control.SelectFeature(
-					[vectors],
-					{
-						clickout: true, toggle: false,
-						multiple: false, hover: false,
-						toggleKey: "ctrlKey", // ctrl key removes from selection
-						multipleKey: "shiftKey" // shift key adds to selection
-					}
-				);
-            
-	map.addControl(selectControl);
-	selectControl.activate();
+	var map = L.map('map').setView([0, 0], 2);
 
-    //map.addLayer(markers);
-    var size = new OpenLayers.Size(21,25);
-    var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
-    // var icon = new OpenLayers.Icon('http://www.openlayers.org/dev/img/marker.png', size, offset);
-    <?php include 'oip-module-markers.txt' ?><!-- UseInformationObjectAsCollection:MapMarkers -->
-    map.zoomToMaxExtent();
+	// add an OpenStreetMap tile layer
+	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(map);
 
-	vectors.events.on({
-			"featureselected": function(e) {
-				//showStatus("selected feature "+e.feature.id+" on Vector Layer 1");
-				alert("Selected feature");
-			},
-			"featureunselected": function(e) {
-				//showStatus("unselected feature "+e.feature.id+" on Vector Layer 1");
-				alert("Unselected feature");
-			}
-		});
+	// add a marker in the given location, attach some popup content to it and open the popup
+	L.marker([0, 0]).addTo(map)
+		.bindPopup('A pretty CSS3 popup. <br> Easily customizable. <a href="http://www.yle.fi">Test link to Yle</a>')
+		.openPopup();
 
 
+    <?php include 'oip-module-leaflet-markers.txt' ?><!-- UseInformationObjectAsCollection:MapMarkers -->
     //newly added test for map-controls
     //var map = new OpenLayers.Map('map', { controls: [] });
-
-    map.addControl(new OpenLayers.Control.PanZoomBar());
-    map.addControl(new OpenLayers.Control.MouseToolbar());
-    map.addControl(new OpenLayers.Control.LayerSwitcher({'ascending':false}));
-    map.addControl(new OpenLayers.Control.Permalink());
-    map.addControl(new OpenLayers.Control.Permalink('permalink'));
-    map.addControl(new OpenLayers.Control.MousePosition());
-    map.addControl(new OpenLayers.Control.OverviewMap());
-    map.addControl(new OpenLayers.Control.KeyboardDefaults());
     //end newly added test for map-controls
 
 
 </script> 
+
+<div class="modal hide fade well open-IDMapTooltipModal" id="IDMapTooltipModal">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">close</button> 
+	</div>
+	<div>Map popup modal</div>
+</div>
