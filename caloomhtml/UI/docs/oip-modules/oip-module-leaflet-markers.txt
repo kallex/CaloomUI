@@ -1,3 +1,5 @@
-	L.marker([[!ATOM]LocationText[ATOM!]]).addTo(map)
-		.bindPopup('<h2>[!ATOM]PopupTitle[ATOM!]</h2><br>[!ATOM]PopupContent[ATOM!]')
-		.openPopup();
+	{
+		var myMarker = L.marker([[!ATOM]LocationText[ATOM!]])
+			.bindPopup('<h2>[!ATOM]PopupTitle[ATOM!]</h2><br>[!ATOM]PopupContent[ATOM!]');
+		markers.addLayer(myMarker);
+	}

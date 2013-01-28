@@ -9,12 +9,19 @@
 	}).addTo(map);
 
 	// add a marker in the given location, attach some popup content to it and open the popup
-	L.marker([0, 0]).addTo(map)
-		.bindPopup('A pretty CSS3 popup. <br> Easily customizable. <a href="http://www.yle.fi">Test link to Yle</a>')
-		.openPopup();
+	//L.marker([0, 0]).addTo(map)
+	//	.bindPopup('A pretty CSS3 popup. <br> Easily customizable. <a href="http://www.yle.fi">Test link to Yle</a>')
+	//	.openPopup();
+
+	var markers = new L.MarkerClusterGroup();
+
+	markers.addLayer(L.marker([175.3107, -37.7784]));
+	// add more markers here...
+
 
 
     <?php include 'oip-module-leaflet-markers.txt' ?><!-- UseInformationObjectAsCollection:MapMarkers -->
+	map.addLayer(markers);
     //newly added test for map-controls
     //var map = new OpenLayers.Map('map', { controls: [] });
     //end newly added test for map-controls
