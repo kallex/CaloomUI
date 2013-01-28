@@ -1263,7 +1263,7 @@
             <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
               <Target name="GroupRoot"/>
             </MethodExecute>
-            <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers" 
+            <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
                               state="designApproved">
               <Target name="GroupRoot"/>
               <Target name="AccountID"/>
@@ -1731,6 +1731,40 @@
         <Execution>
           <SequentialExecution>
             <MethodExecute name="UpdatePage" designDesc="Do the update page" state="underDesign" />
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="CreateAdditionalMediaFormats">
+        <OperationSpec>
+          <Description />
+        </OperationSpec>
+        <Parameters>
+          <Parameter dataType="string" name="MasterRelativeLocation" designDesc="Relative location of original" state="underDesign" />
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="Bitmap" name="BitmapData" designDesc="Bitmap image if existing" state="designApproved">
+              <Parameter name="MasterRelativeLocation"/>
+            </TargetDefinition>
+            <MethodExecute name="CreateImageMediaFormats" designDesc="Create various media formats" state="underDesign">
+              <Parameter name="MasterRelativeLocation"/>
+              <Target name="BitmapData"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="ClearAdditionalMediaFormats">
+        <OperationSpec>
+          <Description />
+        </OperationSpec>
+        <Parameters>
+          <Parameter dataType="string" name="MasterRelativeLocation" designDesc="Relative location of original" state="underDesign" />
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <MethodExecute name="ClearImageMediaFormats" designDesc="Clear various image media formats" state="underDesign">
+              <Parameter name="MasterRelativeLocation"/>
+            </MethodExecute>
           </SequentialExecution>
         </Execution>
       </Operation>
