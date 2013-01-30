@@ -1,5 +1,17 @@
 	{
-		var myMarker = L.marker([[!ATOM]LocationText[ATOM!]])
+		var myIcon = L.icon({
+			iconUrl: '[!ATOM]IconUrl[ATOM!]',
+			//iconRetinaUrl: 'my-icon@2x.png',
+			iconSize: [25, 41],
+			iconAnchor: [12, 40],
+			popupAnchor: [-3, -76],
+			shadowUrl: '../oip-additions/oip-assets/oip-images/oip-markers/marker-shadow.png',
+			// shadowRetinaUrl: 'my-icon-shadow@2x.png',
+			shadowSize: [41, 41],
+			shadowAnchor: [12, 40]
+		});
+
+		var myMarker = L.marker([[!ATOM]LocationText[ATOM!]], {icon: myIcon })
 			.bindPopup('<h2>[!ATOM]PopupTitle[ATOM!]</h2><br>[!ATOM]PopupContent[ATOM!]');
 		markers.addLayer(myMarker);
 	}
