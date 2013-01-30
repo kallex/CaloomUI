@@ -19,6 +19,13 @@
 <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+	<link rel="stylesheet" href="../oip-additions/oip-assets/oip-css/MarkerCluster.Default.css" />
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
+		<link rel="stylesheet" href="../oip-additions/oip-assets/oip-css/MarkerCluster.Default.ie.css" />
+	<![endif]-->
+
 
 <!-- Le fav and touch icons -->
 	<link rel="shortcut icon" href="../oip-additions/oip-assets/oip-images/icons/favicon.ico">
@@ -29,4 +36,6 @@
 	<script src="../oip-additions/oip-assets/oip-js/jquery.js"></script>
 	<script src="../oip-additions/oip-assets/oip-js/jquery.form.js"></script>
 	<script type="text/javascript" src="../oip-additions/oip-assets/oip-js/nicEdit.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+	<script src="../oip-additions/oip-assets/oip-js/leaflet.markercluster.js"></script>
 </head>
