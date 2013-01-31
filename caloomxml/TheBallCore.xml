@@ -147,6 +147,40 @@
       <InformationObject name="ReferenceCollection" designDesc="Collection of references">
         <CollectionFor contentInformationObjectName="ReferenceToInformation" />
       </InformationObject>
+      <InformationObject name="ProcessorUsage" designDesc="Processing usage entry">
+        <InformationItems>
+          <InformationItem name="TimeRange" logicalDataType="InformationObject" informationObjectName="TimeRange"/>
+          <InformationItem name="UsageType" logicalDataType="Text_Short"/>
+          <InformationItem name="AmountOfTicks" logicalDataType="Number_ExactDecimal"/>
+          <InformationItem name="FrequencyTicksPerSecond" logicalDataType="Number_ExactDecimal"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="StorageTransactionUsage" designDesc="Storage transaction usage entry">
+        <InformationItems>
+          <InformationItem name="TimeRange" logicalDataType="InformationObject" informationObjectName="TimeRange"/>
+          <InformationItem name="UsageType" logicalDataType="Text_Short"/>
+          <InformationItem name="AmountOfTransactions" logicalDataType="Number_Integer"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="StorageUsage" designDesc="Storage usage entry at given time">
+        <InformationItems>
+          <InformationItem name="SnapshotTime" logicalDataType="Time_DateTime" />
+          
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="NetworkUsage" designDesc="Network usage entry">
+        <InformationItems>
+          <InformationItem name="TimeRange" logicalDataType="InformationObject" informationObjectName="TimeRange"/>
+          <InformationItem name="UsageType" logicalDataType="Text_Short"/>
+          <InformationItem name="AmountOfBytes" logicalDataType="Number_Integer"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TimeRange" designDesc="Time range of given start and end times">
+        <InformationItems>
+          <InformationItem name="StartTime" logicalDataType="Time_DateTime"/>
+          <InformationItem name="EndTime" logicalDataType="Time_DateTime"/>
+        </InformationItems>
+      </InformationObject>
     </InformationModel>
     <Operations>
       <Operation name="CreateInvoiceForGroup">
