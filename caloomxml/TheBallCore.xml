@@ -147,6 +147,24 @@
       <InformationObject name="ReferenceCollection" designDesc="Collection of references">
         <CollectionFor contentInformationObjectName="ReferenceToInformation" />
       </InformationObject>
+      <InformationObject name="InformationOwnerInfo" designDesc="Info about information owner">
+        <InformationItems>
+          <InformationItem name="OwnerType" logicalDataType="Text_Short"/>
+          <InformationItem name="OwnerIdentifier" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="UsageMonitorItem" designDesc="Usage monitor item">
+        <InformationItems>
+          <InformationItem name="OwnerInfo" logicalDataType="InformationObject" informationObjectName="InformationOwnerInfo"/>
+          <InformationItem name="ProcessorUsages" logicalDataType="InformationObject" informationObjectName="ProcessorUsageCollection"/>
+          <InformationItem name="StorageTransactionUsages" logicalDataType="InformationObject" informationObjectName="StorageTransactionUsageCollection"/>
+          <InformationItem name="StorageUsages" logicalDataType="InformationObject" informationObjectName="StorageUsageCollection"/>
+          <InformationItem name="NetworkUsages" logicalDataType="InformationObject" informationObjectName="NetworkUsageCollection"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="ProcessorUsageCollection" designDesc="Collection of Processor Usages">
+        <CollectionFor contentInformationObjectName="ProcessorUsage" collectionType="Independent"/>
+      </InformationObject>
       <InformationObject name="ProcessorUsage" designDesc="Processing usage entry">
         <InformationItems>
           <InformationItem name="TimeRange" logicalDataType="InformationObject" informationObjectName="TimeRange"/>
@@ -155,6 +173,9 @@
           <InformationItem name="FrequencyTicksPerSecond" logicalDataType="Number_ExactDecimal"/>
         </InformationItems>
       </InformationObject>
+      <InformationObject name="StorageTransactionUsageCollection" designDesc="Collection of Storage Transaction Usages">
+        <CollectionFor contentInformationObjectName="StorageTransactionUsage" collectionType="Independent"/>
+      </InformationObject>
       <InformationObject name="StorageTransactionUsage" designDesc="Storage transaction usage entry">
         <InformationItems>
           <InformationItem name="TimeRange" logicalDataType="InformationObject" informationObjectName="TimeRange"/>
@@ -162,11 +183,19 @@
           <InformationItem name="AmountOfTransactions" logicalDataType="Number_Integer"/>
         </InformationItems>
       </InformationObject>
+      <InformationObject name="StorageUsageCollection" designDesc="Collection of Storage Usages">
+        <CollectionFor contentInformationObjectName="StorageUsage" collectionType="Independent"/>
+      </InformationObject>
       <InformationObject name="StorageUsage" designDesc="Storage usage entry at given time">
         <InformationItems>
           <InformationItem name="SnapshotTime" logicalDataType="Time_DateTime" />
-          
+          <InformationItem name="UsageType" logicalDataType="Text_Short"/>
+          <InformationItem name="UsageUnit" logicalDataType="Text_Short"/>
+          <InformationItem name="AmountOfUnits" logicalDataType="Number_ExactDecimal"/>
         </InformationItems>
+      </InformationObject>
+      <InformationObject name="NetworkUsageCollection" designDesc="Collection of Network Usages">
+        <CollectionFor contentInformationObjectName="NetworkUsage" collectionType="Independent"/>
       </InformationObject>
       <InformationObject name="NetworkUsage" designDesc="Network usage entry">
         <InformationItems>
