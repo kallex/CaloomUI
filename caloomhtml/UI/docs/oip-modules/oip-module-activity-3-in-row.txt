@@ -1,5 +1,5 @@
 <li class="span3">
-    <div style="height: 70px;overflow: hidden"><img class="img-style row1" src="[!ATOM]ProfileImage.ImageData.ContentUrl[ATOM!]" width="100%" /></div>
+    <div style="height: 70px;overflow: hidden"><img class="img-style row1" src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_160x120_crop.jpg" width="100%" /></div>
     <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
     </h3>

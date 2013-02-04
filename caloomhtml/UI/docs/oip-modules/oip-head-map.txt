@@ -38,4 +38,5 @@
 	<script type="text/javascript" src="../oip-additions/oip-assets/oip-js/nicEdit.js"></script>
 	<script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
 	<script src="../oip-additions/oip-assets/oip-js/leaflet.markercluster.js"></script>
+	<script src="../oip-additions/oip-assets/oip-js/jquery.nailthumb.1.0.js"></script>
 </head>

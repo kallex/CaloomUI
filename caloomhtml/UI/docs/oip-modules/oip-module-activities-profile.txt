@@ -1,17 +1,19 @@
 <div class="span12" style=";margin-top:10px">
-    <form id="" method="post" class="form-horizontal ">
+    <form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
         <!-- THEBALL-FORM-HIDDEN-FIELDS -->
         <fieldset>
                 <div class="control-group">
                     <label class="control-label">Profile image</label>
                     <div class="controls">
-                        <input class="btn btn-small span11" id="appendedInputButtons" size="16" type="file">
+						<img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_160x120_whole.jpg" alt="Activity profile image" />
+						<input class="input-xlarge modal-form" id="[!ATOM]ProfileImage.ImageData.ID[ATOM!]" name="[!ATOM]ProfileImage.ImageData.ID[ATOM!]" size="16" type="file">
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label">Icon (for use on the map and as your group's logo)</label>
+                    <label class="control-label">Icon (for use on the map and as your activity's logo)</label>
                     <div class="controls">
-                        <input class="btn btn-small span11" id="appendedInputButtons" size="16" type="file">
+						<img src="[!ATOM]IconImage.ImageData.ContentUrlBase[ATOM!]_160x120_whole.jpg" alt="Activity icon image" />
+						<input class="input-xlarge modal-form" id="[!ATOM]IconImage.ImageData.ID[ATOM!]" name="[!ATOM]IconImage.ImageData.ID[ATOM!]" size="16" type="file">
                     </div>
                 </div>
                 <div class="control-group">
