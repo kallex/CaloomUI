@@ -1,17 +1,16 @@
-<p><img src="[!ATOM]Icon.ImageData.ContentUrl[ATOM]"></p>
 <h4><?php include '../oip-atoms/oip-atom-title.txt' ?></h4>
 <p><?php include '../oip-atoms/oip-atom-index-introduction.txt' ?></p>
 <div class="accordion index" id="accordion-blog-index">
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-blog-index" href="#collapse-accordion-blog-index-One">
-                blogs by location
+                news by location
             </a>
         </div>
-        <div id="collapse-accordion-blog-index-One" class="accordion-body collapse in">
+        <div id="collapse-accordion-blog-index-One" class="accordion-body collapse">
             <div class="accordion-inner accordion-group-index">
                 <ul class="unstyled">
-                    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByLocation -->
+                    <?php include '../oip-atoms/oip-atom-groupedinformation.txt' ?><!-- UseInformationObjectAsCollection:GroupedByLocation -->
                </ul>
             </div>
         </div>
@@ -19,13 +18,13 @@
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-blog-index" href="#collapse-accordion-blog-index-Two">
-                blogs by date
+                news by date
             </a>
         </div>
         <div id="collapse-accordion-blog-index-Two" class="accordion-body collapse">
             <div class="accordion-inner accordion-group-index">
                 <ul class="unstyled">
-                    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByDate -->
+                    <?php include '../oip-atoms/oip-atom-groupedinformation.txt' ?><!-- UseInformationObjectAsCollection:GroupedByDate -->
                 </ul>
             </div>
         </div>
@@ -33,13 +32,13 @@
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-blog-index" href="#collapse-accordion-blog-index-Three">
-                blogs by author
+                news by author
             </a>
         </div>
         <div id="collapse-accordion-blog-index-Three" class="accordion-body collapse">
             <div class="accordion-inner accordion-group-index">
                 <ul class="unstyled">
-                    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByAuthor -->
+                    <?php include '../oip-atoms/oip-atom-groupedinformation.txt' ?><!-- UseInformationObjectAsCollection:GroupedByAuthor -->
                 </ul>
             </div>
         </div>
@@ -47,13 +46,27 @@
     <div class="accordion-group accordion-group-index">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-blog-index" href="#collapse-accordion-blog-index-Four">
-                blogs by category
+                news by category
             </a>
         </div>
         <div id="collapse-accordion-blog-index-Four" class="accordion-body collapse">
             <div class="accordion-inner accordion-group-index">
                 <ul class="unstyled">
-                    <?php include '../oip-atoms/oip-atom-blog-by-view.txt' ?><!-- UseInformationObjectAsCollection:BlogByCategory -->
+                    <?php include '../oip-atoms/oip-atom-groupedinformation.txt' ?><!-- UseInformationObjectAsCollection:GroupedByCategory -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-group accordion-group-index">
+        <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-blog-index" href="#collapse-accordion-blog-index-Five">
+                news archive (all)
+            </a>
+        </div>
+        <div id="collapse-accordion-blog-index-Five" class="accordion-body collapse">
+            <div class="accordion-inner accordion-group-index">
+                <ul class="unstyled">
+                    <?php include '../oip-atoms/oip-atom-referencelink-li.txt' ?><!-- UseInformationObjectAsCollection:FullBlogArchive -->
                 </ul>
             </div>
         </div>

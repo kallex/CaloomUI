@@ -1,0 +1,7 @@
+<li><div>[!ATOM]GroupName[ATOM!]</div>
+<ul>
+<!-- THEBALL-CONTEXT-COLLECTION-BEGIN:ReferenceCollection -->
+<li><a href="[!ATOM]URL[ATOM!]"> [!ATOM]Title[ATOM!]</a></li>
+<!-- THEBALL-CONTEXT-END:* -->
+</ul>
+</li>

@@ -263,6 +263,15 @@
       </InformationObject>
       <!-- End of Account/Group/Profile -->
       <!-- Generic stuff -->
+      <InformationObject name="GroupedInformationCollection" designDesc="Collection of grouped information">
+        <CollectionFor contentInformationObjectName="GroupedInformation"/>
+      </InformationObject>
+      <InformationObject name="GroupedInformation" designDesc="Refenreces to information grouped by">
+        <InformationItems>
+          <InformationItem name="GroupName" logicalDataType="Text_Short"/>
+          <InformationItem name="ReferenceCollection" logicalDataType="InformationObject" informationObjectName="ReferenceCollection"/>
+        </InformationItems>
+      </InformationObject>
       <InformationObject name="ReferenceToInformation" designDesc="Reference to information" isIndependentMaster="true">
         <InformationItems>
           <InformationItem name="Title" logicalDataType="Text_Short" />
@@ -615,10 +624,18 @@
           <InformationItem name="Icon" logicalDataType="InformationObject" informationObjectName="Image" />
           <InformationItem name="Title" logicalDataType="Text_Short" />
           <InformationItem name="Introduction" logicalDataType="Text_Long" />
+          <InformationItem name="GroupedByDate" logicalDataType="InformationObject" informationObjectName="GroupedInformationCollection"/>
+          <InformationItem name="GroupedByLocation" logicalDataType="InformationObject" informationObjectName="GroupedInformationCollection"/>
+          <InformationItem name="GroupedByAuthor" logicalDataType="InformationObject" informationObjectName="GroupedInformationCollection"/>
+          <InformationItem name="GroupedByCategory" logicalDataType="InformationObject" informationObjectName="GroupedInformationCollection"/>
+          <InformationItem name="FullBlogArchive" logicalDataType="InformationObject" informationObjectName="ReferenceCollection"/>
+          <InformationItem name="BlogSourceForSummary" logicalDataType="InformationObject" informationObjectName="BlogCollection"/>
+          <!--
           <InformationItem name="BlogByDate" logicalDataType="InformationObject" informationObjectName="BlogCollection" />
           <InformationItem name="BlogByLocation" logicalDataType="InformationObject" informationObjectName="BlogCollection" />
           <InformationItem name="BlogByAuthor" logicalDataType="InformationObject" informationObjectName="BlogCollection" />
           <InformationItem name="BlogByCategory" logicalDataType="InformationObject" informationObjectName="BlogCollection" />
+          -->
           <InformationItem name="Summary" logicalDataType="Text_Long" />
         </InformationItems>
       </InformationObject>
