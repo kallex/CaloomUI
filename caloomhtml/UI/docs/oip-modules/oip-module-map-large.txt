@@ -1,5 +1,13 @@
 <div id="map" style="height:522px;"></div>
 <script>
+
+function GetLayerLabelText(textvalue, iconUrl)
+{
+	if(iconUrl != null)
+		return "<img src='" + iconUrl + "' height='16' width='16'></img> " + textvalue;
+	return textvalue;
+}
+
 $(function() {
 	var map = L.map('map').setView([0, 0], 2);
 
@@ -12,10 +20,15 @@ $(function() {
 
 	// Marker arrays
 	var ActivitiesMarkers = new Array();
+	var ActivitiesMarkerIcon;
 	var NewsMarkers = new Array();
+	var NewsMarkerIcon;
 	var ProjectsMarkers = new Array();
+	var ProjectsMarkerIcon;
 	var EventsMarkers = new Array();
+	var EventsMarkerIcon;
 	var BlogsMarkers = new Array();
+	var BlogsMarkerIcon;
 
 	// Cluster markers - only thing that has actual map-visible markers
 	var markers = new L.MarkerClusterGroup();
@@ -33,15 +46,28 @@ $(function() {
 	var BlogsLayer = L.layerGroup();
 	BlogsLayer.addTo(map);
 
+    <?php include 'oip-module-leaflet-markers.txt' ?><!-- UseInformationObjectAsCollection:MapMarkers -->
+	var activitiesText = GetLayerLabelText("Activities", ActivitiesMarkerIcon);
+	var newsText = GetLayerLabelText("News", NewsMarkerIcon);
+	var projectsText = GetLayerLabelText("Projects", ProjectsMarkerIcon);
+	var eventsText = GetLayerLabelText("Events", EventsMarkerIcon);
+	var blogsText = GetLayerLabelText("Blogs", BlogsMarkerIcon);
+
 	var overlayMaps = {
+	/*
 		"Activities": ActivitiesLayer,
 		"News": NewsLayer,
 		"Projects": ProjectsLayer,
 		"Events": EventsLayer,
-		"Blogs": BlogsLayer,
+		"Blogs": BlogsLayer,*/
 	};
+	overlayMaps[activitiesText] = ActivitiesLayer;
+	overlayMaps[newsText] = NewsLayer;
+	overlayMaps[projectsText] = ProjectsLayer;
+	overlayMaps[eventsText] = EventsLayer;
+	overlayMaps[blogsText] = BlogsLayer;
 
-    <?php include 'oip-module-leaflet-markers.txt' ?><!-- UseInformationObjectAsCollection:MapMarkers -->
+
 	// Adding marker arrays 
 	markers.addLayers(ActivitiesMarkers);
 	markers.addLayers(NewsMarkers);

@@ -14,5 +14,5 @@
 		var myMarker = L.marker([[!ATOM]LocationText[ATOM!]], {icon: myIcon })
 			.bindPopup('<h2>[!ATOM]PopupTitle[ATOM!]</h2><br>[!ATOM]PopupContent[ATOM!]');
 		[!ATOM]CategoryName[ATOM!]Markers.push(myMarker);
-		//projectLayer.addLayer(myMarker);
+		[!ATOM]CategoryName[ATOM!]MarkerIcon = "[!ATOM]IconUrl[ATOM!]";
 	}
