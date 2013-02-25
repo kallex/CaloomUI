@@ -1,0 +1,4 @@
+<div style="padding: 10px" data-id="[!ATOM]ID[ATOM!]" data-title="[!ATOM]Title[ATOM!]" data-caption="[!ATOM]Caption[ATOM!]" data-src="[!ATOM]ImageData.ContentUrlBase[ATOM!]_64x64_whole.jpg" 
+	class="oipimageselector">
+	<img src="[!ATOM]ImageData.ContentUrlBase[ATOM!]_64x64_whole.jpg" alt="Image Content" />
+</div>

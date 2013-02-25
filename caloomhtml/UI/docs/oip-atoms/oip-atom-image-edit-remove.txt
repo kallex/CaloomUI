@@ -1,5 +1,5 @@
 <fieldset>
-	<img src="[!ATOM]ImageData.ContentUrl[ATOM!]" alt="Image Content" />
+	<img src="[!ATOM]ImageData.ContentUrlBase[ATOM!]_64x64_whole.jpg" alt="Image Content" />
 	<div class="control-group">[!ATOM]ImageData.ContentUrl[ATOM!]</div>
 	<input class="span5" id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
 	<div class="control-group">

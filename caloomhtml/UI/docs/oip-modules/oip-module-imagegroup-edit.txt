@@ -1,4 +1,5 @@
 <!-- oip-module-imagegroup-edit.txt -->
+	<script src="../oip-additions/oip-assets/oip-js/oip-imagegroup.js"></script>
 	<form id="" method="post" action="AaltoGlobalImpact.OIP.ImageGroup_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal" enctype="multipart/form-data">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset>
@@ -19,12 +20,29 @@
 	</form>
 	<form id="" method="post" action="AaltoGlobalImpact.OIP.ImageGroup_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal" enctype="multipart/form-data">
 		<fieldset>
-			<?php include '../oip-atoms/oip-atom-image-add.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.Image:AddImageToImageGroup -->
+			<img id="selectedimgsrc" alt="Image Content" />
+			<div id="selectedimgurl" class="control-group"></div>
+			<div class="control-group">
+				<label id="selectedimgtitlelabel" class="control-label" for="selectedimgtitle">Title</label> 
+				<div class="controls">
+					<input name="selectedimgtitle" class="span3" id="selectedimgtitle" type="text" value="" placeholder="Title">
+				</div>
+			</div>
+			<div class="control-group">
+				<label id="selectedimgcaptionlabel" class="control-label" for="selectedimgcaption">Caption</label> 
+				<div class="controls">
+					<input name="selectedimgcaption" class="span3" id="selectedimgcaption" type="text" value="" placeholder="Caption">
+				</div>
+			</div>
+			<!-- TODO manipulate RootSourceAction properly -->
+			<button type="submit" class="btn" name="RootSourceAction" value="cmdRemoveFromCollectionAndDelete_IDHere">Remove Image</button>
+			<button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
 		</fieldset>
 	</form>
+	<?php include '../oip-atoms/oip-atom-image-select.txt' ?><!-- UseInformationObjectAsCollection:ImagesCollection -->
 	<form id="" method="post" action="AaltoGlobalImpact.OIP.ImageGroup_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal" enctype="multipart/form-data">
 		<fieldset>
-			<?php include '../oip-atoms/oip-atom-image-edit-remove.txt' ?><!-- UseInformationObjectAsCollection:ImagesCollection -->
+			<?php include '../oip-atoms/oip-atom-image-add.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.Image:AddImageToImageGroup -->
 		</fieldset>
 	</form>
 <!-- end oip-module-imagegroup-edit.txt -->
