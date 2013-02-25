@@ -1,31 +1,84 @@
 <div id="map" style="height:522px;"></div>
-<script src="../oip-additions/oip-assets/oip-js/OpenLayers.js"></script>
 <script>
+$(function() {
 	var map = L.map('map').setView([0, 0], 2);
 
 	// add an OpenStreetMap tile layer
-	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	var tileUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
+	var tileAttribution = '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
+	L.tileLayer(tileUrl, {
+		attribution: tileAttribution
 	}).addTo(map);
 
-	// add a marker in the given location, attach some popup content to it and open the popup
-	//L.marker([0, 0]).addTo(map)
-	//	.bindPopup('A pretty CSS3 popup. <br> Easily customizable. <a href="http://www.yle.fi">Test link to Yle</a>')
-	//	.openPopup();
+	// Marker arrays
+	var ActivitiesMarkers = new Array();
+	var NewsMarkers = new Array();
+	var ProjectsMarkers = new Array();
+	var EventsMarkers = new Array();
+	var BlogsMarkers = new Array();
 
+	// Cluster markers - only thing that has actual map-visible markers
 	var markers = new L.MarkerClusterGroup();
 
-	markers.addLayer(L.marker([175.3107, -37.7784]));
-	// add more markers here...
+	// Layers (empty per themselves, but control the toggling)
+	
+	var ActivitiesLayer = L.layerGroup();
+	ActivitiesLayer.addTo(map);
+	var NewsLayer = L.layerGroup();
+	NewsLayer.addTo(map);
+	var ProjectsLayer = L.layerGroup();
+	ProjectsLayer.addTo(map);
+	var EventsLayer = L.layerGroup();
+	EventsLayer.addTo(map);
+	var BlogsLayer = L.layerGroup();
+	BlogsLayer.addTo(map);
 
-
+	var overlayMaps = {
+		"Activities": ActivitiesLayer,
+		"News": NewsLayer,
+		"Projects": ProjectsLayer,
+		"Events": EventsLayer,
+		"Blogs": BlogsLayer,
+	};
 
     <?php include 'oip-module-leaflet-markers.txt' ?><!-- UseInformationObjectAsCollection:MapMarkers -->
+	// Adding marker arrays 
+	markers.addLayers(ActivitiesMarkers);
+	markers.addLayers(NewsMarkers);
+	markers.addLayers(ProjectsMarkers);
+	markers.addLayers(EventsMarkers);
+	markers.addLayers(BlogsMarkers);
+	
 	map.addLayer(markers);
-    //newly added test for map-controls
-    //var map = new OpenLayers.Map('map', { controls: [] });
-    //end newly added test for map-controls
+	markers.addTo(map);
+	
+	map.on("layeradd", function(e) {
+		if(e.layer == ActivitiesLayer)
+			markers.addLayers(ActivitiesMarkers);
+		if(e.layer == NewsLayer)
+			markers.addLayers(NewsMarkers);
+		if(e.layer == ProjectsLayer)
+			markers.addLayers(ProjectsMarkers);
+		if(e.layer == EventsLayer)
+			markers.addLayers(EventsMarkers);
+		if(e.layer == BlogsLayer)
+			markers.addLayers(BlogsMarkers);
+	});
+	map.on("layerremove", function(e) {
+		if(e.layer == ActivitiesLayer)
+			markers.removeLayers(ActivitiesMarkers);
+		if(e.layer == NewsLayer)
+			markers.removeLayers(NewsMarkers);
+		if(e.layer == ProjectsLayer)
+			markers.removeLayers(ProjectsMarkers);
+		if(e.layer == EventsLayer)
+			markers.removeLayers(EventsMarkers);
+		if(e.layer == BlogsLayer)
+			markers.removeLayers(BlogsMarkers);
+	});
 
+	L.control.layers(null, overlayMaps).addTo(map);
+});
 
 </script> 
 

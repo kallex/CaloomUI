@@ -316,6 +316,7 @@
         <InformationItems>
           <InformationItem name="IconUrl" logicalDataType="Text_Short"/>
           <InformationItem name="MarkerSource" logicalDataType="Text_Short"/>
+          <InformationItem name="CategoryName" logicalDataType="Text_Short"/>
           <InformationItem name="LocationText" logicalDataType="Text_Short" />
           <InformationItem name="PopupTitle" logicalDataType="Text_Short" />
           <InformationItem name="PopupContent" logicalDataType="Text_Long"/>
