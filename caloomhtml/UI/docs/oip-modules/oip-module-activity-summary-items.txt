@@ -1,11 +1,10 @@
-<li class="span3">
-    <div style="height: 70px;overflow: hidden"><img class="img-style row1" src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" width="100%" /></div>
+<div class="activity-summary-item">
+    <div style="height: 70px;overflow: hidden"><img class="img-style" src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" width="220" /></div>
     <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
     </h3>
     <p><?php include '../oip-atoms/oip-atom-excerpt.txt' ?></<p>
-</p>
     <ul class="unstyled category">
         <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection-->
     </ul>
-</li>
+</div>

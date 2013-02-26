@@ -28,5 +28,6 @@
 	<link rel="apple-touch-icon-precomposed" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-57x57.png">
 	<script src="../oip-additions/oip-assets/oip-js/jquery.js"></script>
 	<script src="../oip-additions/oip-assets/oip-js/jquery.form.js"></script>
+	<script src="../oip-additions/oip-assets/oip-js/jquery.masonry.min.js"></script>
 	<script type="text/javascript" src="../oip-additions/oip-assets/oip-js/nicEdit.js"></script>
 </head>

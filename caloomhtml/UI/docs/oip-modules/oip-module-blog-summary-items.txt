@@ -1,13 +1,12 @@
-<li class="span3 module-in-row">
-    <img class="img-style row1" src="[!ATOM]FeaturedImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" width="100%"/>
+<div class="blog-summary-item">
+    <img class="img-style" src="[!ATOM]FeaturedImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" width="220"/>
     <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <br><small>[!ATOM]SubTitle[ATOM!]</small>
     </h3>
     <p><?php include '../oip-atoms/oip-atom-excerpt.txt' ?></<p>
     <a class="read-more" data-toggle="modal" href="[!ATOM]ReferenceToInformation.URL[ATOM!]">Read More...</a>
-</p>
     <ol class="unstyled">
         <?php include '../oip-atoms/oip-atom-category.txt' ?><!-- UseInformationObjectAsCollection:CategoryCollection-->
     </ol>
-</li>
+</div>
