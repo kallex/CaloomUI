@@ -67,6 +67,7 @@ $(".remoteurlmodal").on('click', function () {
             },
             error: function (html, textStatus, errorThrown) {
                     alert("Someone changed the information during the edit and save. Please retry your change.");
+                    $(modal_body_selector).html("Loading content...");
                     $(modal_body_selector).load(url, function () {
                         var modalForm = $("#" + modal_id + " form").each(function () {
                             $(this).submit(RemoteUrlFormSubmit);
@@ -81,7 +82,7 @@ $(".remoteurlmodal").on('click', function () {
         return false;
     };
 
-
+    $(modal_body_selector).html("Loading content...");
     $(modal_body_selector).load(url, function () {
         var modalForm = $("#" + modal_id + " form").each(function () {
             $(this).submit(RemoteUrlFormSubmit);

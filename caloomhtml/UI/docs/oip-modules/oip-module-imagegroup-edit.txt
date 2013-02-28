@@ -39,7 +39,22 @@
 			<button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
 		</fieldset>
 	</form>
-	<?php include '../oip-atoms/oip-atom-image-select.txt' ?><!-- UseInformationObjectAsCollection:ImagesCollection -->
+	<div id="imagegroupcontainer">
+		<?php include '../oip-atoms/oip-atom-image-select.txt' ?><!-- UseInformationObjectAsCollection:ImagesCollection -->
+	</div>
+	<script>
+		var $container = $('#imagegroupcontainer');
+		$container.imagesLoaded(function(){
+		  $container.masonry({
+			itemSelector : '.imagegroup-item',
+				columnWidth : 64
+			//columnWidth: function( containerWidth ) {
+			//	return containerWidth / 5;
+			//}
+		  });
+		});
+	</script>
+
 	<form id="" method="post" action="AaltoGlobalImpact.OIP.ImageGroup_[!ATOM]ID[ATOM!]_DefaultView.phtml" class="form-horizontal" enctype="multipart/form-data">
 		<fieldset>
 			<?php include '../oip-atoms/oip-atom-image-add.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.Image:AddImageToImageGroup -->
