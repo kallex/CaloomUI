@@ -7,7 +7,7 @@
 				<div class="controls">
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ProfileImage -->
 <!-- ImageData -->
-					<img src="[!ATOM]ImageData.ContentUrl[ATOM!]" alt="Group Profile Image" />
+					<img src="[!ATOM]ImageData.ContentUrlBase[ATOM!]_256x256_crop.jpg" alt="Group Profile Image" />
 					<input  id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
 <!-- * -->
 <!-- THEBALL-CONTEXT-END:* -->
@@ -18,7 +18,7 @@
                 <div class="controls">
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:IconImage -->
 <!-- THEBALL-CONTEXT-OBJECT-BEGIN:ImageData -->
-					<img src="[!ATOM]ContentUrl[ATOM!]" alt="Group Icon Image" />
+					<img src="[!ATOM]ContentUrlBase[ATOM!]_64x64_crop.jpg" alt="Group Icon Image" />
 					<input class="span11" id="[!ATOM]ID[ATOM!]" name="[!ATOM]ID[ATOM!]" size="16" type="file">
 <!-- THEBALL-CONTEXT-END:* -->
 <!-- THEBALL-CONTEXT-END:* -->

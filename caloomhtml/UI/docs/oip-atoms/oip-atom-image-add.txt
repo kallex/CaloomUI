@@ -1,7 +1,7 @@
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 <fieldset>
 	<label>Add Image</label>
-	<img src="[!ATOM]ImageData.ContentUrl[ATOM!]" width="50px" alt="Image Content" />
+	<img src="[!ATOM]ImageData.ContentUrlBase[ATOM!]_64x64_crop.jpg" width="50px" alt="Image Content" />
 	<input class="span5" id="[!ATOM]ImageData.ID[ATOM!]" name="[!ATOM]ImageData.ID[ATOM!]" size="16" type="file">
 	<div class="control-group">
 		<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label> 

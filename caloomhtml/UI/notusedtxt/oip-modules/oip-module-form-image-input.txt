@@ -1,9 +1,0 @@
-<!-- oip-module-form-image-input.txt -->
-<div class="control-group">
-	<span style="position:relative;float:left"><img src="[!ATOM]ContentUrl[ATOM]" alt="" class="thumbnail" style="float:left;margin:10px;margin-top:0px;margin-left:0px;margin-right:2px;width:50px;height:40px"></span>
-	<label class="control-label" for="PhotoInput">Replace Photo:  </label>
-	<div class="controls">
-		<input name="PhotoInput" class="input-file" id="PhotoInput" type="file">
-	</div>
-</div>
-<!-- end oip-module-form-image-input.txt -->

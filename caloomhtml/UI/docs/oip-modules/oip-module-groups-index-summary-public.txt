@@ -1,4 +1,4 @@
-<p><img src="[!ATOM]Icon.ImageData.ContentUrl[ATOM]"></p>
+<p><img src="[!ATOM]Icon.ImageData.ContentUrlBase[ATOM]_256x256_crop.jpg"></p>
 <h4><?php include '../oip-atoms/oip-atom-title.txt' ?></h4>
 <p><?php include '../oip-atoms/oip-atom-index-introduction.txt' ?></p>
 <p><?php include '../oip-atoms/oip-atom-index-summary.txt' ?></p>

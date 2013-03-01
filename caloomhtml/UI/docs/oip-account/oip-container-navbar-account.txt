@@ -17,7 +17,7 @@
 <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.AccountContainer -->
                 <li class="group-name" style="border-left: none">
                     <a href="#">
-                        <img src="[!ATOM]AccountModule.Profile.ProfileImage.ImageData.ContentUrl[ATOM!]" width="60" height="60" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 10px;height: 60px;width: 60px;margin-bottom: 0px;padding: 1px">
+                        <img src="[!ATOM]AccountModule.Profile.ProfileImage.ImageData.ContentUrlBase[ATOM!]_64x64_crop.jpg" width="60" height="60" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 10px;height: 60px;width: 60px;margin-bottom: 0px;padding: 1px">
                     </a>
                 </li>
 <!-- THEBALL-CONTEXT-END:* -->

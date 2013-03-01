@@ -1,5 +1,5 @@
 <!-- oip-groups-index-edit.txt -->
-<p><img src="[!ATOM]ContentUrl[ATOM]"></p>
+<p><img src="[!ATOM]ContentUrlBase[ATOM]_256x256_crop.jpg"></p>
 oip-groups-index-edit-account.txt
 <p><a href="#contact-group" data-toggle="modal" class="btn">contact this group</a></p>
 <h4>[!ATOM]Title[ATOM!]</h4>

@@ -16,7 +16,7 @@
                 </li>
                 <li class="dropdown group-name">
 <!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.GroupContainer -->
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="[!ATOM]GroupProfile.IconImage.ImageData.ContentUrl[ATOM!]" width="32" height="32" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 6px;height: 34px;width: 34px;margin-bottom: 0px;padding: 1px">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="[!ATOM]GroupProfile.IconImage.ImageData.ContentUrlBase[ATOM!]_32x32_crop.jpg" width="32" height="32" alt="" class="img-polaroid" style="vertical-align:inherit;margin-top: 6px;height: 34px;width: 34px;margin-bottom: 0px;padding: 1px">
                             <span style="">[!ATOM]GroupProfile.GroupName[ATOM!]</span>
                         <b class="caret"></b>
                     </a>

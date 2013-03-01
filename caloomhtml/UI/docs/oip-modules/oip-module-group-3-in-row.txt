@@ -1,5 +1,5 @@
 <li class="span3">
-    <img class="img-style row1" src="[!ATOM]ProfileImage.ImageData.ContentUrl[ATOM!]"  />
+    <img class="img-style row1" src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg"  />
     <h3>
         <?php include '../oip-atoms/oip-atom-referencelink.txt' ?><!-- UseInformationObject:ReferenceToInformation -->
         <br><small>[!ATOM]GroupName[ATOM!]</small>
