@@ -26,7 +26,14 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-114x114.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-72x72.png">
 	<link rel="apple-touch-icon-precomposed" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-57x57.png">
-	<script src="../oip-additions/oip-assets/oip-js/jquery.js"></script>
+	<link href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+
+    <link href="../oip-additions/oip-assets/oip-css/jquery-ui-timepicker-addon.css" rel="stylesheet">
+	<script src="../oip-additions/oip-assets/oip-js/jquery-ui-timepicker-addon.js"></script>
+
 	<script src="../oip-additions/oip-assets/oip-js/jquery.form.js"></script>
 	<script src="../oip-additions/oip-assets/oip-js/jquery.masonry.min.js"></script>
 	<script type="text/javascript" src="../oip-additions/oip-assets/oip-js/nicEdit.js"></script>

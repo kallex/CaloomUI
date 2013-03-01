@@ -1,0 +1,38 @@
+﻿<li class="span3">
+    <a data-toggle="modal" href="#ImagesCollection[!ATOM]ID[ATOM!]" rel="tooltip" title="click this image to open this image large and some other images if present">
+        <img src="[!ATOM]FeaturedImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" class="thumbnail" alt="[!ATOM]Title[ATOM!]"/>
+        <br>
+        [!ATOM]Title[ATOM!]
+    </a>
+</li>
+
+<div id="ImagesCollection[!ATOM]ID[ATOM!]" class="modal hide fade">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal">&times;</button>
+		<h2 class="title">[!ATOM]Title[ATOM!]</h2>
+		<p>[!ATOM]Description[ATOM!]</p>
+	</div>
+	<div class="modal-body">
+		<div id="#myCarousel[!ATOM]ID[ATOM!]" class="carousel">
+			<!-- Carousel items -->
+			<div class="columns">
+				<div id="myCarousel[!ATOM]ID[ATOM!]" class="carousel slide image-carousel">
+					<div class="carousel-inner">
+<!-- THEBALL-CONTEXT-COLLECTION-BEGIN:ImagesCollection -->
+						<div class="item">
+							<img src="[!ATOM]ImageData.ContentUrlBase[ATOM!]_1280x720_whole.jpg" alt="[!ATOM]Caption[ATOM!]">
+							<div class="carousel-caption">
+								<h4>[!ATOM]Title[ATOM!]</h4>
+								<p>[!ATOM]Caption[ATOM!]</p>
+							</div>
+						</div>
+<!-- THEBALL-CONTEXT-END:* -->
+					</div>
+					<a class="left carousel-control" href="#myCarousel[!ATOM]ID[ATOM!]" data-slide="prev">‹</a>
+					<a class="right carousel-control" href="#myCarousel[!ATOM]ID[ATOM!]" data-slide="next">›</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

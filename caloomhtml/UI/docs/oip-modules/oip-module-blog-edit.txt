@@ -2,6 +2,20 @@
 	<form id="" method="post" class="form-horizontal ">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="">
+                <div class="control-group">
+                    <label class="control-label">Profile image</label>
+                    <div class="controls">
+						<img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_160x120_whole.jpg" alt="Profile image" />
+						<input class="input-xlarge modal-form" id="[!ATOM]ProfileImage.ImageData.ID[ATOM!]" name="[!ATOM]ProfileImage.ImageData.ID[ATOM!]" size="16" type="file">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Icon</label>
+                    <div class="controls">
+						<img src="[!ATOM]IconImage.ImageData.ContentUrlBase[ATOM!]_160x120_whole.jpg" alt="Icon image" />
+						<input class="input-xlarge modal-form" id="[!ATOM]IconImage.ImageData.ID[ATOM!]" name="[!ATOM]IconImage.ImageData.ID[ATOM!]" size="16" type="file">
+                    </div>
+                </div>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_Title">Title</label> 
 				<div class="controls">
@@ -14,6 +28,24 @@
         <input name="[!ATOM]ID[ATOM!]_SubTitle" class="input-xxlarge" id="[!ATOM]ID[ATOM!]_SubTitle" type="text" value="[!ATOM]SubTitle[ATOM!]">
 				</div>
 			</div>
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Author">Author</label>
+				<div class="controls">
+        <input name="[!ATOM]ID[ATOM!]_Author" class="input-xxlarge" id="[!ATOM]ID[ATOM!]_Author" type="text" value="[!ATOM]Author[ATOM!]">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_Published">Published</label>
+				<div class="controls">
+        <input name="[!ATOM]ID[ATOM!]_Published" class="input-xxlarge" id="[!ATOM]ID[ATOM!]_Published" type="text" value="[!ATOM]Published[ATOM!]">
+				</div>
+			</div>
+<script>
+$(function() {
+	//$('#[!ATOM]ID[ATOM!]_Published').timepicker();
+	$('#[!ATOM]ID[ATOM!]_Published').datepicker();
+});
+</script>
 			<div class="control-group">
 				<label class="control-label" for="[!ATOM]ID[ATOM!]_Body">Body</label> 
 				<div class="controls">

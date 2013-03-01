@@ -5,14 +5,14 @@
                 <div class="control-group">
                     <label class="control-label">Profile image</label>
                     <div class="controls">
-						<img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_160x120_whole.jpg" alt="Activity profile image" />
+						<img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_160x120_whole.jpg" alt="Profile image" />
 						<input class="input-xlarge modal-form" id="[!ATOM]ProfileImage.ImageData.ID[ATOM!]" name="[!ATOM]ProfileImage.ImageData.ID[ATOM!]" size="16" type="file">
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label">Icon (for use on the map and as your activity's logo)</label>
+                    <label class="control-label">Icon</label>
                     <div class="controls">
-						<img src="[!ATOM]IconImage.ImageData.ContentUrlBase[ATOM!]_160x120_whole.jpg" alt="Activity icon image" />
+						<img src="[!ATOM]IconImage.ImageData.ContentUrlBase[ATOM!]_160x120_whole.jpg" alt="Icon image" />
 						<input class="input-xlarge modal-form" id="[!ATOM]IconImage.ImageData.ID[ATOM!]" name="[!ATOM]IconImage.ImageData.ID[ATOM!]" size="16" type="file">
                     </div>
                 </div>

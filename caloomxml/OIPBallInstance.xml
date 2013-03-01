@@ -601,6 +601,8 @@
       <InformationObject name="Blog" designDesc="Individual Blog">
         <InformationItems>
           <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
+          <InformationItem name="ProfileImage" logicalDataType="InformationObject" informationObjectName="Image"/>
+          <InformationItem name="IconImage" logicalDataType="InformationObject" informationObjectName="Image"/>
           <InformationItem name="Title" logicalDataType="Text_Short" />
           <InformationItem name="SubTitle" logicalDataType="Text_Short" />
           <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
