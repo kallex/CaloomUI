@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -32,7 +32,7 @@
 
             var dynamicaddtempComp = dust.compile("Dyn {Name} kihi", "dynamicaddtemp");
             dust.loadSource(dynamicaddtempComp);
-            myObj = { "AboutContainer": { "ID": "Piupöö", "Name": "Kaurapuuro!"} };
+            //myObj = { "AboutContainer": { "ID": "Piupöö", "Name": "Kaurapuuro!"} };
             $.get("dust-xml-template1.html", function (responseTemplate) {
                 //var aboutCompiled = dust.compile("PÖÖÖT! {#AboutContainer} Pööt pööt! {ID} {Name} {:else} TÄH? {/AboutContainer} Kauha", "aboutdemo");
                 var aboutCompiled = dust.compile(responseTemplate, "aboutdemo");
