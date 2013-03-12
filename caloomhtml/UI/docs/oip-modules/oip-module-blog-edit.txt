@@ -1,5 +1,5 @@
 <div id="group-profile" class="span7" style=";margin-top:10px">
-	<form id="" method="post" class="form-horizontal ">
+	<form id="" method="post" class="form-horizontal" enctype="multipart/form-data">
 <!-- THEBALL-FORM-HIDDEN-FIELDS -->
 		<fieldset id="">
                 <div class="control-group">
