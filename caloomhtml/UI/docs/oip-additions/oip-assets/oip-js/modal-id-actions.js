@@ -53,30 +53,37 @@ $(".remoteurlmodal").on('click', function () {
     var modal_id = "IDRemoteUrlModal";
     var modal_body = modal_id + "Body";
     var modal_body_selector = "#" + modal_body;
+    var hookSubmitButtons = function() {
+        $(".ajaxbutton").on('click', function () {
+            var operationName = $(this).data("cmdvalue");
+            alert("Executing cmd: " + operationName);
+            $("#RootSourceActionInput").val(operationName);
+        });
+    };
     var RemoteUrlFormSubmit = function () {
-        //alert("Submitting...");
         var options = {
             // target:"#divResult",
 
-            success: function (html) {
-                //alert("Replacing...");
+            success: function(html) {
                 $(modal_body_selector).html(html);
-                var modalForm = $("#" + modal_id + " form").each(function () {
+                var modalForm = $("#" + modal_id + " form").each(function() {
                     $(this).submit(RemoteUrlFormSubmit);
                 });
+                hookSubmitButtons();
             },
-            error: function (html, textStatus, errorThrown) {
-                    alert("Someone changed the information during the edit and save. Please retry your change.");
-                    $(modal_body_selector).html("Loading content...");
-                    $(modal_body_selector).load(url, function () {
-                        var modalForm = $("#" + modal_id + " form").each(function () {
-                            $(this).submit(RemoteUrlFormSubmit);
-                        });
+            error: function(html, textStatus, errorThrown) {
+                alert("Someone changed the information during the edit and save. Please retry your change.");
+                $(modal_body_selector).html("Loading content...");
+                $(modal_body_selector).load(url, function() {
+                    var modalForm = $("#" + modal_id + " form").each(function() {
+                        $(this).submit(RemoteUrlFormSubmit);
                     });
-                },
+                    hookSubmitButtons();
+                });
+            },
 
             url: url
-        }
+        };
         $(this).ajaxSubmit(options);
         //alert("Submitted");
         return false;
@@ -87,6 +94,7 @@ $(".remoteurlmodal").on('click', function () {
         var modalForm = $("#" + modal_id + " form").each(function () {
             $(this).submit(RemoteUrlFormSubmit);
         });
+        hookSubmitButtons();
     });
     /*
     modalForm.submit(function () {

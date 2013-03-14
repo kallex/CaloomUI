@@ -35,8 +35,10 @@
 				</div>
 			</div>
 			<!-- TODO manipulate RootSourceAction properly -->
-			<button type="submit" class="btn" name="RootSourceAction" value="cmdRemoveFromCollectionAndDelete_IDHere">Remove Image</button>
-			<button type="submit" class="btn btn-primary" name="RootSourceAction" value="Save">Save changes</button>
+			<input id="RootSourceActionInput" type="hidden" name="RootSourceAction">
+			<input id="ActionObjectInput" type="hidden" name="ObjectFieldID">
+			<button type="submit" class="btn btn-primary ajaxbutton" data-cmdvalue="Save">Save changes</button>
+			<button type="submit" class="btn ajaxbutton" data-cmdvalue="RemoveImageFromImageGroup">Remove Image</button>
 		</fieldset>
 	</form>
 	<div id="imagegroupcontainer">

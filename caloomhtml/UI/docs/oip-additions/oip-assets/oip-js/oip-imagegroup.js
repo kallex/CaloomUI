@@ -9,5 +9,6 @@
         $("#selectedimgcaption").val(imgcaption);
         $("#selectedimgcaption").attr("name", imgid + "_Caption");
         $("#selectedimgsrc").attr("src", imgsrc);
+        $("#ActionObjectInput").val(imgid);
     });
 });
