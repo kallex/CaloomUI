@@ -56,7 +56,7 @@ $(".remoteurlmodal").on('click', function () {
     var hookSubmitButtons = function() {
         $(".ajaxbutton").on('click', function () {
             var operationName = $(this).data("cmdvalue");
-            alert("Executing cmd: " + operationName);
+            //alert("Executing cmd: " + operationName);
             $("#RootSourceActionInput").val(operationName);
         });
     };
