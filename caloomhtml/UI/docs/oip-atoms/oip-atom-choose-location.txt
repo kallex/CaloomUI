@@ -1,6 +1,7 @@
 <div class="well tab-well">
     <label class="checkbox">
-        <input type="checkbox" id="[!ATOM]ID[ATOM!]_Selected"><a data-toggle="modal" href="#view-location" class="noteditable">[!ATOM]Location.LocationName[ATOM!]</a>
+        <input type="checkbox" id="[!ATOM]ID[ATOM!]_Selected"><div class="noteditable">[!ATOM]Location.LocationName[ATOM!]</div>
     </label>
     <a class='remoteurlmodal' data-url='[!ATOM]ReferenceToInformation.URL[ATOM!]'><i class="icon-pencil" style="padding-right:10px"></i>Edit Location: [!ATOM]ReferenceToInformation.Title[ATOM!]</a>
+	<a data-id="[!ATOM]ID[ATOM!]" class="open-IDAction_ConfirmRemove" href="#DeleteAddressAndLocation" data-question="Delete location '[!ATOM]Location.LocationName[ATOM!]' (all links to this location will be removed)?" data-command="DeleteAddressAndLocation" data-commandtext="Delete" class="alert"><i class="icon-trash" style="padding-right:10px;"></i>delete this location</a>
 </div>

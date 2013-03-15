@@ -1,6 +1,7 @@
 <div class="well tab-well">
     <label class="checkbox">
-        <input type="checkbox" id="[!ATOM]ID[ATOM!]_Selected"><div>[!ATOM]Title[ATOM!]</div>
+        <input type="checkbox" id="[!ATOM]ID[ATOM!]_Selected"><div class="noteditable">[!ATOM]Title[ATOM!]</div>
     </label>
     <a class='remoteurlmodal' data-url='[!ATOM]ReferenceToInformation.URL[ATOM!]'><i class="icon-pencil" style="padding-right:10px"></i>Edit: [!ATOM]ReferenceToInformation.Title[ATOM!]</a>
+	<a data-id="[!ATOM]ID[ATOM!]" class="open-IDAction_ConfirmRemove" href="#DeleteImageGroup" data-question="Delete image group '[!ATOM]Title[ATOM!]' (all links to this image group will be removed)?" data-command="DeleteImageGroup" data-commandtext="Delete" class="alert"><i class="icon-trash" style="padding-right:10px;"></i>delete this image group</a>
 </div>
