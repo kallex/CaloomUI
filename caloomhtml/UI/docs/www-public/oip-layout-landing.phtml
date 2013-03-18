@@ -4,6 +4,8 @@
 <!-- THEBALL-CONTEXT-END:* -->
 <?php include '../oip-modules/oip-head-map.txt' ?>
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
+<script src="../oip-additions/oip-assets/oip-js/dust-full-1.1.1.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/xml2json.js"></script>
 <?php include 'oip-container-navbar-www-public.txt' ?>
 <div class="container">
     <section id="container-focus" class="well">
@@ -13,18 +15,43 @@
     </div>
         </section>
 </div>
+<div class="masonry" id="ReplaceMyInner">
+            Loading...
+</div>
+        <script type="text/javascript">
+
+            $(function () {
+                $.get("../../AaltoGlobalImpact.OIP/NodeSummaryContainer/default", function (responseXml) {
+                //$.get("default-landing-page.html", function (responseXml) {
+                    var dom = (new DOMParser()).parseFromString(responseXml, "text/xml");
+                    var json = xml2json(dom, "  ");
+                    //alert(json);
+                    var myObj = jQuery.parseJSON(json);
+
+                    var dynamicaddtempComp = dust.compile("Dynamic Template \"{HelloText}\" ", "dynamicaddtemp");
+                    dust.loadSource(dynamicaddtempComp);
+                    $.ajax({
+                        url: "oip-layout-landing.itemtmpl.html",
+                        //data: 'foo',
+                        cache: false,
+                        success: function (responseTemplate) {
+                            var helloCompiled = dust.compile(responseTemplate, "hellodemo");
+                            dust.loadSource(helloCompiled);
+                            console.log("About demo begin");
+                            dust.render("hellodemo", myObj, function (err, out) {
+                                $("#ReplaceMyInner").html(out);
+                            });
+                            console.log("About demo out");
+                        }
+                    });
+                    
+                });
+            });
+        </script>
+
 <div class="container">
     <section class="well">
-        <?php include '../oip-containers/oip-container-blog-summary.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.BlogContainer  -->
-    </section>
-    <section class="well">
         <?php include '../oip-containers/oip-public-container-about-collection.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.AboutContainer  -->
-    </section>
-    <section class="well">
-        <?php include '../oip-containers/oip-public-container-groups-summary.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.GroupSummaryContainer  -->
-    </section>
-    <section class="well">
-        <?php include '../oip-containers/oip-public-container-activities-summary.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.ActivitySummaryContainer  -->
     </section>
     <section class="well">
         <?php include '../oip-containers/oip-container-contact-oip.txt' ?><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.ContactOipContainer  -->
