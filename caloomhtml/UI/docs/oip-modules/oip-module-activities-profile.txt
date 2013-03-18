@@ -22,6 +22,24 @@
                         <input name="[!ATOM]ID[ATOM!]_ActivityName" class="span11" id="[!ATOM]ID[ATOM!]_ActivityName" type="text" value="[!ATOM]ActivityName[ATOM!]">
                     </div>
                 </div>
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_ContactPerson">Contact Person</label>
+				<div class="controls">
+        <input name="[!ATOM]ID[ATOM!]_ContactPerson" class="input-xxlarge" id="[!ATOM]ID[ATOM!]_ContactPerson" type="text" value="[!ATOM]ContactPerson[ATOM!]">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="[!ATOM]ID[ATOM!]_StartingTime">Starting Time</label>
+				<div class="controls">
+        <input name="[!ATOM]ID[ATOM!]_StartingTime" class="input-xxlarge" id="[!ATOM]ID[ATOM!]_StartingTime" type="text" value="[!ATOM]StartingTime[ATOM!]">
+				</div>
+			</div>
+<script>
+$(function() {
+	//$('#[!ATOM]ID[ATOM!]_StartingTime').timepicker();
+	$('#[!ATOM]ID[ATOM!]_StartingTime').datepicker();
+});
+</script>
                 <div class="control-group">
                     <label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label>
                     <div class="controls">

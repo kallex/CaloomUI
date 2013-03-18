@@ -297,6 +297,48 @@
         </InformationItems>
       </InformationObject>
 
+      <InformationObject name="NodeSummaryContainer" designDesc="Node (=tile) container of everything summarized">
+        <InformationItems>
+          <InformationItem name="Nodes" logicalDataType="InformationObject" informationObjectName="RenderedNodeCollection"/>
+          <InformationItem name="NodeSourceBlogs" informationObjectName="BlogCollection" logicalDataType="InformationObject"/>
+          <InformationItem name="NodeSourceActivities" informationObjectName="ActivityCollection" logicalDataType="InformationObject"/>
+        </InformationItems>
+      </InformationObject>
+      
+      <InformationObject name="RenderedNodeCollection" designDesc="Collection of rendered nodes">
+        <CollectionFor contentInformationObjectName="RenderedNode" collectionType="Independent"/>
+      </InformationObject>
+      <InformationObject name="RenderedNode" designDesc="Node representing information to be presented in Tile-like fashion">
+        <InformationItems>
+          <InformationItem name="TechnicalSource" logicalDataType="Text_Short"/>
+          <InformationItem name="ImageBaseUrl" logicalDataType="Text_Short" />
+          <InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="ActualContentUrl" logicalDataType="Text_Short" />
+          <InformationItem name="Excerpt" logicalDataType="Text_Long" />
+          <InformationItem name="MainSortableText" logicalDataType="Text_Short"/>
+          <InformationItem name="Categories" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
+          <InformationItem name="Authors" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
+          <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
+        </InformationItems>
+      </InformationObject>
+      
+      <InformationObject name="ShortTextCollection" designDesc="Collection of short text objects">
+        <CollectionFor collectionType="Independent" contentInformationObjectName="ShortTextObject"/>
+      </InformationObject>
+      <InformationObject name="ShortTextObject" designDesc="Generic short text content">
+        <InformationItems>
+          <InformationItem name="Content" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="LongTextCollection" designDesc="Collection of long text objects">
+        <CollectionFor collectionType="Independent" contentInformationObjectName="LongTextObject"/>
+      </InformationObject>
+      <InformationObject name="LongTextObject" designDesc="Generic short text content">
+        <InformationItems>
+          <InformationItem name="Content" logicalDataType="Text_Long"/>
+        </InformationItems>
+      </InformationObject>
+        
       <InformationObject name="MapContainer" designDesc="">
         <InformationItems>
           <InformationItem name="Header" informationObjectName="ContainerHeader" logicalDataType="InformationObject" />
@@ -423,6 +465,8 @@
           <InformationItem name="IconImage" logicalDataType="InformationObject" informationObjectName="Image"/>
           <InformationItem name="ActivityName" logicalDataType="Text_Short"/>
           <InformationItem name="Introduction" logicalDataType="InformationObject" informationObjectName="Introduction"/>
+          <InformationItem name="ContactPerson" logicalDataType="Text_Short"/>
+          <InformationItem name="StartingTime" logicalDataType="Time_DateTime"/>
           <InformationItem name="Excerpt" logicalDataType="Text_Long"/>
           <InformationItem name="Description" logicalDataType="Text_Long"/>
           <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
