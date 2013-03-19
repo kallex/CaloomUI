@@ -4,7 +4,9 @@
 <div class="controls">
 	<img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
 </div>
+<div class="multicolumnElement">
     <p><?php include '../oip-atoms/oip-atom-description.txt' ?></p>
+</div>
     <ul class="thumbnails">
         <?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObjectAsCollection:ImageGroupCollection -->
     </ul>
