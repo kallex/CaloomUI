@@ -5231,10 +5231,10 @@ a.badge:hover {
   font-size: 75%;
 }
 .gallery .dl-horizontal.date {
-  color: #9e468f;
+  color: #7f786d;
 }
 .gallery .dl-horizontal.author {
-  color: #5e9560;
+  color: #7f786d;
 }
 /* filter
 ================================================== */
@@ -5978,6 +5978,30 @@ ul.category li {
   font-weight: normal;
   color: #7f786d;
   background-color: #f5f5f5;
+}
+dl {
+  margin-bottom: 20px;
+}
+dt,
+dd {
+  line-height: 20px;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 10px;
+}
+.dl-horizontal dt {
+  float: left;
+  clear: left;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dl-horizontal dd {
+  margin-left: 20px;
 }
 .image-carousel {
   height: 400px;
