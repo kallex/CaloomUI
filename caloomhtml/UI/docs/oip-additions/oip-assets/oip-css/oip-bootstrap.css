@@ -5930,6 +5930,20 @@ li .aalto-navbar {
 .form-tab {
   min-height: 400px !important;
 }
+.multicolumnElement {
+  -moz-column-width: 220px;
+  -moz-column-gap: 30px;
+  width: auto;
+  margin: 0px auto;
+  margin-top: 0px;
+  margin-right-value: auto;
+  margin-bottom: 0px;
+  margin-left-value: auto;
+  margin-left-ltr-source: physical;
+  margin-left-rtl-source: physical;
+  margin-right-ltr-source: physical;
+  margin-right-rtl-source: physical;
+}
 .footer {
   padding: 20px 0;
   margin-top: 70px;
