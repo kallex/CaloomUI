@@ -1,20 +1,31 @@
-<h2><?php include '../oip-atoms/oip-atom-title.txt' ?>
-    <br>
-    <small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></small>
-</h2>
-<h4>[!ATOM]Published[ATOM!]</h4>
-<h4>[!ATOM]Author[ATOM!]</h4>
-<div class="controls">
-	<img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
+<div class="reading-pane-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+	<h2><?php include '../oip-atoms/oip-atom-title.txt' ?>
+		<br>
+		<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></small>
+	</h2>
+	<h4>[!ATOM]Published[ATOM!]</h4>
+	<h4>[!ATOM]Author[ATOM!]</h4>
+	<div class="controls">
+		<img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
+	</div>
+	<div class="multicolumnElement">
+	<p>
+		<?php include '../oip-atoms/oip-atom-body.txt' ?>
+	</p>
+	</div>
+	<div>
+	    <div id="flowcontainer" class="thumbnails">
+			<?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObjectAsCollection:ImageGroupCollection -->
+			[!ATOM]IFrameSources[ATOM!]
+		</div>
+	</div>
 </div>
-<div class="multicolumnElement">
-<p>
-    <?php include '../oip-atoms/oip-atom-body.txt' ?>
-</p>
-</div>
-<div>
-    <ul class="thumbnails">
-        <?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObjectAsCollection:ImageGroupCollection -->
-    </ul>
-	[!ATOM]IFrameSources[ATOM!]
-</div>
+<script>
+    $(function(){
+      var $container = $('#flowcontainer');
+      $container.isotope({
+        itemSelector: '.oipimagecollection, iframe'
+      });
+    });
+</script>

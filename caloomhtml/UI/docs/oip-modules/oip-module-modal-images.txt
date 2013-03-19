@@ -1,11 +1,11 @@
-<!-- oip-module-modal-images.txt -->
-<li class="span3">
+
+<div class="oipimagecollection">
     <a data-toggle="modal" href="#ImagesCollection[!ATOM]ID[ATOM!]" rel="tooltip" title="click this image to open this image large and some other images if present">
         <img src="[!ATOM]FeaturedImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" class="thumbnail" alt="[!ATOM]Title[ATOM!]"/>
         <br>
         [!ATOM]Title[ATOM!]
     </a>
-</li>
+</div>
 
 <div id="ImagesCollection[!ATOM]ID[ATOM!]" class="modal hide fade">
 	<div class="modal-header">

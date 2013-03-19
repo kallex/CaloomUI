@@ -1011,6 +1011,7 @@
           <InformationItem name="RefreshDefaultViewsOperation" logicalDataType="InformationObject" informationObjectName="RefreshDefaultViewsOperation"/>
           <InformationItem name="DeleteEntireOwner" logicalDataType="InformationObject" informationObjectName="DeleteEntireOwnerOperation" />
           <InformationItem name="DeleteOwnerContent" logicalDataType="InformationObject" informationObjectName="DeleteOwnerContentOperation" />
+          <InformationItem name="PublishWebContent" logicalDataType="InformationObject" informationObjectName="PublishWebContentOperation"/>
         </InformationItems>
       </InformationObject>
 
@@ -1053,6 +1054,7 @@
           <InformationItem name="LocationPrefix" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
+      <!-- PublishWebContentOperation -->
 
       <InformationObject name="SystemError" designDesc="System error object">
         <InformationItems>
