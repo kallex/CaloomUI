@@ -1,5 +1,5 @@
 <div class="reading-pane-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <button id="paneclosebutton" type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
     <h2><?php include '../oip-atoms/oip-atom-activityname.txt' ?></h2>
     <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
     <div class="controls">

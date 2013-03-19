@@ -7,8 +7,8 @@
             <li class="isotope-sort-item"><a href="#"  class="" data-filter=".Projects">Projects</a></li>
             <li class="isotope-sort-item"><a href="#"  class="" data-filter=".Events">Events</a></li>
             <li class="isotope-sort-item"><a href="#"  class="" data-filter=".Blogs">Blogs</a></li>
+            <li class="isotope-sort-item"><a href="#" id="TileDefaultFilter" class="active" data-filter=":not(.About)">All</a></li>
             <li class="isotope-sort-item"><a href="#"  class="" data-filter=".About">About</a></li>
-            <li class="isotope-sort-item"><a href="#" class="active" data-filter=":not(.About)">All</a></li>
         </ul>
     </div>
     {#Nodes}{#CollectionContent}
@@ -49,10 +49,16 @@
                 cache: false,
                 success: function(htmlContent) {
                     $("#SelectedContentContainer").html(htmlContent);
+                    $("#paneclosebutton").off("click");
+                    $("#paneclosebutton").click(function () {
+                        $("#SelectedContentContainer").html('');
+                    });
                     $(document).scrollTop($("#SelectedContentContainer").offset().top);
                 }
             });
+            return false;
         });
+        $("#TileDefaultFilter").trigger('click');
     });
 </script>
 
