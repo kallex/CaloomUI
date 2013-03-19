@@ -21,7 +21,7 @@
                 <h4><a class="oipclicktoview" href="#" data-contenturl="{ActualContentUrl}">{Title}</a></h4>
                 <div>{Excerpt}</div>
                 {#Categories}
-                <div class="categories">{#CollectionContent}{#ShortTextObject}<a href="#{Content}">{Content}</a> {/ShortTextObject}{/CollectionContent}</div>
+                <div class="badge category">{#CollectionContent}{#ShortTextObject}<a href="#{Content}">{Content}</a> {/ShortTextObject}{/CollectionContent}</div>
                 {/Categories}
                 <div>by {#Authors}{#CollectionContent}{#ShortTextObject}{Content} {/ShortTextObject}{/CollectionContent}{/Authors}</div><div> on {TimestampText}</div>
             </div><!--close entry-summary-->
