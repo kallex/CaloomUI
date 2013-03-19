@@ -5946,6 +5946,7 @@ li .aalto-navbar {
 }
 .multicolumnElementp {
   min-height: 150px;
+  word-wrap: break-word;
 }
 .footer {
   padding: 20px 0;
