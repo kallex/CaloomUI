@@ -5169,6 +5169,7 @@ a.badge:hover {
 .gallery li img {
   width: 100% !important;
   max-width: none;
+  margin: 10px 0 0 0;
 }
 .gallery img {
   background: #ffffff url('../img/loader.gif') no-repeat 50% 50%;
@@ -5282,15 +5283,15 @@ a.badge:hover {
   padding-right: 8px;
   text-decoration: none;
   display: block;
-  border-right: 1px dotted #a20690;
+  border-right: 1px dotted #5e759e;
 }
 .isotope-sort li.isotope-sort-item a:hover {
   color: #ffffff;
-  background: #fd6309;
+  background: #73a5ee;
 }
 .isotope-sort li.isotope-sort-item a.active {
   color: #ffffff;
-  background: #a20690;
+  background: #1655b2;
 }
 .isotope-sort li.isotope-sort-item:last-child a {
   border-right: 0px;
