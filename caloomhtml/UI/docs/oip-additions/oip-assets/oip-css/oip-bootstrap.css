@@ -6048,19 +6048,17 @@ dd {
   height: 100%;
   position: absolute;
 }
-.reading-pane .reading-pane-header,
 .reading-pane {
-  padding: 9px 15px;
   border-bottom: 1px solid #eee;
 }
-.reading-pane .reading-pane-header .close,
 .reading-pane .close {
   margin-top: 2px;
 }
-.reading-pane .reading-pane-header h2,
 .reading-pane h2 {
   margin: 0;
   line-height: 30px;
+  border-bottom: 1px solid #d3d0cc;
+  width: 100%;
 }
 /* End Aalto Visual Identity Additions */
 /*Openlayers Additions*/
