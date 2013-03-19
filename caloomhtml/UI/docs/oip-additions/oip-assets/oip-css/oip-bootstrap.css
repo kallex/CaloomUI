@@ -5944,6 +5944,9 @@ li .aalto-navbar {
   margin-right-ltr-source: physical;
   margin-right-rtl-source: physical;
 }
+.multicolumnElementp {
+  min-height: 150px;
+}
 .footer {
   padding: 20px 0;
   margin-top: 70px;
