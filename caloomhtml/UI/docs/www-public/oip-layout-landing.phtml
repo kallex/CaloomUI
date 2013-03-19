@@ -17,39 +17,43 @@
 </div>
 <div id="SelectedContentContainer">
 </div>
-<div class="container masonry" id="ReplaceMyInner">
+<div class="container masonry" id="TileSection">
             Loading...
 </div>
-        <script type="text/javascript">
-
-            $(function () {
-                $.get("../../AaltoGlobalImpact.OIP/NodeSummaryContainer/default", function (responseXml) {
-                //$.get("default-landing-page.html", function (responseXml) {
-                    var dom = (new DOMParser()).parseFromString(responseXml, "text/xml");
-                    var json = xml2json(dom, "  ");
-                    //alert(json);
-                    var myObj = jQuery.parseJSON(json);
-
-                    var dynamicaddtempComp = dust.compile("Dynamic Template \"{HelloText}\" ", "dynamicaddtemp");
-                    dust.loadSource(dynamicaddtempComp);
-                    $.ajax({
-                        url: "oip-layout-landing.itemtmpl.html",
-                        //data: 'foo',
-                        cache: false,
-                        success: function (responseTemplate) {
-                            var helloCompiled = dust.compile(responseTemplate, "hellodemo");
-                            dust.loadSource(helloCompiled);
-                            console.log("About demo begin");
-                            dust.render("hellodemo", myObj, function (err, out) {
-                                $("#ReplaceMyInner").html(out);
-                            });
-                            console.log("About demo out");
-                        }
+<script type="text/javascript">
+    $(function () {
+        $.get("../../AaltoGlobalImpact.OIP/NodeSummaryContainer/default", function (responseXml) {
+            var dom = (new DOMParser()).parseFromString(responseXml, "text/xml");
+            var json = xml2json(dom, "  ");
+            //alert(json);
+            var myObj = jQuery.parseJSON(json);
+            $.ajax({
+                url: "oip-layout-landing.itemtmpl.html",
+                //data: 'foo',
+                cache: false,
+                success: function (responseTemplate) {
+                    var helloCompiled = dust.compile(responseTemplate, "hellodemo");
+                    dust.loadSource(helloCompiled);
+                    dust.render("hellodemo", myObj, function (err, out) {
+                        $("#TileSection").html(out);
                     });
-                    
-                });
+                }
             });
-        </script>
+                    
+        });
+    });
+</script>
+<script>
+$(function() {
+	$(".oipmenuselector").on("click", function() {
+		var filterName = $(this).data("filtername");
+		var navigateto = $(this).data("locateto");
+		//alert(navigateto);
+		$(document).scrollTop($(navigateto).offset().top);
+		$("a[data-filter='" + filterName + "']").trigger('click');
+	});
+});
+</script>
 
 <div class="container clearfix">
     <section class="well">
