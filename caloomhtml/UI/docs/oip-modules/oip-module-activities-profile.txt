@@ -43,7 +43,7 @@ $(function() {
                 <div class="control-group">
                     <label class="control-label" for="[!ATOM]ID[ATOM!]_Description">Description</label>
                     <div class="controls">
-                        <textarea class="span11" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="add org name">[!ATOM]Description[ATOM!]</textarea>
+                        <textarea class="span11" id="[!ATOM]ID[ATOM!]_Description" name="[!ATOM]ID[ATOM!]_Description" rows="6" placeholder="Activity Description">[!ATOM]Description[ATOM!]</textarea>
                     </div>
                 </div>
 				<div class="control-group">
@@ -52,9 +52,21 @@ $(function() {
 						<textarea class="input-xxlarge" id="[!ATOM]ID[ATOM!]_Excerpt" name="[!ATOM]ID[ATOM!]_Excerpt" rows="6" placeholder="Max. 200 characters (autotruncated at save)">[!ATOM]Excerpt[ATOM!]</textarea>
 					</div>
 				</div>
+				<div class="control-group">
+					<label class="control-label" for="[!ATOM]ID[ATOM!]_IFrameSources">IFrame Sources (each on their own line)</label> 
+					<div class="controls">
+						<textarea class="input-xxlarge" id="[!ATOM]ID[ATOM!]_IFrameSources" name="[!ATOM]ID[ATOM!]_IFrameSources" rows="6" placeholder="Enter reach src in their own line">[!ATOM]IFrameSources[ATOM!]</textarea>
+					</div>
+				</div>
                 <?php include '../oip-atoms/oip-atom-form-cancel-save.txt' ?>
         </fieldset>
     </form>
+	<script type="text/javascript">
+		function addRichTextEditActivityDescription() {
+			richArea = new nicEditor({fullPanel : true, iconsPath : '../oip-additions/oip-assets/oip-js/nicEditorIcons.gif' }).panelInstance('[!ATOM]ID[ATOM!]_Description');
+		}
+		bkLib.onDomLoaded(function() { addRichTextEditActivityDescription(); });
+	</script>
 </div>
 
 

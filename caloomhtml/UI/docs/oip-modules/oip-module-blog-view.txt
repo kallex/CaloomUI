@@ -14,5 +14,6 @@
     <ul class="thumbnails">
         <?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObjectAsCollection:ImageGroupCollection -->
     </ul>
+	[!ATOM]IFrameSources[ATOM!]
 <div>
 

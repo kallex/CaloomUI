@@ -470,6 +470,7 @@
           <InformationItem name="StartingTime" logicalDataType="Time_DateTime"/>
           <InformationItem name="Excerpt" logicalDataType="Text_Long"/>
           <InformationItem name="Description" logicalDataType="Text_Long"/>
+          <InformationItem name="IFrameSources" logicalDataType="Text_Long"/>
           <InformationItem name="Collaborators" logicalDataType="InformationObject" informationObjectName="CollaboratorCollection"/>
           <InformationItem name="ImageGroupCollection" logicalDataType="InformationObject" informationObjectName="ImageGroupCollection" />
           <!-- Uncommented for test -->
@@ -658,6 +659,7 @@
           <InformationItem name="VideoGroup" informationObjectName="VideoGroup" logicalDataType="InformationObject" />
           <InformationItem name="Body" logicalDataType="Text_Long" />
           <InformationItem name="Excerpt" logicalDataType="Text_Long" />
+          <InformationItem name="IFrameSources" logicalDataType="Text_Long"/>
           <!-- Uncommented for test -->
           <InformationItem name="LocationCollection" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
           <!-- Uncomment ends -->
