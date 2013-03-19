@@ -5227,6 +5227,15 @@ a.badge:hover {
   border-top: 1px solid #ffffff;
   border-left: 1px solid #ffffff;
 }
+.gallery .dl-horizontal {
+  font-size: 75%;
+}
+.gallery .dl-horizontal.date {
+  color: #9e468f;
+}
+.gallery .dl-horizontal.author {
+  color: #5e9560;
+}
 /* filter
 ================================================== */
 .filter-box {
