@@ -51,6 +51,7 @@ $(function() {
 		//alert(navigateto);
 		$(document).scrollTop($(navigateto).offset().top);
 		$("a[data-filter='" + filterName + "']").trigger('click');
+		return false;
 	});
 });
 </script>
