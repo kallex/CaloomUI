@@ -5169,7 +5169,8 @@ a.badge:hover {
 .gallery li img {
   width: 100% !important;
   max-width: none;
-  margin: 10px 10px 0 0;
+  margin: 10px 0 0 0;
+  margin-left: 10px;
 }
 .gallery img {
   background: #ffffff url('../img/loader.gif') no-repeat 50% 50%;
@@ -5226,15 +5227,6 @@ a.badge:hover {
   z-index: 10;
   border-top: 1px solid #ffffff;
   border-left: 1px solid #ffffff;
-}
-.gallery .dl-horizontal {
-  font-size: 75%;
-}
-.gallery .dl-horizontal.date {
-  color: #7f786d;
-}
-.gallery .dl-horizontal.author {
-  color: #7f786d;
 }
 /* filter
 ================================================== */
@@ -6020,6 +6012,15 @@ dd {
 }
 .dl-horizontal dd {
   margin-left: 20px;
+}
+.gallery .dl-horizontal {
+  font-size: 75%;
+}
+.gallery .dl-horizontal.date {
+  color: #7f786d;
+}
+.gallery .dl-horizontal.author {
+  color: #7f786d;
 }
 .image-carousel {
   height: 400px;
