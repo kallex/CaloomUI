@@ -21,7 +21,7 @@
             <li>
                 <a href="oip-layout-news.phtml">
                     <i class="icon-bullhorn news"></i>
-                    <span>News</span>
+                    <span>Blogs</span>
                 </a>
             </li>
             <li>
