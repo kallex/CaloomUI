@@ -23,15 +23,12 @@
                 {#Categories}
                 <div class="badge category">{#CollectionContent}{#ShortTextObject}<a href="#{Content}">{Content}</a> {/ShortTextObject}{/CollectionContent}</div>
                 {/Categories}
-                <div>by {#Authors}{#CollectionContent}{#ShortTextObject}{Content} {/ShortTextObject}{/CollectionContent}{/Authors}</div>
-                <div>on {TimestampText}</div>
-
-                <!--horizontal description experiment-->
-                <dl class="dl-horizontal">
+<!--horizontal description -->
+                <dl class="dl-horizontal author">
                     <dt>by</dt>
                     <dd>{#Authors}{#CollectionContent}{#ShortTextObject}{Content} {/ShortTextObject}{/CollectionContent}{/Authors}</dd>
                 </dl>
-                <dl class="dl-horizontal">
+                <dl class="dl-horizontal date">
                     <dt>on</dt>
                     <dd>{TimestampText}</dd>
                 </dl>
