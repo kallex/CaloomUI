@@ -8,16 +8,16 @@
     <div class="multicolumnElement">
         <p><?php include '../oip-atoms/oip-atom-description.txt' ?></p>
     </div>
-    <div id="flowcontainer">
+    <div id="flowcontainer" class="thumbnails">
         <?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObjectAsCollection:ImageGroupCollection -->
-	    [!ATOM]IFrameSources[ATOM!]
     </div>
+	[!ATOM]IFrameSources[ATOM!]
 </div>
 <script>
     $(function(){
       var $container = $('#flowcontainer');
       $container.isotope({
-        itemSelector: '.oipimagecollection, iframe'
+        itemSelector: '.oipimagecollection'
       });
     });
 </script>
