@@ -6079,6 +6079,10 @@ dd {
   border-bottom: 1px solid #d3d0cc;
   width: 100%;
 }
+.reading-pane p,
+.reading-pane p a {
+  word-wrap: break-word;
+}
 /* End Aalto Visual Identity Additions */
 /*Openlayers Additions*/
 .olControlPanel div.olControlZoomOutItemInactive {
