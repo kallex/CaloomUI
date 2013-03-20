@@ -5297,6 +5297,15 @@ a.badge:hover {
 .isotope-sort li.isotope-sort-item:last-child a {
   border-right: 0px;
 }
+.controls .img {
+  margin-bottom: 10px;
+}
+.flowcontainer .thumbnail {
+  margin-left: 0px !important;
+}
+.flowcontainer .thumbnail:second-child {
+  *margin-left: 10px;
+}
 /* no javascript */
 .no-js .gallery {
   margin-top: 20px;
