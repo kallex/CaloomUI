@@ -42,12 +42,16 @@
 <script src='../oip-additions/oip-assets/oip-js/jquery.isotope.init.js'></script><!--custom settings-->
 <script>
     $(function() {
-        $(".oipclicktoview").on('click', function() {
+        OipOpenArticle = function(urlarg) {
             var targeturl = $(this).data('contenturl');
+            if (targeturl == null)
+                targeturl = urlarg;
+            if (targeturl == null)
+                return;
             $.ajax({
                 url: targeturl,
                 cache: false,
-                success: function(htmlContent) {
+                success: function (htmlContent) {
                     $("#SelectedContentContainer").html(htmlContent);
                     $("#paneclosebutton").off("click");
                     $("#paneclosebutton").click(function () {
@@ -57,7 +61,8 @@
                 }
             });
             return false;
-        });
+        };
+        $(".oipclicktoview").on('click', OipOpenArticle);
         $("#TileDefaultFilter").trigger('click');
     });
 </script>
