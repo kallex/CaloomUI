@@ -6016,6 +6016,7 @@ dd {
 }
 .gallery .dl-horizontal {
   font-size: 75%;
+  margin-bottom: 0px;
 }
 .gallery .dl-horizontal.date {
   color: #7f786d;
