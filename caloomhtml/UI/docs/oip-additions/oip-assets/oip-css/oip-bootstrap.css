@@ -6023,6 +6023,9 @@ dd {
 .gallery .dl-horizontal.author {
   color: #7f786d;
 }
+.gallery .dl-horizontal dt {
+  width: auto;
+}
 .image-carousel {
   height: 400px;
 }
