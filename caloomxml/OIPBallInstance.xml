@@ -1054,7 +1054,6 @@
           <InformationItem name="LocationPrefix" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
-      <!-- PublishWebContentOperation -->
 
       <InformationObject name="SystemError" designDesc="System error object">
         <InformationItems>
@@ -1112,6 +1111,15 @@
       </InformationObject>
       <InformationObject name="UpdateWebContentHandlerCollection" designDesc="Filter collection">
         <CollectionFor contentInformationObjectName="UpdateWebContentHandlerItem" />
+      </InformationObject>
+      <!-- PublishWebContentOperation -->
+      <InformationObject name="PublishWebContentOperation" designDesc="Publish web content operation">
+        <InformationItems>
+          <InformationItem name="SourceContainerName" logicalDataType="Text_Short" />
+          <InformationItem name="SourcePathRoot" logicalDataType="Text_Short" />
+          <InformationItem name="SourceOwner" logicalDataType="Text_Short" />
+          <InformationItem name="TargetContainerName" logicalDataType="Text_Short" />
+        </InformationItems>
       </InformationObject>
       <InformationObject name="SubscriberInput" designDesc="Parameter for queued operation">
         <InformationItems>
