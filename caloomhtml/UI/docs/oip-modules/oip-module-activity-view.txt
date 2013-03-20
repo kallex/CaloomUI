@@ -2,10 +2,10 @@
     <button id="paneclosebutton" type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
     <h2><?php include '../oip-atoms/oip-atom-activityname.txt' ?></h2>
     <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
-    <div class="controls">
-        <img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
-    </div>
     <div class="multicolumnElement">
+        <p>
+            <img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
+        </p>
         <p><?php include '../oip-atoms/oip-atom-description.txt' ?></p>
     </div>
     <div id="flowcontainer" class="thumbnails">

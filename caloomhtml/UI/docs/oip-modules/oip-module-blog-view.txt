@@ -6,10 +6,10 @@
 	</h2>
 	<h4>[!ATOM]Published[ATOM!]</h4>
 	<h4>[!ATOM]Author[ATOM!]</h4>
-	<div class="controls">
-		<img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
-	</div>
 	<div class="multicolumnElement">
+        <p>
+            <img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
+        </p>
 	<p>
 		<?php include '../oip-atoms/oip-atom-body.txt' ?>
 	</p>
