@@ -5950,6 +5950,10 @@ li .aalto-navbar {
   min-height: 150px;
   word-wrap: break-word;
 }
+.multicolumnElementp img {
+  width: 220px;
+  overflow: hidden;
+}
 .footer {
   padding: 20px 0;
   margin-top: 70px;
