@@ -23,7 +23,17 @@
 <script type="text/javascript">
     $(function () {
         $.get("../../AaltoGlobalImpact.OIP/NodeSummaryContainer/default", function (responseXml) {
-            var dom = (new DOMParser()).parseFromString(responseXml, "text/xml");
+            var dom;
+            if (window.DOMParser) {
+                parser = new DOMParser();
+                dom = parser.parseFromString(responseXml, "text/xml");
+            }
+            else // Internet Explorer
+            {
+                dom = new ActiveXObject("Microsoft.XMLDOM");
+                dom.async = false;
+                dom.loadXML(responseXml);
+            }
             var json = xml2json(dom, "  ");
             //alert(json);
             var myObj = jQuery.parseJSON(json);
@@ -32,9 +42,9 @@
                 //data: 'foo',
                 cache: false,
                 success: function (responseTemplate) {
-                    var helloCompiled = dust.compile(responseTemplate, "hellodemo");
-                    dust.loadSource(helloCompiled);
-                    dust.render("hellodemo", myObj, function (err, out) {
+                    var dynCompiled = dust.compile(responseTemplate, "nodeTmpl");
+                    dust.loadSource(dynCompiled);
+                    dust.render("nodeTmpl", myObj, function (err, out) {
                         $("#TileSection").html(out);
                     });
                 }
