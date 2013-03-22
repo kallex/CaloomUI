@@ -5201,7 +5201,7 @@ a.badge:hover {
   text-align: left;
   margin-top: 5px;
   padding: 5px 0 0 0;
-  border-top: 1px dotted #fd6309;
+  border-top: 1px dotted #7f786d;
 }
 .gallery li .categories a {
   text-decoration: none;
@@ -5936,6 +5936,10 @@ li .aalto-navbar {
 .multicolumnElement {
   -moz-column-width: 220px;
   -moz-column-gap: 30px;
+  -webkit-column-width: 220px;
+  -webkit-column-gap: 30px;
+  column-width: 220px;
+  column-gap: 30px;
   width: auto;
   margin: 0px auto;
   margin-top: 0px;
