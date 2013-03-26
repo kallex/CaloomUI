@@ -12,13 +12,6 @@
                 <?php include'../oip-modules/oip-module-logotype-old.txt'?></php>
             </ul>
             <ul class="mainnav">
-				<li>
-                    <a href="#" class="oipmenuselector" data-locateto="#TileSection"
-						data-filtername=".Maps">
-						<i class="icon-map-marker map"></i>
-						<span>Maps</span>
-					</a>
-				</li>
                 <li>
                     <a href="#" class="oipmenuselector" data-locateto="#TileSection"
 						data-filtername=".News">
@@ -38,6 +31,13 @@
                         <li> <a href="#" class="oipmenuselector" data-locateto="#TileSection" data-filtername=".Blogs"> <i class="icon-bullhorn"></i> Blogs</a> </li>
                     </ul>
                 </li>
+				<li>
+                    <a href="#" class="oipmenuselector" data-locateto="#TileSection"
+						data-filtername=".Maps">
+						<i class="icon-map-marker map"></i>
+						<span>Maps</span>
+					</a>
+				</li>
                 <li>
                     <a href="#" class="oipmenuselector" data-locateto="#TileSection"
 						data-filtername=".About">
@@ -55,13 +55,3 @@
         </div>
     </div>
 </div>
-<script>
-/*
-$('body')
-  .off('click.dropdown touchstart.dropdown.data-api', '.dropdown')
-  .on('click.dropdown touchstart.dropdown.data-api'
-    , '.dropdown form'
-    , function (e) { e.stopPropagation() });
-	*/
-</script>
-
