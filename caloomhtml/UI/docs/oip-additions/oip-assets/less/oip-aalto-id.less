@@ -280,13 +280,13 @@ li [class^="icon-"], li [class*=" icon-"]{
 }
 
 .navbar-group-background {
-  //background-color: @oip-group;
+//background-color: @oip-group;
   background-image: url("../oip-images/ui/navbar-background-oip-group.png");
 }
 
 .navbar-account-background .container > ul > li > a,
 .navbar-account-background .container > ul > li > a > i {
-color: @accountNavbarText;
+  color: @accountNavbarText;
 }
 
 .navbar-group-background .container > ul > li > a,
@@ -296,7 +296,7 @@ color: @accountNavbarText;
 
 .navbar-account-background .container > ul > li > a > i:hover,
 .navbar-account-background .container > ul > li > a:hover {
-color: @accountNavbarTextHover;
+  color: @accountNavbarTextHover;
 }
 
 .navbar-group-background .container > ul > li > a > i:hover,
@@ -324,7 +324,7 @@ color: @accountNavbarTextHover;
 }
 
 .subnavbar .container > ul > li > a > i:hover {
-  //color: #be474e;
+//color: #be474e;
 }
 
 .subnavbar .container > ul > li > a > span {
@@ -514,10 +514,10 @@ color: @accountNavbarTextHover;
   background-repeat: no-repeat;
   background-position: right;
 //background-color: lighten(@oip-public, 40%);
-  //border: 1px solid @inputBorder;
-  //.box-shadow(inset 0 1px 1px rgba(0,0,0,.045));
-  //.transition(~"border linear .2s, box-shadow linear .2s");
-  //.border-radius(@inputBorderRadius);
+//border: 1px solid @inputBorder;
+//.box-shadow(inset 0 1px 1px rgba(0,0,0,.045));
+//.transition(~"border linear .2s, box-shadow linear .2s");
+//.border-radius(@inputBorderRadius);
   padding-left: 5px;
 }
 
@@ -762,13 +762,9 @@ li .aalto-navbar {
 .multicolumnElement {
   -moz-column-width: 220px;
   -moz-column-gap: 30px;
-  -webkit-column-width: 220px;
-  -webkit-column-gap: 30px;
-  column-width: 220px;
-  column-gap: 30px;
   width: auto;
   margin: 0px auto;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-right-value: auto;
   margin-bottom: 0px;
   margin-left-value: auto;
@@ -795,7 +791,7 @@ li .aalto-navbar {
   margin-top: 70px;
   border-top: 3px solid lighten(@aaltoGray, 30%);
   background-color:lighten(@aaltoGray, 19%);
- // background-image: url("../oip-images/ui/yt-footer-background-image.png");
+// background-image: url("../oip-images/ui/yt-footer-background-image.png");
   font-size: 80%;
   bottom: 0px;
   min-width: 100%;
@@ -809,24 +805,24 @@ li .aalto-navbar {
     margin-bottom: 20px;
     margin-left: -20px;
   //background-color: lighten(@bodyBackground,10% );
-    //background-image: url(../oip-images/ui/yt-background-image-brown.png);
-    //border: 1px solid darken(@wellBackground, 7%);
-    //.border-radius(4px);
-    //.box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
+  //background-image: url(../oip-images/ui/yt-background-image-brown.png);
+  //border: 1px solid darken(@wellBackground, 7%);
+  //.border-radius(4px);
+  //.box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
   }
 
   li ul {
     margin-left: 0px;
-    //border: 1px solid lighten(@wellBackground, 30%);
+  //border: 1px solid lighten(@wellBackground, 30%);
   }
   li {
     list-style-type: none;
     list-style: none;
-    //font-size: 12px;
-    //font-style: bold;
+  //font-size: 12px;
+  //font-style: bold;
   }
   ul li a {
-  font-size: 14px;
+    font-size: 14px;
   }
 
   ul li ul li a {
@@ -836,8 +832,8 @@ li .aalto-navbar {
   a:hover, :active,
   ul li a:hover, ul li ul li a:hover,
   ul li a:active, ul li ul li a:active{
-  color:darken(@linkColorHover, 40%);
-}
+    color:darken(@linkColorHover, 40%);
+  }
 }
 // -------------------------------------------------------------
 // Components: Misc
@@ -938,23 +934,81 @@ dd {
   position: absolute;
 }
 
-// modals for reading-pane
+/*
+classes for reading-pane
+*/
 .reading-pane {
 //background-color: yellow;
 //padding: 9px 15px;
   border-bottom: 1px solid #eee;
-// Close icon
-  .close { margin-top: 2px; }
-// Heading
-  h2 {
-    margin: 0;
-    line-height: 30px;
+  width:85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 9px 15px;
+  &-header{
+    padding: 2px0px;
     border-bottom: 1px solid lighten(@aaltoGray, 35%);
-    width: 100%;
+  //width: 100%;
+  // Close icon
+    .close {
+      margin-top: 2px;
+    }
+  // Heading
+    h2 {
+      margin: 0;
+      line-height: 30px;
+
+    }
+    h3 {
+      margin: 0;
+      line-height: 30px;
+    }
   }
   p,
   p a {
     word-wrap: break-word;
+  }
+  &-footer{
+    padding: 14px 15px 15px;
+    margin-bottom: 0;
+    text-align: right; // right align buttons
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    .border-radius(0 0 6px 6px);
+    .box-shadow(inset 0 1px 0 @white);
+    .clearfix(); // clear it in case folks use .pull-* classes on buttons
+
+    .meta{
+      float:left
+    }
+    .controls{
+      float: right;
+      ul.inline, ol.inline {
+        list-style: none outside none;
+      }
+      li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+    }
+    .dl-horizontal {
+      font-size: 12px;
+      height: 14px;
+      margin-bottom: 0px;
+      &.date{
+        color:@aaltoGray;
+        text-align: left;
+      }
+      &.author{
+        color: @aaltoGray;
+        text-align: left;
+      }
+    }
+
+    .dl-horizontal dt {
+      width: auto;
+    }
   }
 }
 /* End Aalto Visual Identity Additions */
