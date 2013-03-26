@@ -17,7 +17,7 @@
     }
 
     $(function() {
-        OipSetupDefaultMap = function(mapid) {
+        OipSetupDefaultMap = function(mapid, uselayers) {
             var map = L.map(mapid).setView([0, 0], 2);
 
             // add an OpenStreetMap tile layer
@@ -115,6 +115,7 @@
             });
 
             L.control.layers(null, overlayMaps).addTo(map);
+			map.invalidateSize(false);
         };
         /*OipSetupDefaultMap('map');*/
     });
@@ -127,6 +128,31 @@
             Loading...
 </div>
 <script type="text/javascript">
+
+	$(function() {
+		OipCloseDetailPane = function() {
+			$("#SelectedContentContainer").html('');
+		};
+		$(".oipmenuselector").on("click", function() {
+			var filterName = $(this).data("filtername");
+			var navigateto = $(this).data("locateto");
+			//alert(navigateto);
+			//var scrollPos = $(navigateto).offset().top;
+			//$(document).animate({ scrollTop : $(navigateto).offset().top}, 'slow');
+			//$(document).scrollTop($(navigateto).offset().top);
+			OipCloseDetailPane();
+			$("a[data-filter='" + filterName + "']").trigger('click');
+			return false;
+		});
+
+		OipShowInDetailPaneWithClose = function(htmlContent) {
+			$("#SelectedContentContainer").html('<div class="container"><section id="container-focus" class="well"><div class="reading-pane-header"><button id="paneclosebutton" type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>' +
+				htmlContent + '</div></section></div>');
+			$("#paneclosebutton").off("click");
+			$("#paneclosebutton").click(OipCloseDetailPane);
+		};
+	});
+
     $(function () {
         $.get("../../AaltoGlobalImpact.OIP/NodeSummaryContainer/default", function (responseXml) {
             var dom;
@@ -158,24 +184,6 @@
                     
         });
     });
-</script>
-<script>
-$(function() {
-	var OipCloseDetailPane = function() {
-        $("#SelectedContentContainer").html('');
-    };
-	$(".oipmenuselector").on("click", function() {
-		var filterName = $(this).data("filtername");
-		var navigateto = $(this).data("locateto");
-		//alert(navigateto);
-		//var scrollPos = $(navigateto).offset().top;
-		//$(document).animate({ scrollTop : $(navigateto).offset().top}, 'slow');
-		//$(document).scrollTop($(navigateto).offset().top);
-		OipCloseDetailPane();
-		$("a[data-filter='" + filterName + "']").trigger('click');
-		return false;
-	});
-});
 </script>
 
 <div class="container clearfix">

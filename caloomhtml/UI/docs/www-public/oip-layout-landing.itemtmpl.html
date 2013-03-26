@@ -66,9 +66,7 @@
                 url: targeturl,
                 cache: false,
                 success: function (htmlContent) {
-                    $("#SelectedContentContainer").html(htmlContent);
-                    $("#paneclosebutton").off("click");
-                    $("#paneclosebutton").click(OipCloseDetailPane);
+                    OipShowInDetailPaneWithClose(htmlContent);
                     /*
                     $(document).scrollTop($("#SelectedContentContainer").offset().top);
                     */
@@ -78,10 +76,12 @@
             return false;
         };
         OipOpenMap = function () {
-            $("#SelectedContentContainer").html('<div class="container"><section id="container-focus" class="well"><div id="map" style="height:522px;"></div></section></div>');
+            var htmlContent = '<div class="container"><section id="container-focus" class="well"><div id="map" style="height:522px;"></div></section></div>';
+            /*
+            $("#SelectedContentContainer").html(htmlContent);
+            */
+            OipShowInDetailPaneWithClose(htmlContent);
             OipSetupDefaultMap('map');
-            $("#paneclosebutton").off("click");
-            $("#paneclosebutton").click(OipCloseDetailPane);
             return false;
         };
         $(".oipclicktoview").on('click', OipOpenArticle);
