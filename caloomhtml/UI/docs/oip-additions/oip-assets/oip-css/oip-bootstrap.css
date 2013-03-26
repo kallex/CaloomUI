@@ -6097,7 +6097,10 @@ classes for reading-pane
 .reading-pane p a {
   word-wrap: break-word;
 }
-.reading-pane-footer {
+.reading-pane #smalldefaultmap img {
+  max-width: none;
+}
+-footer {
   padding: 14px 15px 15px;
   margin-bottom: 0;
   text-align: right;
@@ -6111,59 +6114,47 @@ classes for reading-pane
   box-shadow: inset 0 1px 0 #ffffff;
   *zoom: 1;
 }
-.reading-pane-footer:before,
-.reading-pane-footer:after {
+-footer:before,
+-footer:after {
   display: table;
   content: "";
   line-height: 0;
 }
-.reading-pane-footer:after {
+-footer:after {
   clear: both;
 }
-.reading-pane-footer .meta {
+-footer .meta {
   float: left;
 }
-.reading-pane-footer .controls {
+-footer .controls {
   float: right;
 }
-.reading-pane-footer .controls ul.inline,
-.reading-pane-footer .controls ol.inline {
+-footer .controls ul.inline,
+-footer .controls ol.inline {
   list-style: none outside none;
 }
-.reading-pane-footer .controls li {
+-footer .controls li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
 }
-.reading-pane-footer .dl-horizontal {
+-footer .dl-horizontal {
   font-size: 12px;
   height: 14px;
   margin-bottom: 0px;
 }
-.reading-pane-footer .dl-horizontal.date {
+-footer .dl-horizontal.date {
   color: #7f786d;
   text-align: left;
 }
-.reading-pane-footer .dl-horizontal.author {
+-footer .dl-horizontal.author {
   color: #7f786d;
   text-align: left;
 }
-.reading-pane-footer .dl-horizontal dt {
+-footer .dl-horizontal dt {
   width: auto;
 }
-/* End Aalto Visual Identity Additions */
-/*Openlayers Additions*/
-.olControlPanel div.olControlZoomOutItemInactive {
-  width: 23px;
-  height: 23px;
-  background: url("../oip-images/ui/zoomout.png") no-repeat scroll 0% 0% transparent;
-}
-.olControlPanel div.olControlZoomInItemInactive {
-  width: 23px;
-  height: 23px;
-  background: url("../oip-images/ui/zoomin.png") no-repeat scroll 0% 0% transparent;
-}
-.editable {
+/* End Aalto Visual Identity Additions */.editable {
   background-color: #fef4d4;
 }
 .editable-with-border {
