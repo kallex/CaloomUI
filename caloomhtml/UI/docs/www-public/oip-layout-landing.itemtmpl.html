@@ -8,6 +8,7 @@
             <li class="isotope-sort-item"><a href="#"  class="" data-filter=".Events">Events</a></li>
             <li class="isotope-sort-item"><a href="#"  class="" data-filter=".Blogs">Blogs</a></li>
             <li class="isotope-sort-item"><a href="#" id="TileDefaultFilter" class="active" data-filter=":not(.About)">All</a></li>
+            <li class="isotope-sort-item"><a href="#"  class="" data-filter=".Maps">Maps</a></li>
             <li class="isotope-sort-item"><a href="#"  class="" data-filter=".About">About</a></li>
         </ul>
     </div>
@@ -34,8 +35,20 @@
                 </dl>
             </div><!--close entry-summary-->
         </li>
-        {/RenderedNode}{/CollectionContent}{/Nodes}
+        {/RenderedNode}
+        <li class="Maps">
+            <a class="hover mapclicktoview" href="#">
+                <div style="height:200px;width:200px;" id="smalldefaultmap"></div><span class="plus"></span>
+            </a>
+            <div class="entry-summary">
+                <h4><a class="mapclicktoview" href="#">Overview Map of Aalto Global Impact Activities</a></h4>
+                <div>Recent Aalto Global Impact activities presented on a map.</div>
+                <div class="badge category"><a href="#Maps">Maps</a></div>
+<!--horizontal description -->
+            </div><!--close entry-summary-->
+        </li>
     </ul>
+    {/CollectionContent}{/Nodes}
 {/NodeSummaryContainer}
 </div>
 <script src='../oip-additions/oip-assets/oip-js/jquery.isotope.min.js'></script><!--filter and masonry script-->
@@ -46,24 +59,61 @@
             var targeturl = $(this).data('contenturl');
             if (targeturl == null)
                 targeturl = urlarg;
-            if (targeturl == null)
+            if (targeturl == null) {
                 return;
+            }
             $.ajax({
                 url: targeturl,
                 cache: false,
                 success: function (htmlContent) {
                     $("#SelectedContentContainer").html(htmlContent);
                     $("#paneclosebutton").off("click");
-                    $("#paneclosebutton").click(function () {
-                        $("#SelectedContentContainer").html('');
-                    });
+                    $("#paneclosebutton").click(OipCloseDetailPane);
+                    /*
                     $(document).scrollTop($("#SelectedContentContainer").offset().top);
+                    */
+                    $(document).scrollTop();
                 }
             });
             return false;
         };
+        OipOpenMap = function () {
+            $("#SelectedContentContainer").html('<div class="container"><section id="container-focus" class="well"><div id="map" style="height:522px;"></div></section></div>');
+            OipSetupDefaultMap('map');
+            $("#paneclosebutton").off("click");
+            $("#paneclosebutton").click(OipCloseDetailPane);
+            return false;
+        };
         $(".oipclicktoview").on('click', OipOpenArticle);
+        $(".mapclicktoview").on('click', OipOpenMap);
         $("#TileDefaultFilter").trigger('click');
+        OipSetupDefaultMap('smalldefaultmap');
+
+        var getOIPArticleUrl = function (type, id) {
+            var prefix;
+            var suffix = "_DefaultView.phtml";
+            switch (type) {
+                case "news":
+                    prefix = "AaltoGlobalImpact.OIP.Blog_";
+                    break;
+                case "activity":
+                    prefix = "AaltoGlobalImpact.OIP.Activity_";
+                    break;
+            }
+            return prefix + id + suffix;
+        };
+
+        var getURLParameter = function (name) {
+            return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null;
+        };
+        var typePar = getURLParameter("type");
+        var idPar = getURLParameter("id");
+        if (typePar != null && idPar != null) {
+            var oipArticleUrl = getOIPArticleUrl(typePar, idPar);
+            OipOpenArticle(oipArticleUrl);
+            window.history.pushState("string", "Aalto Global Impact", "oip-layout-landing.phtml");
+        }
     });
+
 </script>
 
