@@ -73,7 +73,7 @@
                     $(document).scrollTop(0);
                 }
             });
-            return false;
+            return true;
         };
         OipOpenMap = function () {
             var htmlContent = '<div id="map" style="height:522px;"></div>';
@@ -83,7 +83,7 @@
             OipShowInDetailPaneWithClose(htmlContent);
             OipSetupDefaultMap('map');
             $(document).scrollTop(0);
-            return false;
+            return true;
         };
         $(".oipclicktoview").on('click', OipOpenArticle);
         $(".mapclicktoview").on('click', OipOpenMap);

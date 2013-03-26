@@ -12,18 +12,18 @@
                 <?php include'../oip-modules/oip-module-logotype-old.txt'?></php>
             </ul>
             <ul class="mainnav">
+				<li>
+                    <a href="#" class="oipmenuselector" data-locateto="#TileSection"
+						data-filtername=".Maps">
+						<i class="icon-map-marker map"></i>
+						<span>Maps</span>
+					</a>
+				</li>
                 <li>
                     <a href="#" class="oipmenuselector" data-locateto="#TileSection"
 						data-filtername=".News">
                         <i class="icon-bullhorn news"></i>
                         <span>News</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="oipmenuselector" data-locateto="#TileSection"
-						data-filtername=".About">
-                        <i class="icon-umbrella about"></i>
-                        <span>About</span>
                     </a>
                 </li>
                 <li class="dropdown">
@@ -33,10 +33,17 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li> <a href="#" class="oipmenuselector" data-locateto="#TileSection" data-filtername=".Blogs"> <i class="icon-bullhorn"></i> Blogs</a> </li>
                         <li> <a href="#" class="oipmenuselector" data-locateto="#TileSection" data-filtername=".Projects"> <i class="icon-time"></i> Projects</a> </li>
                         <li> <a href="#" class="oipmenuselector" data-locateto="#TileSection" data-filtername=".Events"> <i class="icon-flag"></i> Events</a> </li>
+                        <li> <a href="#" class="oipmenuselector" data-locateto="#TileSection" data-filtername=".Blogs"> <i class="icon-bullhorn"></i> Blogs</a> </li>
                     </ul>
+                </li>
+                <li>
+                    <a href="#" class="oipmenuselector" data-locateto="#TileSection"
+						data-filtername=".About">
+                        <i class="icon-umbrella about"></i>
+                        <span>About</span>
+                    </a>
                 </li>
                 <li>
                     <a href="http://demooip.aaltoglobalimpact.org/about/oip-public/oip-layout-register.phtml">
@@ -48,4 +55,13 @@
         </div>
     </div>
 </div>
+<script>
+/*
+$('body')
+  .off('click.dropdown touchstart.dropdown.data-api', '.dropdown')
+  .on('click.dropdown touchstart.dropdown.data-api'
+    , '.dropdown form'
+    , function (e) { e.stopPropagation() });
+	*/
+</script>
 

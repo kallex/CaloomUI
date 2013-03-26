@@ -142,7 +142,8 @@
 			//$(document).scrollTop($(navigateto).offset().top);
 			OipCloseDetailPane();
 			$("a[data-filter='" + filterName + "']").trigger('click');
-			return false;
+			$('[data-toggle="dropdown"]').parent().removeClass('open');
+			return true;
 		});
 
 		OipShowInDetailPaneWithClose = function(htmlContent) {
