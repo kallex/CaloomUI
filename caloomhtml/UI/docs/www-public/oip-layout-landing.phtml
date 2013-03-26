@@ -122,7 +122,7 @@
 
 </script> 
 
-<div id="SelectedContentContainer" class="reading-pane">
+<div id="SelectedContentContainer">
 </div>
 <div class="container masonry" id="TileSection">
             Loading...
@@ -146,8 +146,8 @@
 		});
 
 		OipShowInDetailPaneWithClose = function(htmlContent) {
-			$("#SelectedContentContainer").html('<div class="container"><section id="container-focus" class="well"><div class="reading-pane-header"><button id="paneclosebutton" type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>' +
-				htmlContent + '</div></section></div>');
+			$("#SelectedContentContainer").html('<button id="paneclosebutton" type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button><div class="well reading-pane reading-pane-header">' +
+				htmlContent + '</div>');
 			$("#paneclosebutton").off("click");
 			$("#paneclosebutton").click(OipCloseDetailPane);
 		};

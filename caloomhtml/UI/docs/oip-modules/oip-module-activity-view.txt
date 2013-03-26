@@ -1,5 +1,7 @@
+<div class="reading-pane-header">
 <h2><?php include '../oip-atoms/oip-atom-activityname.txt' ?></h2>
 <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
+</div>
 <div class="multicolumnElement">
     <p>
         <img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
