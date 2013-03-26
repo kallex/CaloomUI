@@ -968,49 +968,54 @@ classes for reading-pane
   p a {
     word-wrap: break-word;
   }
-  &-footer{
-    padding: 14px 15px 15px;
-    margin-bottom: 0;
-    text-align: right; // right align buttons
-    background-color: #f5f5f5;
-    border-top: 1px solid #ddd;
-    .border-radius(0 0 6px 6px);
-    .box-shadow(inset 0 1px 0 @white);
-    .clearfix(); // clear it in case folks use .pull-* classes on buttons
 
-    .meta{
-      float:left
-    }
-    .controls{
-      float: right;
-      ul.inline, ol.inline {
-        list-style: none outside none;
-      }
-      li {
-        display: inline-block;
-        padding-right: 5px;
-        padding-left: 5px;
-      }
-    }
-    .dl-horizontal {
-      font-size: 12px;
-      height: 14px;
-      margin-bottom: 0px;
-      &.date{
-        color:@aaltoGray;
-        text-align: left;
-      }
-      &.author{
-        color: @aaltoGray;
-        text-align: left;
-      }
-    }
-
-    .dl-horizontal dt {
-      width: auto;
-    }
+  #smalldefaultmap img{
+    max-width: none;
   }
 }
+&-footer{
+  padding: 14px 15px 15px;
+  margin-bottom: 0;
+  text-align: right; // right align buttons
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  .border-radius(0 0 6px 6px);
+  .box-shadow(inset 0 1px 0 @white);
+  .clearfix(); // clear it in case folks use .pull-* classes on buttons
+
+  .meta{
+    float:left
+  }
+  .controls{
+    float: right;
+    ul.inline, ol.inline {
+      list-style: none outside none;
+    }
+    li {
+      display: inline-block;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+  }
+  .dl-horizontal {
+    font-size: 12px;
+    height: 14px;
+    margin-bottom: 0px;
+    &.date{
+      color:@aaltoGray;
+      text-align: left;
+    }
+    &.author{
+      color: @aaltoGray;
+      text-align: left;
+    }
+  }
+
+  .dl-horizontal dt {
+    width: auto;
+  }
+}
+  }
 /* End Aalto Visual Identity Additions */
 
 
