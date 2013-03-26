@@ -70,7 +70,7 @@
                     /*
                     $(document).scrollTop($("#SelectedContentContainer").offset().top);
                     */
-                    $(document).scrollTop();
+                    $(document).scrollTop(0);
                 }
             });
             return false;
@@ -82,6 +82,7 @@
             */
             OipShowInDetailPaneWithClose(htmlContent);
             OipSetupDefaultMap('map');
+            $(document).scrollTop(0);
             return false;
         };
         $(".oipclicktoview").on('click', OipOpenArticle);
