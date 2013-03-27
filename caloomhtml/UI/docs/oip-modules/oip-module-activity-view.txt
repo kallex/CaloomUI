@@ -5,7 +5,7 @@
     <p>
         <img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
     </p>
-    <p><?php include '../oip-atoms/oip-atom-description.txt' ?></p>
+    <p>[!ATOM]Description[ATOM!]</p>
 </div>
 <div>
 	<div id="flowcontainer" class="thumbnails">

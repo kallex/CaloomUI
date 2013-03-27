@@ -8,7 +8,7 @@
         <img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
     </p>
 	<p>
-		<?php include '../oip-atoms/oip-atom-body.txt' ?>
+		[!ATOM]Body[ATOM!]
 	</p>
 </div>
 <div>
