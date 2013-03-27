@@ -2,8 +2,6 @@
 		<br>
 		<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></small>
 	</h2>
-	<h4>[!ATOM]Published[ATOM!]</h4>
-	<h4>[!ATOM]Author[ATOM!]</h4>
 </div>
 <div class="multicolumnElement">
     <p>
@@ -26,4 +24,23 @@
       });
     });
 </script>
+</div>
+<div class="reading-pane-footer">
+    <div class="meta">
+        <!--
+        using same <dl></dl> as in tiles
+        -->
+        <dl class="dl-horizontal date"><dt>on</dt><dd>[!ATOM]Published[ATOM!]</dd></dl>
+        <dl class="dl-horizontal author"><dt>by</dt><dd>[!ATOM]Author[ATOM!]</dd></dl>
+    </div>
+    <div class="controls">
+        <ul class="inline">
+            <li>
+                <form>
+                    <i class="icon-bookmark"></i>
+                    <input class="text" name="share_url" value="http://www.aaltoglobalimpact.org/www-public/oip-layout-landing.phtml?type=news&id=[!ATOM]ID[ATOM!]">
+                </form>
+            </li>
+        </ul>
+    </div>
 </div>
