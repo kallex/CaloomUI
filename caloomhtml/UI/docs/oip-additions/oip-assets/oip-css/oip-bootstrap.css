@@ -6188,6 +6188,10 @@ classes for reading-pane
   outline-color: #1655b2;
   background-color: #add8e6;
 }
+noteditable open-IncontextEditDialog_Text_Long in-context-edit:hover {
+  color: #000000;
+  text-decoration: none;
+}
 .oip-news {
   color: #9e468f;
 }
