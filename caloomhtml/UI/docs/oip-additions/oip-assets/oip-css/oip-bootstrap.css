@@ -6075,23 +6075,33 @@ dd {
 /*
 classes for reading-pane
 */
+#SelectedContentContainer {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+#SelectedContentContainer button.close {
+  padding: 0px;
+  cursor: pointer;
+  background-color: white !important;
+  border: 0px none;
+  right: 0px;
+  position: absolute;
+  float: right;
+  width: 50px;
+  height: 50px;
+}
 .reading-pane {
+  background-color: #fff;
   border-bottom: 1px solid #eee;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 9px 15px;
 }
 .reading-pane-header {
-  padding: 2px0px;
+  padding: 2px 0px;
   border-bottom: 1px solid #d3d0cc;
-}
-.reading-pane-header .close {
-  margin-top: 2px;
 }
 .reading-pane-header h2 {
   margin: 0;
   line-height: 30px;
+  padding: 0px 15px;
 }
 .reading-pane-header h3 {
   margin: 0;
@@ -6101,10 +6111,15 @@ classes for reading-pane
 .reading-pane p a {
   word-wrap: break-word;
 }
-.reading-pane #smalldefaultmap img {
-  max-width: none;
+.reading-pane p:first-of-type,
+.reading-pane p a:first-of-type {
+  margin-left: 15px;
 }
--footer {
+.reading-pane p:last-of-type,
+.reading-pane p a:last-of-type {
+  margin-right: 15px;
+}
+.reading-pane-footer {
   padding: 14px 15px 15px;
   margin-bottom: 0;
   text-align: right;
@@ -6118,47 +6133,54 @@ classes for reading-pane
   box-shadow: inset 0 1px 0 #ffffff;
   *zoom: 1;
 }
--footer:before,
--footer:after {
+.reading-pane-footer:before,
+.reading-pane-footer:after {
   display: table;
   content: "";
   line-height: 0;
 }
--footer:after {
+.reading-pane-footer:after {
   clear: both;
 }
--footer .meta {
+.reading-pane-footer .meta {
   float: left;
 }
--footer .controls {
+.reading-pane-footer .controls {
   float: right;
+  position: relative;
 }
--footer .controls ul.inline,
--footer .controls ol.inline {
+.reading-pane-footer .controls ul.inline,
+.reading-pane-footer .controls ol.inline {
   list-style: none outside none;
 }
--footer .controls li {
+.reading-pane-footer .controls li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
 }
--footer .dl-horizontal {
+.reading-pane-footer .controls .popover .fade .top .in {
+  top: -58px;
+  left: 58.5px;
+  display: block;
+}
+.reading-pane-footer .dl-horizontal {
   font-size: 12px;
   height: 14px;
   margin-bottom: 0px;
 }
--footer .dl-horizontal.date {
+.reading-pane-footer .dl-horizontal.date {
   color: #7f786d;
   text-align: left;
 }
--footer .dl-horizontal.author {
+.reading-pane-footer .dl-horizontal.author {
   color: #7f786d;
   text-align: left;
 }
--footer .dl-horizontal dt {
+.reading-pane-footer .dl-horizontal dt {
   width: auto;
 }
-/* End Aalto Visual Identity Additions */.editable {
+/* End Aalto Visual Identity Additions */
+.editable {
   background-color: #fef4d4;
 }
 .editable-with-border {
