@@ -37,14 +37,22 @@
         </li>
         {/RenderedNode}
         <li class="Maps">
-            <!--<a class="hover mapclicktoview" href="#">-->
-                <div style="height:200px;width:200px;" id="smalldefaultmap"></div><span class="plus"></span>
-            <!--</a>-->
-            <div class="entry-summary">
+            <a class="hover mapclicktoview" href="#">
+                <div style="height:200px;width:400px;" id="smalldefaultmap"></div><span class="plus"></span>
+            </a>
+            <div class="entry-summary" style="width: 400px">
                 <h4><a class="mapclicktoview" href="#">Overview Map of Aalto Global Impact Activities</a></h4>
                 <div>Recent Aalto Global Impact activities presented on a map.</div>
                 <div class="badge category"><a href="#Maps">Maps</a></div>
 <!--horizontal description -->
+                <dl class="dl-horizontal author">
+                    <dt>by</dt>
+                    <dd>Aalto Global Impact</dd>
+                </dl>
+                <dl class="dl-horizontal date">
+                    <dt>on</dt>
+                    <dd>right now</dd>
+                </dl>
             </div><!--close entry-summary-->
         </li>
     </ul>
@@ -81,7 +89,7 @@
             $("#SelectedContentContainer").html(htmlContent);
             */
             OipShowInDetailPaneWithClose(htmlContent);
-            OipSetupDefaultMap('map');
+            OipSetupDefaultMap('map', false);
             $(document).scrollTop(0);
             return true;
         };

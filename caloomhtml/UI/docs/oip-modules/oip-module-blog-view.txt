@@ -15,6 +15,7 @@
 	<div id="flowcontainer" class="thumbnails">
 		<?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObjectAsCollection:ImageGroupCollection -->
 	</div>
+	<br>
 	[!ATOM]IFrameSources[ATOM!]
 <script>
     $(function(){

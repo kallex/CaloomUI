@@ -17,15 +17,31 @@
     }
 
     $(function() {
-        OipSetupDefaultMap = function(mapid, uselayers) {
-            var map = L.map(mapid).setView([0, 0], 2);
+        OipSetupDefaultMap = function(mapid, isMiniMap) {
+			if(isMiniMap == null)
+				isMiniMap = true;
+			var showcredit = isMiniMap == false;
+			var showlayers = isMiniMap == false;
+			var enableWheelScroll = isMiniMap == false;
+			var zoomControl = isMiniMap == false;
+			var initialZoomLevel = isMiniMap ? 0 : 2;
+			var mapOptions = { };
+			mapOptions["scrollWheelZoom"] = enableWheelScroll;
+			mapOptions["zoomControl"] = zoomControl;
+
+            var map = L.map(mapid, mapOptions).setView([0, 0], initialZoomLevel);
 
             // add an OpenStreetMap tile layer
             var tileUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
             var tileAttribution = '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
-            L.tileLayer(tileUrl, {
-                attribution: tileAttribution
-            }).addTo(map);
+			if(showcredit == true) 
+			{
+				L.tileLayer(tileUrl, {
+					attribution: tileAttribution
+				}).addTo(map);
+			} else {
+				L.tileLayer(tileUrl, { }).addTo(map);
+			}
 
             // Marker arrays
             var ActivitiesMarkers = new Array();
@@ -64,19 +80,14 @@
             var eventsText = GetLayerLabelText("Events", EventsMarkerIcon);
             var blogsText = GetLayerLabelText("Blogs", BlogsMarkerIcon);
 
-            var overlayMaps = {
-                /*
-                    "Activities": ActivitiesLayer,
-                    "News": NewsLayer,
-                    "Projects": ProjectsLayer,
-                    "Events": EventsLayer,
-                    "Blogs": BlogsLayer,*/
-            };
-            overlayMaps[activitiesText] = ActivitiesLayer;
-            overlayMaps[newsText] = NewsLayer;
-            overlayMaps[projectsText] = ProjectsLayer;
-            overlayMaps[eventsText] = EventsLayer;
-            overlayMaps[blogsText] = BlogsLayer;
+            var overlayMaps = { };
+			if(showlayers == true) {
+				overlayMaps[activitiesText] = ActivitiesLayer;
+				overlayMaps[newsText] = NewsLayer;
+				overlayMaps[projectsText] = ProjectsLayer;
+				overlayMaps[eventsText] = EventsLayer;
+				overlayMaps[blogsText] = BlogsLayer;
+			}
 
 
             // Adding marker arrays 
@@ -113,8 +124,8 @@
                 if(e.layer == BlogsLayer)
                     markers.removeLayers(BlogsMarkers);
             });
-
-            L.control.layers(null, overlayMaps).addTo(map);
+			if(showlayers == true)
+				L.control.layers(null, overlayMaps).addTo(map);
 			map.invalidateSize(false);
         };
         /*OipSetupDefaultMap('map');*/
