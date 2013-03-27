@@ -3,7 +3,7 @@
 		<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></small>
 	</h2>
 </div>
-<div class="multicolumnElement">
+<div class="multicolumnElement" style="padding-left:15px;padding-right:15px;">
     <p>
         <img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
     </p>

@@ -1,7 +1,7 @@
 <h2><?php include '../oip-atoms/oip-atom-activityname.txt' ?></h2>
 <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
 </div>
-<div class="multicolumnElement">
+<div class="multicolumnElement" style="padding-left:15px;padding-right:15px;">
     <p>
         <img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
     </p>
@@ -27,7 +27,7 @@
         <!--
         using same <dl></dl> as in tiles
         -->
-        <dl class="dl-horizontal date"><dt>on</dt><dd>[ATOM!]StartingTime[ATOM!]</dd></dl>
+        <dl class="dl-horizontal date"><dt>on</dt><dd>[!ATOM]StartingTime[ATOM!]</dd></dl>
         <dl class="dl-horizontal author"><dt>by</dt><dd>[!ATOM]ContactPerson[ATOM!]</dd></dl>
     </div>
     <div class="controls">
