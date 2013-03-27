@@ -6172,6 +6172,7 @@ classes for reading-pane
 }
 .reading-pane-footer .dl-horizontal dt {
   width: auto;
+  float: left;
 }
 /* End Aalto Visual Identity Additions */
 .editable {
