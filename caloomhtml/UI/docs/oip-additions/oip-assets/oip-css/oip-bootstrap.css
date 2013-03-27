@@ -6098,6 +6098,7 @@ classes for reading-pane
   border-bottom: 1px solid #eee;
 }
 .reading-pane-header {
+  margin-bottom: 9px;
   padding: 2px 0px;
   border-bottom: 1px solid #d3d0cc;
 }
