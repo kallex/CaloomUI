@@ -6082,13 +6082,16 @@ classes for reading-pane
 #SelectedContentContainer button.close {
   padding: 0px;
   cursor: pointer;
-  background-color: white !important;
+  background-color: #ba5560 !important;
+  opacity: 1;
   border: 0px none;
   right: 0px;
-  position: absolute;
   float: right;
   width: 50px;
   height: 50px;
+}
+#SelectedContentContainer button.close:hover {
+  background-color: #e61733;
 }
 .reading-pane {
   background-color: #fff;
