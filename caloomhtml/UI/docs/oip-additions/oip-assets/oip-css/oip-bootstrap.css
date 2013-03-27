@@ -5950,6 +5950,8 @@ li .aalto-navbar {
   margin-left-rtl-source: physical;
   margin-right-ltr-source: physical;
   margin-right-rtl-source: physical;
+  padding: 15px;
+  padding-bottom: 0px;
 }
 .multicolumnElementp {
   min-height: 150px;
@@ -6088,7 +6090,7 @@ classes for reading-pane
   border-bottom: 1px solid #eee;
 }
 .reading-pane-header {
-  margin-bottom: 9px;
+  margin-bottom: 0px;
   padding: 2px 0px;
   border-bottom: 1px solid #d3d0cc;
 }
