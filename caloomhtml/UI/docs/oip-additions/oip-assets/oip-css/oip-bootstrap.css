@@ -5936,9 +5936,13 @@ li .aalto-navbar {
 .multicolumnElement {
   -moz-column-width: 220px;
   -moz-column-gap: 30px;
+  -webkit-column-width: 220px;
+  -webkit-column-gap: 30px;
+  column-width: 220px;
+  column-gap: 30px;
   width: auto;
   margin: 0px auto;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-right-value: auto;
   margin-bottom: 0px;
   margin-left-value: auto;
