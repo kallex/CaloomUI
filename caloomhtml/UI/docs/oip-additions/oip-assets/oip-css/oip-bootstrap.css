@@ -5812,7 +5812,7 @@ li [class*=" icon-"] {
   padding-bottom: 0px;
 }
 p.truncate {
-  word-wrap: ;
+  word-wrap: break-word;
   height: 60px !important;
   overflow: hidden !important;
 }
@@ -6117,7 +6117,7 @@ classes for reading-pane
 }
 .reading-pane-footer {
   padding: 14px 15px 15px;
-  margin-bottom: 0;
+  margin: 0px 15px 15px 15px;
   text-align: right;
   background-color: #f5f5f5;
   border-top: 1px solid #ddd;
