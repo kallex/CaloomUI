@@ -5169,8 +5169,7 @@ a.badge:hover {
 .gallery li img {
   width: 100% !important;
   max-width: none;
-  margin: 10px 0 0 0;
-  margin-left: 10px;
+  margin: 0;
 }
 .gallery img {
   background: #ffffff url('../img/loader.gif') no-repeat 50% 50%;

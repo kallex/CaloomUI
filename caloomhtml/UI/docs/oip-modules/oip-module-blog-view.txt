@@ -1,30 +1,30 @@
-	<h2><?php include '../oip-atoms/oip-atom-title.txt' ?>
-		<br>
-		<small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></small>
-	</h2>
-</div>
+<h2><?php include '../oip-atoms/oip-atom-title.txt' ?>
+    <br>
+    <small><?php include '../oip-atoms/oip-atom-subtitle.txt' ?></small>
+</h2>
+<!--</div> todo is this one needed? -->
 <div class="multicolumnElement" style="padding-left:15px;padding-right:15px;">
     <p>
         <img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
     </p>
-	<p>
-		[!ATOM]Body[ATOM!]
-	</p>
+    <p>
+        [!ATOM]Body[ATOM!]
+    </p>
 </div>
 <div>
-	<div id="flowcontainer" class="thumbnails">
-		<?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObjectAsCollection:ImageGroupCollection -->
-	</div>
-	<br>
-	[!ATOM]IFrameSources[ATOM!]
-<script>
-    $(function(){
-      var $container = $('#flowcontainer');
-      $container.isotope({
-        itemSelector: '.oipimagecollection'
-      });
-    });
-</script>
+    <div id="flowcontainer" class="thumbnails">
+        <?php include 'oip-module-modal-images.txt' ?><!-- UseInformationObjectAsCollection:ImageGroupCollection -->
+    </div>
+    <br>
+    [!ATOM]IFrameSources[ATOM!]
+    <script>
+        $(function(){
+            var $container = $('#flowcontainer');
+            $container.isotope({
+                itemSelector: '.oipimagecollection'
+            });
+        });
+    </script>
 </div>
 <div class="reading-pane-footer">
     <div class="meta">

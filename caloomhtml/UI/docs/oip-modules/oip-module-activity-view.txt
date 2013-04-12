@@ -1,6 +1,6 @@
 <h2><?php include '../oip-atoms/oip-atom-activityname.txt' ?></h2>
 <?php include '../oip-modules/oip-module-introduction.txt' ?><!-- UseInformationObject:Introduction -->
-</div>
+<!--</div>-->
 <div class="multicolumnElement" style="padding-left:15px;padding-right:15px;">
     <p>
         <img src="[!ATOM]ProfileImage.ImageData.ContentUrlBase[ATOM!]_320x240_crop.jpg" />
