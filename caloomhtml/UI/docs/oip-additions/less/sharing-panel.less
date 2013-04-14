@@ -1,8 +1,22 @@
-.sharing-panel {
+.sharing-panel, .footer-panel {
   position: relative;
   float:right;
 }
 
+.footer-panel {
+  & .btn-group > .btn {
+    margin-left: 10px;
+    & i {
+      margin-right: 5px;
+    }
+    & input, textarea {
+      height: 14px;
+    }
+  }
+//  & .btn-group > .btn:last-of-type {
+//      margin-right: 0px;
+//  }
+}
 @media (max-width: 480px) {
 
 }

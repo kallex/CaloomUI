@@ -96,19 +96,25 @@
 
 
   .media {
-    padding:30px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:9px;
+    padding-bottom:9px;
     & #flowcontainer {
       background-color: greenyellow;
     }
+    & iframe {
+      width: 100%;
+      height: 200px;
+      background-color: @aaltoGrayScale;
+    }
+    & ul .thumbnails:first-child {
+      margin-left: 30px;
+    }
 
   }
-  .footer {
-    padding:30px;
-    margin-top: 0px;
-    min-width: auto;
-    background-color: white;
-  }
 }
+
 
 .reading-pane .border {
   position:relative;
@@ -140,6 +146,18 @@
     background-color: @oip-map;
     color: @white;
   }
+}
+.reading-pane .footer {
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:9px;
+  padding-bottom:9px;
+  margin-top: 0px;
+  min-width: auto;
+  background-color: white;
+  margin-top: 70px;
+  border-top: 0px;
+  font-size: 80%;
 }
 
 
