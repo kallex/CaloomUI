@@ -1,0 +1,965 @@
+  /* Start Aalto Visual Identity Additions */
+
+  //
+  // Index and this follows the oip-bootstrap.less loading order
+  //
+
+  // CSS Reset
+  //      reset
+
+  // Core variables and mixins
+  //      variables // Modify this for custom colors, font-sizes, etc
+  //      mixins
+
+  // Grid system and page structure
+  //      scaffolding
+  //      grid
+  //      layouts
+
+  // Base CSS
+  //      type
+  //      code
+  //      forms
+  //      tables
+
+  // Components: common
+  //      font-awesome
+  //      sprites
+  //      dropdowns
+  //      wells
+  //      component-animations
+  //      close
+
+  // Components: Buttons & Alerts
+  //      buttons
+  //      button-groups
+  //      alerts // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+
+  // Components: Nav
+  //      navs
+  //      navbar
+  //      breadcrumbs
+  //      pagination
+  //      pager
+
+  // Components: Popovers
+  //      modals
+  .modal-header {
+    min-height: 30px;
+    margin-bottom: 5px;
+  }
+  //      tooltip
+  //      popovers
+
+  // Components: Misc
+  //      thumbnails
+  //      labels-badges
+  //      progress-bars
+  //      accordion
+  //      carousel
+  //      hero-unit
+
+  // Aalto Visual Identity Additions
+  //      oip-aalto-id
+  //      oip
+  //      oip-aalto-responsive
+
+  // Utility classes
+  //      utilities // Has to be last to override when necessary
+
+
+  // -------------------------------------------------------------
+  // CSS Reset
+  //      reset
+  // -------------------------------------------------------------
+
+
+
+  body {
+    background-color:lighten(@bodyBackground, 100%);
+    background-image: url(../oip-images/ui/yt-background-image-brown.png);
+  }
+
+  p{
+    font-weight: 200;
+    letter-spacing: 0.1em;
+  }
+
+  p a.noteditable,
+  p a.noteditable:hover{
+    color: @textColor;
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+
+  .well, .row {
+    background-color:lighten(@bodyBackground, 95%);
+    // .opacity(80);
+    border-radius: (3px);
+  }
+
+  .row-fluid {
+    background-color: @white;
+  }
+  // Components: common
+  //      font-awesome
+  //      sprites
+  //      dropdowns
+  //      wells
+  //      component-animations
+  //      close
+
+
+
+  //      wells
+  .tab-well{
+    overflow: auto;
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #F2F2F2;
+  }
+
+
+
+  // Components: Buttons & Alerts
+  //      buttons
+  //      button-groups
+  //      alerts // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+  .alert-usab {
+    background-color: @successBackground;
+    border-color: @successBorder;
+    color: @successText;
+    background-color: #149bdf;
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    -webkit-background-size: 40px 40px;
+    -moz-background-size: 40px 40px;
+    -o-background-size: 40px 40px;
+    background-size: 40px 40px;
+  }
+  .alert-bug {
+    background-color: @successBackground;
+    border-color: @successBorder;
+    color: @successText;
+    background-color: #fff807;
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.15) 75%, transparent 75%, transparent);
+    -webkit-background-size: 40px 40px;
+    -moz-background-size: 40px 40px;
+    -o-background-size: 40px 40px;
+    background-size: 40px 40px;
+  }
+
+  // Navbar
+
+  .navbar-static-top{padding-top: 5px;}
+
+  .navbar .container {
+    position: relative;
+  }
+  .navbar-inner {
+    padding: 7px 0;
+    padding-bottom: 0px;
+    background:#ffffff;
+    //background: darken(@bodyBackground, 40%);
+    //border-bottom: 1px solid #121212;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+
+  .navbar-fixed-top {
+    position: static;
+  }
+
+  .navbar .nav a {
+    font-size: 11px;
+  }
+
+  //Subnavbar
+
+  .subnavbar {
+    //border-top: 1px solid #595959;
+  }
+
+  .subnavbar-inner {
+    height: 80px;
+    background: #ffffff;
+    //background: darken(@bodyBackground, 33%);
+    //background-image: -moz-linear-gradient(top, #414141, #323232);
+    // background-image: -ms-linear-gradient(top, #414141, #323232);
+    //background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#414141), to(#323232));
+    // background-image: -webkit-linear-gradient(top, #414141, #323232);
+    // background-image: -o-linear-gradient(top, #414141, #323232);
+    // background-image: linear-gradient(top, #414141, #323232);
+    //background-repeat: repeat-x;
+    // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#414141', endColorstr='#323232', GradientType=0);
+    //border-bottom: 1px solid @bodyBackground;
+  }
+
+  .subnavbar .container > ul {
+    display: inline-block;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    //border-left: 1px solid #292929;
+    //border-right: 1px solid #4A4A4A;
+  }
+
+  .subnavbar .container > ul > li {
+    float: left;
+    min-width: 90px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    //border-left: 1px solid darken(@bodyBackground, 20%);
+    //border-right: 1px solid darken(@bodyBackground, 20%);
+    //border-top: 1px solid darken(@bodyBackground, 20%);
+  }
+
+  .subnavbar .container > ul > li.group-name {
+    float: left;
+    min-width: 90px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    //border-left: 1px solid darken(@bodyBackground, 33%);
+    //border-right: 1px solid darken(@bodyBackground, 33%);
+    //border-top: 1px solid darken(@bodyBackground, 33%);
+  }
+  .subnavbar .container > ul > li > a > i.group-name {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 17px;
+    margin-bottom: .25em;
+    font-size: 28px;
+  }
+
+  .subnavbar .container > ul > li > a {
+    display: block;
+    height: 100%;
+    padding: 0 15px;
+    font-size: 12px;
+    font-weight: normal;
+    //color: lighten(@bodyBackground, 0%);
+    //text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  }
+
+  li [class^="icon-"], li [class*=" icon-"]{
+    text-decoration: none;
+  }
+
+    /*coloring for the account navbar*/
+  .navbar-account-border {
+    //border-bottom: 3px solid @accountNavbarBorder;
+  }
+
+  .navbar-account-background {
+    //background-color: @oip-account;
+    background-image: url("../oip-images/ui/navbar-background-oip-account.png");
+  }
+
+  .navbar-group-background {
+    //background-color: @oip-group;
+    background-image: url("../oip-images/ui/navbar-background-oip-group.png");
+  }
+
+  .navbar-account-background .container > ul > li > a,
+  .navbar-account-background .container > ul > li > a > i {
+    color: @accountNavbarText;
+  }
+
+  .navbar-group-background .container > ul > li > a,
+  .navbar-group-background .container > ul > li > a > i{
+    color: @groupNavbarText;
+  }
+
+  .navbar-account-background .container > ul > li > a > i:hover,
+  .navbar-account-background .container > ul > li > a:hover {
+    color: @accountNavbarTextHover;
+  }
+
+  .navbar-group-background .container > ul > li > a > i:hover,
+  .navbar-group-background .container > ul > li > a:hover{
+    color: @groupNavbarTextHover;
+  }
+
+  .navbar-group-background .container > ul > li,
+  .navbar-group-background .container > ul > li.group-name
+.navbar-account-background .container > ul > li,
+  .navbar-account-background .container > ul > li.group-name {
+    border-left: 1px solid rgba(0,0,0,.1);
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-top: 0px solid rgba(0,0,0,.1);
+  }
+
+    /* icons*/
+  .subnavbar .container > ul > li > a > i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 17px;
+    margin-bottom: .25em;
+    font-size: 28px;
+  }
+
+  .subnavbar .container > ul > li > a > i:hover {
+    //color: #be474e;
+  }
+
+  .subnavbar .container > ul > li > a > span {
+    display: block;
+  }
+
+  .subnavbar .container > ul > li.active > a {
+    position: relative;
+    background-color: darken(@bodyBackground, 40%);
+    border-top: 1px solid darken(@bodyBackground, 40%);
+    color: @linkColor;
+    top:-1px;
+  }
+
+  .subnavbar .dropdown .dropdown-menu a {
+    font-size: 12px;
+  }
+
+  .subnavbar .dropdown .dropdown-menu {
+    text-align: left;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .subnavbar .dropdown-menu::before {
+    content: '';
+    display: inline-block;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #CCC;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -7px;
+    left: 9px;
+  }
+
+  .subnavbar .dropdown-menu::after {
+    content: '';
+    display: inline-block;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid white;
+    position: absolute;
+    top: -6px;
+    left: 10px;
+  }
+
+
+  .subnavbar .dropdown.open .caret {
+    display: none;
+  }
+
+  .subnavbar .dropdown .caret {
+    margin-top: 4px;
+  }
+
+  .subnavbar-inner .alert {
+    color: rgb(185, 74, 72);
+    background-color: rgb(242, 222, 222);
+    border-color: rgb(238, 211, 215);
+    margin-left: 4px;
+    margin-right: 4px;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 20px;
+    white-space: nowrap;
+    margin-bottom: 0px;
+  }
+
+
+  // custom navbar color coding for Aalto Global Impact
+  .news {
+    color: @aaltoFuchsia;
+  }
+  .about {
+    color: @aaltoYellow;
+  }
+  .activity {
+    color: @aaltoLightGreen;
+  }
+  .map {
+    color: @aaltoTurquoise;
+  }
+  .group {
+    color: @aaltoRed;
+  }
+
+  .dropdown .caret {
+    //margin-top: 2px;
+    margin-left: 2px;
+  }
+
+  // Container and Well
+
+  #container-focus {
+    margin-top: 10px;
+  }
+  .span2plus {
+    //  width: 21.777%;
+    width: 21.5%;
+  }
+  .span4plus {
+    //  width: 46.777%;
+    width: 46.57%;
+  }
+
+  .services {
+    background-repeat: no-repeat ;
+    width: auto;
+    padding:0px;
+    margin-bottom: 20px;
+    height: 90px;
+    .border-radius(6px);
+
+  }
+
+  .hero-unit {
+    background-repeat: no-repeat ;
+    width: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    background-color: transparent;
+
+  }
+
+  .news-header {
+    background-image: url("../oip-images/ui/well-news-header-background.png");
+  }
+  .about-header {
+    background-image: url("../oip-images/ui/well-about-header-background.png");
+  }
+  .map-header  {
+    background-image: url("../oip-images/ui/well-map-header-background.png");
+  }
+  .group-header  {
+    background-image: url("../oip-images/ui/well-group-header-background.png");
+  }
+  .activity-header  {
+    background-image: url("../oip-images/ui/well-activity-header-background.png");
+  }
+  .account-header  {
+    background-image: url("../oip-images/ui/well-account-header-background.png");
+  }
+  .register-header {}
+
+  .small>.hero-unit {
+    padding: 0px;
+    margin:0px;
+    margin-bottom: 20px;
+    min-height:70px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; /*this creates a white outline around the title and subtitle which is needed to let them stand out over the background images used*/
+    h1 {
+      text-align: right;line-height: 0.4;margin-left: auto;margin-right: auto; font-kerning: 4px;letter-spacing: 4px;
+    }
+    h1 a {
+      font-size: 50% ;font-weight: 100;
+    }
+    small a {
+      font-size:70%;
+      font-style: italic;
+    }
+
+    background-color: none;
+    background-image: none !important;
+  }
+
+  .small-before-after {
+    font-size: 100%;
+    font-style: italic;
+    font-weight: 200;
+    color: @grayLight;
+  }
+
+
+  //
+  // index and span3
+  //
+  .index{
+    background-image: url("../oip-images/ui/index-inverted.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    //background-color: lighten(@oip-public, 40%);
+    //border: 1px solid @inputBorder;
+    //.box-shadow(inset 0 1px 1px rgba(0,0,0,.045));
+    //.transition(~"border linear .2s, box-shadow linear .2s");
+    //.border-radius(@inputBorderRadius);
+    padding-left: 5px;
+  }
+
+  .map-result-list{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.065);
+  }
+
+  .accordion-map-result-list {
+    color: #ffffff;
+    background-color:rgba(33, 32, 31, 0.5);
+    padding:10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+    margin-bottom: 0px;
+  }
+
+  .accordion-map-result-list .accordion-group{
+    background-color:rgba(33, 32, 31, 0.5);
+  }
+
+  .accordion-map-result-list ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  //
+  // Here we style the index of left column, often span3
+  //
+
+  // adjustments for accordion in index
+  // border set to bodybackground
+  .accordion-group-index {
+    border: 0px solid @bodyBackground;
+  }
+
+  // border set to bodybackground
+  .accordion-inner-index {
+    padding-left: 3px;
+    border-top: 0px solid @bodyBackground;
+  }
+  .accordion-inner-index li a {
+    padding-left: 3px;
+  }
+
+  .accordion-group-index .accordion-heading a,
+  .accordion-group-index .accordion-inner {
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  //activity, blog, group summary span3 additional class for styling of border around small container
+  .module-in-row
+  {
+    //border-color: #d3d3d3;
+    //border-style: dotted;
+    //padding: 6px;
+    // border-width: 1px
+  }
+
+  //
+  // here we deal with the content, often in span9
+  //
+
+  p.truncate {
+    word-wrap:break-word ;
+    height: @baseLineHeight * 3 !important;
+    overflow: hidden !important;
+  }
+  //pager adjustments
+  .pager a {
+    font-size: 80%;
+    padding: 3px 10px;
+  }
+
+  //thumbnails and images
+
+  a.wide-flat img{
+    position:absolute;
+    clip:rect(250px,800px,350px,0px);
+  }
+
+  li.span3 a img {
+    width: 97%;
+    max-width: 190px;
+  }
+
+  .aalto-background {
+    background-color: transparent;
+    padding: 4px;
+    text-shadow: none;
+  }
+
+  .aalto-navbar {
+    color: #716b63 !important;
+    display: block;
+    float:left;
+    font-size:12px;
+    margin:0px;
+    padding: 0px 15px 8px 15px;
+    background: url("../oip-images/ui/aalto-dotted_divider.gif") repeat-y top right;
+  }
+
+  li .aalto-navbar {
+    list-style-type: none;
+    color: #716b63 !important;
+    font-size: 12px;
+    padding: 10px 15px 8px 15px;
+  }
+
+
+  .aaltoLogoType {
+    margin-left: 15px !important;
+  }
+
+  //
+  // Aalto logotype in text OLD!
+  //
+  .aalto-mark-old {
+    font-size: (@baseFontSize *3);
+    line-height: (@baseFontSize *2.6);
+    font-weight: bold;
+    //color: lighten(@bodyBackground,100%);
+    display: inline-block;
+    float: left;
+    margin-top: 2px;
+  }
+  .aalto-mark-old {
+    color: @aaltoRed;
+    clear: right;
+  }
+
+  .aalto-a-old {
+    color: @aaltoBlack;
+  }
+
+
+  .aalto-university-old, .aalto-gi-old {
+    //  display: inline-block;
+    //clear: both;
+    padding-left:0px;
+    margin-left: 0px;
+    font-size: (@baseFontSize *0.9);
+    line-height: (@baseLineHeight *0.7);
+    font-weight: normal;
+    //  margin-left:0px;
+    //line-height: 10px;
+    text-align: left;
+    letter-spacing: .5px;
+    float: left;
+
+
+  }
+  .aalto-gi-old, .aalto-gi-old a {
+    color: @aaltoGray;
+  }
+
+  .aalto-gi-old a:hover {
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+  //
+  // Aalto logotype in text
+  //
+  .aalto-mark {
+    font-size: (@baseFontSize *5);
+    line-height: (@baseFontSize *5);
+    font-weight: bold;
+    //color: lighten(@bodyBackground,100%);
+    display: inline-block;
+    float: left;
+  }
+  .aalto-mark {
+    color: @logoColor;
+  }
+
+  .aalto-a {
+    color: @aaltoBlack;
+  }
+
+
+  .aalto-university, .aalto-gi {
+    //  display: inline-block;
+    //clear: both;
+    padding-left:0px;
+    margin-left: 0px;
+    font-size: (@baseFontSize *0.9);
+    line-height: (@baseLineHeight *0.5);
+    font-weight: normal;
+    //  margin-left:0px;
+    //line-height: 10px;
+    text-align: left;
+    letter-spacing: 2px;
+
+
+  }
+  .aalto-gi, .aalto-gi a {
+    color: @aaltoGray;
+  }
+
+  .aalto-gi a:hover {
+    text-decoration: none;
+  }
+
+  //
+    /*edittoggle styling in navbar */
+  //
+  #edittoggle {
+    width: inherit;
+    text-align: inherit;
+    display: inline-block;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+  }
+  #edittoggle:active {
+    color: @aaltoRed;
+  }
+  #edittoggle:hover {
+    color: @aaltoYellow;
+  }
+
+    /* tab min-height*/
+  .form-tab {
+    min-height:400px !important;
+
+  }
+
+  .multicolumnElement {
+    -moz-column-width: 220px;
+    -moz-column-gap: 30px;
+    -webkit-column-width: 220px;
+    -webkit-column-gap: 30px;
+    column-width: 220px;
+    column-gap: 30px;
+    width: auto;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-right-value: auto;
+    margin-bottom: 0px;
+    margin-left-value: auto;
+    margin-left-ltr-source: physical;
+    margin-left-rtl-source: physical;
+    margin-right-ltr-source: physical;
+    margin-right-rtl-source: physical;
+    //padding:15px;
+    padding-bottom:0px;
+    &p{
+      min-height: 150px;
+      word-wrap: break-word;
+    }
+    &p img{
+      width: 220px;
+      overflow: hidden;
+    }
+  }
+
+  // Footer
+  .footer {
+    padding: 20px 0;
+    margin-top: 70px;
+    border-top: 3px solid lighten(@aaltoGray, 30%);
+    background-color:lighten(@aaltoGray, 19%);
+    // background-image: url("../oip-images/ui/yt-footer-background-image.png");
+    font-size: 80%;
+    bottom: 0px;
+    min-width: 100%;
+    p {
+      font-weight: 400;
+      letter-spacing: 0.1em;
+    }
+    ul {
+      padding: 19px;
+      padding-top: 0px;
+      margin-bottom: 20px;
+      margin-left: -20px;
+      //background-color: lighten(@bodyBackground,10% );
+      //background-image: url(../oip-images/ui/yt-background-image-brown.png);
+      //border: 1px solid darken(@wellBackground, 7%);
+      //.border-radius(4px);
+      //.box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
+    }
+
+    li ul {
+      margin-left: 0px;
+      //border: 1px solid lighten(@wellBackground, 30%);
+    }
+    li {
+      list-style-type: none;
+      list-style: none;
+      //font-size: 12px;
+      //font-style: bold;
+    }
+    ul li a {
+      font-size: 14px;
+    }
+
+    ul li ul li a {
+      font-size: 12px;
+    }
+
+    a:hover, :active,
+    ul li a:hover, ul li ul li a:hover,
+    ul li a:active, ul li ul li a:active{
+      color:darken(@linkColorHover, 40%);
+    }
+  }
+  // -------------------------------------------------------------
+  // Components: Misc
+  //      thumbnails
+  //      labels-badges
+  //      progress-bars
+  //      accordion
+  //      carousel
+  //      hero-unit
+  // -------------------------------------------------------------
+
+
+  //      labels-badges
+  ul.category li {
+    display: inline;
+  }
+
+  .badge {
+    &.category {
+      font-size: @baseFontSize * .646;
+      font-weight: normal;
+      color: #7f786d;
+      background-color: #f5f5f5;
+    }
+  }
+
+  // Description Lists
+  dl {
+    margin-bottom: @baseLineHeight;
+  }
+  dt,
+  dd {
+    line-height: @baseLineHeight;
+  }
+  dt {
+    font-weight: bold;
+  }
+  dd {
+    margin-left: @baseLineHeight / 2;
+  }
+  // Horizontal layout (like forms)
+  .dl-horizontal {
+    dt {
+      float: left;
+      clear: left;
+      text-align: right;
+      .text-overflow();
+    }
+    dd {
+      margin-left: 20px;
+    }
+  }
+
+
+  .gallery .dl-horizontal {
+    font-size: 75%;
+    margin-bottom: 0px;
+    &.date{
+      color:@aaltoGray;
+    }
+    &.author{
+      color: @aaltoGray;
+    }
+  }
+
+  .gallery .dl-horizontal dt {
+    width: auto;
+  }
+
+
+  //      carousel
+  .image-carousel {
+    height: 400px;
+  }
+
+  // video from jonsuh.com
+  .js-video {
+    height: 0;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .js-video.widescreen {
+    padding-bottom: 57.25%;
+  }
+
+  .js-video.vimeo {
+    padding-top: 0;
+  }
+  .js-video embed, .js-video iframe, .js-video object, .js-video video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+    /*
+    classes for reading-pane
+    */
+  #SelectedContentContainer{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    z-index: 10;
+  }
+
+  #SelectedContentContainer button.close {
+    margin-top: 4px;
+    margin-right: 9px;
+    position: relative;
+    //right: -25px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:9px;
+    padding-bottom:9px;
+    background-color: @white;
+    .border-radius(6px);
+    -moz-box-shadow: 1px 1px 10px lighten(@aaltoGrayScale, 30);
+    -webkit-box-shadow: 1px 1px 10px lighten(@aaltoGrayScale, 30);
+    box-shadow: 1px 1px 10px lighten(@aaltoGrayScale, 30);
+    z-index: 100;
+  }
+    /* End Aalto Visual Identity Additions */

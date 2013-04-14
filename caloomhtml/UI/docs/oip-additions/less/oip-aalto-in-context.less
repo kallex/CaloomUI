@@ -1,0 +1,24 @@
+//in-context editing
+.editable {
+  background-color: lighten(@aaltoYellow, 40%);
+}
+
+.editable-with-border {
+  margin:3px;
+  outline-color: red;
+  background-color: #ffb6c1;
+}
+
+.editable-when-empty {
+  min-width: 50px;
+  margin:3px;
+  outline-color: #1655b2;
+  background-color: #add8e6;
+}
+
+noteditable open-IncontextEditDialog_Text_Long in-context-edit {
+  &:hover{
+    color: @black;
+    text-decoration: none;
+  }
+}

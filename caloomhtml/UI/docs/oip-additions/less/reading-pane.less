@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Anton';
+  src:url('../font/LindenHill-webfont.eot');
+  src:url('../font/LindenHill-webfont.eot?#iefix') format('embedded-opentype');
+  src: local ('Anton'),
+  url('../font/LindenHill-webfont.svg#AsapRegular') format('svg'),
+  url('../font/LindenHill-webfont.woff') format('woff'),
+  url('../font/LindenHill-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AntonItalic';
+  src:url('../font/LindenHill-Italic-webfont.eot');
+  src:url('../font/LindenHill-Italic-webfont.eot?#iefix') format('embedded-opentype');
+  src: local ('AntonItalic'),
+  url('../font/LindenHill-Italic-webfont.svg#AsapRegular') format('svg'),
+  url('../font/LindenHill-Italic-webfont.woff') format('woff'),
+  url('../font/LindenHill-Italic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.reading-pane {
+  margin-bottom: 20px;
+  background-color: @white;
+  .border-radius(6px);
+  -moz-box-shadow: 1px 1px 10px lighten(@aaltoGrayScale, 30);
+  -webkit-box-shadow: 1px 1px 10px lighten(@aaltoGrayScale, 30);
+  box-shadow: 1px 1px 10px lighten(@aaltoGrayScale, 30);
+
+  .header {
+    padding-top:0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left:30px;
+    //border-bottom:9px @oip-news solid;
+    position: relative;
+    & h2 a {
+      font-family: Anton, serif;
+      font-size: 300%;
+      margin-bottom: 9px;
+      padding-bottom: 9px;
+      font-style: bold;
+      max-width: 90%;
+    }
+    & h2 p {
+      max-width: 30%;
+      float: left;
+      margin-top: 30px;
+    }
+    & h2 img {
+      //max-width: 30%;
+    }
+    & h2 small a {
+      width: 50%;
+      float:left;
+      margin-top: 30px;
+      font-family: Anton, serif;
+      font-size: 250%;
+      font-style: italic;
+      font-weight: 100;
+      padding-left: 18px;
+      color: lighten(@aaltoBlack, 10);
+    }
+
+  }
+  .content {
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:9px;
+    padding-bottom:9px;
+
+    & ul {
+      margin-left: 5px;
+    }
+  }
+
+  .content .multicolumnElement ul li {
+    list-style: none;
+    .border-radius(3px);
+    //-moz-box-shadow: 1px 1px 3px lighten(@aaltoGrayScale, 30);
+    //-webkit-box-shadow: 1px 1px 3px lighten(@aaltoGrayScale, 30);
+    //box-shadow: 1px 1px 3px lighten(@aaltoGrayScale, 30);
+    padding-bottom: 10px;
+  }
+  .content .multicolumnElement ul li a {
+    padding: 0px;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    word-wrap: break-word;
+    // Non standard for webkit
+    word-break: break-word;
+  }
+
+
+  .media {
+    padding:30px;
+    & #flowcontainer {
+      background-color: greenyellow;
+    }
+
+  }
+  .footer {
+    padding:30px;
+    margin-top: 0px;
+    min-width: auto;
+    background-color: white;
+  }
+}
+
+.reading-pane .border {
+  position:relative;
+  padding:0px;
+  min-height: 9px;
+  height: 9px;
+  min-width: 90%;
+  & span {
+    position: relative;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  &.border-news,
+  .label-news{
+    background-color: @oip-news;
+    color: @white;
+  }
+
+  &.border-activity,
+  .label-activity{
+    background-color: @oip-activity;
+    color: @white;
+  }
+  &.border-map,
+  .label-map{
+    background-color: @oip-map;
+    color: @white;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+}
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+@media (max-width: 979px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+
+

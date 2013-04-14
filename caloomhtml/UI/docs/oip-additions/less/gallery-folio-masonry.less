@@ -1,0 +1,353 @@
+/* masonry basic styles for both portfolio and blog masonry sections
+   and anywhere else that masonry is used
+================================================== */
+
+@path_to_masonry_images: '../img/';
+
+.gallery img {
+	width: 100%;
+}
+
+.gallery {
+	position: relative;
+	left: -1%;
+	width: 102.87%;
+	margin: 4px 0 0 0;
+	padding: 2px 0 0 0;
+	list-style: none;
+	.clearfix;
+}
+
+.gallery li {
+    float: left;
+    width: 22.25%;
+    margin: 0 1% 20px 1%;
+    padding: 0 0 5px 0;
+    .box-sizing(border-box);
+}
+
+/* column  settings */
+.gallery.four_col li {
+	width: 19.25%; /*was 22.25*/
+}
+
+.gallery.three_col li {
+	width: 31%;
+}
+
+.gallery.two_col li {
+	width: 47%;
+}
+
+.three_col li h4,
+.four_col li h4 {
+	overflow: hidden;
+	/* long words chop off at small sizes due to skinniness of 3 or 4 columns */
+	font-size: 120%;
+}
+
+.gallery li img {
+	width: 100% !important;
+	max-width: none;
+    margin: 10px 0 0 0;
+  margin-left: 10px;
+}
+
+.gallery img {
+	background: @white url('@{path_to_masonry_images}loader.gif') no-repeat 50% 50%;
+}
+
+/* gallery "item" contents (summary, captions, etc) */
+.gallery li .entry-summary {
+	padding: 0 10px;
+}
+
+.gallery li h4 {
+	padding: 0 0 5px 0;
+	margin: 10px 0 0 0;
+}
+
+.gallery li .entry-summary a {
+	text-decoration: none;
+}
+.gallery li .entry-summary a:hover {
+	text-decoration: underline;
+}
+.gallery li .entry-summary h4 a:hover {
+  text-decoration: none;
+}
+
+.gallery li .entry-summary p {
+	font-size: 85%;
+}
+
+.gallery li .categories {
+	font-size: 75%;
+	width: auto;
+	text-align: left;
+	margin-top: 5px;
+	padding: 5px 0 0 0;
+	border-top: 1px dotted @aaltoGray;
+}
+
+.gallery li .categories a {
+	text-decoration: none;
+	color: @aaltoOrange;
+	display: inline;
+}
+
+.gallery li span.credit {
+  font-size: 85%;
+}
+
+.gallery li a.videoicon,
+.gallery li a.hover {
+	position: relative;
+	display: block;
+}
+
+.gallery li a.videoicon span.videoicon {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 25px;
+	height: 25px;
+	display: block;
+	background: #fff url('@{path_to_masonry_images}videoicon.png') no-repeat;
+	z-index: 10;
+	border-top: 1px solid @white;
+	border-left: 1px solid @white;
+}
+
+/* filter
+================================================== */
+
+.filter-box {
+  .clearfix;
+	width: 100%;
+}
+
+.filter-box .btn-filter{
+  display: none;
+}
+
+.isotope-sort {
+  .clearfix;
+	float: left;
+	position: relative;
+	list-style: none;
+	margin: 0 0 10px 0;
+  padding: 0px;
+	background: none;
+	top: auto;
+	width: auto;
+	border: none;
+}
+
+.isotope-sort li {
+  margin: 0;
+	float: left;
+	position: relative;
+}
+
+.isotope-sort li{
+  
+  font-size: 85%;
+  line-height: 20px;
+  
+  &.isotope-sort-title{
+    padding-right: 10px;
+  }
+  
+  &.isotope-sort-item{
+    a{
+      padding-left: 8px;
+      padding-right: 8px;
+      text-decoration: none;
+      display: block;
+      
+      border-right: 1px dotted @aaltoBlueGray;
+      
+      &:hover{
+        color: @white;
+        background: @linkColorHover;
+      }
+      
+      &.active{
+        color: @white;
+        background: @linkColor;
+      }
+    }
+  	
+  	&:last-child a{
+  	  border-right: 0px;
+  	}
+  }
+	
+}
+
+//reading-pane
+.controls .img {
+  margin-bottom: 10px;
+}
+
+.flowcontainer .thumbnail {
+  margin-left:0px !important;
+  &:second-child {
+    *margin-left: 10px;
+  }
+}
+
+/* no javascript */
+.no-js {
+  
+  .gallery {
+	 margin-top: 20px;
+  }
+
+  .isotope-sort,
+  .entry-summary,
+  .categories,
+  .span.credit {
+    display: none!important;
+  }
+
+  .gallery li {
+    height: 200px;
+	  overflow: hidden;
+  }
+}
+/* media queries for mobile max width 850
+================================================== */
+
+@media only screen and (max-width: 850px) {
+	.gallery li,
+	    .gallery.four_col li,
+	    .gallery.three_col li,
+	    .gallery.two_col li {
+		width: 42.5%;
+	}
+	
+	.no-js .filter-box,
+	.no-js .sort {
+		display: none;
+	}
+	
+	.filter-box {
+		position: relative;
+	}
+	
+	#filter {
+		display: block;
+		width: 185px;
+		font-weight: normal;
+		color: @white;
+		line-height: 30px;
+		height: 30px;
+		padding: 5px 5px 5px 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background: #000;
+		cursor: pointer;
+		position: relative;
+	}
+	
+	.sort {
+		position: absolute;
+		top: 50px;
+		background: #333;
+		width: 200px;
+		display: none;
+		z-index: 20;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.sort li {
+		list-style: none;
+		float: none;
+		padding: 0;
+		border: none;
+	}
+	
+	.sort li a {
+		display: block;
+		text-decoration: none;
+		padding: 2px 8px;
+		float: none;
+		line-height: 30px;
+		border: 0px;
+		position: relative;
+	}
+	
+	.sort li:after {
+		content: "";
+		padding-left: 0;
+		color: #777;
+	}
+	
+	.sort li.first a,
+	    ul.sort li:first-child a {
+		padding: 2px 8px;
+		border: none;
+	}
+	
+	#filter i {
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		display: block;
+	}
+	
+	#filter.active i:before {
+		content: "\f0dd";
+	}
+}
+
+
+
+@media only screen and (max-width: 500px) {
+	.gallery.three_col li,
+		.gallery.four_col li, 
+		.gallery.two_col li {
+		width: 88%;
+		margin: 0 1% 10px 1%;
+	}
+}
+
+/*end */
+
+/* ================================================== 
+	RETINA
+================================================== */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 850px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 850px),
+only screen and (   -moz-min-device-pixel-ratio: 2)      and (max-width: 850px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 850px),
+only screen and (        min-device-pixel-ratio: 2)      and (max-width: 850px),
+only screen and (                min-resolution: 192dpi) and (max-width: 850px),
+only screen and (                min-resolution: 2dppx)  and (max-width: 850px) { 
+	
+	
+	.gallery img {
+		background-image: url('@{path_to_masonry_images}loader_@2x.gif');
+		-moz-background-size: 80px 10px;
+		-ie-background-size: 80px 10px;
+		-o-background-size: 80px 10px;
+		-webkit-background-size: 80px 10px;
+		background-size: 80px 10px;
+	}
+	
+	.gallery li a.videoicon span.videoicon {
+		background-image: url('@{path_to_masonry_images}videoicon_@2x.png');
+		-moz-background-size: 25px 25px;
+		-ie-background-size: 25px 25px;
+		-o-background-size: 25px 25px;
+		-webkit-background-size: 25px 25px;
+		background-size: 25px 25px;
+	}
+	
+}
+
+/* end */
