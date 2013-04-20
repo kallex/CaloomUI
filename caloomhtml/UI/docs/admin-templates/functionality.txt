@@ -1,0 +1,80 @@
+input:
+
+    events
+        title
+        location
+        organizing person
+        theme
+        min-max participants
+        category
+
+    report
+        # participants
+        # female/male/child
+        age
+        duration (from until )
+
+    About myself
+        name
+        age
+        sex
+        locations
+        orgs I am part of (especially those not yet at caloom)
+
+output: any combination of the above as in
+
+    search
+    browsing
+    filtering
+
+    view this as:
+        as list
+        as map
+        as isotope/masonry
+        and combinations (reading-pane is an example)
+
+    view reports as:
+        combined reports from all Finland
+        combined reports per "piiri"
+        combined reports of any organizational level, i.e. reports from regional head, from local heads or whatever names they give to those who have a management function
+        reports from map-view (zoom level determines how many reports)
+        reports per event
+        reports per organizer
+        reports summary in a table and graphs:
+            how many male
+            how many female
+            how many children
+
+             order by
+                date
+                piiri
+                organizer
+                most male
+                most female
+                most children
+                most in total (male+female+children
+
+management:
+
+        who am I
+        what are my roles
+        what group do I belong to
+        what is my role in those groups
+
+        what did I put in (my content)
+            events
+            reports
+            photos
+            messages
+            other
+        I want to edit or remove
+        what did I search/browse + save
+        I want to edit or remove my saved searches
+        what maps do I follow
+        who follows my maps
+        how do they relate to me (network visualization on the map e.g.)
+        manage reports
+            annotate (not edit!) and remove (but not delete from system)
+            print or convert to suitable format (to be decided upon)
+            give rating (gratitude to makers)
+            combine reports?
