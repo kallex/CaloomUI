@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.NodeSummaryContainer -->
+
+
+<!-- THEBALL-CONTEXT-END:* -->
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../oip-additions/oip-assets/oip-js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="../oip-additions/oip-assets/oip-css/oip-bootstrap.css" rel="stylesheet">
+    <link href="../oip-additions/oip-assets/oip-css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+    <link rel="stylesheet" href="../oip-additions/oip-assets/oip-css/MarkerCluster.Default.css" />
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
+    <link rel="stylesheet" href="../oip-additions/oip-assets/oip-css/MarkerCluster.Default.ie.css" />
+    <![endif]-->
+
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../oip-additions/oip-assets/oip-images/icons/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="../oip-additions/oip-assets/oip-images/icons/favicon-OIP-57x57.png">
+    <link href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+    <script src="../oip-additions/oip-assets/oip-js/jquery.form.js"></script>
+
+    <link href="../oip-additions/oip-assets/oip-css/jquery-ui-timepicker-addon.css" rel="stylesheet">
+    <script src="../oip-additions/oip-assets/oip-js/jquery-ui-timepicker-addon.js"></script>
+
+    <script type="text/javascript" src="../oip-additions/oip-assets/oip-js/nicEdit.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+    <script src="../oip-additions/oip-assets/oip-js/leaflet.markercluster.js"></script>
+    <script src="../oip-additions/oip-assets/oip-js/jquery.nailthumb.1.0.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+<script src="../oip-additions/oip-assets/oip-js/dust-full-1.1.1.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/xml2json.js"></script>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="aalto-navbar" href="http://www.aalto.fi/en">Aalto.fi</a>
+            <ul>
+                <li class="dropdown aalto-navbar">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown"
+                       style="
+                    color: #716b63 !important;
+                    ">
+                        <span style="">Schools</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="taik"><a href="http://arts.aalto.fi/en/">School of Arts, Design and Architecture</a></li>
+                        <li class="hse"><a href="http://business.aalto.fi/en/">School of Business</a></li>
+                        <li class="chem"><a href="http://chem.aalto.fi/en/">School of Chemical Technology</a></li>
+                        <li class="elec"><a href="http://elec.aalto.fi/en/">School of Electrical Engineering</a></li>
+                        <li class="eng"><a href="http://eng.aalto.fi/en/">School of Engineering</a></li>
+                        <li class="sci"><a href="http://sci.aalto.fi/en/" style="border: none;">School of Science</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </php>
+        </div>
+    </div>
+</div>
+<div class="subnavbar">
+    <div class="subnavbar-inner">
+        <div class="container">
+            <ul class="mainnav aaltoLogoType">
+                <li xmlns="http://www.w3.org/1999/html">
+                    <p>
+                        <span class="aalto-mark-old aalto-a-old">A</span>
+                        <span class="aalto-mark-old">!</span>
+                    </p>
+                    <p>
+                        <span class="aalto-university-old">Aalto University</span><br>
+                        <span class="aalto-gi-old"><a href="../www-public/oip-layout-landing.phtml">Aalto Global Impact</a></span>
+                    </p>
+                    </a>
+                </li></php>
+            </ul>
+            <ul class="mainnav">
+                <li>
+                    <a href="#" class="oipmenuselector" data-locateto="#TileSection"
+                       data-filtername=".News">
+                        <i class="icon-bullhorn news"></i>
+                        <span>News</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="oipmenuselector" data-locateto="#TileSection"
+                       data-filtername=".About">
+                        <i class="icon-umbrella about"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-comments-alt activity"></i>
+                        <span>Activities</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="#" class="oipmenuselector" data-locateto="#TileSection" data-filtername=".Blogs"> <i class="icon-bullhorn"></i> Blogs</a> </li>
+                        <li> <a href="#" class="oipmenuselector" data-locateto="#TileSection" data-filtername=".Projects"> <i class="icon-time"></i> Projects</a> </li>
+                        <li> <a href="#" class="oipmenuselector" data-locateto="#TileSection" data-filtername=".Events"> <i class="icon-flag"></i> Events</a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://demooip.aaltoglobalimpact.org/about/oip-public/oip-layout-register.phtml">
+                        <i class="icon-star" style="color:#a9a9a9"></i>
+                        <span>(OIP Beta)</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="SelectedContentContainer" class="reading-pane">
+</div>
+<div class="container masonry" id="TileSection">
+    <div class="progress progress-success">
+        <div class="bar" style="float: left; width: 0%; " data-percentage="100"></div>
+    </div>
+    <script type="text/javascript">
+        setTimeout(function(){
+
+            $('.progress .bar').each(function() {
+                var me = $(this);
+                var perc = me.attr("data-percentage");
+
+                //TODO: left and right text handling
+
+                var current_perc = 0;
+
+                var progress = setInterval(function() {
+                    if (current_perc>=perc) {
+                        clearInterval(progress);
+                    } else {
+                        current_perc +=1;
+                        me.css('width', (current_perc)+'%');
+                    }
+
+                    me.text((current_perc)+'%');
+
+                }, 50);
+
+            });
+
+        },300);
+
+    </script>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $.get("../../AaltoGlobalImpact.OIP/NodeSummaryContainer/default", function (responseXml) {
+            var dom = (new DOMParser()).parseFromString(responseXml, "text/xml");
+            var json = xml2json(dom, "  ");
+            //alert(json);
+            var myObj = jQuery.parseJSON(json);
+            $.ajax({
+                url: "oip-layout-landing.itemtmpl.html",
+                //data: 'foo',
+                cache: false,
+                success: function (responseTemplate) {
+                    var helloCompiled = dust.compile(responseTemplate, "hellodemo");
+                    dust.loadSource(helloCompiled);
+                    dust.render("hellodemo", myObj, function (err, out) {
+                        $("#TileSection").html(out);
+                    });
+                }
+            });
+
+        });
+    });
+</script>
+<script>
+    $(function() {
+        $(".oipmenuselector").on("click", function() {
+            var filterName = $(this).data("filtername");
+            var navigateto = $(this).data("locateto");
+            //alert(navigateto);
+            $(document).scrollTop($(navigateto).offset().top);
+            $("a[data-filter='" + filterName + "']").trigger('click');
+            return false;
+        });
+    });
+</script>
+
+<div class="container clearfix">
+    <section class="well">
+        <!-- '../oip-containers/oip-container-contact-oip.txt' --><!-- UseInformationObjectAsRoot:AaltoGlobalImpact.OIP.ContactOipContainer  -->
+    </section>
+</div>
+<footer class="footer">
+    <div class="container"><div class="span12">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+        </div>
+        <div class="span4">
+            <ul class="aalto-footer">
+                <li >
+                    <a href="http://www.aalto.fi/en">Aalto.fi</a>
+                    <ul>
+                        <li class="taik"><a href="http://arts.aalto.fi/en/">School of Arts, Design and Architecture</a></li>
+                        <li class="hse"><a href="http://business.aalto.fi/en/">School of Business</a></li>
+                        <li class="chem"><a href="http://chem.aalto.fi/en/">School of Chemical Technology</a></li>
+                        <li class="elec"><a href="http://elec.aalto.fi/en/">School of Electrical Engineering</a></li>
+                        <li class="eng"><a href="http://eng.aalto.fi/en/">School of Engineering</a></li>
+                        <li class="sci"><a href="http://sci.aalto.fi/en/" style="border: none;">School of Science</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="span4">
+            <p>Aalto Global Impact has been formed to bring together these existing parties working in societal issues and to help them develop their activities further</p>
+        </div>
+        <div class="span3">
+            <p>The <a id="edittoggle">Open</a> Innovation Platform is offered to you by Aalto Global Impact, and Aalto University organisation</p>
+            <p>All content licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+            <p>Icons from <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- ========== Begin: www-public\..\oip-containers\../oip-modals/oip-modal-collection.txt ========== -->
+<!-- oip-modal-collection.txt -->
+
+<!-- ========== Begin: www-public\..\oip-containers\..\oip-modals\oip-modal-text-short.txt ========== -->
+<!-- oip-modal-header.txt -->
+<div class="modal hide fade well in-context-edit" id="IncontextEditDialog_Text_Short">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="InContextEditFieldID" name="InContextEditFieldID" type="hidden" value="NotSet" />
+            <input id="RootSourceAction" name="RootSourceAction" type="hidden" value="Save" />
+            <input class="span4" type="text" name="Text_Short" id="Text_Short" value="" />
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+<!-- end oip-modal-header.txt -->
+
+<!-- ========== End: www-public\..\oip-containers\..\oip-modals\oip-modal-text-short.txt ========== -->
+
+
+<!-- ========== Begin: www-public\..\oip-containers\..\oip-modals\oip-modal-text-long.txt ========== -->
+<!-- oip-modal-text-long.txt -->
+<div class="modal hide fade well" id="IncontextEditDialog_Text_Long">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="InContextEditFieldID" name="InContextEditFieldID" type="hidden" value="NotSet" />
+            <input id="RootSourceAction" name="RootSourceAction" type="hidden" value="Save" />
+            <textarea class="span5" rows="30" id="Text_Long" name="Text_Long"></textarea>
+
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
+                    <button value="true" name="btnCancel" class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" name="RootSourceAction" id="RootSourceAction" value="">Save changes</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+    <script type="text/javascript">
+        function addRichTextEditTextLong() {
+            richArea = new nicEditor({fullPanel : true, iconsPath : '../oip-additions/oip-assets/oip-js/nicEditorIcons.gif' }).panelInstance('Text_Long');
+        }
+        // Moved to actual dialog initiation script as the content weren't appearing from previous data
+        // bkLib.onDomLoaded(function() { addRichTextEditTextLong(); });
+    </script>
+</div>
+<!-- end oip-modal-text-long.txt -->
+
+<!-- ========== End: www-public\..\oip-containers\..\oip-modals\oip-modal-text-long.txt ========== -->
+
+<div class="modal hide fade well in-context-edit" id="IDAction_ConfirmRemove">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <form method="post">
+        <div class="modal-body">
+            <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
+            <input id="RootSourceAction" name="RootSourceAction" type="hidden" value="" />
+            <p name="question" id="question">Not set</p>
+            <div class="control-group controls">
+                <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color: transparent">
+                    <button value="true" name="btnCancel"  class="btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-danger" name="bDelete" id="bDelete" value="Delete">Delete</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+
+<div class="modal hide fade well" id="IDRemoteUrlModal" style="overflow-y:none;overflow:none">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">close</button>
+    </div>
+    <div id="IDRemoteUrlModalBody" style="max-height:420px;overflow-y:auto">
+        Loading content...
+    </div>
+</div>
+
+<!-- end oip-modal-collection.txt -->
+<!-- ========== End: www-public\..\oip-containers\../oip-modals/oip-modal-collection.txt ========== -->
+
+
+
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/google-code-prettify/prettify.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-transition.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-alert.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-modal.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-dropdown.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-scrollspy.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-tab.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-tooltip.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-popover.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-button.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-collapse.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-carousel.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/bootstrap-typeahead.js"></script>
+<!-- calendar -->
+<script src="../oip-additions/oip-assets/oip-js/third-party-calendar.js"></script>
+<!-- OIP specific -->
+<script src="../oip-additions/oip-assets/oip-js/in-context-editing.js"></script>
+<script src="../oip-additions/oip-assets/oip-js/modal-id-actions.js"></script>
+</body>
+</html>
+
