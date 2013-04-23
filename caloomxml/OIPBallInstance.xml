@@ -4,12 +4,44 @@
 -->
 <TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
   <InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
+    <DigitalInterface>
+      <InterfaceModel>
+        <InterfaceObject name="PublishSummary" designDesc="Publish content summary">
+          <InterfaceItems>
+            <InterfaceItem name="ActiveItem" logicalDataType="Text_Short"/>
+            <ObjectInstance name="PublishCollection" interfaceObjectName="PublishItem" isCollection="true"/>
+          </InterfaceItems>
+        </InterfaceObject>
+        <InterfaceObject name="PublishItem" designDesc="Publish content item - identifies full publication package">
+          <InterfaceItems>
+            <InterfaceItem name="Name" logicalDataType="Text_Short"/>
+          </InterfaceItems>
+        </InterfaceObject>
+      </InterfaceModel>
+    </DigitalInterface>
     <InformationModel>
       <!-- System -->
       <InformationObject name="TBSystem" designDesc="System instance information (singleton class)">
         <InformationItems>
           <InformationItem name="InstanceName" logicalDataType="Text_Short"/>
           <InformationItem name="AdminGroupID" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="WebPublishInfo" designDesc="Web publishing info">
+        <InformationItems>
+          <InformationItem name="PublishType" logicalDataType="Text_Short"/>
+          <InformationItem name="PublishContainer" logicalDataType="Text_Short"/>
+          <InformationItem name="ActivePublication" logicalDataType="InformationObject" informationObjectName="PublicationPackage" />
+          <InformationItem name="Publications" logicalDataType="InformationObject" informationObjectName="PublicationPackageCollection" />
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="PublicationPackageCollection" designDesc="Collection of publication packages">
+        <CollectionFor contentInformationObjectName="PublicationPackage" collectionType="Independent" />
+      </InformationObject>
+      <InformationObject name="PublicationPackage" designDesc="Publication package">
+        <InformationItems>
+          <InformationItem name="PackageName" logicalDataType="Text_Short"/>
+          <InformationItem name="PublicationTime" logicalDataType="Time_DateTime"/>
         </InformationItems>
       </InformationObject>
       <!-- Collaborators, Collaboration Groups, Organizations -->
@@ -304,7 +336,7 @@
           <InformationItem name="NodeSourceActivities" informationObjectName="ActivityCollection" logicalDataType="InformationObject"/>
         </InformationItems>
       </InformationObject>
-      
+
       <InformationObject name="RenderedNodeCollection" designDesc="Collection of rendered nodes">
         <CollectionFor contentInformationObjectName="RenderedNode" collectionType="Independent"/>
       </InformationObject>
@@ -322,7 +354,7 @@
           <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
         </InformationItems>
       </InformationObject>
-      
+
       <InformationObject name="ShortTextCollection" designDesc="Collection of short text objects">
         <CollectionFor collectionType="Independent" contentInformationObjectName="ShortTextObject"/>
       </InformationObject>
@@ -339,7 +371,7 @@
           <InformationItem name="Content" logicalDataType="Text_Long"/>
         </InformationItems>
       </InformationObject>
-        
+
       <InformationObject name="MapContainer" designDesc="">
         <InformationItems>
           <InformationItem name="Header" informationObjectName="ContainerHeader" logicalDataType="InformationObject" />
@@ -580,7 +612,7 @@
           <InformationItem name="ImageGroupTitle" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
-      
+
       <InformationObject name="AddEmailAddressInfo" designDesc="Add email address">
         <InformationItems>
           <InformationItem name="EmailAddress" logicalDataType="Text_Short"/>
@@ -1848,6 +1880,61 @@
           <SequentialExecution>
             <MethodExecute name="ClearImageMediaFormats" designDesc="Clear various image media formats" state="underDesign">
               <Parameter name="MasterRelativeLocation"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="UpdatePublicationInfo">
+        <OperationSpec>
+          <Description>Update publication info in the account/group container</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="Owner" dataType="TheBall.CORE.IContainerOwner" designDesc="Data owner" state="designApproved"/>
+          <Parameter name="ContainerName" dataType="string" designDesc="Container name for publication" state="designApproved" />
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="WebPublishInfo" name="PublishInfo" designDesc="Web publish info to update as 'default'. Create if missing" state="designApproved">
+              <Parameter name="Owner"/>
+              <Parameter name="ContainerName"/>
+            </TargetDefinition>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="CleanOldPublications">
+        <OperationSpec>
+          <Description>Cleans up old publications. All that are older than 2 days and not among 5 latest are cleaned up. For 5 latest later than  </Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="Owner" dataType="TheBall.CORE.IContainerOwner" designDesc="Data owner" state="designApproved"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="WebPublishInfo" name="PublishInfo" designDesc="Web publish info to update as 'default'. Create if missing" state="designApproved">
+              <Parameter name="Owner"/>
+            </TargetDefinition>
+            <MethodExecute name="ClearPublications" designDesc="Clear publications with given operation criteria" state="designApproved">
+              <Target name="PublishInfo"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="ChooseActivePublication">
+        <OperationSpec>
+          <Description>Choose active publication</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="Owner" dataType="TheBall.CORE.IContainerOwner" designDesc="Data owner" state="designApproved"/>
+          <Parameter name="PublicationName" dataType="string" designDesc="Publication name" state="designApproved" />
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="WebPublishInfo" name="PublishInfo" designDesc="Web publish info to update as 'default'. Create if missing" state="designApproved">
+              <Parameter name="Owner"/>
+            </TargetDefinition>
+            <MethodExecute name="SetActivePublicationFromName" designDesc="Set publication active to .currentactive" state="designApproved">
+              <Parameter name="PublicationName"/>
+              <Target name="PublishInfo"/>
             </MethodExecute>
           </SequentialExecution>
         </Execution>

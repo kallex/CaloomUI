@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2011 rel. 2 sp1 (http://www.altova.com) by Kalle Launiala (Citrus Solutions Oy) -->
+<!-- edited with XMLSpy v2011 rel. 3 sp1 (x64) (http://www.altova.com) by Kalle Launiala (Citrus Solutions Oy) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" id="TheBallCore_v1_0">
 	<xs:element name="TheBallCoreAbstraction" type="TheBallCoreAbstractionType"/>
 	<xs:complexType name="ClassModelAbstractionType">
@@ -106,6 +106,7 @@ Useful to NOT have in system-internal objects such as queue operations where the
 	<xs:complexType name="InstanceOfTheBallType">
 		<xs:sequence>
 			<xs:element name="CoreInfrastructure" type="CoreInfrastructureType" minOccurs="0"/>
+			<xs:element name="DigitalInterface" type="DigitalInterfaceType" minOccurs="0"/>
 			<xs:element name="InformationModel" type="InformationModelType"/>
 			<xs:element name="Operations" type="OperationsType"/>
 			<xs:element name="Subscriptions" type="SubscriptionsType"/>
@@ -539,6 +540,124 @@ DerivedFromMaster = Derived from master object collection (filter or alike)</xs:
 			<xs:element name="InformationModel" type="InformationModelType"/>
 			<xs:element name="Operations" type="OperationsType"/>
 			<xs:element name="Subscriptions" type="SubscriptionsType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ObjectInstanceType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="interfaceObjectName" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Name of the interface object.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="isCollection" type="xs:boolean" default="false">
+			<xs:annotation>
+				<xs:documentation>(Opt = false) Is this object collection.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="InterfaceItemType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="logicalDataType" use="required">
+			<xs:annotation>
+				<xs:documentation>Datatype for the information. The physical data type that is used for the storage.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="TrueOrFalse_Boolean"/>
+					<xs:enumeration value="Text_Short"/>
+					<xs:enumeration value="Text_Long"/>
+					<xs:enumeration value="Number"/>
+					<xs:enumeration value="Time_Date"/>
+					<xs:enumeration value="Time_Time"/>
+					<xs:enumeration value="Time_DateTime"/>
+					<xs:enumeration value="Data_Binary"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="isCollection" type="xs:boolean" default="false">
+			<xs:annotation>
+				<xs:documentation>(Opt = false) Is this field collection.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="InterfaceItemsType">
+		<xs:choice maxOccurs="unbounded">
+			<xs:element name="InterfaceItem" type="InterfaceItemType"/>
+			<xs:element name="ObjectInstance" type="ObjectInstanceType"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="InterfaceObjectType">
+		<xs:sequence>
+			<xs:element name="InterfaceItems" type="InterfaceItemsType"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="designDesc" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="InterfaceModelType">
+		<xs:sequence>
+			<xs:element name="InterfaceObject" type="InterfaceObjectType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DigitalInterfaceType">
+		<xs:sequence>
+			<xs:element name="InterfaceModel" type="InterfaceModelType"/>
+			<xs:element name="InterfaceViews" type="InterfaceViewsType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SubViewType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="viewName" type="xs:string" use="required"/>
+		<xs:attribute name="viewItemPath" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Path to view item from (relative) root object.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ViewFieldType">
+		<xs:attribute name="label" type="xs:string" use="required"/>
+		<xs:attribute name="fieldType" use="required">
+			<xs:annotation>
+				<xs:documentation>Html mapped field type. Generates input/read-only view.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="TextBox"/>
+					<xs:enumeration value="TextBoxMultiline"/>
+					<xs:enumeration value="TextBoxHiddenChars"/>
+					<xs:enumeration value="CheckBox"/>
+					<xs:enumeration value="DropdownList"/>
+					<xs:enumeration value="MultiselectList"/>
+					<xs:enumeration value="RadioButton"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="classNames" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Class names in list generated as-is to the result.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="viewItemPath" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Path to view item from (relative) root object.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="InterfaceViewType">
+		<xs:choice maxOccurs="unbounded">
+			<xs:element name="ViewField" type="ViewFieldType"/>
+			<xs:element name="SubView" type="SubViewType"/>
+		</xs:choice>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="rootObjectName" type="xs:string" use="required"/>
+		<xs:attribute name="autoRecurseSubViews" type="xs:boolean" use="optional" default="true">
+			<xs:annotation>
+				<xs:documentation>(Opt = true) Automatically creates the missing subviews, based on the name and objectName; and defaulting to "default" name.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="InterfaceViewsType">
+		<xs:sequence>
+			<xs:element name="InterfaceView" type="InterfaceViewType" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
 </xs:schema>
