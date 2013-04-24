@@ -106,11 +106,7 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li> <a href="../../publicsite/oip-public/oip-layout-landing.phtml"> Public Homepage</a> | <a href="../../wwwsite/www-public/oip-layout-landing.phtml"> Www</a> </li>
-                        <li> <a href="../../publicsite/oip-public/oip-layout-map.phtml"> Public Map</a> | <a href="../../wwwsite/www-public/oip-layout-map.phtml"> Www</a> </li>
-                        <li> <a href="../../publicsite/oip-public/oip-layout-blog.phtml"> Public Blog</a> | <a href="../../wwwsite/www-public/oip-layout-blog.phtml"> Www</a> </li>
-                        <li> <a href="../../publicsite/oip-public/oip-layout-about.phtml"> Public About</a> | <a href="../../wwwsite/www-public/oip-layout-about.phtml"> Www</a> </li>
-                        <li> <a href="../../publicsite/oip-public/oip-layout-activities-summary.phtml"> Public Activities</a> | <a href="../../wwwsite/www-public/oip-layout-activities-summary.phtml"> Www</a> </li>
+                        <li> <a href="../../wwwsite/www-public/oip-layout-landing.phtml"> Preview Www Homepage (if exists)</a> </li>
                         <li class="divider"></li>
                         <li> <a href="#publishtogrouppublic" data-toggle="modal">Publish to Group Public Area</a></li>
                         <li> <a href="#publishtowww" data-toggle="modal">Publish to WWW</a></li>
