@@ -18,6 +18,15 @@
           </InterfaceItems>
         </InterfaceObject>
       </InterfaceModel>
+      <InterfaceViews>
+        <InterfaceView name="PublishView" rootObjectName="PublishSummary">
+          <ViewField classNames="" fieldType="DropdownList" label="Active Publication" viewItemPath="ActiveItem"/>
+          <SubView name="PublishContent" viewName="PublishCollectionView" viewItemPath="PublishCollection"/>
+        </InterfaceView>
+        <InterfaceView name="PublishCollectionView" rootObjectName="PublishItem">
+          <ViewField classNames="" label="Name" fieldType="TextBox" viewItemPath="Name"/>
+        </InterfaceView>
+      </InterfaceViews>
     </DigitalInterface>
     <InformationModel>
       <!-- System -->
