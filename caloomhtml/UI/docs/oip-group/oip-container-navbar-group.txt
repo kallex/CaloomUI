@@ -177,7 +177,7 @@
     <form method="post">
         <div class="modal-body">
             <input id="ObjectFieldID" name="ObjectFieldID" type="hidden" value="NotSet" />
-            <p name="question" id="question">Publish the current www content to group-assigned www pages (www.aaltoglobalimpact.org)?</p>
+            <p name="question" id="question">Publish the current www content to group-assigned www pages?</p>
             <div class="control-group controls">
                 <div class="form-actions" style="padding:0;margin:0;border-top:0;background-color:transparent;">
                     <button value="true" name="btnCancel" class="btn">No</button>
