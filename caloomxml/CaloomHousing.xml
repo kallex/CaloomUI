@@ -5,7 +5,7 @@
 <TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
   <InstanceOfTheBall semanticDomainName="Caloom.Housing">
     <InformationModel>
-      <InformationObject name="Product" designDesc="Caloom core product">
+      <InformationObject name="House" designDesc="House">
         <InformationItems>
           <InformationItem name="ImageBaseUrl" logicalDataType="Text_Short" />
           <InformationItem name="Title" logicalDataType="Text_Short" />
@@ -15,20 +15,15 @@
       </InformationObject>
     </InformationModel>
     <Operations>
-      <Operation name="CreateProduct">
+      <Operation name="CreateHouse">
         <OperationSpec>
-          <Description>Create product</Description>
+          <Description>Create house</Description>
         </OperationSpec>
-        <Parameters>
-          <Parameter name="Title" dataType="string" designDesc="Product title to be created" state="designApproved"/>
-        </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="Product" name="ProductRoot" designDesc="Created product with given title" state="designApproved">
-              <Parameter name="Title"/>
-            </TargetDefinition>
+            <TargetDefinition dataType="House" name="HouseRoot" designDesc="Created house" state="designApproved" />
             <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
-              <Target name="ProductRoot"/>
+              <Target name="HouseRoot"/>
             </MethodExecute>
           </SequentialExecution>
         </Execution>

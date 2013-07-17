@@ -21,20 +21,15 @@
 
     </InformationModel>
     <Operations>
-      <Operation name="CreateProduct">
+      <Operation name="CreateTrainingModule">
         <OperationSpec>
-          <Description>Create product</Description>
+          <Description>Create training module</Description>
         </OperationSpec>
-        <Parameters>
-          <Parameter name="Title" dataType="string" designDesc="Product title to be created" state="designApproved"/>
-        </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="Product" name="ProductRoot" designDesc="Created product with given title" state="designApproved">
-              <Parameter name="Title"/>
-            </TargetDefinition>
+            <TargetDefinition dataType="TrainingModule" name="TrainingModuleRoot" designDesc="Created TrainingModule" state="designApproved" />
             <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
-              <Target name="ProductRoot"/>
+              <Target name="TrainingModuleRoot"/>
             </MethodExecute>
           </SequentialExecution>
         </Execution>
