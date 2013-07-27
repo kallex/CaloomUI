@@ -956,10 +956,10 @@
         <InformationItems>
           <InformationItem name="ReferenceToInformation" logicalDataType="InformationObject" informationObjectName="ReferenceToInformation" />
           <InformationItem name="CategoryName" logicalDataType="Text_Short" />
-          <InformationItem name="Image" logicalDataType="InformationObject" informationObjectName="Image"/>
+          <InformationItem name="ImageData" logicalDataType="InformationObject" informationObjectName="MediaContent"/>
           <InformationItem name="Title" logicalDataType="Text_Short" />
           <InformationItem name="Excerpt" logicalDataType="Text_Long" />
-          <InformationItem name="ParentCategories" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
+          <InformationItem name="ParentCategory" logicalDataType="InformationObject" informationObjectName="Category"/>
         </InformationItems>
       </InformationObject>
       <InformationObject name="CategoryCollection" designDesc="Collection of categories">
