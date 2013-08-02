@@ -212,6 +212,7 @@
       </InformationObject>
     </InformationModel>
     <Operations>
+<!--
       <Operation name="CreateInvoiceForGroup">
         <OperationSpec>
           <Description>Create invoice for group</Description>
@@ -224,6 +225,87 @@
             <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root" state="designApproved">
               <Parameter name="GroupID"/>
             </TargetDefinition>
+          </SequentialExecution>
+        </Execution>
+      </Operation>-->
+      <Operation name="CreateSpecifiedInformationObjectWithValues">
+        <OperationSpec>
+          <Description>Creates information object, sets it values and stores it</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter dataType="IContainerOwner" name="Owner" designDesc="Object owner" state="designApproved"/>
+          <Parameter dataType="string" name="ObjectDomainName" designDesc="Object domain" state="designApproved"/>
+          <Parameter dataType="string" name="ObjectName" designDesc="Object name" state="designApproved"/>
+          <Parameter dataType="NameValueCollection" name="HttpFormData" designDesc="Http POST data. Unprocessed and unfiltered." state="designApproved"/>
+          <Parameter dataType="System.Web.HttpFileCollection" name="HttpFileData" designDesc="Http File data" state="designApproved"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="IInformationObject" name="CreatedObject" designDesc="Object that is created" state="designApproved">
+              <Parameter name="Owner"/>
+              <Parameter name="ObjectDomainName"/>
+              <Parameter name="ObjectName"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="NameValueCollection" name="FieldValues" designDesc="Filtered field value collection. Filter by non-prefix, add ID to keys." state="designApproved">
+              <Parameter name="HttpFormData"/>
+              <Target name="CreatedObject"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="NameValueCollection" name="ObjectLinkValues" designDesc="Filtered object link value collection. Filter by Object_ prefix, add ID to keys." state="designApproved">
+              <Parameter name="HttpFormData"/>
+              <Target name="CreatedObject"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="Dictionary&lt;string, System.Web.HttpPostedFile&gt;" name="BinaryContentFiles" designDesc="Filtered binary content value collection. Filter by File_ prefix, add ID to keys." state="designApproved">
+              <Parameter name="HttpFormData"/>
+              <Parameter name="HttpFileData"/>
+              <Target name="CreatedObject"/>
+            </TargetDefinition>
+            <MethodExecute name="SetFieldValues" designDesc="Set field values of created object." state="designApproved">
+              <Target name="CreatedObject"/>
+              <Target name="FieldValues"/>
+            </MethodExecute>
+            <MethodExecute name="SetObjectLinks" designDesc="Set object links of created object." state="designApproved">
+              <Target name="CreatedObject"/>
+              <Target name="ObjectLinkValues"/>
+            </MethodExecute>
+            <MethodExecute name="StoreInitialObject" designDesc="Stores the created object first time - with set values." state="designApproved">
+              <Parameter name="Owner"/>
+              <Target name="CreatedObject"/>
+            </MethodExecute>
+            <MethodExecute name="SetBinaryContent" designDesc="Sets binary content of created object." state="designApproved">
+              <Parameter name="Owner"/>
+              <Target name="CreatedObject"/>
+              <Target name="BinaryContentFiles"/>
+            </MethodExecute>
+            <MethodExecute name="StoreCompleteObject" designDesc="Stores the created object - with all set values." state="designApproved">
+              <Parameter name="Owner"/>
+              <Target name="CreatedObject"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="DeleteSpecifiedInformationObject">
+        <OperationSpec>
+          <Description>
+
+          </Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter dataType="IContainerOwner" name="Owner" designDesc="Object owner" state="designApproved"/>
+          <Parameter dataType="string" name="ObjectDomainName" designDesc="Object domain" state="designApproved"/>
+          <Parameter dataType="string" name="ObjectName" designDesc="Object name" state="designApproved"/>
+          <Parameter dataType="string" name="ObjectID" designDesc="Object unique ID" state="designApproved"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="IInformationObject" name="ObjectToDelete" designDesc="Object that is created" state="designApproved">
+              <Parameter name="Owner"/>
+              <Parameter name="ObjectDomainName"/>
+              <Parameter name="ObjectName"/>
+              <Parameter name="ObjectID"/>
+            </TargetDefinition>
+            <MethodExecute name="DeleteObject" designDesc="Delete the object." state="designApproved">
+              <Target name="ObjectToDelete"/>
+            </MethodExecute>
           </SequentialExecution>
         </Execution>
       </Operation>
