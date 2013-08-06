@@ -682,6 +682,23 @@
         </InformationItems>
       </InformationObject>
 
+      <InformationObject name="TextContentCollection" designDesc="Collection of text contents">
+        <CollectionFor contentInformationObjectName="TextContent" collectionType="Master" />
+      </InformationObject>
+      <InformationObject name="TextContent" designDesc="Text content" isIndependentMaster="true">
+        <InformationItems>
+          <InformationItem name="ImageData" logicalDataType="InformationObject" informationObjectName="MediaContent"/>
+          <InformationItem name="Title" logicalDataType="Text_Short" />
+          <InformationItem name="SubTitle" logicalDataType="Text_Short" />
+          <InformationItem name="Author" logicalDataType="Text_Short" />
+          <InformationItem name="Excerpt" logicalDataType="Text_Long" />
+          <InformationItem name="Body" logicalDataType="Text_Long" />
+          <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="AddressAndLocationCollection"/>
+          <InformationItem name="Categories" logicalDataType="InformationObject" informationObjectName="CategoryCollection"/>
+          <InformationItem name="SortOrderNumber" logicalDataType="Number_ApproxDecimal"/>
+        </InformationItems>
+      </InformationObject>
+
       <InformationObject name="BlogCollection" designDesc="Collection of blogs">
         <CollectionFor contentInformationObjectName="Blog" collectionType="Master" />
       </InformationObject>
