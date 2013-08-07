@@ -343,6 +343,7 @@
           <InformationItem name="Nodes" logicalDataType="InformationObject" informationObjectName="RenderedNodeCollection"/>
           <InformationItem name="NodeSourceBlogs" informationObjectName="BlogCollection" logicalDataType="InformationObject"/>
           <InformationItem name="NodeSourceActivities" informationObjectName="ActivityCollection" logicalDataType="InformationObject"/>
+          <InformationItem name="NodeSourceTextContent" informationObjectName="TextContentCollection" logicalDataType="InformationObject"/>
         </InformationItems>
       </InformationObject>
 
