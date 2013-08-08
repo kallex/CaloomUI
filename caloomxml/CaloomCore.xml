@@ -155,7 +155,7 @@
           </SequentialExecution>
         </Execution>
         <OperationReturnValues>
-          <ReturnValue name="ProductID" dataType="string" designDesc="Product id of created product" state="designApproved" />
+          <ReturnValue name="UpdatedProductID" dataType="string" designDesc="Product id of created product" state="designApproved" />
         </OperationReturnValues>
       </Operation>
       <Operation name="SetSubProductUsage">
