@@ -337,13 +337,14 @@
           <InformationItem name="RecentBlogCollection" informationObjectName="BlogCollection" logicalDataType="InformationObject" />
         </InformationItems>
       </InformationObject>
-
+      
       <InformationObject name="NodeSummaryContainer" designDesc="Node (=tile) container of everything summarized">
         <InformationItems>
           <InformationItem name="Nodes" logicalDataType="InformationObject" informationObjectName="RenderedNodeCollection"/>
           <InformationItem name="NodeSourceBlogs" informationObjectName="BlogCollection" logicalDataType="InformationObject"/>
           <InformationItem name="NodeSourceActivities" informationObjectName="ActivityCollection" logicalDataType="InformationObject"/>
           <InformationItem name="NodeSourceTextContent" informationObjectName="TextContentCollection" logicalDataType="InformationObject"/>
+          <InformationItem name="NodeSourceCategories" informationObjectName="CategoryCollection" logicalDataType="InformationObject"/>
         </InformationItems>
       </InformationObject>
 
@@ -359,6 +360,9 @@
           <InformationItem name="Excerpt" logicalDataType="Text_Long" />
           <InformationItem name="TimestampText" logicalDataType="Text_Short"/>
           <InformationItem name="MainSortableText" logicalDataType="Text_Short"/>
+          <InformationItem name="IsCategoryFilteringNode" logicalDataType="TrueOrFalse_Boolean"/>
+          <InformationItem name="CategoryFilters" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
+          <InformationItem name="CategoryNames" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
           <InformationItem name="Categories" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
           <InformationItem name="Authors" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
           <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
