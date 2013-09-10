@@ -139,6 +139,7 @@
           <InformationItem name="ValidUntil" logicalDataType="Time_DateTime" />
           <InformationItem name="GroupJoinConfirmation" logicalDataType="InformationObject" informationObjectName="TBGroupJoinConfirmation"/>
           <InformationItem name="DeviceJoinConfirmation" logicalDataType="InformationObject" informationObjectName="TBDeviceJoinConfirmation" />
+          <InformationItem name="InformationInputConfirmation" logicalDataType="InformationObject" informationObjectName="TBInformationInputConfirmation" />
         </InformationItems>
       </InformationObject>
       <InformationObject name="TBGroupJoinConfirmation" designDesc="Group joining confirmation through email">
@@ -154,6 +155,13 @@
           <InformationItem name="GroupID" logicalDataType="Text_Short"/>
           <InformationItem name="AccountID" logicalDataType="Text_Short" />
           <InformationItem name="DeviceMembershipID" logicalDataType="Text_Short"/>
+        </InformationItems>
+      </InformationObject>
+      <InformationObject name="TBInformationInputConfirmation" designDesc="Information input confirmation through email">
+        <InformationItems>
+          <InformationItem name="GroupID" logicalDataType="Text_Short"/>
+          <InformationItem name="AccountID" logicalDataType="Text_Short" />
+          <InformationItem name="InformationInputID" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
       <InformationObject name="TBRegisterContainer" designDesc="Registration container (dynamically filled - not stored at any stage) - not postback support needed either">
