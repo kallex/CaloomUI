@@ -562,6 +562,80 @@
         </Execution>
       </Operation>
     
+      <Operation name="FetchInputInformation">
+        <OperationSpec>
+          <Description>
+            Fetch input information from given source
+          </Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter dataType="IContainerOwner" name="Owner" designDesc="Security context owner" state="implemented"/>
+          <Parameter dataType="string" name="InformationInputID" designDesc="ID of information input" state="implemented"/>
+          <Parameter dataType="string" name="QueryParameters" designDesc="URL query parameters" state="implemented"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="InformationInput" name="InformationInput" designDesc="Information input to fetch the data for" state="implemented">
+              <Parameter name="Owner"/>
+              <Parameter name="InformationInputID"/>
+            </TargetDefinition>
+            <MethodExecute name="VerifyValidInput" designDesc="Verify that input is valid and active" state="implemented">
+              <Target name="InformationInput"/>
+            </MethodExecute>
+            <TargetDefinition dataType="string" name="InputFetchLocation" designDesc="Location to fetch the input into" state="implemented">
+              <Target name="InformationInput"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="string" name="InputFetchName" designDesc="Name of item to store the fetched input" state="implemented">
+              <Target name="InformationInput"/>
+            </TargetDefinition>
+            <MethodExecute name="FetchInputToStorage" designDesc="Fetch input to storage" state="implemented">
+              <Parameter name="QueryParameters"/>
+              <Target name="InformationInput"/>
+              <Target name="InputFetchLocation"/>
+              <Target name="InputFetchName"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="ProcessFetchedInputs">
+        <OperationSpec>
+          <Description>
+            Process fetched inputs
+          </Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter dataType="IContainerOwner" name="Owner" designDesc="Security context owner" state="implemented"/>
+          <Parameter dataType="string" name="InformationInputID" designDesc="ID of information input" state="implemented"/>
+          <Parameter dataType="string" name="ProcessingOperationName" designDesc="Processing operation name" state="implemented"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="InformationInput" name="InformationInput" designDesc="Information input to fetch the data for" state="implemented">
+              <Parameter name="Owner"/>
+              <Parameter name="InformationInputID"/>
+            </TargetDefinition>
+            <MethodExecute name="VerifyValidInput" designDesc="Verify that input is valid and active" state="implemented">
+              <Target name="InformationInput"/>
+            </MethodExecute>
+            <TargetDefinition dataType="string" name="InputFetchLocation" designDesc="Location to fetch the input into" state="implemented">
+              <Target name="InformationInput"/>
+            </TargetDefinition>
+            <MethodExecute name="ProcessInputFromStorage" designDesc="Process input from storage" state="implemented">
+              <Parameter name="ProcessingOperationName"/>
+              <Target name="InformationInput"/>
+              <Target name="InputFetchLocation"/>
+              <ReturnValue dataType="IInformationObject[]" name="ProcessingResultsToStore" designDesc="Information objects to store as result of processing" state="implemented"/>
+              <ReturnValue dataType="IInformationObject[]" name="ProcessingResultsToDelete" designDesc="Information objects to delete as result of processing" state="implemented"/>
+            </MethodExecute>
+            <MethodExecute name="StoreObjects" designDesc="Store processed objects" state="implemented">
+              <Target name="ProcessInputFromStorageOutput.ProcessingResultsToStore"/>
+            </MethodExecute>
+            <MethodExecute name="DeleteObjects" designDesc="Delete obsolete processed objects" state="implemented">
+              <Target name="ProcessInputFromStorageOutput.ProcessingResultsToDelete"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
     </Operations>
     <!--
     <Subscriptions>
