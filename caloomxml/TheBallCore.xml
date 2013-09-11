@@ -589,6 +589,7 @@
               <Target name="InformationInput"/>
             </TargetDefinition>
             <MethodExecute name="FetchInputToStorage" designDesc="Fetch input to storage" state="implemented">
+              <Parameter name="Owner"/>
               <Parameter name="QueryParameters"/>
               <Target name="InformationInput"/>
               <Target name="InputFetchLocation"/>
