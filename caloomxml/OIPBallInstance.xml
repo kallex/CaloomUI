@@ -140,6 +140,7 @@
           <InformationItem name="GroupJoinConfirmation" logicalDataType="InformationObject" informationObjectName="TBGroupJoinConfirmation"/>
           <InformationItem name="DeviceJoinConfirmation" logicalDataType="InformationObject" informationObjectName="TBDeviceJoinConfirmation" />
           <InformationItem name="InformationInputConfirmation" logicalDataType="InformationObject" informationObjectName="TBInformationInputConfirmation" />
+          <InformationItem name="RedirectUrlAfterValidation" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
       <InformationObject name="TBGroupJoinConfirmation" designDesc="Group joining confirmation through email">
