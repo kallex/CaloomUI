@@ -656,6 +656,7 @@
             <TargetDefinition name="EmailValidation" dataType="AaltoGlobalImpact.OIP.TBEmailValidation" designDesc="Email validation object prepared ready to stored and to be sent" state="implemented">
               <Parameter name="AccountID"/>
               <Parameter name="EmailAddress"/>
+              <Parameter name="RedirectUrlAfterValidation"/>
             </TargetDefinition>
             <MethodExecute name="StoreObject" designDesc="Store processed objects" state="implemented">
               <Target name="EmailValidation"/>
@@ -666,6 +667,33 @@
            </SequentialExecution>
         </Execution>
       </Operation>
+    <Operation name="UnregisterEmailAddress">
+        <OperationSpec>
+          <Description>
+            Begins account email address registration. Registration needs to be confimed by clicking the email validation link that is sent to email to be registered.
+          </Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="AccountID" dataType="string" designDesc="AccountID whose email is to be registered" state="implemented"/>
+          <Parameter name="EmailAddress" dataType="string" designDesc="Email address to add to account" state="implemented"/>
+        </Parameters>
+      <Execution>
+        <SequentialExecution>
+          <TargetDefinition name="AccountContainerBeforeGroupRemoval" dataType="AaltoGlobalImpact.OIP.AccountContainer" designDesc="AccountContainer of account" state="designApproved">
+            <Parameter name="AccountID"/>
+          </TargetDefinition>
+          <TargetDefinition name="EmailAddressID" dataType="string" designDesc="Email Address ID within AccountContainer" state="designApproved">
+            <Parameter name="EmailAddress"/>
+            <Target name="AccountContainerBeforeGroupRemoval"/>
+          </TargetDefinition>
+          <MethodExecute name="ExecuteUnlinkEmailAddress" designDesc="Perform unlink" state="designApproved">
+            <Parameter name="AccountID"/>
+            <Target name="AccountContainerBeforeGroupRemoval"/>
+            <Target name="EmailAddressID"/>
+          </MethodExecute>
+        </SequentialExecution>
+      </Execution>
+    </Operation>
     </Operations>
     <!--
     <Subscriptions>
