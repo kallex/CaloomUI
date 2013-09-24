@@ -715,6 +715,10 @@
               <Parameter name="TemplateNameList"/>
               <Target name="ExecuteCreateGroupOutput"/>
             </MethodExecute>
+          <MethodExecute name="RedirectToGivenUrl" designDesc="Redirect to url if given" state="implemented">
+            <Parameter name="RedirectUrlAfterCreation"/>
+            <Target name="ExecuteCreateGroupOutput"/>
+          </MethodExecute>
           </SequentialExecution>
         </Execution>
       </Operation>
