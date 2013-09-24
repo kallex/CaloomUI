@@ -1265,32 +1265,35 @@
           <Description>Create group</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="GroupName" dataType="string" designDesc="Group name to be created" state="designApproved"/>
-          <Parameter name="AccountID" dataType="string" designDesc="Account ID of initiator" state="designApproved"/>
+          <Parameter name="GroupName" dataType="string" designDesc="Group name to be created" state="implemented"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID of initiator" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Created group with given name" state="designApproved">
+            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Created group with given name" state="implemented">
               <Parameter name="GroupName"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of initiator" state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of initiator" state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBEmail[]" name="AccountEmails" designDesc="Account emails" state="designApproved">
+            <TargetDefinition dataType="TBEmail[]" name="AccountEmails" designDesc="Account emails" state="implemented">
               <Target name="AccountRoot"/>
             </TargetDefinition>
-            <MethodExecute name="AddAsInitiatorToGroupRoot" designDesc="Add as initiator group root for every email address" state="designApproved">
+            <MethodExecute name="VerifyAccountEmails" designDesc="Verify that account has at least one valid email" state="implemented">
+              <Target name="AccountEmails"/>
+            </MethodExecute>
+            <MethodExecute name="AddAsInitiatorToGroupRoot" designDesc="Add as initiator group root for every email address" state="implemented">
               <Target name="GroupRoot"/>
               <Target name="AccountEmails"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="GroupRoot"/>
             </MethodExecute>
-            <MethodExecute name="InitializeGroupContentAndMasters" designDesc="Initialize group content with templates, initialize subscriptions." state="designApproved">
+            <MethodExecute name="InitializeGroupContentAndMasters" designDesc="Initialize group content with templates, initialize subscriptions." state="implemented">
               <Target name="GroupRoot"/>
             </MethodExecute>
             <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
-                  state="designApproved">
+                  state="implemented">
               <Parameter name="AccountID"/>
               <Target name="GroupRoot"/>
             </OperationExecute>
