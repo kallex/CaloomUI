@@ -723,6 +723,9 @@
               <Parameter name="GroupDefaultRedirect"/>
               <Target name="GroupAsOwner"/>
             </OperationExecute>
+            <MethodExecute name="InitializeGroupWithDefaultObjects" designDesc="Initialize group with default objects (hardcoded for now)" state="implemented">
+              <Target name="GroupAsOwner"/>
+            </MethodExecute>
             <MethodExecute name="RedirectToGivenUrl" designDesc="Redirect to url if given" state="implemented">
               <Parameter name="RedirectUrlAfterCreation"/>
               <Target name="ExecuteCreateGroupOutput"/>
