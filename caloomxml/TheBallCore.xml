@@ -702,7 +702,8 @@
           <Parameter name="GroupName" dataType="string" designDesc="Group name to be created" state="implemented"/>
           <Parameter name="AccountID" dataType="string" designDesc="Account ID of initiator" state="implemented"/>
           <Parameter name="TemplateNameList" dataType="string" designDesc="Comma separated list of templates to initialize group at creation" state="implemented"/>
-          <Parameter name="RedirectUrlAfterCreation" dataType="string" designDesc="Redirect url after group creation" state="implemented"/>
+          <Parameter name="GroupDefaultRedirect" dataType="string" designDesc="Group default redirect location (optional)" state="implemented"/>
+          <Parameter name="RedirectUrlAfterCreation" dataType="string" designDesc="Redirect url after group creation (optional)" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
@@ -715,12 +716,38 @@
               <Parameter name="TemplateNameList"/>
               <Target name="ExecuteCreateGroupOutput"/>
             </MethodExecute>
-          <MethodExecute name="RedirectToGivenUrl" designDesc="Redirect to url if given" state="implemented">
-            <Parameter name="RedirectUrlAfterCreation"/>
-            <Target name="ExecuteCreateGroupOutput"/>
-          </MethodExecute>
+            <TargetDefinition name="GroupAsOwner" dataType="IContainerOwner" designDesc="Group as container owner" state="implemented">
+              <Target name="ExecuteCreateGroupOutput"/>
+            </TargetDefinition>
+            <OperationExecute name="SetDefaultRedirect" targetOperationName="SetOwnerWebRedirect" designDesc="Sets groups default redirect if given" state="implemented">
+              <Parameter name="GroupDefaultRedirect"/>
+              <Target name="GroupAsOwner"/>
+            </OperationExecute>
+            <MethodExecute name="RedirectToGivenUrl" designDesc="Redirect to url if given" state="implemented">
+              <Parameter name="RedirectUrlAfterCreation"/>
+              <Target name="ExecuteCreateGroupOutput"/>
+            </MethodExecute>
           </SequentialExecution>
         </Execution>
+      </Operation>
+      <Operation name="SetOwnerWebRedirect">
+        <OperationSpec>
+          <Description>
+            Sets owner web redirect. Stores a text file in owner folder with redirector-specific name. Might support parameters and multiple files later on.
+          </Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="Owner" dataType="IContainerOwner" designDesc="Owner whose redirection is to be set" state="implemented"/>
+          <Parameter name="RedirectPath" dataType="string" designDesc="Redirect path, if null or empty, the redirection is to be removed." state="implemented"/>
+        </Parameters>
+      <Execution>
+        <SequentialExecution>
+          <MethodExecute name="SetRedirection" designDesc="Sets the redirection file for owner." state="implemented">
+            <Parameter name="Owner"/>
+            <Parameter name="RedirectPath"/>
+          </MethodExecute>
+        </SequentialExecution>
+      </Execution>
       </Operation>
     </Operations>
     <!--
