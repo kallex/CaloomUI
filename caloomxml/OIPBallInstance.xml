@@ -1289,7 +1289,7 @@
             <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="GroupRoot"/>
             </MethodExecute>
-            <MethodExecute name="InitializeGroupContentAndMasters" designDesc="Initialize group content with templates, initialize subscriptions." state="implemented">
+            <MethodExecute name="InitializeGroupContentAndMasters" designDesc="Initialize group core content (with no templates), initialize subscriptions." state="implemented">
               <Target name="GroupRoot"/>
             </MethodExecute>
             <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
@@ -1299,6 +1299,10 @@
             </OperationExecute>
           </SequentialExecution>
         </Execution>
+        <OperationReturnValues>
+          <ReturnValue name="GroupID" dataType="string" designDesc="GroupID of created group" state="implemented" />
+          <Target name="GroupRoot"/>
+        </OperationReturnValues>
       </Operation>
       <Operation name="InviteMemberToGroup">
         <OperationSpec>

@@ -667,33 +667,57 @@
            </SequentialExecution>
         </Execution>
       </Operation>
-    <Operation name="UnregisterEmailAddress">
+      <Operation name="UnregisterEmailAddress">
+          <OperationSpec>
+            <Description>
+              Begins account email address registration. Registration needs to be confimed by clicking the email validation link that is sent to email to be registered.
+            </Description>
+          </OperationSpec>
+          <Parameters>
+            <Parameter name="AccountID" dataType="string" designDesc="AccountID whose email is to be registered" state="implemented"/>
+            <Parameter name="EmailAddress" dataType="string" designDesc="Email address to add to account" state="implemented"/>
+          </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition name="AccountContainerBeforeGroupRemoval" dataType="AaltoGlobalImpact.OIP.AccountContainer" designDesc="AccountContainer of account" state="designApproved">
+              <Parameter name="AccountID"/>
+            </TargetDefinition>
+            <TargetDefinition name="EmailAddressID" dataType="string" designDesc="Email Address ID within AccountContainer" state="designApproved">
+              <Parameter name="EmailAddress"/>
+              <Target name="AccountContainerBeforeGroupRemoval"/>
+            </TargetDefinition>
+            <MethodExecute name="ExecuteUnlinkEmailAddress" designDesc="Perform unlink" state="designApproved">
+              <Parameter name="AccountID"/>
+              <Target name="AccountContainerBeforeGroupRemoval"/>
+              <Target name="EmailAddressID"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="CreateGroupWithTemplates">
         <OperationSpec>
-          <Description>
-            Begins account email address registration. Registration needs to be confimed by clicking the email validation link that is sent to email to be registered.
-          </Description>
+          <Description>Create group with templates</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="AccountID" dataType="string" designDesc="AccountID whose email is to be registered" state="implemented"/>
-          <Parameter name="EmailAddress" dataType="string" designDesc="Email address to add to account" state="implemented"/>
+          <Parameter name="GroupName" dataType="string" designDesc="Group name to be created" state="implemented"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID of initiator" state="implemented"/>
+          <Parameter name="TemplateNameList" dataType="string" designDesc="Comma separated list of templates to initialize group at creation" state="implemented"/>
+          <Parameter name="RedirectUrlAfterCreation" dataType="string" designDesc="Redirect url after group creation" state="implemented"/>
         </Parameters>
-      <Execution>
-        <SequentialExecution>
-          <TargetDefinition name="AccountContainerBeforeGroupRemoval" dataType="AaltoGlobalImpact.OIP.AccountContainer" designDesc="AccountContainer of account" state="designApproved">
-            <Parameter name="AccountID"/>
-          </TargetDefinition>
-          <TargetDefinition name="EmailAddressID" dataType="string" designDesc="Email Address ID within AccountContainer" state="designApproved">
-            <Parameter name="EmailAddress"/>
-            <Target name="AccountContainerBeforeGroupRemoval"/>
-          </TargetDefinition>
-          <MethodExecute name="ExecuteUnlinkEmailAddress" designDesc="Perform unlink" state="designApproved">
-            <Parameter name="AccountID"/>
-            <Target name="AccountContainerBeforeGroupRemoval"/>
-            <Target name="EmailAddressID"/>
-          </MethodExecute>
-        </SequentialExecution>
-      </Execution>
-    </Operation>
+        <Execution>
+          <SequentialExecution>
+            <MethodExecute name="ExecuteCreateGroup" designDesc="Perform group creation" state="implemented">
+              <Parameter name="GroupName"/>
+              <Parameter name="AccountID"/>
+              <ReturnValue dataType="string" name="GroupID" designDesc="GroupID of created group" state="implemented"/>
+            </MethodExecute>
+            <MethodExecute name="CopyGroupTemplates" designDesc="Copy group templates" state="implemented">
+              <Parameter name="TemplateNameList"/>
+              <Target name="ExecuteCreateGroupOutput"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
     </Operations>
     <!--
     <Subscriptions>
