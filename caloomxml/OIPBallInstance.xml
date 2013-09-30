@@ -6,6 +6,13 @@
   <InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
     <DigitalInterface>
       <InterfaceModel>
+        <InterfaceObject name="ParentToChildren" designDesc="Parent to children collection data structures">
+          <InterfaceItems>
+            <InterfaceItem name="id" logicalDataType="Text_Short"/>
+            <ObjectInstance name="children" interfaceObjectName="ParentToChildren" isCollection="true"/>
+          </InterfaceItems>
+        </InterfaceObject>
+        <!--
         <InterfaceObject name="PublishSummary" designDesc="Publish content summary">
           <InterfaceItems>
             <InterfaceItem name="ActiveItem" logicalDataType="Text_Short"/>
@@ -17,8 +24,10 @@
             <InterfaceItem name="Name" logicalDataType="Text_Short"/>
           </InterfaceItems>
         </InterfaceObject>
+        -->
       </InterfaceModel>
       <InterfaceViews>
+        <!--
         <InterfaceView name="PublishView" rootObjectName="PublishSummary">
           <ViewField classNames="" fieldType="DropdownList" label="Active Publication" viewItemPath="ActiveItem"/>
           <SubView name="PublishContent" viewName="PublishCollectionView" viewItemPath="PublishCollection"/>
@@ -26,6 +35,7 @@
         <InterfaceView name="PublishCollectionView" rootObjectName="PublishItem">
           <ViewField classNames="" label="Name" fieldType="TextBox" viewItemPath="Name"/>
         </InterfaceView>
+        -->
       </InterfaceViews>
     </DigitalInterface>
     <InformationModel>
@@ -999,6 +1009,7 @@
           <InformationItem name="Title" logicalDataType="Text_Short" />
           <InformationItem name="Excerpt" logicalDataType="Text_Long" />
           <InformationItem name="ParentCategory" logicalDataType="InformationObject" informationObjectName="Category"/>
+          <InformationItem name="ParentCategoryID" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
       <InformationObject name="CategoryCollection" designDesc="Collection of categories">
