@@ -2009,6 +2009,21 @@
           </SequentialExecution>
         </Execution>
       </Operation>
+      <Operation name="SetCategoryHierarchy">
+        <OperationSpec>
+          <Description>
+            Sets category hierarchy from request content JSON
+          </Description>
+        </OperationSpec>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="ParentToChildren[]" name="Hierarchy" designDesc="Hierarchy structure deserialized from JSON" state="implemented" />
+            <MethodExecute name="SetParentCategories" designDesc="Set parent categories, retry execution for http-async failures" state="implemented">
+              <Target name="Hierarchy"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
     </Operations>
     <Subscriptions>
       <Subscription triggeredOperationName="UpdatePageContent">
