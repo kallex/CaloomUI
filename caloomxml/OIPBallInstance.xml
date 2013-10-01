@@ -2009,7 +2009,7 @@
           </SequentialExecution>
         </Execution>
       </Operation>
-      <Operation name="SetCategoryHierarchy">
+      <Operation name="SetCategoryHierarchyAndOrderInNodeSummary">
         <OperationSpec>
           <Description>
             Sets category hierarchy from request content JSON
@@ -2020,6 +2020,14 @@
             <TargetDefinition dataType="ParentToChildren[]" name="Hierarchy" designDesc="Hierarchy structure deserialized from JSON" state="implemented" />
             <MethodExecute name="SetParentCategories" designDesc="Set parent categories, retry execution for http-async failures" state="implemented">
               <Target name="Hierarchy"/>
+            </MethodExecute>
+            <TargetDefinition dataType="NodeSummaryContainer" name="NodeSummaryContainer" designDesc="NodeSummaryContainer" state="implemented" />
+            <MethodExecute name="SetCategoryOrder" designDesc="Set order of categories in web content summary" state="implemented">
+              <Target name="Hierarchy"/>
+              <Target name="NodeSummaryContainer" />
+            </MethodExecute>
+            <MethodExecute name="StoreObject" designDesc="Store modified objects" state="implemented">
+              <Target name="NodeSummaryContainer"/>
             </MethodExecute>
           </SequentialExecution>
         </Execution>
