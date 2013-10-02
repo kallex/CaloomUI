@@ -391,6 +391,7 @@
           <InformationItem name="CategoryFilters" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
           <InformationItem name="CategoryNames" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
           <InformationItem name="Categories" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
+          <InformationItem name="CategoryIDList" logicalDataType="Text_Short"/>
           <InformationItem name="Authors" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
           <InformationItem name="Locations" logicalDataType="InformationObject" informationObjectName="ShortTextCollection"/>
         </InformationItems>
