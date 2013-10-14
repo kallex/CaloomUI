@@ -1650,6 +1650,29 @@
           </SequentialExecution>
         </Execution>
       </Operation>
+      <Operation name="UpdateGroupInformationChangeToMembers">
+        <OperationSpec>
+          <Description>Refresh group (profile) information change to its members group information summaries</Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID" state="implemented"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="GroupContainer" name="GroupContainer" designDesc="Group container of given group ID" state="implemented">
+              <Parameter name="GroupID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="string[]" name="AccountIDs" designDesc="AccountIDs of group memberships" state="implemented">
+              <Target name="GroupContainer" />
+            </TargetDefinition>
+            <MethodExecute name="UpdateAccountGroupSummaryContainers" designDesc="Update account summary containers with few retries on error" state="implemented">
+              <Parameter name="GroupID"/>
+              <Target name="GroupContainer"/>
+              <Target name="AccountIDs"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
       <Operation name="RefreshAccountGroupMemberships">
         <OperationSpec>
           <Description>Refresh account group memberships in logins, group and account containers</Description>
