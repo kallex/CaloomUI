@@ -272,7 +272,11 @@
               <Parameter name="ObjectDomainName"/>
               <Parameter name="ObjectName"/>
             </TargetDefinition>
-            <TargetDefinition dataType="NameValueCollection" name="FieldValues" designDesc="Filtered field value collection. Filter by non-prefix, add ID to keys." state="designApproved">
+            <MethodExecute name="CreateInternalObjects" designDesc="Create internal objects, whose values will be set after creation." state="implemented">
+              <Parameter name="HttpFormData"/>
+              <Target name="CreatedObject"/>
+            </MethodExecute>
+            <TargetDefinition dataType="NameValueCollection" name="FieldValues" designDesc="Filtered field value collection. Filter by non-prefix, add ID to keys. Reflect also to internal objects notation with ___ names texts." state="designApproved">
               <Parameter name="HttpFormData"/>
               <Target name="CreatedObject"/>
             </TargetDefinition>
