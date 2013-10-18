@@ -13,7 +13,22 @@
           <InformationItem name="InformationInputName" logicalDataType="Text_Short"/>
           <InformationItem name="LocationURL" logicalDataType="Text_Short"/>
           <InformationItem name="Description" logicalDataType="Text_Long" />
+          <InformationItem name="AuthenticatedDeviceID" logicalDataType="Text_Long"/>
           <InformationItem name="IsValidatedAndActive" logicalDataType="TrueOrFalse_Boolean"/>
+        </InformationItems>
+      </InformationObject>
+
+      <InformationObject name="AuthenticatedAsActiveDeviceCollection" designDesc="Collection for active devices">
+        <CollectionFor contentInformationObjectName="AuthenticatedAsActiveDevice" collectionType="Master" />
+      </InformationObject>
+      
+      <InformationObject name="AuthenticatedAsActiveDevice" designDesc="Owner/Group authenticated as active device towards other Owner/Group">
+        <InformationItems>
+          <InformationItem name="AuthenticationDescription" logicalDataType="Text_Short"/>
+          <InformationItem name="SharedSecret" logicalDataType="Text_Short"/>
+          <InformationItem name="ActiveSymmetricAESKey" logicalDataType="Data_Binary"/>
+          <InformationItem name="IsValidatedAndActive" logicalDataType="TrueOrFalse_Boolean"/>
+          <InformationItem name="NegotiationURL" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
       
