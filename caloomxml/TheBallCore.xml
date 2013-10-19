@@ -469,6 +469,91 @@
         </Execution>
       </Operation>
 
+      <Operation name="CreateAuthenticatedAsActiveDevice">
+        <OperationSpec>
+          <Description>
+            Creates device membership FROM the group as authenticated against other group.
+          </Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter name="Owner" dataType="IContainerOwner" designDesc="Security context owner" state="implemented"/>
+          <Parameter name="AuthenticationDeviceDescription" dataType="string" designDesc="Description of the device" state="implemented"/>
+          <Parameter name="TargetBallHostName" dataType="string" designDesc="Target Ball instance host name. If not given, using the same host that the call was made from." state="implemented"/>
+          <Parameter name="TargetGroupID" dataType="string" designDesc="Target group ID to which the device membership is established" state="implemented"/>
+          <Parameter name="SharedSecret" dataType="string" designDesc="Shared secret with the back-end to establish connection" state="implemented"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition name="NegotiationURL" dataType="string" designDesc="Trust negotiation URL" state="implemented">
+              <Parameter name="TargetBallHostName"/>
+              <Parameter name="TargetGroupID"/>
+            </TargetDefinition>
+            <TargetDefinition dataType="AuthenticatedAsActiveDevice" name="AuthenticatedAsActiveDevice" designDesc="Created device membership client" state="implemented">
+              <Parameter name="Owner"/>
+              <Parameter name="AuthenticationDeviceDescription"/>
+              <Parameter name="SharedSecret"/>
+              <Target name="NegotiationURL"/>
+            </TargetDefinition>
+            <MethodExecute name="StoreObject" designDesc="Store created object" state="implemented">
+              <Target name="AuthenticatedAsActiveDevice"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+        <OperationReturnValues>
+          <ReturnValue name="CreatedAuthenticatedAsActiveDevice" dataType="AuthenticatedAsActiveDevice" designDesc="Created device client membership" state="implemented" />
+          <Target name="AuthenticatedAsActiveDevice"/>
+        </OperationReturnValues>
+      </Operation>
+      <Operation name="PerformNegotiationAndValidateAuthenticationAsActiveDevice">
+        <OperationSpec>
+          <Description>
+            Negotiate and validate authentication as active device.
+          </Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter dataType="IContainerOwner" name="Owner" designDesc="Security context owner" state="implemented"/>
+          <Parameter dataType="string" name="AuthenticatedAsActiveDeviceID" designDesc="ID of device membership" state="implemented"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="AuthenticatedAsActiveDevice" name="AuthenticatedAsActiveDevice" designDesc="Created device membership" state="implemented">
+              <Parameter name="Owner"/>
+              <Parameter name="AuthenticatedAsActiveDeviceID"/>
+            </TargetDefinition>
+            <MethodExecute name="NegotiateWithTarget" designDesc="Negotiate with target party. Set validation flag as true if succesfully negotiated." state="implemented">
+              <Target name="AuthenticatedAsActiveDevice"/>
+            </MethodExecute>
+            <MethodExecute name="StoreObject" designDesc="Store created object" state="implemented">
+              <Target name="AuthenticatedAsActiveDevice"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+      <Operation name="DeleteAuthenticatedAsActiveDevice">
+        <OperationSpec>
+          <Description>
+            Delete device membership record entirely.
+          </Description>
+        </OperationSpec>
+        <Parameters>
+          <Parameter dataType="IContainerOwner" name="Owner" designDesc="Security context owner" state="implemented"/>
+          <Parameter dataType="string" name="AuthenticatedAsActiveDeviceID" designDesc="ID of device membership" state="implemented"/>
+        </Parameters>
+        <Execution>
+          <SequentialExecution>
+            <TargetDefinition dataType="AuthenticatedAsActiveDevice" name="AuthenticatedAsActiveDevice" designDesc="Created device membership" state="implemented">
+              <Parameter name="Owner"/>
+              <Parameter name="AuthenticatedAsActiveDeviceID"/>
+            </TargetDefinition>
+            <MethodExecute name="DeleteAuthenticatedAsActiveDevice" designDesc="Delete device membership record" state="implemented">
+              <Target name="AuthenticatedAsActiveDevice"/>
+            </MethodExecute>
+          </SequentialExecution>
+        </Execution>
+      </Operation>
+
+
+
       <Operation name="CreateInformationInput">
         <OperationSpec>
           <Description>
