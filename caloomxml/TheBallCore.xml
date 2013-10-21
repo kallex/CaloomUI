@@ -27,6 +27,7 @@
           <InformationItem name="AuthenticationDescription" logicalDataType="Text_Short"/>
           <InformationItem name="SharedSecret" logicalDataType="Text_Short"/>
           <InformationItem name="ActiveSymmetricAESKey" logicalDataType="Data_Binary"/>
+          <InformationItem name="EstablishedTrustID" logicalDataType="Text_Short"/>
           <InformationItem name="IsValidatedAndActive" logicalDataType="TrueOrFalse_Boolean"/>
           <InformationItem name="NegotiationURL" logicalDataType="Text_Short"/>
         </InformationItems>
