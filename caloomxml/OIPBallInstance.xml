@@ -180,7 +180,7 @@
         <InformationItems>
           <InformationItem name="GroupID" logicalDataType="Text_Short"/>
           <InformationItem name="AccountID" logicalDataType="Text_Short" />
-          <InformationItem name="InformationInputID" logicalDataType="Text_Short"/>
+          <InformationItem name="InformationOutputID" logicalDataType="Text_Short"/>
         </InformationItems>
       </InformationObject>
       <InformationObject name="TBRegisterContainer" designDesc="Registration container (dynamically filled - not stored at any stage) - not postback support needed either">
