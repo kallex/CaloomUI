@@ -739,6 +739,7 @@
           <Parameter dataType="string" name="InputDescription" designDesc="Description of the information input" state="implemented"/>
           <Parameter dataType="string" name="LocationURL" designDesc="Information source location URL" state="implemented"/>
           <Parameter dataType="string" name="LocalContentName" designDesc="Local content name" state="implemented"/>
+          <Parameter dataType="string" name="AuthenticatedDeviceID" designDesc="Authenticated device ID for this connection (optional)" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
@@ -747,6 +748,7 @@
               <Parameter name="InputDescription"/>
               <Parameter name="LocationURL"/>
               <Parameter name="LocalContentName"/>
+              <Parameter name="AuthenticatedDeviceID"/>
             </TargetDefinition>
             <MethodExecute name="StoreObject" designDesc="Store created object" state="implemented">
               <Target name="CreatedInformationInput"/>
